@@ -1,0 +1,7 @@
+node_modules/
+theregimen-ios/ios/App/App/public/
+theregimen-ios/ios/App/build/
+*.p12
+*.p8
+*.key
+*.mobileprovision

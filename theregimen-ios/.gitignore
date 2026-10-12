@@ -1,0 +1,6 @@
+node_modules/
+ios/App/App/public/
+ios/App/build/
+ios/DerivedData/
+*.xcuserdatad/
+.DS_Store

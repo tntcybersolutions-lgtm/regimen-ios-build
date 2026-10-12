@@ -1,0 +1,150 @@
+# PUBLIC build repo (free Mac minutes): only the iPhone shell lives here. The app's code is the same
+# public web app at app.formedlabs.co; servers and keys stay in the private repo. Signing comes from
+# encrypted Actions secrets.
+# Archives The Regimen for the App Store and uploads it to TestFlight, on
+# GitHub's Mac. Run it by hand from the Actions tab once these secrets exist
+# (repo → Settings → Secrets and variables → Actions):
+#
+#   APPSTORE_KEY_ID       App Store Connect API key ID   (Users and Access → Integrations → App Store Connect API)
+#   APPSTORE_ISSUER_ID    the Issuer ID shown on that page
+#   APPSTORE_P8_BASE64    the downloaded AuthKey_XXXX.p8, base64-encoded
+#   APPLE_TEAM_ID         the 10-character Team ID (Membership page)
+#   IOS_DIST_P12_BASE64   an Apple Distribution certificate + private key as .p12, base64   (optional, see below)
+#   IOS_DIST_P12_PASSWORD its password                                                        (optional)
+#
+# Signing: with the API key, xcodebuild -allowProvisioningUpdates creates and
+# refreshes the provisioning profile itself. The DISTRIBUTION CERTIFICATE is the
+# one thing Apple may not hand a build server; if the P12 secrets are absent the
+# job lets Xcode try to create one through the key, and the log says exactly
+# what Apple answered if that is refused. Making the .p12 needs no Mac: openssl
+# on Windows makes the key and CSR, developer.apple.com turns the CSR into a
+# .cer, openssl packs both into a .p12 (steps in theregimen-ios/BUILD.md).
+name: iOS to TestFlight
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_number:
+        description: 'Build number (blank = the one in the Xcode project)'
+        required: false
+
+jobs:
+  archive:
+    runs-on: macos-26   # Xcode 26.6 by default: Apple accepts uploads built with the iOS 26 SDK only (refused 20 Sep on 18.5)
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: theregimen-ios
+    env:
+      KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
+      ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
+      TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+      P8_B64: ${{ secrets.APPSTORE_P8_BASE64 }}
+      P12_B64: ${{ secrets.IOS_DIST_P12_BASE64 }}
+      P12_PW: ${{ secrets.IOS_DIST_P12_PASSWORD }}
+      PROFILE_B64: ${{ secrets.IOS_PROFILE_BASE64 }}
+      PROFILE_NAME: The Regimen App Store
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: theregimen-ios/package-lock.json
+
+      - name: Refuse to run without the App Store Connect key
+        run: |
+          for v in KEY_ID ISSUER_ID TEAM_ID P8_B64; do
+            if [ -z "${!v}" ]; then echo "::error::the secret behind $v is not set - see the header of this workflow"; exit 1; fi
+          done
+
+      - name: Install the API key
+        run: |
+          mkdir -p ~/private_keys
+          echo "$P8_B64" | base64 --decode > ~/private_keys/AuthKey_${KEY_ID}.p8
+          chmod 600 ~/private_keys/AuthKey_${KEY_ID}.p8
+
+      - name: Install the distribution certificate, if one was given
+        run: |
+          if [ -z "$P12_B64" ]; then echo "no .p12 given - Xcode will try to mint a certificate through the API key"; exit 0; fi
+          echo "$P12_B64" | base64 --decode > dist.p12
+          security create-keychain -p ci build.keychain
+          security default-keychain -s build.keychain
+          security unlock-keychain -p ci build.keychain
+          security set-keychain-settings -lut 3600 build.keychain
+          security import dist.p12 -k build.keychain -P "$P12_PW" -T /usr/bin/codesign -T /usr/bin/security
+          security set-key-partition-list -S apple-tool:,apple: -s -k ci build.keychain
+          security find-identity -v -p codesigning build.keychain
+          rm dist.p12
+          # the App Store profile (20 Sep): manual signing, so the archive never asks for a development profile or a device
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+          echo "$PROFILE_B64" | base64 --decode > build.mobileprovision
+          UUID=$(security cms -D -i build.mobileprovision | plutil -extract UUID raw -)
+          cp build.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/$UUID.mobileprovision
+          echo "profile $UUID installed"
+
+      - run: npm ci
+      - run: node test-native.mjs
+      - run: node build.mjs && npx cap sync ios   # www (story art included) is already built; the story sources are not in this repo
+
+      - name: Build number
+        if: ${{ github.event.inputs.build_number != '' }}
+        run: |
+          sed -i '' "s/CURRENT_PROJECT_VERSION = [0-9]*;/CURRENT_PROJECT_VERSION = ${{ github.event.inputs.build_number }};/g" ios/App/App.xcodeproj/project.pbxproj
+          grep -m1 CURRENT_PROJECT_VERSION ios/App/App.xcodeproj/project.pbxproj
+
+      - name: Archive
+        # manual signing with the App Store profile (20 Sep): automatic signing archives with a development profile, which wants a registered device; the team has none
+        run: |
+          set -o pipefail
+          mkdir -p build
+          xcodebuild archive \
+            -project ios/App/App.xcodeproj \
+            -scheme App \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath build/App.xcarchive \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath ~/private_keys/AuthKey_${KEY_ID}.p8 \
+            -authenticationKeyID "${KEY_ID}" \
+            -authenticationKeyIssuerID "${ISSUER_ID}" \
+            DEVELOPMENT_TEAM="${TEAM_ID}" CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="Apple Distribution" PROVISIONING_PROFILE_SPECIFIER="${PROFILE_NAME}" \
+            | tee build/archive.log | grep -E 'error:|\*\* ARCHIVE' || true
+          grep -q '\*\* ARCHIVE SUCCEEDED \*\*' build/archive.log
+
+      - name: Export and upload to TestFlight
+        run: |
+          cat > build/ExportOptions.plist <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>${TEAM_ID}</string>
+            <key>signingStyle</key><string>manual</string>
+            <key>signingCertificate</key><string>Apple Distribution</string>
+            <key>provisioningProfiles</key><dict><key>ai.saltiq.theregimen</key><string>${PROFILE_NAME}</string></dict>
+            <key>uploadSymbols</key><true/>
+            <key>manageAppVersionAndBuildNumber</key><false/>
+          </dict></plist>
+          PLIST
+          set -o pipefail
+          xcodebuild -exportArchive \
+            -archivePath build/App.xcarchive \
+            -exportOptionsPlist build/ExportOptions.plist \
+            -exportPath build/export \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath ~/private_keys/AuthKey_${KEY_ID}.p8 \
+            -authenticationKeyID "${KEY_ID}" \
+            -authenticationKeyIssuerID "${ISSUER_ID}" \
+            | tee build/export.log | grep -E 'error:|Upload|EXPORT' || true
+          grep -q '\*\* EXPORT SUCCEEDED \*\*' build/export.log
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: testflight-logs-${{ github.run_number }}
+          path: |
+            theregimen-ios/build/archive.log
+            theregimen-ios/build/export.log
+          if-no-files-found: ignore

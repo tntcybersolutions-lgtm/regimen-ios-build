@@ -1,0 +1,29 @@
+{
+  "name": "theregimen-ios",
+  "version": "71.0.0",
+  "private": true,
+  "description": "The Regimen â€” iOS shell (Capacitor) around app/index.html",
+  "scripts": {
+    "build": "node build.mjs && node build-story.mjs",
+    "sync": "node build.mjs && node build-story.mjs && npx cap sync ios",
+    "assets": "npx capacitor-assets generate --ios --iconBackgroundColor #050a12 --iconBackgroundColorDark #050a12 --splashBackgroundColor #050a12 --splashBackgroundColorDark #050a12",
+    "open": "npx cap open ios"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.2",
+    "sharp": "^0.35.4",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/share": "^8.0.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.3",
+    "@capgo/capacitor-health": "^8.11.3",
+    "cordova-plugin-purchase": "^13.18.0"
+  }
+}

@@ -1,0 +1,1003 @@
+{
+ "title": "Welcome to formed labs",
+ "version": 4,
+ "note": "Two lanes run through this and they never cross. TRAINING is what the coaches do. RESEARCH is what the lab does. A coach never connects a training goal to a compound; the only door between the lanes is a link to the batch registry. Sheets art (18 Sep 2026): three Nova frames for the Build my week, Fix today and Cook sheets, outside the story order. v108 (19 Sep 2026): the four roster cards are the one neon ring (assets/story/rings/, cut by theregimen-ios/cut-rings.mjs); the old full-frame cards are -hero frames. `screens` maps a screen to the one frame it carries in its One Big Thing, each frame on one screen only, never on a Peptides screen, never beside a compound. `sheets.titan-kane.session` is the Log-a-session sheet. v120: the frames placed by skill and marketing grab (design/FRAMES-PLAN.md); no cartoon frame on any surface.",
+ "coaches": {
+  "dakota-jane": {
+   "accent": "#0B63D6"
+  },
+  "shaniqua": {
+   "accent": "#F2A93B"
+  },
+  "titan-kane": {
+   "accent": "#20293A"
+  },
+  "nova-reyes": {
+   "accent": "#18A46A"
+  }
+ },
+ "badges": {
+  "dakota-jane": [
+   "badges/dakota-jane-badge-256.webp"
+  ],
+  "shaniqua": [
+   "badges/shaniqua-badge-256.webp"
+  ],
+  "titan-kane": [
+   "badges/titan-kane-badge-256.webp"
+  ],
+  "nova-reyes": [
+   "badges/nova-reyes-badge-256.webp"
+  ]
+ },
+ "steps": [
+  {
+   "step": 1,
+   "act": "arrive",
+   "act_label": "1 · Arrive",
+   "screen": "splash",
+   "image": "scenes/welcome-your-team.webp",
+   "width": 1671,
+   "height": 941,
+   "coach": "team",
+   "accent": null,
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "plate": "WELCOME TO FORMED LABS",
+   "caption": "Welcome in. Four coaches and one plan, built around you.",
+   "thumb": "data:image/webp;base64,UklGRqwCAABXRUJQVlA4IKACAADwCwCdASowABsAPq1EmEmmI6IhMA1QwBWJbACdMoSBfIDoyipwutsfz0+mzbzfZgjUrP7mB9TpsVj/iA0gTNu8cG3uiw1zRftDQvkQfsLo/paa3Zr7NPODuK5zn/VQmNF/qOzB/WwCoAD+hE93GrI7BjTSxCX9GKZjaDG/o++qLECO+c9DFK9ECibtjl69JfmXHvQQgfAnu87t9y8k5CQ8J1Ntd+/eidAacbBOhrS7CqYEoF+jbj+Y3b+B8f6S4y/89aGukMVTf7EF3RdHsxM5+7OpmdSti1TBDPCP1XyvLmsy9D9GFJq5nV6idFFYoZ9nfX9SQw6ZwzxiCB3Lctd7fEjK5mjzGF1e+Wbp3Slio9w+AQ5fyEqmjNH49iezCzKRlbui1bu3VkxGh/cnAS1V+rxa4LMV9spjjFSLyHXpfOwk0x4H1PyW4vpzNBVFZDiye7CM1EZGFdXflfu4Q4VQa6uL3Z0QtVnTWoxtbW4Rr1sF3e0mGoVFX3HmDm71yCHGiwpurvaGLuKB+oiqHYzbTNfQV+2ZMd4SOjzdcqe9DT0jImNUqm09t/6moTp+YNu2b5JR//iw76g8J7iWGPxWf0uNgxfl7+J4OlF+aBCniyMAmX9lGQvaMdjn0DZVEg5xqpXAouPirE1YieGEFZxJkcQ84j80pyUL5fErKMUrqs9dam3piFQy2ZObeX8bgPK369KOi355E9Ef/M153mijPaWZiLBJcMkMuHcAMMHfNHuDJKPrZy66SuBZCAlr56Hi5uXjdN00eXOgNszj0l8xLIQlLI72quXWikh8lcXq+5+jkoeh7RsPnCo80Ooq1wVqsQioQ6tVoEIJmrJLHLnp7LzC4JJUex3vTOkHMC/fe4/3O8BJW+42kVPGDsQiAAA="
+  },
+  {
+   "step": 2,
+   "act": "arrive",
+   "act_label": "1 · Arrive",
+   "screen": "orientation",
+   "image": "scenes/together-learn.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "team",
+   "accent": null,
+   "focus": {
+    "x": 0.48,
+    "y": 0.36
+   },
+   "plate": "WELCOME · ORIENTATION",
+   "caption": "Orientation. Sit down; this is how the place works.",
+   "thumb": "data:image/webp;base64,UklGRpgCAABXRUJQVlA4IIwCAACwCwCdASowABsAPrFGnEmnI6KhMAqo4BYJbACdMspf8YEGy/2+6zuy3ecv99aAjSfR+RMY92BBl8i9lceOdCvnq/mRUDftCRVRp4uYx/bAJZsXorsW6qV9gBPeDV8khpSh27qkmgAAzjsp0AavxnYIIHXijt8rB7qPCaiO1zjJPxK4PAqjeTnTDkoKQOOiFqGMbIjF/rVfQNVUPuQaX9TLZz5IZH88gGuK3raFNZjYU1m9+0MbmmT8WavM8hHHr6Z4/eZpBIugHybJHM4W1VGnjeCw2BsfF0jBbhu986MZpkbf1bp/N+wB318RvJRIud+mp9fRzr7ELqb4TRbcMwkUp6viyIuoKgkRwx38gydK30IodDstt3RJmzuxvlcga7Yfe22DrdXGIGSXzTTyeLYeQ2Bfs5cNEXxeyOwLKbnljdKHluKlbSY+wCLb8jjtBGeuVrwMeUxQzRridq++B77N2UExjIp3DjnxS38dqS8uKlwb+5C7RY51NvlYUIng8h1feJjl759eRnLyREyo+gyPyGscLJFT/rK0ROxt6eaQBdhz2uTUfstPHtx/r5l9G86f2+mG7qOU+Ubd9xpPz3ck7etUvtem6DZWg+cP/hVxjUdA+RIP9/LkxOW91W2ZbyjwsvjokKlwIgzYwocEx/aGrKm/2aFN6mfkYI/rkwJMayHvPwW2MPOvOU6DeaqBWUWMlhqnHgky7m93e0puYHenH0hqfGDAm3i8JiK6YlJIoqaOrVeYwZq8q+y+KogOTEDo2Pf6xa34/3/Bokn7zpbIncAvN58GzHRFvyU9oQDHIHVS36JUxn+KaKBd/2/HaSs3h7dMivu/gp5pB37Ygd8Bc3e9BBzdc/eAAAAA"
+  },
+  {
+   "step": 3,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "roster-dakota",
+   "image": "scenes/dakota-jane-card.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.5,
+    "y": 0.38
+   },
+   "plate": "DAKOTA JANE / FORM · CONTROL · CONSISTENCY",
+   "caption": "Dakota Jane. Form, control, consistency.",
+   "thumb": "data:image/webp;base64,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"
+  },
+  {
+   "step": 4,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "coach-dakota",
+   "image": "scenes/dakota-jane-page.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.45,
+    "y": 0.48
+   },
+   "plate": "DAKOTA JANE / FORM · CONTROL · CONSISTENCY",
+   "caption": "Her floor. The first rep is coached, not guessed.",
+   "thumb": "data:image/webp;base64,UklGRsQCAABXRUJQVlA4ILgCAADQDACdASowABsAPrVGnEmnI6KhMAgA4BaJaACdMsDxMRnngOeA0wD+ASoHST4m/t51iGvkCOBdOGo12yvFTPH9W+wP0qhgdk/KflAbqgOz5Dc5qF/1Zy3ajmY2psaR2zTH+ViStufM2ETUCUqammAA/ngPlhMsvnlrnHS9lncoPKn6y3tXFbHFCA/eFC3h23BeousP0B19Wae7ZjVkLYxOBdAZwxcc/uq926b+N3s3BMC3lFP7d1mdio9ujdv6Y1wBASb6EfcTrV09+riSE6+V7vYjvbyR7osE1MSHie4u6u6UPybpHEgypqYxRnmFtmysbkSNpBe9VI9T8E7a56rtFRI3rJ62o5P1ZC1V87uS3aPJVCaSB2IAzeLccc0KrSK7lblRt86Oo41nlwy8d23RNy3xg4HRx1bqR6IaSEfj/mw9t6roMEw7uTWh1MLS61H1KLix8J61XLkTT5ho1fTYYAZEXhhOmdo403GMyeaVpFUsG5YISb210uqbF0pLBbzLr/zbtgdUeznaZAS+dK7imT9Js2W6Ywor8sHO/xKUK1MJ0Af+Np0gH7XvsS10PVl4H2VxxP6QPhvYBNYAL8zPkVDR5JEhjOm2REpchCqIOweqsjKz2hNYIb0Ky323KXhBPsrHi714nReuScP/V2n/363YWI8lNnyM4EFph7x60uYU5Plh11F9SU7k3lbXBtP/VW1w/BaCJRd9DdA6+rlu2Jiy4U65QymlToV6PhRrtzG2N7Ug6faawPszty8oi0+MP7Yz4xPh0OmDT0R+5T3mw/pFeD61+mt2TEDbrDumUjy9vbmfR+76YVJaKBrU5TxBe14TJczPGzUw0NToUqhVp9xNL8LiDjQFqAfjHL7nbJj7eaBcv571ScDxUlAfF/MBuG8ZjfhHK/H58b7+h2MEsOzlb0pAAAA="
+  },
+  {
+   "step": 5,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "roster-shaniqua",
+   "image": "scenes/shaniqua-card.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "shaniqua",
+   "accent": "#F2A93B",
+   "focus": {
+    "x": 0.5,
+    "y": 0.4
+   },
+   "caption": "Shaniqua. Performance coach, and she runs the floor."
+  },
+  {
+   "step": 6,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "coach-shaniqua",
+   "image": "scenes/crew-four-portrait.webp",
+   "width": 1024,
+   "height": 1536,
+   "coach": "shaniqua",
+   "accent": "#F2A93B",
+   "plate": "SHE RUNS THE LAB / SHANIQUA · PERFORMANCE COACH",
+   "caption": "She runs the lab. Schedule, sessions, the room."
+  },
+  {
+   "step": 7,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "roster-titan",
+   "image": "scenes/titan-kane-card.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.47,
+    "y": 0.32
+   },
+   "plate": "TITAN KANE / STRENGTH THAT LASTS.",
+   "caption": "Titan Kane. The strength architect.",
+   "thumb": "data:image/webp;base64,UklGRnIGAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSPYBAAABkGzbtmk78+wVp2rbTv7CtlOy7aKtD7Fts5pXtN+L91prhhf7CyJiApBzEADdZh44/6H88+eKjxcPzukBQAIKnEmGdstvfGHOX++s7oBMsoKEgC4HKum0qOZ0N41GZ/XR7gihAIJma6voGp05u6qzdksLSF7N0P8uLZozf1fj48GQPJphXBWjscAWWTcVkpNgWWRkEdVtBSQHwTKasahmXAn5j2BCNGORzWwG5B8BgytoLLqxbgTCX5BbVCaofNAKGSBYT2WSkTshyNCjjJ6Gs7ovguAAIxONPAFBx1J6Ks7KHsAKKpNVrgeupXUfPRrp6Tg/D55FY8LK+fsZ0zp5nprWjfe0tN6U01MyfvqclrMxuabytIwlH2hpvblATUl58wBjWqfm0NJa2KuJno7zy1DcpKajfASsTmsT0LmcnoqzqhcERxhTUZ6FZOhVQU/DWTsAAYKtjGlE7oMAGVrcp6agfNoWGYCA4dW04hnrxyLgb8F0MyuWG+dD8G/BCpoVx5TrIfi/YKW6FkON6yHIVTCtjtEKZZGN8yHIvRmGPaZFL4Sp8eUoCPIVtNpeR1f13FzVWb+vDQT5h4CeJ2roVFU1d1NVdWfdub4IAYXMJEPXdQ8/M+cvTzZ1RyYZChwECAPnn7r5pqSxqeTt7TMLBwsgATkDVlA4IFYEAAAwEACdASowADAAAoBCJbACdMoR4v6X5glLfuOsIkC7KMZ/qA2wHmA6EHoAfzb/edYT6AHlv+xj+4f7Ke1vWEeZEI6oocbOL1Scznxm/VvAy9IchOl59EVEmaxlXt/JYRLTfkWO83i4j+rtOlNNfRWRxdQUyzoRShw+fDUS6bj0n//ITu/B1eGfrAAA0Cv0wwH9G7QJirZ5s/wV8qdqPTKZY9TdbYHOSp966LNWy6lnNYz1+8tMbOQveGr2B2uReYNIksrpD0ClHLCHrqOl9yvC9+5absz9GzYlOsf4YkkusSPuDf+DsCTYXRUo2aKChuSB5k3/Gs3NPU3ugxIPHUGdJN0iOtdHBSEfOvHClZ+0mVR7FLe8Z1f5dLPUfkHjF0CAnxAZyk+iVxq+Ws+1613xGpCseE/bySjQ1pSOPdyCss0oQGAuvLyNdnD80/4OjZaLdaZErfv7832jSWdtDd0mStNilOl2iWkv6k8gQmn1MM/kv0+ux5a0YwPHDXaeocGsiPwMinC9S+M9aKFg9BclVk3h7Kqy6O5M7FaESlnD4e9YLA366SO5DUmV+h4pc5lcGmjtq3deWR8z7FJXshs+oXPJceMZiUk0jSjXs3dqB+YgzWVzl7ORyEv+XjWlc9rlClHNY2oN1X/i9bvatN3PjdTRYRum3edO/KyP1kROubx5k5tbehuNQE5bdhRPe2pVxTBmow4G2LNx79yp28dLmkRhndcfMLB6C28L6SCjn0J2i57s5nrf8ZGvcfsY87f/9rRwy/bgX/OQQUbplbyF42/7jJYxZvfUPI/IBIAysJeRBTkYwAE3pTGbk7ndYnC2SAiYzr9StuW3b0KnZC8OQIuh29vg7HhqigRboPlG14qDCZntOeVqANo4uIQZymZ8rhEmE5BEOFpW1YOQfyeaU5s9yTOLl4T45NHfm5LEv9eIHikIaePH1zrjj6kGfPHnn87PZrHwI69+vI6kg3qc8i0nckplTkoOFjVHduc65x8TVRuflxOVqLuPyYhKVaLCQIwitwXfiWbykUvjVc0lWAKAyxCc590sVgR0VNYSL4pPhOyZ9YW26txIuttOVzHBnaNz8l/yQNumkxPXTEe8FRBBC85mErRuuDTcGDav2UPVg+hylKNjSD1xE8M4ha+7Y3+zGlPRheVj0clYzcJ8q/E/9TMqJs6IuQPlwav0ASEL3iI9zegmQuy1MOC1b3S1jEHcKMr+tlXtbZCM18Sf2hZBjPaMLVjdzKksKc6aJ01sLh8x1DUOoxQrQ9nNsvp95wPYWWGbWF9xe6oXv5me95Lhcufqv993HQbvnCe9hPhq0y7s0JTotJeyzE4iKnxTA5/wibHQ7CUqB7fra44L79WEP5gsc3U/i4mZUKCs0a4yf6a1t7qzGLQ39zVSxwzDmwT/ifIsD7kz5C65NWgOmTo39hb5cbrrUJSrxH2s6+a97hjxAydcxZC+QXH3RwfaGEiNAAA="
+  },
+  {
+   "step": 8,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "coach-titan",
+   "image": "scenes/titan-kane-page.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.47,
+    "y": 0.47
+   },
+   "plate": "TITAN KANE / STRENGTH THAT LASTS.",
+   "caption": "Strength that lasts. Technique before load.",
+   "thumb": "data:image/webp;base64,UklGRowCAABXRUJQVlA4IIACAADQDACdASowABsAPqlCnEmmI6KhNVgMAMAVCWwAnTKDIxnS7bO7LZQDpP8R3q+PRN04X5QTmG9BagXdnn670wydn31Bek8cqX87vlGr+yQxUT9nfW/NuXe7dsYtBbCHnvw9+7Wy1EKQ5fpkL9Jv9YAA/CZVcX7Ak7n80uWngN3gXkgtF703pYp+hP3XsL8E5jMv87j9IH7Ebe4ExSFX7vqmF73FhMV+OAMRYg0DP2dlPRfzOu6ddrtNyM4ye0jpr9uGZhLE8M5W4fZEWYRowp/cCxHxOR+Y3Qx/hlk7fi/ADkyyzqs6F9ilpnMc0g5AS5zrAYVT8xVXkJvgB1HU8ApNuWNkaQ5Qw4kDrwYe8fbJIf1wtm8U3slpxWjUrtlfXgKI0ACHzBbqK3rd9JJQ/D0AyMaE33z/dS6mWfuun6CDptugp7AcTQPVaPwfoS5Pibak1WtwH284HY7GPnbB/9HOpqTBkFcqxe6b497fuTL48immK8sTM//D4TkOmY9YP2ChE/RiFPVdY6N+KkrFeZMO6CV2l/12arqUlD1AmAYkUFTmLxXECOw36tscD6H4YgWxzDA7s8jEBVQped8x+uqWlwfMk9MsMbwXUkznJQvuAMsXm/6gHBZEkCL4DoUhHVSF+prcxpWs9l4bnwuQwwy3BY000ELNxkW6vQPNbAAhtnb0Mzh6yoIczl3baySOg3xVY/XXJ1+8opsdrItnueSGLL1BedQ/3/CJzre/3PpyZiZzwXOQPAOazqm7JuOKM7aq2us+hK4iCaaWH+nte2CQI30Qsex9QEXzHotmbvKCYLlhF8p6GDzHovNkEsUxo1BG6ttWx+7LN8EvZjWg8AAA"
+  },
+  {
+   "step": 9,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "roster-nova",
+   "image": "scenes/nova-reyes-card.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.48,
+    "y": 0.38
+   },
+   "plate": "NOVA REYES / NUTRITION · HYDRATION · RECOVERY",
+   "caption": "Nova Reyes. Performance nutrition, numbers, not opinions.",
+   "thumb": "data:image/webp;base64,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"
+  },
+  {
+   "step": 10,
+   "act": "coaches",
+   "act_label": "2 · Your coaches",
+   "screen": "coach-nova",
+   "image": "scenes/nova-reyes-page.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.5,
+    "y": 0.42
+   },
+   "plate": "NOVA REYES / FUEL YOUR REAL LIFE.",
+   "caption": "Fuel your real life. Build the plate, then the week.",
+   "thumb": "data:image/webp;base64,UklGRqQCAABXRUJQVlA4IJgCAACQCwCdASowABsAPqlCmkmmI6KhMA1QwBUJbACdMxL9GRw1tA1tqbtQ3mWzBGjGCfAts5lA8AOKDvtTK+dv+iG9IQqfOKYFutSEcHeLDwp/idJkb4V7kjcsB/YSnFEa1Zfc7DpcAAD+qxosG9RT6eVjA+xHmDatadR/r4blngrYv29Au9VoWeKGsWZuaLjQBiJM6Pq2XAgjgU5F75l5AuqoA9ai2tqO4R0JfLtRDScwhoHvScLnM5rWipKbBeyB9bbk+D/zB8lD08n7gx7zHP+lDmTX/v0qyuoeFtlOWio04BdbRldLq/TjjtF5AJ9N6pQc5J69m8nrqT7d8e7XUxWeitJaXDfxWZX9lKAXSq2KmWfUdpNdLLJ+yhvfGOA585xHVAEDidIXO5Wf22/ZZw8jmWjymzdpULJg97J5QyxgbMCSMjDaXpjXWcVLTfQPn1JOfVGZ0YvKBjZ8zuSOZNQtWNggYpz42IEQsq7ShTlImKxkcAX/t26Vlgnw7ahOOVxE5StIJCcbaNaxIr46+z3AU9yADGvyQ2E+kCu1DQLfoIsfcgFtgu+kZ6dTVRsf3JbmKMtQrDiAd6IatAwvEf8XoI6U4mBL+EwAp24R7gBS54j/TcfXoPxqVm2xA7gtE8DnFRVgrXSd/DqoN+2BskWgItwFfRg8PYuCHTi425zi/N5nubS+Yp/2V7ViOLXeccOQw6KtdIt9irLp3KPMKsqjhcvLCZ7xI1Lin3xM4PErKZue8YmKbsurq+5wBlkkgAHVsKHWTZTPp7P0N8Y0Z+Ax4rs71dLVYM/02NjUMb66Dw1qql1C5IPRksdcvkpW6jzp/s3qEezgN3i3wx1+WsURWbii1aKcC49mxUmXV8Tz4HmnM6kAgAAA"
+  },
+  {
+   "step": 11,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "session-first",
+   "image": "scenes/first-session.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "plate": "DAKOTA JANE / START WHERE YOU ARE.",
+   "caption": "Start where you are. Small steps, big changes.",
+   "thumb": "data:image/webp;base64,UklGRogCAABXRUJQVlA4IHwCAADwCwCdASowABsAPrFGmkmnI6IhMAqo4BYJagCnR4UGd0O5KGw21e4w0wCMBNLBSt4FWA5AjgXWVqBds9b0hVerTnweqvYJGSsNxBb6hh4Cga1jZBKK86f+yOPcaTCZ0eZecbxLO7oyEAD+3bDk9N3lVR6JeHK7OR7ZxSmr7Yz26fLihXAn6OUiRN33bYwaQqtt6vpb26iT7F0dGzev2jgb+pihiHWbtP0HrIL02/4LRcFGkIt0fwFnpLuRsEcSenw1AwDboO+SMiXOIuNO/j/PRcGmBk30zJCjhcvZiT891Ng4RB5mhKx4bo83wLU2YKWF6dkVCaipDD2WiDgpM60MzBVihJ8L8Bk2NSYYdZbG3Ohg4jWiMzEZ1PyZWeSevGcIXvyeCqg7ohsm33UMvhcdU0Ob1MnjHfaHiIGiKe4pfDU7S51I7Ev9lgwquD3v5D650WsX1gkjZRMaSXrt4mN3fr6JG5T7b6/CTRO7Uu6/a3W2cd9bw5/bONvzu27LgFhzv1NLW981E1Blp7YWdr5PRMEBcdZBCKv/QUnS9MdOmDaQcz2reFzMTl8VwLw28Mf9yld+foUekMTLd2EjzPyvvXn/Nx4+xXlvPlrghGCGVPrGtPn17bgRSaAql8H68mhiIX8SAUtxwQZHZh2LZQ//CSm3G8jqyZi5rrjLas8DomKKeyPv+4TMMpbQJUDpVRAGXnXYgyixRXRs+k/OJMBp9fnL4n6PVnwZJStDTTtOcZlVd+k6vZCE1/m5c6beQnNltReJ90FGNRCVx9H7fn8tQPivEbf6J26EZ0C4u2j8WHAhcYVdNTUA+eoXEK6joKQCsb4elOXWalNwAAA="
+  },
+  {
+   "step": 12,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "form-squat",
+   "image": "scenes/dakota-squat-2.webp",
+   "width": 1500,
+   "height": 1500,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.52,
+    "y": 0.55
+   },
+   "plate": "DAKOTA JANE / FORM · CONTROL · CONSISTENCY",
+   "caption": "Under the bar. Form is the lift.",
+   "thumb": "data:image/webp;base64,UklGRsQDAABXRUJQVlA4ILgDAACQDwCdASowADAAPpk6lEmlo6IhOMwAsBMJbACsMrjD14m5ZGz2zXPZ6ZXvJv+YtATb7iC5eYCGCu0D6lBgdmGYiqY+VdDloMRbn8J0GdONkc1sqwz5FC0A/og8oWMymFxddZ83m/p54dhy14KuxO2qx/Or4fiSkE2gvzldT7EjlZ+Oaq4AAP7p9SRssOjG/d69JrpJggCSByFXWW2i5flGBHE8YZFvUKnUW5ux3bYtXqSVb9hHo8gCrcb4R49uNZQEr5ZZvTOc7M6pjssP1WkV9lkwknEi9XJ8iVzmpXqWaoMlckrpvHxjybgkv2whtJlinzBPqlUiXzm2PeWttd8yjSj4XT1/LW93u+JnxwokHZ11km/NA//OGRMrRZGDvXIwIzMGsUalas+htaQRLvbRXSLswDEIOCJjKVIu6z3iFzZ/qqiNRu1TpyPm0IQp1mX+Q/VTu0lNHl7Bt0d26T1x95GjTnsYbbFz4mMyXsJzGiv724GnI1Yj5B3p+1TsIS/RVzLnJl8bB84PlXZM8W5P3AgjTeHty/6cFZz+xU6Bv5UNS7n8Hc24RGdzMy1EV86sNjOOjnVirjwbWsL1R8M/Dy2tuTekKPJZq17PRxpGRnIoqx5HFvb4qddh1pH82ChHOmXRUh9PPodo6KFNQ2CoBBmSsu5/O2HljT2UNAhCLD/lWE4/78DuY9cvSbT8Pt3KAxIeRSxUpw7lkS8eYvne8oj4xtORfJiuc7MjiIb4bGNdXp8I7LQbGHLEfbvacg9pcJVT+TK4lghwGRzUF9BNjnOQ+iKPF6CcU5iHnlLC5hSLyQ5m062gGP5+yyRo5sjxUaXocBtIVlcIHt5Sfhok+2Rhm3B/eKoJymP9HOcj8aH4yKk6FsarQ7wOJf+BiR/spbIIwUrqMiZH7/1x5WYUTMfM7fZO3ipyAmtOH7T8H4+RFXgIeTGTSnMo/Kv3Ax8ABql/TeN71p8hdR5Q0K77d+ApzRoX/rhv6njieYyO1GrGRTuVadzYZpBV0KL+H8t0wtWD/oC2zd1groW8JYrpOoHNxnhbMOdM/1nVHMG+oHeZeQC5AYlnOERZJKntjX6ZEkDylH3axVNxQBjmFeS1ZhBf/f9C7d/Ow75inY26l9ij/FEBV7GGh50U34PWYQXV1tivqzySZDnuCDTGMK5YlLSTkgT9hB5dvDjma2SGp592oOYiYZjQ1eaSAN/g4Kf8cZRqFe7IwUuQlFGZPyiWnzmB0DVFFs1O07fvC17788TEr/froAAA"
+  },
+  {
+   "step": 13,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "form-row",
+   "image": "scenes/train-row.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   },
+   "plate": "DAKOTA JANE / FORM · CONTROL · CONSISTENCY",
+   "caption": "Control on the way down counts double.",
+   "thumb": "data:image/webp;base64,UklGRioEAABXRUJQVlA4IB4EAADwEACdASowADAAAoBCJbACpJzkHKSzEK/HgJ7YDnqPQfvEHoAdKp/h7QE3K4guRP3dGDa49QLs7w270ZSH3zzG+t3P7313kHsAfnr0V872oX0qjNS4yYTyUBFFCHPUYY95loNsNH/wCOmh1IC4cgxV0hu6bWPTQUrZQ3yl1kF1M2KzOCMpMlVKUH49MPLGewYA/uo+OQVXecm0/8JVuDb2xO2qf/pDg2uFcmZXJuEhBytSJgdx9FNzaZdXLA1sMzGlaoAwmmc+loy8QhZYHOiDzxhGbAaD6FZ9lK+iwaaY1cn3DR3hz1OzZFIwV2aKdQzdaVDIJY6a9L7y5LsGs8jaKwk3aWEBvrTOpsBEevDXUKwToD38awJcAlmVpto237K5vcRtwqsaeu1UfzeBjVyDm/l6j9tzP+l7SrZspXnuBuImp+hFaEXHAGseWmlkF2bW70081irgC2483lOXJBUnnCG6UuUQgChOqE9dJ+wq/PNcNpDcYCpSuQierBfqrxfNHYkR8OPFZAfz7zNf/oDL7Zr7KFIlD0oWIfpitr80SQo8v5NafSxYjWIc5gihHlPX+iXOxfenKj6Cei329u6QadoDpsnTJZvGOpie9kKEPHGBWa97Yul123PaMkOa5OtQg1QHXviSHFyI1Ci93Via17aj1VM717b4ML97uK+nHOwumffq/navnmlwueKM0S3Ubv9wcPuIlFZkVVUrhLN9gGxiI6kOwZ+FG4T+m5ZrABm+jbTDN4tLHxer4z5U3tXamzx9yeCpQwJWt2Ss7PTV96Rr0bXF5cpJdr8z0c7LJuagCY6KHqm1yblpItIaSBB3jOObY+V6OxAbL0aqPcQkBlpG/pNdHbzUNl5PIdb71kOvyqhxIjaOH/i8ZshbpqB9kVXn2v+gWH+uKxs29RjdP/f0hzfpqXqH0et6s1knsUVHNG1O7erHHfCENCEaEqCa01g3mytPzESmoDAgFylb7FDUspq17/Vavoskd77R/UvL2OAi97ZIEfqkRi3b58Y7LMeJevczgfYEbQ8BAlvr93vWlGNKXCTxINJVd3gpCTkKfqlZq8xdws38tfZ/yrhsuG4m4ZChGyazsoPnJ3Xhi+J0gvOb2NiL6fiUVQdiUbdzHzLJ9lQa1pQhiLOElILs6mmlcFEHQHxst+pKSWfCGEv2utGcUJUBWI//k3pAzcYero0HRhSFeUn0opRKPiPXLxiwaNWjQsQwA/2iWKrAVN3dqy5q5JEFK/af8S1bj4a1mL7S1/Ob3ETcNafCGCXRlu+wKlJjRvv0R5OSPxLfQ9UV7bY9WU1qIqamlmU2+QE2M9TMSo/Ew5irMePSVtzmjqHiB2Gn7Gr8VZsXGh15jmXdD2YyN2OxSOvVdbpuTcvgacNPxIjyWS1u6KAA"
+  },
+  {
+   "step": 14,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "cable-row",
+   "image": "scenes/titan-row.webp",
+   "width": 1536,
+   "height": 1024,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "plate": "TITAN KANE / BETTER PEOPLE · STRONGER TOGETHER",
+   "caption": "Elbows back, chest up. Rowed, not yanked.",
+   "thumb": "data:image/webp;base64,UklGRtwCAABXRUJQVlA4INACAADwCwCdASowACAAPpE0k0mloqGhOqgAsBIJbACdMwAFJoM4EGz2zfO66blvNVmCbg8QXKH67jA+O0B1UENJ8hP1QO8ApC4l8+Xu/cFHa9/wnLwStLLex9yxhQc9vE8RE5qk2i6QL9iQAAD+6UPQYIJ0lenCbXB7fl3W3sxz4qY/UCQgCJ9Z4/LXgxJK1R9Q0uocr1PE86YwpTJWcTKDXkczJP/TqoWwQhcbAHxzfy36JdIyT6o38Xl1hg3idHLEGBNtLZmTy2ozaMh6Ky83W9M0p5xThkYD59Yud/aHwxqMWRDaYKa6/cZQPQoPKoWclQNigMFSJRePVroCFfPKcHKelP/r9kHsthJ9gN1NV5T6Oy7ScCBvj+NjiANZvqD+OjYqgAMSBAnnHjG2ZQk33KoBqhpXTlXFUI17kxzqVt+BhxgWgvpWqhA8VVutNKzRTr7sK1GV1P4dqmk6JRdtl47e3U2LScSah3X/qjcWzan+yl/ZuCz18VneFiY762MnLPmtep5KgIGaDsyWT+ZAqztr753U0iDuI8ft/9i+01eeMoOYvyiqmd1/JbscKMA3/67OZY8vvypWNuhS8Qf23OLttjxGdGDanSI5G9Se6o3LFGSDDmT1nqFoVKA/H/O/NOVkXiBK6GyyQ0e/CdMe15/Abp3ekSNWNeV1Tk3T8+WfEhCvEbuugJW17chu6FPdIEanGwOohMKT0nQxvHZIcqqgrUM6xoRCX9YpSXD3Sj7/KxZTWIpaw3R4kwDW4YctK+waa/jNjT8EsOw8G9b2+YMa7vto97o0gWK52EtoLO40fkEQXyicSdcZxvXPnNc4qagCgCxTaix5rVIqVHr/2vpylHq0K+YdsN1nwD9r4w2+famc6cfEqEKXq8N/97NZy9e/xDny14zwoZPM0YWQ9GTLgYvc6hJD0FpaWf31kixXlCoZjIjh42nVa9qcX9wAAAA="
+  },
+  {
+   "step": 15,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "coaching-cue",
+   "image": "scenes/pair-lift-close.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "shaniqua",
+   "accent": "#F2A93B",
+   "plate": "SHANIQUA / BOSS LADY · SHE RUNS THE SHOW",
+   "caption": "One cue at a time. Corrected, not embarrassed."
+  },
+  {
+   "step": 16,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "progression",
+   "image": "scenes/train-progression.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.48,
+    "y": 0.42
+   },
+   "plate": "TITAN KANE / POWER · TECHNIQUE · PROGRESSION",
+   "caption": "Power, technique, progression. In that order.",
+   "thumb": "data:image/webp;base64,UklGRo4CAABXRUJQVlA4IIICAACQCgCdASowABsAPrVGnEmnI6KhMAgA4BaJbACdIBm6U5+bTAN5gnzXLyBocBsvjQZYGmGZu/a0WRdnQ8DsIC7CnPlBBxdRFLzq3vrG4sZ1CMLB9MCPRWRJBplfZEAA/nTIHQhKibmPkf1SmYTmEQJ2gVJ3FNm9mY0JTQ8mKmFHujzvfrH/Av40AbBsPULPO1qZYkOouoQ1qAz3z3HZ8R78Ar20fT9RunHi+jJhDjR6cB9zKX1djI5PklGOtPilktIbwGRHm/dcdc0V2scmbOrxFx/b4jc4ltYNNJXsgfLIFMGOckFftVDiIwmvbSmece42ca9uMU2fzc/gyJK++mR0d5OyKHMx1/sa7Bo3JmPiif9F4mDk9MhvxzVsd/0J6RGC2/mUkDK3pnV43IWam93a1WsYQ42Vvst1RWp9KGPUnz33m81T/Hwaau3UktxJgeLdHeS6/7P/iYaNtqNvpWOaXbWHeqGcT13ok3Z3cOd2o7joovi344o5neKZMYfRHICiuP7hTEmtTVJPbXG347r/vbHs2t4Rk6DBmjpM6jZ0bYPSZxS/Jea2HD/KUbeV5X5u/Gz8Z9AqFKy3Wuqj/ad2yzDL84/+70XOCvfyv/BrGbLdWqKjEeCxIPjz2fdZvsiSQJvZN95cBUcgfwHwSGozAbDZvefnXYketiNmipNKm5Gr5m6RHyAm/V1wodpc3nyuF0Ui1P7L0F7Paar23K12FDu+01v1QLr+6Otji0cWLsbzT36bfLznRpmO6BQ//d6jbkU2VfK/5xoJV/8nxyM7rco/YrZqvPm7jnzLPipNV0Uej9c16BtdKxv4rRzLjG4KK2+acq27vcuo/o6ta0Wb8AA="
+  },
+  {
+   "step": 17,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "sled",
+   "image": "scenes/titan-sled.webp",
+   "width": 1536,
+   "height": 1024,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.38,
+    "y": 0.42
+   },
+   "plate": "TITAN KANE / DISCIPLINE BUILDS FREEDOM",
+   "caption": "The sled. Drive, then drive again.",
+   "thumb": "data:image/webp;base64,UklGRpICAABXRUJQVlA4IIYCAAAQDACdASowACAAPqUmoUwmISOiHVDAFIlsAJ0zAAPS1aFXtued404D0AOld/z9oCNBNLpAV4FWw5LzgXUpqOqx+4r3b2eXH/9sNUyceFxLzZy77QZ4iOCCiKl6r/kIXoK30MNoQ5R7SgAA/u5pnSX3X/6MZcF9cZq8tRi69/zOvyaR7rTPUVP/YvOG0wKJcVpX5I+ai66liUdtredqOgafsPyuf6C49A4HeMQ5I3LjHn6XUQZcfsZhcN4AfhjE243fccQH6/bpC+V5RRHLQW9Dl93KVeV5hA/5r/x0oXIm2SpfhPdeaEgn/R8TXoOUrs2DEj+YyjTLcV42RFaFyUL3iSr2v4iMnvBQH39l6QMCtzVxbaPE3iqFpCAKHWbOdkpyKthYxBSQjTgDampALPiPmOPiEvltMHD0rfZ6ExYEhbzQgc+FY3ljn6nmWgueubJJyIGxpw1YDZgh+tCPFoB021h+tOLztiM3Ev82p6fMHcpbUavZCEkeQUkFbG2B4o6X3VDH8PsWpBsqv1x4lcSE/4iAMv4vzfh8JGW61fEz2ijt3CfXPxrPNXrNL6O94jTdiYKlcIN9pHJQHAsbAgBVeebNEgfgF6cVM6ktahihdZ3lDAkgAUdz1nJgQU15kGDVpwX7zbNXI+SoD9FFquBIIMZGYp9i3+DAyrG67RMsJu9TzNgv+uyJwo2z9CXOpVRgkjw8hIJzS1T5xQ/6IRXDBSkvtDMZnOQ334NRZ8TEx+BxNWcinxx6jTCBLalPJtyaIIK95C5mxDgQC7TMV812SvW1zX45Cm+Ile+fv/DjlZCtdmYEEqhHZpid35AOkBsB8lNykIcXh9R7GbK0QAmz+EalewAA"
+  },
+  {
+   "step": 18,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "heavy-day",
+   "image": "scenes/train-heavy.webp",
+   "width": 1254,
+   "height": 1254,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.42,
+    "y": 0.48
+   },
+   "plate": "TITAN KANE / STRENGTH ARCHITECT",
+   "caption": "The heavy day. Earned, not attempted.",
+   "thumb": "data:image/webp;base64,UklGRsoDAABXRUJQVlA4IL4DAACQEQCdASowADAAPpE8lEmlo6IhPH34ALASCWwArDK4xIkfAqdAegDbbc8p6AN433or/XWiBtNxBcxfs2NMcH9T0VvIv30psK4C+O1FJLjIiNA8geoeOa6/hBN9jxbPM64f15PsSrOeoOWypGx5hlO3L2Kdbpetmy2Ld7rIbjrFpTTpWxVgYGOVFeygMXAz4ybwXUF0AAD+6TTg1Ys0ncIbtsqGjRGo7EnEUXgdI1VCVMW9P0zGDxm2U0eJircP2/maqJ9s0z7HZ/+9orOtM1K0cNPKs8WH9Xu6zGwEPl5vVtv0yxK0Kw++O7OCBIZNMO1HCiXJg7I4zSy3d/lal/mQlRmybYtLIHJkL+U+x6U/J1Z7W8NDR//WDyX0mUauXCtFC9SEvDj09ZZWzJx7KnmVZ1fb8K2h/7qo430A5SMwQgiAViTgxN6nLlvYxNAOwwauXf7lpmhGqP8ibNfOxjUrhfp+qE0Xj1Dwl6wPcZpjiUz6woKlm1O8ICiSg26qFFNQwelja6GR2fqn0cibgVAOYGqDYLZ46VKgSkvT88bTtqz20ORSkR7JiQsSRmQLEBbRzdXoIgq1dnE85fDGE3k9UIAytNliwbAUsB6zP+T3NmkT7sa1Q1M90Qw2lc803h2f1KpWfffnQIaBe4p5jILU2iCbM63zcLnADzI4Qj6nIp2XhVzP2q/m1WwmT1/28yX8QX5KwqI5++ETRAqLYANSBjmhoLxXeAY7T3TfhagDXnu5tv/fLU9El7LH5KEZWhdkO3hQkSb+0oTN1jNRILLCv4ZEMTLcreyLP/pVeyB+evh0zZZGTeDxEILKKbUwWbnrRQk4KY27pp5SF+2MfTMGvUiWrp/+ehJB9xzkGqrKIwt+HEp+au/QdGohe9xHzhqLt4ludtv2ClDEdLS8fEkCZmuJ2iI9Km2ty4dhpBQpAv7EMveKVUWgWrsQx/cZd8GaHnk4UcIHxtzreHEPfWsz8vz3hW8LwETpbHwKLhZhOgIyVoCp/HDuhVy6tEsB/H9ISOXufc91Y6tC17ZXPWHYsKaeiPHX668yZvlih1i7rpe4f9yDByaj1IQlorlZk9EE4+UfrEfjST+6c3LbP77Mzbf1N+LODDpNSql4eXs4PeXoOi0ODIHLL8LkZMqwbiY2ZsVXEERvUrnJGOWcL3EiKnFql5K/n4LUBwz5rntiZFaUMNYcxgai8mFbsG2sjXjxbRFXMwzekWMmj3VxppbaI4IgKmArFiZGuIZV/4m/xA1sXRjDHWSRGYdvyAAA"
+  },
+  {
+   "step": 19,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "titan-poster",
+   "image": "scenes/titan-kane-hero.webp",
+   "width": 1024,
+   "height": 1536,
+   "coach": "titan-kane",
+   "accent": "#20293A",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "plate": "TITAN KANE / STRENGTH ARCHITECT",
+   "caption": "The strength architect. Few words, heavy ones.",
+   "thumb": "data:image/webp;base64,UklGRnwFAABXRUJQVlA4IHAFAABwFgCdASowAEgAPqFCl0mmJCIhN30YAMAUCWwAp0cACHyGLL1u4tcLrbl87BpxG892dTvOxNc4/wD2k49UQjtPwz78fe0naOL5M3KV+1+oB4rufpUM6VnoAEgKBZ5XW5N9dJl6vcpQnR5Ys3hdsCr9VJi9DFJhEDhQ+ImUdY7CXMBXuQudW+NRnrsZG2yRARpHoQWVtzCNuqp5WYaXEHNv33XD4rmz9gtGxmItUHAsyfrsDeZgHARF6KRIAAD+0qov6tjyuFqkvExE5VpVo6JcwgfGeCxuOhI6ytHzmKH41XWO8bA+9ahk8NCtdYDRRHlpzOSdYQJNd+maZm0QcDsnrmz7ArLdw7jqGK0ETNsc0VR7beApomP5rSirILYOr3fQl6Z5+xWGJQIxifXhfOu/qME2EVEV0IfVLWhJpOVyAogrhe3vwwR7k+FVkXLy8RQTocLFsYEpZka5vpclcgYbWRVqV0hRdaPAo6eRGcd+KDLz21BqvqGqdcbQ7FVU3t4JviMQjnfXXIr13LMlui6F67kP7aLKB9f7sHPSj1UlTdPTetvaFvfw9E2FkwgTNB1DIu9kqiYa4tchz2DPf/dXX2bZSC3ePsvUAO/S+mN+5EsIPdxiCRY7Lih67BIHbQWkv6wx101cMinP3AbsEbtE5e2KQ+uX79U7p9xTPaN89El9v+aFKfbGBF0Dqg6Al++1sZBzATncPbLtMxd50dB88Km7bx/YuOsWdA3XHZULX+MI+V6+H0KwzSh98Mlc7E3EOmBD6LvLxe2Y59+EJg2lVW88eeEyZLg246Gx5KBkdLGtvsCSzrE5YnzWWl12jHFkX/Bpy91umIG+dGzBSVUArpnWbXWV4Hqvpx+DabKU+k18xYxrBcKvkOFOmqBIbBXQqzk7FEkzdXEaPeoeEG750D5D191cOOLHARPC/RFNs3F5ttwVW8tn3zZuHfqE0c7V7F5/PFEiuzzivLwoXi8Eh8vFc+r/OTfsfcxU7UDTt8j4BBaATPFOQls32jPuNtuh3SXnBIQh4vwgUhvffLSyRXhMDhMXCQUxriDfNMQ8QvioLEz9OffKuS5l8I2OctprV9Aoti+0HwpKRfg5Z+Knh4kQvgSyDL0DzFtLScYbChqAMJ0frNBTrf7JXYcxIonAZhmKkur7ueNQgTO8xR4qRh85XJI+WMISjAZ5OFzwIl6eNc7RAKKjM3n1qLRNzP9553sqwRmyMP484BSkTTauNn9Vvx9zlpJ4YDx1cz3qcjBz9iB6Ol+fDXlTuz8Lnsbcm5zaJnRjJny+d5OWJUz+5fvwj4Qr3KkyiDB81Cb5ri1gqIx9SuMgenfeLz6twS1lPTRn7mB1zvluLuaQBRRWo5eg6HZ/hXrNkkMyV5nxmxSblKm/yDx88H4+0mEohcy+DpUXJEU8DCCrTUJmP+31xvBSt8rzWXDsWWgyo1qruubp+cCIdQ0+hLaq9c0w9TgQ5CvLS/cqgkZ6wOqWvGWJ1BFrSxl+TvxFNwWANgKWCwccKSHzOcdF7thmQGQ6mu8I75CYCtk3qxyhTqItI8cc8HDBbHfuGcdEJ+S9FJN/FtqwEu6HYsm9tJQOKmTy3RJk66yaqyoicvsEMhT7QJaR/20Oa8h0/luqrQQ6cHSHcJkdrxeZr8ZBWD+dwe1wCpQj80CGetHoo1gyy1qzoitozpPZLES9KfOBXENAAp5u48gMVhIJCyjy/aSjtZANJVf8YGPeGavjW4rvzco1NOa6NjioAw2CiuziN3IwFL7mkJ7EJR1qDbwMZ9WHY9a7zpN8WscGYC8xoc5ytp+E+bUyNH6C4Z1Dv5ROgfi077rgHkbP4t+kBbzrZYTnxASYAAA="
+  },
+  {
+   "step": 20,
+   "act": "train",
+   "act_label": "3 · The work",
+   "screen": "conditioning",
+   "image": "scenes/crew-celebrate-portrait.webp",
+   "width": 1024,
+   "height": 1536,
+   "coach": "shaniqua",
+   "accent": "#F2A93B",
+   "plate": "SHANIQUA / TRAIN · FUEL · RECOVER · REPEAT",
+   "caption": "Conditioning is a skill. Train, fuel, recover, repeat."
+  },
+  {
+   "step": 21,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "readout",
+   "image": "scenes/fuel-readout.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.52,
+    "y": 0.42
+   },
+   "plate": "NOVA REYES / NUTRITION · HYDRATION · RECOVERY",
+   "caption": "Body composition, hydration, recovery. Numbers, not opinions.",
+   "thumb": "data:image/webp;base64,UklGRmQCAABXRUJQVlA4IFgCAACwCgCdASowABsAPp1AmkmlpCKhNUwAsBOJbACdMvtAj3E7aFo9Mg3oOfRs1qsRwK4gVmjRvIOsq0TjZAgoMX47tJzv7a9HyuU76a7Zo/eizKa10ei0wdR+2Xy3yh0AAP5+kmDiN6X8dve3fRmw04gF1pr7RHQN8AmPSHEl5OlaVfyIXHtWI9KRQb0kQe8D6weZohWdFzAAe7FYGEEieIIC/2n3vzxboTTsa17fwmGQu3KVfPT3rht3NirrgWQw/k0bjK33sV9/A6YLKalCCmrODc0fBRN3TmGMzwjFlt/sj+JM+YtM7+yFqUCt+IO2E5hFNiwS9zPwG0fEviJv++IqYHcH/KEVuPJa53NJwxz18ic8hicXJCCX2HBHntx01lngHHdOI1Srt8ikJ0/XHNgIBzQfFjNuhcjubzCMtZyZFRoqWSQ4Sjb14tvoWVm/KdJS0vJQ5VmiLJYKPZOGuA1BV//fuYKOYhtGh9NHaD8rsO4oD5PG6uMoxr96eFK9r9KAhsLc2uPfTkWqCsPh2csHHg/vY6+vU4aG3FdAsptiL4msABgqs+zvkxqyLkThQ2qtV/P/H8H0DVdxdHjn8f8/QomMaZ1lhSxUK43t9gDWzlVxce8sviDPCzCfLmTGIntKJDk2atT7HydLYbigMh/whg+I0XrP+pniiKeDAAiZ3fNeIgvorwE6TgX2XtjruC/f29IZRBgpp2Gb41Qm88zl4yAqdwCrSDG1NnDMrr2bveq53AHdC2IfFu2rMe++61Bh2hxRSHMTcq7HVQ7zfyQdwayI8e6wAAA="
+  },
+  {
+   "step": 22,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "week",
+   "image": "scenes/nova-week.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   },
+   "plate": "NOVA REYES / NUTRITION BUILDS BETTER TOMORROWS",
+   "caption": "Your week, built. Food that fits the life you have.",
+   "thumb": "data:image/webp;base64,UklGRpYCAABXRUJQVlA4IIoCAACwCwCdASowABsAPrVInUmnJCKhMAgA4BaJbACdOUFVdYadejR7dW7a95Is3I+f8RwGbEZQPADSofIuhUz6qggpIhlZPNMjqSOVisLdBF2YA3nA3QOoQgFUkRnST44eJXE2jQrPl0AA/I/3YRzwvoqZFPx6JZVdjHAfPXpleqHg1VNbOdwbdxT4IJeRQP9IE1e+J1/zt9GMrngWCTOwVRZg45eI2wBqaSjMYHNqG1PIpA3jTDx5huBC49ZK/hoBgL5Zr5pJfg8WhASoV0aLDB8ufg+wqCsYeGeUCVg9ypDL8/VN/SYoX8/dc1RqotFaPqCmwFVW6AKcS2Dp0m4t1n+hj3vUaNkqfowfo5h8KrYOBSVjNzLROF07nJLzXhjg+TGWIMhLN6rQWePGvZF9te/YWvPIPbAwm78ACXts+XYiZD+zFBlkUJWlRjN+oyzLzQuaedODIl1f/sdxqH1xfmIn1hspOY0eO5rTXjjUhuoa1vd3nedaHyLmaqVi0zMvG8426LW8DlhxXlKbza3MPQvKYt0VXelgzUTpVPQK/RFKJqMjXq+QuFRpw6KEQrQ2b9u+01ThsMtBZkmsG0Dfg60q5txMiTxWcmNuHo2WkWl9Hwy5MF2XAGxoxFWI6r54OP6mOBy4cNPWhwYtdbtErcu/ZNg8e70UprB+ciMQOWJNDO9FHpl19BvY3gWepOrODlvtHZIvgIUwUvW+te7aCb6mGTuX3/+hS6Hd4x47gk1+AhrTdd+Ri/upJUi2110hXsJPRZZl8+XjUBzsQO7mIW62OzFmodU5nFWnBtStW29rJ+kWBPY9+3+1POP6+UzXiJtj8pEM5TNpTIdkib5EjaLlKDGHaT6K3ugAAA=="
+  },
+  {
+   "step": 23,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "cook",
+   "image": "scenes/nova-cook.webp",
+   "width": 1024,
+   "height": 1536,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.45,
+    "y": 0.45
+   },
+   "plate": "NOVA REYES / AI NUTRITION COACH",
+   "caption": "Cook it. Ingredients, energy, protein, per serving.",
+   "thumb": "data:image/webp;base64,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"
+  },
+  {
+   "step": 24,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "water",
+   "image": "scenes/nova-water.webp",
+   "width": 1536,
+   "height": 1024,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.42,
+    "y": 0.45
+   },
+   "plate": "NOVA REYES / HYDRATE · FUEL · PERFORM · REPEAT",
+   "caption": "Water first. Hydrate, fuel, perform, repeat.",
+   "thumb": "data:image/webp;base64,UklGRogCAABXRUJQVlA4IHwCAAAQDACdASowACAAPqU+mEmmIyIhNUgAwBSJbACdOUFT3i6MC6Z9Cm2zuxjea7MEaCZ5SNTDCxr8B5gaTJnX0AyFh0TI1+rH/JtUVK8prE1RzrpUIMWTAi1E7Bj9ne2236HaIMA6tKI40UAA/ioKFYa9Ne9vCVZK2ozbl1Z+/8JqvzDuzh8Xdncqn11Xlz6nYHiaAlKn380yk3yfvYo8ADA5xexvm1G9a2BcLVq27jZZKAQuAihQM34O+Qf7Q7JXMJiOlbpUejSJNddFiWF1bUhlws7LbBxYO5Qwz8+XE+fctfYerjiLMwPU90c/ZjJDxLe38iYWEdmtzGvaFSL2meVZ7Md1vSL1WrdZNWCA3Y+R6bgWxzqKbIxcS9YRhvAIgqjfvxphtDBfhgsnyOyR8XNeJCrMf9W7XeKfBPTCsPKe3rLhk3kg5nHvxdl0xo3JBYr2j+OyasB1iUkWHcIbBf0XbQKqjpELhO6KlFet4qdPxLdrEifEgKv+Z6wVTofc3Qoa21yG/i/GVfQPgA9N4fbN8rCQfTpvZNFtw3sTC5+CySSm+h9a+bWMPYKNK0Sr+3r5qXRueRjOmuoxd3KZwx+Ke0Pc+X81YUuZ6zT5WXo0Gth4xvq3/LahqD+sdXibWeAFQOcw0Ge2RZ8CEGLIdLjpuDfnQg4Dp1CGJcRjilr1ookIFh6+SpOcyxMkJ8j7z8Nw/vlNeYfYUMJbobqCXIjzKjVzltW6vATioeKBhvu/dA60cvC8nx+cWhbQ6/5th6OYmecHYJkbXRbsDnmtxF4Zjkk2GlCCKnNA/7dnCMowRXchDeYBzsq/dsyj8dbPEbCTHKjlwvRkDa/IAAA="
+  },
+  {
+   "step": 26,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "stretch",
+   "image": "scenes/nova-stretch.webp",
+   "width": 1536,
+   "height": 1024,
+   "coach": "nova-reyes",
+   "accent": "#18A46A",
+   "focus": {
+    "x": 0.47,
+    "y": 0.48
+   },
+   "plate": "NOVA REYES / MOVE · FUEL · RECOVER · BELONG",
+   "caption": "Recover on purpose. The stretch is part of the session.",
+   "thumb": "data:image/webp;base64,UklGRpoCAABXRUJQVlA4II4CAAAQDACdASowACAAPrFGmkmnI6IhMAqo4BYJbACdMoMe2dRtrbt03nb/n2gJsv+0+BPjF+/tA+qiJdkgOinC6t5t+3Z7BI5NsxQWuCkcAMsY5xaWffxLXkU1MJMPIzXh5tfhVxPAE+/j+AAA/uKKPzI/lyz62djGkj/6HBt9na/5Ny4tMJOiXmdbw8GGfD9NDeGCamrgqX6u7js7y2/RKS02In9/vtKuGMALVDvgSQs5k3rszJpEVOtB2Gbmf83ET3IWJ4BuuAukjr+AEv+K/dEc9h/Oag4HUZtoydf9lG57sgWs5v5UsUI3sL/2FAVlFJxsKjdww824JsrmiPKbX+25PZTavyBeepGEmEW3HJcIUBwS1onkpAT6Ep5qPMr9vlqYIsJ19aFRNe+HMoP5ARkx9E8ohVB3uG//JUmR7hkV+sruGpBHBoPXjO3joEBAnvD3LE4zP5GM93dqkPl2TWwK4Evsk7TaaVTxj1wsnnt2pLBTfghHZ5FQIWZWERlP7Ts7ScBpGCgRK4B8zrpfqPdCadnMA9u/yW9/w2guSjXcLm4vVj/q3zZ7kA2LNpxMKODpU9qY3F/oiVm3Mtgboc/MvcPlgGIKPDU8dLiaMAIMJYe15Oy1BZ9WYUHP505iSTBvfBgWqjTq+euAH4wi48Qv1Zra+XwdnTYGM7QUCc/OFVX+loEo8ThXiZ0d06wBrdTyg9HNV+2hibbcHBeMadSPhtOoYBiWUFnhsQKimSQZ3njL5Tm3FBBCS5RKLbrueN0tb9jlfY7ZfV9aMriWneEsB/62lrf27r+zuEEHy4behix1UJ1mOn4DsnghJN35MS3x8KRXTFEofygq64RFKy1hxzYsEIN70IIqIdRHAAA="
+  },
+  {
+   "step": 27,
+   "act": "fuel",
+   "act_label": "4 · The fuel",
+   "screen": "rest-day",
+   "image": "scenes/dakota-stretch.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "dakota-jane",
+   "accent": "#0B63D6",
+   "focus": {
+    "x": 0.48,
+    "y": 0.52
+   },
+   "plate": "DAKOTA JANE / DISCIPLINE BUILDS FREEDOM",
+   "caption": "Rest day. Discipline builds freedom.",
+   "thumb": "data:image/webp;base64,UklGRowCAABXRUJQVlA4IIACAABwCwCdASowABsAPqlCmkmmI6IhMA1QwBUJbACdMoR/FIDsxiiQnttbuJd5Q3lj/TWiLtxxL8r24N8DSgzP/H8cO+EpPq4qeXU3NeRC5cotP6dLzWyK44TTj9pn77yH3B8NokAAAP7jY3xtakfa/N5NXMRethIHEQtxUqDcCRZJbsyhsJOp3gc6MFF9q/r0XDxNYLzayJ0KllTqyyTy+k5vWLQ2Ay79h07K/lDChh5SCF6+98ojzcZ5lZUa7HclrZw6MjhrCSvSmmz/K7KGQfwSfuwJpdfl6WCsabTR6VabBiLAB5ERJBDLGfOVNLY0tYQJo0lCgfQ3QeVKYYCOu+a7YZGIyUV7toJzi6AOIIXASqbJGVUTuuu2tHKiBlBf+Dv7nuQHurSgpeetvNKHzH15fT4nnMRQ06+YJkEHgxU82trCLwePbznqA2o1lcy+1JhschpQmajnsRMvK7SuSzIgj/DNYOv/CA1b0GXKE0sX5+M1oWrXYklhuq6P9w94hV0p9vj9Jc0axjLlXUNG/CWHmpvnuPe3wax8/cXNfZbKXfPqFymDbCp+8XV5FEAa0bDJ74ok+xB9xaoQsEVmUJ3LBULX4Fcf5GUa/VufapI/U+j5f8uNbzcXsUJt5V7WxTJvtuBi+DqiU1q9ulp4tAkhyamXUcq9iXaeHGt6DSJDluSSzWp5ohQVBDUsvQSpBBOKMoeD34pgrJTMaoqPAyEMxqQm8faUfWG7WoX/9eN/66cu6wL5cDuVq4SQRB1jk6JhG38cFu+TMAO1rbpI45GywBSdhnrJkX5hwusLwzrzlKSqRctmR9y8EUCHlgOfSrMi+G5efl3TpUcQ6J2IQAAA"
+  },
+  {
+   "step": 28,
+   "act": "together",
+   "act_label": "5 · Together",
+   "screen": "side-by-side",
+   "image": "scenes/pair-kettlebell.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "team",
+   "accent": null,
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "plate": "FORMED LABS / STRONGER TOGETHER",
+   "caption": "Side by side. Nobody trains alone here.",
+   "thumb": "data:image/webp;base64,UklGRsQCAABXRUJQVlA4ILgCAAAwDQCdASowABsAPrVInUmnJCKhMAgA4BaJaACdMtAQEhqgz22HO37pLvY1K0fO/A/xRfhjIu6pNTyr33DUCV5Y0/QkzzKgoiNjtBxT1qFCtGW72mKtFlUt0cOGcjZREX9uiy2QOXys1RnoQt6kJFECxAAA/tr7qIYEY84IbyYPhwigf20ETlcgi2kHziFhN2280+18/DkPL6PmD+H7IhTC/czNkddcD0oNhxvpNXVUc795S0A39ZLxiX6gyz19nZzJzI6nRCz5ABeRlMNWvEn8HNLT+TiItDeQGxznlS4HqsYvdcyLyH2p71iEFGXqiXk/CNUskcl7YTKfSPwrHI7C3x2epwjZ1OptVaHK7+rZReQdk/dj3OHXtiSDqK1JpOebLg1yEBa9VlvoTa/qFJS4TczYYSV9eWIQLc3Rc4bGIGriv549ol/pnfQgLZFHV6f+msgeRofQ0t7Fq9sTizM7MnVXasSuzCe9hkma6RhN87oKlzT0wAPGCSGgf8pwaXYNN0enpNGpq7UC48bYsfq0PCM5rT/n1M6PZ5RyXmoowio1Vrqpa+3Hd6NbpFp3NIsqb16j/1CyrvDP8hEQITvtEE+w1YVpqtc0fiVtt3NxM4thL/H87M3Jay625lYDITyAkyQRm9H7pShBj+7HF6Ci2GESuk5nVXDH81ACd+8rU4D97lCAtFBzFbqSPIhT+xew+OorvTrqZ9SpgnjpUsAmh1GHR8tZJqlPzfYH5ye9cy0VYSJcyvh1gvOUl83mWWiC+rQbFUu93/+rRGk75tfQKzmU5GLnLZn80asGCvF61Z04hhyuRLZJPz5+03DwvZGX5tt9dL7ioV88gCrs2X5nvtUqSJPwdX5zpnoNGv23sol3TcdZK3ftZksYFg16DfdAXV35ks4ANyaoILo+Zg4OpYLIscO9gAA="
+  },
+  {
+   "step": 29,
+   "act": "together",
+   "act_label": "5 · Together",
+   "screen": "onboarding-complete",
+   "image": "scenes/one-team-every-goal.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "team",
+   "accent": null,
+   "focus": {
+    "x": 0.5,
+    "y": 0.48
+   },
+   "plate": "ONE TEAM / EVERY GOAL",
+   "caption": "Orientation complete. You're in, and you're not the only one.",
+   "thumb": "data:image/webp;base64,UklGRrYCAABXRUJQVlA4IKoCAABQDQCdASowABsAPq1CnEmmI6KhMAqowBWJbACsMoMpLJzzwGnAbz7WRvA/xjewY/twH0a/IeDN4NymvvXmRpZfh3QhZ3vqz2Chny79hKTv2zH3saXkg8TNQ73tJhJqtnY2ll3TBGvUXs1iPYckkN5JRblgAP7ajf4FAoD5/3DS2jBLynNvLnZ/OPw0AU9cCp19fTARbo62Lgq/usiBbily8JAIS1f5D2NKj4+FGMQf+y/2w8Dl9PdekEfNkwYHxHFx+Krn3nbo0WQr1tFMeQEHwZoh04Khlf8hduXrRbeKSn7XCF7FSNdutL6rhfLCtLaSjiIdhC34kggPsNMRT6+byl1VfWJ29OLKK61ihFErcT6l19uC51kZvr0GvJPgqnhOtTJtrJWfgZNz+1lPxfmRIt9FIkwtUxMDztb05mabw1x1bOHGyWwuX2HBq4sFtRPKXDkKrNZY81l/YFS6A+fzK2e4o043CKIyhXfP9naF3BVB666QHWL8wb1A68VrJfV7NuEPWIf2NZSJXTuf8TG/Qv3vJnIc/Q/OFPgHXw3iq853l+z/dhMrHKV+3tKA1HMHfmyPPLl39mHx2ca1GzT/vrBSMxx/3Jr2vQoSO/P4eXbHzP4+iOG/zEL3SM/6r1nhfx/ZUFOuvH9oIsziwmOyFHZu3qkIaTvY2YseQjsZ29qNslgc312C1eNcw6D3309XPDuLj974M6BHp7jQtF1jtt2+B0mp/SDVCW5YLGJmfnIyDB+46zSLmu4pi1wxPmmuKkJiCCWvVgf7vFZJ3APaZbj7h204Sfc/ADVkjcfn6vMQIlD6sesv9Vjs5I0kRSy8kiHuOEd0vM9iDW8Y4SJVs0H0uqBq76RRikACK2P1CcQF0PGx1G0IbcfwYDnJNY34nMMOQiM2B4AA"
+  },
+  {
+   "step": 31,
+   "act": "book",
+   "act_label": "7 · Your plan",
+   "screen": "plan-book",
+   "image": "scenes/plan-book-cover.webp",
+   "width": 847,
+   "height": 1095,
+   "coach": "brand",
+   "accent": "#FFE45C",
+   "focus": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "plate": "YOUR PLAN / FREE · 39 PAGES",
+   "caption": "One more thing. Your free 39-page plan to build muscle, lose fat and get healthy: two workouts, food for the days you are not hungry, a grocery list and your first two months charted.",
+   "cta": {
+    "label": "Get my free plan",
+    "url": "https://plan.formedlabs.co/guide/"
+   },
+   "thumb": "data:image/webp;base64,UklGRnYBAABXRUJQVlA4IGoBAACQBwCdASoYAB8APrVGnEmnI6KhMAgA4BaJbACdMoRwN6qfi4V4HuNQyv/f4XRJ2NR7LfwvNvh7FU5RFfFSC0eEP14hKAAA/uW7vU+nfziRaSuU+JzNlJRREo9lIYbvA/19/UcRn9yUw1JrMv1xsMWeWWpE0KCOwfq19CoJdl1Of/W1zDo+RJ7QNs/T2RztuNQCO2Ztc/UfyoFW6S0lJ1E8s1RIzZ9/E8dC9bMeyIWqviV/lhxzcJMy51/msdj/j/YmHDT4zXmu1qe58DzyV+nSh6AFNr6Kd3xD16t32YpNgE4K4b9XCfE1zTsVN9VEnZHPeiGoAPmEO1xPBzcAjfWS9f6ysP8xRBNkWqNWZDjK9UVe4x/FtNc1v+B/e/HXDJBLV0/gk0UrfUPPTe9eZd7toSR2f+NP+8t74Arjf4GigIWw59l4zX3QxbGVqvoUpyAeC0SWG+9PysTXDC2RWrsIfD+WpxGcR+SAAA=="
+  }
+ ],
+ "sheets": {
+  "nova-reyes": {
+   "weigh": "scenes/nova-reyes-hero.webp",
+   "steps": "scenes/nova-stretch.webp",
+   "water": "scenes/nova-water.webp",
+   "week": "scenes/nova-week.webp",
+   "fix": "scenes/nova-fix.webp",
+   "cook": "scenes/nova-cook.webp"
+  },
+  "titan-kane": {
+   "session": "scenes/train-heavy.webp",
+   "workout": "scenes/titan-row.webp"
+  },
+  "shaniqua": {},
+  "dakota-jane": {
+   "day": "scenes/dakota-squat-2.webp",
+   "rest": "scenes/dakota-downdog-wide.webp"
+  },
+  "team": {
+   "team": "scenes/together-learn.webp"
+  }
+ },
+ "screens": {
+  "today": {
+   "image": "scenes/welcome-the-four.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "team",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "y": "45%",
+   "caption": "Four of us, one day. Protein, steps, water, the dials are yours.",
+   "when": "noProtocol",
+   "thumb": "data:image/webp;base64,UklGRqwCAABXRUJQVlA4IKACAAAQCwCdASowABsAPrFGnUmnI6KhMAqo4BYJbACdMzxgtc15f/QA53vTeN5VrDXgv4FvxxgVoMsDSdzMfICdxlg+0MeyP5hrR6g52VYu5RCFlnIJE+0AWyKz8iKgtugqPfRwAP7OnsDdgFKUrTKJdAHKOE5CkT83P4Tjm0/mFbxaNxu7p19veJ+oPzs+vH0tCAhioc2wlYM9JFqkv/0tqcaIwR5j6h4PykZchRPywopKHtJHpfH9yAEw8dlOuPwmGk1XAYCMfGEeXFdBnDUgnQwk+0nV2VmlXuUDYupuaFic2llj8YMOvW4Ka2ngvmGhNh2i9eMioD8l5zVH7txME6VqWbdgXovFEQ81PH4hmV75nZomPTBWdfrOzHJLBvimMGLSO2N/f6PWyxiKuUn7E1zZ1pB4bHtnV5vaMTUEIv+jl+/yWhtUGIIkMct/UtKopM2WZk57d544oaI2mpMq6xNQDv8xhRQxxjHXOlN2+5a76tRHJ+OI38SHEkpyOu5hve72OweNjNY/wMnmnA2viWVvEH9WfCx/TuSXih4jxsRKUWaB5PXed2ZcT5gMtPOsyoX7/Mg/w94b6Qmwo6dF7yVRsxR2/jntG6NJF73FBv/iosdI3T0oigID3cRSd1P3H7goMINPrtK+kmke7XUjk78dTr8D9b4EJ+3Zfm17qVpx32d4dpS2BNCN2ZC+hVBBNfgnzGbLTuIH6UsNUZEiLNEOZYv5V5ikyX/IXTUimgA35tOsSLZpzR1jxpKzD0wv3MI/Z2ivO3LQ5l988/x8ZFUggfzv2/jlUYTR25eFhmRFsnvhKMWa0cnqMg5LPrkGVArQFkPurVclsQ5oPdtzEh9KJzd9FBQ4vXgaB7R4h1UyHo4PNLnGT8zvdetwd1IAAAA="
+  },
+  "ready": {
+   "image": "scenes/dakota-straddle-wide.webp",
+   "width": 2065,
+   "height": 761,
+   "coach": "dakota-jane",
+   "focus": {
+    "x": 0.5,
+    "y": 0.24
+   },
+   "y": "24%",
+   "caption": "Check in first. Four answers and today adjusts to how you arrived.",
+   "thumb": "data:image/webp;base64,UklGRoQBAABXRUJQVlA4IHgBAACwBwCdASowABIAPulep00pJSOiMAgBIB0JbACdMsDpOQXFQEexYkGAHwOHF+vlYLlXBTyHZqypE06dKAtDKwaeLH9UmAAUAP7coIahd285U67y57qovJZ+IP9FjhCg4MXZJV4oxFvICvD+6kNEzg/+5yHGENxDOs+ndmS7QAYz5Bb0KKukUkbm0+zY65Dm7BOtmVQ5/UU5btOzPz/gOg2iCX8jgq5qZCutM2B4zo7xeYjKxVP24A0Y3R6V6hl9/avt1WhW0t7CLSLl2mMau7VjAuhIdpex/wSjIsdaFOr8nU6FeyUuHpue5AGwRrWtg3OaXjoogGLXLehuvBxsRHHEe595N/chnzRlu8vno5QjfHXEwGr2TFNbw5OOUEAQTqhyrrdWxAypqwm8qED/VJfk3FHUcv5NxRQkTuIVwdEe9Qn37SzQAx2h/xUoCMXYDe50JF0vvuP91w8/Su2K1GwtrvgEXAROt25x9B1kcGRexhPIc+IJrQAA"
+  },
+  "food": {
+   "image": "scenes/nova-reyes-page.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "nova-reyes",
+   "focus": {
+    "x": 0.5,
+    "y": 0.42
+   },
+   "y": "42%",
+   "caption": "Build the plate. Protein first, then the rest of the day.",
+   "thumb": "data:image/webp;base64,UklGRqQCAABXRUJQVlA4IJgCAACQCwCdASowABsAPqlCmkmmI6KhMA1QwBUJbACdMxL9GRw1tA1tqbtQ3mWzBGjGCfAts5lA8AOKDvtTK+dv+iG9IQqfOKYFutSEcHeLDwp/idJkb4V7kjcsB/YSnFEa1Zfc7DpcAAD+qxosG9RT6eVjA+xHmDatadR/r4blngrYv29Au9VoWeKGsWZuaLjQBiJM6Pq2XAgjgU5F75l5AuqoA9ai2tqO4R0JfLtRDScwhoHvScLnM5rWipKbBeyB9bbk+D/zB8lD08n7gx7zHP+lDmTX/v0qyuoeFtlOWio04BdbRldLq/TjjtF5AJ9N6pQc5J69m8nrqT7d8e7XUxWeitJaXDfxWZX9lKAXSq2KmWfUdpNdLLJ+yhvfGOA585xHVAEDidIXO5Wf22/ZZw8jmWjymzdpULJg97J5QyxgbMCSMjDaXpjXWcVLTfQPn1JOfVGZ0YvKBjZ8zuSOZNQtWNggYpz42IEQsq7ShTlImKxkcAX/t26Vlgnw7ahOOVxE5StIJCcbaNaxIr46+z3AU9yADGvyQ2E+kCu1DQLfoIsfcgFtgu+kZ6dTVRsf3JbmKMtQrDiAd6IatAwvEf8XoI6U4mBL+EwAp24R7gBS54j/TcfXoPxqVm2xA7gtE8DnFRVgrXSd/DqoN+2BskWgItwFfRg8PYuCHTi425zi/N5nubS+Yp/2V7ViOLXeccOQw6KtdIt9irLp3KPMKsqjhcvLCZ7xI1Lin3xM4PErKZue8YmKbsurq+5wBlkkgAHVsKHWTZTPp7P0N8Y0Z+Ax4rs71dLVYM/02NjUMb66Dw1qql1C5IPRksdcvkpW6jzp/s3qEezgN3i3wx1+WsURWbii1aKcC49mxUmXV8Tz4HmnM6kAgAAA"
+  },
+  "train": {
+   "image": "scenes/team-four-sunset.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "shaniqua",
+   "focus": {
+    "x": 0.47,
+    "y": 0.42
+   },
+   "y": "42%",
+   "caption": "Your team: the week, together.",
+   "thumb": "data:image/webp;base64,UklGRsoCAABXRUJQVlA4IL4CAABwDACdASowABsAPrVInkmnJCKhMAgA4BaJbACdMstQEjdex2r/QftpbsP/mG+92aK0Yz/fFcBmyeUDwA+rutomVM8KoWMrBG2p6hITONVSv31n6wWJGn+KpOyh3jUj8XQoXfq2I6A7UcwKsAAA/k6dzZtXAZW5FxcB2ZS+NBV6umrSs2QsoMvMDWENovEW/3bAlKJM8EKiyRAMnRmBLAr3y8GeIx7FGKewPYIC48sxsJkmwOOvUEZASURUgxC6Rd2ULnw5Qj4QpPmMakIJqfOBgV4BPWhPeDGqDFQoQRX1e7+yjP3yDInqsJcC5e4b+OMkcfCwhblokx3bahk5hH7rA+fC5wkNpQQWHuvDDAfx1GhPJX7m3kFxoKKLtECTyAA0/Xk0DiFAkHXIpy31MpPyBrLr17Xk5n8z8fBgav3Kazh6lOmHwL6IBLIqURfv6jIN7zOnPQ4+da9HHmBWwaPdX+ESLku2LKZi5qPW08YcmL13YtA8xJBcOptdVow8jdp2irz1qA2r20qCcAImvPUEgLrAz4vnVV6+J5+aAf4HXrRHcuFz3nV7LHGnc+LfPuUtT3VsAuVSqRRtRMn/2fuFNhJMvP3kL/+mCchxH8+xpXC/+f2bV8fnGaKIBOHDj+GcBtif/n9sM6H0AgU9X+16fL6tzGa/K7y/xGL5lRAGVSHlLg8m9tqkK0KyJo0r6NwcWIq14v1HXm2mTUfTXPgwab1h32OWX6UBS/vU3q5uY1YHZRUxtMQELXmBlfdiGW7VBffHipe8M5GISzpCselfzAX+shrRRDutlw24w9qgQ/geeHsXZUMRf/r5v/kP4Rb5NDD+dhL8xLj3s5Ryab88dV27LTEAV9PxD+jez+eCFEG9b1fxdJfXf/7RfJwe4qWGCms9+6niu03iS6RnTsajg0vLZAdNl5iylt+0AAA="
+  },
+  "block": {
+   "image": "scenes/pair-lift-floor.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "titan-kane",
+   "focus": {
+    "x": 0.5,
+    "y": 0.38
+   },
+   "y": "38%",
+   "caption": "Twelve weeks. Technique, then load, then more. In that order."
+  },
+  "cal": {
+   "image": "scenes/dakota-landmine.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "dakota-jane",
+   "focus": {
+    "x": 0.5,
+    "y": 0.42
+   },
+   "y": "42%",
+   "caption": "Every session on one calendar. Book the one you'll actually do.",
+   "thumb": "data:image/webp;base64,UklGRk4EAABXRUJQVlA4IEIEAABQEgCdASpAACQAPpE4lkiloyIhNUgAsBIJagDAH3IHLIcqCjAQrf8puydxt/qt+A3oKfTcs/r6RPcHspnApMGXDRgXgPWhO/PYA/OHox59/rb2Dh5ATea/OcUc0IdaIGXB/6u3Y8dNSx/eEYY8Tlc7FnMDln0jgm2XN6/09OtjSNhNPU6KxQt1ZcdtBEuj3YYRFgSwwuQaj/MbQAD+9fJpPbP8WcDnkqZuqd7hztEaE/RH3SnFVcK5KnBPbCjCbUg1/hP9qXwF2PvR70uHvZxHlKqXh3taz3rg2qUsZ+Lkn1ad4YLvqncuC1v5mPWYxatPrYzH2jtJKd5MySLQ9z9/v8Wey0MNqy33shhnCK+BLB3TYMC/e/x8zTxLSO+j64iRRz1gn6hnUmo5u9LZ5j1fm7yuFWt0n3tO2uYZO69ZxMosDaNAzzCdRNMxhWSa4EigqZHyyErJSvOaVvvcAgR86iVKE+WAwnYn3p3Hxbv1/sr5o/QRk/mf/Zkdrecod/1kV+VdEiqrmGB5aiMGBcmZlQ8Fu+oiCW1toXKOJ6Zdyx9pIyXvA/7JYhJLr1/eL14lABZrP8W/ToaQc6CHfNhcwu7FFRWDoji2YpDLABgKiL4g3mI190E0goJ5ZsMGUM0otn1yVCOxGaT2vs2DfZyohDxuaORtsaslmEyM6b95DZ+gxbH72yuJ2V6Hy31ugaayhRQZPkW3MFR39Ktcm82POsTcggDZQy6ZHncEnMuyAm3dyKUxo65dPvx6XCTebJzGd8m/cmrrnoD9PfJnxDDFug+tY5L1XipMO/kTM/GoleHvqA+E6i/DlhgTD1MwwgdB49g9Ar+n+GMoBWSHQrqxVHofLpDfhAViJ6xjaOVmgUZvZmAsDn9kc0WJ/a5FmwTGr8CKgfr0lfANQpYFSgL2DOdbEyGYVsDMIw/cLck5h9Gnd/RnY+9s5z7EAT7zdUIDd1VV4Z/Dg6lxDD3JB+Uqp8Y7pCfBTQdcufXN/ndmOEM4xhCbElGwveK44XCWPBsVDGZBdw/uop+nDr+NLY0QWS81CxTsqbboyc7BeIEwK2V6An7giJ7PzHeylek3KC0rkzb/DwjHVlz1kc3U6HThB7D+jzHEtVepxsoEePIbLdwg2uCQRnA/gfimAD3BKXmOrq9c7+x+gST6vG/Y3LoLR02weKSbWY6bhjCwbp+7f2y3l+NnOHCpXMSgi8xdmVSHn8zg4pYQFfyYF2hG4zdPo7u6a+cW70JpkDmCed+qv9C+/kOTtdy8ZEU2qCDj8xXPoHyEePyvggch8Lk5/DS6/91ej/yMBygSB7y5lQAKNqgLdZ+RKn1AZTlbBMDM/a7erftsEWPlnRswadePLazyIiTdvegm6LZX1GMK2C6tbzBPMFLwpEF4xhyh0BPRTfhVE70qo0J0jyRBhUYZaYldBgRv/pDfxTKFFfnlmLsPkAAA",
+   "whole": true
+  },
+  "moves": {
+   "image": "scenes/nova-library.webp",
+   "width": 2600,
+   "height": 1463,
+   "coach": "nova-reyes",
+   "focus": {
+    "x": 0.5,
+    "y": 0.45
+   },
+   "y": "45%",
+   "caption": "How to do it, properly. Every movement, with the variants beside it.",
+   "thumb": "data:image/webp;base64,UklGRu4CAABXRUJQVlA4IOICAABQDQCdASowACYAPqlEnUmmI6MhMcoAwBUJYgC36zL1+Qt5/1Jm8FeuVIupX395SbA7jD79HyboZtBQakwJJWezXjP/xX+ulcuckC0bmzPWELFbI2J4L7/cPGPcKNfSbfgUTxQldCU4DZ/6VHBuJmDkVV9AAPl67PlyP/jYBbextSv/q5bRqapPZPAdNrVXQ9wgODNtF1s3JWMTcoelyBLIOHhyMgIm4V+paTKY0LNAmfNzSi7EPcxRjWz2tguW5uxvWNUdLR29zylf9fpEMfMlgp00doLl21Eyzzy0W/FTp/4y2mE2VMPhb4FfSUousZOGyjpvi5T518HBySeREwtY/xz1ZP48k1RpcE+qHejP3m8RkqBPU9Ij1nsg4eGeMdnOGeprGaIR+csb9UBIfndA7/LyPAAUMMXACmT32XpjtW7rr6x/FtFcWWxljiP7GIGFkTNlNn8clanLqgaa5ucQg7muqXZj3tavw9EtgN6kEgPumvYfznVf+hoDIxW3NhVIRueST6OE7yp2j7gCgDk/zpCVLtJCDZXHz87o3A3jB+AxtYkK3Qxn+9bTDBJyUCVQJQI7jXae6Pmpn+QxFFH/z5JpB0coBLSEGax/ALtccMACO5Xs6KdQfy63p/VMzjjKCuqta9mdDieq/qL9gmRFTPOpLnnonZjlUaH1Xaw2xHChFv7ud80djVgINU9NBeNWWlsyjFsS065cTJ1V5+3gp9oZcOOF2wkwbe+c4IDsS3YGM8KV1oYYYI1TAhdAE7l+pfHqvdnCLCfBPutbyfmfSnR4C7G9v53K5axjKARcP+pcNsByZregCfdaU/LudbBomj/dDct+ORwyWAqYPC4HjUsW9rsJkNWLMhpjNca5xcCG2dYMBQF48Gi9+mZNoAZvZ+qlaNib0Gk+56ATSodr1Iwj5LBUJe6z7wrpCS7hBNoC7GxFi9ubKGzRCnkPsFxapYlaBznKgaAX65J3uj1oAAA="
+  },
+  "history": {
+   "image": "scenes/titan-sled-drive.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "titan-kane",
+   "focus": {
+    "x": 0.45,
+    "y": 0.45
+   },
+   "y": "45%",
+   "caption": "Every session logged lands here. Drive, then drive again.",
+   "empty": {
+    "image": "scenes/first-session.webp",
+    "width": 1672,
+    "height": 941,
+    "coach": "dakota-jane",
+    "focus": {
+     "x": 0.47,
+     "y": 0.45
+    },
+    "caption": "No sessions yet. Start where you are, log the first one.",
+    "thumb": "data:image/webp;base64,UklGRogCAABXRUJQVlA4IHwCAADwCwCdASowABsAPrFGmkmnI6IhMAqo4BYJagCnR4UGd0O5KGw21e4w0wCMBNLBSt4FWA5AjgXWVqBds9b0hVerTnweqvYJGSsNxBb6hh4Cga1jZBKK86f+yOPcaTCZ0eZecbxLO7oyEAD+3bDk9N3lVR6JeHK7OR7ZxSmr7Yz26fLihXAn6OUiRN33bYwaQqtt6vpb26iT7F0dGzev2jgb+pihiHWbtP0HrIL02/4LRcFGkIt0fwFnpLuRsEcSenw1AwDboO+SMiXOIuNO/j/PRcGmBk30zJCjhcvZiT891Ng4RB5mhKx4bo83wLU2YKWF6dkVCaipDD2WiDgpM60MzBVihJ8L8Bk2NSYYdZbG3Ohg4jWiMzEZ1PyZWeSevGcIXvyeCqg7ohsm33UMvhcdU0Ob1MnjHfaHiIGiKe4pfDU7S51I7Ev9lgwquD3v5D650WsX1gkjZRMaSXrt4mN3fr6JG5T7b6/CTRO7Uu6/a3W2cd9bw5/bONvzu27LgFhzv1NLW981E1Blp7YWdr5PRMEBcdZBCKv/QUnS9MdOmDaQcz2reFzMTl8VwLw28Mf9yld+foUekMTLd2EjzPyvvXn/Nx4+xXlvPlrghGCGVPrGtPn17bgRSaAql8H68mhiIX8SAUtxwQZHZh2LZQ//CSm3G8jqyZi5rrjLas8DomKKeyPv+4TMMpbQJUDpVRAGXnXYgyixRXRs+k/OJMBp9fnL4n6PVnwZJStDTTtOcZlVd+k6vZCE1/m5c6beQnNltReJ90FGNRCVx9H7fn8tQPivEbf6J26EZ0C4u2j8WHAhcYVdNTUA+eoXEK6joKQCsb4elOXWalNwAAA="
+   },
+   "thumb": "data:image/webp;base64,UklGRoYCAABXRUJQVlA4IHoCAABQCwCdASowABsAPrVGnEmnI6KhMAgA4BaJbACdM4OrCIpz5mmAby9ZorSbr4ytsCO8+ZH1m1x2/M7Q0yhAb5u5DMXhNUejPsE1VKUbnfgTsZ2e0e6m0aRvfsnl3CIOTXgWLOAA/ngEGMZsz9GguRw2teIC/HC34e9cM+24i8aJiTWzwNfJ0LeiY5Qj8bAuBy9MONSDVwommhDfeeuJ0NZ3c/inPzOz5nGnNGl12+g6nqFPAojhOhDrMu0mk7c8u6Qc/oUPiSp7mQ8IEWC/29YTmfR4v7pHspfXh3jtZE5dQl2Fyz1YfX0ruutKSrj5Bg0jVZOp77/mpRp6u7NeXvzs7QXx5yNANeWjd6kS69XeEa9Z1or5Q34McIWiNwUgjGkSSfWzfqWdoSIelzjBFgj73k2Cv2CBmOSuKjIzUO9XJVYwInsNVCEiGVmmn3S23jvDQdVboj8QtU/zxsEyHzk0wR/ckZelvnfluJO1bsYSTL+vLP/TGDoseZExt/738pRofw51XnzHCCX8Z6a0S3E5J2IZarP+7NfTazaZgVXQc1pdP7M/HvwIRP38bM0Q78uJ9C6tw8olLzOaXeR4i/PfT/YQa3hCL4FE8CIXa4tPceq06zbcLH2x/UKt3pTgkM8zBltu9VrusflkcXCqHgo4VZmKXRXJswKzb5m6RnrLlgfwP8k5XBFmUfCor90LkwiU2zVL/tWjtm5d1Nmfomz4A5rOtlGSl+xK9HkXh8BGmdq9Wvf8rw09JnxjKAdIizpZDGMw4x/wz9p/rG1hpv0k69Pga7Vg8So2GZrggFhk3v7oHAMz0EE9Bo3m7daADU3CkxkPqrFjIAAA"
+  },
+  "recap": {
+   "image": "scenes/titan-sled-coach.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "titan-kane",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   },
+   "y": "45%",
+   "caption": "The week, read back. Sessions kept, weight trend, the one thing."
+  },
+  "body": {
+   "image": "scenes/fuel-readout.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "nova-reyes",
+   "focus": {
+    "x": 0.52,
+    "y": 0.42
+   },
+   "y": "42%",
+   "caption": "Weight, tape, body fat. Numbers, not opinions, read as a trend.",
+   "thumb": "data:image/webp;base64,UklGRmQCAABXRUJQVlA4IFgCAACwCgCdASowABsAPp1AmkmlpCKhNUwAsBOJbACdMvtAj3E7aFo9Mg3oOfRs1qsRwK4gVmjRvIOsq0TjZAgoMX47tJzv7a9HyuU76a7Zo/eizKa10ei0wdR+2Xy3yh0AAP5+kmDiN6X8dve3fRmw04gF1pr7RHQN8AmPSHEl5OlaVfyIXHtWI9KRQb0kQe8D6weZohWdFzAAe7FYGEEieIIC/2n3vzxboTTsa17fwmGQu3KVfPT3rht3NirrgWQw/k0bjK33sV9/A6YLKalCCmrODc0fBRN3TmGMzwjFlt/sj+JM+YtM7+yFqUCt+IO2E5hFNiwS9zPwG0fEviJv++IqYHcH/KEVuPJa53NJwxz18ic8hicXJCCX2HBHntx01lngHHdOI1Srt8ikJ0/XHNgIBzQfFjNuhcjubzCMtZyZFRoqWSQ4Sjb14tvoWVm/KdJS0vJQ5VmiLJYKPZOGuA1BV//fuYKOYhtGh9NHaD8rsO4oD5PG6uMoxr96eFK9r9KAhsLc2uPfTkWqCsPh2csHHg/vY6+vU4aG3FdAsptiL4msABgqs+zvkxqyLkThQ2qtV/P/H8H0DVdxdHjn8f8/QomMaZ1lhSxUK43t9gDWzlVxce8sviDPCzCfLmTGIntKJDk2atT7HydLYbigMh/whg+I0XrP+pniiKeDAAiZ3fNeIgvorwE6TgX2XtjruC/f29IZRBgpp2Gb41Qm88zl4yAqdwCrSDG1NnDMrr2bveq53AHdC2IfFu2rMe++61Bh2hxRSHMTcq7HVQ7zfyQdwayI8e6wAAA="
+  },
+  "photos": {
+   "image": "scenes/titan-kane-hero.webp",
+   "width": 1024,
+   "height": 1536,
+   "coach": "titan-kane",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   },
+   "y": "45%",
+   "caption": "Front on, full length, same light every time. That's the photo.",
+   "thumb": "data:image/webp;base64,UklGRnwFAABXRUJQVlA4IHAFAABwFgCdASowAEgAPqFCl0mmJCIhN30YAMAUCWwAp0cACHyGLL1u4tcLrbl87BpxG892dTvOxNc4/wD2k49UQjtPwz78fe0naOL5M3KV+1+oB4rufpUM6VnoAEgKBZ5XW5N9dJl6vcpQnR5Ys3hdsCr9VJi9DFJhEDhQ+ImUdY7CXMBXuQudW+NRnrsZG2yRARpHoQWVtzCNuqp5WYaXEHNv33XD4rmz9gtGxmItUHAsyfrsDeZgHARF6KRIAAD+0qov6tjyuFqkvExE5VpVo6JcwgfGeCxuOhI6ytHzmKH41XWO8bA+9ahk8NCtdYDRRHlpzOSdYQJNd+maZm0QcDsnrmz7ArLdw7jqGK0ETNsc0VR7beApomP5rSirILYOr3fQl6Z5+xWGJQIxifXhfOu/qME2EVEV0IfVLWhJpOVyAogrhe3vwwR7k+FVkXLy8RQTocLFsYEpZka5vpclcgYbWRVqV0hRdaPAo6eRGcd+KDLz21BqvqGqdcbQ7FVU3t4JviMQjnfXXIr13LMlui6F67kP7aLKB9f7sHPSj1UlTdPTetvaFvfw9E2FkwgTNB1DIu9kqiYa4tchz2DPf/dXX2bZSC3ePsvUAO/S+mN+5EsIPdxiCRY7Lih67BIHbQWkv6wx101cMinP3AbsEbtE5e2KQ+uX79U7p9xTPaN89El9v+aFKfbGBF0Dqg6Al++1sZBzATncPbLtMxd50dB88Km7bx/YuOsWdA3XHZULX+MI+V6+H0KwzSh98Mlc7E3EOmBD6LvLxe2Y59+EJg2lVW88eeEyZLg246Gx5KBkdLGtvsCSzrE5YnzWWl12jHFkX/Bpy91umIG+dGzBSVUArpnWbXWV4Hqvpx+DabKU+k18xYxrBcKvkOFOmqBIbBXQqzk7FEkzdXEaPeoeEG750D5D191cOOLHARPC/RFNs3F5ttwVW8tn3zZuHfqE0c7V7F5/PFEiuzzivLwoXi8Eh8vFc+r/OTfsfcxU7UDTt8j4BBaATPFOQls32jPuNtuh3SXnBIQh4vwgUhvffLSyRXhMDhMXCQUxriDfNMQ8QvioLEz9OffKuS5l8I2OctprV9Aoti+0HwpKRfg5Z+Knh4kQvgSyDL0DzFtLScYbChqAMJ0frNBTrf7JXYcxIonAZhmKkur7ueNQgTO8xR4qRh85XJI+WMISjAZ5OFzwIl6eNc7RAKKjM3n1qLRNzP9553sqwRmyMP484BSkTTauNn9Vvx9zlpJ4YDx1cz3qcjBz9iB6Ol+fDXlTuz8Lnsbcm5zaJnRjJny+d5OWJUz+5fvwj4Qr3KkyiDB81Cb5ri1gqIx9SuMgenfeLz6twS1lPTRn7mB1zvluLuaQBRRWo5eg6HZ/hXrNkkMyV5nxmxSblKm/yDx88H4+0mEohcy+DpUXJEU8DCCrTUJmP+31xvBSt8rzWXDsWWgyo1qruubp+cCIdQ0+hLaq9c0w9TgQ5CvLS/cqgkZ6wOqWvGWJ1BFrSxl+TvxFNwWANgKWCwccKSHzOcdF7thmQGQ6mu8I75CYCtk3qxyhTqItI8cc8HDBbHfuGcdEJ+S9FJN/FtqwEu6HYsm9tJQOKmTy3RJk66yaqyoicvsEMhT7QJaR/20Oa8h0/luqrQQ6cHSHcJkdrxeZr8ZBWD+dwe1wCpQj80CGetHoo1gyy1qzoitozpPZLES9KfOBXENAAp5u48gMVhIJCyjy/aSjtZANJVf8YGPeGavjW4rvzco1NOa6NjioAw2CiuziN3IwFL7mkJ7EJR1qDbwMZ9WHY9a7zpN8WscGYC8xoc5ytp+E+bUyNH6C4Z1Dv5ROgfi077rgHkbP4t+kBbzrZYTnxASYAAA="
+  },
+  "crew": {
+   "image": "scenes/orientation-complete.webp",
+   "width": 1672,
+   "height": 941,
+   "coach": "team",
+   "focus": {
+    "x": 0.5,
+    "y": 0.48
+   },
+   "y": "48%",
+   "caption": "You're in, and you're not the only one. Your coaches and crew.",
+   "thumb": "data:image/webp;base64,UklGRt4CAABXRUJQVlA4INICAAAQDQCdASowABsAPrVGm0mnI6IhMAgA4BaJbACdMw4/Bye6QgGz2fPp+gC9Y/9FaAmzvEvyq+vo3VVA4FcBRQHi1xx+i7nDepfYH8rsYHUbQa7VHtk58wfYXZLyNjH6gqgzv3CvRasGlzdMGlt0o0N+wADrtRgoQANpMpFogWr7mtIjl1RBlgCWF05DanRFd5UbzQttyktMMAHB7e1Bba3LRmgrTHZ3dFEQOIp8+BOrGmnGiMWpYACnj8Qji/eV22nXoMNnAzPgWQaeHHA56z+62XQsvu5BqRdhpf+qqV4WcvgcxhgkqIoPah/DYnKmVO3j1idWPiLMJHdQ7C+N4G8dkklfcz+Cz7PxBOsf+o/C3Xqr050Mr2ZEYmiXgPToLfsysmcB5SjzmPlm/+8twikDWb+JW/7DqobyQL1AEisU1uHdbXuFWM5PDAjx63M0/xVr+1ygL+hwdx2qG90m5yzwU4qyncKe7kgMv8dHLxdRPUIWBrdTQYXkbchrNjys5yihDYNQlvmlJB+OYvnnrEXbv+4DLiMCLsXJFZj1qqRrIqMIOSp5pHb4BRhUpuia9PXns7CqfabF1P/cabyfbetK76l8/tkeirT4LY194H191xVEf+5XzzP4T63Doc012y1hxU/cRdIr3o4vosRxUqsi4PWYYuTtF5tIXxQU742ep23oJiAfbMHeGwsj4tWtUUpbqBzbtaZsu2+7AWJVBnYYdWorXjkdDf6didauVRNveLiGTY6vaMD89AOaQcIoFXyVknom8gyv4Zk9MndnyJbcmWGF/6d126izLROSwToP8natGVx+0aD5UMJJ31Iuf9P+V/nS6XBZvY3uf7zW2elwIbyO44dy5E2xRJpfGH4naFb/tIM/ljfMJ841mSZgIExl6Gsd6ZXFVyx0s5pLN7ZIQjP/RG/In2q7ygUB55wnYOqxW9TqlsgZauhslxNSYQAAAA=="
+  },
+  "log": {
+   "image": "scenes/lane-schedule.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "Schedule: every dose on one clock.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAABQBgCdASowABsAPq1KnEmmJKKhNVgIAMAViWMAwpH/4teKCIkzXFYVMGP7IeuBOiSDOuVKRAlTR8RkAAD+/obohE9Y3L/FDzW9g098szhXr85p2nFsKx449VdPAzG4ry7ltr4vfs3ZF+nhNupf5dx66A3hWC0fChiF7We+Zfa3MjGdmj1yiy1Vg+VO9Wac9yNUYfocYd+ARrDxx2nfUvwd0GPnmye0Fvneuug36syYWq2aSbJCNZW2V/CH8xzZCNd1DKLbkH/067/+mMBoOQaNR7JK3aO6ynJ+C6adlz7XxegmmT0b7/yBo7qNpTXQWV3K3veujz3jcAAAAAA="
+  },
+  "compounds": {
+   "image": "scenes/lane-compounds.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "The stack: everything you are running.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAADwBQCdASowABsAPqVCmkmmI6KhNUgAwBSJYwDKtYvPBEKGW9Uxuh5saDGMNYXwIbd6sD8QS0cfAAD+/p+nYVTDH9/I7fromNqA4tifCRGXTbjnIWrLTTvmoYV8KtbKHdnWO7i5651+LDN+i3q66DLy3+J7LZGSKRfPZV+w2zV3iKjf+OZ0RXmMfpunqSco2N/wRIhXEkSNsfZPJ76CLPmAL3sH9n+8qxxWn/RPz4POkajLiQ1yuC9jeKZr3GhZRLVLBEWb5HavQfJABB2UAER3UAI/yildvPVER+h3+C6gAYYmFqPlRTZGc5RcAA=="
+  },
+  "mix": {
+   "image": "scenes/lane-mix.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "Mix a vial: the concentration, worked out.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAADwBQCdASowABsAPqVCmkmmI6KhNUgAwBSJYwDFC7Alp1kDk9eM96TjduEKIXZqJk5NucMN7v3EAAD++9PfVF/OeHm52PSa0/XFLQ3d8+tOhWEYlk0DM60fxi2V9UZ+1JzJD0FL+SkUF2TLvIyqzSuyMq7ZsKHh1pKyWTmV5KWAaJC1GB/nuQlVVgyrB6k+0mjhJoTNVi9oL7LFECcmHdUNPlI0plbolmp60z+cb6sSyjRBmzKFLHJDIiY9bsuXoq7vSlEdzPOES0Xm9f0HmVJtrSEu0Xg/W12hk2+lgl3uqYQhXAU++53KoETXF13+wv99CuYa+bLAAA=="
+  },
+  "taper": {
+   "image": "scenes/lane-taper.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "Off-ramp: down in steps, never a jump.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAAAwBgCdASowABsAPqVEm0mmJCKhNUgAwBSJYwDBC+YVd1QSrVxn5bP2LvSkLhDXJOTcB2vYwIf3JIZGAP7741QwHCEzVrR0hhzH7d0HV9Pz1igVqNMNhTCae67PRFT+lFzRloWkXvZJmG0e8Eg6GiWv3i8/ozgUmrmhUBi5tnyujshDdnEwYLZNuGmnnfe1R1mZpPqRh/7SEl1eN3ovmv4O5ImNMAZk9+VqkI/Q69jJtcRFwZWPH5+M1mkZJTra+qLkYb4HqP8kDHH9JEJUwGVWBYy4fVBF1v9rBlsAB2SdtsJ4kVXfUoT4CaFdwgPR78BFysub4WJmgYpQAAA="
+  },
+  "levels": {
+   "image": "scenes/lane-levels.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "Levels, modeled from what you logged.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAABwBgCdASowABsAPq1InUmmJCKhNVgIAMAViWUAy+GLzy8IVlMmtFXPIkTRHbizgV0y8DxjYPq91nQgHgAA/vvT31RfzoLk31xc2RC/P8KGP1a3MavtVxyIFppISxfPqXtHPD4Mi8qnrfaAWevDx/iwIHVHNiVZNjQZTJsVc20YHvQFJwDFNT0G4fg1u8igYulJf8cMjWHjkNVjUvwd0GQHnO/vnyitWiY1T21LBgSgiPsE58nG1oyoqJEE1I54EnQ7slibTJG5/5AMZhJlokvRpXeReB++3F48tw2/POt7tNsxcSNIZUwvvu2WFeU4zipQsgAA"
+  },
+  "ledger": {
+   "image": "scenes/lane-ledger.webp",
+   "y": "50%",
+   "coach": "",
+   "caption": "Attribution: what moved, and what moved it.",
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAAAwBgCdASowABsAPrFGnUmnI6KhNVgIAOAWCWUAwQv/FXnS8IUpOob+K4K7Is5ZpuxTW5hNfnl0TuPAAP78APM5CYv5wCNbLzq7SRib4s1ZDBTgswtNfOxkknbI0nWYQKq927vlT25syTLMCRKQSawPq25JOIiGqiohIEhzWemrC6d1ixT+OSx72lEoyxtEzZtlTdND/0mGDz66f9ZOUWJfAt+c573FE6U8RLNDmt9zHqJ1aR6Wei7cf7+17BHZmnhPCYspmalwYE77XS2cxSR0h+x5opI0LSqL32v25OEQG3VnGpOryKV5EJFiAIHwSyxHaGey8xw4HsFwTCTIBpwA"
+  }
+ },
+ "acts": [
+  {
+   "act": "arrive",
+   "act_label": "1 · Arrive"
+  },
+  {
+   "act": "coaches",
+   "act_label": "2 · Your coaches"
+  },
+  {
+   "act": "train",
+   "act_label": "3 · The work"
+  },
+  {
+   "act": "fuel",
+   "act_label": "4 · The fuel"
+  },
+  {
+   "act": "together",
+   "act_label": "5 · Together"
+  },
+  {
+   "act": "door",
+   "act_label": "6 · The lab"
+  }
+ ],
+ "shareArt": {
+  "lift": {
+   "image": "scenes/titan-trap-pull.webp",
+   "coach": "titan-kane",
+   "focus": {
+    "x": 0.5,
+    "y": 0.45
+   },
+   "width": 1254,
+   "height": 1254,
+   "thumb": "data:image/webp;base64,UklGRswDAABXRUJQVlA4IMADAADQEACdASowADAAPpE0k0mloyGhPGgAsBIJbACdMr0QpqFEjeW9B+2t55z0AbxXvQn+ytEDZfiC5iwIrg/q8isZFDsJwp3m6Eu8wMu56WkZcFQi3NPp3DtoxX+e5zsgBtVovvSpbHbgWJfaO4Kf8t/L2dHwtXZ32KdS1ukuh3SuVHcRkgf58B4OYdtWc0PkoAD+6TTjnReVskfC9E/vAPoUtKVhPYXUsHHpY4jBSNrWcK2tTFZo33wr88qEv2olPeiarhFUYcT/mW7c1fDXsulIlsLEnyXhH8bFJ3WJ86CCjYVPFln87umwUahLWzdpsROW51Zmb4UU3UM2Uq+h+oqpj0O9twUq+zWDBRl8DdtQ/JvVNPJKHAGu9EAA9IZqvAxAUOzWd8vrAm7M3dQ289BSQqzgY44rVFsGp9PGFKzvlAwDRt+iL9wqRRBxUxYYBysuwPIEME92e9PRS2M6YSKOaTIvxC5Lx7VCu2CHHLg3tjAdvs5C6spqp1A4fwcug+KjQH+W3T35Rsa/8uD3DMh43j/bnKbROIRYJWhAtyckXzE2e43/yPlNt0rZkTRjZEqaTkiibu8T63Kn9sKyPPXAAqO5QsCeG2O4OGmBGZlC5B/DF74RvsvpbjJn/gHYjCc4T1I5q7+oevxNtN1gXulMIQ/6Mf15IQ7pc7nkuXSC/9mJzj2tOHZG+oiIYmqvt2iCA8vT0iMTwOE+kAQeDFIiT/JajUMYPUUmu8DtMqYqmK3c6KIqXtv80gh8e7ALPjIVe8RwVm0s1tNFq28mJ9iFWNvRCi+YWRppDHPHRr8EgxkXnDTsQxUnBJqEszw/UFi8aU2OqgJJpzi+46OBVyhnhUNVavBxMToEcGETHnNGNRQ88mBtZERhC/SvW68PcoxSxGcXOsFd6Ki+LG1lY4RtvMul9apBLdncxbn69ah5A7sEL23REmI/cWw9vX2T4UsiO9nPzt3qr4XZ7te5USe+XK51UYn1ZUhyyr/puWYTPnsFm+H+/PJgBGqvFdypvfxAHX5VOdcPWTryFVEuWht19rkQ08aTdIuPBplsE7C9sdwAqahdy55/R2h1GfQ58ytZWWtW2sq+gRvOMg5P50rnaUvpCJ7eyM3Um+6TMrmiQ3PoVSBfIw40pT/payd6IhEbnpP/PLhRNXFAyJICiSriBuiy9jq5t88qrWsBcPXcMrvKEaWKsZAFRZSYx6lL4cLxEi3tgS8vmBDcKc59WczO0DBy4Mm+IRG4MITBt2odNRU7tmK4arz6UgQJiratAAA="
+  },
+  "muscle": {
+   "image": "scenes/train-row.webp",
+   "coach": "dakota-jane",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   },
+   "width": 1254,
+   "height": 1254,
+   "thumb": "data:image/webp;base64,UklGRioEAABXRUJQVlA4IB4EAADwEACdASowADAAAoBCJbACpJzkHKSzEK/HgJ7YDnqPQfvEHoAdKp/h7QE3K4guRP3dGDa49QLs7w270ZSH3zzG+t3P7313kHsAfnr0V872oX0qjNS4yYTyUBFFCHPUYY95loNsNH/wCOmh1IC4cgxV0hu6bWPTQUrZQ3yl1kF1M2KzOCMpMlVKUH49MPLGewYA/uo+OQVXecm0/8JVuDb2xO2qf/pDg2uFcmZXJuEhBytSJgdx9FNzaZdXLA1sMzGlaoAwmmc+loy8QhZYHOiDzxhGbAaD6FZ9lK+iwaaY1cn3DR3hz1OzZFIwV2aKdQzdaVDIJY6a9L7y5LsGs8jaKwk3aWEBvrTOpsBEevDXUKwToD38awJcAlmVpto237K5vcRtwqsaeu1UfzeBjVyDm/l6j9tzP+l7SrZspXnuBuImp+hFaEXHAGseWmlkF2bW70081irgC2483lOXJBUnnCG6UuUQgChOqE9dJ+wq/PNcNpDcYCpSuQierBfqrxfNHYkR8OPFZAfz7zNf/oDL7Zr7KFIlD0oWIfpitr80SQo8v5NafSxYjWIc5gihHlPX+iXOxfenKj6Cei329u6QadoDpsnTJZvGOpie9kKEPHGBWa97Yul123PaMkOa5OtQg1QHXviSHFyI1Ci93Via17aj1VM717b4ML97uK+nHOwumffq/navnmlwueKM0S3Ubv9wcPuIlFZkVVUrhLN9gGxiI6kOwZ+FG4T+m5ZrABm+jbTDN4tLHxer4z5U3tXamzx9yeCpQwJWt2Ss7PTV96Rr0bXF5cpJdr8z0c7LJuagCY6KHqm1yblpItIaSBB3jOObY+V6OxAbL0aqPcQkBlpG/pNdHbzUNl5PIdb71kOvyqhxIjaOH/i8ZshbpqB9kVXn2v+gWH+uKxs29RjdP/f0hzfpqXqH0et6s1knsUVHNG1O7erHHfCENCEaEqCa01g3mytPzESmoDAgFylb7FDUspq17/Vavoskd77R/UvL2OAi97ZIEfqkRi3b58Y7LMeJevczgfYEbQ8BAlvr93vWlGNKXCTxINJVd3gpCTkKfqlZq8xdws38tfZ/yrhsuG4m4ZChGyazsoPnJ3Xhi+J0gvOb2NiL6fiUVQdiUbdzHzLJ9lQa1pQhiLOElILs6mmlcFEHQHxst+pKSWfCGEv2utGcUJUBWI//k3pAzcYero0HRhSFeUn0opRKPiPXLxiwaNWjQsQwA/2iWKrAVN3dqy5q5JEFK/af8S1bj4a1mL7S1/Ob3ETcNafCGCXRlu+wKlJjRvv0R5OSPxLfQ9UV7bY9WU1qIqamlmU2+QE2M9TMSo/Ew5irMePSVtzmjqHiB2Gn7Gr8VZsXGh15jmXdD2YyN2OxSOvVdbpuTcvgacNPxIjyWS1u6KAA"
+  },
+  "week": {
+   "image": "scenes/shaniqua-hero.webp",
+   "coach": "shaniqua",
+   "focus": {
+    "x": 0.5,
+    "y": 0.4
+   },
+   "width": 1254,
+   "height": 1254,
+   "thumb": "data:image/webp;base64,UklGRiYEAABXRUJQVlA4IBoEAADQDwCdASowADAAAoBCJbACdMoR8B8R5glhaYgQKv16idtl5gPN89EP+Y32v0AOlY/wFo27j8RfLaDKcB9eY0AEvsVTAu7+sfGRc5qoaYQqwP4rClunGjGn4xeh3gLPdwhjKCAvtJOWyv32PHvxPVbC8nmM2M1aQKTS1dUKPdabuY6T7pK422AA/ve/Nwxn1nMN//pzZ0jm1hlDj7MtPkQUsVU6aOWrtg14IlKNv33HgEZ0j2u4sdiHALnjbvD9+VqqsTYOFxP6HTXwHO/2PzNm1Y6AbkHOD3EsvcAN3d26qNWtKqgHtGfLjbBetf2UWZ35PSlm7V3Z58O0e+iw2nlaR9P7GBLae1rOaRoOmhm2Qe62va3nWoZJj3tQ3b+OzdBhEMouIc/4CDPqjSTNimlid1mQmaBdr/QtNas2zWhAfDANozXfqb+rZhYgWY+xI1ctCC4/wY51QE9pCfDl1Vwt4kTlg8rWiXJLL6uTraRKPzrxBnJRM62mXvrxsfs3ByhLD3MB0fatQlLqmOPj6K2Xv0hcIuJ8t5igwPXSVLtU9P1iCQdWhK5MqNHZGWKxHC6yTEYiPnY/JwqaEHSLge9itGzErTEOhxxksZJC/aVb0h9xgmDxw4zOuMGgmGN8ClqETF+EOYEvA9iczU83ajoVL3FwbbQqfPpeHqRr+UQHdHZBn/j7WhXfP/y/QBL53O5lLl400G0YdhWN+qXdUaGmJc7hz/0NkObyTU7WX1mxCyHM/QVQh1lokTTcbObFU7NAdAIsxm5YyAIYfDz6FVO9i6x99sW2jvescJh8mkC6A1Nlhi0VN7FF7bzRHC+mwg8dnTVSslMzaqnrW9paOziPrJeAi6PO/PGnWAdZVaA9BKGYVchv8f47nILbujVbftZhWarzy4asdA8sj4RqXrpU6+DENgUjdg5I1K576qSX4NyC/AfiZCcPD/DQ/J2O1Onyaj7hDfRB366wcgiatVr2JHCHUdPwiPoEnGiMqhDCNMs/PQfj4uFiBbuLgvZnU7WVYWs0KqptD8Rq2E0Wv21aONVF+J7aQBGGF+1XabYStd5RAiZ/gD6NPsQE/HKDYHWREJF7GvEX+JzHYb7+sIKOO5yRStVLxgZ/T/lp7o94nR08sR20/c4ZnwKeTEcOkNJsDMFLFTGlrfpA8xWZtLwsF1MxNudATLM4WdrrqzGrzL2DgxGUGmdT+wjFTJag6h9vm+FypvHxme8RT76D2jR4gZ1crD6CP+7eBeOeqzlRZnKUZ4Jlbw+iOBLFhPK0nqN9a3hQtwpUDm4bYhG1fidicxXq6f5AyoyB/wgeTh0/vksgHPZQ5Su+4QUK29w4SgCjUpp+kEFnabM2SaQTTUCZxIQQymWJ2Pc906A0HRhH7LoxJB4KQaTQAAA="
+  },
+  "recap": {
+   "image": "scenes/dakota-stretch.webp",
+   "coach": "dakota-jane",
+   "focus": {
+    "x": 0.48,
+    "y": 0.52
+   },
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRowCAABXRUJQVlA4IIACAABwCwCdASowABsAPqlCmkmmI6IhMA1QwBUJbACdMoR/FIDsxiiQnttbuJd5Q3lj/TWiLtxxL8r24N8DSgzP/H8cO+EpPq4qeXU3NeRC5cotP6dLzWyK44TTj9pn77yH3B8NokAAAP7jY3xtakfa/N5NXMRethIHEQtxUqDcCRZJbsyhsJOp3gc6MFF9q/r0XDxNYLzayJ0KllTqyyTy+k5vWLQ2Ay79h07K/lDChh5SCF6+98ojzcZ5lZUa7HclrZw6MjhrCSvSmmz/K7KGQfwSfuwJpdfl6WCsabTR6VabBiLAB5ERJBDLGfOVNLY0tYQJo0lCgfQ3QeVKYYCOu+a7YZGIyUV7toJzi6AOIIXASqbJGVUTuuu2tHKiBlBf+Dv7nuQHurSgpeetvNKHzH15fT4nnMRQ06+YJkEHgxU82trCLwePbznqA2o1lcy+1JhschpQmajnsRMvK7SuSzIgj/DNYOv/CA1b0GXKE0sX5+M1oWrXYklhuq6P9w94hV0p9vj9Jc0axjLlXUNG/CWHmpvnuPe3wax8/cXNfZbKXfPqFymDbCp+8XV5FEAa0bDJ74ok+xB9xaoQsEVmUJ3LBULX4Fcf5GUa/VufapI/U+j5f8uNbzcXsUJt5V7WxTJvtuBi+DqiU1q9ulp4tAkhyamXUcq9iXaeHGt6DSJDluSSzWp5ohQVBDUsvQSpBBOKMoeD34pgrJTMaoqPAyEMxqQm8faUfWG7WoX/9eN/66cu6wL5cDuVq4SQRB1jk6JhG38cFu+TMAO1rbpI45GywBSdhnrJkX5hwusLwzrzlKSqRctmR9y8EUCHlgOfSrMi+G5efl3TpUcQ6J2IQAAA"
+  },
+  "meal": {
+   "image": "scenes/nova-fuel-stand.webp",
+   "coach": "nova-reyes",
+   "focus": {
+    "x": 0.45,
+    "y": 0.35
+   },
+   "width": 1024,
+   "height": 1536,
+   "thumb": "data:image/webp;base64,UklGRoYFAABXRUJQVlA4IHoFAABQFgCdASowAEgAPqU8mEmmIyIhOZqoAMAUiWwAnTLoQlyNrm2QotFwD0bf570qug/zs3oY6Hb1pfQ76YSuaPu3gL4vv47QPrkin5ODiJwFZv6kHefni78OgB4vegURDgBF1YyN3aHurwXJATYUJdAkYAh2gNeakhWoaxtdfFhiGf38Qujug67hG0pZM1FxjErjwiukax7KXCu2pU2eTghKvfuzIW9JMacA7KtGgzgoJf4GgIHzHlw1X9wAAP73ag4sOBQ6V/cDmNlaveTJ3qYmZKK2FTqNR+3ahmO/mk5Zqcwkzqm7g4vVqKgGFSIvtYGtGDeKS3vJGwhoFpCiTG7IfkAhHiBF2Q03vDHFmv0t4IQVJ+AupmCNtVLFYVM8Tn43r00tredqaKAsqHl+Zh7Qb0YKapV6ENPh2skWNDZT40LjThoyrG5hy+fQndNgE8m+zohF5Is2sc/Q5QHhAIEUYI4+eGZ2oEHrKp2FbL53SjLApb6DkVmw1ZZN0UEJYxBzMnsqx8RxSLDNZksuMzD5/FxzAN7hldhvlgYEL2TbXSPLxraxHhaOtu8o+tBkjYNilBXDoyb5ouORW+zBBgSCQo5VsLm/iSB8nFVv8iQ/zYhkAyrS7MPG0pvzLuqM0EiH0GsGL4zy4mlXp59xRNiuhSLdia5S5HZ/HSN2Huvs4Xyu407Xs8P2U3WxqSufRl1Zt8/Af/wjnMz5R79qD3lceixcfyLgZ2C6QYamrnMLmTVjXDIZk+ExwiCMQGu9Y3Jwlkx2o8O+kbUha1yPGz5P3UZEHENcwvzpUCX5JpY47iafYxy4V7bOrf/qUSKmhKBgFhjVgqLY/CM+bM4O/uyrT1UhCDf/XOXh43oY5BrTFqdVR10XEbgJZT4zBrtUPgPabWs7S0C3vB04U6FhpIJa2a7NDK6XzUBjH4JeGlHoLbtmCMl6IAfm9QrOxNNdgs7C+qZSmgoa9M8JBpB3vFTROS5M77f8sJZzRNfU0yfI2JPkDACMb6RwCIQT80Vf8d1T1Or/5IIBqztYivqpShszEU8yOlbTwW200PMVgwheHOYCWrhYT3tUCTn7YfH1HdsOes2KCDUpFmdqYhXstb/aXYFdF8P3eWHhZkJrpnwoFcpFCwc3eMLcddv25yxGEn2/LPMGezVrZTEVcr5Iq2Gd/7l18I5zd/CsAzPC+61U7RdnGseyZS8+WJAKyjH22PIpwl8z5//9X/AQNXgGZjVyIscmxnvgWeQCOQClibZarZH8kxrI7MbwGK9Pg++QcTKGjwpgFalerYDoi2Ty8VVVjvT6PlcmkM4Z0yU8epz4I2eHk9dlGjgkhj5ToG8ENwD/5DBM7xQx9Wccg0soCp9O0ohyozUzZpZ+KGMZTFtulC2sMbQp5PRPO5OZO3CfsXJZNqvjqlYybKRFaP9G13ym+55FLFM4FZ0TYl7Jd58K+U44Ze61vlzyPuyWBKkLakWCeAMU9CJSxlFzcKoszip+XUhMvbvM46nnGXzHn7DyPTGnyEc58JLZ7GTpwukja7IAjaaM3kdUSnHRFiqheSu76AgPnD3kv8YeYkbLy8NeWKdT/v0rV5/+jvTmDwobG0/kiU2Y3LjfsFT5jY1cZ31heUPOhh7zWJtF+LVm0yR6PYteNEPbTVeRFg+5se4CUVnf0QDJ3ebuw2f+WMhlBxpU9oN/URUofj9iiWbM3/x6OBpv3Zi9w9DXx3DbPNmwqTaUkkA5nsBV/qSFen7DHEt6i6MIgvPDYLe+wTlztO3QAO4jSHX30miUzmIGesHZ/2FWRKDsjcrvbqld6V1m8nbnJJ7XrqCSo2dvnuYslf0N+ESh2Zcz9BanihXskR/zYHCnwKpSe5yr+AAA"
+  },
+  "scorecard": {
+   "image": "scenes/dakota-jane-page.webp",
+   "coach": "dakota-jane",
+   "focus": {
+    "x": 0.45,
+    "y": 0.48
+   },
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRsQCAABXRUJQVlA4ILgCAADQDACdASowABsAPrVGnEmnI6KhMAgA4BaJaACdMsDxMRnngOeA0wD+ASoHST4m/t51iGvkCOBdOGo12yvFTPH9W+wP0qhgdk/KflAbqgOz5Dc5qF/1Zy3ajmY2psaR2zTH+ViStufM2ETUCUqammAA/ngPlhMsvnlrnHS9lncoPKn6y3tXFbHFCA/eFC3h23BeousP0B19Wae7ZjVkLYxOBdAZwxcc/uq926b+N3s3BMC3lFP7d1mdio9ujdv6Y1wBASb6EfcTrV09+riSE6+V7vYjvbyR7osE1MSHie4u6u6UPybpHEgypqYxRnmFtmysbkSNpBe9VI9T8E7a56rtFRI3rJ62o5P1ZC1V87uS3aPJVCaSB2IAzeLccc0KrSK7lblRt86Oo41nlwy8d23RNy3xg4HRx1bqR6IaSEfj/mw9t6roMEw7uTWh1MLS61H1KLix8J61XLkTT5ho1fTYYAZEXhhOmdo403GMyeaVpFUsG5YISb210uqbF0pLBbzLr/zbtgdUeznaZAS+dK7imT9Js2W6Ywor8sHO/xKUK1MJ0Af+Np0gH7XvsS10PVl4H2VxxP6QPhvYBNYAL8zPkVDR5JEhjOm2REpchCqIOweqsjKz2hNYIb0Ky323KXhBPsrHi714nReuScP/V2n/363YWI8lNnyM4EFph7x60uYU5Plh11F9SU7k3lbXBtP/VW1w/BaCJRd9DdA6+rlu2Jiy4U65QymlToV6PhRrtzG2N7Ug6faawPszty8oi0+MP7Yz4xPh0OmDT0R+5T3mw/pFeD61+mt2TEDbrDumUjy9vbmfR+76YVJaKBrU5TxBe14TJczPGzUw0NToUqhVp9xNL8LiDjQFqAfjHL7nbJj7eaBcv571ScDxUlAfF/MBuG8ZjfhHK/H58b7+h2MEsOzlb0pAAAA="
+  },
+  "milestone": {
+   "image": "scenes/team-one-goal.webp",
+   "coach": "team",
+   "focus": {
+    "x": 0.55,
+    "y": 0.42
+   },
+   "width": 1920,
+   "height": 1357,
+   "thumb": "data:image/webp;base64,UklGRt4BAABXRUJQVlA4INIBAADwCACdASowACIAPrVMoEunJCMhpyyQ4BaJaACsMzRJZSIDopxFrevBroVy7ig4ELr74fQ0WUqQLntUZIFuPVTd3V6b4DuNlB9LPahRfkbg8AD++2fa07rOs4GaLofVaPwhqGjxZf9WX17UM5zBMVzZS+cZlI4AT4Wq9mFxdP7gLT9/diy5fcXyFY++WVtQsNK8eq2xyCTKO+AtJv2jlQyGtxvRETtnFs0/m8avUzra8NfbIBWjPbnr3cClEZy0yaDuNiN4qn6DW7gp1+PsUljTCs5Pv2+tCz9xbA9J+KXKMQRYrivAsCkVzs+yV/zopHxfvbH7D05YwpQGLYAKS1DNHbADscZAY5bmUCe/cn2Id8OXj/6KOYyxdcEnEgDxa8T+ckNzOyJV+Kb/29nbhna1EE6/EI8wW3P9yEjbmUWZibkpFefCfy2fwlyrn3v5ONuPtcUJV1IR7lFZrAjsgN/f8hGAagjH5I7SeBk0vnlzph3ziViEa7Ff+7AGRcEBBFfCgjlBjHvDLlxzdQTgPJBCYmSGq3eDBY5G54nw1sj5lSa1dJUwoOORJFMYQpaDiwrgwdK+m1SU1oZRxp+g4SU9QjMHKNVXNLAcQsmBCWz7gAAA"
+  }
+ },
+ "sheetsMeta": {
+  "scenes/nova-reyes-hero.webp": {
+   "width": 1024,
+   "height": 1536,
+   "thumb": "data:image/webp;base64,UklGRoYFAABXRUJQVlA4IHoFAABQFgCdASowAEgAPqU8mEmmIyIhOZqoAMAUiWwAnTLoQlyNrm2QotFwD0bf570qug/zs3oY6Hb1pfQ76YSuaPu3gL4vv47QPrkin5ODiJwFZv6kHefni78OgB4vegURDgBF1YyN3aHurwXJATYUJdAkYAh2gNeakhWoaxtdfFhiGf38Qujug67hG0pZM1FxjErjwiukax7KXCu2pU2eTghKvfuzIW9JMacA7KtGgzgoJf4GgIHzHlw1X9wAAP73ag4sOBQ6V/cDmNlaveTJ3qYmZKK2FTqNR+3ahmO/mk5Zqcwkzqm7g4vVqKgGFSIvtYGtGDeKS3vJGwhoFpCiTG7IfkAhHiBF2Q03vDHFmv0t4IQVJ+AupmCNtVLFYVM8Tn43r00tredqaKAsqHl+Zh7Qb0YKapV6ENPh2skWNDZT40LjThoyrG5hy+fQndNgE8m+zohF5Is2sc/Q5QHhAIEUYI4+eGZ2oEHrKp2FbL53SjLApb6DkVmw1ZZN0UEJYxBzMnsqx8RxSLDNZksuMzD5/FxzAN7hldhvlgYEL2TbXSPLxraxHhaOtu8o+tBkjYNilBXDoyb5ouORW+zBBgSCQo5VsLm/iSB8nFVv8iQ/zYhkAyrS7MPG0pvzLuqM0EiH0GsGL4zy4mlXp59xRNiuhSLdia5S5HZ/HSN2Huvs4Xyu407Xs8P2U3WxqSufRl1Zt8/Af/wjnMz5R79qD3lceixcfyLgZ2C6QYamrnMLmTVjXDIZk+ExwiCMQGu9Y3Jwlkx2o8O+kbUha1yPGz5P3UZEHENcwvzpUCX5JpY47iafYxy4V7bOrf/qUSKmhKBgFhjVgqLY/CM+bM4O/uyrT1UhCDf/XOXh43oY5BrTFqdVR10XEbgJZT4zBrtUPgPabWs7S0C3vB04U6FhpIJa2a7NDK6XzUBjH4JeGlHoLbtmCMl6IAfm9QrOxNNdgs7C+qZSmgoa9M8JBpB3vFTROS5M77f8sJZzRNfU0yfI2JPkDACMb6RwCIQT80Vf8d1T1Or/5IIBqztYivqpShszEU8yOlbTwW200PMVgwheHOYCWrhYT3tUCTn7YfH1HdsOes2KCDUpFmdqYhXstb/aXYFdF8P3eWHhZkJrpnwoFcpFCwc3eMLcddv25yxGEn2/LPMGezVrZTEVcr5Iq2Gd/7l18I5zd/CsAzPC+61U7RdnGseyZS8+WJAKyjH22PIpwl8z5//9X/AQNXgGZjVyIscmxnvgWeQCOQClibZarZH8kxrI7MbwGK9Pg++QcTKGjwpgFalerYDoi2Ty8VVVjvT6PlcmkM4Z0yU8epz4I2eHk9dlGjgkhj5ToG8ENwD/5DBM7xQx9Wccg0soCp9O0ohyozUzZpZ+KGMZTFtulC2sMbQp5PRPO5OZO3CfsXJZNqvjqlYybKRFaP9G13ym+55FLFM4FZ0TYl7Jd58K+U44Ze61vlzyPuyWBKkLakWCeAMU9CJSxlFzcKoszip+XUhMvbvM46nnGXzHn7DyPTGnyEc58JLZ7GTpwukja7IAjaaM3kdUSnHRFiqheSu76AgPnD3kv8YeYkbLy8NeWKdT/v0rV5/+jvTmDwobG0/kiU2Y3LjfsFT5jY1cZ31heUPOhh7zWJtF+LVm0yR6PYteNEPbTVeRFg+5se4CUVnf0QDJ3ebuw2f+WMhlBxpU9oN/URUofj9iiWbM3/x6OBpv3Zi9w9DXx3DbPNmwqTaUkkA5nsBV/qSFen7DHEt6i6MIgvPDYLe+wTlztO3QAO4jSHX30miUzmIGesHZ/2FWRKDsjcrvbqld6V1m8nbnJJ7XrqCSo2dvnuYslf0N+ESh2Zcz9BanihXskR/zYHCnwKpSe5yr+AAA",
+   "focus": {
+    "x": 0.45,
+    "y": 0.45
+   }
+  },
+  "scenes/nova-stretch.webp": {
+   "width": 1536,
+   "height": 1024,
+   "thumb": "data:image/webp;base64,UklGRpoCAABXRUJQVlA4II4CAAAQDACdASowACAAPrFGmkmnI6IhMAqo4BYJbACdMoMe2dRtrbt03nb/n2gJsv+0+BPjF+/tA+qiJdkgOinC6t5t+3Z7BI5NsxQWuCkcAMsY5xaWffxLXkU1MJMPIzXh5tfhVxPAE+/j+AAA/uKKPzI/lyz62djGkj/6HBt9na/5Ny4tMJOiXmdbw8GGfD9NDeGCamrgqX6u7js7y2/RKS02In9/vtKuGMALVDvgSQs5k3rszJpEVOtB2Gbmf83ET3IWJ4BuuAukjr+AEv+K/dEc9h/Oag4HUZtoydf9lG57sgWs5v5UsUI3sL/2FAVlFJxsKjdww824JsrmiPKbX+25PZTavyBeepGEmEW3HJcIUBwS1onkpAT6Ep5qPMr9vlqYIsJ19aFRNe+HMoP5ARkx9E8ohVB3uG//JUmR7hkV+sruGpBHBoPXjO3joEBAnvD3LE4zP5GM93dqkPl2TWwK4Evsk7TaaVTxj1wsnnt2pLBTfghHZ5FQIWZWERlP7Ts7ScBpGCgRK4B8zrpfqPdCadnMA9u/yW9/w2guSjXcLm4vVj/q3zZ7kA2LNpxMKODpU9qY3F/oiVm3Mtgboc/MvcPlgGIKPDU8dLiaMAIMJYe15Oy1BZ9WYUHP505iSTBvfBgWqjTq+euAH4wi48Qv1Zra+XwdnTYGM7QUCc/OFVX+loEo8ThXiZ0d06wBrdTyg9HNV+2hibbcHBeMadSPhtOoYBiWUFnhsQKimSQZ3njL5Tm3FBBCS5RKLbrueN0tb9jlfY7ZfV9aMriWneEsB/62lrf27r+zuEEHy4behix1UJ1mOn4DsnghJN35MS3x8KRXTFEofygq64RFKy1hxzYsEIN70IIqIdRHAAA=",
+   "focus": {
+    "x": 0.47,
+    "y": 0.48
+   }
+  },
+  "scenes/nova-water.webp": {
+   "width": 1536,
+   "height": 1024,
+   "thumb": "data:image/webp;base64,UklGRogCAABXRUJQVlA4IHwCAAAQDACdASowACAAPqU+mEmmIyIhNUgAwBSJbACdOUFT3i6MC6Z9Cm2zuxjea7MEaCZ5SNTDCxr8B5gaTJnX0AyFh0TI1+rH/JtUVK8prE1RzrpUIMWTAi1E7Bj9ne2236HaIMA6tKI40UAA/ioKFYa9Ne9vCVZK2ozbl1Z+/8JqvzDuzh8Xdncqn11Xlz6nYHiaAlKn380yk3yfvYo8ADA5xexvm1G9a2BcLVq27jZZKAQuAihQM34O+Qf7Q7JXMJiOlbpUejSJNddFiWF1bUhlws7LbBxYO5Qwz8+XE+fctfYerjiLMwPU90c/ZjJDxLe38iYWEdmtzGvaFSL2meVZ7Md1vSL1WrdZNWCA3Y+R6bgWxzqKbIxcS9YRhvAIgqjfvxphtDBfhgsnyOyR8XNeJCrMf9W7XeKfBPTCsPKe3rLhk3kg5nHvxdl0xo3JBYr2j+OyasB1iUkWHcIbBf0XbQKqjpELhO6KlFet4qdPxLdrEifEgKv+Z6wVTofc3Qoa21yG/i/GVfQPgA9N4fbN8rCQfTpvZNFtw3sTC5+CySSm+h9a+bWMPYKNK0Sr+3r5qXRueRjOmuoxd3KZwx+Ke0Pc+X81YUuZ6zT5WXo0Gth4xvq3/LahqD+sdXibWeAFQOcw0Ge2RZ8CEGLIdLjpuDfnQg4Dp1CGJcRjilr1ookIFh6+SpOcyxMkJ8j7z8Nw/vlNeYfYUMJbobqCXIjzKjVzltW6vATioeKBhvu/dA60cvC8nx+cWhbQ6/5th6OYmecHYJkbXRbsDnmtxF4Zjkk2GlCCKnNA/7dnCMowRXchDeYBzsq/dsyj8dbPEbCTHKjlwvRkDa/IAAA=",
+   "focus": {
+    "x": 0.42,
+    "y": 0.45
+   }
+  },
+  "scenes/nova-week.webp": {
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRpYCAABXRUJQVlA4IIoCAACwCwCdASowABsAPrVInUmnJCKhMAgA4BaJbACdOUFVdYadejR7dW7a95Is3I+f8RwGbEZQPADSofIuhUz6qggpIhlZPNMjqSOVisLdBF2YA3nA3QOoQgFUkRnST44eJXE2jQrPl0AA/I/3YRzwvoqZFPx6JZVdjHAfPXpleqHg1VNbOdwbdxT4IJeRQP9IE1e+J1/zt9GMrngWCTOwVRZg45eI2wBqaSjMYHNqG1PIpA3jTDx5huBC49ZK/hoBgL5Zr5pJfg8WhASoV0aLDB8ufg+wqCsYeGeUCVg9ypDL8/VN/SYoX8/dc1RqotFaPqCmwFVW6AKcS2Dp0m4t1n+hj3vUaNkqfowfo5h8KrYOBSVjNzLROF07nJLzXhjg+TGWIMhLN6rQWePGvZF9te/YWvPIPbAwm78ACXts+XYiZD+zFBlkUJWlRjN+oyzLzQuaedODIl1f/sdxqH1xfmIn1hspOY0eO5rTXjjUhuoa1vd3nedaHyLmaqVi0zMvG8426LW8DlhxXlKbza3MPQvKYt0VXelgzUTpVPQK/RFKJqMjXq+QuFRpw6KEQrQ2b9u+01ThsMtBZkmsG0Dfg60q5txMiTxWcmNuHo2WkWl9Hwy5MF2XAGxoxFWI6r54OP6mOBy4cNPWhwYtdbtErcu/ZNg8e70UprB+ciMQOWJNDO9FHpl19BvY3gWepOrODlvtHZIvgIUwUvW+te7aCb6mGTuX3/+hS6Hd4x47gk1+AhrTdd+Ri/upJUi2110hXsJPRZZl8+XjUBzsQO7mIW62OzFmodU5nFWnBtStW29rJ+kWBPY9+3+1POP6+UzXiJtj8pEM5TNpTIdkib5EjaLlKDGHaT6K3ugAAA==",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   }
+  },
+  "scenes/nova-fix.webp": {
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRsgCAABXRUJQVlA4ILwCAABwDQCdASowABsAPrVInUmnJCKhMAgA4BaJbACdOUFSHfRmB3j7hvWY4m3g54vdSfVd3mOzRdxOI5lZyjZL+9pMFcNSGOVIZ95ANQvpVDPqul6X1e6VXsM+0sd/funrMboOnzvgJBA+p691eemp0fp0fsfkAAD+6KVqAq4cyStsObbIAIltjc1pymnfDqEi0pPNbPrOM4MlIvv5axCKGSeM+Vsmyj6q82kI7plCCmC3KKAF7NfklsdXmoiHs3MTB9eUcnF+3xJFma7jf/tlnEQ+Qt6g12AjeBbR4S4sooa6ISbksZOdceZ2X1NT1urzzvVVY+un8Qjn5JN/aXV8n599nLurkecZIJHRq3P42BvlD3SCyA1irEdRSv12iTAQuwTtLBk1U/TEKX6F9N1SM2TjXwevsdrgWsSHMZjh2PSMsZ3D7pFQL1khPLLxSBuvW1MapQ053XYBI6+9qKjOfOE6bLQeeNqhZCQ3EH1FVUDRjd4wJl9c490U6iHH2sZ0dIAa4a+kBN/zxbj/cNDgr1tYgdUFTz0c4vO5vIm4bX96LroWD0Old7NkRDnzCzJePgFXc1T2DzPxLAzaPflb1gJKA55Y5HOYFj6OmQh/m4Vij0PlniOkoHlER0Dp6g0euqqR0AGJXbQE1nH+AMzwZMb7kz7kftgohvLcEwu3pBY/bG9Av/n5hsLhzsHnCYy0LdVz4LGcRU17Kdd1rdnKLdNx0p7jWzrq6lGn/pHxzbaRFCFaBxyOACVfZUk70r0fMNxHAaxtwRMer9/Crryf3kO2SIsdXz1iZpXh9d/HZBggTwp3D8vUkWeXqxy5Rx38QqAWBPhSv0v8d3cJu4qJ3YUkqFVdcjDV9Bq65QYVuvosYPn3q3HN+7Wew3ek95xQ43vdBMBOyF3Yi99A2vhhmfX8uQN/3jAD9WdvpUAA",
+   "focus": {
+    "x": 0.55,
+    "y": 0.45
+   }
+  },
+  "scenes/nova-cook.webp": {
+   "width": 1024,
+   "height": 1536,
+   "thumb": "data:image/webp;base64,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",
+   "focus": {
+    "x": 0.45,
+    "y": 0.45
+   }
+  },
+  "scenes/train-heavy.webp": {
+   "width": 1254,
+   "height": 1254,
+   "thumb": "data:image/webp;base64,UklGRsoDAABXRUJQVlA4IL4DAACQEQCdASowADAAPpE8lEmlo6IhPH34ALASCWwArDK4xIkfAqdAegDbbc8p6AN433or/XWiBtNxBcxfs2NMcH9T0VvIv30psK4C+O1FJLjIiNA8geoeOa6/hBN9jxbPM64f15PsSrOeoOWypGx5hlO3L2Kdbpetmy2Ld7rIbjrFpTTpWxVgYGOVFeygMXAz4ybwXUF0AAD+6TTg1Ys0ncIbtsqGjRGo7EnEUXgdI1VCVMW9P0zGDxm2U0eJircP2/maqJ9s0z7HZ/+9orOtM1K0cNPKs8WH9Xu6zGwEPl5vVtv0yxK0Kw++O7OCBIZNMO1HCiXJg7I4zSy3d/lal/mQlRmybYtLIHJkL+U+x6U/J1Z7W8NDR//WDyX0mUauXCtFC9SEvDj09ZZWzJx7KnmVZ1fb8K2h/7qo430A5SMwQgiAViTgxN6nLlvYxNAOwwauXf7lpmhGqP8ibNfOxjUrhfp+qE0Xj1Dwl6wPcZpjiUz6woKlm1O8ICiSg26qFFNQwelja6GR2fqn0cibgVAOYGqDYLZ46VKgSkvT88bTtqz20ORSkR7JiQsSRmQLEBbRzdXoIgq1dnE85fDGE3k9UIAytNliwbAUsB6zP+T3NmkT7sa1Q1M90Qw2lc803h2f1KpWfffnQIaBe4p5jILU2iCbM63zcLnADzI4Qj6nIp2XhVzP2q/m1WwmT1/28yX8QX5KwqI5++ETRAqLYANSBjmhoLxXeAY7T3TfhagDXnu5tv/fLU9El7LH5KEZWhdkO3hQkSb+0oTN1jNRILLCv4ZEMTLcreyLP/pVeyB+evh0zZZGTeDxEILKKbUwWbnrRQk4KY27pp5SF+2MfTMGvUiWrp/+ehJB9xzkGqrKIwt+HEp+au/QdGohe9xHzhqLt4ludtv2ClDEdLS8fEkCZmuJ2iI9Km2ty4dhpBQpAv7EMveKVUWgWrsQx/cZd8GaHnk4UcIHxtzreHEPfWsz8vz3hW8LwETpbHwKLhZhOgIyVoCp/HDuhVy6tEsB/H9ISOXufc91Y6tC17ZXPWHYsKaeiPHX668yZvlih1i7rpe4f9yDByaj1IQlorlZk9EE4+UfrEfjST+6c3LbP77Mzbf1N+LODDpNSql4eXs4PeXoOi0ODIHLL8LkZMqwbiY2ZsVXEERvUrnJGOWcL3EiKnFql5K/n4LUBwz5rntiZFaUMNYcxgai8mFbsG2sjXjxbRFXMwzekWMmj3VxppbaI4IgKmArFiZGuIZV/4m/xA1sXRjDHWSRGYdvyAAA",
+   "focus": {
+    "x": 0.42,
+    "y": 0.48
+   }
+  },
+  "scenes/titan-row.webp": {
+   "width": 1536,
+   "height": 1024,
+   "thumb": "data:image/webp;base64,UklGRtwCAABXRUJQVlA4INACAADwCwCdASowACAAPpE0k0mloqGhOqgAsBIJbACdMwAFJoM4EGz2zfO66blvNVmCbg8QXKH67jA+O0B1UENJ8hP1QO8ApC4l8+Xu/cFHa9/wnLwStLLex9yxhQc9vE8RE5qk2i6QL9iQAAD+6UPQYIJ0lenCbXB7fl3W3sxz4qY/UCQgCJ9Z4/LXgxJK1R9Q0uocr1PE86YwpTJWcTKDXkczJP/TqoWwQhcbAHxzfy36JdIyT6o38Xl1hg3idHLEGBNtLZmTy2ozaMh6Ky83W9M0p5xThkYD59Yud/aHwxqMWRDaYKa6/cZQPQoPKoWclQNigMFSJRePVroCFfPKcHKelP/r9kHsthJ9gN1NV5T6Oy7ScCBvj+NjiANZvqD+OjYqgAMSBAnnHjG2ZQk33KoBqhpXTlXFUI17kxzqVt+BhxgWgvpWqhA8VVutNKzRTr7sK1GV1P4dqmk6JRdtl47e3U2LScSah3X/qjcWzan+yl/ZuCz18VneFiY762MnLPmtep5KgIGaDsyWT+ZAqztr753U0iDuI8ft/9i+01eeMoOYvyiqmd1/JbscKMA3/67OZY8vvypWNuhS8Qf23OLttjxGdGDanSI5G9Se6o3LFGSDDmT1nqFoVKA/H/O/NOVkXiBK6GyyQ0e/CdMe15/Abp3ekSNWNeV1Tk3T8+WfEhCvEbuugJW17chu6FPdIEanGwOohMKT0nQxvHZIcqqgrUM6xoRCX9YpSXD3Sj7/KxZTWIpaw3R4kwDW4YctK+waa/jNjT8EsOw8G9b2+YMa7vto97o0gWK52EtoLO40fkEQXyicSdcZxvXPnNc4qagCgCxTaix5rVIqVHr/2vpylHq0K+YdsN1nwD9r4w2+famc6cfEqEKXq8N/97NZy9e/xDny14zwoZPM0YWQ9GTLgYvc6hJD0FpaWf31kixXlCoZjIjh42nVa9qcX9wAAAA=",
+   "focus": {
+    "x": 0.47,
+    "y": 0.45
+   }
+  },
+  "scenes/dakota-squat-2.webp": {
+   "width": 1500,
+   "height": 1500,
+   "thumb": "data:image/webp;base64,UklGRtgDAABXRUJQVlA4IMwDAABwEACdASowADAAPpE6lUmlo6IhPGgAsBIJaADBD3V4paUe2c9vZN9mCbWcQXJv6UjBtbuoE4CtW+ADtB6teKheh6iKoJ5L55vRvzwqhRI3m+z9n8qBos6oGD3TwwuPBCKAi7yaP1yLeC2c9vl90xqXMrnmGfi1N/1zChZ0Z8F6lfWnCdQYkbSoGVmAAAD+7QEX5o0hV0f4jZ8++Vv3V2im7DhExIRWJrHIB7ctpltlp2k9RF+KGJwKjroBzJ9ZXn8J8eLPlQt6hHWFXbb1WD1kTKHgWJBecM97rCFUZNbkc6NqYES+1Q3dUjQJWkB69yYYpj3gRj0Oj7cdkhf03NVNSebuZylrRWclx3+ONOtB/DWr6CYyHKB2HWEoDwozSOzSnrlZxUt1ZpJGA2xPtTTzLJSpn6nF/iCqE8Ve5rHQoiDUuvnGrVucaAOuxewHz7/6osZTZvhbSzhPPfWD58DuZfgZXieB38Um8AAnXsJSlWm6VB2Rh/xeyzImXedhyoon0/9trB5afDmX5jbowQCsIdMdg1ejApsTBu3Mko695ITpIIrAvZM6hDjNA643OOVzkr3tX1moyKpnd1883g1boO6FxN+TeGOUMbJ8nvAxijaMsnntz+L9XflXfqWS216qOMBg43GZK9V2oEBoQFyBqMnEvqp9WVFSnuLE/z2rYxLTsRE8vxbdOuELGSKnRFyP6Z1dQQAxlFEBZP5ix0DdvT46iV/3mdjgT7RGZRqo0p7VFsME6Z/TlA+WHInjSrz84IB84Yi6aRlk4I1yT9Q28/ki6TAOPQf/EmXatZrz0kR6Vf9PKQDauf70De82PzaHu5G4Wvkces+a/eQy32ZPzZc5x6PueHWU2+AMIHH8p0qRZTQn0L98VqDJvJnnmcUSDGpixCujytD7GSSPQoz0Ci7kTD1NOrmK5n6y9onlz48TZ0D6GULxvTHHfeT1pItLPga+Rpt9nkOYDXdtw3pOhvV8am8I+kc4L1ZonuJYeXX5wxH6shDuk6KWCU6At7sGzSg43uY4WqyL5ZbYBPPTP8MVh3J7wdgiS6aSQOZGZEQj0LNJNZSH9VY2LrpX4408sPmw92luRmfNey2dm0rVlscLsCnj8ktF23rd85Yz2kAU1+DR9PfH27EQpsCFRDaWbdBrjS/ct/Qiuye4f7SSjLYI+5cw9rc8tII9BZhTmFgkeWbUw3uC/peFtm3z9n+1Gmjz3EyH5PgSvVHMnUB6CKkyz8ev0E4SQDs1X12a1NRe5s2GbkuAGN1b78E+mHfspbkDwfMjKf+AAAA=",
+   "focus": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "scenes/dakota-stretch-2.webp": {
+   "width": 1536,
+   "height": 1024,
+   "thumb": "data:image/webp;base64,UklGRqwCAABXRUJQVlA4IKACAAAwCwCdASowACAAPpU4lUmloyIhOqgAsBKJbACdOUDefC1e0t2S7yJZgjQTQkQFeBdk+A/erKB/FebGk1mlePtOOMNwIox1UC+dEP9oJlgeZiZhtTkzpspi9Kc2S2iTuiWgQAD+6e+F1+Gq6qraVh17KXNqJ13E4Xuw9YF4czKndsh1+O6DQpP3WebBqAvSeyqgs9K9WCETpEZHznc7gb8zR+CGOeJxO8ObEdBMmSzvppXRzaiEazFgl+HKM7p8NvcG505ep74I/gPFrF7c/flEyTKU+xCsM9Gw0VAnfBSKV5TBuEYjZpTnWDiHG07FA14HNpHpC77CnUlUdUbil3stb5GdpljtN2ph+EMPKuwfx5ukCFL2SHjiuV68Sjp4aLvt4tJKXW/BHlT/GpmuYLbEUo3yPdeft2rrFcOazD1dSXsRGX70j2mR+yQWTVd+fbuTRRjx2tLgPSn8pL0hlSarADZlTLUvB/wGsFGeiCHDukoWBtkhrqkaSAcrm5P7/qUeKpcbhD7zGd8wT4ej42hOWiGQX+ClPgXM/CrPPtFdk5jBAKMfkzU9mbe9Rs3W/05j0TMmULTlmFZ0pfg+GMlleoE2hj9YmpBza7BmvBDBjn9SrfkWSrVAo+At3NaS22tbTtGYiEGW21Vh3YTshSXzFsqJVADrX4txdnQQpiwxtmsC4RBUbGvmc7bmDmQ3CvcijbedcGULy3Gox8rujau8D4kV+kFm8IokugfP3+G6nO29aM4rNXnd1zijMuFdGLdGtsAuGmw+OYouCOMkx3Py3cu46ooSGr1XZpC0+AbRN3efQ8HVO1Zy6CdVa4LFsBV3jXd4vHv6ZDXjD5GQNPjDSq+df5GJHOo4116w42xXhUaab/2isOscA1IO/BsAAAA=",
+   "focus": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "scenes/together-learn.webp": {
+   "width": 1672,
+   "height": 941,
+   "thumb": "data:image/webp;base64,UklGRpgCAABXRUJQVlA4IIwCAACwCwCdASowABsAPrFGnEmnI6KhMAqo4BYJbACdMspf8YEGy/2+6zuy3ecv99aAjSfR+RMY92BBl8i9lceOdCvnq/mRUDftCRVRp4uYx/bAJZsXorsW6qV9gBPeDV8khpSh27qkmgAAzjsp0AavxnYIIHXijt8rB7qPCaiO1zjJPxK4PAqjeTnTDkoKQOOiFqGMbIjF/rVfQNVUPuQaX9TLZz5IZH88gGuK3raFNZjYU1m9+0MbmmT8WavM8hHHr6Z4/eZpBIugHybJHM4W1VGnjeCw2BsfF0jBbhu986MZpkbf1bp/N+wB318RvJRIud+mp9fRzr7ELqb4TRbcMwkUp6viyIuoKgkRwx38gydK30IodDstt3RJmzuxvlcga7Yfe22DrdXGIGSXzTTyeLYeQ2Bfs5cNEXxeyOwLKbnljdKHluKlbSY+wCLb8jjtBGeuVrwMeUxQzRridq++B77N2UExjIp3DjnxS38dqS8uKlwb+5C7RY51NvlYUIng8h1feJjl759eRnLyREyo+gyPyGscLJFT/rK0ROxt6eaQBdhz2uTUfstPHtx/r5l9G86f2+mG7qOU+Ubd9xpPz3ck7etUvtem6DZWg+cP/hVxjUdA+RIP9/LkxOW91W2ZbyjwsvjokKlwIgzYwocEx/aGrKm/2aFN6mfkYI/rkwJMayHvPwW2MPOvOU6DeaqBWUWMlhqnHgky7m93e0puYHenH0hqfGDAm3i8JiK6YlJIoqaOrVeYwZq8q+y+KogOTEDo2Pf6xa34/3/Bokn7zpbIncAvN58GzHRFvyU9oQDHIHVS36JUxn+KaKBd/2/HaSs3h7dMivu/gp5pB37Ygd8Bc3e9BBzdc/eAAAAA",
+   "focus": {
+    "x": 0.48,
+    "y": 0.36
+   }
+  }
+ },
+ "bundled": {
+  "at": "2026-09-23T00:43:50.845Z",
+  "from": "assets/story",
+  "frames": 34,
+  "screens": 18,
+  "encoding": "lossless webp, native size"
+ }
+}

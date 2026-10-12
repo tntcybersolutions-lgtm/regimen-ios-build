@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex">
+<title>Video</title>
+<style>html, body { margin: 0; height: 100%; background: #000; } iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; }</style>
+</head>
+<body>
+<script>
+/* The form video, served from app.formedlabs.co for the iPhone app. Inside the app the page's
+   address is capacitor://localhost, and YouTube's player refuses to play for a page that cannot
+   send it a web address as the referrer (it shows an error instead of the video). Framed through
+   this page, the player sees https://app.formedlabs.co and plays. Messages are relayed both ways
+   so the app still hears "playing" and "cannot play". */
+(function () {
+  var YT = 'https://www.youtube-nocookie.com';
+  var q = new URLSearchParams(location.search);
+  var v = (q.get('v') || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 20);
+  if (!v) return;
+  var f = document.createElement('iframe');
+  f.src = YT + '/embed/' + v + '?rel=0&modestbranding=1&playsinline=1&autoplay=1&mute=1&enablejsapi=1&origin=' + encodeURIComponent(location.origin);
+  f.title = (q.get('t') || 'How to do it').slice(0, 120);
+  f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+  f.allowFullscreen = true;
+  f.referrerPolicy = 'strict-origin-when-cross-origin';
+  document.body.appendChild(f);
+  addEventListener('message', function (e) {
+    if (e.source === f.contentWindow && e.origin === YT) { try { parent.postMessage(e.data, '*'); } catch (x) {} return; }
+    if (e.source === parent && parent !== window) { try { f.contentWindow.postMessage(e.data, YT); } catch (x) {} }
+  });
+})();
+</script>
+</body>
+</html>
