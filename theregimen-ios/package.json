@@ -2,7 +2,7 @@
   "name": "theregimen-ios",
   "version": "71.0.0",
   "private": true,
-  "description": "The Regimen â€” iOS shell (Capacitor) around app/index.html",
+  "description": "formed fit native iOS shell",
   "scripts": {
     "build": "node build.mjs && node build-story.mjs",
     "sync": "node build.mjs && node build-story.mjs && npx cap sync ios",
@@ -16,8 +16,11 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@capacitor-community/bluetooth-le": "^8.3.0",
     "@capacitor/app": "^8.1.1",
     "@capacitor/core": "^8.5.2",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/haptics": "^8.0.2",
     "@capacitor/ios": "^8.5.2",
     "@capacitor/local-notifications": "^8.3.1",
     "@capacitor/share": "^8.0.2",
