@@ -1,0 +1,872 @@
+[
+  {
+    "id": "dj-a-073",
+    "topic": "rows",
+    "title": "One-arm dumbbell row form",
+    "keys": [
+      "how do i do a dumbbell row",
+      "dumbbell row",
+      "dumbbell row form",
+      "one arm dumbbell row",
+      "single arm row",
+      "db row",
+      "bent over dumbbell row",
+      "dumbbell row technique",
+      "kneeling dumbbell row",
+      "bench dumbbell row",
+      "one arm row",
+      "dumbbell rows"
+    ],
+    "match": "\\b((one|single) ?-?arm (dumbbell |db )?rows?|(dumbbell|db) rows?|(bench|kneeling) (dumbbell )?rows?)\\b",
+    "body": [
+      "Put one knee and the same-side hand on a flat bench, or stand in a split stance with one hand on the bench. Flat back, chest facing the floor, the dumbbell hanging straight under your shoulder. Brace like someone is about to poke you in the stomach.",
+      "Pull the dumbbell up and back toward your hip, not straight up to your armpit, like starting a lawnmower in slow motion. Your elbow stays close to your side. Pause for a second at the top with your shoulder blade pulled back, then lower for two to three seconds until your arm is long and you feel a stretch across your back.",
+      "Keep your shoulders level and your chest square to the floor. If your torso twists open to finish each rep, the dumbbell is too heavy."
+    ],
+    "more": {
+      "why": "Rowing toward your hip lines the pull up with your lats. Rowing straight up shifts more work to your upper back and arms, which is fine, but most people mean to train the lats.",
+      "how": "Knee and hand on the bench, flat back, pull toward your hip, elbow close, pause, lower in 2 to 3 seconds to a full stretch. 3 sets of 8 to 12 per side.",
+      "mistake": "Yanking the dumbbell up with a twist of your whole body. If the weight only moves when your torso rotates, your back is barely in it.",
+      "beginner": "Pick a weight you can row 12 times per side with a pause at the top. Start with your weaker side, and match the reps on the other.",
+      "home": "A loaded backpack or a jug of water works for rows at home. Brace one hand on a sturdy chair."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "I feel rows in my arms",
+      "Barbell row form",
+      "Seated cable row form"
+    ],
+    "related": [
+      "dj-a-074",
+      "dj-a-075",
+      "dj-a-081",
+      "dj-a-034"
+    ]
+  },
+  {
+    "id": "dj-a-074",
+    "topic": "rows",
+    "title": "Barbell bent-over row without your back taking over",
+    "keys": [
+      "barbell row",
+      "barbell row form",
+      "bent over row",
+      "bent over barbell row",
+      "how to do barbell rows",
+      "pendlay row",
+      "bent over row lower back",
+      "yates row",
+      "underhand barbell row",
+      "bent over row form",
+      "barbell rows"
+    ],
+    "match": "\\b((barbell|bb|pendlay|yates|underhand) rows?|bent ?-?over (barbell )?rows?)\\b",
+    "body": [
+      "Hinge first, row second. Stand with the bar over your mid-foot, grab it just outside your knees, and hinge at your hips with soft knees until your torso sits somewhere between 30 and 45 degrees above the floor. Brace hard. Your back stays flat, the same position you would hold in a Romanian deadlift.",
+      "Pull the bar to your lower ribs or upper belly, elbows going back at about 45 degrees from your sides. Pause for a moment with the bar touching, then lower it under control until your arms are straight. Your torso angle should not change between reps.",
+      "If your chest rises a little more each rep until you are standing almost upright, the weight is too heavy and you are doing a shrug with extra steps. Lighten it and let your back do the work."
+    ],
+    "more": {
+      "why": "The barbell row trains your whole upper back and teaches you to hold a braced hinge under load, which carries over to deadlifts and to lifting things in real life.",
+      "how": "Hinge to 30 to 45 degrees, brace, flat back, pull to your lower ribs, pause, lower slowly, keep your torso still.",
+      "mistake": "Rowing with a bounce from your hips. A little body English on the very last rep is fine; a hip bounce on every rep is not.",
+      "beginner": "If your lower back tires before your upper back does, use a chest-supported row for now and build the hinge separately."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I learn to hip hinge?",
+      "Chest supported row",
+      "I feel rows in my arms"
+    ],
+    "related": [
+      "dj-a-073",
+      "dj-a-076",
+      "dj-a-024"
+    ]
+  },
+  {
+    "id": "dj-a-075",
+    "topic": "rows",
+    "title": "Seated cable row form",
+    "keys": [
+      "seated cable row",
+      "seated cable row form",
+      "cable row form",
+      "seated row",
+      "seated row form",
+      "low row",
+      "seated row machine",
+      "how to do seated cable row",
+      "cable row lower back",
+      "should i lean back on seated row",
+      "v grip row",
+      "close grip cable row"
+    ],
+    "match": "\\b(seated (cable )?rows?|cable rows?|low rows?|seated row machine|v ?-?grip rows?|close ?-?grip (cable )?rows?|lean back on (the )?seated row)\\b",
+    "body": [
+      "Sit tall with your feet on the platform and your knees slightly bent. Grab the handle and sit back until your arms are straight and your torso is upright, leaning back just a few degrees at most. That is your position for the whole set.",
+      "Pull the handle to your belly button or lower ribs, driving your elbows back past your body. Squeeze your shoulder blades together for a second at the end. Then let your arms straighten over two to three seconds and let your shoulder blades reach forward a little, without your lower back rounding to chase the handle.",
+      "Your torso should barely move. If you rock back to start each rep and fold forward to finish it, you are rowing with your lower back. Lighten the stack until your back stays still."
+    ],
+    "more": {
+      "why": "Keeping your torso still forces your back muscles to move the weight. Rocking turns the row into a swinging hip exercise.",
+      "how": "Sit tall, slight knee bend, pull to your lower ribs, elbows back, pause and squeeze, return in 2 to 3 seconds with a small shoulder blade reach.",
+      "mistake": "Leaning way back at the end of every rep. A few degrees is fine; if you are lying halfway back, the weight is moving you.",
+      "beginner": "The V-grip handle is the easiest one to learn with. Start with 3 sets of 10 to 12 and a one second pause on every rep."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What do I do with my shoulder blades?",
+      "I feel rows in my arms",
+      "Lat pulldown form"
+    ],
+    "related": [
+      "dj-a-073",
+      "dj-a-076",
+      "dj-a-067"
+    ]
+  },
+  {
+    "id": "dj-a-076",
+    "topic": "rows",
+    "title": "Chest-supported and machine rows",
+    "keys": [
+      "chest supported row",
+      "chest supported dumbbell row",
+      "incline bench row",
+      "machine row",
+      "row machine form",
+      "t bar row",
+      "seal row",
+      "chest supported t bar row",
+      "plate loaded row",
+      "hammer strength row",
+      "rows without lower back"
+    ],
+    "match": "\\b(chest ?-?supported (dumbbell |db |t ?-?bar )?rows?|incline (bench )?(dumbbell )?rows?|machine rows?|row machine form|t ?-?bar rows?|seal rows?|plate ?-?loaded rows?|hammer strength rows?|rows? without (using )?(my )?lower back)\\b",
+    "body": [
+      "When your lower back is tired, cranky or just not ready to hold a hinge, put your chest on a pad and row. Set an incline bench to about 30 to 45 degrees, lie chest down with your head past the top, and let the dumbbells hang straight down. On a machine, adjust the seat so the handles are level with your lower chest.",
+      "Pull your elbows back toward your hips, squeeze your shoulder blades together for a second, then lower for two to three seconds until your arms are straight and your shoulder blades spread. Keep your chest glued to the pad the whole time.",
+      "Because nothing else has to work to hold you in place, these let you focus entirely on your back. They are some of the best rows for beginners and for anyone training around a sore lower back."
+    ],
+    "more": {
+      "why": "The pad holds your torso, so your lower back is out of the equation and your upper back gets the whole job. Less to balance means you can work the target muscles harder.",
+      "how": "Incline bench at 30 to 45 degrees, chest on the pad, dumbbells hanging, pull your elbows toward your hips, pause, lower in 2 to 3 seconds, chest stays down.",
+      "mistake": "Lifting your chest off the pad to heave out the last few reps. When the chest lifts, the set is over.",
+      "beginner": "If your feet slide on the incline, brace your toes against the floor or the bench leg. A stable base makes the row feel completely different."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My low back is tight after lifting",
+      "One arm dumbbell row form",
+      "I feel rows in my arms"
+    ],
+    "related": [
+      "dj-a-073",
+      "dj-a-074"
+    ]
+  },
+  {
+    "id": "dj-a-077",
+    "topic": "rows",
+    "title": "Inverted rows, the bodyweight row",
+    "keys": [
+      "inverted row",
+      "inverted rows",
+      "bodyweight row",
+      "australian pull up",
+      "body row",
+      "table row",
+      "trx row",
+      "ring row",
+      "rows at home",
+      "row with no equipment",
+      "suspension trainer row"
+    ],
+    "match": "\\b(inverted rows?|body ?-?weight rows?|australian pull ?-?ups?|body rows?|table rows?|(trx|ring|suspension( trainer)?) rows?|rows? (at home|with no equipment|without weights))\\b",
+    "body": [
+      "An inverted row is a push-up flipped over. Set a bar in a rack or Smith machine around waist height, lie underneath it, and grab it a little wider than your shoulders. Walk your feet out so your body is one straight line from your head to your heels, heels on the floor, and brace your glutes and stomach.",
+      "Pull your chest up to the bar, driving your elbows back, and pause for a second at the top with your shoulder blades squeezed. Lower for two to three seconds until your arms are straight. Your body stays one solid plank the whole time, no sagging hips.",
+      "To make it easier, raise the bar or bend your knees and plant your feet. To make it harder, lower the bar or put your feet up on a bench. It is one of the best stepping stones toward your first pull-up."
+    ],
+    "more": {
+      "why": "Inverted rows train your upper back and teach the full-body tension you need for pull-ups, and you can change the difficulty just by changing the angle.",
+      "how": "Bar at waist height, straight body, pull your chest to the bar, pause, lower in 2 to 3 seconds. 3 sets of 6 to 12.",
+      "mistake": "Leading with your chin and letting your hips drop. Lead with your chest and keep the plank.",
+      "home": "A sturdy table works: lie under it, grip the edge, and row your chest up toward it. Test that it is truly sturdy before you trust it."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I get my first pull-up?",
+      "How do I do a plank properly?",
+      "Pull-up form"
+    ],
+    "related": [
+      "dj-a-079",
+      "dj-a-080"
+    ]
+  },
+  {
+    "id": "dj-a-078",
+    "topic": "lat-pulldown",
+    "title": "Lat pulldown form, pulling with your back",
+    "keys": [
+      "lat pulldown",
+      "lat pulldown form",
+      "how to do lat pulldown",
+      "pulldown form",
+      "lat pull down",
+      "wide grip pulldown",
+      "close grip pulldown",
+      "pulldown behind the neck",
+      "should i lean back on lat pulldown",
+      "lat pulldown technique",
+      "pull down machine",
+      "lat pulldown grip"
+    ],
+    "match": "\\b(lat ?pull ?-?downs?|(wide|close|narrow|neutral|underhand|reverse) ?-?grip pull ?-?downs?|pull ?-?downs? (form|behind|machine|technique|grip)|pull ?-?down machine)\\b",
+    "body": [
+      "Set the knee pad so your thighs are pinned snugly and your feet are flat. Grab the bar a little wider than your shoulders, sit down tall, and lean back just slightly, about 10 to 15 degrees, with your chest up.",
+      "Start each rep by pulling your shoulders down away from your ears, then drive your elbows down toward your back pockets and bring the bar to your upper chest. Pause for a second, then let the bar rise over two to three seconds until your arms are straight and you feel a stretch along the sides of your back.",
+      "The bar comes to the front, never behind your neck. And if you are swinging back to nearly flat to get it down, the stack is too heavy. Your lats, not your lean, should move the weight."
+    ],
+    "more": {
+      "why": "Pulling your elbows down and back lines the movement up with your lats. Thinking about your hands tends to turn it into an arm exercise.",
+      "how": "Thighs pinned, grip slightly wider than shoulders, slight lean back, shoulders down first, elbows to back pockets, bar to upper chest, pause, return in 2 to 3 seconds.",
+      "mistake": "Pulling the bar behind your neck. It forces your shoulders into an awkward position and adds nothing for your back.",
+      "beginner": "Start with a weight you can pull for 12 smooth reps with a pause at the bottom. The lat pulldown is how most people build toward their first pull-up."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "I feel rows in my arms",
+      "How do I get my first pull-up?",
+      "Where should my grip be?"
+    ],
+    "related": [
+      "dj-a-079",
+      "dj-a-080",
+      "dj-a-081"
+    ]
+  },
+  {
+    "id": "dj-a-079",
+    "topic": "pull-up",
+    "title": "Pull-up form, from dead hang to chin over the bar",
+    "keys": [
+      "pull up form",
+      "pull-up form",
+      "pullup form",
+      "how to do a pull up",
+      "proper pull up",
+      "pull ups technique",
+      "chin up form",
+      "chin ups",
+      "pull up vs chin up",
+      "how to do pull ups correctly",
+      "kipping pull ups",
+      "dead hang pull up"
+    ],
+    "match": "\\b(pull ?-?ups? (form|technique|correctly|properly)|chin ?-?ups?( form)?|(proper|strict|good) pull ?-?ups?|how (do i|to) do (a )?pull ?-?ups?|kipping)\\b",
+    "body": [
+      "Start from a full hang with your hands just outside shoulder width, palms facing away for a pull-up or toward you for a chin-up. Before your arms bend, pull your shoulders down away from your ears and brace your stomach so your legs stay quiet and slightly in front of you.",
+      "Then drive your elbows down toward your ribs and pull until your chin clears the bar, chest heading toward it. Pause briefly, then lower for two to three seconds all the way to straight arms. Full range every rep: straight arms to chin over.",
+      "No kicking, no swinging. Five strict pull-ups do more for you than ten wiggly ones. Chin-ups usually feel a little easier because your biceps help more, which makes them a great place to start."
+    ],
+    "more": {
+      "why": "Pulling your shoulders down first sets up your back to lead. Starting from a loose hang with shrugged shoulders puts more strain on your elbows and shoulders.",
+      "how": "Dead hang, shoulders down, brace, elbows to ribs, chin over the bar, pause, lower in 2 to 3 seconds to straight arms. 3 sets of as many clean reps as you have.",
+      "mistake": "Cutting the range short at the bottom. Half reps feel strong, but they skip the part of the pull that builds the most strength.",
+      "advanced": "Once 3 sets of 8 to 10 clean reps feel solid, add a little weight with a belt or a dumbbell between your feet, or slow the lowering to 4 or 5 seconds."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I get my first pull-up?",
+      "Lat pulldown form",
+      "My grip gives out first"
+    ],
+    "related": [
+      "dj-a-080",
+      "dj-a-078"
+    ]
+  },
+  {
+    "id": "dj-a-080",
+    "topic": "pull-up",
+    "title": "Getting your first pull-up, assisted and step by step",
+    "keys": [
+      "how do i get my first pull-up",
+      "how do i get my first pull up",
+      "cant do a pull up",
+      "i cant do a single pull up",
+      "assisted pull ups",
+      "assisted pull up machine",
+      "band assisted pull ups",
+      "pull up progression",
+      "negative pull ups",
+      "how to build up to a pull up",
+      "first pull up",
+      "pull ups for beginners",
+      "first chin up"
+    ],
+    "match": "\\b(first (pull|chin) ?-?up|(can'?t|cannot|can not) do (a |one |a single |any )?(pull|chin) ?-?ups?|assisted (pull|chin) ?-?ups?|(pull|chin) ?-?up progressions?|negative (pull|chin) ?-?ups?|build up to (a |my first )?(pull|chin) ?-?up|(pull|chin) ?-?ups? for beginners|band ?-?assisted)\\b",
+    "body": [
+      "Start where you are, and build it in three pieces. Lat pulldowns build the pulling strength. Dead hangs build your grip and get your shoulders comfortable hanging. And slow lowering reps teach the pull-up itself: step up so your chin is over the bar, then lower yourself for four to five seconds to straight arms.",
+      "The assisted pull-up machine, or a thick band looped under your knees, lets you practice full reps with part of your weight taken off. Use enough help to get 6 to 8 clean reps, and take away a little help every week or two.",
+      "Two or three times a week, do 3 sets of slow lowering reps, 3 sets of assisted reps, and a hang or two. Many people get their first strict pull-up within a few months of steady work. It is one of the best moments in a gym, and I will be cheering."
+    ],
+    "more": {
+      "why": "Muscles can lower more than they can lift. Slow lowering reps let you train the exact pull-up movement with your full body weight, long before you can pull it from the bottom.",
+      "how": "Each session: 3 sets of 3 to 5 slow lowering reps, 3 sets of 6 to 8 assisted pull-ups, and 2 dead hangs of 20 to 30 seconds. Reduce the assistance gradually.",
+      "example": "Week 1, the band takes about half your weight. Week 4, a thinner band. Week 8, 5 second lowering reps feel solid. Somewhere around week 10, one strict pull-up from the bottom.",
+      "mistake": "Testing a max pull-up every day. Strength comes from practice and recovery, not from failing the same rep over and over."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Pull-up form",
+      "Lat pulldown form",
+      "Why are negatives so hard?"
+    ],
+    "related": [
+      "dj-a-079",
+      "dj-a-078",
+      "dj-a-077"
+    ]
+  },
+  {
+    "id": "dj-a-081",
+    "topic": "rows",
+    "title": "Feeling rows and pulldowns in your arms instead of your back",
+    "keys": [
+      "i feel rows in my arms",
+      "feel rows in my arms",
+      "i feel pulldowns in my biceps",
+      "cant feel my back",
+      "i dont feel my back working",
+      "back exercises only work my arms",
+      "how to feel my lats",
+      "lats not working",
+      "feel it in my biceps not back",
+      "how do i activate my lats",
+      "rows only hit my arms",
+      "back day i only feel my arms"
+    ],
+    "match": "\\b(feel (my |the )?(rows?|pull ?-?downs?|pull ?-?ups?|back (exercises|day)) in my (arms|biceps|forearms)|(can'?t|cannot|don'?t|dont) feel my (back|lats)|feel (it |rows |them )?in my (biceps|arms) (not|instead of) (my )?back|(activate|engage|feel) my lats|lats (are )?not working|only (feel|hit|work) my arms)\\b",
+    "body": [
+      "This is one of the most common things I notice, and it is fixable. Your arms are the link between the weight and your back, so they always work some. When they take over, it is usually because you are thinking about your hands. Think about your elbows instead: on rows, drive your elbows back toward your hips; on pulldowns, pull them down toward your back pockets.",
+      "Try a looser grip, almost a hook with your fingers, thumb on the same side as your fingers. Squeezing the handle hard fires up your forearms and biceps. Start every rep by moving your shoulder blade first, then let the elbow follow.",
+      "Drop the weight by 20 to 30 percent, add a one second pause at the end of each rep, and lower for three seconds. Most people feel their back within a set or two once the load stops forcing their arms to help."
+    ],
+    "more": {
+      "why": "Your hands are attached to your arms, so pulling with your hands recruits your arms first. Your elbows line up with your back muscles' line of pull, so leading with them shifts the work.",
+      "how": "Lighter weight, hook grip, shoulder blade moves first, elbows lead, pause at the end, 3 second lower. Put a hand on your lat between sets to remind yourself where the work should be.",
+      "mistake": "Going heavier to feel it more. Heavy weight is exactly what makes your arms take over.",
+      "example": "Seated cable row: drop from 100 lb to 70 lb, use a thumbless hook grip, pause 1 second with the handle at your belly, lower in 3 seconds. Feel the difference by the fourth rep."
+    },
+    "chips": [
+      "What is mind muscle connection?",
+      "Lat pulldown form",
+      "One arm dumbbell row form"
+    ],
+    "related": [
+      "dj-a-073",
+      "dj-a-078",
+      "dj-a-075"
+    ]
+  },
+  {
+    "id": "dj-a-082",
+    "topic": "grip",
+    "title": "Where your grip goes, and which grip to use",
+    "keys": [
+      "where should my grip be",
+      "grip width",
+      "how wide should my grip be",
+      "overhand or underhand grip",
+      "neutral grip",
+      "grip width for bench",
+      "grip width for rows",
+      "grip width for pulldown",
+      "which grip should i use",
+      "wide grip or close grip",
+      "hand position on the bar",
+      "how far apart should my hands be"
+    ],
+    "match": "\\b(where should my (grip|hands) (be|go)|grip width|how wide (should|do) (my |i )?grip|(overhand|underhand|neutral) grip|(wide|close|narrow) grip or (wide|close|narrow) grip|which grip|how far apart should my hands be|hand position on the bar)\\b",
+    "body": [
+      "For most lifts, your grip should put your forearms vertical at the point where the lift is hardest. On bench press, that is a little wider than shoulder width, so your forearms are straight up and down when the bar touches your chest. On rows and pulldowns, about shoulder width or a touch wider. On deadlifts, just outside your legs.",
+      "Overhand grips, palms facing away, usually bring in more of your upper back on pulls. Underhand grips, palms toward you, bring in more biceps and let your elbows stay closer to your body. Neutral grips, palms facing each other, are often the friendliest on wrists, elbows and shoulders, which makes them a great default when something feels cranky.",
+      "There is no single right grip, just the one that lets you move well and feel the target muscle. Pick one, keep it for a few weeks, and note it in your log."
+    ],
+    "more": {
+      "why": "Vertical forearms send force straight through the bar. When your forearms angle in or out, some of your effort goes into holding position instead of moving the weight.",
+      "how": "Bench: a bit wider than shoulders. Overhead press: just outside shoulders. Rows and pulldowns: shoulder width or slightly wider. Deadlifts: just outside the legs. Then check your forearms at the hardest point.",
+      "mistake": "Going extra wide on pulldowns because it looks like more back work. Very wide grips shorten the range and often feel worse on the shoulders.",
+      "beginner": "Use the rough knurling marks or the smooth rings on a barbell as reference points. Put your hands in the same spot every time so you can compare sessions."
+    },
+    "chips": [
+      "Where does the bar touch my chest?",
+      "My grip gives out first",
+      "My wrists hurt when I lift"
+    ],
+    "related": [
+      "dj-a-055",
+      "dj-a-083",
+      "dj-a-053"
+    ]
+  },
+  {
+    "id": "dj-a-083",
+    "topic": "grip",
+    "title": "When your grip gives out before your back does",
+    "keys": [
+      "my grip gives out first",
+      "grip strength",
+      "weak grip",
+      "my grip fails",
+      "grip gives out on deadlifts",
+      "how to improve grip strength",
+      "cant hold the bar",
+      "forearms give out",
+      "hands give out on rows",
+      "should i use straps",
+      "grip training",
+      "how do i get a stronger grip"
+    ],
+    "match": "\\b(grip (gives|giving|gave) out|grip (strength|training)|weak grip|(my )?grip fails|(can'?t|cannot) hold (on to )?the (bar|dumbbells?)|forearms (give|gave) out|hands give out|stronger grip|improve (my )?grip)\\b",
+    "body": [
+      "Very common, and good news: grip gets stronger quickly when you train it on purpose. Start by setting it properly. On pulls, the bar or handle should sit low in your fingers, near where your fingers meet your palm, not deep in the middle of your palm where it slides down and pries your hand open.",
+      "Then train it directly two or three times a week. Farmer's carries with heavy dumbbells for 30 to 40 seconds. Dead hangs from a pull-up bar for as long as you can hold a good position. And hold the last rep of a set of rows or deadlifts at the top for five seconds.",
+      "Lifting straps are a reasonable tool for your heaviest pulling sets once your grip has had a fair chance, so your back is not limited by your hands. Use them for some sets, not all of them, and keep training your grip on its own."
+    ],
+    "more": {
+      "why": "When your grip fails first, your back never gets the full set. Building your grip removes the weakest link, and a strong grip helps your shoulders feel more stable too.",
+      "how": "Twice a week: 3 farmer's carries of 30 to 40 seconds and 2 dead hangs as long as you can hold them. Add a little weight or time each week.",
+      "mistake": "Squeezing the bar as hard as possible on every warm-up set. Save the all-out grip for the sets that matter.",
+      "beginner": "Carrying your groceries in from the car, one bag in each hand, standing tall, is grip training. Start there and add carries in the gym."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I do farmer's carries?",
+      "Where should my grip be?",
+      "Pull-up form"
+    ],
+    "related": [
+      "dj-a-082"
+    ]
+  },
+  {
+    "id": "dj-a-084",
+    "topic": "curls",
+    "title": "Biceps curls without swinging",
+    "keys": [
+      "bicep curl form",
+      "biceps curls",
+      "how to do bicep curls",
+      "dumbbell curls",
+      "barbell curl",
+      "ez bar curl",
+      "curl form",
+      "am i swinging on curls",
+      "how to curl properly",
+      "swinging curls",
+      "curls with dumbbells",
+      "bicep curl technique"
+    ],
+    "match": "\\b(bicep(s)? curls?|(dumbbell|db|barbell|bb|ez ?-?bar) curls?|curl(ing)? (form|properly|technique)|how to (do )?curls?|swing(ing)? (on )?(my )?curls)\\b",
+    "body": [
+      "Stand tall with your elbows pinned at your sides, slightly in front of your body. Curl the weight up by bending only at the elbow, until your forearms are near vertical and your biceps are fully squeezed. Pause for a beat, then lower for two to three seconds until your arms are completely straight.",
+      "Your elbows stay put. If they drift forward as you curl, your shoulders are helping. If your hips kick forward to start each rep, the weight is too heavy and momentum is doing the work your biceps came for.",
+      "Curls respond best to strict reps in the 8 to 15 range and control on the way down. Control on the way down counts double here, because the lowering half is where most curl sets get rushed."
+    ],
+    "more": {
+      "why": "Your biceps bend your elbow and turn your palm up. Keeping your elbows still and your body quiet makes sure that is the job being done.",
+      "how": "Elbows at your sides, curl only at the elbow, squeeze at the top, lower in 2 to 3 seconds to straight arms. 2 to 4 sets of 8 to 15.",
+      "mistake": "Half reps that never straighten the arm. The stretched part at the bottom is valuable, so let the arm go fully straight every rep.",
+      "advanced": "Incline dumbbell curls, sitting back on a bench set at about 45 to 60 degrees, put your biceps in a long stretch at the bottom. Go light and slow.",
+      "home": "A resistance band under your feet, or a loaded backpack, makes a perfectly good curl."
+    },
+    "chips": [
+      "Hammer curls and other curls",
+      "Triceps pushdown form",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-085",
+      "dj-a-086"
+    ]
+  },
+  {
+    "id": "dj-a-085",
+    "topic": "curls",
+    "title": "Hammer curls, preacher curls and other curl variations",
+    "keys": [
+      "hammer curls",
+      "hammer curl form",
+      "preacher curls",
+      "preacher curl form",
+      "incline curls",
+      "concentration curls",
+      "cable curls",
+      "spider curls",
+      "which curl is best",
+      "curl variations",
+      "reverse curls",
+      "different types of curls"
+    ],
+    "match": "\\b((hammer|preacher|incline|concentration|cable|spider|reverse|drag) curls?|curl variations?|which curls? (is|are) (the )?best|other curls|types of curls)\\b",
+    "body": [
+      "Each curl changes where the work lands. Hammer curls, palms facing each other, bring in more of your forearms and the muscle underneath your biceps, and they are often friendlier on wrists and elbows. Preacher curls pin your upper arm on a pad, which removes all swinging and works the biceps hard in the bottom half.",
+      "Incline curls stretch the biceps at the bottom by putting your arms behind your body. Cable curls keep tension on the muscle the whole way up. Concentration curls let you focus on one arm with no help from anything else.",
+      "You do not need all of them. Pick two you like, do them for a couple of months, and get stronger at them. With every variation the rules stay the same: elbows still, full range, slow on the way down."
+    ],
+    "more": {
+      "why": "Changing your grip and arm position shifts the stretch and the hardest point of the rep. A little variety trains the muscle from more than one angle.",
+      "how": "Hammer: palms facing in, elbows at your sides. Preacher: armpit snug on the pad, lower to almost straight. Incline: bench at 45 to 60 degrees, arms hanging straight down.",
+      "mistake": "Dropping fast into the bottom of a preacher curl. The arm is in a long, loaded position there, so lower slowly and never bounce out of it.",
+      "beginner": "Start with standard dumbbell curls and hammer curls. Learn to keep your elbows still before adding the fancier versions."
+    },
+    "chips": [
+      "Biceps curl form",
+      "My elbows hurt when I lift",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-084"
+    ]
+  },
+  {
+    "id": "dj-a-086",
+    "topic": "triceps",
+    "title": "Triceps pushdowns with your elbows locked in place",
+    "keys": [
+      "triceps pushdown",
+      "tricep pushdown form",
+      "triceps pushdown form",
+      "rope pushdown",
+      "cable pushdown",
+      "tricep pushdowns",
+      "how to do tricep pushdown",
+      "straight bar pushdown",
+      "tricep extension cable",
+      "v bar pushdown",
+      "triceps press down",
+      "tricep rope"
+    ],
+    "match": "\\b(tricep(s)? (push ?-?downs?|press ?-?downs?|rope|extensions? (on|with) (the )?cable)|(rope|cable|straight ?-?bar|v ?-?bar) push ?-?downs?|push ?-?downs? form)\\b",
+    "body": [
+      "Set a cable at the top with a rope or a straight bar. Stand close, lean forward just slightly, and pin your elbows at your sides. They are the hinge of this exercise, and they should not move.",
+      "Push down until your arms are fully straight and squeeze the backs of your arms hard for a second. With a rope, spread the ends apart at the bottom. Then let your forearms come back up over two to three seconds until they are just above parallel with the floor, elbows still glued in place.",
+      "If your elbows float forward and up as your hands rise, your shoulders and lats are joining in, and the weight is probably too heavy. Lighter, stricter and slower wins here."
+    ],
+    "more": {
+      "why": "Your triceps straighten your elbow. Keeping the elbows fixed makes them do that job alone instead of handing the weight to bigger muscles.",
+      "how": "Cable high, elbows pinned at your sides, push to straight arms, squeeze, return in 2 to 3 seconds to just above parallel. 2 to 4 sets of 10 to 15.",
+      "mistake": "Leaning over the cable and pushing down with your body weight. That is a full-body press, not a triceps exercise.",
+      "home": "Loop a resistance band over a sturdy door or a pull-up bar and do the same movement. Bands make the bottom of the rep hardest, which suits triceps nicely."
+    },
+    "chips": [
+      "Overhead triceps extension form",
+      "How do I use cable machines?",
+      "Biceps curl form"
+    ],
+    "related": [
+      "dj-a-087",
+      "dj-a-084"
+    ]
+  },
+  {
+    "id": "dj-a-087",
+    "topic": "triceps",
+    "title": "Overhead triceps extensions and skull crushers",
+    "keys": [
+      "overhead tricep extension",
+      "overhead triceps extension form",
+      "skull crushers",
+      "skullcrushers",
+      "lying tricep extension",
+      "french press",
+      "ez bar skull crushers",
+      "dumbbell overhead extension",
+      "overhead cable extension",
+      "skull crushers hurt my elbows",
+      "tricep extension form",
+      "overhead extension"
+    ],
+    "match": "\\b(skull ?-?crushers?|overhead (tricep(s)? |cable |dumbbell )?extensions?|lying tricep(s)? extensions?|french press|tricep(s)? extensions? form)\\b",
+    "body": [
+      "These train the triceps in a long, stretched position, which is why they are so good and why they deserve some care. For an overhead extension, hold one dumbbell with both hands behind your head, elbows pointing up and close to your head. Lower it behind you for two to three seconds until you feel a deep stretch, then straighten your arms back up.",
+      "For skull crushers, lie on a bench with an EZ bar or dumbbells over your shoulders. Let your upper arms tilt back slightly toward your head, then bend only at the elbows to lower the weight toward your forehead or just behind your head. Press back up along the same path.",
+      "Keep the weight moderate and the reps around 10 to 15. The stretch is the point, and a heavy stretch is hard on elbows. If your elbows ache, try the cable version or shorten the range a little."
+    ],
+    "more": {
+      "why": "One part of the triceps attaches above the shoulder, so it gets the most work when your arm is overhead. Pushdowns alone do not stretch it nearly as much.",
+      "how": "Overhead: dumbbell behind your head, elbows up and in, lower 2 to 3 seconds into a stretch, extend. Skull crushers: arms tilted back a touch, bend only at the elbow, lower slowly, press back.",
+      "mistake": "Letting your elbows flare way out to the sides overhead. Keep them pointing forward and up, close to your head.",
+      "beginner": "Start with a single dumbbell overhead, seated with back support. It is easier to control than a bar lying down."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Triceps pushdown form",
+      "My elbows hurt when I lift",
+      "My ribs flare when I press overhead"
+    ],
+    "related": [
+      "dj-a-086"
+    ]
+  },
+  {
+    "id": "dj-a-088",
+    "topic": "cables",
+    "title": "Cable machine basics: height, handles and stance",
+    "keys": [
+      "how do i use cable machines",
+      "how to use the cable machine",
+      "cable machine",
+      "cable stack",
+      "cable pulley height",
+      "cable attachments",
+      "which cable attachment",
+      "how to set cable height",
+      "cable exercises for beginners",
+      "functional trainer",
+      "cable machine settings"
+    ],
+    "match": "\\b(cable (machines?|stack|station|tower|pulley|attachments?|exercises for beginners|height)|how (do i|to) (use|set up) (the |a )?cables?( machines?)?|functional trainer|pulley height|which cable attachment)\\b",
+    "body": [
+      "A cable machine is a weight stack attached to a pulley you can slide up and down, plus a pile of handles. Three choices set up almost every exercise: the pulley height, the handle and where you stand. Set the height first, using the numbered holes on the column; most exercises want the pulley high, at chest height, or all the way at the bottom.",
+      "Clip on the handle with the carabiner: a single handle for one-arm work, a rope for face pulls and pushdowns, a straight or V bar for rows and pulldowns. Choose a weight with the pin, then stand far enough away that the stack stays lifted slightly between reps, so the plates never clank down mid-set.",
+      "Set your stance and brace before you pull. A staggered or split stance keeps the cable from pulling you off balance. Return the weight slowly; cables reward control on the way back more than almost anything."
+    ],
+    "more": {
+      "why": "Cables keep tension on the muscle through the whole rep, including the parts where dumbbells go slack. They are also quick to adjust, which makes them great for beginners.",
+      "how": "Pulley height, handle, weight, step back until the stack lifts, set your stance, brace, then move. Note the hole number in your log for next time.",
+      "mistake": "Standing so close that the plates touch down between reps. That rests the muscle at the exact moment it should be working.",
+      "beginner": "Good first cable exercises: seated cable row, lat pulldown, rope pushdown, face pull and Pallof press. Five moves, one machine."
+    },
+    "chips": [
+      "Face pull form",
+      "Triceps pushdown form",
+      "What is a Pallof press?"
+    ],
+    "related": [
+      "dj-a-064",
+      "dj-a-086",
+      "dj-a-075"
+    ]
+  },
+  {
+    "id": "dj-a-089",
+    "topic": "mind-muscle",
+    "title": "Mind muscle connection, and whether it matters",
+    "keys": [
+      "what is mind muscle connection",
+      "mind muscle connection",
+      "mind to muscle",
+      "how do i feel the muscle working",
+      "how do i feel the right muscle",
+      "does mind muscle connection work",
+      "i dont feel the muscle working",
+      "focus on the muscle",
+      "squeeze the muscle",
+      "cant feel the muscle i am working"
+    ],
+    "match": "\\b(mind ?-?(muscle|to muscle)( connection)?|feel (the|my) (right |target )?muscles? (working|i am working)|(can'?t|cannot|don'?t|dont) feel (the|my) (target )?muscle)\\b",
+    "body": [
+      "It is the habit of paying close attention to the muscle you are training while you train it: how it feels as it stretches, as it shortens, and as it squeezes. It is real, and it helps most on smaller muscles and single-joint exercises like curls, lateral raises, flyes and leg extensions.",
+      "To build it, go lighter, slow the lowering to about three seconds, pause at the hardest point, and put your attention on the muscle rather than the weight. Touching the muscle between sets, or even during a light set, helps a lot. Picture it lengthening on the way down and squeezing on the way up.",
+      "On big lifts like squats and deadlifts, focus on the movement instead: brace, position, the path of the bar. Thinking about one muscle during a heavy squat usually makes the rep worse, not better."
+    ],
+    "more": {
+      "why": "Attention changes how much a muscle works during a set. On lighter, controlled exercises, focusing on the target muscle shifts more of the work to it.",
+      "how": "Lighter weight, 3 second lower, 1 second pause at the squeeze, eyes closed if it helps, a hand on the muscle during the first set. Then keep that feeling as the weight goes up.",
+      "example": "Lateral raises: drop from 20s to 10s, lower in 3 seconds, and think about your side delts pushing the dumbbells out toward the walls. Most people feel the burn in the right place by rep eight.",
+      "mistake": "Trying to feel one muscle burn on every exercise, including heavy multi-joint lifts. For those, good positions do the job."
+    },
+    "chips": [
+      "How slow should I lower the weight?",
+      "I feel rows in my arms",
+      "I do not feel my glutes working"
+    ],
+    "related": [
+      "dj-a-081",
+      "dj-a-032"
+    ]
+  },
+  {
+    "id": "dj-a-090",
+    "topic": "traps",
+    "title": "Shoulders shrugging up when you pull, row or raise",
+    "keys": [
+      "my traps take over",
+      "shoulders shrug up when i row",
+      "traps take over on everything",
+      "shoulders rise during pulldown",
+      "shrugging during rows",
+      "how to stop shrugging",
+      "traps doing all the work",
+      "shoulders up by my ears",
+      "neck sore after back day",
+      "shoulders creep up"
+    ],
+    "match": "\\b(traps? (take|takes|taking) over|traps doing (all )?the work|shoulders? (shrug|shrugs|shrugging|rise|rising|creep|creeping) (up|when|during)|shrugging (during|on|when)|stop shrugging|shoulders up (by|to|near) my ears|neck sore after back day)\\b",
+    "body": [
+      "If your shoulders creep up toward your ears every time you pull, row or raise, your upper traps are taking over. It is a habit, not a flaw, and it usually starts before the rep does. Before each rep, set your shoulders down and slightly back, long neck, and keep that space between your ears and shoulders as you move.",
+      "On pulldowns and pull-ups, make the first inch of every rep a pull of your shoulders down, then bend your arms. On rows, finish with your shoulder blades sliding back, not up. On lateral raises, lead with your elbows out toward the walls and stop at shoulder height.",
+      "Usually the weight is a little too heavy as well. Drop it 20 percent and see whether your shoulders can stay down. If your neck is sore after every upper body day, this is the first thing I would look at."
+    ],
+    "more": {
+      "why": "Your upper traps lift your shoulder blades, and they love to help when a weight is heavy. Every rep they steal is work your lats or delts did not get.",
+      "how": "Shoulders down before the rep, long neck, first movement is your shoulder blades going down or back, then the arm follows. Check in a mirror between sets or film from behind.",
+      "mistake": "Trying to fix it by tensing your neck. Think long and relaxed through your neck, with the work happening lower in your back.",
+      "beginner": "Practice a few sets of scapular pulldowns on the lat machine: straight arms, pull only your shoulders down, then let them rise. It teaches the starting position."
+    },
+    "chips": [
+      "Lat pulldown form",
+      "Lateral raise form",
+      "How do I stretch a stiff neck?"
+    ],
+    "related": [
+      "dj-a-078",
+      "dj-a-062",
+      "dj-a-067"
+    ]
+  },
+  {
+    "id": "dj-a-091",
+    "topic": "lats",
+    "title": "Straight-arm pulldowns and pullovers for your lats",
+    "keys": [
+      "straight arm pulldown",
+      "straight arm pull down",
+      "straight arm lat pulldown",
+      "lat pullover",
+      "dumbbell pullover",
+      "cable pullover",
+      "pullovers",
+      "how to do straight arm pulldowns",
+      "lat isolation exercise",
+      "rope straight arm pulldown"
+    ],
+    "match": "\\b(straight ?-?arm (lat )?pull ?-?downs?|(lat|dumbbell|db|cable) pull ?-?overs?|pull ?-?overs?|lat prayers?|lat isolation)\\b",
+    "body": [
+      "These are the best exercises I know for learning what your lats feel like. For a straight-arm pulldown, set a cable high with a straight bar or rope, step back, and hinge forward slightly with your arms straight out in front of you at about eye level. Keeping your elbows nearly locked, sweep the bar down in an arc until it reaches your thighs.",
+      "Pause there and squeeze, feeling the sides of your back under your armpits work. Then let the bar rise slowly over three seconds back to eye level, letting your lats stretch. Your torso stays still and your arms stay long the whole time.",
+      "Dumbbell pullovers do a similar job lying across a bench. Keep them light, keep your ribs down, and never chase a stretch that pinches the front of your shoulder."
+    ],
+    "more": {
+      "why": "With straight arms, your biceps cannot help, so your lats have to do the pulling. That is why people who never feel their back on rows often feel it here right away.",
+      "how": "Cable high, slight hinge, arms long, sweep down to your thighs, pause, return in 3 seconds. 2 to 3 sets of 12 to 15.",
+      "mistake": "Bending your elbows and turning it into a triceps pushdown. If your elbows bend, lighten the stack.",
+      "beginner": "Do one set of these right before lat pulldowns. Feeling your lats first makes the pulldown feel completely different."
+    },
+    "chips": [
+      "I feel rows in my arms",
+      "Lat pulldown form",
+      "What is mind muscle connection?"
+    ],
+    "related": [
+      "dj-a-078",
+      "dj-a-081",
+      "dj-a-089"
+    ]
+  },
+  {
+    "id": "dj-a-092",
+    "topic": "upright-row",
+    "title": "Upright rows, and a shoulder friendly way to do them",
+    "keys": [
+      "upright row",
+      "upright rows",
+      "upright row form",
+      "are upright rows bad",
+      "upright rows hurt my shoulders",
+      "cable upright row",
+      "dumbbell upright row",
+      "how high on upright rows",
+      "wide grip upright row"
+    ],
+    "match": "\\bupright ?-?rows?\\b",
+    "body": [
+      "Upright rows are not evil, but the classic version, a narrow grip pulled all the way to your chin, squeezes the top of the shoulder for a lot of people. A few changes make them much friendlier.",
+      "Use a wider grip, about shoulder width or a bit more, or use dumbbells or a cable rope so your hands can move freely. Lead with your elbows and raise only until your elbows reach about shoulder height, not higher. Lower for two to three seconds. Keep the weight moderate and the reps in the 10 to 15 range.",
+      "If any version still pinches, skip it. Lateral raises and face pulls train the same muscles without that position, and no single exercise is required."
+    ],
+    "more": {
+      "why": "Raising your arm high while it is turned inward narrows the space at the top of the shoulder. A wider grip and a lower finish keep you out of that cramped spot.",
+      "how": "Shoulder-width grip or dumbbells, lead with the elbows, stop at shoulder height, lower slowly. 2 to 3 sets of 10 to 15.",
+      "mistake": "Yanking a heavy bar to your chin with a narrow grip. That is the version that gave this exercise its reputation.",
+      "beginner": "Lateral raises are the better first choice. Add upright rows later if you like them and they feel good."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Lateral raise form",
+      "Face pull form",
+      "How do I train around a sore shoulder?"
+    ],
+    "related": [
+      "dj-a-062",
+      "dj-a-064"
+    ]
+  },
+  {
+    "id": "dj-a-093",
+    "topic": "posture",
+    "title": "Where to look and what your neck does when you lift",
+    "keys": [
+      "where should i look when i squat",
+      "where should i look when lifting",
+      "head position squat",
+      "head position deadlift",
+      "should i look up when squatting",
+      "neck position lifting",
+      "chin tuck when lifting",
+      "where do i look on deadlift",
+      "look in the mirror when lifting",
+      "head position bench",
+      "neutral neck"
+    ],
+    "match": "\\b(where (should|do) i look|head position|neck position|look (up|down|in the mirror) (when|while|during) (i )?(squat|lift|deadlift)\\w*|chin tuck(ed)? (when|while|during)|neutral neck)\\b",
+    "body": [
+      "Keep your neck roughly in line with the rest of your spine and let your eyes follow. On squats, pick a spot on the floor about six to ten feet in front of you and keep your eyes there. On deadlifts and rows, look at the floor a few feet ahead, so your neck stays long rather than cranked up toward the mirror.",
+      "Looking straight up at the ceiling to stay upright kinks your neck and can tip your hips. Tucking your chin hard to your chest is the opposite problem. Think of holding a small gap under your chin, about the size of an apple, and keeping it.",
+      "On bench press, your head stays on the bench. Pressing it into the pad hard, or lifting it to watch the bar, both strain your neck. Eyes on the ceiling above the bar is plenty."
+    ],
+    "more": {
+      "why": "Where your eyes go, your head goes, and your head affects the position of your whole spine. A steady gaze helps you stay balanced and keeps your neck out of strained positions under load.",
+      "how": "Squat: eyes on the floor 6 to 10 feet ahead. Hinge and row: the floor a few feet ahead. Bench: head down, eyes up. Overhead press: eyes forward, head moves back slightly, then through.",
+      "mistake": "Turning your head to watch yourself in the side mirror mid-rep. Twisting your neck under load is a quick way to a stiff neck. Film it instead.",
+      "beginner": "Pick a mark on the floor before the set and keep your eyes on it the whole time. It takes one thing off your list."
+    },
+    "chips": [
+      "How do I film my lifts?",
+      "How do I brace my core?",
+      "How do I stretch a stiff neck?"
+    ],
+    "related": [
+      "dj-a-002",
+      "dj-a-016"
+    ]
+  }
+]

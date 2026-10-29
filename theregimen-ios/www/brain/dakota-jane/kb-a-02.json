@@ -1,0 +1,989 @@
+[
+  {
+    "id": "dj-a-027",
+    "topic": "lunge",
+    "title": "Lunges done properly, forward and reverse",
+    "keys": [
+      "how do i do a lunge properly",
+      "lunge form",
+      "lunges",
+      "how to lunge",
+      "reverse lunge",
+      "reverse lunges",
+      "forward lunge",
+      "forward lunges",
+      "dumbbell lunges",
+      "lunge knee hurts",
+      "how far should i step on a lunge",
+      "lunge balance",
+      "back knee touch the floor lunge",
+      "proper lunge",
+      "stationary lunge"
+    ],
+    "match": "\\b((reverse|forward|stationary|dumbbell|barbell|back(ward)?) lunges?|lunges?( form| properly| technique| balance)?|how (do i|to) lunge)\\b",
+    "body": [
+      "Start with the reverse lunge. It is kinder to the knees and easier to balance than stepping forward, and it teaches the same thing. Stand tall, feet hip width, and take a long step back. Lower straight down until your back knee hovers an inch or two off the floor, then push through your front foot to return.",
+      "Think of your feet on two train tracks, not a tightrope, so you have a stable base. Your front heel stays planted, front knee tracks over your toes, and your torso stays tall or leans slightly forward. Take 2 to 3 seconds on the way down.",
+      "A longer step works more glute; a shorter step works more quad. If you wobble, hold a rack or a wall with one hand. That is not cheating, it is letting your legs do the work instead of your balance."
+    ],
+    "more": {
+      "why": "Lunges train each leg on its own and build the control you use every time you climb stairs or get up off the floor. They also show your weaker side very honestly.",
+      "how": "Step back, two tracks wide. Lower in 3 seconds until the back knee nearly touches. Drive through the whole front foot. Finish all reps on one side, then switch.",
+      "mistake": "Pushing off the back foot to get up. The front leg should do almost all of the work. Lift the back heel and think of the back leg as a kickstand.",
+      "beginner": "Bodyweight reverse lunges, 2 to 3 sets of 8 per side, with a hand on a rack. Add dumbbells once those feel steady."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I do walking lunges?",
+      "One side is stronger than the other",
+      "Do my knees go past my toes?"
+    ],
+    "related": [
+      "dj-a-028",
+      "dj-a-009",
+      "dj-a-014"
+    ]
+  },
+  {
+    "id": "dj-a-028",
+    "topic": "lunge",
+    "title": "Walking lunges without the wobble",
+    "keys": [
+      "walking lunges",
+      "how do i do walking lunges",
+      "walking lunge form",
+      "walking lunge balance",
+      "dumbbell walking lunges",
+      "walking lunges knees",
+      "walking lunge step length",
+      "barbell walking lunge",
+      "how to do walking lunges",
+      "walking lunges glutes"
+    ],
+    "match": "\\bwalking lunges?\\b",
+    "body": [
+      "Walking lunges are reverse lunges with a commute. Step forward into a lunge, lower until your back knee nearly touches the floor, then stand up by driving through the front foot and bring your back foot through into the next step.",
+      "Most wobble comes from walking on a tightrope. Keep your feet hip width apart like you are walking on two lines. Pause for a beat when you stand up between steps until your balance settles, then step. Smooth beats fast.",
+      "Hold dumbbells at your sides, arms long and shoulders down, rather than a barbell on your back while you learn. Count reps per leg and keep the step length the same every time. A slightly longer stride with a small forward lean shifts the work to your glutes."
+    ],
+    "more": {
+      "why": "Each step is a deceleration, a stretch and a push, which builds legs that work in real life, like on hiking trails or stairs.",
+      "how": "Step, lower 2 seconds, back knee to an inch off the floor, drive up, pause tall, next step. Dumbbells at your sides. Ten to 12 steps per leg.",
+      "mistake": "Bouncing the back knee off the floor or slamming the front foot down. Land quietly and own every inch of the lowering.",
+      "beginner": "Do them in place as alternating reverse lunges first. Walking lunges are a balance upgrade, not a starting point."
+    },
+    "chips": [
+      "How do I do a lunge properly?",
+      "Should I feel squats in my glutes?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-027",
+      "dj-a-029"
+    ]
+  },
+  {
+    "id": "dj-a-029",
+    "topic": "lunge",
+    "title": "Step-ups that work the leg on the box, not the one on the floor",
+    "keys": [
+      "step ups",
+      "step up",
+      "stepups",
+      "how do i do step ups",
+      "step up form",
+      "box step ups",
+      "dumbbell step ups",
+      "step up height",
+      "how high should my box be for step ups",
+      "step ups glutes",
+      "step ups knee",
+      "bench step ups",
+      "lateral step up"
+    ],
+    "match": "\\b(step[ -]?ups?|box step)\\b",
+    "body": [
+      "Pick a box or bench that puts your thigh around parallel to the floor when your foot is on it, or lower if that is too much today. Plant your whole foot on the box, heel included. Lean your chest slightly forward over that front leg.",
+      "Now drive up through the heel and mid-foot of the leg on the box. Your back foot should be a passenger, so lift its toes and resist the urge to bounce off it. Stand tall at the top, then lower yourself back down slowly, 2 to 3 seconds, rather than dropping.",
+      "Do all the reps on one leg before switching. If your back leg keeps sneaking in a push, use a lower box and slow the whole thing down. Honest step-ups are humbling, and that is exactly why they work."
+    ],
+    "more": {
+      "why": "Step-ups load one leg through a big range while challenging balance. The slow lowering is the part most people skip and the part that builds the most control.",
+      "how": "Whole foot on the box. Slight forward lean. Drive up through the box leg, back toes up. Stand tall. Three seconds down. Same reps each side.",
+      "mistake": "Pushing off the floor leg like a springboard. If you can feel your calf on the back leg firing hard, it is doing the lift for you.",
+      "home": "A sturdy stair or a stable step works. Hold a backpack or water jugs for load. Check that whatever you use cannot slide."
+    },
+    "chips": [
+      "One side is stronger than the other",
+      "How do I do a lunge properly?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-027",
+      "dj-a-034"
+    ]
+  },
+  {
+    "id": "dj-a-030",
+    "topic": "machine",
+    "title": "Leg extension machine setup and form",
+    "keys": [
+      "leg extension",
+      "leg extensions",
+      "leg extension machine",
+      "leg extension setup",
+      "how to set up leg extension",
+      "leg extension knee pain",
+      "are leg extensions bad for your knees",
+      "quad extension",
+      "leg extension pad position",
+      "leg extension seat",
+      "how to do leg extensions",
+      "knee extension machine"
+    ],
+    "match": "\\b(leg|quad|knee) extensions?( machine)?\\b",
+    "body": [
+      "Sit so your knee joint lines up with the machine pivot, which is usually marked with a colored dot. Move the back pad until the backs of your knees sit at the front edge of the seat. The ankle pad goes on the lower shin, just above the top of your foot, not on your toes.",
+      "Hold the handles, keep your hips down on the seat, and straighten your legs smoothly. Squeeze at the top for a full second, then lower over 2 to 3 seconds until your knees are bent around 90 degrees or a bit further. No swinging, no slamming the stack.",
+      "For healthy knees, leg extensions are a perfectly good exercise. If your knees feel cranky, use a lighter weight, a slower tempo, or a shorter range at the bottom, and stop if you get sharp pain."
+    ],
+    "more": {
+      "why": "The leg extension is one of the few ways to train the quads with the hip straight, and it lets you push the quads hard without your back or balance getting in the way.",
+      "how": "Knee to pivot, pad on lower shin, hold handles. Lift in one second, squeeze one second, lower in three. Sets of 10 to 15.",
+      "mistake": "Kicking the weight up and letting your butt lift off the seat. If you have to heave, the stack is too heavy.",
+      "beginner": "Start light enough to pause at the top for two seconds on every rep. It feels easy for about three reps."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I set up a machine?",
+      "What is mind muscle connection?",
+      "Should I lock my knees out?"
+    ],
+    "related": [
+      "dj-a-031",
+      "dj-a-047"
+    ]
+  },
+  {
+    "id": "dj-a-031",
+    "topic": "machine",
+    "title": "Leg curls, lying and seated, set up right",
+    "keys": [
+      "leg curl",
+      "leg curls",
+      "hamstring curl",
+      "hamstring curls",
+      "lying leg curl",
+      "seated leg curl",
+      "leg curl machine",
+      "leg curl setup",
+      "hips lift on leg curl",
+      "leg curl cramps",
+      "how to do leg curls",
+      "standing leg curl",
+      "leg curl pad position"
+    ],
+    "match": "\\b((lying|seated|standing|prone|hamstring|leg) curls?|leg curl machine)\\b",
+    "body": [
+      "Same rule as every knee machine: line your knee up with the pivot. On a lying curl, your kneecaps sit just off the end of the bench and the pad rests on your lower calves, just above the heels. On a seated curl, the thigh pad clamps down snugly above your knees and the leg pad sits behind your lower calves.",
+      "Curl your heels toward your butt, squeeze for a second, then lower slowly for 2 to 3 seconds until your legs are almost straight. On the lying version, keep your hips pressed into the pad; if they pop up, the weight is too heavy.",
+      "Seated curls usually give a better stretch because your hips are bent, which is a nice bonus for the hamstrings. Hamstring cramps are common at first. Shake it out, lighten the load, and they tend to settle within a few sessions."
+    ],
+    "more": {
+      "why": "The hamstrings do two jobs: extending the hip and bending the knee. Hinges train the first; curls train the second. You need both for complete hamstrings.",
+      "how": "Knee to pivot, pad above the heels, hips down. Curl in one second, squeeze, lower in three. Sets of 10 to 15.",
+      "mistake": "Lifting your hips or arching your back to finish the curl. Lighter weight, full squeeze, hips glued.",
+      "advanced": "Point your toes slightly down and away to bias the inner hamstrings, or pull them up toward your shins to make the curl a bit stronger. Keep it consistent within a block."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "How do I do a Romanian deadlift?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-030",
+      "dj-a-015",
+      "dj-a-046"
+    ]
+  },
+  {
+    "id": "dj-a-032",
+    "topic": "glutes",
+    "title": "When you cannot feel your glutes working",
+    "keys": [
+      "i do not feel my glutes working",
+      "i dont feel my glutes",
+      "cant feel my glutes",
+      "glutes not activating",
+      "glute activation",
+      "how to activate glutes",
+      "dead butt",
+      "glutes dont work",
+      "i only feel it in my quads",
+      "i only feel it in my lower back",
+      "how do i feel my glutes",
+      "glute activation exercises",
+      "my glutes never get sore",
+      "feel glutes more"
+    ],
+    "match": "\\b((do not|don'?t|cant|can'?t|never) feel (my |the )?glutes?|glutes? (not|aren'?t|are not|dont|don'?t|never) (activat\\w*|working|firing|work|get sore)|glute activation|activate (my |the )?glutes?|dead butt|feel (my )?glutes more)\\b",
+    "body": [
+      "Your glutes are working; they are just not shouting about it yet. The fix is to give them a job they cannot hand off, slow it down, and pay attention.",
+      "Before your leg session, do two quick sets of glute bridges with a 2-second squeeze at the top, plus 15 banded side steps. Then in your main lifts, cue the hips: push the floor away and finish by squeezing your butt, not by leaning back. On lunges and split squats, take a slightly longer step and lean your chest forward a little. On hip thrusts, tuck your chin and keep your ribs down so your back stops helping.",
+      "Put a hand on your glute during a warm-up set, which sounds silly and works. Feeling it in your quads or lower back instead is information, not failure. Adjust one thing at a time."
+    ],
+    "more": {
+      "why": "Muscles you are not used to feeling are hard to feel on purpose. A little focused practice builds the connection, and research suggests focusing on a muscle can increase how much it works on lighter sets.",
+      "how": "Two sets of 12 bridges with a 2-second squeeze, 15 side steps per side, then your workout. On each rep, finish the movement by squeezing your glutes.",
+      "mistake": "Chasing a burning glute on every exercise. Squats and lunges train the glutes even when they do not burn. Soreness is not a scoreboard."
+    },
+    "chips": [
+      "How do I do a glute bridge?",
+      "What is mind muscle connection?",
+      "Should I feel squats in my glutes?"
+    ],
+    "related": [
+      "dj-a-026",
+      "dj-a-025",
+      "dj-a-040"
+    ]
+  },
+  {
+    "id": "dj-a-033",
+    "topic": "calves",
+    "title": "Calf raises with a real stretch and a real pause",
+    "keys": [
+      "calf raise",
+      "calf raises",
+      "calf raise form",
+      "standing calf raise",
+      "seated calf raise",
+      "how to do calf raises",
+      "calves wont grow",
+      "calf raises on a step",
+      "calf raise machine",
+      "donkey calf raise",
+      "how to train calves",
+      "calf raises bouncing",
+      "single leg calf raise"
+    ],
+    "match": "\\b(calf|calves) (raises?|machine)\\b|\\b(train(ing)?|grow(ing)?) (my )?calves\\b|\\bcalves (wont|won'?t|will not|dont|don'?t) grow\\b",
+    "body": [
+      "Calves get bounced more than any muscle in the gym. Your Achilles tendon is springy, so fast reps let it do the work and your calf gets a free ride. Slow down and add a pause, and calves suddenly get very interesting.",
+      "Stand with the balls of your feet on a step or the platform edge. Lower your heels slowly as far as they comfortably go and hold that stretch for a full 2 seconds. Then rise up onto your big toe and second toe as high as you can, and squeeze for a second at the top. That is one rep.",
+      "Standing raises with straight knees train the larger outer calf; seated raises with bent knees focus on the deeper muscle underneath. Do both across your week. Sets of 10 to 20, and yes, it should burn."
+    ],
+    "more": {
+      "why": "The pause at the bottom kills the bounce, so the muscle has to start each rep on its own. The stretched position is also where calves seem to respond best.",
+      "how": "Lower in 2 to 3 seconds, hold the stretch 2 seconds, rise up in one second, squeeze one second. Pressure through the big toe so your ankle does not roll out.",
+      "mistake": "Short, fast bounces with a huge stack. Half the weight with the full range and the pause will do far more.",
+      "home": "Single-leg calf raises on a stair, holding the railing, are hard enough for most people. Add a backpack once 20 slow reps are easy."
+    },
+    "chips": [
+      "How slow should I lower the weight?",
+      "Should I do partial reps?",
+      "One side is stronger than the other"
+    ]
+  },
+  {
+    "id": "dj-a-034",
+    "topic": "imbalance",
+    "title": "One side stronger than the other",
+    "keys": [
+      "one side is stronger than the other",
+      "one side stronger",
+      "muscle imbalance",
+      "strength imbalance",
+      "left side weaker",
+      "right side weaker",
+      "weaker side",
+      "uneven strength",
+      "one arm stronger than the other",
+      "one leg stronger than the other",
+      "imbalances",
+      "fix muscle imbalance",
+      "uneven muscles",
+      "one side bigger than the other"
+    ],
+    "match": "\\b(one (side|arm|leg) (is )?(stronger|weaker|bigger|smaller)|(muscle|strength) imbalances?|imbalances?|weaker side|(left|right) (side|arm|leg) (is )?(weaker|stronger)|uneven (strength|muscles))\\b",
+    "body": [
+      "Everyone has one, so welcome to having a body. A small difference between sides is normal; the goal is to keep it small, not to make you perfectly symmetrical.",
+      "The fix is simple and a little boring. Do some single-side work: split squats, single-leg RDLs, step-ups, one-arm rows, single-arm presses. Always start with your weaker side, and let it set the number of reps. The stronger side does the same reps and stops, even if it has more in the tank.",
+      "Slow the lowering on the weak side so you own it. Give it a few months before judging, since these shifts are gradual. If the difference is large, came on suddenly, or comes with pain or numbness, have a doctor or physical therapist take a look."
+    ],
+    "more": {
+      "why": "With both sides on one bar, the strong side quietly takes over and the gap grows. Single-side work removes the hiding spot.",
+      "how": "Weak side first, every set. Match reps on the strong side. Same load both sides. Add one or two single-side exercises per session for a block of 6 to 8 weeks.",
+      "mistake": "Doing extra sets on the weak side only. Matching reps evens things out without leaving your strong side to fall behind or your weak side overworked.",
+      "beginner": "A difference of a rep or two between sides is completely normal in your first months. It usually shrinks on its own as your coordination improves."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I do a single leg RDL?",
+      "How do I do a dumbbell row?",
+      "How do I film my lifts?"
+    ],
+    "related": [
+      "dj-a-009",
+      "dj-a-023"
+    ]
+  },
+  {
+    "id": "dj-a-035",
+    "topic": "machine",
+    "title": "Hip abduction machine, the outer hip one",
+    "keys": [
+      "hip abduction",
+      "hip abduction machine",
+      "abductor machine",
+      "outer thigh machine",
+      "how to use abduction machine",
+      "abduction machine glutes",
+      "banded side steps",
+      "band walks",
+      "lateral band walk",
+      "clamshells",
+      "clam shells",
+      "side lying leg raise",
+      "glute medius"
+    ],
+    "match": "\\b(hip )?abduct(ion|or)s?( machine)?\\b|\\b(banded |lateral band )?(side steps|band walks?)\\b|\\bclam ?shells?\\b|\\bglute med(ius)?\\b",
+    "body": [
+      "Abduction means moving your legs apart, and this machine trains the muscles on the outside of your hips, mainly the glute medius. Those are the muscles that keep your pelvis level when you walk and your knees from collapsing on squats.",
+      "Sit with your back against the pad, pads on the outside of your knees. Push your knees apart smoothly, hold for a second at the widest point, and bring them back slowly without letting the plates touch. Leaning your chest forward over your thighs shifts more of the work into the upper glutes, which many people prefer.",
+      "No machine? Banded side steps, clamshells and side-lying leg raises train the same muscles. Sets of 15 to 20 with a slow return. These burn quickly, and that is fine."
+    ],
+    "more": {
+      "why": "Strong outer hips help keep your knees tracking over your toes and your hips steady on single-leg work. They are small muscles doing a big job.",
+      "how": "Back on the pad or leaning forward, pads outside the knees. Out in one second, hold one second, back in two to three seconds. Keep the stack from touching between reps.",
+      "mistake": "Slamming the legs open and letting them snap back. The return is half the exercise.",
+      "home": "A loop band around your thighs or ankles: 15 side steps each way, staying low in a quarter squat with your toes pointed forward."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "I do not feel my glutes working",
+      "How do I set up a machine?"
+    ],
+    "related": [
+      "dj-a-036",
+      "dj-a-004"
+    ]
+  },
+  {
+    "id": "dj-a-036",
+    "topic": "machine",
+    "title": "Hip adduction machine, the inner thigh one",
+    "keys": [
+      "hip adduction",
+      "hip adduction machine",
+      "adductor machine",
+      "inner thigh machine",
+      "how to use the inner thigh machine",
+      "adductors",
+      "inner thigh exercises",
+      "groin strain adductor",
+      "copenhagen plank",
+      "copenhagen",
+      "adduction machine"
+    ],
+    "match": "\\b(hip )?adduct(ion|ors?)( machine)?\\b|\\binner thigh (machine|exercises?)\\b|\\bcopenhagen( plank)?\\b",
+    "body": [
+      "The adductors on the inside of your thighs are bigger than most people think, and they help a lot in squats and lunges. On the machine, sit back, set the pads on the inside of your knees, and start with a range that feels like a gentle stretch, not a split.",
+      "Squeeze your knees together smoothly, hold for a second, then let them open slowly over 2 to 3 seconds. Keep your back against the pad. If the starting stretch feels sharp in the groin, narrow the range; you can widen it gradually over a few weeks.",
+      "A more advanced bodyweight option is the Copenhagen plank: a side plank with your top leg resting on a bench. Start with the knee on the bench, not the foot, and short holds of 10 to 20 seconds."
+    ],
+    "more": {
+      "why": "Strong adductors support your hips in deep squats and side-to-side movement. They are also a common strain spot for people who suddenly sprint or change direction.",
+      "how": "Comfortable starting width, squeeze in one second, hold one, open in three. Sets of 12 to 15.",
+      "mistake": "Cranking the starting width as wide as it goes on the first day. Start narrow and earn the stretch."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "How do I do a side plank?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-035"
+    ]
+  },
+  {
+    "id": "dj-a-037",
+    "topic": "smith-machine",
+    "title": "Smith machine squats, and where to put your feet",
+    "keys": [
+      "smith machine squat",
+      "smith machine squats",
+      "smith squat",
+      "smith machine squat foot placement",
+      "is the smith machine bad for squats",
+      "smith machine vs free squat",
+      "feet forward smith machine squat",
+      "smith machine squat form",
+      "smith machine lunges",
+      "smith machine split squat"
+    ],
+    "match": "\\bsmith( machine)? (squats?|lunges?|split squats?)\\b",
+    "body": [
+      "The Smith machine is not cheating and it is not ruining your squat. It is a different tool: the bar runs on a fixed track, so balance is handled for you and your legs can focus on pushing.",
+      "Because the bar cannot drift, foot position matters more than on a free squat. Put your feet slightly in front of the bar, about 6 to 12 inches, so that at the bottom your knees can bend comfortably without your heels lifting. Feet further forward shifts more work to your glutes; closer in loads the quads more.",
+      "Set the safety stops just below your lowest squat depth before you start, and practice twisting the bar off and back onto the hooks with an empty bar. Brace and control the lowering just as you would with free weights."
+    ],
+    "more": {
+      "why": "With the path fixed, you can safely push a set closer to the limit, and you can place your feet where a free squat would tip you over.",
+      "how": "Safeties set. Feet a few inches forward of the bar. Unhook, brace, 3 seconds down, drive up, rehook. Breathe out near the top.",
+      "mistake": "Standing directly under the bar like a free squat. On a fixed track that often jams your knees forward and lifts your heels.",
+      "beginner": "The empty Smith bar may weigh less than a regular bar, often 15 to 35 lb depending on the machine. Ask the gym or check the label."
+    },
+    "chips": [
+      "Is the Smith machine bad?",
+      "How deep should I squat?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-002",
+      "dj-a-003"
+    ]
+  },
+  {
+    "id": "dj-a-038",
+    "topic": "lunge",
+    "title": "Lateral lunges and Cossack squats",
+    "keys": [
+      "lateral lunge",
+      "lateral lunges",
+      "side lunge",
+      "side lunges",
+      "cossack squat",
+      "cossack squats",
+      "how to do a cossack squat",
+      "side to side lunge",
+      "lateral squat",
+      "skater lunge"
+    ],
+    "match": "\\b(lateral|side) lunges?\\b|\\bcossack squats?\\b|\\blateral squats?\\b",
+    "body": [
+      "Most training happens forward and back, so going sideways is a gift to your hips, inner thighs and knees. Stand with your feet wide, about twice shoulder width. Shift your hips back and over to one side, bending that knee while the other leg stays straight with its foot flat.",
+      "Keep the bent knee tracking over the toes and the heel down. Sit as low as you can control while your chest stays proud, then push back to the middle. For a lateral lunge, you step out and back each rep; for a Cossack squat, your feet stay planted and you shift side to side, eventually with the straight leg toes pointing up.",
+      "Start shallow and hold onto something if needed. These reward patience; most people gain depth week by week."
+    ],
+    "more": {
+      "why": "Side-to-side strength helps knees and hips handle real life, where things do not only happen in straight lines. It also stretches the inner thighs under control.",
+      "how": "Wide stance. Hips back and to one side. Bend that knee, other leg straight. Two to three seconds down, push back to center. Eight per side.",
+      "mistake": "Letting the bent knee cave in or the heel lift. Stop at the depth where both stay put.",
+      "beginner": "Hold a post or rack in front of you and go only halfway down. Add a light dumbbell held at your chest when bodyweight feels smooth."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "How do I do a goblet squat?",
+      "One side is stronger than the other"
+    ],
+    "related": [
+      "dj-a-027",
+      "dj-a-036"
+    ]
+  },
+  {
+    "id": "dj-a-039",
+    "topic": "hinge",
+    "title": "Good mornings, carefully and light",
+    "keys": [
+      "good morning",
+      "good mornings",
+      "good morning exercise",
+      "barbell good morning",
+      "how to do good mornings",
+      "good morning form",
+      "are good mornings safe",
+      "banded good morning",
+      "seated good morning",
+      "good morning lift"
+    ],
+    "match": "\\bgood mornings?( (exercise|form|lift|safe))?\\b",
+    "body": [
+      "A good morning is a hip hinge with the bar on your back instead of in your hands. Because the load sits far from your hips, a little weight feels like a lot, so this is a lift where light and precise wins.",
+      "Set the bar on your upper back like a squat, feet hip width, knees soft. Brace hard, then push your hips back and let your chest tip forward while your back stays flat. Go until you feel a strong hamstring stretch, usually somewhere between 45 degrees and your torso nearly level with the floor, then drive your hips forward to stand.",
+      "Start with an empty bar or a band and sets of 8 to 12. If you feel it more in your lower back than your hamstrings, shorten the range and push the hips back further."
+    ],
+    "more": {
+      "why": "Good mornings strengthen the hamstrings and the muscles that keep your back flat under load. That carries over directly to squats and deadlifts.",
+      "how": "Bar on upper back, brace, soft knees. Hips back, three seconds down to the hamstring stretch, one-second pause, hips forward to stand.",
+      "mistake": "Bending the knees more and more until it becomes a squat with a bad back position. Knees stay softly bent and still.",
+      "home": "Stand on a long band and loop it behind your neck, or hold a broomstick across your back. Same hinge, very safe loading."
+    },
+    "chips": [
+      "How do I learn to hip hinge?",
+      "How do I do a Romanian deadlift?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-024",
+      "dj-a-015"
+    ]
+  },
+  {
+    "id": "dj-a-040",
+    "topic": "squat",
+    "title": "What you should feel in squats, glutes or quads",
+    "keys": [
+      "should i feel squats in my glutes",
+      "where should i feel squats",
+      "squats only in my quads",
+      "feel squats in my knees",
+      "squats for glutes",
+      "squats not working glutes",
+      "squats make my quads sore",
+      "what muscles do squats work",
+      "squats glutes or quads",
+      "where should i feel the squat"
+    ],
+    "match": "\\b(feel (squats?|the squat) in|where should i feel (squats?|the squat)|squats? (only )?(in my|for) (glutes|quads|knees)|squats?,? (glutes|quads) or|what muscles do squats work)\\b",
+    "body": [
+      "Both, and mostly your quads. A squat works the quads, the glutes and the inner thighs together, with your trunk working hard to hold you in position. Most people feel the quads the most, and that is completely normal.",
+      "Your glutes work hardest near the bottom, where your hips are deeply bent, so depth brings them in more. A slightly wider stance with your toes turned out a touch, and sitting your hips back a little more, also shifts work toward the glutes. A narrow, upright squat makes it more of a quad lift.",
+      "What you should not feel is your knees or lower back as the main thing. Some all-over tiredness is fine; pain at the joint means something to look at with lighter weight and a slower lowering."
+    ],
+    "more": {
+      "why": "Muscles do not always announce themselves with a burn. The glutes work in a squat even when you mostly feel your quads, especially through a deeper range.",
+      "how": "If you want more glute, go a little deeper, stance a touch wider, and add a direct glute exercise like hip thrusts or bridges after.",
+      "mistake": "Judging a squat by soreness alone. Strength going up over weeks says far more than which muscle burns."
+    },
+    "chips": [
+      "How deep should I squat?",
+      "I do not feel my glutes working",
+      "Where should my feet point?"
+    ],
+    "related": [
+      "dj-a-032",
+      "dj-a-003",
+      "dj-a-042"
+    ]
+  },
+  {
+    "id": "dj-a-041",
+    "topic": "squat",
+    "title": "Paused squats, sitting in the hardest spot on purpose",
+    "keys": [
+      "what is a paused squat",
+      "paused squat",
+      "paused squats",
+      "pause squat",
+      "pause squats",
+      "how long to pause at the bottom of a squat",
+      "pause at the bottom of squat",
+      "squat with a pause",
+      "pause reps squat",
+      "bottom pause"
+    ],
+    "match": "\\bpause(d)? squats?\\b|\\bpause (at|in) the bottom\\b|\\bsquats? with a pause\\b|\\bbottom pause\\b",
+    "body": [
+      "A paused squat is exactly what it sounds like: you lower to your working depth, stop there for a set count, usually 1 to 3 seconds, while staying completely tight, and then stand up without any bounce.",
+      "Take your brace, lower under control, and when you hit depth, freeze. Keep your knees out, your chest proud and your air in. Count the pause out loud in your head, then drive up. If your position shifts while you are paused, the weight is too heavy for this drill.",
+      "Use roughly 10 to 20 percent less than your normal squat for the same reps. Paused squats build strength out of the bottom, teach you where your body is, and are one of my favorite tools for anyone whose hips shoot up or whose knees wander."
+    ],
+    "more": {
+      "why": "The pause removes the stretch reflex that helps you bounce out of the hole, so your muscles have to produce force from a standstill. It also gives your brain time to notice your position.",
+      "how": "Three seconds down, two-second pause at depth, smooth drive up. Breathe at the top, not at the bottom. Sets of 3 to 6 reps.",
+      "mistake": "Relaxing during the pause. A pause is a hold, not a rest. If you sink or soften, it does not count.",
+      "beginner": "Paused goblet squats are a great first version. The weight in front makes it easy to hold a good position while you count."
+    },
+    "chips": [
+      "My hips shoot up first on squats",
+      "How do I brace my core?",
+      "Do pauses at the bottom help?"
+    ],
+    "related": [
+      "dj-a-010",
+      "dj-a-008"
+    ]
+  },
+  {
+    "id": "dj-a-042",
+    "topic": "squat",
+    "title": "Squat stance width and where your toes should point",
+    "keys": [
+      "where should my feet point",
+      "squat stance",
+      "squat stance width",
+      "how wide should my feet be for squats",
+      "toes out or forward squat",
+      "should my toes point forward when i squat",
+      "foot position squat",
+      "feet position for squats",
+      "wide stance squat",
+      "narrow stance squat",
+      "how far apart should my feet be squat"
+    ],
+    "match": "\\b(squat (stance|foot|feet)|(foot|feet) (position|placement) (for |in )?(the )?squats?|toes (out|forward|point\\w*)|where should my feet point|how (wide|far apart) should my feet be)\\b",
+    "body": [
+      "Start with your heels about shoulder width apart and your toes turned out somewhere between 15 and 30 degrees. That works for most people, and then you adjust for your own hips.",
+      "Here is the test I use: do a few bodyweight squats at a couple of widths and toe angles, and notice where you sink deepest with your heels down, your knees tracking over your toes and no pinching at the front of your hips. That is your stance. Hip shapes really do differ, so the right answer for your training partner might not be yours.",
+      "Once you find it, keep it the same every session. Measure it against floor tiles or a mark on the platform. Consistent feet make every rep comparable."
+    ],
+    "more": {
+      "why": "Turning the toes out a bit gives your hips room to sit between your legs at the bottom. Forcing toes straight forward can pinch the front of the hip or drag your knees inward.",
+      "how": "Try three stances with an empty bar or a goblet squat: shoulder width, slightly wider, slightly narrower. Film each from the front. Pick the one that looks and feels smoothest.",
+      "mistake": "Copying a stance from a video. Someone with different hip sockets may need a completely different width.",
+      "beginner": "Shoulder width, toes out a little, and get on with it. Fine-tune after a few weeks once squatting itself feels familiar."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "How deep should I squat?",
+      "How do I film my lifts?"
+    ],
+    "related": [
+      "dj-a-004",
+      "dj-a-003"
+    ]
+  },
+  {
+    "id": "dj-a-043",
+    "topic": "equipment",
+    "title": "What shoes to lift in",
+    "keys": [
+      "what shoes should i lift in",
+      "best shoes for lifting",
+      "lifting shoes",
+      "weightlifting shoes",
+      "can i lift in running shoes",
+      "squat shoes",
+      "deadlift shoes",
+      "should i lift barefoot",
+      "lifting barefoot",
+      "flat shoes for lifting",
+      "gym shoes",
+      "socks only deadlift",
+      "shoes for leg day"
+    ],
+    "match": "\\b(lifting|weightlifting|squat|deadlift|gym) shoes\\b|\\bshoes? (for|to) (lift\\w*|squat\\w*|leg day|the gym)\\b|\\blift(ing)? (in|with) (running )?shoes\\b|\\b(lift\\w*|squat\\w*|deadlift\\w*) barefoot\\b|\\bsocks only\\b",
+    "body": [
+      "For lifting, you want a shoe that is flat and firm. Thick, squishy running shoes are made to absorb impact, which is the opposite of what you want under a squat: the foam compresses and wobbles, and your heel can roll.",
+      "For most people, a flat, firm sneaker like a court shoe or canvas shoe works great for everything. Deadlifts in flat shoes or socks keep you closer to the floor, if your gym allows it. Weightlifting shoes with a raised, solid heel help people who struggle to stay upright in squats; think of them as a built-in heel wedge.",
+      "Bring your running shoes for the treadmill and change for the lifting. Simple swap, better base."
+    ],
+    "more": {
+      "why": "A stable foot is the foundation for every standing lift. If the base moves, everything above it compensates.",
+      "mistake": "Buying expensive lifting shoes before you have learned to squat. A flat sneaker and a small plate under your heels tests whether a heel helps you, for free.",
+      "beginner": "Whatever flat, firm shoe you already own is probably fine. Spend nothing until you know what you need."
+    },
+    "chips": [
+      "My heels lift when I squat",
+      "How should my feet grip the floor?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "dj-a-005"
+    ]
+  },
+  {
+    "id": "dj-a-044",
+    "topic": "lockout",
+    "title": "Locking out your knees and elbows",
+    "keys": [
+      "should i lock my knees out",
+      "locking knees",
+      "lock out knees on leg press",
+      "should i lock my elbows",
+      "locking elbows on bench",
+      "full lockout",
+      "is it bad to lock your knees",
+      "hyperextend knees",
+      "lock out at the top",
+      "soft knees",
+      "locking out joints",
+      "should i straighten my arms all the way"
+    ],
+    "match": "\\b(lock(ing)? (my |your )?(knees|elbows|arms|joints)( out)?|lock ?out|hyperextend\\w* (my |your )?(knees|elbows)|soft knees|straighten my (arms|legs) all the way)\\b",
+    "body": [
+      "It depends on the exercise. On standing lifts like squats, deadlifts, overhead presses and bench presses, finishing with straight joints is normal and safe. Your skeleton is meant to hold weight when it is stacked. What you avoid is snapping into lockout hard or pushing past straight.",
+      "On machines where your joint is the only thing between you and a heavy sled, like the leg press or hack squat, I would rather you stop just short of locked, keeping a sliver of bend, especially if your knees naturally bend backward a little past straight. Same for heavy chest press machines.",
+      "For muscle-building work, stopping a hair short of lockout also keeps tension on the muscle. For strength lifts and anything held overhead, a controlled, solid lockout is the goal."
+    ],
+    "more": {
+      "why": "A controlled lockout is fine. The trouble comes from a violent snap into it under load, or from joints that naturally overextend taking heavy weight with nothing but ligaments holding the position.",
+      "how": "On the leg press: press until your legs are nearly straight, then stop with a little bend. On a squat or bench: finish straight and controlled, no slamming.",
+      "mistake": "Bouncing in and out of lockout to rest between reps on machines. Smooth turnaround, steady tension."
+    },
+    "chips": [
+      "How do I use the leg press?",
+      "Should I do partial reps?",
+      "How do I set up a machine?"
+    ],
+    "related": [
+      "dj-a-012"
+    ]
+  },
+  {
+    "id": "dj-a-045",
+    "topic": "glutes",
+    "title": "Cable glute kickbacks that hit the glute",
+    "keys": [
+      "glute kickback",
+      "glute kickbacks",
+      "cable kickback",
+      "cable kickbacks",
+      "cable glute kickback",
+      "kickback machine",
+      "glute kickback machine",
+      "donkey kicks",
+      "donkey kick",
+      "kickbacks lower back",
+      "cable kickback form",
+      "quadruped kickback"
+    ],
+    "match": "\\b(glute|cable|leg) kick ?backs?\\b|\\bkick ?back machine\\b|\\bdonkey kicks?\\b|\\bquadruped kick ?backs?\\b",
+    "body": [
+      "Attach an ankle strap to the low pulley and face the machine, holding it with both hands. Hinge forward slightly from the hips, maybe 30 to 45 degrees, with a soft bend in your standing knee. That lean is what keeps your lower back out of it.",
+      "Kick the strapped leg back and slightly up by squeezing your glute, keeping a small bend in that knee. Stop when your hip is straight or a touch past; if you keep going, your lower back will start arching to give you more range, and that is not glute work. Hold for one second, then return slowly.",
+      "Sets of 12 to 20 per side, light enough to pause every rep. If you feel your hamstring cramping, bend the knee a little more."
+    ],
+    "more": {
+      "why": "The kickback isolates the glute as a hip extender without needing a heavy load, so it is a good finisher after squats or hinges.",
+      "how": "Strap on ankle, lean forward slightly, brace. Kick back in one second, squeeze one second, return in two to three. Keep your pelvis square to the machine.",
+      "mistake": "Swinging the leg up as high as possible. Range past straight hip comes from your spine, not your glute.",
+      "home": "Donkey kicks on all fours with a light band looped around your foot and hands. Ribs down, no arching."
+    },
+    "chips": [
+      "I do not feel my glutes working",
+      "How do I do a hip thrust?",
+      "How do I use cable machines?"
+    ],
+    "related": [
+      "dj-a-032",
+      "dj-a-025"
+    ]
+  },
+  {
+    "id": "dj-a-046",
+    "topic": "hamstrings",
+    "title": "Nordic curls and glute ham raises",
+    "keys": [
+      "nordic curl",
+      "nordic curls",
+      "nordic hamstring curl",
+      "nordics",
+      "glute ham raise",
+      "ghr",
+      "glute ham developer",
+      "how to do nordic curls",
+      "nordic curl progression",
+      "reverse nordic",
+      "razor curl"
+    ],
+    "match": "\\b(nordic( hamstring)? curls?|nordics|glute ham (raises?|developer)|ghr|razor curls?)\\b",
+    "body": [
+      "Nordic curls are one of the hardest hamstring exercises you can do with no equipment, and the lowering is the whole point. Kneel on a pad with your ankles anchored under something solid, like a loaded bar, a partner or a machine pad. Body straight from knees to head, hips locked forward.",
+      "Lower yourself toward the floor as slowly as you can, fighting the whole way with your hamstrings. When you cannot hold it any longer, catch yourself with your hands like a push-up, then push yourself back up with your arms just enough to get your hamstrings back in the game.",
+      "Start with 2 to 3 sets of 3 to 5 reps. Expect real soreness the first time; start with less than you think. A glute ham raise machine gives you a similar movement with more help from the pad."
+    ],
+    "more": {
+      "why": "Nordics load the hamstrings while they lengthen, which research links with stronger, more resilient hamstrings, including in athletes who sprint.",
+      "how": "Anchor ankles, hips forward, body straight. Lower in 3 to 5 seconds or as slow as you can. Catch, push back up, repeat.",
+      "mistake": "Bending at the hips to make it easier. The body stays in one straight line; once the hips fold, the hamstrings get a break.",
+      "beginner": "Hold a band anchored in front of you for help, or only lower partway before catching yourself. Slow counts more than distance."
+    },
+    "chips": [
+      "How slow should I lower the weight?",
+      "How do I do leg curls?",
+      "Why are negatives so hard?"
+    ],
+    "related": [
+      "dj-a-031"
+    ]
+  },
+  {
+    "id": "dj-a-047",
+    "topic": "machine",
+    "title": "Setting up any machine, seat height and pad position",
+    "keys": [
+      "how do i set up a machine",
+      "machine setup",
+      "how to adjust gym machines",
+      "seat height on machines",
+      "machine seat height",
+      "where should the pad go",
+      "pad position machine",
+      "line up with the pivot",
+      "machine pivot point",
+      "how do i know if the machine is set up right",
+      "colored dot on machine",
+      "adjusting machines at the gym",
+      "machine settings",
+      "how to use gym machines"
+    ],
+    "match": "\\b((machine|machines) (set ?up|settings|seat)|set ?up (a |the |any )?machines?|seat height|pad (position|placement|height)|pivot (point|dot)|colored dots?|adjust(ing)? (the |gym )?machines?|how to use gym machines)\\b",
+    "body": [
+      "Almost every machine follows three rules. First, line up the joint you are moving with the machine pivot. Knee machines pivot at the knee, shoulder machines at the shoulder, and the pivot is often marked with a colored dot or sticker. Second, set the pads so they sit on the long part of your limb near the joint, not on the joint itself. Third, set the seat so the handles start at roughly the level of the muscle you are training: mid-chest for a chest press, shoulder level for a shoulder press.",
+      "Then do one slow test rep with very little weight. You should move through a full range without the stack slamming, without your back peeling off the pad, and without anything pinching.",
+      "Write your settings down, like seat 4, pad 6, so you do not have to rediscover them next time. Log it right next to your weights."
+    ],
+    "more": {
+      "why": "Machines are designed around a joint path. If your joint is not where the machine expects it, the resistance pulls in a strange direction and the exercise feels awkward or hurts.",
+      "how": "Joint to pivot. Pads on the limb, not the joint. Handles level with the target muscle. One empty test rep. Save the numbers.",
+      "beginner": "There is no shame in reading the instruction card on the machine. Most have a little diagram of exactly this.",
+      "mistake": "Using whatever setting the last person left. They might be six inches taller than you."
+    },
+    "chips": [
+      "How do I use the leg press?",
+      "How do I set up leg extensions?",
+      "How do I use cable machines?"
+    ],
+    "related": [
+      "dj-a-030",
+      "dj-a-012"
+    ]
+  },
+  {
+    "id": "dj-a-048",
+    "topic": "squat",
+    "title": "Single-leg squats, pistols and skater squats",
+    "keys": [
+      "pistol squat",
+      "pistol squats",
+      "single leg squat",
+      "one leg squat",
+      "skater squat",
+      "skater squats",
+      "how do i do a pistol squat",
+      "pistol squat progression",
+      "single leg box squat",
+      "shrimp squat",
+      "single leg squat to box"
+    ],
+    "match": "\\b(pistol squats?|(single|one)[ -]leg(ged)? (box )?squats?|skater squats?|shrimp squats?)\\b",
+    "body": [
+      "Single-leg squats take strength, balance and a lot of ankle and hip range all at once, so build up to them in steps. The easiest start is a single-leg squat to a box: stand on one leg in front of a bench, reach your arms forward, and lower slowly until you sit lightly, then stand back up on the same leg.",
+      "Lower the box over time. A skater squat, where your free leg bends behind you and your back knee lowers toward a pad, is often easier than a pistol for people with stiff ankles. A full pistol keeps the free leg straight out in front, which needs more hip flexor strength and hamstring flexibility.",
+      "Keep the standing knee tracking over the toes and the heel down. Holding a light weight out in front of you actually makes balancing easier."
+    ],
+    "more": {
+      "why": "These train each leg through a deep range with only your bodyweight, which is perfect when you have no equipment.",
+      "how": "Box at knee height. Arms forward, three seconds down, tap, stand. Five reps per side. Lower the box an inch every week or two.",
+      "mistake": "Collapsing the last few inches. Only go as low as you can control, then use the box to set that depth.",
+      "home": "A sturdy chair and a doorframe to hold are all you need. Hold the frame lightly and use it less over time."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "One side is stronger than the other",
+      "How do I do a box squat?"
+    ],
+    "related": [
+      "dj-a-008",
+      "dj-a-034"
+    ]
+  },
+  {
+    "id": "dj-a-049",
+    "topic": "squat",
+    "title": "Wall sits and holding a position on purpose",
+    "keys": [
+      "wall sit",
+      "wall sits",
+      "wall squat",
+      "how long should i do a wall sit",
+      "wall sit form",
+      "wall sit knees hurt",
+      "isometric squat",
+      "isometric exercises",
+      "isometrics",
+      "static holds",
+      "are isometrics good"
+    ],
+    "match": "\\b(wall (sits?|squats?)|isometric(s| (squats?|exercises?|holds?))?|static holds?)\\b",
+    "body": [
+      "A wall sit is an isometric: the muscle works hard without the joint moving. Slide down a wall until your knees are bent around 90 degrees, or higher if that is too much, with your feet a bit in front of your knees so your shins stay roughly vertical. Back flat on the wall, weight in your heels.",
+      "Breathe the whole time. Holding your breath during a long hold just turns your face red. Start with 3 holds of 20 to 30 seconds and build toward 45 to 60 seconds. When your legs shake, that is normal muscle fatigue.",
+      "Isometrics like wall sits, planks and paused holds are useful for building control at a specific spot and are often comfortable for cranky knees. They are a nice addition, not a replacement for moving through a full range."
+    ],
+    "more": {
+      "why": "Holding a position builds strength at that angle and teaches you to stay braced under fatigue. Many people also find them gentle on the joints.",
+      "how": "Back on the wall, knees about 90 degrees, shins vertical. Breathe slowly. Hold 20 to 45 seconds, rest 60, repeat 3 times.",
+      "mistake": "Holding your breath and pushing the knees in front of the toes. Steady breathing, shins upright, knees over toes.",
+      "home": "All you need is a wall. A heavy backpack on your lap makes it harder once a minute feels easy."
+    },
+    "chips": [
+      "How do I breathe when lifting?",
+      "How do I do a plank properly?",
+      "What is a paused squat?"
+    ],
+    "related": [
+      "dj-a-041"
+    ]
+  },
+  {
+    "id": "dj-a-050",
+    "topic": "sled",
+    "title": "Pushing and pulling a sled with good form",
+    "keys": [
+      "sled push",
+      "sled pushes",
+      "prowler push",
+      "prowler",
+      "sled pull",
+      "sled drag",
+      "sled form",
+      "how to push a sled",
+      "backward sled drag",
+      "sled push high or low handles",
+      "sled training"
+    ],
+    "match": "\\b(sled (push\\w*|pull\\w*|drag\\w*|form|training)|prowler( push\\w*)?|push(ing)? a sled|backward sled)\\b",
+    "body": [
+      "Sleds are wonderful because there is no lowering phase, which means very little soreness, and they are hard to do badly. For a push, grab the high handles with arms extended or bent, lean in so your body makes a straight line from head to back heel, and drive with short, powerful steps through the balls of your feet.",
+      "Keep your back flat and your hips low enough that your legs are doing the work. Low handles make it more of a quad and conditioning blast; high handles are easier to learn. For a backward drag, hold a strap, sit into a quarter squat and walk backward on your heels and mid-foot; your quads will let you know.",
+      "Load it so you can keep moving steadily. If you are stalling every two steps, it is too heavy for this purpose."
+    ],
+    "more": {
+      "why": "Sled work builds leg strength and conditioning with almost no impact or eccentric stress, which makes it a favorite for knees that do not love squatting heavy.",
+      "how": "Straight line from head to heel. Short, fast steps. 20 to 30 yards, rest 60 to 90 seconds, repeat 4 to 6 times.",
+      "mistake": "Rounding your back and stepping long like you are lunging. Short steps, flat back, push the floor behind you."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "How do I brace my core?",
+      "How should my feet grip the floor?"
+    ]
+  },
+  {
+    "id": "dj-a-051",
+    "topic": "smith-machine",
+    "title": "Is the Smith machine bad, and when to use it",
+    "keys": [
+      "is the smith machine bad",
+      "smith machine",
+      "smith machine bench press",
+      "smith machine incline press",
+      "smith machine vs barbell",
+      "is smith machine cheating",
+      "smith machine safety",
+      "how to use the smith machine",
+      "smith machine shoulder press",
+      "smith machine weight of the bar",
+      "smith machine hip thrust"
+    ],
+    "match": "\\bsmith( machine)?\\b",
+    "body": [
+      "It is not bad and it is not cheating. The Smith machine is a bar on a fixed track, so it handles the balance for you. That makes it useful for training muscles hard when balance would otherwise be the limit, or when you are training alone and want built-in safety stops.",
+      "The tradeoff is that the track decides your bar path, so set yourself up to fit it rather than forcing your body into it. For a bench press, line the bar up over your lower chest. For an incline, set the bench so the bar comes down to your upper chest. For a shoulder press, sit so the bar travels just in front of your face. Always set the safeties just below your lowest point.",
+      "Free weights teach stabilizing; the Smith machine lets you focus on the muscle. Both have a place in a good week."
+    ],
+    "more": {
+      "why": "Removing balance from the equation lets you push the target muscle closer to its limit with less risk of losing control of the bar.",
+      "how": "Set safeties. Practice racking and unracking with the empty bar, twisting the hooks off and back on. Position yourself so the path fits your body, then lift as usual.",
+      "mistake": "Treating the fixed path as permission to stop bracing. Your trunk still has to hold position."
+    },
+    "chips": [
+      "How do I do Smith machine squats?",
+      "How do I set up a bench press?",
+      "How do I set up a machine?"
+    ],
+    "related": [
+      "dj-a-037"
+    ]
+  }
+]

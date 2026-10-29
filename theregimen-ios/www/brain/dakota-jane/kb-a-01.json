@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "dj-a-001",
+    "topic": "squat",
+    "title": "Goblet squat form, the squat that teaches itself",
+    "keys": [
+      "goblet squat",
+      "goblet squats",
+      "goblet squat form",
+      "how to do a goblet squat",
+      "dumbbell squat",
+      "kettlebell squat",
+      "squat holding a dumbbell",
+      "how do i hold the dumbbell for goblet squat",
+      "goblet squat elbows",
+      "goblet sqaut",
+      "best squat to learn",
+      "squat with weight at my chest"
+    ],
+    "match": "\\bgoblet (squats?|sqauts?)\\b|\\b(dumbbell|kettlebell|db|kb) squats?\\b",
+    "body": [
+      "The goblet squat is my favorite place to learn squatting, because the weight in front of you does half the coaching. Hold a dumbbell vertically by one end, or a kettlebell by the horns, right against your breastbone with your elbows pointing down.",
+      "Feet about shoulder width, toes turned out a little, somewhere around 15 to 30 degrees. Breathe in, brace, and sit straight down between your heels. Let your elbows travel to the inside of your knees at the bottom, then stand up by pushing the floor away through your whole foot.",
+      "Take three seconds on the way down. Chest proud, heels planted, knees following the direction of your toes. Sets of 8 to 12 with a weight you could lift for a couple more reps is plenty."
+    ],
+    "more": {
+      "why": "Holding the weight in front works as a counterbalance, so you can sit deeper and stay upright without thinking about it. It quietly teaches depth, bracing and knee tracking all at once.",
+      "how": "Weight at the chest, elbows down. Brace. Three seconds down, elbows brush the inside of the knees, a short pause, then drive up and breathe out near the top.",
+      "beginner": "Start with a light dumbbell, around 10 to 20 lb, and make every rep look the same. When 3 sets of 12 feel smooth and controlled, go up one dumbbell.",
+      "mistake": "Letting the weight drift away from your chest. Once it floats forward, your back takes over. Keep it glued to your sternum like it owes you money."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How deep should I squat?",
+      "My heels lift when I squat",
+      "My knees cave in on squats"
+    ],
+    "related": [
+      "dj-a-003",
+      "dj-a-004",
+      "dj-a-005"
+    ]
+  },
+  {
+    "id": "dj-a-002",
+    "topic": "squat",
+    "title": "Back squat cues that actually help mid-rep",
+    "keys": [
+      "back squat cues",
+      "squat cues",
+      "what should i think about when squatting",
+      "squat technique tips",
+      "how to squat properly",
+      "proper squat form",
+      "barbell squat tips",
+      "squat form tips",
+      "how do i squat with good form",
+      "squat form",
+      "is my squat form right",
+      "correct squat form",
+      "squatting form",
+      "squat technique"
+    ],
+    "match": "\\b(squat (cues?|tips|technique)|(proper|good|correct|right) squat(ting)? form|squat(ting)? form|squat properly)\\b",
+    "body": [
+      "Pick one cue per set, not five. My favorites: spread the floor with your feet, sit down between your heels, and keep the bar over the middle of your foot the whole way.",
+      "Before each rep, take a big breath into your belly and brace like someone is about to poke you in the stomach. Break at the hips and knees at the same time, let your knees travel out over your toes, and lower slowly enough to stay in charge. Out of the bottom, drive your upper back into the bar so your chest and hips rise together.",
+      "If your hips shoot up first and your chest tips forward, the weight is ahead of your form today. Take 10 percent off and own it. Form is the lift."
+    ],
+    "more": {
+      "why": "Your brain can only run one new instruction at a time under a bar. Stacking cues makes you stiff and slow. One clear cue, repeated until it is automatic, is how a squat actually changes.",
+      "how": "Feet roughly shoulder width, toes out 15 to 30 degrees, weight spread over big toe, little toe and heel. Brace, sit down between your heels in 2 to 3 seconds, then push the floor away.",
+      "mistake": "Looking straight up at the ceiling to stay upright. It kinks the neck and can tip the hips. Pick a spot on the floor a few feet ahead instead.",
+      "advanced": "Film a set from the side. The bar should travel in a nearly straight vertical line over mid-foot. If it drifts forward out of the hole, cue chest up into the bar for the next set."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I brace my core?",
+      "Where should I look when I squat?",
+      "My hips shoot up first on squats"
+    ],
+    "related": [
+      "dj-a-001",
+      "dj-a-003",
+      "dj-a-010"
+    ]
+  },
+  {
+    "id": "dj-a-003",
+    "topic": "squat",
+    "title": "How deep you should squat",
+    "keys": [
+      "how deep should i squat",
+      "squat depth",
+      "how low should i squat",
+      "is parallel deep enough",
+      "ass to grass",
+      "atg squat",
+      "should i squat below parallel",
+      "half squats",
+      "quarter squats",
+      "how far down should i go on squats",
+      "are deep squats bad for your knees",
+      "are deep squats bad",
+      "full depth squat",
+      "squat to parallel",
+      "how deep do i squat"
+    ],
+    "match": "\\b(squat depth|how (deep|low|far down) (should|do|can) i (squat|go on squats)|below parallel|ass to grass|atg|(half|quarter|deep|full depth) squats?|squat to parallel|parallel deep enough)\\b",
+    "body": [
+      "As deep as you can go while your heels stay down, your back holds its position and you stay in control. For most people that lands around the crease of the hip level with or just below the top of the knee, which is what people mean by parallel.",
+      "Deep squats are not bad for healthy knees. A full range of motion trains more of the muscle and usually takes less load to be hard. What gets people in trouble is depth they cannot control: a bounce at the bottom, a heel lifting, or the lower back folding under.",
+      "Not there yet? Squat to a box or bench set at the depth you own today, and lower it an inch at a time over a few weeks. Start where you are."
+    ],
+    "more": {
+      "why": "Muscles grow and get strong through the range you train them. Deeper squats load the glutes and quads in their stretched position, which is where a lot of the good stuff happens.",
+      "how": "Film from the side at hip height. Find the depth where your heels or lower back start to change, and stop a hair above it. That is your working depth for now.",
+      "mistake": "Chasing depth with a weight you cannot control. Depth earned with a lighter bar beats depth faked with a heavy one.",
+      "beginner": "Goblet squats to a bench are the cleanest way to learn depth. Touch the bench lightly, do not sit and relax, and stand back up."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "What is butt wink?",
+      "Do my knees go past my toes?",
+      "How do I do a box squat?"
+    ],
+    "related": [
+      "dj-a-006",
+      "dj-a-008",
+      "dj-a-014"
+    ]
+  },
+  {
+    "id": "dj-a-004",
+    "topic": "squat",
+    "title": "Knees caving in when you squat",
+    "keys": [
+      "knees cave in",
+      "my knees cave in on squats",
+      "knees caving in on squats",
+      "knees going in when i squat",
+      "knee valgus",
+      "knees buckle",
+      "knees collapse inward",
+      "knees come together when i stand up",
+      "how to stop knees caving",
+      "knock knees when i squat",
+      "knees cave on leg press",
+      "knees go inward",
+      "knees move in on squats"
+    ],
+    "match": "\\b(knees? (cave|caving|caves|collapse|collapsing|buckl\\w*|go(ing)? in(ward)?|come together|push in|move in)|knee valgus|valgus|knock knees)\\b",
+    "body": [
+      "I notice this one a lot, and it is fixable. Knees drifting in usually shows up out of the bottom, when you are pushing hardest, and it tells me the weight or the depth is a little ahead of your control right now.",
+      "The cue is to spread the floor: grip it with your feet and push it apart without your feet actually moving. Your knees should track in line with your second and third toes on the way down and the way up. Keep your weight over your whole foot, big toe included, so your arch does not collapse.",
+      "Drop the load by 10 to 20 percent and slow the lowering to 3 seconds. Goblet squats and paused squats are great teachers. If the knee hurts sharply, swells or feels unstable, stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "When the knees fall in, the load shifts off the hips and onto the knee in a way it does not love. Keeping the knee over the toes keeps the glutes in the job.",
+      "how": "Toes out 15 to 30 degrees, stance about shoulder width, knees out over the toes. Pause one second at the bottom, then drive up while keeping the knees exactly where they were.",
+      "mistake": "Shoving the knees out so hard that you roll onto the outer edge of your foot. You want knees over toes, not knees past the pinky toe.",
+      "beginner": "A light band just above the knees for a set or two can teach the feeling of pushing out. Use it as a reminder, then take it off."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "What is a paused squat?",
+      "Where should my feet point?",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "dj-a-001",
+      "dj-a-003"
+    ]
+  },
+  {
+    "id": "dj-a-005",
+    "topic": "squat",
+    "title": "Heels lifting or tipping forward in the squat",
+    "keys": [
+      "heels lift when i squat",
+      "my heels lift when i squat",
+      "heels come up when i squat",
+      "heels rise squatting",
+      "falling forward when squatting",
+      "leaning forward too much on squats",
+      "tipping forward on squats",
+      "cant keep my heels down",
+      "on my toes when i squat",
+      "plates under heels",
+      "heel elevated squat",
+      "squat wedge",
+      "ankle mobility for squats",
+      "squat on toes"
+    ],
+    "match": "\\b(heels? (lift|lifting|lifts|come up|coming up|rise|rising|raise)|(lean|leaning|tip|tipping|fall|falling) forward (when|on|in|during) (the |my )?squat\\w*|on my toes when i squat|squat wedge|plates? under (my )?heels|heels? elevated)\\b",
+    "body": [
+      "When your heels lift, your weight has drifted onto your toes, and your knees and lower back start doing jobs that belong to your hips. It usually comes from stiff ankles, a stance that is too narrow, or a load that pulls you forward.",
+      "Three quick fixes. Widen your stance a little and turn your toes out a touch more. Put a small plate or a wedge under each heel, about half an inch to an inch, which gives your ankles room and keeps you upright. Or switch to goblet squats, where the weight in front helps you sit down instead of tipping.",
+      "Keep your weight over the middle of your foot, heel heavy the whole rep. You should be able to wiggle your toes at the bottom."
+    ],
+    "more": {
+      "why": "If the ankle cannot bend forward enough, your body finds the range somewhere else, either by lifting the heel or folding the torso forward. Raising the heel gives you that range back for free.",
+      "how": "Plates or a wedge under the heels, stance about shoulder width, toes out 15 to 30 degrees, 3 seconds down, weight on mid-foot. Film one set from the side to check your heels stay planted.",
+      "mistake": "Squatting in soft, squishy running shoes. The foam compresses and wobbles under load. Flat, firm shoes or a heeled lifting shoe give you a stable base.",
+      "beginner": "Heel-elevated goblet squats are a perfectly good long-term squat, not a crutch. Plenty of strong people squat that way forever."
+    },
+    "chips": [
+      "What shoes should I lift in?",
+      "How do I do a goblet squat?",
+      "Where should my feet point?"
+    ],
+    "related": [
+      "dj-a-001",
+      "dj-a-004"
+    ]
+  },
+  {
+    "id": "dj-a-006",
+    "topic": "squat",
+    "title": "Butt wink, the tuck at the bottom of a squat",
+    "keys": [
+      "butt wink",
+      "buttwink",
+      "what is butt wink",
+      "pelvis tucks under at the bottom of my squat",
+      "lower back rounds at the bottom of squat",
+      "hips tuck under on squats",
+      "tailbone tucks when i squat",
+      "is butt wink bad",
+      "how to fix butt wink",
+      "posterior pelvic tilt squat",
+      "pelvic tuck squat"
+    ],
+    "match": "\\b(butt ?wink|(pelvis|hips?|tailbone) tucks?( under)?|pelvic tuck|(lower )?back rounds? (at|in) the bottom)\\b",
+    "body": [
+      "Butt wink is the little tuck of the pelvis at the very bottom of a deep squat, where your lower back goes from neutral to slightly rounded. A small amount with light weight is common and not something to lose sleep over.",
+      "What I care about is how much, and under how much load. A big tuck with a heavy bar on your back means your spine is taking stress it does not need. The simple fix is to stop your depth just above the point where the tuck starts, and own that depth.",
+      "Other helpers: a slightly wider stance with toes turned out a little more, a heel lift, a harder brace before you descend, and a slower 3-second lowering so you can feel where it happens. Film it from the side at hip height to see what is really going on."
+    ],
+    "more": {
+      "why": "Hip shape, ankle range and bracing all change where your pelvis runs out of room. Everyone has a slightly different bottom position, which is why your depth is personal.",
+      "how": "Find your tuck point with an empty bar or a goblet squat while filming. Squat to a box set just above it for a few weeks, bracing hard each rep, then try lowering the box an inch.",
+      "mistake": "Forcing a huge arch at the top to prevent it. Overarching just moves the problem. Neutral, braced and stacked is the goal."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I film my lifts?",
+      "How do I brace my core?",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "dj-a-003",
+      "dj-a-008"
+    ]
+  },
+  {
+    "id": "dj-a-007",
+    "topic": "squat",
+    "title": "Front squat form and that rack position",
+    "keys": [
+      "front squat",
+      "front squats",
+      "front squat form",
+      "front squat grip",
+      "front squat wrists hurt",
+      "cross arm front squat",
+      "clean grip front squat",
+      "bar rolling forward on front squat",
+      "elbows dropping front squat",
+      "how to hold the bar for front squat",
+      "front rack",
+      "front rack position",
+      "zombie front squat"
+    ],
+    "match": "\\bfront (squats?|rack)\\b",
+    "body": [
+      "The bar sits on the shelf of your front shoulders, right up against your throat, not in your hands. Your fingers just keep it from rolling. Drive your elbows up and forward so your upper arms are as close to level with the floor as you can manage.",
+      "From there, brace hard and sit straight down. The front squat keeps you more upright than a back squat, so it hits the quads hard and demands a strong upper back. If your elbows drop, the bar rolls forward and the set is over.",
+      "Wrists complaining? Use two or three fingers under the bar instead of a full grip, or cross your arms with your hands on the opposite shoulders. Both are honest ways to front squat."
+    ],
+    "more": {
+      "why": "With the weight in front, a forward lean dumps the bar, so the lift forces an upright torso. That makes it a great teacher for bracing and posture.",
+      "how": "Bar in the rack at upper chest height. Step in until it touches your throat, set your fingers, lift your elbows, stand it up. Brace, sit down between your heels, keep the elbows high on the way up.",
+      "mistake": "Gripping the bar like a bench press and letting the elbows point down. That puts the load in your wrists and lets the bar slide off your shoulders.",
+      "beginner": "Practice the rack position with an empty bar for a couple of sessions before adding any weight. Goblet squats build the same pattern in the meantime."
+    },
+    "chips": [
+      "How do I brace my core?",
+      "My wrists hurt when I lift",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "dj-a-001",
+      "dj-a-002"
+    ]
+  },
+  {
+    "id": "dj-a-008",
+    "topic": "squat",
+    "title": "Box squats, and how to sit without plopping",
+    "keys": [
+      "box squat",
+      "box squats",
+      "how do i do a box squat",
+      "squat to a box",
+      "squat to a bench",
+      "how to box squat",
+      "box squat height",
+      "sitting down on box squats",
+      "chair squat",
+      "chair squats",
+      "squat to a chair",
+      "bodyweight squat to chair"
+    ],
+    "match": "\\b(box squats?|squats? to (a )?(box|bench|chair)|chair squats?)\\b",
+    "body": [
+      "A box squat is one of my favorite teaching tools because it makes your depth honest. Set a box or bench so that when you touch it, your hip crease is at or a little above your knee. Stand far enough in front of it that you reach back for it slightly.",
+      "Lower under control, touch the box with the lightest possible tap or a brief pause, and stand back up without rocking. Your brace stays on the whole time. If you hear a thud, that was a plop, and plopping drops your bodyweight plus the bar onto your spine.",
+      "Pause for a second while staying tight, then drive up through your whole foot. Over a few weeks, lower the box an inch at a time as your control improves."
+    ],
+    "more": {
+      "why": "The box takes away the guessing. Every rep hits the same depth, and it teaches you to sit back with your hips while keeping your shins more vertical.",
+      "how": "Box at about parallel. Brace, sit back and down in 2 to 3 seconds, touch, hold one second staying tight, stand. Breathe out near the top.",
+      "beginner": "Bodyweight chair squats count. Arms out in front for balance, tap the chair, stand up. Ten good ones is a real set.",
+      "mistake": "Relaxing on the box. Once your trunk goes soft, getting up turns into a rock and a heave. Stay braced like you are hovering."
+    },
+    "chips": [
+      "How deep should I squat?",
+      "What is a paused squat?",
+      "How do I do a goblet squat?"
+    ],
+    "related": [
+      "dj-a-003",
+      "dj-a-001"
+    ]
+  },
+  {
+    "id": "dj-a-009",
+    "topic": "split-squat",
+    "title": "Bulgarian split squats without the wobble",
+    "keys": [
+      "bulgarian split squat",
+      "bulgarian split squats",
+      "bss",
+      "rear foot elevated split squat",
+      "split squat",
+      "split squats",
+      "split squat form",
+      "how far should my foot be on bulgarian",
+      "bulgarian split squat glutes or quads",
+      "bulgarian split squat balance",
+      "bulgarian squat",
+      "bulgarians",
+      "rfess"
+    ],
+    "match": "\\b(bulgarian( split)? squats?|bulgarians|split squats?|rear foot elevated|rfess|bss)\\b",
+    "body": [
+      "Everyone loves to hate them, and they are one of the best leg exercises there is. Put the top of your back foot on a bench, laces down. Hop your front foot out far enough that at the bottom, your front knee sits roughly over your foot and your back knee drops toward the floor beneath your hip.",
+      "Lower straight down for 2 to 3 seconds, not forward. A slight forward lean of the chest puts more work into the glutes; a more upright torso makes it a quad exercise. Both are right, so pick on purpose. Push up through the whole front foot.",
+      "Wobbling is normal for the first few weeks. Hold a rack with one hand and a dumbbell in the other. Do your weaker leg first, and match its reps on the strong side."
+    ],
+    "more": {
+      "why": "Each leg works alone, so imbalances cannot hide, and the front leg gets a deep stretch under load. A lot of training for not much weight.",
+      "how": "Back foot on a bench about knee height. Front foot about a stride ahead. Torso tall or slightly forward. Three seconds down until the back knee is an inch or two off the floor, then drive up.",
+      "mistake": "Standing too close to the bench, so your front heel lifts and the knee shoots forward. Scoot the front foot out a few inches.",
+      "beginner": "Start with the back foot on the floor as a plain split squat, bodyweight only. Add the bench when 3 sets of 10 per side feel steady."
+    },
+    "chips": [
+      "One side is stronger than the other",
+      "Should I feel squats in my glutes?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-027",
+      "dj-a-028"
+    ]
+  },
+  {
+    "id": "dj-a-010",
+    "topic": "squat",
+    "title": "Hips shooting up first out of the squat",
+    "keys": [
+      "hips shoot up first on squats",
+      "my hips shoot up first",
+      "hips rise first squat",
+      "butt comes up first when i squat",
+      "hips rise faster than my chest",
+      "chest falls forward coming up from squat",
+      "chest drops out of the hole",
+      "stripper squat",
+      "hips come up too fast squat",
+      "leaning forward coming out of squat"
+    ],
+    "match": "\\b(hips? (shoot|shooting|shoots|rise|rising|rises|come|coming) up (first|too fast|fast)|(squat|squats) (turns? into|becomes?) a good morning|chest (falls|drops|dumps) (forward|out)|butt comes up first|stripper squat)\\b",
+    "body": [
+      "Coming out of the bottom, your hips and chest should rise at the same rate. When the hips shoot up first, your chest tips forward and the squat turns into a good morning, which hands the bar to your lower back instead of your legs.",
+      "Usually your quads are getting outworked, or your brace softens right at the bottom. Cue it as chest up into the bar, or push your upper back into the bar, the moment you start up. Keep the air in until you are past the hardest part.",
+      "Then train the gap: paused squats with a 2-second hold at the bottom, front squats or goblet squats, and a lighter load for a few weeks. I would rather see 8 honest reps than 10 that fold."
+    ],
+    "more": {
+      "why": "Hips rising first shortens the lever for the quads and hands the work to your hips and back. Your body is finding the easiest path, which is smart of it but not what we want.",
+      "how": "Take 10 to 15 percent off. Three seconds down, two-second pause at the bottom while staying braced, then drive chest and hips up together. Film from the side to check.",
+      "advanced": "If it only happens on the last rep or two of hard sets, end the set one rep earlier. That rep was not adding much."
+    },
+    "chips": [
+      "What is a paused squat?",
+      "How do I brace my core?",
+      "How do I film my lifts?"
+    ],
+    "related": [
+      "dj-a-002",
+      "dj-a-007"
+    ]
+  },
+  {
+    "id": "dj-a-011",
+    "topic": "machine",
+    "title": "Hack squat machine setup and form",
+    "keys": [
+      "hack squat",
+      "hack squats",
+      "hack squat machine",
+      "hack squat form",
+      "hack squat foot placement",
+      "how to use the hack squat",
+      "hack squat depth",
+      "reverse hack squat",
+      "hack squat back pad",
+      "pendulum squat",
+      "pendulum squat machine",
+      "hack squat feet"
+    ],
+    "match": "\\b(hack squats?|pendulum squats?)\\b",
+    "body": [
+      "Step in with your shoulders snug under the pads and your back flat against the back pad, head resting back. Set your feet about shoulder width in the middle of the platform, toes slightly out. Release the safety handles before your first rep, and know exactly where they are so you can lock them back.",
+      "Lower slowly, 2 to 3 seconds, as deep as you can while your hips and lower back stay against the pad. Drive up through the whole foot and stop just short of slamming your knees straight at the top.",
+      "Feet lower on the platform means more quads and more forward knee travel. Feet higher and a touch wider bring in more glutes. The same idea works on a pendulum squat."
+    ],
+    "more": {
+      "why": "The machine supports your back and controls the path, so your legs can work hard without balance or bracing being the weak link. It is a great way to train quads when you are already tired.",
+      "how": "Shoulders under pads, back on pad, feet mid-platform, release the safeties. Three seconds down, no bounce, smooth drive up, knees soft at the top. Lock the safeties before stepping out.",
+      "mistake": "Letting your hips peel off the pad at the bottom to get more depth. That rounds your lower back. Only go as deep as your back stays put.",
+      "beginner": "Start with just the sled, no plates. It already weighs something on most machines, and the motion takes a session or two to feel natural."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "Should I lock my knees out?",
+      "Where should my feet go on leg press?"
+    ],
+    "related": [
+      "dj-a-012",
+      "dj-a-013"
+    ]
+  },
+  {
+    "id": "dj-a-012",
+    "topic": "machine",
+    "title": "Leg press form, from the seat to the bottom of the rep",
+    "keys": [
+      "leg press",
+      "leg press form",
+      "how to leg press",
+      "leg press setup",
+      "how deep on leg press",
+      "leg press depth",
+      "leg press lower back",
+      "butt lifts off leg press",
+      "lower back rounding on leg press",
+      "leg press seat angle",
+      "45 degree leg press",
+      "leg press machine",
+      "seated leg press",
+      "how to use the leg press"
+    ],
+    "match": "\\bleg press(es|ing)?\\b",
+    "body": [
+      "Sit all the way back with your lower back and hips pressed into the pad. Feet go flat on the platform about hip to shoulder width, roughly in the middle. Hold the handles, unlock the safeties, and keep them within reach.",
+      "Lower the sled under control until your knees reach about 90 degrees or a bit deeper, stopping just before your hips curl up off the seat. That curl is your lower back rounding, and it is the one thing I really do not want to see on this machine. Press back up through your whole foot.",
+      "At the top, stop just short of locking your knees out hard. Keep a sliver of bend, and keep breathing. A stack of plates looks impressive; slow, deep, controlled reps actually build legs."
+    ],
+    "more": {
+      "why": "The leg press is a lot of load with your spine supported, which is great, as long as your pelvis stays on the pad. Once the hips tuck, the stress moves into your lower back.",
+      "how": "Back flat, feet mid-platform, release the safeties. Three seconds down to your working depth, no bounce off the bottom, smooth press, soft knees at the top. Lock the safeties before you get out.",
+      "mistake": "Loading every plate in the gym and doing 4-inch reps. Half the weight through a real range of motion will do far more for you.",
+      "beginner": "Start light and find your depth with a few slow reps. Note where your hips start to lift and stop an inch above it."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Where should my feet go on leg press?",
+      "Should I lock my knees out?",
+      "Should I do partial reps?"
+    ],
+    "related": [
+      "dj-a-013",
+      "dj-a-011"
+    ]
+  },
+  {
+    "id": "dj-a-013",
+    "topic": "machine",
+    "title": "Where your feet go on the leg press, and what changes",
+    "keys": [
+      "leg press foot placement",
+      "where should my feet go on leg press",
+      "feet high on leg press",
+      "feet low on leg press",
+      "wide stance leg press",
+      "narrow stance leg press",
+      "leg press for glutes",
+      "leg press for quads",
+      "where do i put my feet on leg press",
+      "leg press feet position",
+      "leg press for hamstrings",
+      "foot position on leg press",
+      "single leg leg press"
+    ],
+    "match": "\\b(leg press (foot|feet)|(feet|foot)( go| placement| position)?( \\w+)? (on|for) (the )?leg press|leg press (for|to target) (glutes|quads|hamstrings)|(high|low|wide|narrow)( stance)? (on |feet on )?(the )?leg press|single leg leg press)\\b",
+    "body": [
+      "Middle of the platform, about shoulder width, toes slightly out, is the home base that works for most people. From there, small moves shift the emphasis.",
+      "Feet lower on the platform let your knees travel further forward, which loads the quads more. Feet higher and a little wider bring the hips into it, so glutes and hamstrings work harder. A narrow stance leans on the outer quads; a wide stance with toes out brings in the inner thighs.",
+      "Whatever you choose, two rules hold. Your heels stay planted the whole rep, and your knees track in line with your toes. If your heels peel up at the bottom, your feet are too low for your ankles. Single-leg presses with a light load are great for evening out your sides."
+    ],
+    "more": {
+      "why": "Where your feet sit changes how much your knees bend versus how much your hips bend. More knee bend favors the quads; more hip bend favors glutes and hamstrings.",
+      "how": "Pick one placement and keep it for a training block so you can track progress honestly. Make a mental note, like heels two inches below the top edge.",
+      "mistake": "Feet so high that only your toes push at the top, or so low that your heels lift. Both shift stress into joints instead of muscles."
+    },
+    "chips": [
+      "Should I feel squats in my glutes?",
+      "One side is stronger than the other",
+      "My knees cave in on squats"
+    ],
+    "related": [
+      "dj-a-012",
+      "dj-a-034"
+    ]
+  },
+  {
+    "id": "dj-a-014",
+    "topic": "squat",
+    "title": "Can your knees go past your toes",
+    "keys": [
+      "knees past toes",
+      "knees over toes",
+      "should my knees go past my toes",
+      "do my knees go past my toes",
+      "is it bad if my knees go over my toes",
+      "knees in front of toes squat",
+      "knees past toes bad",
+      "knee travel squat",
+      "knees too far forward squat",
+      "knees going over toes lunge"
+    ],
+    "match": "\\bknees? (go(ing)? |goes |travel(ing)? |too far )?(past|over|in front of|beyond|forward of) (my |the |your )?toes\\b|\\bknees too far forward\\b",
+    "body": [
+      "Yes, for most people. Knees traveling past your toes in a squat or lunge is normal and expected, especially if you are tall or have long thighs. Try walking down a flight of stairs without it.",
+      "The old rule came from a real worry, but blocking your knees forces your hips back and your torso forward, which just moves the stress to your hips and lower back. What actually matters: your heel stays down, your knee tracks in line with your toes rather than caving in, and you control the lowering.",
+      "If your knees feel irritated, shift a little more toward your hips for a while: sit back a touch further, use a box, or go a bit less deep, then build back up. Sharp or worsening pain is a stop-and-see-a-professional moment, not a push-through moment."
+    ],
+    "more": {
+      "why": "Knee travel is how your body balances in a squat. The further your knees go forward, the more upright you can stay, which keeps your back happier.",
+      "how": "Film a goblet squat from the side. If your heel is down and your knee points the same way as your toes, your knee position is fine, wherever it ends up.",
+      "mistake": "Fixating on knee position while the real issue is a heel lifting or a knee collapsing inward. Fix those first."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My knees cave in on squats",
+      "My heels lift when I squat",
+      "How do I do a lunge properly?"
+    ],
+    "related": [
+      "dj-a-004",
+      "dj-a-005",
+      "dj-a-027"
+    ]
+  },
+  {
+    "id": "dj-a-015",
+    "topic": "hinge",
+    "title": "Romanian deadlift form, the hinge that builds hamstrings",
+    "keys": [
+      "romanian deadlift",
+      "how do i do a romanian deadlift",
+      "rdl",
+      "rdls",
+      "rdl form",
+      "romanian deadlift form",
+      "how to do rdl",
+      "how low should i go on rdl",
+      "dumbbell rdl",
+      "stiff leg deadlift",
+      "stiff legged deadlift",
+      "rdl vs deadlift",
+      "romanian dead lift",
+      "where should i feel rdls"
+    ],
+    "match": "\\b(romanian dead ?lifts?|rdls?|stiff[ -]?leg(ged)? dead ?lifts?|sldl)\\b",
+    "body": [
+      "Stand tall holding the bar or dumbbells against your thighs, knees soft and fixed at a slight bend. Now push your hips straight back, like you are closing a car door with your butt. The bar slides down your thighs, staying in contact or close to it the whole way.",
+      "Lower until you feel a strong stretch in your hamstrings, which for most people is somewhere between just below the knees and mid-shin. Back flat, ribs down, neck in line. Stop where your back would have to round to go further. Then drive your hips forward to stand, squeezing your glutes at the top without leaning back.",
+      "You should feel this in the backs of your legs, a lot. If you mostly feel it in your lower back, the bar has drifted away from you or you went past your range."
+    ],
+    "more": {
+      "why": "The RDL loads the hamstrings and glutes in a long, stretched position with a slow lowering, and that combination is excellent for building them.",
+      "how": "Soft knees, hips back, bar close, 3 seconds down, stop at your stretch, one-second pause, drive your hips forward. Breathe out near the top and re-brace before the next rep.",
+      "mistake": "Turning it into a squat by bending the knees more as you go down. The knee angle barely changes; the hips do the moving.",
+      "beginner": "Learn it with a broomstick along your back first, then light dumbbells. Sets of 8 to 12 with a slow lowering teach it fast."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I learn to hip hinge?",
+      "I feel deadlifts in my lower back",
+      "How do I do a single leg RDL?"
+    ],
+    "related": [
+      "dj-a-024",
+      "dj-a-017",
+      "dj-a-023"
+    ]
+  },
+  {
+    "id": "dj-a-016",
+    "topic": "hinge",
+    "title": "Deadlift setup, the steps before the bar moves",
+    "keys": [
+      "deadlift form",
+      "how to deadlift",
+      "how do i set up a deadlift",
+      "deadlift setup",
+      "conventional deadlift",
+      "deadlift technique",
+      "deadlift cues",
+      "where should the bar be on a deadlift",
+      "deadlift stance",
+      "dead lift form",
+      "deadlifting form",
+      "deadlifts for beginners",
+      "how to pull a deadlift",
+      "proper deadlift form"
+    ],
+    "match": "\\b((conventional |proper )?dead ?lift(ing)? (form|setup|set ?up|technique|cues|stance)|how (do i |to )(set up (a |for )?|pull a |do a )?dead ?lifts?|conventional dead ?lifts?|dead ?lifts? for beginners)\\b",
+    "body": [
+      "Walk up until the bar is over the middle of your foot, about an inch from your shins, feet roughly hip width. Bend down and grip the bar just outside your legs. Bend your knees until your shins touch the bar, then lift your chest so your back flattens.",
+      "Now the step most people skip: take the slack out. Pull up on the bar just enough to hear it click against the plates, squeeze your lats like you are tucking your shoulder blades into your back pockets, and take a big braced breath.",
+      "Push the floor away. The bar drags up your shins and thighs, hips and shoulders rising together, and you finish standing tall with your glutes squeezed, not leaning back. Lower it by pushing your hips back first, then bending the knees once the bar passes them. This lift rewards patience."
+    ],
+    "more": {
+      "why": "Every step removes a way for the lift to go wrong. Bar over mid-foot keeps the path straight, the slack pull stops the jerk off the floor, and tight lats keep the bar close.",
+      "how": "Bar over mid-foot. Grip. Shins to bar. Chest up. Slack out, lats tight, breathe and brace. Push the floor. Lock out tall. Reset every rep for the first few months.",
+      "mistake": "Yanking the bar off the floor. That jolt rounds your back before the bar even leaves the ground. Squeeze it off the floor instead.",
+      "beginner": "If a full barbell from the floor is hard to set up, start with a trap bar or pull from blocks so the bar starts a little higher."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "I feel deadlifts in my lower back",
+      "What is a trap bar deadlift?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-017",
+      "dj-a-018",
+      "dj-a-024"
+    ]
+  },
+  {
+    "id": "dj-a-017",
+    "topic": "hinge",
+    "title": "Feeling deadlifts in your lower back, or your back rounding",
+    "keys": [
+      "i feel deadlifts in my lower back",
+      "deadlift lower back",
+      "back rounding on deadlift",
+      "rounding my back on deadlifts",
+      "deadlift hurts my lower back",
+      "lower back sore after deadlifts",
+      "round back deadlift",
+      "is rounding your back bad on deadlifts",
+      "back rounds when i deadlift",
+      "feel rdls in my lower back",
+      "lower back pumped after deadlifts",
+      "deadlift back pain"
+    ],
+    "match": "\\b((feel|feeling) (my )?(dead ?lifts?|rdls?) in (my )?(lower )?back|(dead ?lifts?|rdls?|dead ?lifting) (hurts? |kills? )?(my )?lower back|round(ing|ed|s)? (my |your )?back (on|when|during|in) (the |my )?(dead ?lift\\w*|rdls?)|back rounds? when i (dead ?lift|rdl)|(dead ?lift|rdl) back (round\\w*|pain)|lower back (sore|pumped) after (dead ?lifts?|rdls?))\\b",
+    "body": [
+      "Some tiredness in the lower back after deadlifts is normal; those muscles hold your spine still while everything else works. But if your lower back is the main thing you feel, or you can see it rounding on film, the setup or the load needs a look.",
+      "The usual causes: the bar drifting away from your legs, hips starting too high or too low, no slack pulled out before the bar leaves the floor, or a brace that leaks halfway up. Pull the bar into your shins and thighs, squeeze your lats, and take a full breath into your belly before every rep.",
+      "Then take 20 percent off and film from the side. If your back rounds on the last reps, the set was over a rep or two earlier. Sharp pain, pain that runs down a leg, or numbness means stop deadlifting and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Your spine handles load best when it stays in roughly the same position the whole rep. Rounding under heavy load concentrates stress on structures that are not built for it.",
+      "how": "Bar over mid-foot, shins touching, chest up, lats squeezed, slack out, brace. The bar drags up your legs. End each set when your position starts to change, not when the bar stops moving.",
+      "mistake": "Fixing a rounding back by arching as hard as you can and staring at the ceiling. Neutral is the target, braced and long, with your eyes on the floor a few feet ahead."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I brace my core?",
+      "How do I film my lifts?",
+      "When should I stop a set?"
+    ],
+    "related": [
+      "dj-a-016",
+      "dj-a-024"
+    ]
+  },
+  {
+    "id": "dj-a-018",
+    "topic": "hinge",
+    "title": "Trap bar deadlifts, the friendliest way to pull",
+    "keys": [
+      "trap bar deadlift",
+      "what is a trap bar deadlift",
+      "trap bar",
+      "hex bar",
+      "hex bar deadlift",
+      "trap bar form",
+      "trap bar high handles or low handles",
+      "trap bar vs deadlift",
+      "trap bar deadlift form",
+      "how to use a trap bar",
+      "hexagonal bar"
+    ],
+    "match": "\\b(trap ?bar|hex ?bar|hexagonal bar)\\b",
+    "body": [
+      "The trap bar puts you inside the weight instead of behind it, so the load lines up with your center. That makes it easier to learn and kinder to the lower back for a lot of people. Stand in the middle, feet hip width, with the handles in line with the middle of your feet.",
+      "Squat down to grab the handles, chest up, back flat, arms long. Pull the slack out, brace, and push the floor away. You bend your knees more than in a regular deadlift, so it trains your quads as well as your hips. Stand tall at the top, then lower it the way you lifted it.",
+      "High handles shorten the distance, which is great for learning or for anyone whose hips do not love the floor yet. Low handles give a longer pull."
+    ],
+    "more": {
+      "why": "With the weight at your sides, there is no bar in front of your shins to work around, so you can stay more upright and keep the load close by default.",
+      "how": "Center yourself in the bar. Grip the middle of the handles. Hips down, chest up, slack out, brace, stand. Three seconds down, touch, reset.",
+      "beginner": "If you are new to pulling from the floor, this is where I would start. Use the high handles for the first few weeks.",
+      "mistake": "Standing off center, so one side tips forward. Line up the middle of your feet with the handles before you grip."
+    },
+    "chips": [
+      "How do I set up a deadlift?",
+      "How do I brace my core?",
+      "Where should my grip be?"
+    ],
+    "related": [
+      "dj-a-016",
+      "dj-a-017"
+    ]
+  },
+  {
+    "id": "dj-a-019",
+    "topic": "hinge",
+    "title": "Sumo deadlift form, and no, it is not cheating",
+    "keys": [
+      "sumo deadlift",
+      "sumo deadlifts",
+      "sumo dead lift",
+      "sumo stance deadlift",
+      "is sumo cheating",
+      "sumo deadlift form",
+      "sumo vs conventional",
+      "how wide is a sumo stance",
+      "sumo deadlift hips",
+      "sumo pull"
+    ],
+    "match": "\\bsumo( stance)?( dead ?lifts?| pulls?| cheating| vs)\\b|\\bis sumo cheating\\b",
+    "body": [
+      "Sumo is a legitimate way to deadlift, and for people with longer legs or hips that like a wide stance, it can feel much better. Stand with your feet wide, toes turned out around 30 to 45 degrees, shins close to vertical, and the bar over the middle of your feet.",
+      "Grip the bar inside your knees with arms hanging straight down. Push your knees out over your toes, sit your hips down and in toward the bar, and lift your chest tall. Pull the slack out, brace, and push the floor apart and away. Lock out by bringing your hips through, not by leaning back.",
+      "Your inner thighs, glutes and quads do more of the work than in a conventional pull, and your back stays more upright. Start lighter than your conventional numbers while the groove settles."
+    ],
+    "more": {
+      "why": "The wide stance shortens how far the bar travels and lets you keep your torso more upright. It changes where the work goes rather than making the lift easy.",
+      "how": "Feet wide, toes out, shins vertical. Hands inside knees. Knees out, hips in, chest up. Slack out, brace, spread the floor, stand.",
+      "mistake": "Going so wide that your knees cave in as the bar leaves the floor. Bring your feet in until your knees can stay over your toes."
+    },
+    "chips": [
+      "How do I set up a deadlift?",
+      "My knees cave in on squats",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-016",
+      "dj-a-004"
+    ]
+  },
+  {
+    "id": "dj-a-020",
+    "topic": "hinge",
+    "title": "Cable pull-throughs for learning the hip hinge",
+    "keys": [
+      "cable pull through",
+      "cable pull throughs",
+      "pull through",
+      "pull throughs",
+      "pullthrough",
+      "rope pull through",
+      "how to do pull throughs",
+      "pull through form",
+      "glute pull through",
+      "band pull through"
+    ],
+    "match": "\\bpull ?throughs?\\b",
+    "body": [
+      "The pull-through is a hinge with training wheels, and I love it for that. Set a rope on the lowest pulley, face away from the stack, and reach between your legs to hold the rope. Walk forward two or three steps so there is tension, feet a bit wider than hip width.",
+      "Soft knees, then push your hips back toward the machine and let the rope pull your hands back between your thighs. Your back stays flat and your arms stay long; they are just hooks. When you feel your hamstrings stretch, drive your hips forward and squeeze your glutes to stand tall.",
+      "Finish standing straight, not leaning back. Sets of 12 to 15 with a 2-second lowering teach you what your hips are supposed to do in every deadlift and swing."
+    ],
+    "more": {
+      "why": "The cable pulls you backward, so the load rewards pushing your hips back rather than squatting down. It is a low-risk way to groove the pattern and train your glutes.",
+      "how": "Rope low, face away, step out. Hips back for 2 seconds until the hamstrings stretch, drive the hips through, squeeze for one second. Arms stay passive.",
+      "mistake": "Pulling the rope with your arms or squatting down to it. If your shoulders or quads are burning, reset and push the hips back instead.",
+      "home": "A resistance band anchored low to a sturdy post does the same job. Same stance, same hips back, same squeeze."
+    },
+    "chips": [
+      "How do I learn to hip hinge?",
+      "How do I do a kettlebell swing?",
+      "How do I do a hip thrust?"
+    ],
+    "related": [
+      "dj-a-024",
+      "dj-a-022"
+    ]
+  },
+  {
+    "id": "dj-a-021",
+    "topic": "hinge",
+    "title": "Back extensions on the 45 degree bench",
+    "keys": [
+      "back extension",
+      "back extensions",
+      "hyperextension",
+      "hyperextensions",
+      "hyper extension machine",
+      "45 degree back extension",
+      "roman chair",
+      "back extension for glutes",
+      "back extension form",
+      "how to set up back extension",
+      "lower back extension machine",
+      "back extension pad height"
+    ],
+    "match": "\\b(back extensions?|hyper ?extensions?|roman chair)\\b",
+    "body": [
+      "Set the pad so its top edge sits just below the bony points at the front of your hips. Too high and you cannot fold forward; too low and you feel like you are about to tip off. Hook your heels under the ankle pads and line up straight from head to heels.",
+      "Hinge forward from the hips, slowly, until you feel a stretch in your hamstrings, then raise yourself back up until your body is in a straight line again. Stop there. Arching up past straight just squeezes your lower back without adding anything useful.",
+      "For glutes: turn your toes out a little, let your upper back round slightly, and squeeze your butt to lift. For lower back endurance: keep your spine long and neutral and let the hips do the hinge. Hold a plate at your chest once 3 sets of 15 are easy."
+    ],
+    "more": {
+      "why": "Back extensions train the muscles along your spine and your glutes to hold position, which helps everything from deadlifts to carrying groceries.",
+      "how": "Pad below the hip bones, heels locked in, arms crossed on your chest. Two seconds down, two seconds up, one-second squeeze at straight.",
+      "mistake": "Swinging up fast and arching hard at the top. Control it both ways and stop at a straight line.",
+      "beginner": "Bodyweight sets of 10 to 15 are plenty to start. Add a small plate held against your chest only when that is easy."
+    },
+    "chips": [
+      "How do I learn to hip hinge?",
+      "How slow should I lower the weight?",
+      "How do I do a hip thrust?"
+    ],
+    "related": [
+      "dj-a-024",
+      "dj-a-025"
+    ]
+  },
+  {
+    "id": "dj-a-022",
+    "topic": "kettlebell",
+    "title": "Kettlebell swings, a hip snap not an arm lift",
+    "keys": [
+      "kettlebell swing",
+      "kettlebell swings",
+      "how do i do a kettlebell swing",
+      "kb swing",
+      "kb swings",
+      "russian swing",
+      "american swing",
+      "how to swing a kettlebell",
+      "kettlebell swing form",
+      "kettlebell swing lower back",
+      "what weight kettlebell for swings",
+      "kettle bell swing",
+      "two hand swing",
+      "one arm swing"
+    ],
+    "match": "\\b(kettle ?bell|kb) swings?\\b|\\b(russian|american|one arm|two hand(ed)?) swings?\\b|\\bswing(ing)? a kettle ?bell\\b",
+    "body": [
+      "A swing is a hinge, not a squat and not a front raise. Start with the bell about a foot in front of you. Hinge, grab it, and hike it back between your thighs like a football snap, high and close to your zipper.",
+      "Then snap your hips forward hard and squeeze your glutes. The bell floats up to about chest height on its own; your arms are just ropes attached to it. At the top you are a standing plank: knees straight, glutes tight, ribs down, not leaning back. Let the bell fall, and hinge again at the last moment so your forearms meet your inner thighs.",
+      "Most people learn swings with a bell somewhere between 8 and 16 kg (about 18 to 35 lb), lighter if hinging is new to you. If you feel it mostly in your lower back or shoulders, the hips are not doing the work."
+    ],
+    "more": {
+      "why": "Swings train powerful hip extension through the glutes and hamstrings, with a fast heartbeat as a bonus. Done right, they teach hinging at speed.",
+      "how": "Hike, snap, float, fall, hinge. Breathe out sharply at the top of each swing. Sets of 10 to 20, ending the set when the snap slows down.",
+      "mistake": "Squatting the swing, so the knees bend a lot and the bell swings low. Push the hips back, keep the shins nearly vertical, and keep the bell high between your legs.",
+      "beginner": "Learn the hip hinge first, then do single swings: hike, swing, park the bell on the floor, reset. String them together once each one looks the same."
+    },
+    "chips": [
+      "How do I learn to hip hinge?",
+      "How do I breathe when lifting?",
+      "How do I do a hip thrust?"
+    ],
+    "related": [
+      "dj-a-024",
+      "dj-a-020"
+    ]
+  },
+  {
+    "id": "dj-a-023",
+    "topic": "hinge",
+    "title": "Single-leg RDLs without tipping over",
+    "keys": [
+      "single leg rdl",
+      "how do i do a single leg rdl",
+      "single leg deadlift",
+      "single leg romanian deadlift",
+      "one leg rdl",
+      "one legged deadlift",
+      "sl rdl",
+      "single leg rdl balance",
+      "b stance rdl",
+      "kickstand rdl",
+      "staggered stance rdl",
+      "single leg rdl hips open"
+    ],
+    "match": "\\b(single|one)[ -]?leg(ged)? (rdls?|romanian dead ?lifts?|dead ?lifts?)\\b|\\bsl ?rdls?\\b|\\b(b ?stance|kickstand|staggered( stance)?) rdls?\\b",
+    "body": [
+      "Stand on one leg with a soft knee, holding a dumbbell in the opposite hand. Hinge forward at the hip while your free leg reaches straight back, so your body and back leg move together like a seesaw. Lower until you feel a strong stretch in the standing hamstring, then drive the hip forward to stand.",
+      "The detail most people miss is the hips. Keep them square to the floor, as if both hip bones are headlights pointing down. If the back hip rotates open toward the ceiling, you lose the stretch and the glute work.",
+      "Wobbly? Expected. Lightly hold a rack or bench with your free hand, or use the kickstand version: back toe touching the floor for balance while most of the weight stays on the front leg. Slow, 3 seconds down, beats heavy here."
+    ],
+    "more": {
+      "why": "Working one leg at a time trains the hamstring and glute through a long range while your hip learns to stay stable. It also shows you which side is weaker.",
+      "how": "Weight in the opposite hand. Soft knee. Hinge, back leg long, hips square. Three seconds down to a hamstring stretch, drive up, squeeze the glute. Same reps both sides.",
+      "mistake": "Bending the standing knee more and more until it turns into a one-leg squat. The knee stays softly bent and still; the hip moves.",
+      "beginner": "Start with the kickstand version and a light dumbbell or none at all. Ten slow reps per side is a real set."
+    },
+    "chips": [
+      "One side is stronger than the other",
+      "How do I learn to hip hinge?",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-a-015",
+      "dj-a-024"
+    ]
+  },
+  {
+    "id": "dj-a-024",
+    "topic": "hinge",
+    "title": "Learning the hip hinge with a broomstick",
+    "keys": [
+      "hip hinge",
+      "how do i learn to hip hinge",
+      "how to hip hinge",
+      "learn to hip hinge",
+      "hinge pattern",
+      "cant hinge",
+      "how do i hinge",
+      "dowel hinge drill",
+      "broomstick hinge",
+      "wall hip hinge drill",
+      "hinge vs squat",
+      "what is a hip hinge",
+      "hinging at the hips"
+    ],
+    "match": "\\b(hip hinge|hinge (pattern|drill)|how (do i|to) (hip )?hinge|hinging|learn (to|the) (hip )?hinge|dowel hinge|broomstick hinge|hinge vs squat)\\b",
+    "body": [
+      "A hinge is bending forward by moving your hips backward while your spine stays long. It is the root of deadlifts, RDLs, swings and picking up a laundry basket without your back filing a complaint.",
+      "Two drills teach it fast. First, hold a broomstick along your back so it touches the back of your head, between your shoulder blades and your tailbone. Push your hips back and tip forward; if any of the three points lose contact, your back changed shape. Second, stand a foot in front of a wall and push your butt back to touch it, knees soft, shins nearly vertical. Step further away as you improve.",
+      "You should feel a stretch in your hamstrings and nothing in your lower back. Ten slow reps of each before your hinge days makes the pattern stick."
+    ],
+    "more": {
+      "why": "In a squat the knees and hips bend about equally. In a hinge the hips do most of the moving. Mixing them up is why so many people squat their deadlifts.",
+      "how": "Stick on your back, three contact points. Soft knees. Hips back and chest forward together. Stop at the hamstring stretch. Stand by driving the hips forward.",
+      "beginner": "If the stick feels awkward, put your hands in your hip creases and push your hands back with your hips. Your body figures it out.",
+      "mistake": "Bending the knees a lot to get lower. The hinge goes as low as your hamstrings allow, not as low as the floor.",
+      "home": "A broom, a wall and ten minutes is all this takes. It is one of the best things you can practice in your kitchen."
+    },
+    "chips": [
+      "How do I do a Romanian deadlift?",
+      "How do I do a kettlebell swing?",
+      "I feel deadlifts in my lower back"
+    ],
+    "related": [
+      "dj-a-015",
+      "dj-a-022",
+      "dj-a-020"
+    ]
+  },
+  {
+    "id": "dj-a-025",
+    "topic": "glutes",
+    "title": "Hip thrust setup and form",
+    "keys": [
+      "hip thrust",
+      "hip thrusts",
+      "how do i do a hip thrust",
+      "barbell hip thrust",
+      "hip thrust form",
+      "how to do hip thrusts",
+      "hip thrust setup",
+      "where should my feet be on hip thrust",
+      "hip thrust lower back",
+      "feel hip thrust in quads",
+      "feel hip thrust in hamstrings",
+      "hip thrust machine",
+      "glute thrust",
+      "hip thrust chin tuck"
+    ],
+    "match": "\\b(hip|glute) thrusts?\\b",
+    "body": [
+      "Sit with your upper back against a bench so the edge lands just below your shoulder blades. Roll the bar over your hips with a pad on it, because a bar pressing into bone helps nobody. Feet flat about hip width, close enough that your shins are vertical at the top.",
+      "Tuck your chin and keep your eyes looking forward, not at the ceiling, so your ribs stay down. Drive through your heels and mid-foot, lift until your hips are level with your knees and shoulders, and squeeze your glutes hard for a second with your pelvis slightly tucked. Lower under control.",
+      "Feel it in your quads? Walk your feet a little further out. Hamstrings cramping? Bring them closer. Lower back? Your ribs flared and you arched to finish, so tuck the pelvis and stop at straight."
+    ],
+    "more": {
+      "why": "The hip thrust loads the glutes hardest right at full hip extension, where squats and deadlifts are easiest. That makes it a great partner to them.",
+      "how": "Bench under the shoulder blades, padded bar, feet set. Chin tucked, ribs down. Drive up, pause and squeeze one to two seconds at the top, lower in 2 seconds.",
+      "mistake": "Arching the lower back to get the bar higher. The top is where your hips are straight, not where your spine bends.",
+      "beginner": "Start with bodyweight or a dumbbell on your hips. Sets of 10 to 15 with a real pause at the top."
+    },
+    "chips": [
+      "How do I do a glute bridge?",
+      "I do not feel my glutes working",
+      "Should I feel squats in my glutes?"
+    ],
+    "related": [
+      "dj-a-026",
+      "dj-a-032"
+    ]
+  },
+  {
+    "id": "dj-a-026",
+    "topic": "glutes",
+    "title": "Glute bridges you actually feel in your glutes",
+    "keys": [
+      "glute bridge",
+      "glute bridges",
+      "how do i do a glute bridge",
+      "floor bridge",
+      "hip bridge",
+      "single leg glute bridge",
+      "glute bridge form",
+      "hamstrings cramp on glute bridge",
+      "glute bridge lower back",
+      "how to do glute bridges",
+      "frog pump",
+      "frog pumps",
+      "bridge exercise"
+    ],
+    "match": "\\b(glute|hip|floor|single leg) bridges?\\b|\\bfrog pumps?\\b|\\bbridge exercise\\b",
+    "body": [
+      "Lie on your back, knees bent, feet flat about hip width and close enough that your fingertips can brush your heels. Press your lower back gently toward the floor, then drive through your heels and lift your hips until your body makes a straight line from knees to shoulders.",
+      "Squeeze your glutes at the top and hold for two full seconds, then lower slowly. That pause is where this exercise earns its place. Ribs stay down the whole time, so the lift comes from the hips, not from arching your back.",
+      "Hamstrings cramping usually means your feet are too far away, so bring them in. Feeling it in your lower back means you are arching; tuck your pelvis slightly before you lift. Once 3 sets of 15 with a pause are easy, go single-leg or put a weight on your hips."
+    ],
+    "more": {
+      "why": "The bridge teaches your glutes to finish a hip extension without your lower back helping. It is a great warm-up for hinges and a solid exercise on its own.",
+      "how": "Feet close, ribs down, slight pelvic tuck. Drive through the heels, lift, two-second squeeze, three seconds down. Breathe out on the way up.",
+      "home": "No equipment needed. Put a backpack full of books across your hips, or do single-leg bridges to make it harder.",
+      "mistake": "Pushing through the toes, which shifts the work into the quads. Lift your toes off the floor for a few reps to feel the heels take over."
+    },
+    "chips": [
+      "How do I do a hip thrust?",
+      "I do not feel my glutes working",
+      "What is mind muscle connection?"
+    ],
+    "related": [
+      "dj-a-025",
+      "dj-a-032"
+    ]
+  }
+]

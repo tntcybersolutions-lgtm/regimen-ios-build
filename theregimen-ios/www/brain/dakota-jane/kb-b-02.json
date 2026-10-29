@@ -1,0 +1,828 @@
+[
+  {
+    "id": "dj-b-027",
+    "topic": "rest-days",
+    "title": "What to do on a rest day",
+    "keys": [
+      "what should i do on a rest day",
+      "what to do on rest days",
+      "rest day ideas",
+      "rest day activities",
+      "rest day routine",
+      "is it ok to do nothing on a rest day",
+      "rest day workout",
+      "should i exercise on rest days",
+      "off day what to do",
+      "rest day plan",
+      "day off from the gym",
+      "lazy rest day"
+    ],
+    "match": "\\b(what (should i|to|do i|can i) do on (a |my )?(rest|off) days?|rest day (ideas|activities|routine|workout|plan)|(exercise|work ?out|train) on (a |my )?rest days?|(ok|okay|fine) to do nothing on (a )?rest day)\\b",
+    "body": [
+      "A rest day means no hard training, not no movement. The best rest days usually include an easy walk, some gentle stretching, a decent meal and a normal bedtime. That is the whole assignment.",
+      "Good options: a 20 to 45 minute walk, an easy bike ride, a swim at a chatty pace, 10 to 15 minutes of mobility, or a gentle yoga class. Keep the effort low enough that you could hold a conversation the whole time, and finish feeling better than when you started.",
+      "And if the day calls for the couch, take the couch. A full rest day now and then is part of the plan, not a break from it. I would much rather see you rest well and show up strong tomorrow than grind through a seventh session you did not need."
+    ],
+    "more": {
+      "why": "Muscle grows and adapts between sessions, not during them. Light movement keeps blood flowing and stiffness down without adding the kind of fatigue that needs its own recovery.",
+      "how": "Pick one easy activity for 20 to 45 minutes, add 10 minutes of stretching for whatever feels tight, and go to bed on time.",
+      "example": "Sunday: a 30 minute walk with a coffee, 10 minutes of hip and hamstring stretches in the evening, bed by 10. Monday's squats feel the difference.",
+      "mistake": "Turning a rest day into a sneaky hard cardio session because resting feels lazy. If you are breathing too hard to talk, it is not a rest day anymore."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is active recovery?",
+      "How many rest days do I need?",
+      "A 10 minute mobility routine"
+    ],
+    "related": [
+      "dj-b-028",
+      "dj-b-029"
+    ]
+  },
+  {
+    "id": "dj-b-028",
+    "topic": "rest-days",
+    "title": "What active recovery is and how easy it should be",
+    "keys": [
+      "what is active recovery",
+      "active recovery",
+      "active recovery day",
+      "active rest",
+      "active recovery workout",
+      "how hard should active recovery be",
+      "active recovery ideas",
+      "is walking active recovery",
+      "light day",
+      "recovery workout",
+      "what counts as active recovery"
+    ],
+    "match": "\\b(active (recovery|rest)|recovery (workout|session)s?|what counts as (active )?recovery)\\b",
+    "body": [
+      "Active recovery is easy movement on a day off from hard training: enough to get blood flowing and loosen you up, not enough to add fatigue. Think walking, easy cycling, swimming, light mobility work or a gentle yoga flow.",
+      "The test for effort is simple. You can talk in full sentences the whole time, and you finish feeling fresher than you started. On a 1 to 10 scale, stay around 3 or 4. For most people that is 20 to 40 minutes.",
+      "It is not magic. Research suggests light movement may ease soreness a little and helps many people feel less stiff, and it keeps a daily habit of moving without costing you anything. That last part is what I like most about it. You stay in the rhythm of showing up, just at a gentler volume."
+    ],
+    "more": {
+      "how": "Choose something low impact and rhythmic. 20 to 40 minutes at a pace where you could chat. Optionally finish with 10 minutes of stretching.",
+      "example": "A 25 minute walk, then 3 minutes of easy bodyweight squats, glute bridges and arm circles. You will feel less stiff the next morning.",
+      "mistake": "Doing a hard spin class and calling it recovery because there were no weights. Effort decides whether it counts, not equipment."
+    },
+    "chips": [
+      "What should I do on a rest day?",
+      "How many rest days do I need?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-027",
+      "dj-b-031"
+    ]
+  },
+  {
+    "id": "dj-b-029",
+    "topic": "rest-days",
+    "title": "How many rest days you need each week",
+    "keys": [
+      "how many rest days do i need",
+      "how many rest days a week",
+      "how often should i rest",
+      "do i need rest days",
+      "is it bad to work out every day",
+      "can i work out every day",
+      "working out 7 days a week",
+      "rest days per week",
+      "too many rest days",
+      "how many days off from the gym",
+      "can i lift every day"
+    ],
+    "match": "\\b(how many (rest|off) days|rest days (a|per) week|do i (really )?need (a )?rest days?|(work ?out|train|lift|exercise)(ing)? (every ?day|daily|7 days a week|seven days a week)|(too many|enough) rest days)\\b",
+    "body": [
+      "Most people do well with at least one or two full rest days a week, and beginners often thrive on two or three training days with rest between them. More training is not automatically more progress. Progress comes from training you can recover from.",
+      "A useful rule of thumb: give a muscle group roughly 48 hours before you train it hard again. You can train on consecutive days if the sessions hit different areas (upper one day, lower the next), and easy walking or mobility can happen every day.",
+      "Your body will tell you when you are short on rest: performance slipping for a week or more, soreness that never quite clears, sleep getting worse, and motivation that drains away. When you notice that pattern, add a rest day before your body takes one for you."
+    ],
+    "more": {
+      "why": "Training is the stimulus; rest is where adaptation happens. Without enough recovery between hard sessions, fatigue piles up faster than fitness does.",
+      "beginner": "Start with 2 or 3 full-body sessions a week on non-consecutive days, like Monday, Wednesday, Friday. Walk on the other days if you like.",
+      "advanced": "Experienced lifters often train 4 to 6 days a week by splitting body parts and managing effort. They still schedule at least one easy or full rest day.",
+      "example": "A 4 day week: upper Monday, lower Tuesday, rest Wednesday, upper Thursday, lower Friday, walk Saturday, rest Sunday."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What should I do on a rest day?",
+      "Signs I need more rest",
+      "Same muscle two days in a row?"
+    ],
+    "related": [
+      "dj-b-027",
+      "dj-b-036",
+      "dj-b-037"
+    ]
+  },
+  {
+    "id": "dj-b-030",
+    "topic": "soreness",
+    "title": "Why you get sore a day or two after training",
+    "keys": [
+      "why am i so sore",
+      "why am i sore",
+      "doms",
+      "delayed onset muscle soreness",
+      "sore two days after workout",
+      "why am i more sore the second day",
+      "sore after workout",
+      "muscle soreness",
+      "sore muscles after gym",
+      "why do my muscles hurt after working out",
+      "is soreness lactic acid",
+      "why does it hurt 2 days later"
+    ],
+    "match": "\\b(doms|delayed onset|why (am i|are my \\w+) (so |this |more )?sore|sore (two|2|three|3) days (after|later)|more sore (the )?(second|2nd|next) day|(is|it'?s) (soreness|being sore) (from )?lactic acid|muscle soreness)\\b",
+    "body": [
+      "That deep ache that shows up a day or two after a session has a name: delayed onset muscle soreness. It usually starts 12 to 24 hours after training, peaks around 24 to 72 hours, and fades within about 3 to 5 days. It is not lactic acid; that clears within an hour or so of finishing.",
+      "It comes mostly from new or unfamiliar work, especially the lowering half of reps. Your first week back, a new exercise, a lot more volume than usual, or walking lunges for the first time in a year will do it. Then something nice happens: repeat the same work and the soreness gets much smaller, often after only one or two exposures.",
+      "So soreness is a sign you did something new, not a measure of how good the session was. I notice people chase it like a receipt. You do not need it to know the work counted."
+    ],
+    "more": {
+      "why": "The lowering phase of a rep puts the most strain on muscle fibers and connective tissue, which is why slow negatives and downhill walking leave you so sore.",
+      "beginner": "Your first two weeks will probably be the sorest you ever get. Keep training lightly through it and it drops off quickly.",
+      "example": "First leg day: sore stairs on day 2, worst on day 2 or 3, fine by day 5. The same session the next week: maybe a mild ache for a day.",
+      "mistake": "Skipping a whole week because you are sore from your first session. Light movement and your next session at a sensible weight are what make the soreness fade."
+    },
+    "chips": [
+      "How do I reduce soreness?",
+      "Should I train if I'm sore?",
+      "How sore is too sore?"
+    ],
+    "related": [
+      "dj-b-031",
+      "dj-b-032",
+      "dj-b-033"
+    ]
+  },
+  {
+    "id": "dj-b-031",
+    "topic": "soreness",
+    "title": "Easing muscle soreness after a hard session",
+    "keys": [
+      "how do i reduce soreness",
+      "how to reduce soreness",
+      "how to get rid of doms",
+      "how to stop being sore",
+      "relieve muscle soreness",
+      "sore muscles remedy",
+      "what helps sore muscles",
+      "how to recover faster",
+      "faster recovery",
+      "best way to recover from soreness",
+      "how to ease sore legs",
+      "make soreness go away"
+    ],
+    "match": "\\b((reduce|ease|relieve|stop|get rid of|help( with)?|treat|fix) (my )?(muscle )?(soreness|doms|sore (muscles|legs|arms|glutes))|recover faster|faster recovery|make (the )?soreness go away)\\b",
+    "body": [
+      "Nothing makes soreness vanish overnight, but a few things reliably take the edge off. The most effective one is movement: an easy walk, a light bike ride, or a gentle repeat of the movement that made you sore, at a very light weight. Sore muscles usually feel better once they are warm.",
+      "After that: sleep 7 to 9 hours, eat enough protein across the day, drink enough water, and use whatever feels good to you, like a warm shower or bath, foam rolling or a massage gun for a few minutes. Those mostly help you feel better rather than recover faster, and feeling better is a fine reason.",
+      "The real fix is prevention. Increase volume gradually, especially after a break or with a new exercise, and the soreness stays mild. If one session left you unable to walk down stairs for four days, that is useful information about how much to do next time, not a medal."
+    ],
+    "more": {
+      "how": "Day after a hard session: 20 to 30 minutes of easy walking or cycling, 10 minutes of gentle stretching, a warm shower, normal meals with protein, and bed on time.",
+      "mistake": "Taking several days completely still because you are sore. Total rest often makes the stiffness last longer than light movement would.",
+      "example": "Sore legs after lunges: a 20 minute walk, 2 sets of 15 bodyweight squats very slowly, and a hot shower. Most people feel noticeably looser within an hour."
+    },
+    "chips": [
+      "Do massage guns help?",
+      "Ice bath or sauna after lifting?",
+      "Should I train if I'm sore?"
+    ],
+    "related": [
+      "dj-b-030",
+      "dj-b-034",
+      "dj-b-035"
+    ]
+  },
+  {
+    "id": "dj-b-032",
+    "topic": "soreness",
+    "title": "How sore is too sore, and soreness versus pain",
+    "keys": [
+      "how sore is too sore",
+      "too sore",
+      "is this soreness or an injury",
+      "soreness or injury",
+      "soreness vs pain",
+      "how do i know if im injured",
+      "difference between sore and injured",
+      "sharp pain or soreness",
+      "pain after workout",
+      "extremely sore",
+      "cant move after workout",
+      "sore for a week"
+    ],
+    "match": "\\b(too sore|sore(ness)? (or|vs|versus) (an )?(injur(y|ed)|pain|hurt)|(injury|pain) (or|vs|versus) (soreness|sore)|how do i know if i'?m injured|sore for (a|over a|more than a) week|extremely sore|can'?t (move|walk|straighten) after (a |my |the )?workout)\\b",
+    "body": [
+      "Normal soreness is a dull, spread-out ache in the muscles you trained. It is worst when you first move, eases as you warm up, feels the same on both sides, and fades within about 3 to 5 days. That is the price of new work, and it is fine.",
+      "An injury tends to feel different: sharp or stabbing, in one specific spot, often in a joint rather than a muscle belly, one side only, worse with certain movements, and getting worse rather than better. Swelling, bruising, a pop you felt at the moment it happened, or weakness you cannot explain all point toward injury. Those need a doctor or physical therapist, not more training.",
+      "There is also a rare extreme to know about. Severe muscle pain and swelling after a brutal session, especially with dark, cola-colored urine or real weakness, needs urgent medical care that same day. It is uncommon, and it is serious."
+    ],
+    "more": {
+      "why": "Soreness is spread through the muscle you worked and improves with movement. Injury pain is local, has a clear trigger, and gets worse with the movement that caused it.",
+      "how": "Ask three questions: is it in the muscle or the joint, does it ease as I warm up, and is it getting better each day? Muscle, yes and yes means soreness.",
+      "mistake": "Training through a sharp, one-sided pain because you think it is just soreness. When in doubt, train something else and get it checked.",
+      "example": "Both quads aching on day 2 after squats and loosening on your walk: soreness. A sharp pinch on the inside of one knee every time you bend it: get it looked at."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "When should I see a doctor?",
+      "Should I train if I'm sore?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-030",
+      "dj-b-033"
+    ]
+  },
+  {
+    "id": "dj-b-033",
+    "topic": "soreness",
+    "title": "Training while you are still sore",
+    "keys": [
+      "should i train if im sore",
+      "should i train if i'm sore",
+      "can i work out while sore",
+      "workout while sore",
+      "train sore muscles",
+      "lifting while sore",
+      "is it bad to work out sore",
+      "gym while sore",
+      "should i skip the gym if im sore",
+      "train through soreness",
+      "still sore should i lift",
+      "work out with sore legs"
+    ],
+    "match": "\\b((train|lift|work ?out|exercise|go to the gym|gym)(ing)? (while|when|if|with) (i'?m |still |my \\w+ (is|are) )?sore|still sore,? should i|skip (the gym|my workout|training) (if|because) i'?m sore|train(ing)? through (the )?soreness)\\b",
+    "body": [
+      "Usually, yes. Mild to moderate soreness is not a reason to skip a session. Warm up well and see how you feel; the ache often fades within the first 10 minutes, and many people find training actually eases it.",
+      "Adjust if you need to. If the muscle is so sore it changes how you move (you cannot get into a squat properly, or your stride changes on the stairs), train a different area that day, or do the planned session lighter with fewer sets. Moving well matters more than following the plan to the letter.",
+      "What I would not do is skip a whole week waiting to feel fresh. You will be sore again when you come back, and the cycle repeats. Light and consistent is how soreness stops being a big deal."
+    ],
+    "more": {
+      "how": "Do your normal warm-up plus one extra light set. If the soreness eases and you move normally, train as planned. If it does not, cut the load by about 20 to 30% or switch to a different body part.",
+      "mistake": "Testing a heavy single on a deeply sore muscle. Save your heaviest work for when the muscle feels normal again.",
+      "example": "Legs sore from Monday, squats again Thursday: warm up, notice the ache fading, do your sets at the planned weight. Still stiff and moving badly? Do the sets at 80% and call it a win."
+    },
+    "chips": [
+      "How sore is too sore?",
+      "Same muscle two days in a row?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-030",
+      "dj-b-032",
+      "dj-b-037"
+    ]
+  },
+  {
+    "id": "dj-b-034",
+    "topic": "soreness",
+    "title": "Not sore anymore and wondering if it still works",
+    "keys": [
+      "i dont get sore anymore",
+      "not sore after workout",
+      "no soreness does it mean my workout didnt work",
+      "not sore anymore",
+      "does no soreness mean no gains",
+      "do i need to be sore to grow",
+      "workout not working because not sore",
+      "never sore after gym",
+      "should i feel sore after every workout",
+      "is soreness a sign of a good workout"
+    ],
+    "match": "\\b((not|never|no longer|don'?t get|dont get|doesn'?t get) sore( anymore)?|no soreness|(need|have) to be sore|soreness (a sign|mean|means|equal|equals)|sore after every (workout|session))\\b",
+    "body": [
+      "Not being sore is usually a sign your body has adapted to the work, not a sign the work stopped working. Soreness tracks how new an exercise is, far more than how effective it was. Plenty of lifters build muscle for years while rarely feeling sore.",
+      "The better question is whether you are progressing. Look at your log: are the weights, reps or quality of your reps slowly improving over weeks? Is your form steadier, and is the lowering half of each rep more controlled than a month ago? Those are the receipts that count.",
+      "I am honestly a little proud when someone tells me they are not sore anymore. It means they have been consistent long enough for their body to get used to the work. That is the whole goal."
+    ],
+    "more": {
+      "why": "After you repeat a movement, your muscles adapt so the same work causes much less damage and soreness. That protective effect kicks in fast and lasts for weeks.",
+      "how": "Check your Progress screen or your log once a month. If your weights or reps have stalled for several weeks, adjust the training. If they are moving, you are fine, sore or not.",
+      "mistake": "Changing exercises every week just to feel sore again. Constant novelty makes you sore but makes it harder to see progress on any one lift."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How long until I see results?",
+      "Why am I so sore?",
+      "How do I track my progress?"
+    ],
+    "related": [
+      "dj-b-030"
+    ]
+  },
+  {
+    "id": "dj-b-035",
+    "topic": "recovery-tools",
+    "title": "Massage guns and whether they help",
+    "keys": [
+      "do massage guns help",
+      "massage gun",
+      "percussion massager",
+      "theragun",
+      "how to use a massage gun",
+      "is a massage gun worth it",
+      "massage gun before workout",
+      "massage gun for soreness",
+      "does massage help recovery",
+      "sports massage",
+      "should i get a massage after lifting"
+    ],
+    "match": "\\b(massage guns?|percussion (massager|gun|therapy)|theragun|(sports )?massage (help|for|after|before|worth)|get a massage)\\b",
+    "body": [
+      "Massage guns can help you feel looser and less sore for a while, much like foam rolling. Short bouts before training can bump up range of motion a bit without costing strength, and after training or on rest days they take the edge off soreness for many people. They do not speed up muscle repair in any big way.",
+      "Use it for 30 to 60 seconds per muscle, gliding slowly over the meaty parts, on the lowest setting that feels good. Keep it off bones, joints, the front and sides of the neck, the spine, bruises and anywhere that is numb, swollen or newly injured.",
+      "A hands-on massage works on the same idea, with the bonus that many people find it deeply relaxing, which is a recovery tool in its own right. Treat either as a nice extra, after the big three: sleep, food and sensible training."
+    ],
+    "more": {
+      "how": "Before a session: 30 seconds per muscle you are about to train, then your normal warm-up. After or on rest days: 1 to 2 minutes per sore area, slow and light.",
+      "mistake": "Pressing hard on one spot for minutes at a time. More force is not more benefit, and you can leave yourself bruised.",
+      "why": "Pressure and vibration seem to calm how sensitive the area feels, which reduces the perception of tightness and soreness for a while."
+    },
+    "chips": [
+      "Does foam rolling work?",
+      "Ice bath or sauna after lifting?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-011",
+      "dj-b-031"
+    ]
+  },
+  {
+    "id": "dj-b-036",
+    "topic": "recovery-tools",
+    "title": "Ice baths, cold plunges and saunas after lifting",
+    "keys": [
+      "ice bath or sauna after lifting",
+      "ice bath",
+      "cold plunge",
+      "cold plunge after workout",
+      "sauna after workout",
+      "sauna",
+      "should i take an ice bath",
+      "cold shower after workout",
+      "does cold water help recovery",
+      "contrast therapy",
+      "hot tub after workout",
+      "is sauna good for recovery"
+    ],
+    "match": "\\b(ice baths?|cold (plunges?|showers?|water immersion|exposure)|saunas?|contrast (therapy|showers?)|hot tubs?)\\b",
+    "body": [
+      "Both can help you feel better, and timing matters. Cold water immersion can reduce soreness and help you feel fresher, which is why athletes use it between games. But research suggests regular ice baths right after strength training may blunt some of the muscle and strength gains you are training for. If building muscle is the goal, keep cold plunges away from lifting days, or at least several hours after.",
+      "Saunas are mostly about relaxation and how you feel. Many people find a 10 to 20 minute session soothing after training, and there is no strong evidence that it hurts gains. Drink water before and after, get out if you feel dizzy, and skip alcohol with it.",
+      "If you are pregnant, have a heart condition or high or low blood pressure, check with your doctor before cold plunges or saunas. For everyone else, they are optional extras, after sleep, food and steady training."
+    ],
+    "more": {
+      "why": "Cold reduces inflammation and blood flow, which eases soreness. But some of that inflammation is part of how muscles adapt, so dampening it right after lifting can take a little off the result.",
+      "how": "Cold plunge on rest days or after conditioning, 2 to 5 minutes at a temperature you can breathe calmly in. Sauna after lifting, 10 to 20 minutes, with water on hand.",
+      "mistake": "Jumping into the coldest water you can find for as long as possible. Start mild and short. Bravery is not the variable that matters."
+    },
+    "chips": [
+      "Do massage guns help?",
+      "How do I reduce soreness?",
+      "What is active recovery?"
+    ],
+    "related": [
+      "dj-b-031",
+      "dj-b-035"
+    ]
+  },
+  {
+    "id": "dj-b-037",
+    "topic": "rest-days",
+    "title": "Training the same muscle two days in a row",
+    "keys": [
+      "can i train the same muscle two days in a row",
+      "same muscle two days in a row",
+      "train legs two days in a row",
+      "work out the same muscle every day",
+      "train abs every day",
+      "back to back days same muscle",
+      "consecutive days same muscle",
+      "how long to rest a muscle",
+      "how long between training the same muscle",
+      "48 hours rest muscle",
+      "can i do arms every day"
+    ],
+    "match": "\\b((same|a) muscle (group )?(two|2|back to back|consecutive) days|(two|2) days in a row|back to back days|(train|work|do) (abs|arms|legs|chest|glutes|calves|the same muscle) (every ?day|daily)|how long (to|should i) rest (a|each) muscle|(48|72) hours (rest|between))\\b",
+    "body": [
+      "You can, but for most people it is not the best use of effort. A muscle trained hard usually needs about 48 hours before it is ready to be trained hard again. Hitting it two days in a row means the second session is done on a tired muscle, so the quality drops.",
+      "There are exceptions. Light work does not count the same way: easy calf raises, a few sets of abs, mobility, or a gentle glute activation routine can happen most days. Smaller muscles and lighter sessions recover faster than heavy squats or deadlifts do.",
+      "The simplest plan is to alternate. Upper body one day, lower body the next, or full body with a rest day in between. You get to train often, and every session gets a muscle that is ready to work."
+    ],
+    "more": {
+      "why": "Recovery between hard sessions lets the muscle repair and adapt. Training it hard again before it has recovered piles up fatigue without adding much extra growth.",
+      "example": "Monday squats, Tuesday upper body, Wednesday rest or walk, Thursday lunges and hinges, Friday upper body. Each area gets about 72 hours between hard sessions.",
+      "mistake": "Training abs hard every single day because you want them to show. Abs recover like any other muscle, and how much they show depends on overall body fat far more than daily crunches."
+    },
+    "chips": [
+      "How many rest days do I need?",
+      "Should I train if I'm sore?",
+      "Signs I need more rest"
+    ],
+    "related": [
+      "dj-b-029",
+      "dj-b-033"
+    ]
+  },
+  {
+    "id": "dj-b-038",
+    "topic": "recovery",
+    "title": "Signs you need more rest",
+    "keys": [
+      "signs i need more rest",
+      "signs of overtraining",
+      "am i overtraining",
+      "overtraining",
+      "overtrained",
+      "burned out from the gym",
+      "always tired from working out",
+      "workouts getting worse",
+      "feel run down from training",
+      "how do i know if i need a rest",
+      "training too much",
+      "exhausted after every workout"
+    ],
+    "match": "\\b(over ?train(ing|ed)?|signs i need (more )?rest|burn(ed|t) out (from|on) (the gym|training|lifting|working out)|(always|constantly) (tired|exhausted) (from|after) (working out|training|the gym|every workout)|training too much|run down from (training|working out))\\b",
+    "body": [
+      "True overtraining is rare and takes months of too much work to develop. What is common is short-term fatigue that has piled up, and your body is pretty clear when it happens. Watch for a pattern, not a single bad day.",
+      "The signs: your lifts drop or feel much heavier for a week or more, soreness lingers longer than usual, you sleep worse even though you are tired, you are more irritable, you catch more colds, your resting heart rate creeps up, and the gym you usually look forward to starts to feel like a chore.",
+      "If you notice three or four of those together, take an easier week. Train at about half your usual sets with lighter weights, sleep more, eat enough, and walk. Most people bounce back within a week or two. If the fatigue persists after that, or comes with anything unusual like dizziness, chest discomfort or unexplained weight loss, see a doctor."
+    ],
+    "more": {
+      "why": "Fatigue from training only turns into fitness when you recover from it. When the training plus everything else in your life outpaces your recovery, performance stalls or drops.",
+      "how": "Keep one quick note after each session: energy 1 to 5 and sleep hours. When energy sits at 1 or 2 for a week, that is your cue to lighten up.",
+      "mistake": "Training harder because the last few sessions felt bad. When the pattern is fatigue, the fix is less, not more.",
+      "example": "Three weeks of six sessions, a busy work stretch and five hours of sleep a night, and your bench drops 10 lb. An easy week usually brings it right back."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How much sleep do I need?",
+      "How many rest days do I need?",
+      "I feel burned out"
+    ],
+    "related": [
+      "dj-b-029",
+      "dj-b-039"
+    ]
+  },
+  {
+    "id": "dj-b-039",
+    "topic": "sleep",
+    "title": "How much sleep you need to recover from training",
+    "keys": [
+      "how much sleep do i need",
+      "sleep for recovery",
+      "sleep and muscle growth",
+      "does sleep affect gains",
+      "how important is sleep for lifting",
+      "how many hours of sleep for muscle",
+      "sleep and working out",
+      "not enough sleep gains",
+      "is 6 hours of sleep enough",
+      "sleep for athletes",
+      "sleep and strength"
+    ],
+    "match": "\\b(how (much|many hours( of)?) sleep|sleep (for|and) (recovery|muscle|gains|strength|lifting|working out|athletes)|does sleep (affect|matter|help)|(is )?(5|6|five|six) hours (of sleep )?enough)\\b",
+    "body": [
+      "Most adults need 7 to 9 hours a night, and lifters are no exception. Sleep is when a lot of repair happens, and short sleep tends to make sessions feel harder, recovery slower and appetite less predictable. It is the most underrated part of any plan I have ever coached.",
+      "Regularly getting under 6 hours tends to show up in your training: heavier-feeling weights, lower motivation, more aches. One short night is not a disaster, but a week of them adds up.",
+      "Small changes go a long way. Keep the same wake time every day, weekends included, and get daylight in the morning. Keep the bedroom cool, dark and quiet, and give yourself a 30 minute wind-down without the phone. If you snore loudly, stop breathing in your sleep, or feel exhausted despite plenty of hours in bed, mention it to a doctor."
+    ],
+    "more": {
+      "why": "Deep sleep supports physical recovery, and good sleep helps with focus, coordination and mood, all of which show up in the quality of your training.",
+      "how": "Pick a fixed wake time. Count back 8 hours for a target bedtime. Start winding down 30 minutes before it. Hold that for two weeks and notice how training feels.",
+      "mistake": "Sleeping 5 hours on weeknights and 11 on Saturday to catch up. A steady rhythm usually does more than weekend catch-up.",
+      "short_on_time": "If you can only change one thing, keep your wake time the same every day. It anchors everything else."
+    },
+    "chips": [
+      "I slept badly, should I train?",
+      "Are naps good for recovery?",
+      "Morning or evening workouts?"
+    ],
+    "related": [
+      "dj-b-040",
+      "dj-b-041"
+    ]
+  },
+  {
+    "id": "dj-b-040",
+    "topic": "sleep",
+    "title": "Training after a bad night of sleep",
+    "keys": [
+      "i slept badly should i train",
+      "slept badly should i work out",
+      "bad sleep should i go to the gym",
+      "workout after no sleep",
+      "train on little sleep",
+      "lifting on no sleep",
+      "tired should i skip the gym",
+      "only slept 4 hours",
+      "should i work out if im tired",
+      "exhausted should i train",
+      "poor sleep workout"
+    ],
+    "match": "\\b((slept|sleep) (badly|bad|poorly|terribly|(4|5|four|five|3|three) hours)|(no|little|bad|poor) sleep,? (should i|workout|work out|train|lift|gym)|(work ?out|train|lift|gym)(ing)? (on|after) (no|little|bad|poor|(4|5|3) hours( of)?) sleep|(should i|can i) (work ?out|train|lift) if i'?m (tired|exhausted))\\b",
+    "body": [
+      "One bad night usually does not wreck a session. Strength holds up surprisingly well after a single short night; what suffers most is motivation and how hard everything feels. So my default is: go, warm up, and decide from there.",
+      "Give yourself permission to adjust. Do your warm-up and first working set, and if you feel close to normal, train as planned. If everything feels heavy and slow, cut the session to your main lift plus one accessory, or drop the weights about 10 to 20% and focus on clean reps. A shorter, good session beats a long, sloppy one.",
+      "Skip it, or just walk, if you are so tired you feel unsteady, it has been several bad nights in a row, or you are sick. Rest is a choice you are allowed to make. And never drive drowsy to get to the gym; that is the one real danger here."
+    ],
+    "more": {
+      "why": "Sleep loss affects mood, effort perception and focus first. That is why a good warm-up often brings you back to near normal, and why a lighter session still counts.",
+      "how": "Warm up. First working set. Rate how it felt from 1 to 10 compared with usual. If it is 2 or more points harder, go lighter or shorter.",
+      "mistake": "Testing a new max on 4 hours of sleep. Bank the consistency, save the big attempts for a rested day.",
+      "example": "Planned 4 sets of squats at 135 lb. Felt heavy in the warm-up, so you did 3 sets at 115 with perfect control and went home. That is a good day."
+    },
+    "chips": [
+      "How much sleep do I need?",
+      "Are naps good for recovery?",
+      "Should I work out on a bad day?"
+    ],
+    "related": [
+      "dj-b-039",
+      "dj-b-041"
+    ]
+  },
+  {
+    "id": "dj-b-041",
+    "topic": "sleep",
+    "title": "Naps and recovery",
+    "keys": [
+      "are naps good for recovery",
+      "naps",
+      "should i nap after a workout",
+      "nap after gym",
+      "power nap",
+      "how long should a nap be",
+      "napping and muscle recovery",
+      "is napping good for athletes",
+      "nap before workout",
+      "afternoon nap"
+    ],
+    "match": "\\b(naps?|napping|power nap)\\b",
+    "body": [
+      "Naps can help, especially when your night sleep came up short. A short nap can improve alertness, mood and how fresh you feel for training. They are a good patch, not a replacement for a solid night.",
+      "Keep it short and early: about 20 to 30 minutes, finished by mid afternoon. Short naps keep you out of deep sleep, so you wake up without that heavy, groggy feeling, and an early one is less likely to keep you up at night. If you have time for a longer one, about 90 minutes lets you complete a full sleep cycle.",
+      "If you need a nap every day just to function, look at your nights first. Consistent bedtimes and wake times usually do more than any nap can."
+    ],
+    "more": {
+      "how": "Set an alarm for 25 minutes. Lie down somewhere dark and quiet. Even if you do not fully fall asleep, resting quietly still helps.",
+      "mistake": "A two hour nap at 5 pm, then wondering why you are wide awake at midnight before a morning session.",
+      "example": "Short night, evening lifting session planned: a 20 minute nap at 1 pm, and training will usually feel noticeably better."
+    },
+    "chips": [
+      "How much sleep do I need?",
+      "I slept badly, should I train?",
+      "What should I do on a rest day?"
+    ],
+    "related": [
+      "dj-b-039",
+      "dj-b-040"
+    ]
+  },
+  {
+    "id": "dj-b-042",
+    "topic": "recovery",
+    "title": "Why you feel stiff in the morning",
+    "keys": [
+      "why am i stiff in the morning",
+      "stiff in the morning",
+      "morning stiffness",
+      "stiff when i wake up",
+      "wake up stiff and sore",
+      "back stiff in the morning",
+      "body feels stiff after sleeping",
+      "stiff joints in the morning",
+      "why do i feel tight in the morning",
+      "creaky in the morning"
+    ],
+    "match": "\\b((stiff|tight|creaky|achy)(ness)? (in the |every |when i wake up|after (i )?sleep(ing)?|first thing)( morning)?|morning stiffness|wake up (stiff|tight|sore|achy))\\b",
+    "body": [
+      "Some stiffness first thing is normal. You have been mostly still for 7 or 8 hours, the fluid in your joints has not been moving much, and the discs in your spine have soaked up a little water overnight. It usually eases within 15 to 30 minutes of moving around.",
+      "A gentle 3 minute routine helps: 10 slow cat-cows, 10 hip circles each direction, 10 arm circles, a few slow bodyweight squats and a short walk to the kitchen. Morning stiffness after a hard leg day will be more noticeable, and it is just soreness taking its turn.",
+      "If morning stiffness lasts longer than about an hour, comes with swollen, warm or red joints, wakes you up at night, or keeps getting worse over weeks, mention it to a doctor. That pattern is worth getting checked rather than stretching through."
+    ],
+    "more": {
+      "why": "Movement circulates the fluid that lubricates your joints. After hours of stillness, it takes a few minutes of moving to get things gliding again.",
+      "how": "Before you even get out of bed: pull your knees to your chest, rock gently side to side, and do 10 ankle circles each way. Then the 3 minute routine once you are up.",
+      "mistake": "Doing your deepest forward folds right after waking. Save the big stretches for later in the day when you are warm."
+    },
+    "chips": [
+      "How do I warm up in the morning?",
+      "A 10 minute mobility routine",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-b-007",
+      "dj-b-023"
+    ]
+  },
+  {
+    "id": "dj-b-043",
+    "topic": "recovery",
+    "title": "Heat or ice for sore muscles",
+    "keys": [
+      "heat or ice for sore muscles",
+      "should i ice sore muscles",
+      "heat or ice",
+      "ice or heat",
+      "heating pad for soreness",
+      "should i ice after working out",
+      "hot bath sore muscles",
+      "epsom salt bath",
+      "warm bath for soreness",
+      "ice pack for sore legs"
+    ],
+    "match": "\\b((heat|ice) (or|vs|versus) (heat|ice)|(should i |do i )?ice (my )?(sore|after)|heating pad|epsom salts?|(hot|warm) bath (for|after)|ice pack)\\b",
+    "body": [
+      "For ordinary post-workout soreness and stiffness, warmth is usually the better choice. A warm shower, a bath or a heating pad for 15 to 20 minutes relaxes tight muscles and simply feels good. Many people find it makes the next day easier.",
+      "Ice is more for a fresh knock or tweak in the first day or two, where it can ease pain. For regular soreness, there is little reason to ice, and frequent icing right after lifting may slightly dull the adaptation you are training for. Epsom salt baths are fine if you enjoy them; the warm water is likely doing most of the work.",
+      "Protect your skin either way. Use a towel between skin and an ice pack, limit it to 15 to 20 minutes, and never sleep on a heating pad. If an area is swollen, hot to the touch, or getting more painful, skip the home fixes and get it checked."
+    ],
+    "more": {
+      "why": "Heat increases blood flow and helps muscles relax, which suits stiffness and soreness. Cold numbs and reduces swelling, which suits a fresh minor injury more.",
+      "how": "Sore after leg day: a warm bath or heating pad for 15 to 20 minutes in the evening, then some gentle stretching while you are warm.",
+      "mistake": "Putting ice straight on bare skin for half an hour. That can damage skin. Wrap it, and keep it short."
+    },
+    "chips": [
+      "How do I reduce soreness?",
+      "Ice bath or sauna after lifting?",
+      "How sore is too sore?"
+    ],
+    "related": [
+      "dj-b-031",
+      "dj-b-036"
+    ]
+  },
+  {
+    "id": "dj-b-044",
+    "topic": "recovery",
+    "title": "Stretching when you are sore",
+    "keys": [
+      "should i stretch when sore",
+      "stretching sore muscles",
+      "does stretching help soreness",
+      "stretch when sore",
+      "stretch sore legs",
+      "is it ok to stretch sore muscles",
+      "stretching the day after lifting",
+      "stretch to recover"
+    ],
+    "match": "\\b(stretch(ing)? (when|while|if) (i'?m |im )?sore|stretch(ing)? (sore|aching) (muscles|legs|arms)|does stretching (help|reduce|prevent) (soreness|doms)|stretch to recover)\\b",
+    "body": [
+      "Gentle stretching on sore muscles is fine and often feels nice, but it will not make the soreness go away faster. Research on stretching for soreness shows very small effects, either before or after training. So stretch because it feels good, not because it is fixing anything.",
+      "Keep it light: mild tension, slow breathing, 20 to 30 seconds per hold. Sore muscles are more sensitive, so a stretch that is normally a 5 out of 10 may feel like a 7. Ease off to match.",
+      "What actually helps soreness more is easy movement that warms the muscle up, like a walk or a light bike ride, followed by a short, gentle stretch while you are warm. That combination is my go-to on the morning after a hard leg day."
+    ],
+    "more": {
+      "how": "Walk or cycle easily for 10 to 15 minutes, then stretch the sore areas gently for 20 to 30 seconds each, once or twice.",
+      "mistake": "Cranking hard on a very sore hamstring to stretch the soreness out. You will just make it angrier.",
+      "why": "Soreness comes from changes inside the muscle after unfamiliar work. Stretching does not reverse those, but it can ease the feeling of tightness for a while."
+    },
+    "chips": [
+      "How do I reduce soreness?",
+      "How long should I hold a stretch?",
+      "What is active recovery?"
+    ],
+    "related": [
+      "dj-b-031",
+      "dj-b-010"
+    ]
+  },
+  {
+    "id": "dj-b-045",
+    "topic": "recovery",
+    "title": "Walking for recovery and on rest days",
+    "keys": [
+      "is walking good for recovery",
+      "walking on rest days",
+      "should i walk on rest days",
+      "walking after leg day",
+      "how much should i walk",
+      "daily walk",
+      "walking for recovery",
+      "does walking count as exercise",
+      "walking after a workout",
+      "steps on rest days",
+      "is walking enough"
+    ],
+    "match": "\\b(walk(ing)? (for|on|after|is good for) (recovery|rest days?|leg day|a workout)|(should i|can i) walk on (a |my )?rest days?|daily walks?|does walking count|is walking (good|enough))\\b",
+    "body": [
+      "Walking is one of the best recovery tools there is, and it is free. It gets blood moving through tired muscles, eases stiffness, helps your mood, and adds to your daily activity without digging into your recovery. On rest days and after leg day especially, a walk is my first suggestion.",
+      "There is no single magic number. A 20 to 45 minute walk at a comfortable pace is plenty for recovery. For general health, more daily steps tend to help up to around 7,000 to 10,000 for most adults, though any increase from where you are now counts.",
+      "And yes, walking counts as exercise. It does not replace strength training, but it is a real part of a healthy week. Some of my favorite sessions are the walks I took after the session, sun coming up, nothing to prove."
+    ],
+    "more": {
+      "how": "After a hard session or on rest days, walk 20 to 45 minutes at a pace where you can talk comfortably. Short walks after meals count too.",
+      "example": "Leg day on Monday, a 30 minute walk Tuesday morning. The stairs at work will thank you.",
+      "short_on_time": "Three 10 minute walks across the day do the job just as well as one 30 minute walk."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "What should I do on a rest day?",
+      "What is active recovery?",
+      "Low impact cardio options"
+    ],
+    "related": [
+      "dj-b-027",
+      "dj-b-028"
+    ]
+  },
+  {
+    "id": "dj-b-046",
+    "topic": "recovery",
+    "title": "Why the first week of training leaves you so sore",
+    "keys": [
+      "first workout soreness",
+      "so sore after my first workout",
+      "sore after first time at gym",
+      "first week of working out sore",
+      "can barely walk after first leg day",
+      "first time lifting sore",
+      "beginner soreness",
+      "will i always be this sore",
+      "is it normal to be this sore as a beginner",
+      "sore after first gym session"
+    ],
+    "match": "\\b((sore|soreness) after (my )?first (workout|session|time|leg day|week|gym session)|first (workout|week|leg day|time lifting)( of working out)? (soreness|sore)|beginner soreness|will i always be this sore|barely walk after (my )?first)\\b",
+    "body": [
+      "That first-week soreness is legendary, and it is also temporary. Everything is new to your muscles, especially the lowering part of each rep, so they react strongly the first time. It will not stay this way. The second time you do the same session, the soreness is usually much smaller.",
+      "The worst move now would be to wait until you feel totally fresh before going back. Do your next session on schedule, warm up well, and keep the weights light. Walk on the days in between. By week three, most people are only mildly sore, if at all.",
+      "I still remember my first leg day. I sat down very carefully for three days and seriously questioned my choices. You are in good company, and I am proud of you for starting."
+    ],
+    "more": {
+      "why": "Muscles adapt quickly to new work. After one or two exposures, the same session causes much less muscle damage and much less soreness.",
+      "how": "Keep your next session at the same weights or slightly lighter. Do not add new exercises for the first two or three weeks. Let your body catch up.",
+      "beginner": "Start with about 2 sets per exercise in week one rather than 3 or 4. Less volume early means less soreness and a much easier second session."
+    },
+    "chips": [
+      "How do I reduce soreness?",
+      "Should I train if I'm sore?",
+      "How heavy should I start?"
+    ],
+    "related": [
+      "dj-b-030",
+      "dj-b-031"
+    ]
+  },
+  {
+    "id": "dj-b-047",
+    "topic": "recovery",
+    "title": "Recovering when life stress is high",
+    "keys": [
+      "stress and recovery",
+      "stressed out should i train",
+      "does stress affect recovery",
+      "training during a stressful time",
+      "work stress and gym",
+      "exercise when stressed",
+      "high stress workout",
+      "life is stressful how to train",
+      "too stressed to work out",
+      "stress and gains"
+    ],
+    "match": "\\b((life|work|job|mental|high) stress|stress(ed)? (and|affects?|out) (recovery|gains|training|the gym|working out)|(train|work ?out|lift|exercise)(ing)? (when|while|during) (i'?m )?(stressed|a stressful)|too stressed to)\\b",
+    "body": [
+      "Your body does not keep separate accounts for gym stress and life stress. A rough stretch at work, poor sleep, caregiving or a family crisis all draw on the same recovery as your training. So when life gets heavy, your training should usually get a little lighter, not stop.",
+      "Training is often one of the best things you can do for stress, as long as the effort fits the week. Shorter sessions, moderate weights, steady sets you can do well. Keep the main lifts, cut a few accessory sets, and finish feeling better than you started. Walks count double in stressful weeks.",
+      "This is consistency at its most real. Showing up for 30 good minutes when everything is loud is a bigger win than any PR. I notice it every time, and I will tell you so."
+    ],
+    "more": {
+      "how": "During a stressful stretch: train the same days, cut each session by about a third, keep weights moderate, add a daily walk, and protect your bedtime.",
+      "example": "Normally 60 minutes, four times a week. In a hard month: 35 minutes, three times a week, with a 20 minute walk on the other days. You will come out of it still in the habit.",
+      "mistake": "Punishing yourself with brutal sessions to burn off stress. A hard session on top of a hard week usually leaves you more drained, not less."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Should I work out on a bad day?",
+      "What is the least I can do?",
+      "Signs I need more rest"
+    ],
+    "related": [
+      "dj-b-038"
+    ]
+  }
+]

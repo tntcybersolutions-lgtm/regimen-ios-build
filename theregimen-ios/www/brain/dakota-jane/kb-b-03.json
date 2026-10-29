@@ -1,0 +1,845 @@
+[
+  {
+    "id": "dj-b-048",
+    "topic": "beginners",
+    "title": "Your first day at the gym, start to finish",
+    "keys": [
+      "first day at the gym",
+      "first time at the gym",
+      "my first gym session",
+      "what to do on my first day at the gym",
+      "first workout ever",
+      "going to the gym for the first time",
+      "first gym visit",
+      "never been to a gym",
+      "first time lifting",
+      "nervous about my first gym day",
+      "how to start at the gym",
+      "first day gym"
+    ],
+    "match": "\\b(first (day|time|visit|session|workout|week)( ever)? (at|in|to) (the |a )?gym|(first|1st) gym (day|session|visit|workout)|never been to a gym|going to the gym for the first time|first workout ever)\\b",
+    "body": [
+      "Your first day has one goal: leave feeling like you can come back. Not exhausted, not sore for a week, just a little proud and a lot less nervous about the place. I have coached hundreds of first sessions and I still remember how scary mine was, so let us make yours simple.",
+      "Plan about 45 minutes. Walk a lap of the gym first so you know where things are. Warm up for 5 minutes on a bike or treadmill. Then do 4 or 5 basic movements, 2 sets each of 10 to 12 reps, at a weight that feels easy to moderate: a leg press or goblet squat, a chest press machine or push-ups, a seated row or lat pulldown, a hip hinge like a light dumbbell Romanian deadlift, and a plank.",
+      "Stop each set with 3 or 4 reps still in the tank. Write down what you did; it is the starting line you will be glad you recorded. Then walk 5 minutes and go home. That is a complete, successful first day."
+    ],
+    "more": {
+      "why": "Your first session is about learning the place and the movements, not building muscle. Muscle comes from coming back, and a gentle first day makes coming back easy.",
+      "how": "Lap of the gym, 5 minute warm-up, 4 or 5 exercises for 2 sets of 10 to 12, 5 minute walk. Log every weight you used.",
+      "mistake": "Doing everything you can think of until you collapse. You will be sore for days and the second visit will feel twice as hard to start.",
+      "example": "Leg press 2 x 12, chest press 2 x 10, lat pulldown 2 x 12, dumbbell Romanian deadlift 2 x 10, plank 2 x 20 seconds. In and out in 45 minutes."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How heavy should I start?",
+      "I feel nervous going to the gym",
+      "What should I bring to the gym?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-051",
+      "dj-b-055"
+    ]
+  },
+  {
+    "id": "dj-b-049",
+    "topic": "beginners",
+    "title": "What to do first when you are brand new",
+    "keys": [
+      "what should i do first",
+      "where do i start",
+      "im a beginner where do i start",
+      "how do i start working out",
+      "complete beginner",
+      "total beginner",
+      "i have never worked out",
+      "beginner workout plan",
+      "how do i get started",
+      "starting from zero",
+      "just starting out",
+      "new to working out"
+    ],
+    "match": "\\b((complete|total|absolute) beginner|where (do|should) i (even )?start|how (do i|to) (get started|start working out|start lifting|start exercising)|never (worked out|exercised|lifted)( before)?|starting from (zero|scratch)|new to (working out|the gym|lifting|exercise))\\b",
+    "body": [
+      "Start smaller than you think you should. Three full-body sessions a week, on non-consecutive days, with about five basic movements each time: a squat, a hinge, a push, a pull, and something for your core. That covers the whole body and gives you time to recover in between.",
+      "For the first four weeks, the job is learning the movements and building the habit, not chasing weight. Pick weights you can lift for 10 to 12 controlled reps while stopping with 2 or 3 reps left, do 2 or 3 sets, and add a little weight or a rep or two when a set starts to feel easy. Lower each rep under control; that habit is worth more than any number on the bar.",
+      "Then just keep showing up. The plan on your Train screen is built to handle what to do each day, so your only decision is to start the session. Three good sessions a week for a year will change you more than six a week for a month."
+    ],
+    "more": {
+      "why": "Full-body sessions three times a week let a beginner practice each movement often, which is how skills improve, while leaving rest days between to recover.",
+      "how": "Monday, Wednesday, Friday. Squat or leg press, a hinge like a Romanian deadlift, a press, a row or pulldown, a plank. 2 to 3 sets of 10 to 12. About 45 minutes.",
+      "mistake": "Copying an advanced lifter's six day split. It is built for someone with years of training and recovery behind them.",
+      "example": "Week 1: goblet squat 25 lb, dumbbell Romanian deadlift 20 lb dumbbells, chest press 40 lb, seated row 50 lb, plank 20 seconds. Add a little whenever all reps feel smooth."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I use my plan?",
+      "How heavy should I start?",
+      "Machines or free weights first?"
+    ],
+    "related": [
+      "dj-b-048",
+      "dj-b-050",
+      "dj-b-052"
+    ]
+  },
+  {
+    "id": "dj-b-050",
+    "topic": "beginners",
+    "title": "How to use your plan on the Train screen",
+    "keys": [
+      "how do i use my plan",
+      "how do i use the plan",
+      "how does the plan work",
+      "what is my plan for today",
+      "how do i follow the program",
+      "how to use the workout plan",
+      "do i have to follow the plan exactly",
+      "can i change my plan",
+      "what if i dont like an exercise in my plan",
+      "my plan says",
+      "train screen",
+      "how do i start a session"
+    ],
+    "match": "\\b(how (do i|to) (use|follow|read) (my |the |this )?(plan|program|train screen)|how does (my |the )?(plan|program) work|(follow|stick to) the (plan|program) exactly|change (my|the) plan|train screen|start (a|my|the) session)\\b",
+    "body": [
+      "Open your Train screen and today's session is there, already built: the exercises, the sets, the reps, in order. Start it, warm up, and work down the list. Log each set as you finish it, the weight and the reps. Those numbers are what lets your plan move forward with you.",
+      "You do not need to follow it to the letter. If a station is taken or a movement does not feel right on a given day, swap it for something similar that hits the same area. If you are short on time, do the first two or three exercises well and call it done. A shorter session you finish beats a perfect one you skip.",
+      "The part that matters most is the logging. When you write down what you did, I can see the pattern, notice when something is getting easier, and point it out. Check your Progress screen every few weeks; that line going up is the best motivation I know."
+    ],
+    "more": {
+      "how": "Open your Train screen, start today's session, and log every set: weight and reps. If something feels too heavy or too light, log what you actually did so the next session can adjust.",
+      "beginner": "For the first two weeks, just follow the plan and log honestly. Learning the movements and building the habit is the whole job.",
+      "mistake": "Logging the weight you meant to lift instead of the weight you did. Honest numbers are what make the plan fit you.",
+      "short_on_time": "Do the first exercise or two, the ones that carry the session, and log them. Ten good minutes still counts."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How do I track my progress?",
+      "What if a machine is taken?",
+      "What is the least I can do?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-061"
+    ]
+  },
+  {
+    "id": "dj-b-051",
+    "topic": "beginners",
+    "title": "How heavy to start when you are new",
+    "keys": [
+      "how heavy should i start",
+      "what weight should i start with",
+      "how much weight should i lift",
+      "how do i know what weight to use",
+      "starting weight",
+      "how heavy should i lift as a beginner",
+      "is my weight too light",
+      "what weight to start squats",
+      "what weight for beginners",
+      "choosing the right weight",
+      "how to pick a weight",
+      "too heavy or too light"
+    ],
+    "match": "\\b(how (heavy|much weight) (should|do) i (start|lift|use|begin)|what weight (should i|to|do i) (start|use|lift|pick)|starting weights?|(choos|pick)(e|ing) (the right |a )?weight|(is|was) (my |the )?weight too (light|heavy)|too heavy or too light)\\b",
+    "body": [
+      "Start with a weight you could lift for about 15 reps, then do 10 to 12. You should finish each set feeling like you had 2 or 3 more good reps left. If your form changes on the last few reps, it was too heavy. If you could have done 20 easily, go up next set.",
+      "Finding it takes a set or two of trial and error, and that is normal. Pick a guess, do 10 reps, and rate it: easy, about right, or a struggle. Adjust by a small step: one pin on a machine, or the next pair of dumbbells. Write down where you land so next time you start right there.",
+      "Erring light at first is smart, not timid. Your muscles adapt faster than your tendons and your technique, and the first month is for learning the movements. The weights will climb steadily, and you will be surprised how fast."
+    ],
+    "more": {
+      "why": "Starting light lets you learn to control every rep, especially the lowering half, before the load makes mistakes expensive. Control on the way down counts double.",
+      "how": "Guess a weight, do 10 reps, rate it. If you had 5 or more reps left, go up a step. If you had 0 or 1 left or your form slipped, go down a step. Aim for 2 or 3 left.",
+      "example": "Goblet squat: you try 15 lb, 10 reps feels like you had 8 more. Try 25 lb, 10 reps with about 3 left. That is your starting weight.",
+      "mistake": "Picking the weight the person before you used. Their number has nothing to do with yours."
+    },
+    "chips": [
+      "When do I add weight?",
+      "What does reps in reserve mean?",
+      "How long until I see results?"
+    ],
+    "related": [
+      "dj-b-053",
+      "dj-b-054"
+    ]
+  },
+  {
+    "id": "dj-b-052",
+    "topic": "beginners",
+    "title": "Machines or free weights when you are starting out",
+    "keys": [
+      "machines or free weights first",
+      "machines vs free weights",
+      "should beginners use machines",
+      "are machines bad",
+      "free weights or machines for beginners",
+      "are machines good for beginners",
+      "should i use machines or dumbbells",
+      "machines are for beginners",
+      "do machines build muscle",
+      "barbell or machine"
+    ],
+    "match": "\\b(machines? (vs|versus|or) free ?weights|free ?weights (vs|versus|or) machines?|(should|can) (beginners|i) (use|start with) machines|are machines (bad|good|ok|okay|enough)|do machines (build|work))\\b",
+    "body": [
+      "Both build muscle and strength, and both have a place from day one. Machines are a great start: they guide the path, are easy to set up, let you focus on effort and control, and you can train close to your limit without needing a spotter.",
+      "Free weights (dumbbells, barbells, kettlebells) ask you to balance and control the weight yourself, which trains coordination and stability and carries over well to everyday life. They take a little longer to learn, so start them light.",
+      "My favorite beginner mix: one or two free-weight movements you are learning, like a goblet squat and a dumbbell row, plus machines for the rest. As your technique settles, you can shift the balance however you like. The best tool is the one you will use well and consistently."
+    ],
+    "more": {
+      "why": "Muscle responds to effort and tension, not to whether the weight is on a cable or in your hand. Machines simply make it easier to apply that effort safely while you learn.",
+      "how": "Each session: a free-weight squat or hinge pattern, a free-weight row or press, and 2 or 3 machines. Keep the free weights light while you learn.",
+      "mistake": "Avoiding machines because someone online called them cheating. Plenty of experienced lifters build their whole program around them.",
+      "beginner": "If a machine has a sticker with pictures on the side, read it. Those diagrams show the seat setup and movement, and they are surprisingly good."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "How heavy should I start?",
+      "What should I do first?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-056"
+    ]
+  },
+  {
+    "id": "dj-b-053",
+    "topic": "beginners",
+    "title": "When to add weight as a beginner",
+    "keys": [
+      "when do i add weight",
+      "when should i increase weight",
+      "when to go up in weight",
+      "how do i progress",
+      "how much weight should i add",
+      "going up in weight",
+      "should i add weight every week",
+      "how fast should i increase weight",
+      "beginner progression",
+      "when to move up a weight",
+      "add reps or weight"
+    ],
+    "match": "\\b(when (do|should) i (add|increase|go up in|move up( in)?) (the )?weight|when to (add|increase|go up in|move up) (the )?weight|how (fast|often|much) (should|do) i (increase|add) (the )?weight|beginner progression|add (reps|weight) or (reps|weight))\\b",
+    "body": [
+      "Use a simple rule: once you can do all your sets at the top of your rep range with good form and a couple of reps left, add a small amount of weight next session. If your plan says 3 sets of 8 to 12, you add weight when you hit 3 sets of 12 cleanly.",
+      "Small jumps are the secret: about 2.5 to 5 lb total for upper body (or the next pair of dumbbells), and about 5 to 10 lb for lower body. Then your reps will drop back toward the bottom of the range, and you build them back up again. Add reps, then weight, then reps again.",
+      "Beginners can often progress something almost every week for the first few months. When a lift stops moving for two or three sessions, that is information, not failure. Hold the weight, clean up the form and the lowering, and it usually moves again."
+    ],
+    "more": {
+      "why": "Adding reps first and then weight, sometimes called double progression, lets your form catch up with each jump, so the weight climbs without your technique falling apart.",
+      "example": "Dumbbell bench 30 lb dumbbells: week 1, 10, 9, 8 reps. Week 2, 12, 11, 10. Week 3, 12, 12, 12. Week 4, move to 35s and start back around 8 or 9 reps.",
+      "mistake": "Adding weight every session no matter what, until your reps get ugly. Earn the jump with clean reps first.",
+      "beginner": "If you are unsure whether a set was clean, it probably was not quite. Repeat the weight once more and own it."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "How heavy should I start?",
+      "What does reps in reserve mean?",
+      "How do I track my progress?"
+    ],
+    "related": [
+      "dj-b-051",
+      "dj-b-054"
+    ]
+  },
+  {
+    "id": "dj-b-054",
+    "topic": "beginners",
+    "title": "Reps in reserve, and how hard a set should feel",
+    "keys": [
+      "what does reps in reserve mean",
+      "reps in reserve",
+      "rir",
+      "how hard should a set feel",
+      "should i go to failure",
+      "how close to failure",
+      "how do i know if im working hard enough",
+      "am i working hard enough",
+      "rate of perceived exertion",
+      "rpe",
+      "how many reps left in the tank"
+    ],
+    "match": "\\b(reps? in reserve|\\brir\\b|\\brpe\\b|how hard should (a|each|my) set (feel|be)|how close to failure|(go|train|lift)(ing)? to failure|working hard enough|(reps )?left in the tank)\\b",
+    "body": [
+      "Reps in reserve is how many more good reps you could have done when you stopped the set. If you stop at 10 and could have done 3 more with the same form, that set had 3 reps in reserve. It is a simple way to make sure you are working hard without grinding every set to failure.",
+      "For most of your training, aim for about 1 to 3 reps in reserve. That is hard enough to build muscle and strength and leaves enough in the tank to keep your form clean and recover for your next session. Beginners can sit at the easier end, 2 to 3, while learning.",
+      "Guessing it is a skill, and you get better at it with practice. Early on, most people underestimate how many reps they have left. Every so often, on a safe exercise like a machine, take a set close to failure and see how many reps you really had. It recalibrates your sense of effort."
+    ],
+    "more": {
+      "why": "Sets taken close to failure, but not always all the way, give most of the muscle-building benefit with less fatigue and less form breakdown.",
+      "how": "At the end of each set, ask: how many more could I have done with the same form? Log it if you like. Aim for 1 to 3 on most sets.",
+      "mistake": "Calling a set hard because it burned. Burn is not the same as being close to failure. Check whether the reps actually slowed down.",
+      "beginner": "Stop when the speed of the rep starts to slow noticeably. That is usually 2 or 3 reps from failure, which is right where you want to be."
+    },
+    "chips": [
+      "How heavy should I start?",
+      "When do I add weight?",
+      "Am I doing enough?"
+    ],
+    "related": [
+      "dj-b-051",
+      "dj-b-053"
+    ]
+  },
+  {
+    "id": "dj-b-055",
+    "topic": "beginners",
+    "title": "How long until you see results from training",
+    "keys": [
+      "how long until i see results",
+      "how long to see results",
+      "when will i see results",
+      "how long before i notice a difference",
+      "how long does it take to build muscle",
+      "why am i not seeing results",
+      "no results yet",
+      "how long until i get stronger",
+      "how long to see changes",
+      "results timeline",
+      "when will my body change"
+    ],
+    "match": "\\b(how long (until|till|before|to|does it take to) (i )?(see|notice|get|build|start seeing) (results|a difference|changes|muscle|stronger)|when will (i see results|my body change)|(not|no) (seeing )?results( yet)?|results timeline)\\b",
+    "body": [
+      "Strength usually shows up first, often within 2 to 4 weeks, and it can feel fast. A lot of early progress is your nervous system learning the movements, so the weights climb before your body looks different. That is real progress, and it counts.",
+      "Visible changes take longer. Many people start noticing a difference in how clothes fit or how they look in the mirror somewhere around 8 to 12 weeks of consistent training, eating enough protein and sleeping well. Others see more change sooner or later; bodies, starting points and how consistent the training is all vary.",
+      "Results are not guaranteed on any timeline, but consistency is the factor you control. Take photos and a few measurements once a month, track your lifts, and compare months, not days. Day to day you will see nothing. Month to month you will be surprised."
+    ],
+    "more": {
+      "why": "Early strength gains come mostly from coordination and skill. Muscle growth is slower and builds steadily under the surface for weeks before you can see it.",
+      "how": "Once a month, same lighting, same time of day: a photo from front, side and back, a waist measurement, and a note of your top lifts. Compare month to month.",
+      "mistake": "Checking the mirror every morning for change. Daily checks mostly show water, lighting and mood.",
+      "example": "Week 1 you leg press 90 lb for 12. Week 8, 160 lb for 12. The mirror might not have noticed yet, but your legs have."
+    },
+    "reads": [
+      "sessions",
+      "weight"
+    ],
+    "chips": [
+      "How do I track my progress?",
+      "I feel like I'm not improving",
+      "How many days a week should I train?"
+    ],
+    "related": [
+      "dj-b-061",
+      "dj-b-034"
+    ]
+  },
+  {
+    "id": "dj-b-056",
+    "topic": "beginners",
+    "title": "Setting up a weight machine",
+    "keys": [
+      "how do i set up a machine",
+      "how to use gym machines",
+      "how to adjust a machine",
+      "machine seat height",
+      "how to set up a gym machine",
+      "machine settings",
+      "how do i use this machine",
+      "adjusting the seat",
+      "where do i set the pin",
+      "how to change the weight on a machine",
+      "selector pin"
+    ],
+    "match": "\\b(how (do i|to) (set up|use|adjust) (a |the |this |gym )?machines?|(machine|seat) (seat )?(height|settings|setup)|adjust(ing)? the seat|(selector )?pin (on|in) (the|a) (machine|stack)|change the weight on (a|the) machine)\\b",
+    "body": [
+      "Most machines follow the same logic: line up the joint that moves with the machine's pivot point, then set the pads so they hold you without pinching. Get the setup right before you think about weight.",
+      "Seat height first: on a chest press the handles sit around mid-chest, and on a leg extension or leg curl your knee lines up with the round pivot, usually marked with a colored dot. On a row or pulldown, set the pads so you are snug but can breathe. Then set the range lever or pin that controls the starting position, comfortable rather than stretched to the limit.",
+      "Weight is the last step. Slide the pin fully into the stack, all the way in, until it clicks or stops. Do one light test rep to check the setup feels right, then pick your working weight. Note the seat number in your log so next time is quicker."
+    ],
+    "more": {
+      "why": "When your joint lines up with the machine's pivot, the resistance follows your natural path. Off by a few inches and the machine pushes your joint in a direction it does not want to go.",
+      "how": "Seat height, pads, range lever, then pin. One light rep to check. Write down the seat and pad settings so you only do this once.",
+      "mistake": "Leaving the seat wherever the last person set it. They were a different height. Thirty seconds of adjusting changes everything.",
+      "beginner": "Look for the diagram sticker on the side of the machine; it shows the setup. And it is completely normal to ask staff to show you. That is part of their job."
+    },
+    "chips": [
+      "Machines or free weights first?",
+      "What if a machine is taken?",
+      "How heavy should I start?"
+    ],
+    "related": [
+      "dj-b-052",
+      "dj-b-057"
+    ]
+  },
+  {
+    "id": "dj-b-057",
+    "topic": "beginners",
+    "title": "Learning the gym layout and where things are",
+    "keys": [
+      "learning the gym layout",
+      "where is everything in the gym",
+      "gym layout",
+      "how is a gym organized",
+      "different areas of the gym",
+      "where do i find the dumbbells",
+      "what is the free weight area",
+      "how to find my way around the gym",
+      "gym tour",
+      "what are the different machines",
+      "what is a squat rack"
+    ],
+    "match": "\\b(gym layout|(learn|find) (my way around|the layout of) the gym|where (is|are) (everything|things) (in|at) the gym|(different |main )?(areas|sections) of (a|the) gym|gym tour|how is (a|the) gym (organized|set up|laid out))\\b",
+    "body": [
+      "Most gyms are organized into the same few zones, which makes them much less confusing once you know the pattern. There is a cardio area (treadmills, bikes, rowers, stair climbers), a machine area (rows of weight-stack machines grouped loosely by body part), a free-weight area (dumbbell racks, benches and usually mirrors), and a rack or platform area with barbells and squat racks.",
+      "Many gyms also have a stretching or functional area with mats, kettlebells, bands, slam balls and foam rollers. That is a great, low-pressure spot to warm up and do core work while you get comfortable.",
+      "On your first visit, ask the front desk for a quick tour; most gyms offer one for free. Or just walk a slow lap before your workout. Knowing where the water fountain, bathrooms, and the cleaning spray are takes half the stress out of the next visit."
+    ],
+    "more": {
+      "how": "First visit: walk a lap, find the stretching area, the machines you plan to use, the dumbbells and the cleaning spray. Start your warm-up in the stretching area.",
+      "beginner": "Pick one zone, often the machines plus the stretching area, and get comfortable there before branching out to the free-weight area.",
+      "example": "Week one: machines and the stretch area. Week two: add one dumbbell exercise. Week three: try the goblet squat in the free-weight area. Small steps, every visit."
+    },
+    "chips": [
+      "I feel nervous going to the gym",
+      "How do I set up a machine?",
+      "Basic gym etiquette"
+    ],
+    "related": [
+      "dj-b-048",
+      "dj-b-062"
+    ]
+  },
+  {
+    "id": "dj-b-058",
+    "topic": "beginners",
+    "title": "What to wear to the gym",
+    "keys": [
+      "what should i wear to the gym",
+      "what to wear to the gym",
+      "gym clothes",
+      "what shoes for lifting",
+      "best shoes for the gym",
+      "can i lift in running shoes",
+      "should i lift barefoot",
+      "gym outfit",
+      "workout clothes",
+      "do i need special shoes",
+      "flat shoes for squats",
+      "what to wear for lifting"
+    ],
+    "match": "\\b(what (should i |to )?wear (to|at|for) (the gym|lifting|working out|a workout)|gym (clothes|outfit|shoes)|(lifting|workout|training) (clothes|shoes|outfit)|shoes for (lifting|squats?|deadlifts?|the gym)|lift(ing)? (in running shoes|barefoot)|need special shoes)\\b",
+    "body": [
+      "Wear whatever you can move freely in and feel comfortable in. That is honestly the whole rule. Stretchy shorts, leggings or joggers, a T-shirt or tank, and a supportive bra if you need one. Nobody is looking at your outfit nearly as much as you think.",
+      "Shoes matter more than clothes. For lifting, a flat, firm sole is best because it keeps you stable: a basic court or skate shoe, a flat training shoe, or dedicated lifting shoes later if you get serious. Very soft, cushioned running shoes can feel wobbly under heavy squats and deadlifts, but they are fine for cardio and fine to start in.",
+      "Some lifters train deadlifts in socks for a flat base; check your gym's rules first, as many require shoes. Avoid anything too baggy that could catch on equipment, and bring a light layer for a cold gym."
+    ],
+    "more": {
+      "why": "A firm, flat sole lets you push through the whole foot without the shoe squishing, which keeps you balanced under load.",
+      "beginner": "Start in whatever athletic shoes you own. Buy flat training shoes only if you find yourself enjoying the lifting and wanting a steadier base.",
+      "mistake": "Spending a fortune on gear before your second visit. The gear does not lift the weight."
+    },
+    "chips": [
+      "What should I bring to the gym?",
+      "I feel nervous going to the gym",
+      "First day at the gym"
+    ],
+    "related": [
+      "dj-b-059",
+      "dj-b-048"
+    ]
+  },
+  {
+    "id": "dj-b-059",
+    "topic": "beginners",
+    "title": "What to bring to the gym",
+    "keys": [
+      "what should i bring to the gym",
+      "what to bring to the gym",
+      "gym bag essentials",
+      "gym bag",
+      "what do i need for the gym",
+      "do i need a towel at the gym",
+      "should i bring a water bottle to the gym",
+      "gym essentials",
+      "what to pack for the gym",
+      "do i need headphones at the gym"
+    ],
+    "match": "\\b(what (should i |to |do i )?(bring|pack|need) (to|for) the gym|gym (bag|essentials|checklist)|(do i need|should i bring) (a )?(towel|water bottle|headphones|lock) (at|to) the gym)\\b",
+    "body": [
+      "Keep it simple: a water bottle, a small towel, your phone with your plan open, headphones if you like music, and a lock if your gym has lockers. That covers about 95% of what you need.",
+      "Nice extras: a small snack if you train long after a meal, a light layer for a cold gym, flip-flops for the shower, and deodorant. Many people keep a packed bag by the door or in the car so they never have the excuse of not having their stuff.",
+      "One habit worth keeping from day one: wipe down benches and machines after you use them. Your towel is for sweat, the gym's spray and paper towels are for equipment. That small thing is half of good gym manners."
+    ],
+    "more": {
+      "how": "Pack the bag the night before and put it by the door or in the car. The fewer decisions between you and the gym, the more often you go.",
+      "example": "Bag contents: water bottle, towel, headphones, lock, a granola bar, a spare pair of socks. Grab and go.",
+      "mistake": "Leaving your bag at home and planning to come back for it. Five extra minutes is often how a session quietly turns into no session."
+    },
+    "chips": [
+      "What should I wear to the gym?",
+      "Basic gym etiquette",
+      "How do I build a gym habit?"
+    ],
+    "related": [
+      "dj-b-058",
+      "dj-b-062"
+    ]
+  },
+  {
+    "id": "dj-b-060",
+    "topic": "beginners",
+    "title": "How many days a week to train as a beginner",
+    "keys": [
+      "how many days a week should i train",
+      "how many days a week should i work out",
+      "how often should i go to the gym",
+      "how often should a beginner work out",
+      "is 3 days a week enough",
+      "is twice a week enough",
+      "how many times a week to lift",
+      "workouts per week",
+      "days per week",
+      "is 2 days a week enough to see results",
+      "how many days a week should a beginner lift"
+    ],
+    "match": "\\b(how many (days|times) (a|per) week (should i|to|do i|should a beginner)( \\w+)?|how often (should i|to|do i|should a beginner) (go to the gym|work ?out|lift|train)|is (2|3|two|three|twice|once) (days|times)? ?(a|per)? ?week enough|workouts per week|days per week)\\b",
+    "body": [
+      "Two to three full-body sessions a week is a great place to start, and it is enough to make real progress. Research suggests training each muscle about twice a week works well, and three full-body days easily covers that.",
+      "Pick the number you can keep doing on your worst week, not your best one. Three days that happen every week for a year will beat five days that fall apart in March. If three feels like a stretch right now, start with two and add the third when it feels easy.",
+      "As you get more experienced and your schedule allows, you can move to four days, often an upper and lower split. But there is no rush. More days only help if you recover from them and they actually happen."
+    ],
+    "more": {
+      "why": "Muscles respond to being trained hard regularly with rest in between. Two or three full-body sessions give each muscle about two or three hard exposures a week with recovery days between.",
+      "example": "Monday, Wednesday, Friday full body. Or Tuesday and Saturday if that is what life allows. Both work.",
+      "mistake": "Starting with six days because motivation is high in week one. Motivation dips; a plan built for your real schedule is the one that survives.",
+      "short_on_time": "Two 40 minute full-body sessions a week, covering a squat, hinge, push, pull and core, is a genuinely effective minimum."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What should I do first?",
+      "What is the least I can do?",
+      "How long should a workout be?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-063"
+    ]
+  },
+  {
+    "id": "dj-b-061",
+    "topic": "beginners",
+    "title": "Tracking your progress so you can actually see it",
+    "keys": [
+      "how do i track my progress",
+      "track progress",
+      "how to track progress at the gym",
+      "should i log my workouts",
+      "workout log",
+      "why should i log my sets",
+      "how do i know im making progress",
+      "progress screen",
+      "progress photos",
+      "measuring progress",
+      "am i progressing",
+      "tracking lifts"
+    ],
+    "match": "\\b(track(ing)? (my )?(progress|lifts|workouts|sets)|(log|logging) (my )?(workouts|sets|lifts)|workout log|progress (screen|photos|pictures)|measur(e|ing) (my )?progress|how do i know (if |that )?i'?m (making progress|progressing|improving)|am i progressing)\\b",
+    "body": [
+      "Log every working set: the exercise, the weight and the reps. That one habit turns guessing into knowing. It tells you what to lift next time, shows you progress you would never notice otherwise, and keeps you honest on the weeks you think nothing is happening.",
+      "Check your Progress screen every few weeks rather than every day. Look for trends: weights creeping up, reps climbing at the same weight, more sessions per month than three months ago. Add a monthly photo and a waist measurement if body change is part of your goal.",
+      "Do not forget the quiet wins. Sleeping better, stairs feeling easier, carrying all the groceries in one trip, your squat finally feeling smooth. Write those down too. I notice them, and I want you to notice them."
+    ],
+    "more": {
+      "why": "Memory is unreliable and moods color everything. A log shows the truth, and the truth is usually better than how you feel about it on a bad day.",
+      "how": "Log each set as you finish it, while you rest. Once a month, compare your top sets on your main lifts to last month. Celebrate any line that went up.",
+      "example": "Month 1: goblet squat 25 lb for 10. Month 3: 45 lb for 10. That is an 80% increase you might not have noticed without the log.",
+      "mistake": "Only logging the good days. The bad days are part of the trend, and they show you that you kept showing up anyway."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How long until I see results?",
+      "When do I add weight?",
+      "I feel like I'm not improving"
+    ],
+    "related": [
+      "dj-b-055",
+      "dj-b-050"
+    ]
+  },
+  {
+    "id": "dj-b-062",
+    "topic": "gym-etiquette",
+    "title": "Basic gym etiquette for new members",
+    "keys": [
+      "basic gym etiquette",
+      "gym etiquette",
+      "gym rules",
+      "unwritten gym rules",
+      "gym manners",
+      "what not to do at the gym",
+      "do i have to rerack weights",
+      "wipe down equipment",
+      "how long can i use a machine",
+      "gym etiquette for beginners",
+      "is it rude to"
+    ],
+    "match": "\\b(gym (etiquette|rules|manners)|unwritten (gym )?rules|what not to do (at|in) the gym|(rerack|re-rack|put away) (the )?weights|wipe (down )?(the )?(equipment|machines?|bench(es)?)|how long can i (use|stay on) (a|the) machine)\\b",
+    "body": [
+      "Gym etiquette comes down to four habits, and if you do these you will be a better gym member than plenty of veterans. Put your weights back where you found them, and wipe down benches and machines after you use them. Do not stand right in front of the dumbbell rack while you lift, so others can reach it. And share equipment when it is busy.",
+      "A few more that help: keep your phone calls out of the weight room, let people finish their set before asking them something, give lifters a little space (do not walk right in front of someone mid-rep), and keep chalk and sweat contained.",
+      "If you break a rule by accident, which everybody does at some point, a quick sorry is all it takes. Most regulars remember being new, and most of them are far more focused on their own set than on you."
+    ],
+    "more": {
+      "how": "Before you leave a station: weights back on the rack, spray and wipe the pads, take your water bottle and towel. Ten seconds.",
+      "mistake": "Sitting on a machine scrolling your phone between sets when the gym is packed. Rest away from it, or let someone work in.",
+      "beginner": "Watch how regulars behave for your first few visits. You will pick up the rhythm of the place quickly."
+    },
+    "chips": [
+      "How do I ask to work in?",
+      "What if a machine is taken?",
+      "I feel like people are watching me"
+    ],
+    "related": [
+      "dj-b-059",
+      "dj-b-057"
+    ]
+  },
+  {
+    "id": "dj-b-063",
+    "topic": "beginners",
+    "title": "How long a workout should take",
+    "keys": [
+      "how long should a workout be",
+      "how long should i work out",
+      "how long should i be at the gym",
+      "workout length",
+      "is 30 minutes enough",
+      "is an hour too long",
+      "how long should a session take",
+      "are short workouts effective",
+      "45 minute workout",
+      "how many exercises per workout",
+      "is 20 minutes enough"
+    ],
+    "match": "\\b(how long (should|is) (a|my|the|each|i) (workout|session|work ?out|be at the gym)|workout (length|duration)|is (an hour|(20|30|45|60|90) minutes) (enough|too long|too short)|how many exercises (per|in a|should i do in a) (workout|session))\\b",
+    "body": [
+      "Most effective sessions run about 40 to 75 minutes, including the warm-up. For a beginner doing full-body training, 45 minutes is plenty: a 5 to 10 minute warm-up, 4 to 6 exercises for 2 or 3 sets each, and a few minutes to cool down.",
+      "Shorter works too. A focused 30 minute session with a couple of big movements and short rests can absolutely build strength and muscle, especially if it means you actually go. What makes a session work is hard, controlled sets, not hours on the clock.",
+      "If your workouts are regularly running past 90 minutes, look at the rest periods and the phone time first. Often the session is not long, the gaps are."
+    ],
+    "more": {
+      "how": "Warm-up 5 to 10 minutes, main lifts 20 to 30 minutes, accessories 10 to 20 minutes, cool-down 5 minutes. Rest 1 to 3 minutes between sets depending on how heavy they are.",
+      "short_on_time": "30 minutes: 5 minute warm-up, then 3 exercises (a squat or hinge, a push and a pull) for 3 sets each, alternating between them to save time.",
+      "mistake": "Thinking a session only counts if it is an hour long. Twenty good minutes on a busy day keeps the habit alive and still builds you."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the least I can do?",
+      "How many days a week should I train?",
+      "How long should I warm up?"
+    ],
+    "related": [
+      "dj-b-060",
+      "dj-b-067"
+    ]
+  },
+  {
+    "id": "dj-b-064",
+    "topic": "beginners",
+    "title": "Feeling lost about what exercises to do",
+    "keys": [
+      "i dont know what exercises to do",
+      "what exercises should i do",
+      "dont know what im doing at the gym",
+      "i feel lost at the gym",
+      "no idea what to do at the gym",
+      "which exercises are best",
+      "best exercises for beginners",
+      "what exercises for full body",
+      "i dont know what to do at the gym",
+      "basic exercises"
+    ],
+    "match": "\\b((don'?t|dont|do not) know what (exercises )?(to do|i'?m doing)( at the gym)?|(feel|am) lost (at|in) the gym|no idea what to do|best exercises for beginners|which exercises (are best|should i do)|basic exercises)\\b",
+    "body": [
+      "Feeling lost in a gym is completely normal, and the fix is simpler than the gym makes it look. Almost everything fits into five movement patterns: squat (legs bending), hinge (bending at the hips), push (pressing away), pull (pulling toward you), and core. Pick one exercise from each and you have a full workout.",
+      "Easy choices for each: a goblet squat or leg press; a dumbbell Romanian deadlift or hip thrust; a chest press machine, dumbbell bench press or push-ups; a seated cable row or lat pulldown; a plank or dead bug. That covers your whole body.",
+      "Your plan on the Train screen already picks these for you each day, so you can skip the decision entirely. The less you have to figure out in the moment, the more energy you have for the actual lifting."
+    ],
+    "more": {
+      "why": "Covering those five patterns trains every major muscle group without needing dozens of exercises. Variety comes later; first, get good at a few.",
+      "example": "Session: leg press 3 x 10, dumbbell Romanian deadlift 3 x 10, chest press 3 x 10, seated row 3 x 12, dead bug 2 x 8 per side.",
+      "mistake": "Wandering from machine to machine doing one set of whatever is free. You will be busy but not progressing. Repeat the same few movements for weeks."
+    },
+    "chips": [
+      "How do I use my plan?",
+      "Machines or free weights first?",
+      "How heavy should I start?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-050"
+    ]
+  },
+  {
+    "id": "dj-b-065",
+    "topic": "beginners",
+    "title": "Hiring a trainer or getting help with form",
+    "keys": [
+      "should i get a personal trainer",
+      "do i need a personal trainer",
+      "is a personal trainer worth it",
+      "how do i check my form",
+      "form check",
+      "how to know if my form is right",
+      "film my lifts",
+      "should i record myself lifting",
+      "trainer or app",
+      "how do i know my form is good"
+    ],
+    "match": "\\b(personal trainers?|(do i need|should i get|hire) a trainer|(check|checking|know if|tell if) my form( is)?( right| good| correct)?|film(ing)? (my|your) (lifts?|sets?|form)|record(ing)? (my|your)self (lifting|squatting)|form check)\\b",
+    "body": [
+      "A few sessions with a good trainer can be well worth it when you are starting, especially to learn the squat, hinge and press. You do not need one long term. Many people book three or four sessions, learn the basics, and then train on their own.",
+      "The best free tool is your phone. Film your sets from the side, at about hip height, a few steps away. Watch for the things that are hard to feel: whether your back stays neutral, whether your hips and shoulders rise together, whether the lowering is controlled or a drop. I learned almost everything by filming my own lifts and being honest about what I saw.",
+      "Most gyms also include a free intro session, and staff are usually happy to show you a machine. Asking is a sign you care about doing it right, which is exactly the mindset that keeps people training for years."
+    ],
+    "more": {
+      "how": "Phone on the floor or a bench, side view, whole body in frame. Film one working set per main lift each week. Compare week to week.",
+      "beginner": "Film your first sessions even if you do not know what to look for yet. In a month you will spot things in those videos you could not see at the time.",
+      "mistake": "Filming only from the front in the mirror. A side view shows depth, back position and bar path far better."
+    },
+    "chips": [
+      "I feel like people are watching me",
+      "Machines or free weights first?",
+      "What should I do first?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-052"
+    ]
+  },
+  {
+    "id": "dj-b-066",
+    "topic": "beginners",
+    "title": "Cardio or weights first as a beginner",
+    "keys": [
+      "cardio or weights first",
+      "should i do cardio before or after weights",
+      "cardio before lifting",
+      "cardio after lifting",
+      "do i need to do cardio",
+      "should beginners do cardio",
+      "weights or cardio for beginners",
+      "cardio and weights same day",
+      "how much cardio should i do",
+      "lifting then cardio"
+    ],
+    "match": "\\b(cardio (or|vs|versus|before|after|and) (weights|lifting|strength)|(weights|lifting|strength) (or|vs|versus|before|after|then|and) cardio|do i (need|have) to do cardio|should beginners do cardio|how much cardio)\\b",
+    "body": [
+      "If strength and muscle are your main goals, lift first and do cardio after, or on separate days. You want your freshest energy for the sets that need focus and control. A short 5 to 10 minute easy cardio warm-up before lifting is great; a hard 30 minute run before squats is not.",
+      "If heart fitness or endurance is your main goal, flip it: cardio first while you are fresh, then lighter lifting. Both orders work; it is about what you want to do best that day.",
+      "And yes, do some cardio. Adults generally benefit from around 150 minutes a week of moderate activity like brisk walking or cycling, plus strength training at least twice a week. That sounds like a lot until you realize daily 20 minute walks get you most of the way there."
+    ],
+    "more": {
+      "why": "Hard cardio before lifting leaves your legs and focus tired, which makes the lifting less productive and your form less reliable.",
+      "example": "Lifting days: 5 minute bike warm-up, lift for 40 minutes, 10 minutes of incline walking. Two other days: a 30 minute walk or bike ride.",
+      "mistake": "Skipping lifting because cardio feels more like exercise. Strength is what keeps you capable for decades."
+    },
+    "chips": [
+      "Low impact cardio options",
+      "How long should a workout be?",
+      "Is walking good for recovery?"
+    ],
+    "related": [
+      "dj-b-063",
+      "dj-b-045"
+    ]
+  },
+  {
+    "id": "dj-b-067",
+    "topic": "beginners",
+    "title": "Rest time between sets for beginners",
+    "keys": [
+      "how long should i rest between sets",
+      "rest between sets",
+      "rest time between sets",
+      "how long to rest",
+      "rest periods",
+      "is 30 seconds rest enough",
+      "how long between sets",
+      "resting too long between sets",
+      "should i rest 2 minutes",
+      "rest between exercises",
+      "timer between sets"
+    ],
+    "match": "\\b(rest(ing)? (time |periods? )?(between|in between) (sets|exercises)|how long (should i |to |do i )?rest( for)?( between)?|rest periods?|is (30|60|90) seconds( of)? rest enough)\\b",
+    "body": [
+      "For most lifting, rest about 1 to 3 minutes between sets. Bigger, heavier movements like squats, deadlifts and presses deserve the longer end, around 2 to 3 minutes. Smaller ones like curls, raises and most machines do fine with 60 to 90 seconds.",
+      "The real test is whether you are ready to do the next set well. Your breathing should be back to near normal and you should feel able to hit your target reps with good form. Research suggests resting long enough to recover tends to build more muscle than rushing, because each set ends up better.",
+      "Use a timer if you find the minutes disappearing into your phone. And if you are short on time, alternate between two exercises that use different muscles (like a press and a row) so one rests while the other works."
+    ],
+    "more": {
+      "how": "Big compound lifts: 2 to 3 minutes. Machines and smaller exercises: 60 to 90 seconds. Start the timer the moment you rack the weight.",
+      "short_on_time": "Pair exercises: a set of chest press, 60 seconds rest, a set of rows, 60 seconds rest, repeat. Each muscle still gets about 2 minutes.",
+      "mistake": "Resting 30 seconds on heavy squats because you think it burns more. Your sets just get worse."
+    },
+    "chips": [
+      "How long should a workout be?",
+      "What does reps in reserve mean?",
+      "When do I add weight?"
+    ],
+    "related": [
+      "dj-b-063",
+      "dj-b-054"
+    ]
+  },
+  {
+    "id": "dj-b-068",
+    "topic": "beginners",
+    "title": "Starting to work out when you are out of shape",
+    "keys": [
+      "im really out of shape",
+      "out of shape where do i start",
+      "very unfit beginner",
+      "i get out of breath easily",
+      "starting overweight",
+      "starting exercise when overweight",
+      "too out of shape for the gym",
+      "i have not exercised in years",
+      "starting from very unfit",
+      "embarrassed how unfit i am"
+    ],
+    "match": "\\b((really|very|so|totally|completely|too) (out of shape|unfit)|out of shape,? (where|how) (do i|to) start|(starting|start) (exercise|working out|the gym|lifting) (when|while) (overweight|heavy|unfit)|have(n'?t| not) exercised in (years|forever|a decade))\\b",
+    "body": [
+      "Start where you are. That is not a slogan, it is the plan. You do not need to get in shape before you go to the gym; the gym is how you get in shape. Every strong person you see started with a first session they found hard.",
+      "Begin gently: two or three sessions a week of 20 to 30 minutes, plus easy walking on other days. Use machines and supported movements at first, like a leg press, a chest press, a seated row and a sit-to-stand from a bench. Do 1 or 2 sets of 10 to 12 with weights that feel easy to moderate, and rest as long as you need. Breathing hard is fine; gasping and dizzy means slow down.",
+      "If you have a heart condition, high blood pressure, diabetes, or anything a doctor is already watching, or if you get chest discomfort, unusual shortness of breath or dizziness with activity, check with your doctor before ramping up. Then start. I am already proud of you for asking."
+    ],
+    "more": {
+      "why": "Untrained bodies respond quickly to small, steady amounts of work. You will likely notice more energy and easier stairs within a few weeks, long before any visible change.",
+      "how": "Weeks 1 to 2: two sessions of 20 to 30 minutes, 4 machines, 1 to 2 sets each, plus 10 to 20 minute walks. Weeks 3 to 4: add a third session and a second set.",
+      "mistake": "Trying to make up for lost years in one week. Start gentle, keep it steady, and stack the weeks.",
+      "example": "Week 1: a 10 minute walk on non-gym days. Week 6: 25 minutes, without thinking about it. That is how fitness actually builds."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Low impact cardio options",
+      "I feel nervous going to the gym",
+      "What is the least I can do?"
+    ],
+    "related": [
+      "dj-b-049",
+      "dj-b-060"
+    ]
+  }
+]

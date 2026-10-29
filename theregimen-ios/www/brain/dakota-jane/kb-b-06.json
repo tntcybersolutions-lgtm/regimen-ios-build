@@ -1,0 +1,792 @@
+[
+  {
+    "id": "dj-b-109",
+    "topic": "low-impact",
+    "title": "Low impact cardio options",
+    "keys": [
+      "low impact cardio options",
+      "low impact cardio",
+      "cardio that is easy on the knees",
+      "joint friendly cardio",
+      "cardio without running",
+      "cardio for bad knees",
+      "no impact cardio",
+      "gentle cardio",
+      "cardio when running hurts",
+      "low impact exercise",
+      "easy on joints cardio"
+    ],
+    "match": "\\b((low|no|zero) ?-?impact (cardio|exercise|workouts?|options?)|cardio (that is |thats )?(easy on|gentle on|kind to) (the |my )?(knees|joints|back)|joint ?-?friendly cardio|cardio without (running|jumping)|cardio for (bad|sore) (knees|joints|back)|gentle cardio|cardio when running hurts|easy on joints cardio)\\b",
+    "body": [
+      "You do not need to pound the pavement to train your heart. Some of the best options barely jar a joint: walking, especially on an incline; cycling, on a stationary bike or outdoors; the elliptical; rowing; swimming and water walking; and the stair climber at a steady, comfortable pace.",
+      "Pick one or two you enjoy and do them at a conversational pace, where you could talk in full sentences but would rather not sing. Twenty to 40 minutes, two to four times a week, is a great base. As you get fitter, add a few short, harder pushes inside a session, like one minute faster and two minutes easy, repeated five or six times.",
+      "Low impact does not mean low effort. A brisk incline walk or a hard bike interval will challenge anyone. It just means your knees, hips, ankles and back get to come along for the ride without complaint."
+    ],
+    "more": {
+      "why": "Low impact cardio trains your heart and lungs with far less pounding on your joints than running or jumping, so you can do more of it and recover faster.",
+      "how": "Choose your favorite, start with 20 minutes at a conversational pace 3 times a week, and add 5 minutes a week until you reach 30 to 40.",
+      "example": "Monday: 30 minute incline walk. Wednesday: 25 minutes on the bike with five one minute pushes. Saturday: 40 minute walk outside. Easy on the joints, great for the heart.",
+      "beginner": "Walking is the best place to start. Ten minutes after each meal adds up to 30 a day and feels easy on almost every body.",
+      "mistake": "Thinking it does not count because it is not running. Your heart cannot tell whether you got your heart rate up on a bike or on a track."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "A no jumping workout",
+      "Swimming and water workouts",
+      "My shins hurt"
+    ],
+    "related": [
+      "dj-b-110",
+      "dj-b-045",
+      "dj-b-103"
+    ]
+  },
+  {
+    "id": "dj-b-110",
+    "topic": "low-impact",
+    "title": "A full-body workout with no jumping",
+    "keys": [
+      "a no jumping workout",
+      "no jumping workout",
+      "workout without jumping",
+      "quiet workout for apartment",
+      "low impact hiit",
+      "low impact full body workout",
+      "workout with no jumps",
+      "low impact home workout",
+      "apartment friendly workout",
+      "workout for bad knees no jumping",
+      "joint friendly circuit"
+    ],
+    "match": "\\b(no ?-?jump(ing)? (workout|cardio|hiit|circuit|exercises?)|workouts? (without|with no) (jumping|jumps)|low ?-?impact (hiit|home workout|full ?-?body|circuit)|(quiet|apartment ?-?friendly) workout|joint ?-?friendly circuit)\\b",
+    "body": [
+      "You can get your heart rate up and work every muscle without a single jump. The trick is moving steadily from one exercise to the next. Here is a circuit I love: 10 bodyweight squats or squats to a chair, 8 to 10 push-ups on a counter or the floor, 10 reverse lunges per side, 10 glute bridges, a 30 second plank, and 30 seconds of fast marching in place with big arm swings.",
+      "Move from one to the next with little rest, then rest a minute or two at the end of the round. Do 3 to 4 rounds. That is about 20 to 25 minutes, quiet enough for an apartment and kind to knees, ankles and backs.",
+      "To make it harder over time, slow the lowering on each rep to three seconds, add a pause at the bottom, hold a backpack or dumbbells, or add a round. Control on the way down counts double, and it is very quiet too."
+    ],
+    "more": {
+      "why": "Jumping adds impact, not magic. Continuous strength moves with short rests raise your heart rate and build muscle at the same time, without stressing your joints.",
+      "how": "Set a timer, go through the six moves with minimal rest, rest 1 to 2 minutes, and repeat 3 to 4 times. Two or three times a week.",
+      "home": "Everything in this circuit works in a living room. A chair, a counter and a bit of floor are all you need.",
+      "beginner": "Start with 2 rounds and rest as long as you need between exercises. Add a round every week or two.",
+      "short_on_time": "Ten minutes: 2 rounds of squats, counter push-ups, reverse lunges and a plank, with no rest inside the round."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Low impact cardio options",
+      "Push-up progressions",
+      "Bodyweight workout at home"
+    ],
+    "related": [
+      "dj-b-109",
+      "dj-b-121",
+      "dj-a-059"
+    ]
+  },
+  {
+    "id": "dj-b-111",
+    "topic": "balance",
+    "title": "Exercises for better balance",
+    "keys": [
+      "exercises for better balance",
+      "how do i improve my balance",
+      "balance exercises",
+      "balance training",
+      "i have bad balance",
+      "poor balance",
+      "wobbly balance",
+      "balance workout",
+      "standing on one leg",
+      "single leg balance",
+      "balance for beginners",
+      "get better balance"
+    ],
+    "match": "\\b(balance (exercises?|training|workout|drills?|for beginners)|(improve|better|get better|work on) (my )?balance|(bad|poor|wobbly|terrible) balance|stand(ing)? on one (leg|foot)|single ?-?leg balance)\\b",
+    "body": [
+      "Balance is a skill, and it improves quickly with practice at any age. Start by standing on one leg next to a counter or wall you can touch if you need it. Hold for 20 to 30 seconds, switch, and repeat two or three times. Stand tall, keep a soft knee, and press your foot into the floor through your big toe, little toe and heel.",
+      "When that is easy, make it harder one step at a time: let go of the counter, turn your head slowly side to side, close your eyes for a few seconds, or stand on a folded towel or cushion. Then add moving balance: heel-to-toe walking along a line, step-ups, reverse lunges, and single-leg Romanian deadlifts holding onto something.",
+      "A few minutes most days is plenty. Do it while you brush your teeth or wait for the coffee. You will notice the difference within a few weeks, on stairs, curbs and uneven ground."
+    ],
+    "more": {
+      "why": "Balance depends on your feet, ankles, hips, eyes and inner ear working together. Practicing it trains all of them, and stronger legs and hips make your balance steadier too.",
+      "how": "Daily: 2 to 3 holds of 20 to 30 seconds per leg, then one harder version. Twice a week, add step-ups or reverse lunges to your strength training.",
+      "mistake": "Practicing far from anything you can grab while you are still wobbly. Safety first: a counter or wall within reach.",
+      "example": "Week 1: 20 seconds per leg holding the counter. Week 3: 30 seconds hands-free. Week 6: 20 seconds with eyes closed, plus heel-to-toe walks down the hall.",
+      "home": "Brushing your teeth on one leg, switching halfway, is two minutes of balance practice a day without trying."
+    },
+    "chips": [
+      "Single leg stability for your ankles",
+      "Fall prevention exercises",
+      "How do I do a single leg RDL?"
+    ],
+    "related": [
+      "dj-b-112",
+      "dj-b-114",
+      "dj-a-023"
+    ]
+  },
+  {
+    "id": "dj-b-112",
+    "topic": "stability",
+    "title": "Single-leg stability for steadier ankles and knees",
+    "keys": [
+      "single leg stability for your ankles",
+      "ankle stability exercises",
+      "unstable ankles",
+      "weak ankles",
+      "my ankle wobbles",
+      "knee wobbles on one leg",
+      "single leg strength",
+      "stability exercises",
+      "single leg exercises",
+      "my knee shakes on lunges",
+      "wobbly on one leg"
+    ],
+    "match": "\\b(ankle stability|(unstable|wobbly|weak) ankles|ankles? wobbles?|knees? (wobbles?|shakes?|shaking) (on|when|during)|single ?-?leg (strength|stability|exercises?)|stability exercises|wobbly on one leg)\\b",
+    "body": [
+      "Wobbling on one leg is normal at first, and it is exactly what single-leg training fixes. Those little shakes are your ankle, knee and hip learning to work together. Start with slow, supported versions and give it a few weeks.",
+      "Good starters: single-leg balance holding a counter, step-ups to a low box with a three second lower, split squats holding onto something, and single-leg calf raises. Keep your knee in line with your second toe, your hips level, and your whole foot pressed into the floor.",
+      "Twice a week, two or three sets of each is plenty. As the wobble settles, use less support, a higher box or a little weight. Most people feel much steadier within four to six weeks."
+    ],
+    "more": {
+      "why": "Two-leg exercises let your stronger side cover for the weaker one. Single-leg work trains each side to hold you up alone, which is what you do every time you walk, climb stairs or step off a curb.",
+      "how": "Split squats and step-ups, 2 to 3 sets of 8 to 10 per side with slow lowering and light support at first. Single-leg balance and calf raises to finish.",
+      "mistake": "Rushing the reps to get through the wobbly part. Slow reps are where the stability gets built.",
+      "beginner": "Hold a rack or the back of a chair with one hand for every single-leg exercise at first. Support is not cheating; it is how you learn."
+    },
+    "chips": [
+      "Exercises for better balance",
+      "One side is stronger than the other",
+      "How do I do a lunge properly?"
+    ],
+    "related": [
+      "dj-b-111",
+      "dj-a-034",
+      "dj-a-029"
+    ]
+  },
+  {
+    "id": "dj-b-113",
+    "topic": "older-adults",
+    "title": "Starting strength training later in life",
+    "keys": [
+      "am i too old to start lifting",
+      "too old to lift weights",
+      "starting to lift at 60",
+      "strength training for seniors",
+      "lifting weights at 50",
+      "is it safe to lift weights when older",
+      "older adults strength training",
+      "starting the gym in my 70s",
+      "weight training for older women",
+      "exercise for seniors",
+      "never lifted and im 65",
+      "strength training over 50"
+    ],
+    "match": "\\b(too old to (start )?(lift|lifting|work out|train|start)|(start(ing)?|begin(ning)?) (to lift|lifting|the gym|working out|strength training) (at|in my) (40|50|60|65|70|75|80|fifties|sixties|seventies|eighties|40s|50s|60s|70s|80s)|strength training (for seniors|for older|over (40|50|60|65|70))|lifting (weights )?(at|after|over) (50|60|65|70)|(seniors?|older adults?|elderly) (strength|lifting|exercise|workouts?)|exercise for (seniors|older adults)|safe to lift (weights )?when (older|you are older)|never lifted and i'?m (60|65|70|75))\\b",
+    "body": [
+      "No, you are not too old, and I mean that. Strength training is one of the best things you can do at any age, and people in their sixties, seventies and beyond gain strength steadily when they start gently. Start where you are.",
+      "Begin with two or three full-body sessions a week on non-consecutive days. Pick five or six movements that mirror daily life: sitting down and standing up from a chair or box, a push like a counter push-up or chest press machine, a pull like a seated row, a hip hinge, carrying something, and balance practice. Use a weight you could lift 12 to 15 times, do 2 sets, and stop with a few reps left.",
+      "Take a longer warm-up, lower every rep slowly, and give yourself a day or two between sessions. If you have a heart, lung or joint condition, or any medical concern, check with your doctor before starting and tell them what you plan to do. Most doctors are delighted to hear it."
+    ],
+    "more": {
+      "why": "Muscle and bone both respond to strength training throughout life. Stronger legs and hips make stairs, getting up from the floor and carrying groceries easier, and they support better balance.",
+      "how": "Three days a week: chair stands, chest press or counter push-ups, seated row, a light Romanian deadlift or hip bridge, a farmer's carry, and single-leg balance. 2 sets of 10 to 15, slow lowering.",
+      "beginner": "Machines are a great start. They guide the movement, let you sit with support, and change weight in small steps.",
+      "example": "Week 1: chair stands 2 x 10, chest press 2 x 12 at a light setting, seated row 2 x 12, glute bridge 2 x 10, balance holds. Week 8: the same moves, noticeably heavier, and noticeably easier stairs.",
+      "mistake": "Staying with very light weights forever. Muscles of every age need a real challenge, so build up gradually until the last few reps of a set feel genuinely hard."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Fall prevention exercises",
+      "Exercises for better balance",
+      "How heavy should I start?"
+    ],
+    "related": [
+      "dj-b-114",
+      "dj-b-111",
+      "dj-b-051"
+    ]
+  },
+  {
+    "id": "dj-b-114",
+    "topic": "older-adults",
+    "title": "Fall prevention and getting up off the floor",
+    "keys": [
+      "fall prevention exercises",
+      "how to prevent falls",
+      "getting up off the floor",
+      "i cant get up off the floor",
+      "how to get up from the floor",
+      "afraid of falling",
+      "exercises so i dont fall",
+      "practicing getting up from the ground",
+      "fear of falling",
+      "chair stand exercise",
+      "chair stands"
+    ],
+    "match": "\\b(fall prevention|prevent(ing)? falls?|(get|getting) (up )?(off|from) the (floor|ground)|(afraid|scared) of falling|fear of falling|(so i|so you) (do not|don'?t|dont) fall|chair stands?)\\b",
+    "body": [
+      "Three things help most: stronger legs, better balance, and practice getting up. Chair stands build the legs: sit on a sturdy chair, cross your arms or rest your hands lightly on your thighs, lean forward and stand up, then sit back down slowly over three seconds. Work up to 2 or 3 sets of 10.",
+      "Practice getting down to the floor and back up with a sturdy chair or couch nearby. Kneel on one knee, then both, then sit to one side. To get up, roll to your hands and knees, bring one foot forward into a half kneel, put your hands on that knee or on the chair, and stand. Doing this a few times a week keeps it a skill you own.",
+      "Add daily balance practice, like standing on one leg holding a counter, and walk most days. If you have fallen recently, feel dizzy, or are unsteady walking, talk to your doctor; a physical therapist can build a plan around you."
+    ],
+    "more": {
+      "why": "Leg strength, balance and the confidence to get up from the floor all fade without practice and come back with it. Training them together is one of the best investments you can make in staying independent.",
+      "how": "Three times a week: chair stands 2 to 3 x 10, floor practice 3 times, balance holds of 20 to 30 seconds per leg 3 times, plus a daily walk.",
+      "mistake": "Avoiding the floor entirely because it feels hard. The less you practice it, the harder it gets. Practice gently, with support nearby.",
+      "beginner": "Start with a higher seat, like a firm couch arm or a chair with a cushion, so standing is easier. Lower the seat as you get stronger."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Exercises for better balance",
+      "Am I too old to start lifting?",
+      "How do I do a box squat?"
+    ],
+    "related": [
+      "dj-b-111",
+      "dj-b-113",
+      "dj-a-008"
+    ]
+  },
+  {
+    "id": "dj-b-115",
+    "topic": "pregnancy",
+    "title": "Training during pregnancy",
+    "keys": [
+      "can i work out while pregnant",
+      "lifting while pregnant",
+      "exercise during pregnancy",
+      "pregnant workout",
+      "is it safe to lift weights pregnant",
+      "training while pregnant",
+      "gym while pregnant",
+      "pregnancy exercise",
+      "first trimester workout",
+      "second trimester workout",
+      "third trimester workout",
+      "working out pregnant"
+    ],
+    "match": "\\b(pregnan(t|cy)|trimester|expecting a baby)\\b",
+    "body": [
+      "For most healthy pregnancies, staying active is encouraged, but the first step is always the same: talk to your doctor or midwife, get their clearance, and keep checking in as things change. Every pregnancy is different, and their guidance comes before anything I say.",
+      "With that clearance, many people keep doing moderate strength training and walking throughout. Sensible adjustments: lighter weights and more reps, stopping every set well short of hard, avoiding lying flat on your back for long periods after the first trimester, skipping anything with a risk of falling or getting hit, and no breath holding under heavy weight. You should be able to talk while you exercise.",
+      "Stop and contact your doctor or midwife right away if you have bleeding, fluid leaking, dizziness or feeling faint, chest pain, a headache that will not go away, calf pain or swelling, or regular painful contractions. Pelvic pressure or pain is worth mentioning to them too."
+    ],
+    "more": {
+      "why": "Regular moderate activity during a healthy pregnancy is widely encouraged for comfort, energy and recovery afterward. The adjustments keep it safe as your body changes.",
+      "how": "With clearance: 2 to 3 short strength sessions a week with moderate weights and 2 or more reps left in every set, plus walking or swimming most days. Seated or incline versions of presses later on.",
+      "mistake": "Chasing new personal bests, or pushing through anything that feels wrong. This is a season for maintaining and feeling good, not for testing limits.",
+      "example": "With clearance, a second trimester session might be goblet squats to a box, incline dumbbell press, seated cable row, hip thrusts with your upper back on a bench, and a farmer's carry. 2 sets of 10 to 12, easy to moderate."
+    },
+    "chips": [
+      "Training after having a baby",
+      "Low impact cardio options",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-b-116",
+      "dj-b-109",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-116",
+    "topic": "postpartum",
+    "title": "Training after having a baby",
+    "keys": [
+      "training after having a baby",
+      "working out after having a baby",
+      "postpartum workout",
+      "postpartum exercise",
+      "when can i work out after birth",
+      "back to the gym after pregnancy",
+      "exercise after c section",
+      "lifting after giving birth",
+      "postpartum core",
+      "diastasis recti",
+      "pelvic floor exercises",
+      "after pregnancy workout"
+    ],
+    "match": "\\b(post ?-?partum|after (having (a|my|the) baby|giving birth|pregnancy|birth|delivery|a c ?-?section)|c ?-?section|diastasis|pelvic floor)\\b",
+    "body": [
+      "Congratulations. Your body did something enormous, so start with patience and your doctor's or midwife's go-ahead, usually given at a check-up some weeks after birth, and often later after a c-section. A pelvic floor physical therapist is worth seeing too if you can; they check the deep core and pelvic floor that pregnancy and birth affect.",
+      "Early on, walking and gentle breathing work are the foundation: breathing deep into your belly and ribs, and gently lifting your pelvic floor as you breathe out. Once cleared, rebuild slowly with bodyweight and light strength work like glute bridges, counter push-ups, band rows, squats to a chair and side-lying leg work. Then add weight over weeks to months.",
+      "Watch for signs you are doing too much: leaking, heaviness or pressure in the pelvis, a bulge or doming along the middle of your stomach, or pain. If you notice any of these, scale back and get them checked. Sleep is short and life is full, so two short sessions a week is a real win."
+    ],
+    "more": {
+      "why": "Pregnancy and birth stretch and strain the core and pelvic floor. A gradual return gives those tissues time to recover, which makes heavier training later safer and more comfortable.",
+      "how": "Once cleared: 2 to 3 short sessions a week of gentle strength work, breathing and pelvic floor practice, plus walking. Add load slowly over months, guided by how your body responds.",
+      "mistake": "Rushing back to running, jumping or heavy lifting to get your old body back fast. There is no deadline. A slow return is the fastest way to a strong one.",
+      "example": "In the weeks after clearance: 20 minute sessions of glute bridges, counter push-ups, band rows, squats to a chair and side planks on the knees, with stroller walks in between.",
+      "short_on_time": "Ten minutes during a nap: 2 rounds of 10 glute bridges, 10 counter push-ups, 10 squats to a chair and 5 slow breaths with a gentle pelvic floor lift."
+    },
+    "chips": [
+      "Training during pregnancy",
+      "What is the least I can do?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-b-115",
+      "dj-b-077"
+    ]
+  },
+  {
+    "id": "dj-b-117",
+    "topic": "desk-job",
+    "title": "Training with a desk job",
+    "keys": [
+      "i sit all day",
+      "desk job",
+      "i have a desk job",
+      "sitting all day at work",
+      "office job workout",
+      "how to counter sitting all day",
+      "i work at a computer all day",
+      "desk worker stiffness",
+      "sedentary job",
+      "sitting too much",
+      "how bad is sitting all day"
+    ],
+    "match": "\\b(sit(ting)? (all day|at a desk|too much|for work)|desk (job|worker)|office job|sedentary (job|work|lifestyle)|work at a (computer|desk) all day|counter sitting)\\b",
+    "body": [
+      "Sitting is not poison, but sitting still for hours is hard on your body. Hips get stiff, your upper back rounds, your glutes switch off a little, and you feel creaky by evening. The fix is not perfect posture; it is movement, sprinkled through the day.",
+      "Every 30 to 60 minutes, stand up for a minute or two: walk to get water, take calls on your feet, do ten bodyweight squats or a few slow shoulder rolls. Add a 10 to 20 minute walk at lunch if you can. Small breaks add up to a lot of movement by the end of the week.",
+      "In the gym, give extra attention to what sitting takes away: hip extension with glute bridges and hip thrusts, upper back work with rows and face pulls, hip flexor and chest stretches, and core work like dead bugs and side planks. Three strength sessions a week plus daily movement breaks undo most of what a desk does."
+    ],
+    "more": {
+      "why": "Your body adapts to the positions you spend the most time in. Breaking up sitting and training the opposite positions keeps your hips, back and shoulders comfortable.",
+      "how": "Set a reminder every 45 minutes: stand, walk or do 10 squats. Daily: a walk. Gym: rows, face pulls, glute bridges, hip flexor stretches and dead bugs in your weekly plan.",
+      "mistake": "Trying to sit perfectly upright all day. Holding any one position stiffly gets uncomfortable. The best posture is your next one.",
+      "example": "Workday: squats at 10, a walk to the far end of the office at 11, a 15 minute walk at lunch, shoulder rolls at 2, a stretch at 4. Over 30 minutes of movement without a gym."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Exercises I can do at my desk",
+      "How do I loosen tight hips?",
+      "How do I fix rounded shoulders?"
+    ],
+    "related": [
+      "dj-b-118",
+      "dj-b-013",
+      "dj-b-119"
+    ]
+  },
+  {
+    "id": "dj-b-118",
+    "topic": "desk-job",
+    "title": "Movement breaks you can do at your desk",
+    "keys": [
+      "exercises i can do at my desk",
+      "desk exercises",
+      "desk stretches",
+      "stretches at work",
+      "office stretches",
+      "exercises at work",
+      "movement breaks",
+      "quick stretches at my desk",
+      "how to move more at work",
+      "chair exercises at work",
+      "stretch breaks"
+    ],
+    "match": "\\b(desk (exercises?|stretch(es)?|workout|breaks?)|(exercises?|stretch(es)?|workouts?) (i can do )?(at|in) (my |the |your )?(desk|office|work)|office (stretch(es)?|exercises?)|movement breaks?|stretch breaks?|move more at work|chair exercises at work)\\b",
+    "body": [
+      "Here is a two minute reset you can do without leaving your desk: ten slow shoulder rolls backward, ten chin tucks, a seated twist holding each side for five breaths, and a figure-four stretch with one ankle over the opposite knee, leaning forward gently for 20 seconds per side.",
+      "If you can stand: ten bodyweight squats or sit-to-stands from your chair, ten calf raises, a doorway chest stretch for 20 seconds, and a standing hip flexor stretch with one foot back while you squeeze that side's glute, 20 seconds per side. That is about three minutes.",
+      "Do one of these every hour or two. Nobody needs to see a full workout; a few small resets spread through the day keep you feeling much less stiff by five o'clock."
+    ],
+    "more": {
+      "why": "Short, regular movement breaks interrupt long stretches of sitting, keep blood moving, and remind tight muscles that they can lengthen.",
+      "how": "Pick the seated or the standing reset, set an hourly reminder, and do it whenever it goes off. Two to three minutes each time.",
+      "example": "9 am: shoulder rolls and chin tucks. 11 am: squats and calf raises. 2 pm: hip flexor and chest stretches. 4 pm: seated twist and figure-four. Ten minutes in total.",
+      "mistake": "Saving all your movement for one evening workout. It helps, but it does not undo eight unbroken hours. Small breaks matter."
+    },
+    "chips": [
+      "I sit all day at work",
+      "How do I stretch a stiff neck?",
+      "How do I loosen my upper back?"
+    ],
+    "related": [
+      "dj-b-117",
+      "dj-b-019",
+      "dj-b-016"
+    ]
+  },
+  {
+    "id": "dj-b-119",
+    "topic": "posture",
+    "title": "Rounded shoulders and what actually helps",
+    "keys": [
+      "how do i fix rounded shoulders",
+      "rounded shoulders",
+      "hunched shoulders",
+      "slouching",
+      "how to fix my posture",
+      "bad posture",
+      "hunchback posture",
+      "shoulders roll forward",
+      "posture exercises",
+      "how to stand up straight",
+      "improve my posture",
+      "kyphosis"
+    ],
+    "match": "\\b((rounded|hunched|slumped|forward) shoulders|slouch(ing)?|(fix|improve|correct|better) (my )?posture|(bad|poor|terrible) posture|hunch(ed|back)|posture exercises|stand up straight|shoulders roll forward|kyphosis)\\b",
+    "body": [
+      "Rounded shoulders usually come from habits, not a fixed problem: hours at a desk or on a phone, lots of pressing and not much pulling. The good news is that the same kind of habits can steer them back. Think strength and movement, not a brace or holding yourself rigid.",
+      "Train your upper back two or three times a week: rows of any kind, face pulls, rear delt flyes and band pull-aparts. Aim for roughly as many sets of pulling as pushing, or a few more. Stretch your chest in a doorway and work on upper back mobility, like lying on a foam roller across your upper back and gently extending over it.",
+      "Through the day, set a gentle reminder to reset: shoulders up, back and down, long neck, then relax about halfway. Good posture is not one perfect position; it is being able to move between positions easily and comfortably."
+    ],
+    "more": {
+      "why": "Muscles adapt to the positions you spend time in. Strengthening the back of the shoulders and opening the chest gives you the strength and range to sit and stand taller without effort.",
+      "how": "Weekly: 6 to 10 sets of rows and 4 to 6 sets of face pulls or rear delt work. Daily: a doorway chest stretch, upper back extension on a foam roller, and hourly posture resets.",
+      "mistake": "Forcing your shoulders back and holding them there all day. That gets tiring fast and usually just moves the tension around. Strengthen and move instead.",
+      "example": "Session add-on: band pull-aparts 2 x 15, face pulls 3 x 15, chest-supported row 3 x 10. Ten minutes, three times a week, for two months."
+    },
+    "chips": [
+      "Face pull form",
+      "How do I loosen my upper back?",
+      "Forward head posture"
+    ],
+    "related": [
+      "dj-a-064",
+      "dj-b-016",
+      "dj-b-120"
+    ]
+  },
+  {
+    "id": "dj-b-120",
+    "topic": "posture",
+    "title": "Forward head posture and text neck",
+    "keys": [
+      "forward head posture",
+      "text neck",
+      "my head sticks forward",
+      "tech neck",
+      "neck pokes forward",
+      "chin tucks",
+      "how to fix forward head",
+      "nerd neck",
+      "phone neck",
+      "head forward posture"
+    ],
+    "match": "\\b(forward head( posture)?|head forward posture|(text|tech|nerd|phone) neck|head (sticks|pokes|juts) (out|forward)|neck pokes forward|chin tucks?)\\b",
+    "body": [
+      "When your head drifts forward of your shoulders, the muscles at the back of your neck have to hold it up all day, and they get tired and tight. Screens are the usual reason. Again, the fix is movement and strength, not forcing a perfect position.",
+      "Chin tucks are the classic: sit or stand tall, look straight ahead, and gently glide your head straight back, making a little double chin, without tipping it up or down. Hold for three to five seconds, relax, and repeat ten times, a few times a day. Pair them with the upper back work that helps rounded shoulders: rows, face pulls and upper back mobility.",
+      "Then set up your space: screen at about eye level, laptop on a stand or a stack of books with a separate keyboard, and your phone raised toward your face instead of your face dropped toward your phone. If neck pain comes with headaches, numbness or tingling in your arms, see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The further your head drifts forward, the more work your neck muscles do to hold it up. Strengthening the deep neck and upper back muscles and changing your screen setup reduces that daily load.",
+      "how": "Chin tucks, 10 holds of 5 seconds, three times a day. Face pulls and rows in your training. Raise your screen so your eyes land on the top third of it.",
+      "mistake": "Cranking your head back by tipping your chin up. A chin tuck is a straight glide back, like a drawer closing.",
+      "example": "Morning coffee: 10 chin tucks. Lunch: 10 more and a short walk. Afternoon: 10 more and a doorway chest stretch. Gym: face pulls 3 x 15."
+    },
+    "chips": [
+      "How do I fix rounded shoulders?",
+      "How do I stretch a stiff neck?",
+      "Exercises I can do at my desk"
+    ],
+    "related": [
+      "dj-b-119",
+      "dj-b-019"
+    ]
+  },
+  {
+    "id": "dj-b-121",
+    "topic": "bodyweight",
+    "title": "A beginner bodyweight workout at home",
+    "keys": [
+      "bodyweight workout at home",
+      "bodyweight workout",
+      "home workout no equipment",
+      "beginner home workout",
+      "workout without weights",
+      "no equipment workout",
+      "calisthenics for beginners",
+      "can i build muscle with bodyweight",
+      "at home workout for beginners",
+      "living room workout",
+      "bodyweight training"
+    ],
+    "match": "\\b(body ?-?weight (workout|training|routine|exercises?|circuit)|(home|at home|living room) workout|workout (without|with no) (weights|equipment|a gym)|no equipment (workout|training|needed)|calisthenics|build muscle with (my )?body ?-?weight)\\b",
+    "body": [
+      "You can absolutely get stronger at home with just your body weight, especially in your first months. A simple full-body session, three times a week: squats to a chair, 3 sets of 10 to 15. Push-ups at whatever height suits you, 3 sets of 8 to 12. Glute bridges, 3 sets of 12 to 15. Reverse lunges, 2 to 3 sets of 8 to 10 per side. A plank, 3 holds of 20 to 30 seconds. Dead bugs, 2 sets of 6 to 8 per side.",
+      "Rest about a minute between sets. Lower every rep for two to three seconds; with no weights, control is what makes it work. Stop each set with a couple of good reps left.",
+      "When an exercise gets easy, do not just add reps forever. Make it harder: a slower lowering, a pause at the bottom, a lower push-up height, single-leg glute bridges, or a backpack with books in it. That is how bodyweight training keeps working."
+    ],
+    "more": {
+      "why": "Muscles respond to effort and tension, not to where the resistance comes from. For a beginner, bodyweight exercises done with control are plenty to build strength.",
+      "how": "Three non-consecutive days a week, the six exercises above, about 30 minutes. Write down your reps and the version you used so you can see progress.",
+      "example": "Monday, Wednesday, Friday: chair squats 3 x 12, counter push-ups 3 x 10, glute bridges 3 x 15, reverse lunges 2 x 8 per side, plank 3 x 25 seconds, dead bugs 2 x 6 per side.",
+      "beginner": "Start with 2 sets of everything and use support where you need it, like holding the back of a chair for lunges. Add the third set after two weeks.",
+      "home": "All you need is a sturdy chair, a counter or couch for push-ups, and a bit of floor. A backpack makes a great adjustable weight later."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Push-up progressions",
+      "Making bodyweight exercises harder",
+      "A no jumping workout"
+    ],
+    "related": [
+      "dj-b-122",
+      "dj-b-123",
+      "dj-a-059"
+    ]
+  },
+  {
+    "id": "dj-b-122",
+    "topic": "bodyweight",
+    "title": "Bodyweight squats and sit-to-stands done well",
+    "keys": [
+      "bodyweight squats",
+      "air squats",
+      "bodyweight squat form",
+      "how to do a bodyweight squat",
+      "squat to a chair",
+      "chair squats",
+      "sit to stand",
+      "squats without weights",
+      "squats at home",
+      "how many bodyweight squats should i do",
+      "prisoner squats"
+    ],
+    "match": "\\b((body ?-?weight|air|prisoner) squats?|squats? (to|onto) a chair|chair squats?|sit ?-?to ?-?stands?|squats? (without weights|at home))\\b",
+    "body": [
+      "A bodyweight squat is the foundation of almost every leg exercise, and squatting to a chair is the friendliest way to learn it. Stand in front of a sturdy chair with your feet about shoulder width and your toes turned out slightly. Reach your arms forward for balance, then sit your hips back and down for about three seconds until you lightly touch the chair.",
+      "Do not plop down and relax. Touch, pause for a moment, then stand back up by pushing the floor away through your whole foot, squeezing your glutes at the top. Keep your heels down, your chest proud and your knees pointing the same way as your toes.",
+      "When 3 sets of 15 to the chair feel smooth, use a lower seat, take the chair away and squat to the depth you control, add a pause at the bottom, or hold a weight at your chest. That last one is a goblet squat, my favorite."
+    ],
+    "more": {
+      "why": "Squatting is how you sit, stand, pick things up and climb stairs. Practicing it with control builds the leg and hip strength that makes all of those easier.",
+      "how": "Feet shoulder width, toes slightly out, arms forward, 3 seconds down to touch the chair, a short pause, stand up through the whole foot. 3 sets of 10 to 15.",
+      "mistake": "Letting your knees cave in toward each other, or rising onto your toes. Push your knees gently out over your toes and keep your whole foot planted.",
+      "beginner": "If standing up from the chair is hard, use a higher seat or press your hands on your thighs to help. Lower the seat over the weeks.",
+      "home": "A dining chair is perfect. For more challenge, hold a backpack or a gallon jug at your chest."
+    },
+    "chips": [
+      "How do I do a goblet squat?",
+      "My knees cave in on squats",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "dj-a-001",
+      "dj-a-004",
+      "dj-b-121"
+    ]
+  },
+  {
+    "id": "dj-b-123",
+    "topic": "bodyweight",
+    "title": "Making bodyweight exercises harder as you get stronger",
+    "keys": [
+      "making bodyweight exercises harder",
+      "bodyweight too easy",
+      "how to progress bodyweight exercises",
+      "make push ups harder",
+      "make squats harder without weights",
+      "bodyweight progression",
+      "harder bodyweight exercises",
+      "how to keep progressing at home",
+      "home workout too easy",
+      "progressive overload at home"
+    ],
+    "match": "\\b((make|making) (bodyweight|body weight|push ?-?ups?|squats?|lunges|planks?|my home workouts?)( exercises)? harder|(bodyweight|body weight|home workout) (is |are |getting )?too easy|(progress|progressing) (bodyweight|body weight)|bodyweight progressions?|harder bodyweight|keep progressing at home|progressive overload at home)\\b",
+    "body": [
+      "Once you can do 15 to 20 clean reps of something, adding more reps starts to train endurance more than strength. Make each rep harder instead. There are five dials you can turn, one at a time.",
+      "Slow it down: three to five seconds on the way down. Add a pause: two seconds at the bottom of squats, lunges and push-ups. Change the leverage: lower your push-up height, raise your feet, move your hands closer. Go single-leg: split squats, step-ups, single-leg glute bridges and single-leg Romanian deadlifts. And add load: a backpack with books, water jugs or a resistance band.",
+      "Pick one dial per exercise, use it until you are back at 12 to 15 good reps, then turn another. That is progressive overload, the same idea a barbell uses, with a living room instead of a gym."
+    ],
+    "more": {
+      "why": "Muscles grow and get stronger when the challenge keeps rising. Bodyweight exercises keep working as long as you keep increasing the difficulty, not just the count.",
+      "how": "Weeks 1 to 3: add a 3 second lowering. Weeks 4 to 6: add a pause. Week 7 on: move to a single-leg or lower version. Track the version and reps in your log.",
+      "example": "Bodyweight squats 3 x 20 feel easy. Next: a 3 second lower and 2 second pause, 3 x 12. Then split squats 3 x 10 per side. Then split squats with a 15 lb backpack.",
+      "mistake": "Doing 100 squats a day and wondering why progress stopped. More of the same easy thing stops being a challenge. Harder beats more.",
+      "home": "A backpack loaded with books or water bottles, a pair of resistance bands and a sturdy step make a surprisingly complete home gym."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Push-up progressions",
+      "Bulgarian split squat form",
+      "How slow should I lower the weight?"
+    ],
+    "related": [
+      "dj-b-121",
+      "dj-a-059",
+      "dj-a-009"
+    ]
+  },
+  {
+    "id": "dj-b-124",
+    "topic": "low-impact",
+    "title": "Swimming and water workouts for sore joints",
+    "keys": [
+      "swimming and water workouts",
+      "swimming for exercise",
+      "water aerobics",
+      "pool workout",
+      "water walking",
+      "aqua jogging",
+      "is swimming good exercise",
+      "exercise in the pool",
+      "swimming for bad joints",
+      "pool exercises for knees",
+      "water exercise"
+    ],
+    "match": "\\b(swimming|water (aerobics|walking|workouts?|exercises?)|pool (workouts?|exercises?)|aqua (jogging|aerobics)|exercis(e|ing) in (the|a) pool)\\b",
+    "body": [
+      "Water is one of the kindest places to exercise. It holds up much of your body weight, so your knees, hips and back take very little impact, and it adds gentle resistance to every movement. That makes swimming, water walking and water aerobics great for sore joints, comebacks and later stages of life.",
+      "You do not have to be a strong swimmer. Walking laps in waist to chest deep water, forward, backward and sideways, is a real workout. Water aerobics classes are another friendly option. If you do swim, start with short sets, a length or two and then a rest, and build up to 20 to 30 minutes of easy, steady effort.",
+      "Water is excellent for your heart, lungs and joints, but it does not load your bones and muscles the way lifting does. Pair it with two strength sessions a week on land for the best of both."
+    ],
+    "more": {
+      "why": "Buoyancy reduces the load on your joints, while the water's resistance makes your muscles work in every direction. It is cardio that feels gentle and still counts.",
+      "how": "Start with 20 minutes: 5 minutes of water walking, then alternate 1 minute of brisk walking or swimming with 1 minute easy for 10 minutes, then 5 minutes easy. Two or three times a week.",
+      "mistake": "Making the pool your only exercise when strength is a goal. Keep two land-based strength sessions as well.",
+      "example": "Tuesday: 30 minutes of water walking and a few easy lengths. Thursday and Saturday: full-body strength sessions. Daily: a short walk."
+    },
+    "chips": [
+      "Low impact cardio options",
+      "Bodyweight workout at home",
+      "Am I too old to start lifting?"
+    ],
+    "related": [
+      "dj-b-109",
+      "dj-b-113"
+    ]
+  },
+  {
+    "id": "dj-b-125",
+    "topic": "seated",
+    "title": "Seated exercises when standing workouts are hard",
+    "keys": [
+      "seated exercises",
+      "chair workout",
+      "exercises sitting down",
+      "workout in a chair",
+      "exercises for limited mobility",
+      "i cant stand for long",
+      "seated workout",
+      "chair exercises",
+      "wheelchair workout",
+      "exercises while sitting"
+    ],
+    "match": "\\b(seated (exercises?|workouts?|strength)|chair (workouts?|exercises?)(?! at work)|(exercises?|workout) (sitting down|while sitting|in a chair)|limited mobility|(can'?t|cannot|cant) stand for long|wheelchair (workout|exercises?))\\b",
+    "body": [
+      "A chair can be a great training partner. If standing for long is hard because of balance, pain, fatigue or a disability, you can still train your whole upper body and much of your lower body seated, and build strength that carries over to everyday life.",
+      "A simple seated session: seated marches, lifting one knee at a time, 2 sets of 20. Seated leg extensions, straightening one knee and holding for two seconds, 2 sets of 10 per side. Dumbbell or band presses overhead or straight ahead, 2 sets of 10 to 12. Band rows with the band around your feet, 2 sets of 12. Seated biceps curls, 2 sets of 12. And sit-to-stands with your hands helping, if you can.",
+      "Sit tall near the front of a sturdy chair without wheels, feet flat. Move slowly, breathe steadily, and stop if anything hurts sharply. If a medical condition limits how you move, ask your doctor or a physical therapist which exercises suit you best."
+    ],
+    "more": {
+      "why": "Muscles respond to effort whether you are standing or sitting. Seated training removes the balance demand so you can focus on strength safely.",
+      "how": "Two or three times a week, the six moves above, 2 sets each with a weight or band that makes the last few reps feel challenging. Add a set after two weeks.",
+      "example": "Week 1: marches, leg extensions, light band presses and rows, curls, three assisted sit-to-stands. Week 6: heavier bands, and ten sit-to-stands with less help.",
+      "home": "Resistance bands are perfect for seated training. A light, a medium and a heavy band cover almost everything here."
+    },
+    "chips": [
+      "Fall prevention exercises",
+      "Am I too old to start lifting?",
+      "Exercises for better balance"
+    ],
+    "related": [
+      "dj-b-114",
+      "dj-b-113"
+    ]
+  },
+  {
+    "id": "dj-b-126",
+    "topic": "older-adults",
+    "title": "Training with stiff, achy joints as you age",
+    "keys": [
+      "training with stiff joints",
+      "achy joints when working out",
+      "my joints ache as i get older",
+      "stiff joints in the morning exercise",
+      "exercise with achy joints",
+      "older joints and lifting",
+      "workout for stiff joints",
+      "can i lift with achy joints",
+      "joints stiff after sitting",
+      "arthritis exercise"
+    ],
+    "match": "\\b((stiff|achy|aching|creaky) joints?|joints? (ache|aches|are stiff|stiff|feel stiff)|arthritis|older joints)\\b",
+    "body": [
+      "Stiff, achy joints are common as the years go by, and for most people gentle, regular strength training and movement make them feel better, not worse. Joints like motion, and stiffness often eases a lot once you are warm.",
+      "Give yourself a longer warm-up: ten minutes of easy cycling or walking and gentle joint circles before you lift. Choose comfortable ranges and joint friendly versions, like machines, box squats, neutral grip presses and cable work. Lower slowly, avoid jarring impact, and keep discomfort at about 3 out of 10 or below, with no flare the next day.",
+      "Move a little every day, even on rest days, because long stretches of stillness are when stiffness builds. If you have been told you have arthritis or another joint condition, your doctor or physical therapist can help tailor your training, and if a joint is red, hot or very swollen, get it checked."
+    ],
+    "more": {
+      "why": "Movement circulates joint fluid and strengthens the muscles that support each joint. Stronger muscles take load off the joint itself, which often reduces aching.",
+      "how": "A 10 minute warm-up, joint friendly exercise choices, slow controlled reps, discomfort at 3 out of 10 or below, and a daily walk or mobility routine.",
+      "mistake": "Resting completely when your joints ache. A little movement usually helps, while long rest tends to make stiffness worse.",
+      "example": "Mornings: 10 minutes of gentle mobility. Strength days: bike warm-up, leg press, box squats, cable rows, machine chest press, all slow. Other days: a 20 minute walk."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Joint friendly exercise swaps",
+      "A 10 minute mobility routine",
+      "Why am I stiff in the morning?"
+    ],
+    "related": [
+      "dj-b-104",
+      "dj-b-113",
+      "dj-b-042"
+    ]
+  },
+  {
+    "id": "dj-b-127",
+    "topic": "posture",
+    "title": "Is a standing desk worth it",
+    "keys": [
+      "is a standing desk worth it",
+      "standing desk",
+      "sit stand desk",
+      "should i get a standing desk",
+      "standing at work all day",
+      "standing desk vs sitting",
+      "how long should i stand at my desk",
+      "standing desk back pain",
+      "standing all day at work",
+      "under desk treadmill"
+    ],
+    "match": "\\b(stand(ing)? desks?|sit ?-?stand desk|standing (at work )?all day|under ?-?desk (treadmill|bike|pedals?)|how long should i stand)\\b",
+    "body": [
+      "It can be, but not because standing is magic. Standing still all day has its own problems: tired legs, achy feet and a sore lower back. The real benefit of a standing desk is that it makes it easy to change position often, and changing position is what your body wants.",
+      "If you get one, alternate. Something like 30 to 60 minutes sitting, then 15 to 30 minutes standing, adjusted to what feels good. Shift your weight, move your feet, and take short walking breaks. Set the desk so your elbows sit at about 90 degrees and the top of your screen is near eye level.",
+      "If a standing desk is not an option, you get most of the same benefit by standing up and moving for a minute or two every half hour to hour. Your next posture is your best posture."
+    ],
+    "more": {
+      "why": "Long stretches in any single position, sitting or standing, make muscles and joints stiff. Frequent changes keep blood moving and reduce that build-up.",
+      "how": "Start with 15 minutes of standing per hour and build up. Wear comfortable shoes, use a soft mat, and keep moving a little while you stand.",
+      "mistake": "Swapping eight hours of sitting for eight hours of standing. That trades one problem for another. Alternate.",
+      "example": "Morning: 45 minutes sitting, 15 standing. After lunch: stand for calls, walk at 3, sit for focused work. Feet and back both happy by evening."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "I sit all day at work",
+      "Exercises I can do at my desk",
+      "Forward head posture"
+    ],
+    "related": [
+      "dj-b-117",
+      "dj-b-118"
+    ]
+  }
+]

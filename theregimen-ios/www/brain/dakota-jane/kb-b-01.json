@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "dj-b-001",
+    "topic": "warm-up",
+    "title": "Do you really need to warm up before lifting",
+    "keys": [
+      "do i need to warm up",
+      "do i really need to warm up",
+      "is warming up necessary",
+      "should i warm up",
+      "skip warm up",
+      "can i skip the warm up",
+      "why warm up",
+      "warm up before lifting",
+      "warm up before workout",
+      "is a warm up worth it",
+      "whats a good warm up",
+      "general warm up",
+      "warmup",
+      "how to warm up"
+    ],
+    "match": "\\b(do i (really )?need to warm ?up|(is|are) (a )?warm(ing)? ?ups? (necessary|needed|important|worth it)|(skip|skipping) (the |my )?warm ?up|why (do i |should i )?warm ?up)\\b",
+    "body": [
+      "Yes, and it does not need to be long or fancy. A warm-up is how you tell your body the work is coming: muscles get warmer and more pliable, your joints start moving through range, and your first real set stops being the one you use to find your groove. Lifters who warm up tend to move better on that first working set, and moving better is the whole point.",
+      "A good warm-up has two parts. First, about 5 minutes of something easy that raises your temperature: brisk walk, bike, rower, jumping jacks, whatever makes you a little warm. Then a few lighter sets of the first lift you are about to do, climbing toward your working weight.",
+      "That second part is the one people skip, and it is the one that matters most. The bar does not care how warm the treadmill made you. It cares whether your squat has been rehearsed today."
+    ],
+    "more": {
+      "why": "Warmer muscle contracts faster and stretches more easily, and rehearsing the movement at a light weight grooves the pattern before the load arrives. That combination is why the first working set feels smoother after a warm-up.",
+      "how": "5 minutes of easy cardio until you are slightly warm. Then 2 to 4 ramp-up sets of your first lift: very light for 8 to 10, about half your working weight for 5, about three quarters for 3. Then start your working sets.",
+      "beginner": "If your working weight is already light, one or two sets of 8 with an even lighter weight is plenty. You are rehearsing, not tiring yourself out.",
+      "mistake": "Turning the warm-up into a workout. If you are breathing hard and sweating through your shirt before the first working set, you went too long. Warm, not worn.",
+      "short_on_time": "Skip the treadmill and keep the ramp-up sets. Two light sets of the first lift will do more for you than 10 minutes of walking."
+    },
+    "chips": [
+      "How long should I warm up?",
+      "Should I stretch before lifting?",
+      "How do I warm up for squats?"
+    ],
+    "related": [
+      "dj-b-002",
+      "dj-b-003",
+      "dj-b-004"
+    ]
+  },
+  {
+    "id": "dj-b-002",
+    "topic": "warm-up",
+    "title": "How long a warm-up should take",
+    "keys": [
+      "how long should i warm up",
+      "how long should a warm up be",
+      "how long to warm up",
+      "warm up length",
+      "how many warm up sets",
+      "warm up sets",
+      "ramp up sets",
+      "how many minutes to warm up",
+      "is 5 minutes enough to warm up",
+      "warm up takes too long",
+      "long warm up",
+      "warmup sets"
+    ],
+    "match": "\\b(how long (should|do) (i|you) warm ?up|how long (should|is) (a|the|my) warm ?up|how many warm ?up sets|ramp(ing)? ?up sets)\\b",
+    "body": [
+      "Most lifters need 8 to 15 minutes, start to finish. About 5 of that is general (easy cardio until you feel warm), and the rest is ramp-up sets of your first lift. If it is taking 25 minutes, the warm-up has quietly become its own workout.",
+      "Ramp-up sets scale with how heavy you are going. A light day might need two warm-up sets. A heavy squat day might need four or five, with the reps dropping as the weight climbs, so you arrive at your working weight warm and rehearsed but not tired.",
+      "Later exercises in the same session usually need less. Once your legs are warm from squats, one lighter set before the leg press is enough. Your body keeps the warmth; you are just reminding it of a new pattern."
+    ],
+    "more": {
+      "how": "A simple ladder for the first lift: the empty bar or lightest load for 8 to 10 reps, about 50% of your working weight for 5, about 70% for 3, about 85% for 1 or 2. Rest about a minute between them, then go.",
+      "example": "Working weight 135 lb on the squat: the bar (45 lb) for 10, 75 for 5, 95 for 3, 115 for 2, then 135 for your sets. About 6 minutes of bar time after 5 minutes on the bike.",
+      "mistake": "Doing as many reps in warm-up sets as in working sets. Keep the reps low as the weight climbs, so the warm-up builds you up instead of wearing you down.",
+      "advanced": "The heavier you lift, the more steps you need. Stronger lifters often add one more jump near the top, but the reps stay small: singles and doubles close to working weight."
+    },
+    "chips": [
+      "Do I need to warm up?",
+      "How do I warm up in the morning?",
+      "Should I stretch before lifting?"
+    ],
+    "related": [
+      "dj-b-001",
+      "dj-b-007"
+    ]
+  },
+  {
+    "id": "dj-b-003",
+    "topic": "stretching",
+    "title": "Static or dynamic stretching before you lift",
+    "keys": [
+      "should i stretch before lifting",
+      "stretch before workout",
+      "static vs dynamic stretching",
+      "dynamic stretching",
+      "static stretching before lifting",
+      "does stretching before lifting make you weaker",
+      "stretch before gym",
+      "should i stretch first",
+      "dynamic warm up",
+      "stretching before weights",
+      "is static stretching bad before lifting",
+      "stretching before a workout"
+    ],
+    "match": "\\b(stretch(ing)? (before|prior to) (lifting|lifts?|workouts?|training|the gym|weights|squats?|a workout)|static (vs|versus|or) dynamic|dynamic (stretch(es|ing)?|warm ?up)|static stretch(es|ing)? (before|first))\\b",
+    "body": [
+      "Before lifting, favor dynamic moves: leg swings, walking lunges, arm circles, hip openers, controlled movements that take your joints through range while you keep moving. Save long static holds for after the session or for a separate time.",
+      "Short static stretches are not the villain they were made out to be. Research suggests holds under about 60 seconds total per muscle make little or no difference to strength. Long holds right before heavy work can take a small edge off force and power for a short while, so a quick 15 to 30 second stretch for a tight spot is fine, and a 10 minute floor session right before maxing out is not the plan.",
+      "The best stretch before a lift is often the lift itself, done light. A goblet squat held at the bottom for a few breaths opens hips and ankles better than most floor stretches, and it rehearses the exact position you are about to load."
+    ],
+    "more": {
+      "why": "Dynamic moves raise your temperature and rehearse range without the brief drop in force that long static holds can cause. You leave the warm-up loose and ready, not limp.",
+      "how": "10 leg swings each direction per leg, 10 walking lunges, 10 arm circles each way, 5 slow bodyweight squats with a pause at the bottom. About two minutes.",
+      "example": "Before squats: 5 minutes on the bike, 10 leg swings each side, 5 goblet squats with a 3 second pause at the bottom, then ramp-up sets with the bar.",
+      "mistake": "Lying on the floor stretching your hamstrings for 10 minutes and calling it a warm-up. You will be cooler and no more ready than when you lay down."
+    },
+    "chips": [
+      "When should I stretch?",
+      "How long should I hold a stretch?",
+      "Does stretching prevent injury?"
+    ],
+    "related": [
+      "dj-b-001",
+      "dj-b-009",
+      "dj-b-010"
+    ]
+  },
+  {
+    "id": "dj-b-004",
+    "topic": "warm-up",
+    "title": "Warming up for squats and leg day",
+    "keys": [
+      "how do i warm up for squats",
+      "warm up for squats",
+      "leg day warm up",
+      "squat warm up",
+      "warm up before leg day",
+      "how to warm up legs",
+      "warm up for lunges",
+      "lower body warm up",
+      "warm up knees before squats",
+      "warm up hips before squats",
+      "how to warm up for leg press"
+    ],
+    "match": "\\b(warm(ing)? ?up (for|before) (squats?|leg day|legs|lunges|(the )?leg press)|(leg day|squat|lower body) warm ?ups?|warm(ing)? ?up (my )?(legs|knees|hips))\\b",
+    "body": [
+      "Leg day warm-ups have one job: get your hips, knees and ankles ready to bend under load. Start with 5 minutes of bike or incline walking, then a short sequence that opens the hips and wakes up your glutes, then ramp up with the bar.",
+      "Here is the sequence I use at sunrise: 10 bodyweight squats with a pause at the bottom, 10 glute bridges, 5 walking lunges per leg, 10 leg swings front to back each side. It takes about 3 minutes and you will feel the difference in your first rep.",
+      "Then the ramp-up: the empty bar for 8 to 10, and climb in a few jumps toward your working weight while the reps shrink. If your knees or hips feel cranky that day, add one more light set and own the lowering half of every rep. Slow on the way down tells you a lot about how a joint feels today."
+    ],
+    "more": {
+      "how": "Bike 5 minutes. Pause squats 10, glute bridges 10, lunges 5 per leg, leg swings 10 per side. The bar for 10, then 2 to 4 sets climbing to your working weight with fewer reps each time.",
+      "beginner": "If you are squatting light, a goblet squat warm-up is perfect: hold one dumbbell at your chest, sit to a comfortable depth, pause, stand. Two sets of 8 and you are ready.",
+      "home": "No bar? Do the same sequence, then 2 sets of slow bodyweight squats with a 3 second lowering before your harder sets.",
+      "mistake": "Going straight to your top weight because the first exercise was leg extensions. Machines warm the muscle, but they do not rehearse the squat pattern. Ramp up anyway."
+    },
+    "chips": [
+      "How do I improve ankle mobility?",
+      "How do I loosen tight hips?",
+      "How many warm up sets?"
+    ],
+    "related": [
+      "dj-b-002",
+      "dj-b-013",
+      "dj-b-015"
+    ]
+  },
+  {
+    "id": "dj-b-005",
+    "topic": "warm-up",
+    "title": "Warming up your shoulders for upper body day",
+    "keys": [
+      "how do i warm up my shoulders",
+      "shoulder warm up",
+      "warm up for bench press",
+      "upper body warm up",
+      "warm up before bench",
+      "warm up before overhead press",
+      "how to warm up for push day",
+      "band pull aparts",
+      "warm up rotator cuff",
+      "shoulder warm up exercises",
+      "warm up for pull ups",
+      "warm up chest"
+    ],
+    "match": "\\b(warm(ing)? ?up (my |the |your )?(shoulders?|rotator cuff|chest)|(shoulder|upper body|push day|pull day) warm ?ups?|warm(ing)? ?up (for|before) (bench|benching|bench press|overhead press|ohp|push day|pull day|pull ?ups?|pressing))\\b",
+    "body": [
+      "Shoulders like a slow start. Give them 5 minutes before any pressing or pulling and they will usually give you a better session back. Start with something that warms the whole body, like the rower or a few minutes of arm-swinging walking, then get specific.",
+      "My shoulder sequence: 15 band pull-aparts, 10 band pass-throughs (a wide grip on a light band, taken slowly over your head and behind you only as far as is comfortable), 10 slow arm circles each direction, and 10 push-ups or wall push-ups with a controlled lowering. Then ramp-up sets of your first lift, starting with the empty bar or the lightest dumbbells.",
+      "If you are pulling first, add 2 sets of 10 light lat pulldowns or band pulldowns before your working sets. The rotator cuff muscles are small and tire quickly, so keep these easy. You are waking them up, not testing them."
+    ],
+    "more": {
+      "why": "The shoulder is a shallow joint held in place largely by muscle. Warming those muscles and moving the shoulder blades through their full range before load is how you get stable, comfortable pressing.",
+      "how": "Pull-aparts 15, band pass-throughs 10, arm circles 10 each way, slow push-ups 10. Then the bar or light dumbbells for 10, and climb in 2 or 3 sets to your working weight.",
+      "home": "No band? Hold a towel wide for the pass-throughs, and do wall slides: back against the wall, slide your arms up and down like a slow snow angel for 10 reps.",
+      "mistake": "Heavy rotator cuff work with a big dumbbell as a warm-up. Those small muscles tire quickly, and a tired cuff makes pressing worse, not better."
+    },
+    "chips": [
+      "How do I improve shoulder mobility?",
+      "How do I loosen my upper back?",
+      "How do I warm up for deadlifts?"
+    ],
+    "related": [
+      "dj-b-006",
+      "dj-b-016",
+      "dj-b-017"
+    ]
+  },
+  {
+    "id": "dj-b-006",
+    "topic": "warm-up",
+    "title": "Warming up for deadlifts and hinges",
+    "keys": [
+      "how do i warm up for deadlifts",
+      "deadlift warm up",
+      "warm up before deadlifts",
+      "warm up for rdl",
+      "hinge warm up",
+      "warm up hamstrings",
+      "warm up low back before deadlift",
+      "warm up for romanian deadlift",
+      "warm up for hip thrusts",
+      "how to warm up for deadlift day"
+    ],
+    "match": "\\b(warm(ing)? ?up (for|before) (deadlifts?|deadlift day|rdls?|romanian deadlifts?|hinges?|hip thrusts?)|(deadlift|hinge|rdl) warm ?ups?|warm(ing)? ?up (my |the )?(hamstrings|low back|lower back))\\b",
+    "body": [
+      "Deadlifts load the hips, hamstrings and back all at once, so the warm-up should wake up all three without tiring any of them. Start with 5 minutes on the rower or bike, then a few movements, then ramp-up pulls.",
+      "The movements: 10 glute bridges with a 2 second squeeze at the top, 10 hip hinges with a dowel or broomstick along your back (it should touch your head, upper back and tailbone the whole time), 8 bird dogs per side, and 10 leg swings each direction. That is 3 or 4 minutes.",
+      "Then pull light: a few sets climbing from a weight you could lift all day up to your working weight, with the reps dropping as you go. Every warm-up rep is a rehearsal, so set up the same way each time and lower it under control. Control on the way down counts double, even when the weight is light."
+    ],
+    "more": {
+      "why": "Hinging is a skill. Ramp-up pulls let you feel your setup, your brace and your bar path at weights that forgive mistakes, before you reach the weights that do not.",
+      "how": "Rower 5 minutes. Glute bridges 10, dowel hinges 10, bird dogs 8 per side, leg swings 10 each way. Then about 40% of your working weight for 5, 60% for 3, 80% for 2, then work.",
+      "beginner": "Kettlebell deadlifts make a great warm-up and a great first hinge. Two or three sets of 8 with a light bell teaches the pattern safely.",
+      "mistake": "Stretching your hamstrings hard right before pulling heavy. A long static hold can take a little snap out of them for a short time. Move them instead."
+    },
+    "chips": [
+      "How do I touch my toes?",
+      "My low back is tight after lifting",
+      "How many warm up sets?"
+    ],
+    "related": [
+      "dj-b-014",
+      "dj-b-002"
+    ]
+  },
+  {
+    "id": "dj-b-007",
+    "topic": "warm-up",
+    "title": "Warming up for early morning or cold sessions",
+    "keys": [
+      "how do i warm up in the morning",
+      "morning warm up",
+      "warm up for early morning workout",
+      "stiff before a morning workout",
+      "cold gym warm up",
+      "warming up in the cold",
+      "warm up when its cold",
+      "5am workout warm up",
+      "early workout stiff",
+      "warm up for morning lifting",
+      "garage gym cold warm up"
+    ],
+    "match": "\\b((morning|early|cold|winter|garage gym) warm ?ups?|warm(ing)? ?up (in the|for( an)?( early)?) (morning|cold|winter)|warm ?up when (it'?s|its) cold|(5|6) ?am workout warm ?up)\\b",
+    "body": [
+      "Sunrise sessions are my favorite, and they come with a stiffer body. After a night lying down, the discs in your spine hold a little more water and your joints have been still for hours. So a morning warm-up runs a few minutes longer than an evening one, and that is normal, not a sign that something is wrong.",
+      "Add 3 to 5 extra minutes of easy movement before anything specific: walk, bike, or a slow flow of cat-cow, hip circles and arm swings. In a cold gym or garage, keep a layer on until your first working set and take it off once you are warm.",
+      "Be gentle with deep rounded-back stretching in the first hour after waking; big forward folds can wait until later in the day. Squats and hinges with a neutral spine after a full warm-up are fine. Then ramp up your first lift with one more light set than usual."
+    ],
+    "more": {
+      "why": "Overnight, the discs between your vertebrae take on water while you lie flat, which makes the spine a little stiffer first thing. Movement and time ease that, which is why the first 20 minutes feel tighter than the last 20.",
+      "how": "8 minutes of easy cardio, cat-cow 10, hip circles 10 each way, arm swings 10, then your usual movement prep and one extra ramp-up set.",
+      "mistake": "Rolling out of bed and touching your toes as hard as you can for a minute. Save the deep forward folds for after the session.",
+      "home": "Before a garage or living room session, do a lap of the house, 20 jumping jacks, 10 slow squats and 10 arm circles. Warm hands help too, since grip work in a cold room feels worse than it is."
+    },
+    "chips": [
+      "Why am I stiff in the morning?",
+      "Morning or evening workouts?",
+      "How long should I warm up?"
+    ],
+    "related": [
+      "dj-b-002",
+      "dj-b-001"
+    ]
+  },
+  {
+    "id": "dj-b-008",
+    "topic": "cool-down",
+    "title": "Do you need a cool-down after lifting",
+    "keys": [
+      "do i need a cool down",
+      "cool down after workout",
+      "cooldown",
+      "is a cool down necessary",
+      "what should i do after a workout",
+      "after workout routine",
+      "post workout stretch",
+      "how to cool down",
+      "cool down after lifting",
+      "should i cool down",
+      "cool down after cardio",
+      "what to do after lifting"
+    ],
+    "match": "\\b(cool(ing)? ?downs?|after (a |my )?(workout|lifting|training|session) (routine|stretch(ing)?)|post ?workout stretch(es|ing)?|what (should i|to) do after (a |my )?(workout|lifting|session))\\b",
+    "body": [
+      "A cool-down is optional for most lifting, and I still recommend one, for a different reason than you might think. Research does not show it does much for next-day soreness. What it does well is bring your heart rate and breathing down gradually, especially after hard conditioning, and it gives you a quiet few minutes where stretching actually fits.",
+      "After a hard interval or circuit session, walk easy for 3 to 5 minutes rather than stopping dead and sitting down. Stopping abruptly after hard cardio can leave some people lightheaded as blood pools in the legs.",
+      "After lifting, 5 to 10 minutes of easy stretching for whatever you trained is my ritual: hips and hamstrings after leg day, chest and lats after upper. It is the part of the session I look forward to, and it is where I notice how my body actually feels that day."
+    ],
+    "more": {
+      "why": "The value is less about recovery and more about a gentle landing plus a dedicated slot for flexibility work. Muscles are warm after training, which makes static stretching more comfortable.",
+      "how": "Walk 3 to 5 minutes. Then pick 3 or 4 stretches for what you trained and hold each for 30 seconds, twice. Breathe slowly.",
+      "short_on_time": "Skip it after lifting without guilt. After hard cardio, still take 2 minutes of easy walking before you sit down.",
+      "example": "After squats and lunges: walk 3 minutes, a half-kneeling hip flexor stretch for 30 seconds each side, a seated hamstring stretch for 30 seconds, a figure four glute stretch for 30 seconds each side. Repeat once."
+    },
+    "chips": [
+      "How long should I hold a stretch?",
+      "When should I stretch?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-009",
+      "dj-b-010"
+    ]
+  },
+  {
+    "id": "dj-b-009",
+    "topic": "stretching",
+    "title": "When to stretch for the best results",
+    "keys": [
+      "when should i stretch",
+      "best time to stretch",
+      "should i stretch after working out",
+      "stretch after workout",
+      "should i stretch every day",
+      "how often should i stretch",
+      "stretch at night",
+      "stretching before bed",
+      "stretching on rest days",
+      "how many times a week should i stretch",
+      "best time to do mobility"
+    ],
+    "match": "\\b(when (should|do) i stretch|best time (to|for) (stretch(ing)?|do mobility|mobility)|how often (should|do) i stretch|stretch(ing)? (after|post) (a |my )?(workout|lifting|training|session|working out)|stretch(ing)? (at night|before bed|every day|daily))\\b",
+    "body": [
+      "The best time to stretch is whenever you will actually do it, and the research agrees more than you would think. Flexibility improves with how often and how long you stretch over weeks, not with the exact time of day.",
+      "Three good windows: right after training while your muscles are warm, a short session before bed (the slow breathing helps you wind down), or a separate 10 minute mobility slot on rest days. Stretching most days beats one long session a week. Aim for at least 2 to 3 days a week, and daily if you are chasing a specific goal like touching your toes.",
+      "Before heavy lifting is the one time I would keep static stretches short and use dynamic movement instead. Everywhere else, pick the window that fits your life and make it a habit, not a project."
+    ],
+    "more": {
+      "why": "Range of motion improves with your total weekly stretching time, roughly a few minutes per muscle group spread across the week. Frequency builds that total more easily than marathon sessions.",
+      "how": "Pick one trigger: after your last set, or after brushing your teeth at night. Do 3 or 4 stretches, 30 seconds each, twice. Done in 5 minutes.",
+      "beginner": "Start with three stretches you can do on the floor next to your bed: a hamstring stretch, a hip flexor stretch and a chest stretch in a doorway. Every night for two weeks.",
+      "mistake": "Stretching hard only when something already feels stuck. Steady, gentle practice works better than an emergency session once a month."
+    },
+    "chips": [
+      "How long should I hold a stretch?",
+      "A 10 minute mobility routine",
+      "Should I stretch before lifting?"
+    ],
+    "related": [
+      "dj-b-010",
+      "dj-b-023",
+      "dj-b-003"
+    ]
+  },
+  {
+    "id": "dj-b-010",
+    "topic": "stretching",
+    "title": "How long to hold a stretch and how many times",
+    "keys": [
+      "how long should i hold a stretch",
+      "how long to hold a stretch",
+      "hold stretch 30 seconds",
+      "how many seconds to stretch",
+      "how long should you stretch",
+      "stretch hold time",
+      "how many sets of stretches",
+      "is 10 seconds enough for a stretch",
+      "how long to stretch each muscle",
+      "how hard should a stretch feel"
+    ],
+    "match": "\\b(how long (should i |do i |to |should you )?(hold|stretch)( a| each| the)? (stretch|muscle)|how (hard|deep|far) should (a|i) stretch( feel)?|stretch hold time|how many (seconds|sets) (to stretch|of stretch(es|ing)?))\\b",
+    "body": [
+      "Hold each static stretch for 15 to 30 seconds and repeat it 2 to 4 times, aiming for about 60 seconds total per muscle in a session. Older lifters often do better with 30 to 60 second holds. Going far past that in one sitting adds little.",
+      "Intensity matters as much as time. A stretch should feel like mild tension, about a 5 or 6 out of 10, the kind you can breathe slowly through. If you are holding your breath, grimacing, or feeling anything sharp, back off; pain does not speed it up.",
+      "What actually builds flexibility is doing that consistently, most days of the week, for weeks. Range usually improves noticeably over 4 to 8 weeks of regular practice. Breathe out slowly as you settle into the stretch, because your body tends to let go a little more on the exhale."
+    ],
+    "more": {
+      "why": "Much of the gain from a single stretch happens in the first 30 seconds or so. Repeating it a few times builds total time without straining the tissue.",
+      "how": "Ease in until you feel mild tension. Breathe slowly for 30 seconds. Ease out, shake it loose, and repeat once or twice more.",
+      "example": "Hamstrings after leg day: 30 seconds, rest 10, 30 seconds. That is a full minute, and it takes under 90 seconds.",
+      "mistake": "Bouncing to go deeper. For building flexibility, a still, steady hold is gentler and works well."
+    },
+    "chips": [
+      "When should I stretch?",
+      "How do I touch my toes?",
+      "Mobility vs flexibility?"
+    ],
+    "related": [
+      "dj-b-009",
+      "dj-b-014",
+      "dj-b-022"
+    ]
+  },
+  {
+    "id": "dj-b-011",
+    "topic": "foam-rolling",
+    "title": "Does foam rolling work and how to do it",
+    "keys": [
+      "does foam rolling work",
+      "how to foam roll",
+      "should i foam roll",
+      "foam roller",
+      "foam rolling before workout",
+      "foam rolling after workout",
+      "how long should i foam roll",
+      "does foam rolling break up knots",
+      "foam rolling for soreness",
+      "is foam rolling worth it",
+      "lacrosse ball",
+      "foam rolling hurts"
+    ],
+    "match": "\\b(foam ?roll(er|ing|s)?|lacrosse ball|roll(ing)? out (my |your )?(legs|back|quads|calves|glutes|knots))\\b",
+    "body": [
+      "Foam rolling works, just not the way gyms like to describe it. It does not break up knots, flatten fascia or squeeze out toxins; tissue that tough does not change under a roller. What the research does support is a short-term increase in range of motion and a small reduction in how sore you feel, likely because the pressure calms how sensitive that area is.",
+      "Use it for 30 to 60 seconds per area, rolling slowly, and pause for a few breaths on tender spots. Before a session it can help you move a little more freely without costing strength. After a session or on rest days, it is a pleasant way to take the edge off soreness.",
+      "Pressure should be uncomfortable at most, never sharp. If you are wincing and holding your breath, use a softer roller or put less body weight on it. And skip rolling directly on bones, joints or the low back."
+    ],
+    "more": {
+      "why": "The pressure seems to turn down how sensitive the area feels, which lets you move through more range for a while. That is useful even if nothing physically releases.",
+      "how": "Quads, calves, glutes and upper back are the easy wins. Roll slowly, about an inch per second, for 30 to 60 seconds each. Stop on a tender spot, breathe three times, keep going.",
+      "beginner": "Start with a soft roller. The hard black ones are for people who have been doing this a while and still want it to hurt, which is a choice I respect but do not recommend.",
+      "mistake": "Rolling for 20 minutes and skipping the actual warm-up. Two minutes of rolling plus movement and ramp-up sets beats a long rolling session alone."
+    },
+    "chips": [
+      "Should I foam roll my IT band?",
+      "Do massage guns help?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-b-012"
+    ]
+  },
+  {
+    "id": "dj-b-012",
+    "topic": "foam-rolling",
+    "title": "Foam rolling the IT band and outer thigh tightness",
+    "keys": [
+      "should i foam roll my it band",
+      "foam roll it band",
+      "it band tight",
+      "tight it band",
+      "itb",
+      "it band pain",
+      "outer thigh tight",
+      "foam rolling it band hurts",
+      "stretch it band",
+      "it band stretch",
+      "outside of my thigh is tight"
+    ],
+    "match": "\\b(it ?bands?|itb|iliotibial)\\b",
+    "body": [
+      "You can, but do not expect to loosen the IT band itself. It is a thick, tough band of connective tissue running down the outside of your thigh, and research suggests you cannot meaningfully stretch it or roll it longer. That is also why rolling it directly often hurts so much for so little.",
+      "What feels tight there is usually the muscles that attach to it at the hip: the glutes and a small muscle at the front corner of your hip. Roll those instead, then strengthen your hips. Side-lying leg raises, glute bridges and lateral band walks are good starting points, 2 to 3 sets of 12 to 15, a few times a week.",
+      "If you get pain on the outside of the knee during running or cycling that keeps coming back or gets worse, have a physical therapist look at it. That pattern often responds well to changes in training load plus hip strength, and a professional can tell you what applies to you."
+    ],
+    "more": {
+      "why": "The band transmits force from your hip muscles. Making those muscles stronger and less irritable tends to help more than attacking the band.",
+      "how": "Roll your glutes and the outer front of your hip for 30 to 60 seconds each. Then side-lying leg raises, 2 sets of 15, and lateral band walks, 2 sets of 12 steps each way.",
+      "mistake": "Lying on the roller grinding the outside of your thigh every day and hoping it lets go. It will not, and it was rarely the problem."
+    },
+    "chips": [
+      "How do I loosen tight hips?",
+      "How do I stretch tight glutes?",
+      "Does foam rolling work?"
+    ],
+    "related": [
+      "dj-b-011",
+      "dj-b-013",
+      "dj-b-024"
+    ]
+  },
+  {
+    "id": "dj-b-013",
+    "topic": "mobility-hips",
+    "title": "Loosening tight hips from sitting all day",
+    "keys": [
+      "how do i loosen tight hips",
+      "tight hips",
+      "tight hip flexors",
+      "hip flexor stretch",
+      "hips tight from sitting",
+      "sitting all day tight hips",
+      "hip mobility",
+      "how to open hips",
+      "hip opener",
+      "stiff hips",
+      "hip mobility exercises",
+      "couch stretch",
+      "90 90 stretch"
+    ],
+    "match": "\\b((tight|stiff) hips?( flexors?)?|hip (flexor|mobility|opener)s?|open(ing)? (up )?(my |your )?hips|couch stretch|90 ?90( stretch)?)\\b",
+    "body": [
+      "Hours of sitting keep your hips bent, and the muscles at the front of the hip get used to living short. The fix has two sides: open the front of the hip and strengthen the back of it. Stretching alone helps for an hour; stretching plus glute work helps for good.",
+      "Three moves, most days. A half-kneeling hip flexor stretch: squeeze the glute of the down leg and tuck your tailbone slightly, and you should feel it at the front of that hip, 2 holds of 30 seconds per side. The 90/90 sit, rotating your knees slowly side to side for 60 seconds, then 2 sets of 12 glute bridges with a 2 second squeeze at the top.",
+      "Then break up the sitting itself. Stand up every 30 to 60 minutes and walk for even 2 minutes. You cannot out-stretch 10 hours of stillness, but you can interrupt it."
+    ],
+    "more": {
+      "why": "Squeezing the glute while you stretch the front of the hip lets the hip flexor relax and stops you from just arching your low back, which is how most people accidentally skip that stretch.",
+      "how": "Half-kneeling stretch 2 x 30 seconds per side, 90/90 rotations for 60 seconds, glute bridges 2 x 12. About 5 minutes, before bed or after training.",
+      "example": "A desk-day routine: every hour, stand and do 5 bodyweight squats and 5 hip circles each way. In the evening, the three moves above. Many people notice easier hips within a few weeks.",
+      "mistake": "Arching your low back in the hip flexor stretch. If you feel it in your back instead of the front of your hip, tuck your pelvis under and squeeze the glute."
+    },
+    "chips": [
+      "How do I stretch tight glutes?",
+      "My hip pinches when I squat",
+      "How do I get a deep squat?"
+    ],
+    "related": [
+      "dj-b-024",
+      "dj-b-020"
+    ]
+  },
+  {
+    "id": "dj-b-014",
+    "topic": "mobility-hamstrings",
+    "title": "Working toward touching your toes",
+    "keys": [
+      "how do i touch my toes",
+      "touch my toes",
+      "cant touch my toes",
+      "tight hamstrings",
+      "hamstring flexibility",
+      "hamstring stretch",
+      "how to stretch hamstrings",
+      "toe touch",
+      "forward fold",
+      "improve hamstring flexibility",
+      "stiff hamstrings",
+      "sit and reach"
+    ],
+    "match": "\\b(touch(ing)? (my |your )?toes|tight hamstrings?|hamstrings? (flexibility|stretch(es|ing)?|are tight)|stretch(ing)? (my |your )?hamstrings|toe touch(es)?|forward fold|sit and reach)\\b",
+    "body": [
+      "Touching your toes is one of the most reachable flexibility goals there is. Plenty of people get there, or close, in 4 to 12 weeks of consistent practice. It is less about yanking on your hamstrings and more about teaching your hips to hinge and your nervous system to allow the range.",
+      "Most days, do a lying hamstring stretch with a strap, 2 to 3 holds of 30 seconds per leg, keeping your back long rather than rounding to reach. Then 10 slow toe reaches where you hinge from the hips, exhale as you reach, and roll up slowly. Add Romanian deadlifts to your training too; research suggests strength training through a full range improves flexibility about as well as stretching does.",
+      "Expect the first few weeks to feel like nothing is happening, and then for it to change faster than you thought. Measure it once a week by noting where your fingertips land: shin, ankle, toes. Watching that line move is half the motivation."
+    ],
+    "more": {
+      "why": "Flexibility is partly tissue and partly tolerance, your nervous system learning that the range is safe. Frequent, gentle exposure teaches that faster than occasional hard pulls.",
+      "how": "Strap hamstring stretch 3 x 30 seconds per leg. 10 slow hip-hinge toe reaches. Twice a week, 3 sets of 10 Romanian deadlifts with a light weight and a slow lowering.",
+      "example": "Week 1, fingertips at mid shin. Week 4, ankles. Week 8, fingertips brushing your toes. That is a common path; yours may be faster or slower, and both are fine.",
+      "mistake": "Rounding your back and bouncing to reach lower. That mostly stretches your back, not your hamstrings, and it rarely moves the goal."
+    },
+    "chips": [
+      "How long should I hold a stretch?",
+      "A 10 minute mobility routine",
+      "How do I warm up for deadlifts?"
+    ],
+    "related": [
+      "dj-b-010",
+      "dj-b-006"
+    ]
+  },
+  {
+    "id": "dj-b-015",
+    "topic": "mobility-ankles",
+    "title": "Improving ankle mobility for squats and lunges",
+    "keys": [
+      "how do i improve ankle mobility",
+      "ankle mobility",
+      "stiff ankles",
+      "heels come up when i squat",
+      "heels lift when i squat",
+      "tight ankles",
+      "ankle dorsiflexion",
+      "knee to wall test",
+      "ankle stretch",
+      "calf stretch",
+      "tight calves squat",
+      "ankle mobility exercises"
+    ],
+    "match": "\\b(ankle (mobility|dorsiflexion|stretch(es)?)|(stiff|tight) (ankles?|calves)|heels? (come|comes|coming|lift|lifts|lifting|rise|rises)( up)?|knee to wall|calf stretch(es)?)\\b",
+    "body": [
+      "Stiff ankles show up as heels lifting in a squat, knees that cannot travel forward, or a torso that folds over to compensate. The good news is that ankle range responds well to a few minutes of daily work.",
+      "Test it first with the knee-to-wall: stand facing a wall with your foot about 4 inches back, and drive your knee forward to touch the wall without lifting your heel. If you cannot, that is your baseline. Then work it daily: 2 sets of 10 slow knee-to-wall rocks per side, a calf stretch on a step with a straight knee and then a bent knee for 30 seconds each, and 2 sets of 15 slow calf raises with a full stretch at the bottom.",
+      "While you build range, squat with what you have. Small plates or a wedge under your heels, or a goblet squat, let you train well today. Raising your heels is not cheating; plenty of strong lifters squat in shoes with a raised heel on purpose."
+    ],
+    "more": {
+      "why": "The calf and the ankle joint both limit how far your knee can travel over your toes. Stretching with the knee straight targets one calf muscle and bent targets the deeper one, so you do both.",
+      "how": "Daily: knee-to-wall rocks 2 x 10 per side, straight and bent knee calf stretches for 30 seconds each, slow calf raises 2 x 15. Retest the knee-to-wall distance every two weeks.",
+      "mistake": "Forcing depth with your heels rising and knees caving. Raise the heels with plates or a wedge, keep the squat clean, and let the range catch up.",
+      "home": "A stair works perfectly for calf stretches and calf raises. Do them while the coffee brews."
+    },
+    "chips": [
+      "How do I warm up for squats?",
+      "How do I get a deep squat?",
+      "How do I come back from a rolled ankle?"
+    ],
+    "related": [
+      "dj-b-004",
+      "dj-b-020"
+    ]
+  },
+  {
+    "id": "dj-b-016",
+    "topic": "mobility-upper-back",
+    "title": "Loosening a stiff upper back",
+    "keys": [
+      "how do i loosen my upper back",
+      "stiff upper back",
+      "thoracic mobility",
+      "t spine mobility",
+      "upper back stiff",
+      "mid back tight",
+      "thoracic spine",
+      "thoracic rotation",
+      "tight upper back from desk",
+      "upper back mobility",
+      "open books stretch",
+      "middle back stiff"
+    ],
+    "match": "\\b(thoracic( spine| mobility| rotation| extension)?|t ?-?spine|(stiff|tight) (upper|mid|middle) back|(upper|mid|middle) back (mobility|stiff(ness)?|tight(ness)?|is (stiff|tight))|open ?books?)\\b",
+    "body": [
+      "A stiff upper back makes overhead pressing feel cramped, makes deep squats harder to keep upright, and asks your shoulders and low back to make up the difference. The thoracic spine is built to rotate and extend, and it usually just needs practice doing it.",
+      "Three moves, about 5 minutes. Open books: lie on your side with knees bent and rotate your top arm open toward the floor behind you, following it with your eyes, 8 slow reps per side. Foam roller extensions: roller across your upper back, hands behind your head, gently extending over it at 3 or 4 spots for 5 breaths each, then thread the needle on all fours, 8 per side.",
+      "Do it before upper body days and on desk-heavy days. Keep it slow and controlled; the upper back responds to breathing and patience more than force. Rotation that feels a little easier each week is the win."
+    ],
+    "more": {
+      "why": "When the upper back will not move, the joints above and below it, the shoulders and low back, do extra work. Giving the middle back its range back takes load off both neighbors.",
+      "how": "Open books 8 per side, roller extensions at 3 to 4 spots for 5 breaths each, thread the needle 8 per side. Breathe out as you rotate.",
+      "mistake": "Cranking your neck around and calling it rotation. Let your head follow the arm loosely and let the turn come from your ribcage.",
+      "short_on_time": "One move: open books, 8 per side. About 90 seconds, and your next overhead press will thank you."
+    },
+    "chips": [
+      "How do I improve shoulder mobility?",
+      "How do I stretch a stiff neck?",
+      "A 10 minute mobility routine"
+    ],
+    "related": [
+      "dj-b-017",
+      "dj-b-019"
+    ]
+  },
+  {
+    "id": "dj-b-017",
+    "topic": "mobility-shoulders",
+    "title": "Improving shoulder mobility for overhead work",
+    "keys": [
+      "how do i improve shoulder mobility",
+      "shoulder mobility",
+      "cant get my arms overhead",
+      "tight shoulders",
+      "overhead mobility",
+      "shoulder flexibility",
+      "stiff shoulders",
+      "shoulder stretch",
+      "lat stretch",
+      "tight lats overhead",
+      "arms wont go straight overhead",
+      "chest stretch"
+    ],
+    "match": "\\b(shoulder (mobility|flexibility|stretch(es|ing)?)|(tight|stiff) (shoulders?|lats|pecs|chest)|overhead mobility|(arms?|hands?) (wont|won'?t|cannot|can'?t) (go|get|reach) (straight )?overhead|(cant|can'?t) get my arms overhead|lat stretch(es)?|chest stretch(es)?)\\b",
+    "body": [
+      "Getting your arms straight overhead without arching your back takes three things working together: lats long enough to let the arm rise, an upper back that can extend, and shoulder blades that rotate upward. Most people are short on one or two of them, not all three.",
+      "Test it by lying on your back, knees bent, low back flat, and raising straight arms overhead toward the floor. If your thumbs do not reach the floor without your back arching, work on it with a kneeling lat stretch (forearms on a bench, sinking your chest down, 2 x 30 seconds), a doorway chest stretch (2 x 30 seconds per side), and 10 slow wall slides with your back and arms against the wall.",
+      "Until it improves, press within the range you own. A landmine press or a steep incline press lets you train hard without forcing your arms into a position your body does not have yet. Range comes with weeks of regular practice."
+    ],
+    "more": {
+      "why": "When the shoulder runs out of range overhead, the low back arches to finish the job. That is fine now and then, but loading it rep after rep is how people end up with cranky backs from pressing.",
+      "how": "Kneeling lat stretch on a bench 2 x 30 seconds, doorway chest stretch 2 x 30 seconds per side, wall slides 2 x 10. Before upper body days and on rest days.",
+      "mistake": "Pressing overhead heavy with a big arch and calling it mobility. If your ribs flare to finish the rep, the weight or the range is ahead of you.",
+      "home": "A door frame and a wall are all you need. Wall slides and doorway stretches take 3 minutes."
+    },
+    "chips": [
+      "How do I loosen my upper back?",
+      "How do I train around a sore shoulder?",
+      "How do I warm up my shoulders?"
+    ],
+    "related": [
+      "dj-b-016",
+      "dj-b-005"
+    ]
+  },
+  {
+    "id": "dj-b-018",
+    "topic": "mobility-wrists",
+    "title": "Loosening stiff wrists for push-ups and front rack",
+    "keys": [
+      "how do i loosen stiff wrists",
+      "wrist mobility",
+      "stiff wrists",
+      "wrist stretch",
+      "wrist warm up",
+      "front rack mobility",
+      "tight wrists",
+      "wrist flexibility",
+      "wrist mobility for push ups",
+      "wrist exercises",
+      "wrist circles"
+    ],
+    "match": "\\b(wrist (mobility|flexibility|stretch(es)?|warm ?ups?|circles|exercises)|(stiff|tight) wrists?|front rack (mobility|wrists?))\\b",
+    "body": [
+      "Wrists are the forgotten joint until push-ups, planks or a front rack make them complain. A couple of minutes of wrist prep before those movements makes a real difference, and most people never do it.",
+      "On all fours, place your palms flat with fingers forward and gently rock your weight forward and back, 10 times. Turn your hands so your fingers point toward your knees and rock gently again, 10 times. Then make fists and do 10 slow circles each way, and finish with a prayer stretch (palms together at your chest, lowering your hands until you feel a stretch) for 30 seconds.",
+      "For the front rack, also work your lats and triceps, since those usually limit it more than the wrist itself. And remember that in a front squat the bar rests on your shoulders, not your hands. Your fingertips just keep it there."
+    ],
+    "more": {
+      "why": "Push-ups and planks put the wrist far into extension under body weight. Taking it there gently first gives the joint a chance to warm into it.",
+      "how": "Hands-down rocks 10 forward, 10 with fingers reversed, fist circles 10 each way, prayer stretch 30 seconds. Under 2 minutes.",
+      "mistake": "Gripping the bar with a full fist in the front rack and blaming your wrists. Loosen the grip to two or three fingers under the bar and let your shoulders carry it.",
+      "home": "Do the rocks on a carpet or a folded towel and they feel friendlier on day one."
+    },
+    "chips": [
+      "My wrists hurt on push-ups",
+      "How do I improve shoulder mobility?",
+      "How do I warm up my shoulders?"
+    ],
+    "related": [
+      "dj-b-017",
+      "dj-b-005"
+    ]
+  },
+  {
+    "id": "dj-b-019",
+    "topic": "mobility-neck",
+    "title": "Easing a stiff neck with gentle stretches",
+    "keys": [
+      "how do i stretch a stiff neck",
+      "stiff neck",
+      "neck stretch",
+      "tight neck",
+      "neck tight from desk",
+      "neck mobility",
+      "neck stretches",
+      "neck tension",
+      "tight traps",
+      "sore neck after workout",
+      "crick in my neck",
+      "stiff neck from sleeping"
+    ],
+    "match": "\\b((stiff|tight|sore|cranky) (neck|traps)|neck (stretch(es)?|mobility|tension|tight(ness)?|is (stiff|tight|sore))|crick in (my|the) neck)\\b",
+    "body": [
+      "A stiff neck after a long desk day or a hard upper body session usually responds to gentle movement, not force. Keep it slow, small and pain-free, and never crank your head with your hands.",
+      "Try slow chin tucks first: draw your chin straight back, like making a double chin, then release, 10 reps. Then tilt your ear toward your shoulder and let the weight of your head do the work, 20 to 30 seconds per side. Turn your head slowly to look over each shoulder, 5 times per side, and finish with 10 backward shoulder rolls. A warm shower beforehand can make it all feel easier.",
+      "If neck stiffness comes with pain, numbness or tingling running down an arm, headaches that feel new or severe, dizziness, or it followed a fall or an impact, skip the stretches and see a doctor or physical therapist. Same if it does not ease within a week or two."
+    ],
+    "more": {
+      "why": "Neck muscles stiffen when they hold the head still for hours. Small, gentle movements bring blood flow and range back without irritating anything.",
+      "how": "Chin tucks 10, side tilts 20 to 30 seconds per side, slow turns 5 per side, shoulder rolls 10. Twice a day on desk days.",
+      "mistake": "Pulling hard on your head to stretch it. The neck responds to gentle and often, not hard and once.",
+      "example": "A desk routine: every 45 minutes, 5 chin tucks and 5 shoulder rolls. Many people find the evening stiffness fades over a week or two."
+    },
+    "chips": [
+      "How do I loosen my upper back?",
+      "When should I see a doctor?",
+      "How do I warm up my shoulders?"
+    ],
+    "related": [
+      "dj-b-016"
+    ]
+  },
+  {
+    "id": "dj-b-020",
+    "topic": "mobility-squat",
+    "title": "Getting comfortable in a deep squat",
+    "keys": [
+      "how do i get a deep squat",
+      "deep squat",
+      "sit in a deep squat",
+      "resting squat",
+      "full squat mobility",
+      "cant squat deep",
+      "squat deeper",
+      "how to squat lower",
+      "squat depth mobility",
+      "deep squat hold",
+      "flat foot squat",
+      "squat with heels down"
+    ],
+    "match": "\\b(deep squat( hold)?|resting squat|(cant|can'?t|cannot) squat (deep|low|all the way down)|squat (deeper|lower)|sit(ting)? in a (deep )?squat|squat with (my )?heels down)\\b",
+    "body": [
+      "A comfortable deep squat comes from ankles, hips and practice, in roughly that order. The fastest way to get it is simply to spend time there: a little every day, supported at first.",
+      "Hold onto a doorframe, a post or a suspension strap, and sink into the deepest squat you can with your heels down. Stay for 30 seconds, breathing slowly and shifting gently side to side. Do 3 or 4 of those a day, adding time as it gets easier, until you can rest there for 2 minutes. Goblet squats with a 3 to 5 second pause at the bottom, 2 to 3 sets of 5, do the same job with a little load.",
+      "If your heels lift, put a small plate or a folded towel under them while you build ankle range. Many people make clear progress in 4 to 8 weeks. And if your knees or hips hurt (not stretch, hurt) in that position, back off to a depth that is comfortable."
+    ],
+    "more": {
+      "why": "Time in the position teaches your joints and your nervous system that the range is safe. Holding onto something lets you relax into it instead of fighting for balance.",
+      "how": "Supported deep squat holds, 3 to 4 x 30 seconds daily, building toward 2 minutes. Goblet squats with a pause, 2 to 3 x 5, on training days.",
+      "example": "Every morning while the coffee brews: 3 holds of 30 seconds. A couple of months later, many people can sit in a squat to read a text.",
+      "mistake": "Forcing your knees out with your elbows until something pinches. Gentle pressure only, and stop at the first sign of pain."
+    },
+    "chips": [
+      "How do I improve ankle mobility?",
+      "How do I loosen tight hips?",
+      "My hip pinches when I squat"
+    ],
+    "related": [
+      "dj-b-015",
+      "dj-b-013"
+    ]
+  },
+  {
+    "id": "dj-b-021",
+    "topic": "flexibility-goals",
+    "title": "Working safely toward the splits",
+    "keys": [
+      "how do i work toward the splits",
+      "how to do the splits",
+      "front splits",
+      "middle splits",
+      "side splits",
+      "how long to get the splits",
+      "splits stretch",
+      "can adults learn the splits",
+      "splits for beginners",
+      "do the splits",
+      "i want to do the splits"
+    ],
+    "match": "\\b(the splits|front splits|middle splits|side splits|splits stretch(es)?|splits for beginners|do (a |the )?splits)\\b",
+    "body": [
+      "Adults can absolutely work toward the splits. Plan on months, not weeks, and expect progress in small, steady steps. Front splits (one leg forward, one back) usually come faster than middle splits, which depend partly on how your hip joints are built; some hips simply will not go flat in a middle split, and that is anatomy, not effort.",
+      "Train it 3 to 5 days a week after a good warm-up. For front splits, use a half-kneeling hip flexor stretch, a half split (back knee down, front leg straight, hinging forward) and a supported split with yoga blocks under your hands, each for 2 to 3 holds of 30 to 60 seconds. For middle splits, use the frog stretch, a wide-leg seated fold and horse stance holds. Add strength at end range too, like slow Cossack squats.",
+      "Measure the distance from your hips to the floor once a week. Gentle and often is the rule. Sharp pain, especially in the groin or high up at the back of the thigh near the sit bone, means stop and ease off."
+    ],
+    "more": {
+      "why": "Range at the end of a split is partly tissue and partly your nervous system's permission. Frequent sessions plus strength in the stretched position build both.",
+      "how": "Warm up for 5 minutes. Then 3 stretches for your chosen split, 2 to 3 holds each of 30 to 60 seconds, plus 2 sets of a strength move like Cossack squats. 15 to 20 minutes, 3 to 5 times a week.",
+      "mistake": "Testing your full split every session. Test once a week at most, and spend the rest of the time working the pieces.",
+      "beginner": "Start with blocks under your hands and stay well above the floor. A comfortable, supported split you can breathe in beats a forced, lower one."
+    },
+    "chips": [
+      "How long should I hold a stretch?",
+      "How do I loosen tight hips?",
+      "Mobility vs flexibility?"
+    ],
+    "related": [
+      "dj-b-010",
+      "dj-b-013",
+      "dj-b-022"
+    ]
+  },
+  {
+    "id": "dj-b-022",
+    "topic": "mobility",
+    "title": "Mobility versus flexibility, and which you need",
+    "keys": [
+      "mobility vs flexibility",
+      "whats the difference between mobility and flexibility",
+      "mobility or flexibility",
+      "what is mobility",
+      "what is mobility training",
+      "do i need mobility work",
+      "mobility work",
+      "is mobility the same as stretching",
+      "active flexibility",
+      "mobility training"
+    ],
+    "match": "\\b(mobility (vs|versus|or|and) flexibility|flexibility (vs|versus|or|and) mobility|what is mobility( training| work)?|do i need mobility( work)?|is mobility (the same as|just) stretching|active flexibility)\\b",
+    "body": [
+      "Flexibility is how far a joint can be moved, often with help: gravity, a strap, your hand. Mobility is how far you can move it yourself, under control, with strength. A lifter needs mobility, because you have to own a position to load it.",
+      "You build flexibility by stretching. You build mobility by stretching and then using that range actively: slow controlled squats, Cossack squats, Romanian deadlifts through a full stretch, leg raises held at the top. Strength through full range is mobility.",
+      "The best test is simple: can you get into the positions your training asks for, with control and without pain? If yes, keep training through full range and you will hold it. If not, add 10 minutes of targeted work a few times a week for the joint that is limiting you."
+    ],
+    "more": {
+      "why": "Range you can only reach passively is range you cannot use under a bar. Building strength at the end of your range makes it usable, and it tends to make it stick.",
+      "how": "After stretching a muscle, use the new range right away with a controlled movement: a hamstring stretch, then slow Romanian deadlifts with a light weight.",
+      "example": "Touching your toes while seated is flexibility. Lifting one straight leg high while standing on the other, with no help, is mobility.",
+      "mistake": "Stretching for years without ever loading the range. It feels great on the floor and disappears under the bar."
+    },
+    "chips": [
+      "A 10 minute mobility routine",
+      "How long should I hold a stretch?",
+      "Does yoga count as training?"
+    ],
+    "related": [
+      "dj-b-010",
+      "dj-b-014"
+    ]
+  },
+  {
+    "id": "dj-b-023",
+    "topic": "mobility",
+    "title": "A 10 minute daily mobility routine",
+    "keys": [
+      "a 10 minute mobility routine",
+      "10 minute mobility routine",
+      "mobility routine",
+      "daily mobility routine",
+      "daily stretching routine",
+      "quick stretching routine",
+      "full body stretch routine",
+      "morning mobility routine",
+      "stretch routine for lifters",
+      "mobility for beginners",
+      "simple stretching routine",
+      "stretches i can do every day"
+    ],
+    "match": "\\b((\\d+|ten|five|quick|daily|simple|full body|morning|evening|beginner) (minute )?(mobility|stretch(ing)?) (routine|flow|session)|mobility (routine|flow)|stretch(ing)? routine)\\b",
+    "body": [
+      "Here is the one I do most mornings. It hits the joints lifters usually need most, and it takes 10 minutes on the floor with no equipment.",
+      "Cat-cow, 10 slow reps; thread the needle, 6 per side; the world's greatest stretch (a lunge, hand inside the front foot, rotating that same arm up toward the ceiling), 5 per side; and a half-kneeling hip flexor stretch, 30 seconds per side. Then 90/90 hip rotations, 10 total; a supported deep squat hold for 60 seconds; and a lying hamstring stretch and a doorway chest stretch, 30 seconds per side each. Finish with 5 slow breaths lying on your back.",
+      "Ten minutes a day is 70 minutes a week, which is plenty to build and keep the range most lifting needs. Do it at the same time every day, attached to something you already do, and it stops being a decision."
+    ],
+    "more": {
+      "how": "Same order every time so you do not have to think. Put it after brushing your teeth or before your first coffee. If you miss a day, just do the next one.",
+      "short_on_time": "The 3 minute version: cat-cow 10, world's greatest stretch 3 per side, a deep squat hold for 60 seconds.",
+      "beginner": "Move gently and use support. Hold a doorframe for the squat and keep a pillow under your knee for kneeling stretches. Mild tension, never pain.",
+      "why": "These moves cover your spine, hips, hamstrings, ankles and shoulders, the five places that limit most lifts. A little each day keeps them moving without a long session."
+    },
+    "chips": [
+      "When should I stretch?",
+      "How do I get a deep squat?",
+      "Mobility vs flexibility?"
+    ],
+    "related": [
+      "dj-b-009",
+      "dj-b-020",
+      "dj-b-022"
+    ]
+  },
+  {
+    "id": "dj-b-024",
+    "topic": "mobility-hips",
+    "title": "Stretching tight glutes and the deep hip",
+    "keys": [
+      "how do i stretch tight glutes",
+      "tight glutes",
+      "glute stretch",
+      "piriformis stretch",
+      "figure four stretch",
+      "pigeon stretch",
+      "deep hip stretch",
+      "my butt is tight",
+      "tight piriformis",
+      "sore glutes stretch",
+      "pigeon pose"
+    ],
+    "match": "\\b((tight|stiff) (glutes?|piriformis|butt)|glute stretch(es)?|piriformis( stretch)?|figure (four|4) stretch|pigeon (stretch|pose)|my butt is tight)\\b",
+    "body": [
+      "Tight glutes usually feel like a deep ache in the back of the hip, often after long drives, long sits or heavy leg days. Two stretches cover most of it.",
+      "The figure four: lie on your back, cross one ankle over the opposite knee, and pull that bottom thigh gently toward your chest, 30 seconds, twice per side. The pigeon stretch is the deeper version: front shin across your body on the floor, back leg long behind you, folding forward slowly. If pigeon bothers your knee, stay with the figure four.",
+      "Pair the stretching with strength. Glute bridges, hip thrusts and side-lying leg raises tend to make glutes feel less tight over time, because a strong muscle is often a less guarded one. If you get pain shooting down the leg, numbness or tingling, stop stretching it and see a doctor or physical therapist."
+    ],
+    "more": {
+      "how": "Figure four 2 x 30 seconds per side, then glute bridges 2 x 12 with a 2 second squeeze. After leg day and on desk-heavy days.",
+      "why": "The glutes and the small rotators under them control your hip in every squat, lunge and step. When they are stiff, the low back and knees often take up the slack.",
+      "mistake": "Forcing pigeon until your front knee twists. The stretch belongs in the hip, so if you feel it in the knee, switch to the figure four."
+    },
+    "chips": [
+      "How do I loosen tight hips?",
+      "My leg goes numb or tingles",
+      "Should I foam roll my IT band?"
+    ],
+    "related": [
+      "dj-b-013",
+      "dj-b-012"
+    ]
+  },
+  {
+    "id": "dj-b-025",
+    "topic": "stretching",
+    "title": "Does stretching prevent injury or make you weaker",
+    "keys": [
+      "does stretching prevent injury",
+      "does stretching help prevent injuries",
+      "is stretching necessary",
+      "do i need to stretch",
+      "does stretching make you weaker",
+      "is stretching a waste of time",
+      "stretching and injury",
+      "do lifters need to stretch",
+      "should i stretch at all",
+      "is stretching worth it"
+    ],
+    "match": "\\b(does stretching (prevent|reduce|stop) injur(y|ies)|stretching (and|prevents?|for) injur(y|ies)|is stretching (necessary|needed|a waste|worth it|important)|do (i|lifters|you) (even |really )?need to stretch|does stretching make (you|me) weak(er)?|should i stretch at all)\\b",
+    "body": [
+      "Honest answer: stretching on its own has not been shown to prevent most injuries. What does lower your risk is a good warm-up, increasing your training gradually, strength through full range, and enough recovery. Stretching makes you more flexible, which is valuable when your training or your life needs range you do not have.",
+      "It also does not make you weaker in the long run. Long static holds right before a heavy set can briefly blunt force, which is why I keep them for afterward. Over weeks, regular stretching combined with strength work tends to leave people both looser and just as strong.",
+      "So stretch for a reason: a position you cannot reach, a joint that feels stiff, or because it helps you wind down and you enjoy it. That last one counts. A ritual you look forward to is a habit you keep."
+    ],
+    "more": {
+      "why": "Most training injuries come from doing too much too soon, or from fatigue, not from a lack of flexibility. Managing your training load and building strength do more of the protecting.",
+      "how": "If you need range for a lift, stretch that area most days and train through full range. If you already have the range you need, a short cool-down stretch is plenty.",
+      "mistake": "Skipping strength work in favor of more stretching to stay safe. Strength is one of the most protective things you can build."
+    },
+    "chips": [
+      "Should I stretch before lifting?",
+      "Mobility vs flexibility?",
+      "Do I need to warm up?"
+    ],
+    "related": [
+      "dj-b-003",
+      "dj-b-022",
+      "dj-b-001"
+    ]
+  },
+  {
+    "id": "dj-b-026",
+    "topic": "yoga",
+    "title": "Does yoga count as training for lifters",
+    "keys": [
+      "does yoga count as training",
+      "should i do yoga",
+      "yoga for lifters",
+      "yoga and weightlifting",
+      "is yoga enough exercise",
+      "yoga on rest days",
+      "does yoga count as a workout",
+      "yoga instead of stretching",
+      "pilates for lifters",
+      "yoga or stretching",
+      "is pilates good for lifters"
+    ],
+    "match": "\\b(yoga|pilates)\\b",
+    "body": [
+      "Yoga counts, and it can make a lifter better. It builds flexibility, balance, body awareness and breathing control, and the slower styles make a lovely active recovery day. Many lifters find their squats and overhead positions feel better within a few weeks of a regular class.",
+      "What it does not fully replace is progressive strength training. Most yoga does not keep adding load over months the way lifting does, so it will not build strength and muscle at the same rate. Think of it as a partner to your lifting, not a substitute.",
+      "A good fit is one or two gentle or flow classes a week on non-lifting days, or a 20 minute session after an easy day. Skip a very hard hot class the day before a heavy leg session. Pilates works the same way, with more focus on core control."
+    ],
+    "more": {
+      "why": "Yoga trains holding and moving through end range with control, which is exactly the kind of mobility that carries over to lifting positions.",
+      "how": "Pick a beginner or slow flow class once or twice a week on a rest day. Tell the teacher you lift; most will offer options for tight hips and hamstrings.",
+      "beginner": "Use blocks and straps without hesitation. They are not training wheels; they put the stretch where it belongs.",
+      "mistake": "Forcing the deepest version of every pose because the person next to you can. Your range is the one that counts."
+    },
+    "chips": [
+      "What should I do on a rest day?",
+      "Mobility vs flexibility?",
+      "What is active recovery?"
+    ],
+    "related": [
+      "dj-b-022",
+      "dj-b-023"
+    ]
+  }
+]

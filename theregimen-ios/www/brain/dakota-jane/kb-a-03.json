@@ -1,0 +1,885 @@
+[
+  {
+    "id": "dj-a-052",
+    "topic": "bench-press",
+    "title": "Bench press setup, from lying down to unracking",
+    "keys": [
+      "how do i set up a bench press",
+      "bench press setup",
+      "bench setup",
+      "bench press form",
+      "how to bench press",
+      "how to bench",
+      "bench form",
+      "proper bench form",
+      "barbell bench press",
+      "flat bench press form",
+      "how do i bench",
+      "bench press technique",
+      "setting up for bench"
+    ],
+    "match": "\\b(bench(ing)? press (set ?up|form|technique)|bench (set ?up|form|technique)|set(ting)? up (a |for |the )?bench( press)?|how (do i|to) bench( press)?|(proper|good|correct) bench( press)? form|flat bench press)\\b",
+    "body": [
+      "Set up before you ever touch the bar, because a good bench is mostly decided before the first rep. Lie down with your eyes right under the bar. Grip it so your forearms will be vertical at the bottom, usually a little wider than shoulder width, with the bar in the heel of your palm and your wrists stacked over your elbows.",
+      "Now pull your shoulder blades back and down, like tucking them into your back pockets, and keep them there the whole set. Plant your feet flat, a bit wider than your hips, and push them into the floor. A small natural arch in your lower back is fine; your butt and upper back stay on the bench.",
+      "Unrack with straight arms, bring the bar over your shoulders, breathe in and brace. Lower in two to three seconds to your lower chest, touch lightly, and press back up and slightly toward your face. Form is the lift, and on bench it starts with your shoulder blades."
+    ],
+    "more": {
+      "why": "Tight shoulder blades give you a stable platform to press from and keep the front of your shoulders out of trouble. Your feet and back set the base; your arms just finish the job.",
+      "how": "Eyes under the bar, grip, shoulder blades back and down, feet planted, unrack, breathe and brace, lower 2 to 3 seconds to the lower chest, press up and slightly back.",
+      "beginner": "Start with the empty bar or dumbbells for a few weeks, and always use a spotter or safety arms set just below your chest height. Learning to bench with no safety is how people end up pinned.",
+      "mistake": "Bouncing the bar off your chest. Touch lightly, keep the tension, then press. The bounce skips the hardest part of the rep and bruises your sternum."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Where does the bar touch my chest?",
+      "My elbows flare on bench",
+      "Should I arch my back on bench?"
+    ],
+    "related": [
+      "dj-a-053",
+      "dj-a-054",
+      "dj-a-071"
+    ]
+  },
+  {
+    "id": "dj-a-053",
+    "topic": "bench-press",
+    "title": "Where the bar touches your chest, and the bar path",
+    "keys": [
+      "where does the bar touch my chest",
+      "where should the bar touch on bench",
+      "bench bar path",
+      "bench touch point",
+      "where do i lower the bar on bench",
+      "bar touches my neck on bench",
+      "bench bar goes to my stomach",
+      "where to bring the bar down on bench",
+      "bench press bar path",
+      "lower chest or upper chest bench",
+      "bar path on bench"
+    ],
+    "match": "\\b(where (does|should) the bar (touch|land|hit)|bench( press)? bar path|bar path (on|for|in) (the )?bench|bench touch point|where (do i|to) (lower|bring) the bar)\\b",
+    "body": [
+      "Somewhere between your nipple line and the bottom of your breastbone, for most people. Exactly where depends on your grip and arm length, so the real rule is this: at the bottom, your forearms should look vertical from the side, with your wrists stacked right over your elbows.",
+      "The bar does not travel straight up and down. It comes down to your lower chest at a slight angle, then presses up and a little back toward your face, finishing over your shoulders where it started. Picture a gentle curve, not a straight line.",
+      "If the bar lands near your neck, your elbows are probably flared wide and your shoulders are doing too much. If it lands on your belly, your elbows are tucked too hard. Film one set from the side and watch the touch point."
+    ],
+    "more": {
+      "why": "Vertical forearms at the bottom mean the force goes straight through your arm into the bar. When they tilt, some of your effort leaks into just holding the bar still.",
+      "how": "Set your grip, lower with your elbows about 45 to 70 degrees from your sides, and aim for the spot where your forearms end up vertical. Touch that same spot every rep.",
+      "mistake": "Pressing straight up from the chest. The bar ends up over your face or your belly, and the top of the rep feels strangely heavy.",
+      "example": "Lower for 2 to 3 seconds, light touch just under the nipple line, press up and back so the bar finishes over your shoulder joints, right where you unracked it."
+    },
+    "chips": [
+      "How do I set up a bench press?",
+      "My elbows flare on bench",
+      "How do I film my lifts?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-054"
+    ]
+  },
+  {
+    "id": "dj-a-054",
+    "topic": "elbows",
+    "title": "Elbows flaring on bench press and push-ups",
+    "keys": [
+      "my elbows flare on bench",
+      "my elbows flare out",
+      "elbow flare",
+      "should i tuck my elbows",
+      "how much to tuck elbows on bench",
+      "elbows flaring on push ups",
+      "elbows out on bench press",
+      "elbow position on bench",
+      "flared elbows shoulder pain",
+      "tuck elbows push ups",
+      "elbows at 45 degrees",
+      "elbows flare on push ups"
+    ],
+    "match": "\\b(elbows? (flare|flares|flaring|flared)|flar(e|ing|ed) (my |your )?elbows|tuck(ing)? (my |your )?elbows|elbows (out|in) (on|during) (bench|push ?-?ups?|press))\\b",
+    "body": [
+      "Some flare is normal; a full flare is the problem. On bench and push-ups, aim for your elbows to sit around 45 to 70 degrees from your sides at the bottom, so from above your body and upper arms make an arrow shape, not a T.",
+      "Flaring straight out to 90 degrees puts the front of your shoulder in a tight spot under load, and it often comes with the bar drifting toward your neck. Tucking too hard, elbows glued to your ribs, shifts the work to your triceps and moves the bar too low on your belly.",
+      "The fix is a cue, not a fight. Think about bending the bar, or screwing your hands into the floor on push-ups. That small outward twist pulls your elbows into a better line without you having to think about angles."
+    ],
+    "more": {
+      "why": "Your shoulder is happiest pressing with the upper arm a bit in front of and below your shoulder line. A 90 degree flare stacks stress on the front of the shoulder with every rep.",
+      "how": "Grip the bar, then try to snap it in half by turning your hands outward. On push-ups, screw your hands into the floor so the creases of your elbows face slightly forward.",
+      "mistake": "Fixing flare by tucking so hard that your elbows touch your sides. That overcorrects into a different problem. A little gap is right.",
+      "example": "Film a set from straight on or from above. If your arms look like a capital T at the bottom, think arrow instead, and drop the weight 10 percent until it looks right."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Where does the bar touch my chest?",
+      "How do I do a push-up properly?",
+      "How do I train around a sore shoulder?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-053",
+      "dj-a-058"
+    ]
+  },
+  {
+    "id": "dj-a-055",
+    "topic": "wrists",
+    "title": "Wrists bending back or hurting when you press",
+    "keys": [
+      "my wrists hurt when i lift",
+      "wrists hurt on bench",
+      "wrist pain bench press",
+      "my wrists hurt on push ups",
+      "wrists bend back on bench",
+      "wrist position bench press",
+      "wrist hurts during push ups",
+      "should my wrists be straight",
+      "sore wrists from lifting",
+      "wrists hurt front squat",
+      "wrist pain push ups",
+      "bent wrists bench",
+      "wrists hurt when i press"
+    ],
+    "match": "\\b(wrists? (hurts?|pain|ache|aches|sore|bends?|bending|bent back|position)|(sore|bent|achy) wrists?|should my wrists be straight)\\b",
+    "body": [
+      "Most wrist pain on presses comes from the bar sitting too high in your hand. When it rests near your fingers, your wrist bends back like you are holding a tray, and the weight levers against the joint on every rep. Move the bar down into the heel of your palm, right over your forearm bones, and squeeze hard. Your knuckles should point more toward the ceiling than behind you.",
+      "On push-ups, spread your fingers wide, grip the floor with your fingertips, and keep your hands under your shoulders. If flat hands still bother you, push-up handles or a pair of hex dumbbells let your wrists stay straight.",
+      "A general ache that eases once you fix your grip is common. Sharp pain, painful clicking, numbness or swelling is not; get that checked by a doctor or physical therapist before you keep pressing."
+    ],
+    "more": {
+      "why": "A straight wrist passes force from the bar through your forearm bones. A bent wrist turns the joint into a hinge holding up the weight, and it was not built for that job.",
+      "how": "Set the bar diagonally across your palm at the base of your thumb, close your hand around it, and squeeze. From the side, your wrist should look close to flat with your forearm.",
+      "mistake": "Switching to a thumbless grip to make it comfortable. The bar can roll out of your hands on bench. Keep your thumbs wrapped.",
+      "home": "Push-ups with your hands on dumbbells, or fist push-ups on a padded floor, keep the wrist neutral if bent-back wrists bother you."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Loosening stiff wrists",
+      "Where should my grip be?",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-058"
+    ]
+  },
+  {
+    "id": "dj-a-056",
+    "topic": "dumbbell-press",
+    "title": "Dumbbell bench press, and getting the dumbbells up safely",
+    "keys": [
+      "dumbbell bench press",
+      "dumbbell bench press form",
+      "db bench",
+      "dumbbell chest press",
+      "how to do dumbbell bench press",
+      "how do i get dumbbells into position",
+      "dumbbell bench form",
+      "kick dumbbells up",
+      "how to put dumbbells down after bench",
+      "flat dumbbell press",
+      "dumbbell bench vs barbell",
+      "heavy dumbbells onto bench"
+    ],
+    "match": "\\b((dumbbell|db) (bench|chest)( press)?|flat (dumbbell|db) press|(kick|get) (the )?dumbbells (up|into position)|put (the )?dumbbells down)\\b",
+    "body": [
+      "The pressing is the easy part. The hard part is getting the dumbbells into position and back down without tweaking anything. Sit on the end of the bench with the dumbbells standing on your thighs. As you lie back, use your knees to kick them up to your chest, keeping them close the whole way.",
+      "Press them up over your shoulders, palms facing your feet or angled slightly in. Shoulder blades back and down, feet planted. Lower for two to three seconds until your hands are around chest level and your elbows sit a little below the bench, then press up and slightly in, without clanking them together at the top.",
+      "To finish, bring the dumbbells to your chest, pull your knees up to meet them, and rock back up to sitting. Never drop them out to the sides from the top."
+    ],
+    "more": {
+      "why": "Dumbbells let each arm work on its own and let your hands find a natural path. They are often friendlier on shoulders and wrists than a straight bar.",
+      "beginner": "Start lighter than you think. Many people use dumbbells that each weigh around 35 to 40 percent of their barbell bench, because balancing two weights takes practice.",
+      "mistake": "Lowering the dumbbells far past your chest for a huge stretch. A deep stretch is good; a stretch that pulls your shoulders forward off the bench is not.",
+      "advanced": "Try angling your palms toward each other about 30 degrees. Many lifters find it smoother on the shoulders while still loading the chest well."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I do incline press?",
+      "My elbows flare on bench",
+      "Dumbbell shoulder press form"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-057",
+      "dj-a-054"
+    ]
+  },
+  {
+    "id": "dj-a-057",
+    "topic": "incline-press",
+    "title": "Incline press form and the right bench angle",
+    "keys": [
+      "incline bench press",
+      "incline press form",
+      "incline dumbbell press",
+      "what angle for incline bench",
+      "incline bench angle",
+      "how steep should incline be",
+      "incline bench form",
+      "upper chest press",
+      "incline db press",
+      "low incline press",
+      "how do i do incline press",
+      "incline barbell press"
+    ],
+    "match": "\\b(incline (bench|press|dumbbell|db|barbell|chest)|upper chest press|(what|which) angle (for|on|should) (the |an |my )?incline|how steep (should )?(the |an |my )?incline)\\b",
+    "body": [
+      "Set the bench to about 30 degrees, which is the first or second notch on most benches. That angle puts more of the work on your upper chest while keeping your shoulders comfortable. Go much steeper, around 45 degrees and up, and it slowly turns into a shoulder press.",
+      "Use the same setup as flat pressing: shoulder blades back and down, feet planted, a small arch. Lower the bar or dumbbells to your upper chest, a little below your collarbones, with your forearms vertical at the bottom. Press up and slightly back so the weight finishes over your shoulders.",
+      "Expect to use less weight than on a flat bench. That is normal, and a sign the angle is doing its job."
+    ],
+    "more": {
+      "why": "The upper fibers of your chest run at an upward angle. Pressing on a moderate incline lines the movement up with those fibers.",
+      "how": "Bench at about 30 degrees, set your back, lower in 2 to 3 seconds to just under your collarbones, touch lightly, press up and back.",
+      "mistake": "Cranking the bench too steep, then wondering why your shoulders are fried and your chest feels nothing. Lower the angle first.",
+      "beginner": "Start with dumbbells on the incline. They are easier to set up on your own and let your arms find a comfortable path."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I set up a bench press?",
+      "I feel bench in my shoulders",
+      "Dumbbell bench press form"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-056"
+    ]
+  },
+  {
+    "id": "dj-a-058",
+    "topic": "push-up",
+    "title": "Push-up form, the plank that moves",
+    "keys": [
+      "push up form",
+      "pushup form",
+      "how to do a push up",
+      "how do i do a push-up properly",
+      "how do i do a push up properly",
+      "proper push up",
+      "push up technique",
+      "are my push ups right",
+      "good push up form",
+      "how do i do push ups",
+      "correct push up",
+      "perfect push up form",
+      "push ups properly"
+    ],
+    "match": "\\b((proper|good|correct|perfect|right) push ?-?ups?|push ?-?ups? (form|technique|properly)|how (do i|to) do (a )?push ?-?ups?)\\b",
+    "body": [
+      "A push-up is a plank that moves. Hands a little wider than your shoulders, fingers spread, shoulders stacked over your wrists. Squeeze your glutes and brace your stomach so your body is one straight line from your head to your heels, and keep it that way the whole time.",
+      "Lower for two to three seconds until your chest is about a fist's height from the floor, elbows angled back around 45 degrees rather than straight out to the sides. Then push the floor away until your arms are straight and your shoulder blades spread apart at the top.",
+      "If your hips sag or your head pokes forward before your chest gets low, this version is too hard today. That is not failure, it is information. Raise your hands onto a bench and own the full range there."
+    ],
+    "more": {
+      "why": "The brace is what makes push-ups a core exercise as well as a chest one. A sagging middle shifts stress onto your lower back and cuts the work your chest does.",
+      "how": "Hands slightly wider than shoulders, glutes and stomach tight, lower 2 to 3 seconds, chest near the floor, elbows at about 45 degrees, push away and spread your shoulder blades at the top.",
+      "mistake": "Tiny half reps with your head bobbing toward the floor. Ten partial push-ups do less for you than five full ones on an incline.",
+      "home": "Push-ups are one of the best upper body moves you can do at home. A couch arm, a counter or the stairs give you an easier angle when you need one."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Push-up progressions",
+      "Should I tuck my elbows?",
+      "My wrists hurt on push-ups"
+    ],
+    "related": [
+      "dj-a-059",
+      "dj-a-054",
+      "dj-a-055"
+    ]
+  },
+  {
+    "id": "dj-a-059",
+    "topic": "push-up",
+    "title": "Push-up progressions when you cannot do one yet",
+    "keys": [
+      "push-up progressions",
+      "push up progression",
+      "i cant do a push up",
+      "cant do a single push up",
+      "how do i get my first push up",
+      "wall push ups",
+      "incline push ups",
+      "knee push ups",
+      "are knee push ups ok",
+      "how to build up to push ups",
+      "beginner push ups",
+      "easier push ups",
+      "push ups are too hard"
+    ],
+    "match": "\\b(push ?-?up progressions?|(can'?t|cannot|can not) do (a |one |a single |any )?push ?-?ups?|first push ?-?up|(wall|incline|knee|kneeling) push ?-?ups?|build up to (a )?push ?-?ups?|(beginner|easier) push ?-?ups?|push ?-?ups? (are )?too hard)\\b",
+    "body": [
+      "Start where you are, and let the angle do the rest. The higher your hands, the easier the push-up. Begin with your hands on a wall, then a kitchen counter, then a sturdy bench or step, and finally the floor. Every level is a real push-up with real form, just with less of your body weight.",
+      "Work at a height where you can do 3 sets of 8 to 12 with a straight body line and your chest coming close to the edge. When 3 sets of 12 are clean, move down to the next height. Plenty of people go from wall to floor in a few months of training two or three times a week.",
+      "Knee push-ups are fine too, but incline push-ups usually carry over better, because you practice holding the full plank from head to heels. Slow lowering reps from the floor, four or five seconds down, make a great finisher once you are on a low step."
+    ],
+    "more": {
+      "why": "Raising your hands shifts weight from your arms to your feet. You practice the exact movement with a load you can control, which builds strength and skill at the same time.",
+      "how": "Wall, then counter, then bench, then a low step, then the floor. Stay at each level until 3 sets of 12 feel clean, then move down one.",
+      "example": "Week 1: counter push-ups, 3 x 10. Week 4: bench push-ups, 3 x 8. Week 8: bench, 3 x 12. Week 10: a low step, 3 x 8. That is real progress, and every rep counts.",
+      "mistake": "Jumping to the floor too early and doing saggy half reps. The incline is not a lesser version; it is the ladder.",
+      "home": "The stairs at home make a perfect progression ladder. Start with your hands on the fourth or fifth step and move down one step at a time."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I do a push-up properly?",
+      "Why are negatives so hard?",
+      "My wrists hurt on push-ups"
+    ],
+    "related": [
+      "dj-a-058",
+      "dj-a-055"
+    ]
+  },
+  {
+    "id": "dj-a-060",
+    "topic": "overhead-press",
+    "title": "Standing overhead press form without leaning back",
+    "keys": [
+      "overhead press form",
+      "standing overhead press",
+      "ohp form",
+      "how to overhead press",
+      "military press",
+      "standing press",
+      "barbell overhead press",
+      "barbell shoulder press",
+      "strict press",
+      "overhead press lower back",
+      "leaning back on overhead press",
+      "how do i press overhead"
+    ],
+    "match": "\\b(overhead press|ohp|military press|strict press|standing (barbell )?press|press(ing)? overhead|barbell shoulder press)\\b",
+    "body": [
+      "Stand with your feet about hip width, the bar resting on the front of your shoulders and your hands just outside them, forearms vertical. Squeeze your glutes hard and brace your stomach. That squeeze is what keeps your lower back from arching as the bar goes up.",
+      "Press the bar straight up, moving your head back a little to let it pass your chin, then push your head forward through the window once the bar clears your forehead. Finish with the bar over the middle of your feet, arms locked, biceps near your ears. Lower it under control back to your shoulders.",
+      "If you are leaning back to get the bar up, it is too heavy today. The press is a strict lift. Take off some weight, squeeze your glutes, and own it."
+    ],
+    "more": {
+      "why": "Squeezing your glutes and bracing locks your ribs down over your hips. Without that, your lower back arches and the press turns into a sloppy incline press with your spine as the bench.",
+      "how": "Bar on your front shoulders, grip just outside them, glutes and stomach tight, press up, head back then through, lock out over mid-foot, lower in 2 seconds.",
+      "mistake": "Pressing the bar out around your face instead of straight up. Move your head out of the way; do not move the bar around your head.",
+      "beginner": "Learn the pattern with dumbbells, seated, or a light bar standing. Pressing overhead takes shoulder and upper back mobility, so loosen those first if the bar feels stuck in front of you."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "My ribs flare when I press overhead",
+      "Dumbbell shoulder press form",
+      "Improving shoulder mobility"
+    ],
+    "related": [
+      "dj-a-061",
+      "dj-a-072"
+    ]
+  },
+  {
+    "id": "dj-a-061",
+    "topic": "shoulder-press",
+    "title": "Dumbbell shoulder press form, seated or standing",
+    "keys": [
+      "dumbbell shoulder press",
+      "dumbbell shoulder press form",
+      "seated dumbbell press",
+      "seated shoulder press",
+      "dumbbell overhead press",
+      "db shoulder press",
+      "arnold press",
+      "shoulder press form",
+      "how to do shoulder press",
+      "shoulder press with dumbbells",
+      "how low on shoulder press",
+      "seated db press"
+    ],
+    "match": "\\b((dumbbell|db|seated) (shoulder|overhead) press|seated (dumbbell|db) press|arnold press(es)?|shoulder press (form|with dumbbells|technique)|how (low|far down) (on|for|should i go on) (the )?shoulder press)\\b",
+    "body": [
+      "Set the bench upright or one notch back from upright, and sit with your back against the pad and your feet planted. Bring the dumbbells to your shoulders with your elbows slightly in front of your body, not straight out to the sides, palms facing forward or angled a little in.",
+      "Press up until your arms are nearly straight and the dumbbells are over your shoulders, close but not touching. Lower for two to three seconds until the dumbbells are around ear or chin height, then press again. Keep your ribs down and your back against the pad the whole time.",
+      "Standing works too and asks more of your core. Either way, the weight goes up in a straight line over your shoulders, not out wide."
+    ],
+    "more": {
+      "why": "Bringing your elbows a little forward lines the press up with how your shoulder joint actually moves. Straight out to the sides is a cramped position for most shoulders.",
+      "how": "Bench upright, dumbbells at your shoulders, elbows slightly forward, press up over the shoulders, lower to about ear height in 2 to 3 seconds.",
+      "mistake": "Arching off the back pad to finish the rep. If your lower back peels away, the weight is too heavy or the bench is reclined too far.",
+      "advanced": "Arnold presses rotate your palms from facing you at the bottom to facing forward at the top. Keep them slow and light; they are a control drill more than a strength lift."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Standing overhead press form",
+      "Lateral raise form",
+      "My ribs flare when I press overhead"
+    ],
+    "related": [
+      "dj-a-060",
+      "dj-a-062"
+    ]
+  },
+  {
+    "id": "dj-a-062",
+    "topic": "lateral-raise",
+    "title": "Lateral raises that hit your side delts, not your traps",
+    "keys": [
+      "lateral raise form",
+      "lateral raises",
+      "side raises",
+      "how to do lateral raises",
+      "side lateral raise",
+      "lateral raise traps",
+      "i feel lateral raises in my traps",
+      "how heavy for lateral raises",
+      "cable lateral raise",
+      "side delt raise",
+      "side delts",
+      "lat raise"
+    ],
+    "match": "\\b(lat(eral)? raises?|side (lateral |delt )?raises?|side delts?)\\b",
+    "body": [
+      "Light, slow and wide. Hold a pair of light dumbbells at your sides with a slight bend in your elbows, and lean forward just a touch from your hips. Lead with your elbows and raise your arms out to the sides until they are about level with your shoulders, like you are pushing the dumbbells out toward the walls rather than up toward the ceiling.",
+      "Pause for a beat at the top, then lower for two to three seconds. Keep your shoulders down away from your ears the whole time. If your traps are doing the work, you will feel it in your neck, and the dumbbells are probably too heavy.",
+      "Most people use far more weight than this muscle wants. Sets of 12 to 20 with 5 to 15 lb dumbbells will do more than swinging 25s."
+    ],
+    "more": {
+      "why": "Your side delts are small, and they work best through a slow, controlled arc. Heavy weights recruit your traps and momentum instead, so the target muscle gets less of the work.",
+      "how": "Slight forward lean, soft elbows, lead with the elbows, raise to shoulder height, pause, lower in 2 to 3 seconds, shoulders down the whole time.",
+      "mistake": "Shrugging the weight up and swinging your body. If you need a hip kick to start the rep, go lighter.",
+      "advanced": "Cable lateral raises keep tension at the bottom of the rep, where dumbbells go slack. Stand side-on to a low pulley and raise across your body.",
+      "home": "Water bottles or a light resistance band under your feet work fine. The muscle cares about the slow arc more than the exact weight."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is mind muscle connection?",
+      "Rear delt fly form",
+      "Dumbbell shoulder press form"
+    ],
+    "related": [
+      "dj-a-061",
+      "dj-a-063"
+    ]
+  },
+  {
+    "id": "dj-a-063",
+    "topic": "rear-delts",
+    "title": "Rear delt flyes and reverse flyes done right",
+    "keys": [
+      "rear delt fly",
+      "rear delt flyes",
+      "reverse fly",
+      "reverse flyes",
+      "rear delt form",
+      "rear delts",
+      "bent over reverse fly",
+      "reverse pec deck",
+      "rear delt machine",
+      "how to train rear delts",
+      "rear delt raise",
+      "back of my shoulders exercise"
+    ],
+    "match": "\\b(rear (delt|deltoid)s?|reverse (fl(y|ies|yes)|pec ?deck)|back of (my |the )?shoulders? exercises?)\\b",
+    "body": [
+      "Your rear delts are the small muscles on the back of your shoulders, and they respond to light weight and a long, slow arc. For a bent-over reverse fly, hinge forward until your chest is close to parallel with the floor, let light dumbbells hang under your shoulders with soft elbows, and sweep them out to the sides in a wide arc until your arms are level with your body.",
+      "Think about moving your hands out and wide, not squeezing your shoulder blades together. When the shoulder blades pinch hard, your mid back takes over. Pause briefly, then lower for two to three seconds.",
+      "On the reverse pec deck, set the handles so your arms start straight out in front at shoulder height, use a neutral grip, and push out to the sides until your arms line up with your body."
+    ],
+    "more": {
+      "why": "Strong rear delts help balance all the pressing most people do, and they support the position of your shoulders. They are small, so they need lighter weights and stricter reps than people expect.",
+      "how": "Hinge, light dumbbells, soft elbows, sweep wide until your arms line up with your body, pause, lower slowly. 2 to 3 sets of 12 to 20.",
+      "mistake": "Rowing the weight instead of flying it. If your elbows bend more and more as the set goes on, the weight is too heavy.",
+      "beginner": "Start with 5 to 10 lb dumbbells or a light machine setting. Lying chest down on an incline bench removes the balance and the guesswork."
+    },
+    "chips": [
+      "Face pull form",
+      "Lateral raise form",
+      "How do I fix rounded shoulders?"
+    ],
+    "related": [
+      "dj-a-064",
+      "dj-a-062"
+    ]
+  },
+  {
+    "id": "dj-a-064",
+    "topic": "face-pull",
+    "title": "Face pulls, the posture exercise people rush",
+    "keys": [
+      "face pull form",
+      "face pulls",
+      "how to do face pulls",
+      "face pull rope",
+      "face pull height",
+      "face pulls for posture",
+      "cable face pull",
+      "band face pull",
+      "face pull technique",
+      "are face pulls good"
+    ],
+    "match": "\\bface ?-?pulls?\\b",
+    "body": [
+      "Set a cable pulley at about forehead height with the rope attachment. Grab the rope with your thumbs pointing back toward you, step back until your arms are straight, and stand tall with your ribs down.",
+      "Pull the rope toward your face, splitting the ends apart so your hands finish beside your ears and your elbows end up high and wide. At the end, try to rotate your hands back, like showing off a double biceps pose. Pause for one second, then let your arms straighten slowly over two to three seconds.",
+      "This is a control exercise. Light weight, 12 to 20 reps, every rep identical. If you are leaning back and yanking, the stack is too heavy."
+    ],
+    "more": {
+      "why": "Face pulls train your rear delts and the small muscles that rotate your shoulders outward. They balance out pressing and sitting, both of which pull your shoulders forward.",
+      "how": "Pulley at forehead height, rope, thumbs back, pull toward your face while pulling the rope apart, elbows high, rotate your hands back, pause, return slowly.",
+      "mistake": "Pulling to your chest with your elbows low. That turns it into a row. Hands go to your ears and elbows stay up.",
+      "home": "A resistance band anchored in a door at head height works just as well. Same path, same pause."
+    },
+    "chips": [
+      "Rear delt fly form",
+      "How do I fix rounded shoulders?",
+      "How do I use cable machines?"
+    ],
+    "related": [
+      "dj-a-063",
+      "dj-a-067"
+    ]
+  },
+  {
+    "id": "dj-a-065",
+    "topic": "chest-fly",
+    "title": "Chest flyes with dumbbells, cables or the pec deck",
+    "keys": [
+      "chest fly",
+      "chest flyes",
+      "chest flies",
+      "dumbbell fly",
+      "dumbbell flyes",
+      "cable fly",
+      "cable crossover",
+      "pec deck",
+      "pec fly",
+      "how to do chest flies",
+      "chest fly form",
+      "fly machine",
+      "cable chest fly"
+    ],
+    "match": "\\b((chest|dumbbell|db|cable|pec) fl(y|ies|yes)|cable crossovers?|(?<!reverse )pec ?deck|fly machine)\\b",
+    "body": [
+      "A fly is a hug, not a press. Keep a soft, fixed bend in your elbows for the whole rep and move only at your shoulders. With dumbbells, lie on a flat bench with the weights over your chest, palms facing each other, and open your arms in a wide arc until you feel a good stretch across your chest with your upper arms about level with your body.",
+      "Then bring them back up along the same arc, like hugging a big tree, and squeeze your chest at the top. Lower for three seconds. On cables or the pec deck, the same idea applies: soft elbows, shoulder blades back, and a stretch you control instead of one that yanks you.",
+      "Go lighter than you think. Flyes put a long lever on your shoulder, so the stretch should feel strong, never sharp."
+    ],
+    "more": {
+      "why": "Flyes train the chest through a big stretch with little help from your triceps. That makes them a good finisher after your presses.",
+      "how": "Soft elbows, wide arc down for 3 seconds to a strong stretch, hug back up, squeeze, repeat. 2 to 3 sets of 10 to 15.",
+      "mistake": "Bending your elbows more as the weight comes down and turning it into a sloppy press. Keep the same elbow angle every rep.",
+      "beginner": "The pec deck is the easiest place to learn a fly, because the machine controls the arc for you. Set the seat so the handles line up with your mid chest."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "How slow should I lower the weight?",
+      "How do I use cable machines?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-056"
+    ]
+  },
+  {
+    "id": "dj-a-066",
+    "topic": "dips",
+    "title": "Dips without wrecking your shoulders",
+    "keys": [
+      "dips form",
+      "how to do dips",
+      "chest dips",
+      "tricep dips",
+      "parallel bar dips",
+      "assisted dips",
+      "dip machine",
+      "bench dips",
+      "are dips bad for shoulders",
+      "dips hurt my shoulders",
+      "how deep should i go on dips",
+      "dip station"
+    ],
+    "match": "\\b((chest|tricep|triceps|parallel bar|assisted|bench|ring) dips?|dips? (form|machine|station)|how (to do|deep should i go on) dips|dips (hurt|are bad|bad))\\b",
+    "body": [
+      "Dips are a great exercise when you control the depth. On parallel bars, start at the top with your arms straight and your shoulders pressed down away from your ears. Lean forward slightly, then lower for two to three seconds until your upper arms are about parallel with the floor, or a little above if your shoulders complain. Press back up to straight arms.",
+      "Going deeper than parallel stretches the front of the shoulder hard under your full body weight, and that is where people get into trouble. Your shoulders should never roll forward or shrug up at the bottom.",
+      "If you cannot do 6 clean reps yet, use the assisted dip machine or a band, or do slow lowering reps only. Bench dips, hands behind you on a bench, put the shoulder in a cramped spot for many people; I would rather you did close-grip push-ups."
+    ],
+    "more": {
+      "why": "Dips load your chest, triceps and the front of your shoulders with your whole body weight. That is a lot of load on the shoulder at the bottom, so depth control matters.",
+      "how": "Straight arms, shoulders down, slight forward lean, lower 2 to 3 seconds to upper arms parallel, press up. End the set when the bottom position starts to change.",
+      "mistake": "Bouncing out of the deepest point you can reach. That is the position the shoulder likes least, at the highest speed.",
+      "beginner": "Start on the assisted dip machine with enough help to do 8 to 10 smooth reps, and take away a little help each week."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I train around a sore shoulder?",
+      "Triceps pushdown form",
+      "How do I do a push-up properly?"
+    ],
+    "related": [
+      "dj-a-058",
+      "dj-a-054"
+    ]
+  },
+  {
+    "id": "dj-a-067",
+    "topic": "shoulder-blades",
+    "title": "What to do with your shoulder blades when you lift",
+    "keys": [
+      "what do i do with my shoulder blades",
+      "retract shoulder blades",
+      "shoulder blades back and down",
+      "scapula position",
+      "pinch shoulder blades",
+      "should i squeeze my shoulder blades",
+      "scapular retraction",
+      "shoulder blade position",
+      "scap retraction",
+      "shoulders back and down",
+      "set my shoulder blades"
+    ],
+    "match": "\\b(what (do i|to) do with (my |your )?shoulder ?blades|(retract|pinch|squeeze|set)(ing)? (my |your )?(shoulder ?blades|scap\\w*)|shoulder ?blades? (back and down|position)|shoulders back and down|scap(ula|ular)? (position|retraction)|scapular retraction)\\b",
+    "body": [
+      "It depends on the lift, and that is the part nobody explains. On bench press and any pressing while lying down, pull your shoulder blades back and down and keep them pinned for the whole set. The bench holds them in place and gives you a stable base to press from.",
+      "On rows and pulldowns, let them move: let your shoulder blades spread and rise a little as you reach, then pull them back and down as you finish. On push-ups, they come together as you lower and spread apart at the top. And on overhead pressing they should rotate upward as your arms go up; pinning them back fights the movement.",
+      "Standing and carrying, aim for neutral: shoulders relaxed and slightly back, not hiked toward your ears and not forced into a military pinch."
+    ],
+    "more": {
+      "why": "Your shoulder blades are the base your arms move from. Pinned when you need a stable platform and free when the arm needs to travel is how a shoulder stays happy.",
+      "how": "Bench: back and down, locked. Rows: reach, then pull back. Push-ups: together, then apart. Overhead: let them rotate up. Standing: relaxed and neutral.",
+      "mistake": "Squeezing your shoulder blades back on every exercise and all day long. Rigid all the time is not good posture; it is just a different kind of stuck.",
+      "beginner": "Practice the movement on its own: a few slow scapular push-ups or band pull-aparts in your warm-up teach you what shoulder blades moving actually feels like."
+    },
+    "chips": [
+      "How do I set up a bench press?",
+      "I feel rows in my arms",
+      "How do I fix rounded shoulders?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-064"
+    ]
+  },
+  {
+    "id": "dj-a-068",
+    "topic": "machine-press",
+    "title": "Chest press and shoulder press machines, set up right",
+    "keys": [
+      "chest press machine",
+      "machine chest press",
+      "seated chest press",
+      "shoulder press machine",
+      "machine shoulder press",
+      "how to use chest press machine",
+      "chest press seat height",
+      "chest press machine form",
+      "shoulder press machine form",
+      "plate loaded chest press",
+      "hammer strength press"
+    ],
+    "match": "\\b(machine (chest|shoulder) press|seated chest press|(chest|shoulder) press machine|chest press seat|plate loaded (chest|shoulder) press|hammer strength (press|chest))\\b",
+    "body": [
+      "Set the seat so the handles line up with the middle of your chest for a chest press, or just about shoulder height for a shoulder press. Sit back with your whole back on the pad, feet flat on the floor, and pull your shoulder blades back and down before you push.",
+      "Press out until your arms are nearly straight without slamming into lockout, then bring the handles back for two to three seconds until you feel a good stretch, stopping before your shoulders roll forward off the pad. Keep your wrists straight with the handles in the heel of your palm.",
+      "Machines are not a lesser option. They let you push hard with less to balance, which makes them great for beginners, for training around a cranky joint, and for the last sets of a session when your free weight form would start to slide."
+    ],
+    "more": {
+      "why": "Seat height decides which part of the movement you get. Handles too high turn a chest press into a shoulder press; too low and you end up pressing from your belly.",
+      "how": "Seat so the handles are at mid chest, back flat on the pad, shoulder blades set, press for 1 second, return for 2 to 3 seconds to a stretch, repeat.",
+      "mistake": "Letting your shoulders shrug up and forward at the end of each press. Keep them down and back against the pad.",
+      "beginner": "Write your seat setting in your log notes. Next session you sit down, set it in five seconds, and get straight to work."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I set up a machine?",
+      "Machines or free weights first?",
+      "How do I set up a bench press?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-061"
+    ]
+  },
+  {
+    "id": "dj-a-069",
+    "topic": "bench-press",
+    "title": "Feeling bench press in your shoulders instead of your chest",
+    "keys": [
+      "i feel bench in my shoulders",
+      "bench press shoulders not chest",
+      "i feel bench press in my front delts",
+      "chest not working on bench",
+      "cant feel my chest on bench",
+      "bench hurts my shoulders",
+      "shoulders take over on bench",
+      "i dont feel my chest",
+      "feel chest press in my shoulders",
+      "shoulder pain on bench",
+      "bench press shoulder pain"
+    ],
+    "match": "\\b((feel|feeling) (the )?(bench|chest press|press(ing)?|push ?-?ups?)( press)? (in|with) my (shoulders?|front delts?|arms|triceps)|(can'?t|cannot|don'?t|dont) feel my chest|shoulders take over|bench (press )?(hurts|bothers) my shoulders?|shoulder pain (on|during|from) bench)\\b",
+    "body": [
+      "Usually your shoulder blades are coming loose. When they slide forward off the bench during the press, the front of your shoulders takes over and your chest gets less of the work. Before you unrack, pull your shoulder blades back and down, keep a small arch, and imagine pushing yourself away from the bar rather than pushing the bar away from you.",
+      "Check two more things. Elbows flared straight out to the sides put more stress on the shoulders, so aim for about 45 to 70 degrees. And a very narrow grip shifts more of the load toward your triceps and front delts; a grip a bit wider than your shoulders usually hits the chest best.",
+      "Feeling your shoulders work is normal; they help on every press. A pinch or sharp pain is different. If that happens, stop the set and switch to dumbbells or a machine press, and if it keeps happening, see a physical therapist."
+    ],
+    "more": {
+      "why": "Your chest and front delts both press. Which one does more depends on your shoulder blade position, your elbow angle and your grip, so small setup changes shift the work a lot.",
+      "how": "Shoulder blades back and down, grip a little wider than your shoulders, elbows at about 45 to 70 degrees, lower to the lower chest in 2 to 3 seconds, press without letting your shoulders roll up.",
+      "mistake": "Trying to fix it by adding weight. More load just exaggerates whatever pattern you already have. Lighten it and get the setup right first.",
+      "example": "Try 3 sets of 10 with 20 percent less weight, a 3 second lower and a one second pause on your chest. Most people feel their chest more within a set or two."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I set up a bench press?",
+      "My elbows flare on bench",
+      "What is mind muscle connection?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-054",
+      "dj-a-067"
+    ]
+  },
+  {
+    "id": "dj-a-070",
+    "topic": "shrugs",
+    "title": "Shrugs, straight up and straight down",
+    "keys": [
+      "how to do shrugs",
+      "shrug form",
+      "dumbbell shrugs",
+      "barbell shrugs",
+      "should i roll my shoulders on shrugs",
+      "trap shrugs",
+      "how to train traps",
+      "trap exercises",
+      "shrug technique",
+      "rolling shrugs",
+      "shrugs for traps"
+    ],
+    "match": "\\b((dumbbell|barbell|trap|db|bb|rolling|smith( machine)?) shrugs?|shrug(s|ging)? (form|technique)|how to (do )?shrugs|roll my shoulders on shrugs|train(ing)? (my )?traps|trap exercises|shrugs for traps)\\b",
+    "body": [
+      "Straight up and straight down. Hold dumbbells at your sides or a barbell in front of your thighs, stand tall, and lift your shoulders straight up toward your ears as high as they go. Pause for a full second at the top, then lower slowly until your shoulders hang heavy and low.",
+      "No rolling. Rolling your shoulders forward or back adds nothing for your traps and grinds the joint for no reason. Keep your arms straight and your neck relaxed, and do not jut your chin forward to help the weight up.",
+      "Shrugs can handle fairly heavy weight, but the pause is where they work. Sets of 10 to 15 with a one second hold at the top beat heavy half reps that barely move."
+    ],
+    "more": {
+      "why": "Your upper traps lift your shoulder blades straight up. That is the whole job, so that is the whole movement.",
+      "how": "Tall posture, arms straight, shoulders straight up, pause 1 second, lower over 2 seconds to a full stretch. 2 to 3 sets of 10 to 15.",
+      "mistake": "Bending your elbows to help the weight up. That turns it into an awkward upright row. Your arms stay long.",
+      "beginner": "Farmer's carries train your traps and grip at the same time, and they are a great place to start before you add shrugs."
+    },
+    "chips": [
+      "How do I do farmer's carries?",
+      "My grip gives out first",
+      "How do I fix rounded shoulders?"
+    ],
+    "related": [
+      "dj-a-064"
+    ]
+  },
+  {
+    "id": "dj-a-071",
+    "topic": "bench-press",
+    "title": "Arching on bench press, and where your feet go",
+    "keys": [
+      "should i arch my back on bench",
+      "arch on bench press",
+      "bench arch",
+      "is arching on bench cheating",
+      "lower back arch on bench",
+      "where do my feet go on bench",
+      "leg drive on bench",
+      "feet up on bench press",
+      "bench press feet position",
+      "butt off the bench",
+      "does arching help bench"
+    ],
+    "match": "\\b(arch(ing)? (my back )?(on|for|during|in) (the )?bench|bench( press)? arch|is arching|leg drive|feet (up )?on (the )?bench|where (do|should) my feet go on (the )?bench|bench( press)? feet|butt (comes )?off the bench)\\b",
+    "body": [
+      "A small, natural arch is good, and it is not cheating. When you pull your shoulder blades back and down and keep your chest proud, your lower back lifts slightly off the bench on its own. That arch keeps your shoulders in a safer spot and shortens the bar's path a little. Your butt, upper back and head stay in contact with the bench.",
+      "Your feet go flat on the floor, a bit wider than your hips, usually slightly behind your knees. Push them into the floor as if you were trying to slide yourself up the bench toward your head. That push, called leg drive, keeps your whole body tight.",
+      "Feet up on the bench makes you less stable, not more. If your lower back cramps or complains in a big arch, keep the arch smaller. Comfortable and tight beats dramatic."
+    ],
+    "more": {
+      "why": "Your feet, butt and upper back are the three points that hold you in place. Driving through your feet gives your upper body something solid to press against.",
+      "how": "Shoulder blades set, chest up, small arch, feet flat and slightly behind your knees, push the floor away, butt stays down, then unrack.",
+      "mistake": "Lifting your butt off the bench to grind a rep up. That rep does not count, and it can strain your lower back.",
+      "beginner": "If your feet do not reach the floor flat, put a plate or a low step under each foot. Stable feet first."
+    },
+    "chips": [
+      "How do I set up a bench press?",
+      "Where does the bar touch my chest?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-052",
+      "dj-a-053"
+    ]
+  },
+  {
+    "id": "dj-a-072",
+    "topic": "landmine",
+    "title": "Landmine press, the shoulder friendly overhead option",
+    "keys": [
+      "landmine press",
+      "landmine shoulder press",
+      "single arm landmine press",
+      "half kneeling landmine press",
+      "shoulder friendly press",
+      "overhead press hurts my shoulder",
+      "alternative to overhead press",
+      "cant press overhead",
+      "landmine exercises",
+      "angled press"
+    ],
+    "match": "\\b(landmine( shoulder| chest)? press(es)?|landmine|shoulder ?-?friendly press(ing)?|alternative to (the )?overhead press|(can'?t|cannot) press overhead|overhead press(ing)? (hurts|bothers) my shoulders?)\\b",
+    "body": [
+      "When straight overhead pressing does not feel good, the landmine press is my first swap. One end of a barbell sits in a landmine attachment or wedged into a corner; you hold the other end at your shoulder and press it up and forward on an angle. That angle lets your shoulder blade move naturally and keeps your arm out of the cramped overhead position.",
+      "Try it half kneeling: the knee on your pressing side is down, the other foot is forward. Squeeze the glute of the down leg, brace, and press the bar up and forward until your arm is straight, letting your shoulder blade glide forward at the top. Lower for two to three seconds back to your shoulder.",
+      "Sets of 8 to 12 per side. Start with just the empty bar; the angle makes it feel heavier than you expect."
+    ],
+    "more": {
+      "why": "The angled path of a landmine press sits between a bench press and an overhead press. It trains the shoulders and upper chest without needing full overhead mobility.",
+      "how": "Bar end at your shoulder, half kneeling, glute tight, press up and forward to a straight arm, let the shoulder blade reach, lower in 2 to 3 seconds.",
+      "mistake": "Leaning your whole torso back to press. Stay tall and let the bar travel forward; that is the whole point of the angle.",
+      "beginner": "If the empty bar is too much one-handed, hold the end with both hands and press from the center of your chest first."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I train around a sore shoulder?",
+      "Standing overhead press form",
+      "Improving shoulder mobility"
+    ],
+    "related": [
+      "dj-a-060",
+      "dj-a-061"
+    ]
+  }
+]

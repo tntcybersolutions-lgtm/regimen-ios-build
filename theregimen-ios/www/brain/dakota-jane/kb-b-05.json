@@ -1,0 +1,838 @@
+[
+  {
+    "id": "dj-b-089",
+    "topic": "comebacks",
+    "title": "Coming back after a long break",
+    "keys": [
+      "coming back after a long break",
+      "coming back after a break",
+      "getting back into the gym after months off",
+      "returning to the gym after a year",
+      "starting again after time off",
+      "how do i restart working out",
+      "back to the gym after a long time",
+      "havent worked out in months",
+      "havent lifted in years",
+      "getting back into lifting",
+      "restarting after a break",
+      "back after time off"
+    ],
+    "match": "\\b(coming back (to the gym |to lifting )?after (a |an )?(long )?(break|time off|layoff|hiatus|year|months?)|(getting|get) back (into|to) (the gym|lifting|working out|training)|return(ing)? to (the gym|lifting|training) after|haven'?t (worked out|lifted|trained|been to the gym) in (months|years|a year|a long time)|havent (worked out|lifted|trained) in|(start|starting|restart|restarting) (again |working out )?after (a |some )?(break|time off)|restart working out|back after time off)\\b",
+    "body": [
+      "Welcome back. Truly. Coming back can be harder than starting the first time, because you remember what you used to lift. So let that number go for a few weeks. Start where you are now, and let the old you be a pleasant surprise you catch up to.",
+      "For the first two weeks, train two or three times a week with about half your usual sets and weights around 50 to 60 percent of what you used to use, stopping every set with three or four reps left. Expect real soreness after the first few sessions, even with light weights. In weeks three and four, build toward your normal sets and add weight steadily as long as your form stays clean.",
+      "The good news: muscle memory is real. Strength you built before tends to come back much faster than it took to build the first time, often within a couple of months. Be patient for six weeks, and you will be glad you were."
+    ],
+    "more": {
+      "why": "Your muscles regain strength quickly, but your tendons, joints and work capacity take a little longer. Starting light gives everything time to catch up, which is how comebacks avoid turning into new aches.",
+      "how": "Weeks 1 to 2: 2 to 3 full-body sessions, 2 sets per exercise, 50 to 60 percent of your old weights. Weeks 3 to 4: 3 sets, add weight each session if reps feel smooth. Week 5 on: back to your normal plan.",
+      "mistake": "Jumping straight back to your old weights in week one. It feels fine on the day and terrible for the next four, and that soreness is what makes people quit again.",
+      "example": "Used to goblet squat 50 lb for 10. Week 1: 25 to 30 lb, 2 x 10. Week 3: 40 lb, 3 x 10. Week 6: 50 lb again, and it moves well."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How much strength do I lose?",
+      "Why am I so sore?",
+      "How do I build a gym habit?"
+    ],
+    "related": [
+      "dj-b-046",
+      "dj-b-079"
+    ]
+  },
+  {
+    "id": "dj-b-090",
+    "topic": "comebacks",
+    "title": "Training after being sick",
+    "keys": [
+      "training after being sick",
+      "working out after a cold",
+      "when can i work out after being sick",
+      "should i work out when sick",
+      "gym after the flu",
+      "working out with a cold",
+      "back to the gym after illness",
+      "lifting after being ill",
+      "can i train with a cold",
+      "sick should i lift",
+      "exercise after being sick"
+    ],
+    "match": "\\b((train|training|work(ing)? ?out|lift(ing)?|exercis(e|ing)|gym) (after|with|when) (being |getting )?(sick|ill|a cold|the flu|covid|an illness|illness)|(should|can) i (work ?out|train|lift|exercise) (when|while|if) (i'?m |i am |im )?(sick|ill)|back to the gym after (the flu|a cold|illness|being sick)|sick should i|train with a cold)\\b",
+    "body": [
+      "A simple rule many people use: if everything is above the neck, like a runny nose or a mild sore throat, light activity is usually fine if you feel up to it. If anything is below the neck, like a fever, body aches, chest congestion, an upset stomach or a deep cough, rest until it passes. Then wait a day or two after any fever is gone before training.",
+      "When you come back, take it easy. Your first session should be about half your normal sets at lighter weights, stopping well short of hard. If you feel fine the next day, build back up over the following week. A long illness, or one that wiped you out, deserves a longer, slower ramp.",
+      "If you were seriously ill, were in the hospital, or have lingering chest pain, shortness of breath, a racing heart or dizziness, check with your doctor before training again. That is not something to push through."
+    ],
+    "more": {
+      "why": "Fighting off an illness takes energy. Hard training on top of it competes for the same resources and can leave you feeling worse or sick for longer.",
+      "how": "Feel better, wait a day or two with no fever, then do a short session at about half your normal sets and lighter weights. Add a little more each session for a week.",
+      "mistake": "Testing yourself with a hard workout the first day you feel okay. The first good day is a recovery day, not a test day.",
+      "example": "Down with the flu for five days, fever gone Saturday. Monday: 25 minute easy session. Wednesday: two thirds of a normal session. The following Monday: back to normal."
+    },
+    "chips": [
+      "When should I see a doctor?",
+      "Coming back after a long break",
+      "Should I work out on a bad day?"
+    ],
+    "related": [
+      "dj-b-089",
+      "dj-b-078"
+    ]
+  },
+  {
+    "id": "dj-b-091",
+    "topic": "comebacks",
+    "title": "How much strength you lose when you take time off",
+    "keys": [
+      "how much strength do i lose",
+      "will i lose my gains",
+      "how long until i lose muscle",
+      "how fast do you lose muscle",
+      "losing gains during a break",
+      "muscle memory",
+      "does muscle memory exist",
+      "will two weeks off hurt my progress",
+      "how long can i take off",
+      "lose strength on vacation",
+      "detraining"
+    ],
+    "match": "\\b(how much (strength|muscle) (do|will) i lose|(lose|losing|lost) (my )?(gains|muscle|strength) (during|on|over|while|if|from)|will i lose (my )?(gains|muscle|strength)|how (long|fast) (until|before|do) (i |you )?lose (muscle|strength|gains)|muscle memory|(weeks?|time) off (hurt|ruin)|how long can i take off|detraining)\\b",
+    "body": [
+      "Less than you fear, and more slowly than you think. For most people, a week or two off makes almost no difference to strength or muscle, and many come back feeling better rested. Noticeable strength loss usually starts after about three or four weeks, and even then it is gradual.",
+      "Muscle memory is real. Once you have built strength and muscle, getting it back after a break is much faster than building it the first time. Someone who trained steadily for a year and stopped for two months can often return to their old numbers within a few weeks to a couple of months.",
+      "If you know a break is coming, like a vacation, a busy month or a move, even one or two short sessions a week will hold on to most of what you have. Bodyweight squats, push-ups and a long walk are enough to keep things ticking."
+    ],
+    "more": {
+      "why": "Your muscles keep many of the changes from training, which makes rebuilding faster. Skill and coordination fade even more slowly than strength.",
+      "how": "During a break: 1 to 2 short sessions a week, a few hard sets for each major muscle group, plus walking. Coming back: start at about 70 to 80 percent of your old weights after a short break, lower after a long one.",
+      "example": "Two weeks of vacation, no gym. First session back: same weights as before, maybe one fewer rep. Second session: right back on track.",
+      "mistake": "Panicking after a week off and training extra hard to make up for it. There is nothing to make up for yet.",
+      "home": "A travel minimum: 3 rounds of 15 squats, 10 push-ups, 10 reverse lunges per side and a 30 second plank. Twenty minutes in a hotel room."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Coming back after a long break",
+      "I missed a week of workouts",
+      "What is the least I can do?"
+    ],
+    "related": [
+      "dj-b-089",
+      "dj-b-079"
+    ]
+  },
+  {
+    "id": "dj-b-092",
+    "topic": "comebacks",
+    "title": "Your first week back after time off",
+    "keys": [
+      "first week back at the gym",
+      "first workout back",
+      "first session back after a break",
+      "what weight should i use after a break",
+      "how heavy after time off",
+      "easing back into lifting",
+      "first week back plan",
+      "ease back into working out",
+      "what to do my first day back",
+      "how hard should my first workout back be"
+    ],
+    "match": "\\b(first (week|workout|session|day|lift) back|eas(e|ing) back in(to)?( (lifting|working out|training|the gym))?|(what|how much) weight (should i use )?after (a|the|my) (break|time off|layoff)|how heavy (should i go )?after (a |the |my )?(break|time off))\\b",
+    "body": [
+      "Your first week back has one job: make the second week possible. Plan two or three full-body sessions of about 30 to 45 minutes. Use roughly half to two thirds of your old working weights, do 2 sets per exercise, and stop every set while it still feels smooth, with three or four reps left.",
+      "Spend a little longer warming up, five to ten minutes, and give extra attention to the movements that feel rusty. Lower everything slowly. Your joints and tendons will thank you, and your form comes back faster when you are not fighting a heavy weight.",
+      "Expect to be sore, and expect to feel a bit clumsy. Both pass within a week or two. Log every session, because watching the numbers climb back week by week is one of the most motivating things in training."
+    ],
+    "more": {
+      "why": "Soreness peaks when you return to movements your body has not done in a while. Starting well below your limit keeps that soreness manageable, so you actually come back for session two.",
+      "how": "Session 1: 5 to 6 exercises, 2 sets of 8 to 12 at about 50 to 60 percent of your old weights. Session 2: the same, a little heavier if it felt easy. Session 3: add a third set to the main lifts.",
+      "mistake": "Going straight for your old best numbers to see if you still have them. You probably do, roughly, but finding out in week one costs you the next week.",
+      "example": "Old numbers: leg press 270 for 10, chest press 100 for 10, lat pulldown 120 for 10. First week back: leg press 160, chest press 60, pulldown 70, two sets each. Smooth, slow, done."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How much strength do I lose?",
+      "Why am I so sore?",
+      "How long should I warm up?"
+    ],
+    "related": [
+      "dj-b-089",
+      "dj-b-091"
+    ]
+  },
+  {
+    "id": "dj-b-093",
+    "topic": "red-flags",
+    "title": "When to see a doctor or physical therapist",
+    "keys": [
+      "when should i see a doctor",
+      "should i see a doctor",
+      "should i see a physical therapist",
+      "when to see a pt",
+      "is this serious",
+      "pain that wont go away",
+      "when is pain serious",
+      "red flags pain",
+      "should i get this checked",
+      "doctor or physical therapist",
+      "when to stop training and see someone",
+      "sharp pain when lifting"
+    ],
+    "match": "\\b(when (should|do) i (see|go to|visit) (a |my )?(doctor|physio|physical therapist|pt)|should i (see|go to|get) (a |my )?(doctor|physio|physical therapist|pt|this checked|it checked)|is this serious|pain that (won'?t|wont|doesn'?t) go away|when is pain serious|red flags?|doctor or (a )?(physical therapist|physio|pt)|sharp pain (when|while|during))\\b",
+    "body": [
+      "I am an AI coach, not a doctor, so here is where my lane ends. Stop training that area and see a doctor or physical therapist if you have pain that is sharp or stabbing, pain that is getting worse instead of better, pain that wakes you at night, or pain that has not improved after about one to two weeks of easing off.",
+      "Go sooner, the same day if needed, for numbness, tingling or weakness in an arm or leg, swelling or bruising after a pop or a twist, a joint that gives way or locks, or any loss of bladder or bowel control. And stop immediately and get urgent help for chest pain or pressure, shortness of breath that does not settle, fainting, or sudden dizziness.",
+      "Normal soreness feels dull and achy, shows up a day or two after training, and fades over a few days. Pain that feels different from that deserves a professional's eyes. Getting checked early is not weakness; it is what lets you keep training for decades."
+    ],
+    "more": {
+      "why": "Many aches are minor and settle with rest and smart changes. Some are not, and the earlier those get looked at, the easier they usually are to sort out.",
+      "how": "Note when it started, what movement triggers it, what it feels like, and whether it is better or worse each day. Bring that to your appointment; it makes the visit far more useful.",
+      "mistake": "Training through sharp or worsening pain because you do not want to lose progress. A few weeks of smart rest beats months of forced time off.",
+      "example": "A dull ache in your quads two days after squats: normal soreness. A sharp pinch in your knee on every step that keeps getting worse: time to see someone."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How sore is too sore?",
+      "My leg goes numb or tingles",
+      "Training around a minor tweak"
+    ],
+    "related": [
+      "dj-b-094",
+      "dj-b-032"
+    ]
+  },
+  {
+    "id": "dj-b-094",
+    "topic": "red-flags",
+    "title": "Numbness or tingling in a leg or arm",
+    "keys": [
+      "my leg goes numb or tingles",
+      "numbness in my leg",
+      "tingling in my arm",
+      "my hands go numb when i lift",
+      "pins and needles after squats",
+      "leg goes numb during stretching",
+      "numb fingers when lifting",
+      "tingling down my leg",
+      "my foot goes numb",
+      "sciatica",
+      "nerve pain",
+      "shooting pain down my leg"
+    ],
+    "match": "\\b(numb(ness)?|tingl(e|es|ing)|pins and needles|nerve pain|sciatica|shooting pain (down|in)|electric (shock|feeling))\\b",
+    "body": [
+      "Numbness, tingling, pins and needles, or pain that shoots down an arm or leg can be signs that a nerve is irritated, and that is outside what I can sort out for you. Stop the exercise that brings it on, and if it does not go away quickly once you change position, or it keeps coming back, see a doctor or physical therapist.",
+      "Get checked the same day if it comes with weakness, like a foot that drags or a hand that cannot grip, if both sides are affected, or if you notice any change in bladder or bowel control. Those need prompt attention.",
+      "Brief tingling that clears within seconds when you shift position, like a foot falling asleep after sitting cross-legged, is usually harmless. Anything that lingers, repeats or spreads deserves a professional's eyes. Until then, keep your training to movements that do not bring it on."
+    ],
+    "more": {
+      "why": "Nerves do not like being squeezed or stretched under load. A professional can work out where the irritation is coming from, and that decides what you should and should not do in training.",
+      "how": "Write down which exercise or position triggers it, where you feel it, and how long it lasts. Skip that movement until you have been checked, and keep the rest of your training gentle.",
+      "mistake": "Stretching harder into the numb or tingling feeling to loosen it up. Nerves do not loosen; they get more irritated.",
+      "example": "Leg tingles during a deep glute stretch and fades within seconds when you come out of it: ease off that stretch. Tingling down the leg that lasts for hours, or comes with weakness: see someone this week, sooner if it worsens."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "When should I see a doctor?",
+      "Training around a minor tweak",
+      "Exercises that do not hurt my back"
+    ],
+    "related": [
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-095",
+    "topic": "tight-spots",
+    "title": "Lower back tight after lifting",
+    "keys": [
+      "my low back is tight after lifting",
+      "lower back tight after deadlifts",
+      "low back sore after squats",
+      "lower back pain after workout",
+      "tight lower back after gym",
+      "my back is sore after lifting",
+      "lower back pump",
+      "back tight after leg day",
+      "lower back stiff after training",
+      "sore lower back from rows"
+    ],
+    "match": "\\b((low|lower) back (is |feels )?(tight|sore|stiff|achy|aches|hurts|pain)( after| from)?|back (is |feels )?(tight|sore|stiff) after (lifting|deadlifts?|squats?|leg day|the gym|training|working out|rows?)|(low|lower) back pump|(sore|tight|stiff) (low|lower) back)\\b",
+    "body": [
+      "A tired, tight lower back after a session with deadlifts, squats or rows is common, especially when you are new to them or just added volume. Usually it means your back muscles worked hard holding your position, sometimes harder than they needed to because your hips or core handed them extra work. It should ease within a day or two.",
+      "Help it along: a 10 to 20 minute walk later that day, a few gentle movements like bird dogs, cat-cows and knee hugs, and some heat if it feels good. Next session, check your setup. Brace before every rep, keep the weight close, hinge from your hips, and lower the load or volume a little until you finish sessions feeling it in your glutes and hamstrings rather than your back.",
+      "If the tightness is sharp, gets worse over a few days, travels down a leg, comes with numbness, or shows up even when you are not training, stop the lifts that aggravate it and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Your lower back muscles hold your spine steady during hinges and squats. When fatigue, form or load push them past what they are used to, they get tight and sore like any other muscle.",
+      "how": "Same day: walk, gentle mobility, heat. Next session: lighter load, a brace on every rep, film one set to check your back position, and chest-supported rows instead of bent-over rows for a week.",
+      "mistake": "Stretching your lower back hard into a deep forward fold to loosen it. Gentle movement helps; aggressive stretching often makes it angrier.",
+      "example": "Back tight after Romanian deadlifts at 95 lb for 3 x 10. Next week: 75 lb, a 3 second lower and a pause at the knee, filmed. Tightness gone, hamstrings sore instead."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "I feel deadlifts in my lower back",
+      "Bird dog form",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-017",
+      "dj-a-104",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-096",
+    "topic": "tight-spots",
+    "title": "Training around a sore shoulder",
+    "keys": [
+      "how do i train around a sore shoulder",
+      "sore shoulder",
+      "shoulder hurts when i lift",
+      "my shoulder hurts on bench",
+      "shoulder pain when pressing",
+      "achy shoulder workout",
+      "can i lift with a sore shoulder",
+      "shoulder hurts overhead",
+      "shoulder pain lifting",
+      "cranky shoulder"
+    ],
+    "match": "\\b((sore|achy|cranky|painful|bad|tweaked) shoulders?|shoulders? (hurts?|aches?|pain|is sore|bothers? me)( when| on| during| overhead)?|train(ing)? around (a |my )?(sore |bad |achy )?shoulder|lift with a (sore|bad) shoulder)\\b",
+    "body": [
+      "Work around it, not through it. Keep training everything that does not hurt, and change the shoulder work so it stays comfortable. A simple guide: mild discomfort, around 2 or 3 out of 10, that does not get worse during the session or the next day is usually okay. Sharp pain, pinching, or anything that lingers is a sign to change the exercise.",
+      "The usual friendly swaps: dumbbells or a neutral grip instead of a straight bar, a landmine press instead of overhead pressing, a slightly narrower grip with tucked elbows on presses, push-ups on handles, and a shorter range on dips and flyes. Rows, face pulls and band pull-aparts are often well tolerated and tend to help the shoulder feel better.",
+      "If the pain is sharp, came on with a pop, keeps you up at night, comes with weakness or numbness, or has not improved after a couple of weeks of easing off, see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Shoulders often get cranky from lots of pressing, too little pulling, and positions they are not ready for. Changing the angle and the load lets you keep training while it settles.",
+      "how": "Find the comfortable version of each movement: lighter, a different grip, a shorter range or a different tool. Test it with one light set before your work sets.",
+      "mistake": "Skipping the gym entirely, or pressing through the pain with the same exercise. Both tend to make it last longer.",
+      "example": "Bench press pinches. Swap: neutral grip dumbbell press, elbows at about 45 degrees, 3 x 10, no pain. Add face pulls 3 x 15. Reassess in two weeks."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Landmine press",
+      "Face pull form",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-072",
+      "dj-a-064",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-097",
+    "topic": "tight-spots",
+    "title": "A pinch in the front of your hip when you squat",
+    "keys": [
+      "my hip pinches when i squat",
+      "hip pinch squat",
+      "front of hip pinch",
+      "hip pinching at the bottom of squat",
+      "pinching in my hip",
+      "hip impingement squat",
+      "hip pain at the bottom of squat",
+      "groin pinch squat",
+      "hip flexor pinch",
+      "my hip hurts when i squat deep"
+    ],
+    "match": "\\b(hips? (pinch|pinches|pinching)|pinch(es|ing)? in (the front of )?my hip|(front of|my) hip (pinches|hurts|pain) (when|at|in|during)|groin pinch|hip pain at the bottom|hip impingement|hip flexor pinch)\\b",
+    "body": [
+      "A pinch at the front of the hip at the bottom of a squat is common, and usually it is about position, not damage. Everyone's hip sockets are shaped a little differently, so the stance that works for someone else may jam yours. Small changes often make it disappear.",
+      "Try these one at a time: widen your stance a few inches, turn your toes out a bit more, around 20 to 30 degrees, and let your knees track out over your toes. Squat a little less deep for now, just above where the pinch starts. A goblet squat or a box squat often feels better because the position is easier to control.",
+      "Warm up your hips first with some slow rocking back on your hands and knees, leg swings and a few slow bodyweight squats. If the pinch stays sharp despite these changes, comes with painful clicking, or shows up when walking and sitting too, see a physical therapist."
+    ],
+    "more": {
+      "why": "Hip joints vary a lot in shape and angle. A wider stance and more toe-out give the thigh bone more room to move in the socket at the bottom of the squat.",
+      "how": "Film your squat from the front. Experiment with stance width and toe angle in small steps, using a light goblet squat, until you find the depth that feels smooth.",
+      "mistake": "Forcing extra depth through the pinch because you read that deep squats are best. Your best depth is the deepest one that feels clean for your hips.",
+      "example": "Shoulder-width stance with toes forward pinches. Two inches wider, toes out 25 degrees, goblet squat to a box: no pinch. Lower the box an inch every couple of weeks."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Where should my feet point?",
+      "How do I loosen tight hips?",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "dj-a-042",
+      "dj-b-013",
+      "dj-a-003"
+    ]
+  },
+  {
+    "id": "dj-b-098",
+    "topic": "tight-spots",
+    "title": "Knees that ache on squats and lunges",
+    "keys": [
+      "my knees hurt when i squat",
+      "knee pain squats",
+      "knees ache after leg day",
+      "knee pain lunges",
+      "sore knees from lifting",
+      "my knees hurt on leg press",
+      "front of knee pain when squatting",
+      "knees hurt going down stairs after squats",
+      "bad knees workout",
+      "achy knees"
+    ],
+    "match": "\\b((knees?|kneecaps?) (hurts?|aches?|pain|sore|bother|bothers|are killing me)( when| on| during| after)?|(sore|achy|bad|cranky|painful) knees?|knee (pain|ache)( on| when| during| after| from)?)\\b",
+    "body": [
+      "Achy knees on squats and lunges usually come from doing a bit too much, too soon, rather than from the movements themselves. Squats and lunges are great for knees when the load suits them. So first, turn the dial down: lighter weight, fewer sets, and a depth you can control without pain.",
+      "Then check your form. Let your knees track in line with your toes rather than caving in, keep your whole foot down, and lower slowly. Box squats, reverse lunges and a leg press with a moderate range are often more comfortable than deep forward lunges or jumping. Strengthening your quads, glutes and hips over a few weeks tends to make knees feel better, not worse.",
+      "A guide I like: mild discomfort around 2 or 3 out of 10 that settles by the next day is usually okay to train around. If your knee swells, locks, gives way, or the pain is sharp or getting worse, stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Knee tissues adapt to load slowly. A sudden jump in squats, lunges, running or jumping can outpace them. Reducing load and building it back gradually gives them time to catch up.",
+      "how": "For 2 to 3 weeks: box squats to a comfortable height, reverse lunges, and leg extensions and leg curls with slow lowering, all at a weight that keeps discomfort under 3 out of 10. Then build up.",
+      "mistake": "Avoiding all leg training. Rest alone rarely fixes cranky knees; the right amount of the right exercise usually does.",
+      "example": "Lunges hurt with 30 lb dumbbells. Switch to reverse lunges with 15 lb, 2 x 10 with slow lowering, plus a box squat. Two weeks later: 20 lb, no ache."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My knees cave in on squats",
+      "Knee friendly exercises",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-004",
+      "dj-b-104",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-099",
+    "topic": "ankle",
+    "title": "Coming back from a rolled ankle",
+    "keys": [
+      "how do i come back from a rolled ankle",
+      "rolled my ankle",
+      "sprained ankle training",
+      "ankle sprain workout",
+      "twisted my ankle",
+      "working out with a sprained ankle",
+      "returning after ankle sprain",
+      "ankle rehab exercises",
+      "weak ankle after sprain",
+      "can i lift with a sprained ankle",
+      "rolled ankle"
+    ],
+    "match": "\\b(roll(ed)? (my |an |the )?ankle|(sprain(ed)?|twisted|turned) (my |an |the )?ankle|ankle sprain|ankle rehab|weak ankle)\\b",
+    "body": [
+      "For a fresh roll, if you cannot put weight on it, it swells a lot, it bruises heavily, or the bone itself is tender to touch, get it checked by a doctor first, since a break or a bad sprain needs proper care. For a mild roll you can walk on, the early days are about calming it down and keeping it moving gently within comfort.",
+      "Keep training everything else. Upper body work seated or lying down, and leg exercises that do not load the ankle, like seated leg extensions and leg curls, are usually fine. As walking gets comfortable, add easy ankle work: tracing the alphabet with your toes, calf raises on both feet, then single-leg balance while holding onto something.",
+      "Balance work matters most for coming back, because a rolled ankle often leaves that side a little wobbly. Work up to standing on that leg for 30 seconds, then with your eyes closed, before returning to jumping, running or quick changes of direction. A physical therapist can map out the steps if it is slow to recover."
+    ],
+    "more": {
+      "why": "Ankle sprains often leave the small stabilizing muscles and your balance sense weaker on that side. Rebuilding balance is what keeps it from rolling again.",
+      "how": "Week by week, as comfort allows: alphabet tracing, two-foot calf raises, single-leg calf raises, single-leg balance with support, then without support, then eyes closed. Discomfort should stay low throughout.",
+      "mistake": "Going back to running or court sports as soon as walking feels normal. Balance and single-leg strength should come back first.",
+      "example": "Mild roll on a Saturday. Week 1: upper body and seated leg work. Week 2: calf raises and supported balance. Week 3: balance without support, light lunges. Week 5: back to jogging."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Exercises for better balance",
+      "When should I see a doctor?",
+      "Improving ankle mobility"
+    ],
+    "related": [
+      "dj-b-015",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-100",
+    "topic": "minor-tweak",
+    "title": "Training around a minor tweak",
+    "keys": [
+      "training around a minor tweak",
+      "i tweaked something",
+      "i tweaked my back",
+      "minor injury workout",
+      "how to work out with an injury",
+      "can i still train if something hurts",
+      "what to do after a tweak",
+      "i pulled something",
+      "strained a muscle",
+      "pulled muscle workout",
+      "working around an injury"
+    ],
+    "match": "\\b(tweak(ed)? (something|my)|minor (tweak|injury|strain)|train(ing)? around (a |an |the )?(tweak|injury|pain|minor)|(work(ing)? ?out|lift(ing)?|train(ing)?) with an injury|working around an injury|pulled (something|a muscle|my)|strained (a|my) (muscle|back|hamstring|calf)|pulled muscle|something hurts)\\b",
+    "body": [
+      "A minor tweak, the kind where something felt off mid-set but you can still move around fine, usually does best with relative rest: keep moving and training, just not in the way that hurts. Complete rest tends to make things stiffer and slower to settle.",
+      "For the next week or two, skip or change any exercise that pushes the discomfort above about 3 out of 10, and keep everything else. Lighter weight, a shorter range, a machine instead of a free weight, or a different angle often lets you keep training the area gently. Walk, move and stay active. Most tweaks feel much better within a few days to two weeks.",
+      "If there was a pop, real swelling or bruising, the pain is sharp or getting worse, or it is not clearly improving after a couple of weeks, stop guessing and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Gentle movement keeps blood flowing and tissues adapting. Loading the area within comfort helps it recover; loading it into pain irritates it further.",
+      "how": "Test each exercise with one light warm-up set. If discomfort stays under 3 out of 10 during the set and is no worse the next morning, keep it. If not, swap it or skip it.",
+      "mistake": "Testing the tweak every day with a heavy set to see if it is better yet. Let it settle for a week before checking with real load.",
+      "example": "Tweaked your back on a deadlift. Week 1: walks, bird dogs, leg press, machine rows, no deadlifts. Week 2: light Romanian deadlifts at half weight. Week 3: building back."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "When should I see a doctor?",
+      "Joint friendly exercise swaps",
+      "Is it okay to train through pain?"
+    ],
+    "related": [
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-101",
+    "topic": "elbows",
+    "title": "Elbows aching from curls, presses and pulls",
+    "keys": [
+      "my elbows hurt when i lift",
+      "elbow pain lifting",
+      "sore elbows from curls",
+      "elbow pain on skull crushers",
+      "elbow hurts on pull ups",
+      "inner elbow pain",
+      "outer elbow pain",
+      "elbows ache after bench",
+      "elbow pain from chin ups",
+      "achy elbows"
+    ],
+    "match": "\\b(elbows? (hurts?|aches?|pain|sore|bothers?)( when| on| during| after| from)?|(sore|achy|cranky|painful) elbows?|(inner|outer|inside|outside) (of (my |the )?)?elbow)\\b",
+    "body": [
+      "Achy elbows usually come from a lot of gripping and arm work, added quickly. Curls, pull-ups, skull crushers and heavy pressing all load the tendons around the elbow, and tendons adapt more slowly than muscles. The fix is usually less of the irritating stuff, not none of everything.",
+      "For a few weeks, swap straight bars for dumbbells, cables or an EZ bar, and use neutral grips, palms facing each other, on curls, pull-ups and presses. Cut direct arm work by about half, slow your lowering, and skip the very bottom of skull crushers and the dead hang at the bottom of chin-ups if those spots hurt. Hammer curls and rope pushdowns are often comfortable.",
+      "Tendons usually respond well to steady, moderate, comfortable loading over several weeks. If the ache is sharp, getting worse, comes with numbness in your fingers, or has not improved after a few weeks of changes, see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Tendons have less blood flow than muscle and adapt over weeks to months. When arm volume jumps quickly, the tendon falls behind and starts to complain.",
+      "how": "Halve direct arm work, switch to neutral grips and cables, lower slowly, and keep discomfort under 3 out of 10 during and after. Build back up by about a set a week once it settles.",
+      "mistake": "Adding wraps and gritting your teeth so you can keep doing the same heavy skull crushers. Change the exercise first.",
+      "example": "Curls and chin-ups make the inside of your elbow ache. Switch to dumbbell hammer curls and neutral grip pulldowns for 3 weeks. The ache fades, and chin-ups come back slowly."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Hammer curls and other curls",
+      "Triceps pushdown form",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-085",
+      "dj-a-086",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-102",
+    "topic": "joint-noises",
+    "title": "Clicking, cracking and popping joints",
+    "keys": [
+      "my knees crack when i squat",
+      "clicking shoulder",
+      "joints popping",
+      "my joints crack",
+      "knee clicking",
+      "hip popping",
+      "popping sound in my hip",
+      "is joint cracking bad",
+      "cracking knees",
+      "clicking when i lift",
+      "snapping hip",
+      "my shoulder clicks"
+    ],
+    "match": "\\b((knees?|joints?|hips?|shoulders?|ankles?|elbows?|wrists?) (crack|cracks|cracking|click|clicks|clicking|pop|pops|popping|snap|snaps|snapping|grind|grinds|grinding)|(cracking|clicking|popping|snapping) (joints?|knees?|hips?|shoulders?|sound)|joint (noise|noises|cracking)|clicking when i lift)\\b",
+    "body": [
+      "Noisy joints without pain are very common and usually harmless. Knees that crackle on a squat, a hip that pops as you swing your leg, or a shoulder that clicks when you raise your arm are often just tendons sliding over bone or tiny gas bubbles in the joint fluid. Plenty of people with perfectly healthy joints sound like a bowl of cereal.",
+      "Pay attention to what comes with the noise. Clicking with no pain, no swelling and no change in how the joint works is generally nothing to worry about. Keep training and warm up well; often the noise quiets down as the area warms up and gets stronger.",
+      "Noise that comes with pain, swelling, the joint catching or locking, or a feeling of the joint giving way is different. That is worth getting checked by a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Joints are full of moving parts: tendons, ligaments and fluid. Small sounds are a normal part of that machinery and do not, on their own, mean damage.",
+      "how": "Ask three questions. Does it hurt? Does it swell? Does the joint catch, lock or give way? Three nos means keep training. Any yes means get it looked at.",
+      "mistake": "Avoiding exercises just because they make a noise. Silence is not the goal; comfortable, confident movement is.",
+      "example": "Knees crackle on the first few bodyweight squats of a warm-up and then quiet down, with no pain: normal. A knee that clicks with sharp pain and puffs up the next day: time to see someone."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "When should I see a doctor?",
+      "My knees hurt when I squat",
+      "Do I need to warm up?"
+    ],
+    "related": [
+      "dj-b-093",
+      "dj-b-098"
+    ]
+  },
+  {
+    "id": "dj-b-103",
+    "topic": "shins",
+    "title": "Achy shins from walking, running or jumping",
+    "keys": [
+      "my shins hurt",
+      "shin splints",
+      "shin pain when running",
+      "shins hurt after walking",
+      "shins hurt after jumping",
+      "sore shins",
+      "pain in my shins",
+      "shin pain from treadmill",
+      "shins hurt jump rope",
+      "how do i stop shin splints"
+    ],
+    "match": "\\b(shins? (hurt|hurts|ache|aches|pain|splints?|are sore|sore)|(sore|achy|painful) shins?|pain in my shins?|shin splints?)\\b",
+    "body": [
+      "Achy shins usually mean you added running, jumping or long walks faster than your lower legs were ready for. The fix is to scale back and build up more gradually, not to stop moving altogether. Cut your running, jumping or incline walking roughly in half for a week or two, and move some of it to low impact options like cycling, the elliptical, rowing or swimming.",
+      "Then rebuild slowly, adding no more than about 10 percent each week. Softer surfaces, supportive shoes that are not worn out, and a slightly shorter stride when you run all help. Strengthen your calves with slow calf raises, straight-knee and bent-knee, two or three times a week.",
+      "One important exception: pain in one small spot on the bone that hurts to press on, gets worse as you go, or aches at rest or at night can be a stress injury of the bone. Stop the impact and see a doctor for that one."
+    ],
+    "more": {
+      "why": "The bones and muscles of your lower leg adapt to impact over weeks. A sudden jump in mileage or jumping outpaces that adaptation, and your shins complain.",
+      "how": "Weeks 1 to 2: half the impact, the rest as cycling or elliptical, calf raises 3 x 15. Then add about 10 percent a week as long as your shins stay quiet.",
+      "mistake": "Running through it every day hoping it will loosen up. Shin pain that keeps getting stressed tends to get worse, not better.",
+      "example": "Started jogging 3 miles four times a week and the shins ache. New plan: 1.5 miles twice a week, two 25 minute bike rides, and calf raises. Three weeks later, 2 miles three times a week with no ache."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Low impact cardio options",
+      "Calf raise form",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-033",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-104",
+    "topic": "swaps",
+    "title": "Joint friendly exercise swaps",
+    "keys": [
+      "joint friendly exercise swaps",
+      "joint friendly exercises",
+      "knee friendly exercises",
+      "exercises that are easy on the joints",
+      "low impact strength exercises",
+      "alternatives to squats for bad knees",
+      "what can i do instead of lunges",
+      "exercise swaps for pain",
+      "easy on the joints workout",
+      "shoulder friendly exercises"
+    ],
+    "match": "\\b((joint|knee|hip|shoulder|wrist|elbow) ?-?friendly (exercises?|swaps?|workouts?|options?|moves?)|joint ?-?friendly|easy on (the |my )?joints|(exercise|joint) swaps?|alternatives? to (squats|lunges|deadlifts|bench press|push ?-?ups)|instead of (squats|lunges|deadlifts|push ?-?ups|bench)|low impact strength)\\b",
+    "body": [
+      "Almost every exercise has a friendlier cousin that trains the same muscles with less stress on a cranky joint. Keep the movement pattern; change the tool, the angle or the range.",
+      "For knees: box squats to a comfortable height, leg press with a moderate range, reverse lunges instead of forward or walking lunges, step-ups to a low box, leg curls and hip thrusts. For shoulders: neutral grip dumbbell presses, landmine presses instead of overhead pressing, push-ups on handles, cable rows and face pulls. For wrists: dumbbells, push-up handles and neutral grips. For a sensitive lower back: chest-supported rows, leg press, hip thrusts, goblet squats instead of barbell squats, and the trap bar instead of a straight bar.",
+      "Test each swap with one light set and keep the ones that stay below about 3 out of 10 discomfort during and after. Give it a few weeks, and you may be able to go back to the original."
+    ],
+    "more": {
+      "why": "Muscles respond to effort, not to one specific exercise. A swap that lets you train hard without pain keeps you making progress while the cranky joint settles.",
+      "how": "List the exercises that bother you. Pick one swap for each from the same movement pattern. Run the new setup for 3 to 4 weeks, then test the original with a light weight.",
+      "example": "Back squat hurts the knees: box squats and leg press. Overhead press hurts the shoulder: landmine press. Push-ups hurt the wrists: push-ups with hands on dumbbells.",
+      "mistake": "Swapping everything to the easiest version forever. A swap is still training, so push it hard enough to count."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Landmine press",
+      "Exercises that do not hurt my back",
+      "My knees hurt when I squat"
+    ],
+    "related": [
+      "dj-b-098",
+      "dj-b-096",
+      "dj-b-105"
+    ]
+  },
+  {
+    "id": "dj-b-105",
+    "topic": "back-friendly",
+    "title": "Exercises that are kind to a sensitive back",
+    "keys": [
+      "exercises that do not hurt my back",
+      "exercises that dont hurt my back",
+      "back friendly exercises",
+      "workout with a bad back",
+      "lifting with lower back problems",
+      "what exercises are safe for my back",
+      "back pain friendly workout",
+      "best exercises for a sore back",
+      "can i lift with back pain",
+      "training with a sensitive back"
+    ],
+    "match": "\\b(exercises? that (do not|don'?t|dont) hurt my back|back ?-?friendly|(workout|training|lifting|lift) with (a |my )?(bad|sore|sensitive|cranky) (lower )?back|(safe|best) (exercises )?for (a |my )?(sore |bad |sensitive )?back|back pain friendly|lift with back pain|lifting with (lower )?back problems)\\b",
+    "body": [
+      "Most people with a sensitive back can still train most of their body, and gentle, steady strength work often helps a back feel better over time. The trick is choosing exercises that let your back stay quiet and supported while everything else works.",
+      "Good places to start: leg press, goblet squats to a box, glute bridges and hip thrusts, chest-supported rows, lat pulldowns, machine chest press, cable work, bird dogs, dead bugs and side planks from the knees. Walking is excellent too. Keep spinal loading lighter for a while: fewer heavy barbell squats and deadlifts, more machine and supported work.",
+      "Brace gently, move slowly and keep discomfort under about 3 out of 10. If your back pain is severe, getting worse, or comes with numbness, tingling, weakness in a leg, or changes in bladder or bowel control, see a doctor right away."
+    ],
+    "more": {
+      "why": "Supported exercises let you train hard without your back having to hold heavy positions. Core work like bird dogs and dead bugs builds control with very little load on the spine.",
+      "how": "Three full-body sessions a week from the list above, 2 to 3 sets of 10 to 12, slow lowering, plus a daily walk. Add hinge work like light Romanian deadlifts once everyday life feels easy.",
+      "mistake": "Resting completely until your back feels perfect. Long rest often leaves you stiffer and weaker. Gentle movement within comfort usually helps more.",
+      "example": "A week: leg press, chest-supported row, machine chest press, glute bridge, bird dog and a side plank from the knees, 3 x 10 each, three days a week. Walk 20 minutes on the other days."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Bird dog form",
+      "My low back is tight after lifting",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-104",
+      "dj-b-095",
+      "dj-b-093"
+    ]
+  },
+  {
+    "id": "dj-b-106",
+    "topic": "return-from-injury",
+    "title": "Returning to lifting after an injury",
+    "keys": [
+      "returning to lifting after injury",
+      "back to the gym after injury",
+      "coming back from an injury",
+      "after physical therapy can i lift",
+      "cleared to work out again",
+      "how to start lifting after surgery",
+      "getting back to training after injury",
+      "afraid to reinjure",
+      "scared of getting hurt again",
+      "return to training after injury"
+    ],
+    "match": "\\b((return(ing)?|coming back|getting back|back) (to (lifting|training|the gym) )?(after|from) (an |my |a )?(injury|surgery|physical therapy)|cleared to (work ?out|lift|train|exercise)|(afraid|scared) (to|of) (re-?injur\\w*|getting hurt again|hurting it again)|after physical therapy)\\b",
+    "body": [
+      "First, get the green light from whoever treated you, your doctor or physical therapist, and ask them what is off limits for now. Their plan comes first; mine fits around it. Keep doing the exercises they gave you, because those are usually the bridge back to full training.",
+      "Then rebuild slowly. Train the injured area with light weights and simple, controlled movements, about half of what you used to use or less, and add a little each week as long as it feels fine the next day. Train everything else normally. Expect the injured side to lag for a while; that is normal, and it catches up.",
+      "Being nervous about getting hurt again is completely understandable. Confidence comes back the same way strength does: one good session at a time. Slow lowering, good warm-ups and logging how the area feels after each session will show you, week by week, that it can handle more."
+    ],
+    "more": {
+      "why": "Healed tissue still needs time and gradual loading to get strong again. A slow ramp lets it adapt and lowers the chance of a setback.",
+      "how": "Weeks 1 to 2: very light, comfortable movements for the area plus normal training elsewhere. Then add about 5 to 10 percent load or one set a week, as long as the next morning feels the same or better.",
+      "mistake": "Jumping back to your old weights as soon as you are cleared. Cleared means safe to start, not ready for your old numbers.",
+      "example": "Cleared after a shoulder problem. Week 1: dumbbell press with 15 lb dumbbells, plus face pulls. Week 4: 25 lb. Week 10: back to 35 lb, slower and steadier than before."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Coming back after a long break",
+      "Training around a minor tweak",
+      "Is it okay to train through pain?"
+    ],
+    "related": [
+      "dj-b-089",
+      "dj-b-100"
+    ]
+  },
+  {
+    "id": "dj-b-107",
+    "topic": "one-side",
+    "title": "Training when one arm or leg is out of action",
+    "keys": [
+      "can i work out with a broken arm",
+      "training with an arm in a sling",
+      "one arm injured workout",
+      "leg in a cast workout",
+      "can i train with one injured leg",
+      "working out with a broken wrist",
+      "train the other side",
+      "injured hand workout",
+      "cross education",
+      "arm in a cast workout"
+    ],
+    "match": "\\b((broken|fractured|injured|sprained) (arm|leg|wrist|hand|foot) (workout|training)|(work ?out|train|lift) with (a |an |my |one )?(broken|fractured|injured) (arm|leg|wrist|hand|foot)|(arm|leg|wrist|foot) in a (sling|cast|boot|brace)|one (arm|leg|side) (injured|out)|train the other side|cross education|injured hand)\\b",
+    "body": [
+      "Usually, yes, with your doctor's okay. Ask them what you may and may not do, especially anything involving the injured limb, your balance, or getting on and off the floor. Then train around it.",
+      "With an arm out: legs on machines like the leg press, leg extension and leg curl, hip thrusts, seated calf raises, and one-arm work for the healthy side. With a leg out: seated and lying upper body work like machine presses, rows and pulldowns, plus seated core work. Skip anything that needs the injured limb for balance or support.",
+      "Training the healthy side is worth it for more than your mood. Strength work on one limb can help the opposite, resting limb hold on to some of its strength. Keep sessions short and safe, and focus on staying in the habit."
+    ],
+    "more": {
+      "why": "Your nervous system shares some training effects between sides, so working the healthy limb can slow strength loss on the injured one. And keeping your routine makes the return much easier.",
+      "how": "Get your doctor's limits, list every exercise that keeps the injured limb completely out of it, and train 2 to 3 times a week at a moderate effort.",
+      "mistake": "Balancing awkwardly in a cast or sling to do a free weight exercise. Machines and seated work only, so a slip cannot happen.",
+      "example": "Right wrist in a cast: leg press, leg curl, hip thrust, seated calf raise, and a one-arm dumbbell row and press on the left. Thirty five minutes, three times a week."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Returning to lifting after injury",
+      "What is the least I can do?",
+      "How do I set up a machine?"
+    ],
+    "related": [
+      "dj-b-106",
+      "dj-b-100"
+    ]
+  },
+  {
+    "id": "dj-b-108",
+    "topic": "pain-scale",
+    "title": "Training through mild discomfort, and the pain scale",
+    "keys": [
+      "is it okay to train through pain",
+      "should i push through pain",
+      "working out through pain",
+      "how much pain is okay when training",
+      "pain scale for exercise",
+      "train through discomfort",
+      "no pain no gain",
+      "is it normal to hurt during exercise",
+      "can i lift if it hurts a little",
+      "pain during workout"
+    ],
+    "match": "\\b((train|work ?out|lift|push|working out|exercise)(ing)? through (the )?(pain|discomfort)|no pain no gain|how much pain is (ok|okay|normal)|pain scale|(hurts?|pain) (a little|during (exercise|my workout|a workout|workouts))|is it normal to hurt|pain during workout)\\b",
+    "body": [
+      "No pain, no gain is wrong, but no effort, no gain is closer to true. Hard training should feel like effort: burning muscles, heavy breathing, tired legs. That is normal. Joint pain, sharp pain, or pain that changes how you move is not something to push through.",
+      "When you are working around an ache, a 0 to 10 scale helps. Discomfort up to about 3 out of 10 during exercise, that settles back to your usual level by the next morning, is usually fine. Above that, or if it is worse the next day, change the exercise: less weight, less range, a different angle, or skip it for now.",
+      "Sharp, stabbing, burning or electric pain, numbness, swelling, or pain that keeps creeping up week after week are signs to stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Muscle effort and joint or tissue pain feel different and mean different things. Learning to tell them apart lets you train hard while protecting what needs protecting.",
+      "how": "Rate the area before you train, during your sets and the next morning. Stay at or under 3 out of 10, with no flare the next morning, and you can usually keep going and build up.",
+      "mistake": "Ignoring a joint that complains louder each session because the muscle work feels good. The joint is giving you information. Listen early.",
+      "example": "Knee is 1 out of 10 before training, 2 during box squats, back to 1 the next morning: keep going. 5 out of 10 during lunges and stiff the next day: swap the lunges out."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Training around a minor tweak",
+      "How sore is too sore?",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-b-100",
+      "dj-b-093",
+      "dj-b-032"
+    ]
+  }
+]

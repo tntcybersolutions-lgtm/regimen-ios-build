@@ -1,0 +1,836 @@
+[
+  {
+    "id": "dj-b-069",
+    "topic": "gym-anxiety",
+    "title": "Feeling nervous about going to the gym",
+    "keys": [
+      "i feel nervous going to the gym",
+      "gym anxiety",
+      "nervous about the gym",
+      "scared to go to the gym",
+      "intimidated by the gym",
+      "gymtimidation",
+      "anxious at the gym",
+      "i am afraid of the gym",
+      "gym makes me anxious",
+      "how do i get over gym anxiety",
+      "too scared to work out in public",
+      "nervous at the gym",
+      "nervous going to the gym"
+    ],
+    "match": "\\b(gym ?(anxiety|timidation)|(nervous|scared|afraid|anxious|intimidated|terrified|frightened) (about |of |to go to |going to |at |in |by )?(the |a )?gym|(the )?gym makes me (anxious|nervous|scared)|anxiety (at|about) the gym|scared to work out in public)\\b",
+    "body": [
+      "You are in very good company. Almost everyone feels this, and I did too; on my first day I pretended to stretch by the cable machine for twenty minutes. The nerves are not a sign you do not belong. They are a sign you are doing something new, and new always feels loud at first.",
+      "Make it small and predictable. Go at a quieter time, usually mid-morning, early afternoon or later in the evening. Have your whole session written down before you walk in, so you never stand there wondering what to do. Stick to machines and areas that feel comfortable for the first few weeks, and wear headphones if they help you feel like you are in your own bubble.",
+      "Then repeat it. Anxiety shrinks fastest with repetition: the third visit is easier than the first, and the tenth is just a Tuesday. Your only goal for now is to go, do your plan, and leave feeling like you could come back."
+    ],
+    "more": {
+      "why": "Nerves come from the unknown. Every visit replaces a little of the unknown with something familiar, and familiar things are not scary.",
+      "how": "Plan the session on your Train screen, pick a quiet time, warm up on a bike or treadmill to settle in, do 4 or 5 exercises, leave. Same time, same plan for two weeks.",
+      "example": "Week one: three 30 minute visits at 2 pm, all machines plus a plank in a corner. Week three: add one free weight exercise. Week six: you notice you stopped thinking about it.",
+      "mistake": "Waiting until you feel confident to start. Confidence comes after the visits, not before them."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "I feel like people are watching me",
+      "When is the gym least busy?",
+      "First day at the gym"
+    ],
+    "related": [
+      "dj-b-070",
+      "dj-b-074",
+      "dj-b-048"
+    ]
+  },
+  {
+    "id": "dj-b-070",
+    "topic": "gym-anxiety",
+    "title": "Feeling like people are watching or judging you",
+    "keys": [
+      "i feel like people are watching me",
+      "people are judging me at the gym",
+      "everyone is staring at me",
+      "i feel judged at the gym",
+      "people will laugh at me",
+      "worried people think i look stupid",
+      "self conscious at the gym",
+      "embarrassed at the gym",
+      "everyone at the gym is fit",
+      "i look out of place",
+      "people watching me work out",
+      "feel stupid at the gym"
+    ],
+    "match": "\\b((people|everyone|they) (are |is )?(watching|staring at|judging|laughing at) me|(feel|feeling) (judged|watched|stupid|out of place|embarrassed|self ?-?conscious)( at the gym)?|self ?-?conscious (at|in) the gym|embarrassed (at|in) the gym|people (will|might) (laugh|judge|stare)|look out of place)\\b",
+    "body": [
+      "Here is the honest truth after hundreds of first sessions: almost nobody is watching you. Most people at the gym are thinking about their own set, their own playlist, or how they look in the mirror. And the ones who do notice a beginner tend to feel one of two things: respect, or memories of their own first months.",
+      "It still feels like everyone is watching, so give your brain less to worry about. Have a written plan so you feel purposeful. Start in a corner or on machines where you can face the wall. Headphones in. And if you do not know how something works, reading the instruction sticker or asking a staff member is completely normal. People ask all the time.",
+      "If someone ever does stare or comment, that says something about them, not you. You showed up. That is the part that counts."
+    ],
+    "more": {
+      "why": "When we feel nervous, our brains overestimate how much other people notice us. It has a name, the spotlight effect, and almost everyone has it.",
+      "how": "Plan written down, headphones in, start facing a wall or in a quiet area, focus on your own counting. Leave when the plan is done.",
+      "mistake": "Rushing through sets to get out of the spotlight. Rushed reps are worse reps. Take your time; you belong there as much as anyone.",
+      "example": "Next time you are there, notice how often you actually look at other people. Probably almost never. They are doing the same."
+    },
+    "chips": [
+      "I feel nervous going to the gym",
+      "What if a machine is taken?",
+      "How do I ask to work in?"
+    ],
+    "related": [
+      "dj-b-069",
+      "dj-b-075"
+    ]
+  },
+  {
+    "id": "dj-b-071",
+    "topic": "gym-etiquette",
+    "title": "When the machine or bench you need is taken",
+    "keys": [
+      "what if a machine is taken",
+      "machine is taken",
+      "someone is using the machine",
+      "someone is on the bench i need",
+      "equipment is busy",
+      "the gym is too crowded",
+      "what do i do if the squat rack is taken",
+      "all the benches are taken",
+      "waiting for a machine",
+      "how long should i wait for equipment",
+      "busy gym what to do",
+      "cant get the equipment i need"
+    ],
+    "match": "\\b((machine|bench|rack|equipment|squat rack|dumbbells?) (is|are) (taken|busy|being used|occupied|in use)|someone (is )?(on|using) the (machine|bench|rack)|(gym is|gyms are) (too )?(crowded|packed|busy)|waiting for (a |the )?(machine|bench|rack)|all the (benches|racks|machines) (are )?taken|(can'?t|cannot) get the equipment)\\b",
+    "body": [
+      "It happens every busy evening, and it is not a problem once you have a backup. You have three good options. Ask if you can work in, taking turns on sets while they rest. Do a different exercise from your plan first and come back. Or swap to a similar movement that uses free equipment.",
+      "Most exercises have a close cousin. Chest press machine taken? Dumbbell bench press or push-ups. Leg press busy? Goblet squats or a hack squat. Lat pulldown taken? A cable row, a single arm cable pulldown or an assisted pull-up. Squat rack full? Dumbbell split squats or goblet squats will work your legs just fine today.",
+      "Doing your exercises in a slightly different order makes no real difference to your results. Same muscles, same effort, slightly different path. Log what you actually did so your record stays honest."
+    ],
+    "more": {
+      "why": "Results come from the work you do across weeks, not from the exact machine on one day. A swap keeps the session moving and the habit intact.",
+      "how": "Glance at the area before you start a lift. If it is taken, ask how many sets they have left, then decide: wait, work in, reorder or swap.",
+      "example": "Plan says leg press, lat pulldown, chest press. Leg press is busy, so you do lat pulldown first, chest press second, and catch the leg press at the end when it frees up.",
+      "mistake": "Standing next to someone's machine waiting silently, or giving up and going home. A quick question or a quick swap solves it."
+    },
+    "chips": [
+      "How do I ask to work in?",
+      "When is the gym least busy?",
+      "Basic gym etiquette"
+    ],
+    "related": [
+      "dj-b-072",
+      "dj-b-062",
+      "dj-b-074"
+    ]
+  },
+  {
+    "id": "dj-b-072",
+    "topic": "gym-etiquette",
+    "title": "How to ask to work in, and how to say yes",
+    "keys": [
+      "how do i ask to work in",
+      "what does work in mean",
+      "can i work in",
+      "working in at the gym",
+      "sharing equipment",
+      "how to share a machine",
+      "someone asked to work in",
+      "how many sets do you have left",
+      "is it rude to ask to work in",
+      "sharing a squat rack"
+    ],
+    "match": "\\b((ask|asked|asking) (to|if i can|if i could) work in|can i work in|working in (at|on|with)|work in with|what does work(ing)? in mean|share (a |the )?(machine|rack|bench|equipment)|sharing (a |the )?(machine|rack|bench|equipment|squat rack)|how many sets (do you have|they have|you have) left)\\b",
+    "body": [
+      "Working in just means taking turns on a piece of equipment: you do a set while they rest, they do a set while you rest. It is completely normal, and most people are happy to share.",
+      "Wait until they finish a set, not in the middle of one, then ask something simple: 'Mind if I work in?' or 'How many sets do you have left?' If they say yes, help change the weight or the pin if needed, and put it back the way they had it after each of your sets. If they say they are almost done, wait a minute or do something else and come back.",
+      "If someone asks you, you can say yes, or tell them how many sets you have left. Both are polite answers. Wipe down the bench either way."
+    ],
+    "more": {
+      "why": "Gyms run on sharing. Asking politely is a normal part of the place, and it saves you from waiting around or skipping exercises.",
+      "how": "Wait for their rest, ask 'Mind if I work in?', match their setup or quickly change it, do your set, reset it, and alternate until one of you is done.",
+      "mistake": "Hovering silently next to someone, or interrupting them mid-set. Wait for the rest, then ask once.",
+      "beginner": "Machines with pins are the easiest to share, because changing the weight takes two seconds. Practice there first."
+    },
+    "chips": [
+      "What if a machine is taken?",
+      "Basic gym etiquette",
+      "I feel like people are watching me"
+    ],
+    "related": [
+      "dj-b-071",
+      "dj-b-062"
+    ]
+  },
+  {
+    "id": "dj-b-073",
+    "topic": "beginners",
+    "title": "Not knowing how to use the equipment, and asking for help",
+    "keys": [
+      "i dont know how to use the machines",
+      "i dont know how to use the equipment",
+      "how to use gym equipment",
+      "scared to ask for help at the gym",
+      "how do i ask someone for help at the gym",
+      "i feel stupid not knowing what to do",
+      "should i ask the staff",
+      "does the gym show you how to use machines",
+      "embarrassed to ask for help",
+      "new to gym equipment",
+      "confused by machines",
+      "know how to use the machines"
+    ],
+    "match": "\\b((don'?t|do not|dont) know how to use (the |any )?(machines|equipment|weights)|how to use (the )?gym (equipment|machines)|(ask|asking) (for help|someone for help|the staff)|confused by (the )?machines|show (me|you) how to use|new to gym equipment)\\b",
+    "body": [
+      "Nobody is born knowing how a hack squat works. Not knowing is not a flaw; it is just the starting line. Most machines have an instruction sticker on the side showing the setup and the movement, and reading it is exactly what experienced lifters do with a machine they have not used before.",
+      "Staff at most gyms are happy to show you how something adjusts; that is part of their job. A quick 'Could you show me how this seat moves?' is all it takes. You can also ask me how to set up an exercise and what it should feel like, before or after your session.",
+      "For the first few weeks, build your sessions around five or six pieces of equipment you understand, and add one new one each week. Small and steady, and the whole gym slowly becomes yours."
+    ],
+    "more": {
+      "why": "Learning one or two pieces of equipment at a time keeps your sessions calm and your form clean. Trying to figure out everything at once is how people get overwhelmed and stop going.",
+      "how": "Read the sticker, adjust the seat so the pivot point lines up with your joint, do one light practice set, then your real sets. Note your settings in your log.",
+      "mistake": "Avoiding the parts of the gym you do not know forever. Pick one new thing a week and learn it with a light weight.",
+      "beginner": "A great starter kit: leg press, chest press, lat pulldown, seated cable row, dumbbells and a mat. You can train your whole body with those."
+    },
+    "chips": [
+      "How do I set up a machine?",
+      "I feel nervous going to the gym",
+      "How do I use cable machines?"
+    ],
+    "related": [
+      "dj-b-069",
+      "dj-b-056",
+      "dj-a-047"
+    ]
+  },
+  {
+    "id": "dj-b-074",
+    "topic": "gym-anxiety",
+    "title": "When the gym is least busy, and going at quieter times",
+    "keys": [
+      "when is the gym least busy",
+      "when is the gym quiet",
+      "quietest time at the gym",
+      "gym busy hours",
+      "avoid crowds at the gym",
+      "gym too busy after work",
+      "what time is the gym empty",
+      "less crowded gym time",
+      "gym rush hour",
+      "when is the gym not busy"
+    ],
+    "match": "\\b(when is the gym (least busy|not busy|quiet|empty|less (busy|crowded))|quietest time (to go )?(to|at) the gym|gym (busy|rush) (hours?|hour)|avoid (the )?crowds (at|in) the gym|what time is the gym (empty|quiet)|less crowded (time|times)|gym too busy)\\b",
+    "body": [
+      "At most gyms, the busiest times are weekday evenings from about 4:30 to 7:30, especially Monday and Tuesday, plus early weekday mornings before work. The quietest windows are usually mid-morning, early afternoon, the last hour or two before closing, and weekend afternoons.",
+      "Every gym is a little different, so look for yourself. Many gyms and map apps show a typical busy-times chart. Or just visit at a couple of different times in your first week and notice the difference.",
+      "If quiet hours fit your life, they are a lovely way to build confidence and learn the equipment. If they do not, the evening crowd is fine too; a written plan and one or two backup exercises make a busy gym much easier."
+    ],
+    "more": {
+      "why": "Fewer people means less waiting, more space and less pressure while you learn. That makes the first weeks feel calmer, and calm weeks are the ones people repeat.",
+      "how": "Check the busy-times chart for your gym, pick two quieter slots that fit your week, and put them in your calendar like appointments.",
+      "mistake": "Only going when it is empty, then skipping whenever your schedule pushes you into a busy hour. Quiet is a nice bonus, not a requirement.",
+      "example": "Monday at 6 pm: every bench taken. Wednesday at 1:30 pm: the cable station all to yourself. Same gym, totally different feel."
+    },
+    "chips": [
+      "I feel nervous going to the gym",
+      "Morning or evening workouts?",
+      "What if a machine is taken?"
+    ],
+    "related": [
+      "dj-b-069",
+      "dj-b-071",
+      "dj-b-081"
+    ]
+  },
+  {
+    "id": "dj-b-075",
+    "topic": "gym-anxiety",
+    "title": "Feeling intimidated by the free weight area",
+    "keys": [
+      "the free weight area is intimidating",
+      "scared of the free weights section",
+      "intimidated by the weight room",
+      "scared of the squat rack",
+      "too scared to use the squat rack",
+      "only use machines because im scared",
+      "how do i start using free weights",
+      "nervous to use barbells",
+      "the dumbbell area is intimidating",
+      "scared of the weight section"
+    ],
+    "match": "\\b((free ?weights?|weight room|weight section|dumbbell area|squat rack|barbells?|bro area|weights area)( area| section)? (is |are )?(intimidating|scary)|(scared|afraid|nervous|intimidated) (of|by|to use) (the )?(free ?weights?|weight room|weight section|squat rack|barbells?|dumbbell area|bro area)|start using free weights)\\b",
+    "body": [
+      "That corner with the racks, the mirrors and the loud plates can feel like a club you were not invited to. You were. It is just equipment, and everyone using it had a first day there too.",
+      "Ease in. Start with dumbbells, which feel less public than a barbell. Grab a pair and take them to a bench near the edge of the area, or wherever there is room. Once that feels normal, try a goblet squat or a Romanian deadlift in a quieter rack. Save your first barbell sessions for quieter times if you can.",
+      "A few small habits help you feel like you belong: re-rack your weights, wipe down the bench, and do not worry about how much anyone else is lifting. Machines are not a lesser choice, either. Free weights are just another tool, and you can add them at your own pace."
+    ],
+    "more": {
+      "why": "Free weights let you train squats, hinges and presses in a natural way, and they work almost anywhere. They are worth learning, but there is no deadline.",
+      "how": "Weeks 1 to 2: dumbbells on a bench at the edge. Weeks 3 to 4: goblet squats and dumbbell Romanian deadlifts. Week 5 on: one barbell lift at a quiet time, starting with the empty bar.",
+      "mistake": "Thinking you need to lift heavy to be allowed in there. The empty bar is a legitimate weight, and plenty of strong people started with it.",
+      "example": "First free weight session: dumbbell bench press 3 x 10, dumbbell row 3 x 10 per side, goblet squat 3 x 10. All on one bench in the corner, 35 minutes."
+    },
+    "chips": [
+      "Machines or free weights first?",
+      "How do I do a goblet squat?",
+      "I feel like people are watching me"
+    ],
+    "related": [
+      "dj-b-069",
+      "dj-b-052",
+      "dj-b-070"
+    ]
+  },
+  {
+    "id": "dj-b-076",
+    "topic": "habits",
+    "title": "Building a gym habit that sticks",
+    "keys": [
+      "how do i build a gym habit",
+      "how to make working out a habit",
+      "how to stay consistent",
+      "how to be consistent at the gym",
+      "building a habit",
+      "how to stick with working out",
+      "i keep quitting the gym",
+      "how do i stop quitting",
+      "how long to build a habit",
+      "consistency tips",
+      "make exercise a routine",
+      "build a gym habit"
+    ],
+    "match": "\\b((build|building|make|form|create|making) (a |the )?(gym |workout |exercise |training )?habits?|how (do i|to) (stay|be) consistent|stick (with|to) (working out|the gym|exercise|training)|keep quitting|stop quitting|how long (does it take )?to (build|form) a habit|consistency tips|make exercise a routine)\\b",
+    "body": [
+      "Make it smaller and more fixed than feels impressive. Pick specific days and times, like Monday, Wednesday and Friday at 6 pm, and treat them like appointments. Choose a session length you could manage even on a tired day, around 30 to 45 minutes. A plan that fits your worst week is the one that survives your real life.",
+      "Remove the friction. Pack your bag the night before, keep your shoes by the door, and have the session already planned on your Train screen so there is nothing to decide. Link it to something you already do: straight from work, or right after school drop-off.",
+      "Then count showing up as the win, not the weights. Three good sessions a week for a year will change you more than six a week for a month. When you miss one, just make the next one. Discipline builds freedom, and it is built one ordinary week at a time."
+    ],
+    "more": {
+      "why": "Habits form through repetition in the same context. Fixed times and low friction let the behavior run on autopilot, so you are not relying on motivation, which comes and goes.",
+      "how": "Pick 3 days and a time, set reminders, pack your bag the night before, keep sessions under 45 minutes, and log every one so you can see the streak.",
+      "mistake": "Starting with an all-out plan: six days, a new diet and a 5 am alarm. Big starts tend to collapse in week three. Small starts quietly become forever.",
+      "example": "Weeks 1 to 4: Monday, Wednesday, Friday after work, 35 minutes each. Week 5: same days, 45 minutes. That is a habit, not a phase."
+    },
+    "reads": [
+      "streak"
+    ],
+    "chips": [
+      "What is the least I can do?",
+      "I missed a week of workouts",
+      "Morning or evening workouts?"
+    ],
+    "related": [
+      "dj-b-077",
+      "dj-b-079",
+      "dj-b-086"
+    ]
+  },
+  {
+    "id": "dj-b-077",
+    "topic": "habits",
+    "title": "The least you can do on a hard week",
+    "keys": [
+      "what is the least i can do",
+      "minimum workout",
+      "bare minimum workout",
+      "what is the minimum i should do",
+      "i only have 15 minutes",
+      "minimum effective workout",
+      "smallest workout that counts",
+      "i dont have time to work out",
+      "busy week workout",
+      "too busy to train",
+      "does a short workout count"
+    ],
+    "match": "\\b(least i can do|(bare )?minimum (workout|effective|i should do|i can do)|smallest workout|only have (10|15|20|ten|fifteen|twenty) minutes|(don'?t|do not|dont) have time to (work out|train|exercise)|too busy to (train|work out|exercise)|does a short workout count|busy week workout)\\b",
+    "body": [
+      "On a hard week, the goal changes from progress to keeping the thread. The least you can do is still something: one short session of about 15 to 20 minutes, with two or three exercises that cover your whole body, at an easy to moderate effort.",
+      "A good minimum: a squat or leg press, a push like push-ups or a chest press, and a pull like a row, 2 sets each. Or, if you cannot get to the gym at all, a 20 minute walk and five minutes of stretching. Log it either way. It counts.",
+      "This is not about the muscle you build in 15 minutes. It is about staying someone who trains. People who keep a tiny version going through rough weeks come back to full sessions far more easily than people who stop completely."
+    ],
+    "more": {
+      "why": "Habits are kept alive by repetition, not intensity. A small session protects the routine, and the routine is what carries you through the months that build real results.",
+      "how": "Pick your three minimum exercises now, while things are calm. When a hard week hits, you already know what to do: 2 sets each, done in 15 to 20 minutes.",
+      "example": "Goblet squat 2 x 10, push-ups 2 x 10, dumbbell row 2 x 10 per side. Fifteen minutes, whole body, habit intact.",
+      "mistake": "Deciding a short session is not worth it, so you do nothing. Nothing is the only option that actually breaks the chain.",
+      "short_on_time": "Ten minutes: 2 rounds of 10 bodyweight squats, 10 push-ups on a counter, a 30 second plank and a 30 second side plank per side."
+    },
+    "reads": [
+      "streak"
+    ],
+    "chips": [
+      "Should I work out on a bad day?",
+      "I feel burned out",
+      "How do I build a gym habit?"
+    ],
+    "related": [
+      "dj-b-076",
+      "dj-b-078",
+      "dj-b-047"
+    ]
+  },
+  {
+    "id": "dj-b-078",
+    "topic": "habits",
+    "title": "Working out on a bad day",
+    "keys": [
+      "should i work out on a bad day",
+      "should i work out when im sad",
+      "bad day should i train",
+      "i dont feel like working out today",
+      "no motivation today",
+      "should i skip the gym today",
+      "i had a bad day",
+      "working out on a rough day",
+      "i feel awful should i work out",
+      "low energy day workout",
+      "i dont feel like going to the gym"
+    ],
+    "match": "\\b(work(ing)? ?out on a (bad|rough|hard) day|(bad|rough) day should i|(don'?t|do not|dont) feel like (working out|training|going|lifting)|no motivation today|skip the gym today|should i (train|work out|lift) when (i'?m |i am |im )?(sad|tired|down)|low energy day)\\b",
+    "body": [
+      "Usually, yes, in a gentle version. A bad day is often exactly when moving helps most. Make a deal with yourself: go, do the warm-up and the first exercise, and if you still feel awful after ten minutes, you are allowed to go home. Most days you will stay, and you will leave feeling better than you arrived.",
+      "Lower the bar for the day. Use lighter weights, stop every set with three or four reps left, and skip anything you were dreading. A walk outside counts too. The goal is to look after yourself, not to set a record.",
+      "There are days to skip. If you have a fever or a chest cold, slept terribly, or something hurts, rest is the training. And if bad days are stacking up into weeks, please talk to someone you trust or a doctor. You matter more than a streak."
+    ],
+    "more": {
+      "why": "Moderate exercise tends to lift mood and ease stress for many people, and keeping the habit on hard days builds trust in yourself. Keep the effort gentle so the session adds to your day instead of draining it.",
+      "how": "The ten minute deal: warm-up plus one exercise, then decide. If you stay, use lighter weights and fewer sets than planned.",
+      "mistake": "Using a bad day to punish yourself with a brutal workout. Hard training on a terrible day tends to make the day worse.",
+      "example": "Planned: squats 4 x 8, rows, presses. Bad day version: 10 minutes on the bike, goblet squats 2 x 10, cable rows 2 x 12, a long stretch. Logged and done."
+    },
+    "reads": [
+      "checkins"
+    ],
+    "chips": [
+      "What is the least I can do?",
+      "I feel burned out",
+      "Signs I need more rest"
+    ],
+    "related": [
+      "dj-b-077",
+      "dj-b-080",
+      "dj-b-040"
+    ]
+  },
+  {
+    "id": "dj-b-079",
+    "topic": "comebacks",
+    "title": "Missing a week of workouts and getting back on track",
+    "keys": [
+      "i missed a week of workouts",
+      "i missed a week",
+      "missed workouts",
+      "i skipped the gym for a week",
+      "how do i get back on track",
+      "missed a few workouts",
+      "i missed my workouts this week",
+      "back on track after missing",
+      "i fell off the wagon",
+      "i skipped a week",
+      "missed a session"
+    ],
+    "match": "\\b(missed (a |one |two |three |\\d+ )?(week|weeks|workouts?|sessions?|days?)( of (workouts|training|the gym))?|skipped (the gym|a week|workouts?)|\\bi fell off\\b|fell off the wagon|get(ting)? back on track|back on track)\\b",
+    "body": [
+      "A missed week is a pause, not an ending. Your strength does not disappear in seven days; you will likely walk back in almost exactly where you left off. What matters now is the next session, not the missed ones.",
+      "Do not try to make up for it. No double sessions, no punishment workouts. Pick your plan up where you are on your Train screen and do the next session as written, maybe with slightly lighter weights or one fewer set if you feel rusty. By the second session back, you will be on pace again.",
+      "Then get curious instead of critical. What got in the way: time, energy, a schedule change, a mood? Name it kindly and make one small adjustment, like a shorter session on busy days or a different time slot. That is how a missed week becomes useful information."
+    ],
+    "more": {
+      "why": "Fitness changes slowly in both directions. A week off barely touches your strength, but the story you tell yourself about it can derail you for months. Keep the story short: missed a week, back now.",
+      "how": "Next planned day: show up, do the session at about 90 percent of your usual weights, log it, and move on. No catching up.",
+      "mistake": "Waiting for Monday, or the first of the month, to restart. The best restart day is the next one on your calendar.",
+      "example": "Missed Monday through Sunday. Tuesday you come back, use last session's weights minus a little, and by Thursday you are right back on plan."
+    },
+    "reads": [
+      "streak"
+    ],
+    "chips": [
+      "I broke my streak",
+      "Coming back after a long break",
+      "How do I build a gym habit?"
+    ],
+    "related": [
+      "dj-b-082",
+      "dj-b-076"
+    ]
+  },
+  {
+    "id": "dj-b-080",
+    "topic": "burnout",
+    "title": "Feeling burned out on training",
+    "keys": [
+      "i feel burned out",
+      "burned out on the gym",
+      "burnt out from working out",
+      "i hate going to the gym now",
+      "lost motivation to work out",
+      "workouts feel like a chore",
+      "i am tired of working out",
+      "training burnout",
+      "i dont enjoy lifting anymore",
+      "no motivation for weeks",
+      "gym burnout",
+      "sick of my workouts"
+    ],
+    "match": "\\b(burn(ed|t)? ?-?out|(lost|losing|have no|no) motivation (to|for) (work(ing)? out|train(ing)?|lift(ing)?|the gym|weeks)|(hate|dread) going to the gym|(feels? like|become) a chore|(tired|sick) of (working out|my workouts|the gym|training)|(don'?t|dont|do not) enjoy (lifting|training|working out|the gym) anymore)\\b",
+    "body": [
+      "That happens to almost everyone who trains long enough, and it is information, not failure. Burnout usually comes from one of three places: training that has been too hard for too long, a routine that has gone stale, or life stress that leaves nothing in the tank for the gym.",
+      "For the next two weeks, turn everything down. Train two or three times a week, cut your sets by about a third, and stop every set with plenty left. Swap in a few exercises you actually enjoy, try a class or train outside, and let a long walk count as a session. Sleep and food come first.",
+      "Most people feel the spark come back within a couple of weeks of easier, more varied training. If it does not, or if you feel flat and low about everything, not just the gym, please talk to a doctor or someone you trust. That is worth taking care of."
+    ],
+    "more": {
+      "why": "Hard training is a stress like any other. When it stacks on top of work, family and poor sleep, your body and mind start pushing back. Easing off lets you recover and remember why you liked it.",
+      "how": "Two weeks: 2 to 3 sessions, about two thirds of your usual sets, 3 or more reps left on every set, and one new exercise or activity just for fun.",
+      "mistake": "Forcing harder workouts to snap yourself out of it. That deepens the hole. Ease off first, then build back up.",
+      "example": "Instead of four heavy sessions, do two easy full-body sessions, one hike and one yoga class. Week three, back to three sessions. Week five, back to normal."
+    },
+    "reads": [
+      "checkins"
+    ],
+    "chips": [
+      "Signs I need more rest",
+      "What is the least I can do?",
+      "Too stressed to work out"
+    ],
+    "related": [
+      "dj-b-038",
+      "dj-b-047",
+      "dj-b-077"
+    ]
+  },
+  {
+    "id": "dj-b-081",
+    "topic": "habits",
+    "title": "Morning or evening workouts",
+    "keys": [
+      "morning or evening workouts",
+      "is it better to work out in the morning or at night",
+      "best time to work out",
+      "best time to go to the gym",
+      "morning workouts",
+      "evening workouts",
+      "night workouts",
+      "working out at night",
+      "should i train in the morning",
+      "does time of day matter for working out",
+      "am or pm workout",
+      "working out before work"
+    ],
+    "match": "\\b(morning or (evening|night|afternoon)|(evening|night) or morning|best time (of day )?to (work ?out|train|lift|exercise|go to the gym)|(morning|evening|night|late night) (workouts?|training|sessions?)|working out (at night|in the morning|before work|after work)|train(ing)? in the morning|time of day (matter|for)|am or pm)\\b",
+    "body": [
+      "The best time is the one you will actually keep. Consistency matters far more than the clock. Strength and performance tend to peak a little in the late afternoon and evening for many people, but the difference is small, and your body adapts to whatever time you train regularly.",
+      "Mornings are great for people whose evenings get swallowed by work and family; the session is done before the day can interfere. Give yourself a longer warm-up, since you will be stiffer, and eat something small if training on an empty stomach makes you feel weak.",
+      "Evenings suit people who feel stronger later or have more time after work. Finish hard sessions a couple of hours before bed if you can, since intense training right before sleep keeps some people wired. Pick one, stick with it for a month, and see how you feel."
+    ],
+    "more": {
+      "why": "Your body gets used to a regular training time. Strength at 6 am improves when 6 am is when you lift, so the habit matters more than the hour.",
+      "how": "Look at your week honestly. Which slot is least likely to get canceled? Book it three times a week and protect it like a meeting.",
+      "example": "Early bird: lights out by 10, clothes laid out, alarm at 5:45, gym at 6:15, done by 7. Evening: gym at 6:30 pm, dinner at 8, winding down by 10.",
+      "mistake": "Switching between morning and evening every few days. Your body and your habit both like predictability.",
+      "beginner": "Not sure? Try two weeks of each and log how you felt. Your log will tell you which one fits."
+    },
+    "chips": [
+      "How do I warm up in the morning?",
+      "How do I build a gym habit?",
+      "How much sleep do I need?"
+    ],
+    "related": [
+      "dj-b-076",
+      "dj-b-007",
+      "dj-b-039"
+    ]
+  },
+  {
+    "id": "dj-b-082",
+    "topic": "habits",
+    "title": "Breaking a streak and starting the next one",
+    "keys": [
+      "i broke my streak",
+      "lost my streak",
+      "my streak reset",
+      "i ruined my streak",
+      "streak broken",
+      "how do i keep my streak",
+      "missed a day and lost my streak",
+      "streak gone",
+      "does breaking a streak matter",
+      "i hate losing my streak",
+      "start a new streak"
+    ],
+    "match": "\\b((broke|broken|lost|ruined|reset|ended|losing|breaking) (my |the |a )?streak|streak (is |was )?(broken|reset|gone|ended)|(keep|keeping|start|starting) (my |a new |the )?streak)\\b",
+    "body": [
+      "Streaks are a lovely tool and a terrible boss. A streak is there to make showing up visible and a little fun. When it breaks, its job is not to make you feel like you failed. One missed day does not erase the sessions you did. They all still happened, and your body kept every one of them.",
+      "A rule I love: never miss twice. One miss is life. Two in a row is the start of a new pattern. So the most important session is the next one, and starting a new streak today is the best answer to losing an old one.",
+      "Look at the bigger picture too. Eleven sessions out of twelve planned in a month is excellent. That number tells a truer story than any streak counter."
+    ],
+    "more": {
+      "why": "People who keep training after a slip usually do one simple thing: they make the next session happen quickly. All-or-nothing thinking is what turns one missed day into a missed month.",
+      "how": "Missed a day? Schedule the next session within 48 hours, keep it short if you need to, log it, and let the new streak start at one.",
+      "mistake": "Deciding the week is ruined and restarting next Monday. That turns one missed day into five.",
+      "example": "A streak of 14 sessions breaks on a busy Thursday. Friday you do a 20 minute version. New streak: 1. Month total: still your best month."
+    },
+    "reads": [
+      "streak"
+    ],
+    "chips": [
+      "I missed a week of workouts",
+      "What is the least I can do?",
+      "All or nothing thinking"
+    ],
+    "related": [
+      "dj-b-079",
+      "dj-b-085"
+    ]
+  },
+  {
+    "id": "dj-b-083",
+    "topic": "habits",
+    "title": "Wondering whether you are doing enough",
+    "keys": [
+      "am i doing enough",
+      "is my workout enough",
+      "am i working out enough",
+      "is three days a week enough",
+      "is 30 minutes enough",
+      "am i training hard enough",
+      "do i need to do more",
+      "should i be doing more",
+      "is this enough exercise",
+      "am i lifting enough",
+      "is my routine enough"
+    ],
+    "match": "\\b(am i (doing|training|working out|lifting|exercising) (enough|hard enough)|is (my (workout|routine|training|plan)|this|three days( a week)?|3 days( a week)?|30 minutes|twice a week) enough|(do i need|should i be) (to do |doing )?more)\\b",
+    "body": [
+      "Probably more than you think. For most people, two or three full-body strength sessions a week, with about 10 to 20 hard sets per muscle group across the week, is enough to get stronger and build muscle for a long time. Add regular walking and you are covering the big things.",
+      "The better question is whether things are slowly moving. Are your weights or reps creeping up over a few weeks? Do the movements feel smoother? Are you showing up most weeks? If yes, you are doing enough. If nothing has moved in a month or two, adjust one thing, not everything.",
+      "Doing more only helps if you can recover from it. Many people would progress faster by doing the same amount with better effort and better sleep, not by adding a fourth or fifth day."
+    ],
+    "more": {
+      "why": "Progress comes from consistent effort over time and enough recovery to adapt. Past a certain point, more training adds fatigue faster than it adds results.",
+      "how": "Check your log every 4 weeks. If most lifts went up a little in weight or reps, keep going. If not, add one set to a few exercises or push sets a little closer to your limit.",
+      "mistake": "Measuring enough by how exhausted you feel. Exhaustion is not the goal; slow, steady improvement is.",
+      "example": "Three 45 minute sessions a week, 5 exercises of 3 sets each, every set ending with 1 to 3 reps left. That is a strong, complete week for most people."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "I feel like I'm not improving",
+      "How many days a week should I train?",
+      "What does reps in reserve mean?"
+    ],
+    "related": [
+      "dj-b-084",
+      "dj-b-060",
+      "dj-b-054"
+    ]
+  },
+  {
+    "id": "dj-b-084",
+    "topic": "progress",
+    "title": "Feeling like you are not improving",
+    "keys": [
+      "i feel like im not improving",
+      "not improving",
+      "no progress",
+      "im not making progress",
+      "i am not getting stronger",
+      "my lifts are stuck",
+      "why am i not seeing results",
+      "i feel stuck",
+      "nothing is changing",
+      "not getting results",
+      "stopped making progress",
+      "plateau"
+    ],
+    "match": "\\b(not (improving|progressing|getting (any )?(stronger|better|results))|no progress|(not|stopped) making (any )?progress|(lifts|progress) (are |is )?stuck|not seeing (any )?results|i feel stuck|nothing (is )?changing|plateau(ed|ing)?)\\b",
+    "body": [
+      "First, check the log, not the mirror. Progress is slow and quiet, and day to day it is invisible. Compare this month to three months ago: weights, reps, how a movement feels, how many sessions you did. Most people find more progress than they expected once they see the numbers side by side.",
+      "If things really have stalled, look at the basics before changing the plan. Are you showing up consistently? Are your sets ending with one to three reps left, or far from hard? Are you sleeping seven hours or more? Is your form the same every rep? One of those is usually the answer.",
+      "Then change one thing for four weeks: add a set to a few exercises, push sets a little closer to your limit, add a rep before adding weight, or slow your lowering down. One change, four weeks, then check again. That is how you find what works for you."
+    ],
+    "more": {
+      "why": "Bodies adapt in weeks and months, not days. Early progress is fast, then it slows, and slower progress is normal, not a sign that something is broken.",
+      "how": "Open your Progress screen and compare a lift from 8 to 12 weeks ago to today. Then pick one variable to change and keep everything else the same.",
+      "mistake": "Changing the whole program every two weeks because it does not feel like it is working. Constant changes make it impossible to see what helps.",
+      "example": "Goblet squat was 30 lb for 10 in March and is still 30 lb for 10. Change: add one set and a 3 second lower for 4 weeks, then try 35 lb."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Am I doing enough?",
+      "How do I track my progress?",
+      "When do I add weight?"
+    ],
+    "related": [
+      "dj-b-083",
+      "dj-b-061",
+      "dj-b-053"
+    ]
+  },
+  {
+    "id": "dj-b-085",
+    "topic": "mindset",
+    "title": "All-or-nothing thinking and the perfect week",
+    "keys": [
+      "all or nothing thinking",
+      "all or nothing",
+      "perfectionism",
+      "i need a perfect week",
+      "if i cant do it all i do nothing",
+      "i quit when i mess up",
+      "i keep starting over",
+      "start over monday",
+      "perfectionist and working out",
+      "i ruined my week",
+      "my week is ruined"
+    ],
+    "match": "\\b(all ?-?or ?-?nothing|perfectionis(m|t)|perfect week|keep starting over|start(ing)? over (on )?monday|(ruined|ruin) my week|week is ruined|quit when i (mess|screw) up|do it all i do nothing)\\b",
+    "body": [
+      "All-or-nothing thinking sounds like this: I missed Monday, so the week is ruined; I cannot do the full hour, so why bother; lunch went sideways, so I will start again next week. It feels like high standards. In practice it turns small slips into long breaks.",
+      "Try all or something instead. If you cannot do the full session, do half. If you missed Monday, Tuesday still counts. If the week went sideways, two sessions is a perfectly good week. Something beats nothing, every time, and it keeps you being a person who trains.",
+      "I notice this pattern most in people who care a lot, which is a good thing to have. Point that care at consistency instead of perfection, and it will carry you for years."
+    ],
+    "more": {
+      "why": "Results come from the total of many ordinary weeks. A plan that only works when everything goes right will fail on the first busy week. A flexible one survives.",
+      "how": "Write down two plans: your full week and your minimum week. On a good week, do the full one. On a rough week, do the minimum and call it a win.",
+      "mistake": "Waiting for the perfect Monday to restart. There is no perfect Monday. There is just the next session.",
+      "example": "Planned 4 sessions, did 2 because of a sick kid. Old story: failed week. True story: 2 sessions, habit alive, back to 4 next week."
+    },
+    "reads": [
+      "streak"
+    ],
+    "chips": [
+      "What is the least I can do?",
+      "I broke my streak",
+      "I had a bad workout"
+    ],
+    "related": [
+      "dj-b-082",
+      "dj-b-077",
+      "dj-b-088"
+    ]
+  },
+  {
+    "id": "dj-b-086",
+    "topic": "habits",
+    "title": "Stacking training onto habits you already have",
+    "keys": [
+      "habit stacking",
+      "how do i fit workouts into my routine",
+      "attach a habit",
+      "linking habits",
+      "how to remember to work out",
+      "cue for working out",
+      "make it automatic",
+      "how to make exercise automatic",
+      "tiny habits",
+      "small habits"
+    ],
+    "match": "\\b(habit stacking|stack(ing)? (a |my )?habits?|fit (workouts|training|exercise) into my (routine|day|life)|link(ing)? habits|remember to (work out|train|stretch)|make (it|exercise|training|working out) automatic|tiny habits|small habits)\\b",
+    "body": [
+      "Attach the new habit to something you already do every day without thinking. That existing habit becomes the cue. After I drop the kids at school, I drive to the gym. After I close my laptop at 5, I put on my gym shoes. After I brush my teeth at night, I do five minutes of stretching.",
+      "Make the first step tiny and specific. Not 'work out more', but 'put on my shoes and drive to the gym'. Once you are there, the rest usually follows. Keep your gym bag in the car and your mat next to your bed so the cue and the action sit close together.",
+      "Start with one stacked habit, keep it for a month, then add the next. That is how I built mine: a walk, then a warm-up, then three sessions a week, one at a time until they added up to a different life."
+    ],
+    "more": {
+      "why": "An existing routine acts as a reliable trigger, so you do not have to remember or decide. Fewer decisions means fewer chances to talk yourself out of it.",
+      "how": "Write it as a sentence: After I (current habit), I will (new habit). Make the new habit take under two minutes to start.",
+      "example": "After I pour my morning coffee, I do 10 bodyweight squats and a 30 second plank. Two weeks later, it happens without thinking.",
+      "mistake": "Stacking five new habits onto one morning. Start with one. The others get easier once the first is automatic."
+    },
+    "chips": [
+      "How do I build a gym habit?",
+      "A 10 minute mobility routine",
+      "What is the least I can do?"
+    ],
+    "related": [
+      "dj-b-076",
+      "dj-b-023"
+    ]
+  },
+  {
+    "id": "dj-b-087",
+    "topic": "mindset",
+    "title": "Comparing yourself to other people at the gym",
+    "keys": [
+      "comparing myself to others",
+      "everyone is stronger than me",
+      "i compare myself to people at the gym",
+      "comparing myself on social media",
+      "fitness influencers make me feel bad",
+      "im weaker than everyone",
+      "i feel behind",
+      "everyone else lifts more",
+      "why am i so weak compared to others",
+      "other people progress faster"
+    ],
+    "match": "\\b(compar(e|ing) myself|everyone (else )?(is stronger|lifts more)|weaker than everyone|(influencers|instagram|social media|tiktok) makes? me feel|i feel behind|so weak compared|other people progress faster)\\b",
+    "body": [
+      "Start where you are, not where someone else is. The person squatting twice your weight may have ten years of training, different genetics, a different job, more sleep and fewer responsibilities. You are seeing their chapter twenty and comparing it to your chapter two.",
+      "Social media makes it worse: good lighting, the best angle and the best day, chosen out of hundreds. It is a highlight reel, not a training log. If certain accounts leave you feeling worse about yourself, it is completely okay to mute them.",
+      "The only comparison that helps is you against you. Look at your log from two or three months ago. More weight, more reps, smoother form, or simply more sessions means you are winning the only contest that counts."
+    ],
+    "more": {
+      "why": "Comparing yourself to others measures things you cannot control. Comparing to your own past measures what you did, which is the part you can repeat and build on.",
+      "how": "Once a month, compare one lift and one habit against last month. Write down one thing that improved. That is your scoreboard.",
+      "mistake": "Copying a stronger person's program because they are strong. Their plan fits their history; yours should fit yours.",
+      "example": "Three months ago: push-ups on a bench, 3 x 6. Today: push-ups on a low step, 3 x 10. That is real, and it is yours."
+    },
+    "chips": [
+      "How do I track my progress?",
+      "I feel like I'm not improving",
+      "I had a bad workout"
+    ],
+    "related": [
+      "dj-b-084",
+      "dj-b-088"
+    ]
+  },
+  {
+    "id": "dj-b-088",
+    "topic": "mindset",
+    "title": "I had a bad workout",
+    "keys": [
+      "being kind to yourself after a bad session",
+      "i had a bad workout",
+      "terrible workout",
+      "i felt so weak today",
+      "worst workout ever",
+      "i hate myself after the gym",
+      "bad session",
+      "i was weaker today",
+      "i failed my workout",
+      "why was my workout so bad",
+      "i am so weak",
+      "i suck at lifting"
+    ],
+    "match": "\\b((bad|terrible|awful|horrible|worst) (workout|session|training day|day at the gym)( ever)?|felt (so )?weak today|weaker today|failed my workout|i am so weak|i'?m so weak|im so weak|i suck at (lifting|the gym|working out)|kind to yourself|workout (was )?so bad|hate myself after)\\b",
+    "body": [
+      "Every lifter has bad sessions, including the strongest ones. Bad days are part of the process, not proof that something is wrong with you. Strength goes up and down from day to day with sleep, stress, food, water and a dozen things you cannot see.",
+      "Look at what went right. You showed up when you did not feel great, and you did the work you could do. A session like that builds the habit more than any easy, great day ever will. And if you are calling yourself weak after your fourth session in a row, I would like a word, because four in a row is how strong starts.",
+      "Then check the basics for next time: sleep, a meal a few hours before, enough water. If several bad sessions come in a row, that is a sign to rest a little more, not to try harder."
+    ],
+    "more": {
+      "why": "Performance on any single day has a lot of noise in it. The trend over weeks is what matters, and one rough session barely moves it.",
+      "how": "After a bad session, write down one thing you did well and one thing that may have caused the dip, like poor sleep. Then let it go.",
+      "mistake": "Replaying the session in your head all evening. Log it, note one lesson, move on. Tomorrow does not care about today's bad rep.",
+      "example": "Bench felt heavy: 3 x 6 instead of 3 x 8, after five hours of sleep. Lesson: sleep. Next week, 3 x 8 again. Nothing was lost."
+    },
+    "reads": [
+      "checkins"
+    ],
+    "chips": [
+      "Signs I need more rest",
+      "I slept badly, should I train?",
+      "I feel like I'm not improving"
+    ],
+    "related": [
+      "dj-b-084",
+      "dj-b-087",
+      "dj-b-040"
+    ]
+  }
+]

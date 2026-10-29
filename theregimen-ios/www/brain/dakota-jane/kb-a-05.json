@@ -1,0 +1,894 @@
+[
+  {
+    "id": "dj-a-094",
+    "topic": "bracing",
+    "title": "How to brace your core before a lift",
+    "keys": [
+      "how do i brace my core",
+      "how to brace",
+      "brace my core",
+      "core bracing",
+      "what does brace your core mean",
+      "how to brace for squats",
+      "belly breath brace",
+      "360 breathing",
+      "tighten my core",
+      "how do i engage my core",
+      "engage your core",
+      "bracing for lifting"
+    ],
+    "match": "\\b(brac(e|ing) (my |your |the )?(core|abs|stomach|midsection|trunk)|how (do i|to) brace|core bracing|bracing for (lifting|squats|deadlifts)|360 (degree )?(breath|brac)\\w*|engag(e|ing) (my |your )?core|tighten (my |your )?core|what does brac(e|ing) mean)\\b",
+    "body": [
+      "Bracing is not sucking your stomach in. It is the opposite: take a deep breath in through your nose, down into your belly and sides, so your whole midsection expands like a can being filled. Then tighten everything around that air, as if someone were about to poke you in the stomach and you wanted them to bounce off.",
+      "You should feel pressure all the way around: front, sides and even your lower back. Your ribs stay down over your hips, not flared up toward the ceiling. Hold that brace through the hardest part of the rep, then breathe out near the top and reset before the next one.",
+      "On heavy sets, brace before every rep. On lighter work you can keep a softer brace and breathe more freely. It takes a few weeks of practice to feel natural, so start light and make it a habit."
+    ],
+    "more": {
+      "why": "A braced middle turns your torso into a stiff, stable column, so force from your legs and hips reaches the weight instead of leaking out through a bending spine. It is how you protect your back under load.",
+      "how": "Stand tall with your hands on your sides just above your hips. Breathe in so your hands get pushed outward, then tighten your stomach like you are about to be poked. Hold for 5 seconds while breathing shallowly. That is your brace.",
+      "mistake": "Sucking your belly button toward your spine, or puffing your chest up with air. Neither creates real stiffness. Belly and sides out, ribs down.",
+      "beginner": "Practice the brace lying on your back with your knees bent before you ever load it. Five slow breaths with a 5 second brace each, every day for a week."
+    },
+    "chips": [
+      "How do I breathe when lifting?",
+      "My ribs flare when I press overhead",
+      "How do I do a dead bug?"
+    ],
+    "related": [
+      "dj-a-095",
+      "dj-a-112",
+      "dj-a-103"
+    ]
+  },
+  {
+    "id": "dj-a-095",
+    "topic": "breathing",
+    "title": "When to breathe in and out during a lift",
+    "keys": [
+      "how do i breathe when lifting",
+      "breathing when lifting",
+      "when to breathe during reps",
+      "should i breathe in or out",
+      "breathing during squats",
+      "breathing on bench press",
+      "do i hold my breath when lifting",
+      "how to breathe during exercise",
+      "exhale on the way up",
+      "breathing technique lifting",
+      "breathe out when pushing",
+      "i forget to breathe"
+    ],
+    "match": "\\b(breath(e|ing) (when|while|during|on|in) (i )?(lift|lifting|squat\\w*|bench\\w*|reps?|sets?|exercis\\w*|deadlift\\w*)|hold (my|your) breath|(when|how) (do i|to|should i) (breathe|exhale|inhale)|breathe (in|out) (or|when|on)|exhale on|forget to breathe|breathing technique)\\b",
+    "body": [
+      "Breathe in before the hard part, brace, move, then breathe out near the end. For a squat, deadlift or bench press, that means a big breath in at the top, holding it as you lower and push through the hardest part, then breathing out as you finish the rep or at the top before the next one.",
+      "For lighter work, machines and sets of 10 reps or more, keep it simpler: breathe in as you lower the weight and out as you push or pull it. Do not overthink it; just do not hold your breath for a whole set.",
+      "If you notice yourself getting lightheaded, take a couple of normal breaths between reps, get up slowly from benches and the floor, and keep heavy breath holds short, one rep at a time. If dizziness keeps happening or comes with chest pain, stop and see a doctor."
+    ],
+    "more": {
+      "why": "A breath held behind a braced middle makes your torso stiff and stable for heavy reps. For lighter sets, steady breathing keeps you relaxed and helps you last longer.",
+      "how": "Heavy: breathe in at the top, brace, lower, drive up, breathe out at the top. Light: in on the way down, out on the effort. Reset every rep on heavy sets.",
+      "mistake": "Holding one breath for five heavy reps in a row. One breath per rep, or per two reps at most, on heavy sets.",
+      "example": "Goblet squat: breathe in and brace standing tall, lower in 3 seconds, stand up, breathe out at the top. Plank: slow, steady breaths the whole time, never holding."
+    },
+    "chips": [
+      "How do I brace my core?",
+      "How slow should I lower the weight?",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-094"
+    ]
+  },
+  {
+    "id": "dj-a-096",
+    "topic": "tempo",
+    "title": "How slow to lower the weight, and what tempo means",
+    "keys": [
+      "how slow should i lower the weight",
+      "how fast should i lift",
+      "lifting tempo",
+      "rep tempo",
+      "what is tempo",
+      "slow reps",
+      "how long should a rep take",
+      "lowering the weight slowly",
+      "control the weight down",
+      "3 second lowering",
+      "slow on the way down",
+      "how fast should reps be",
+      "tempo training"
+    ],
+    "match": "\\b(how (slow|fast|quickly) (should|do) i (lower|lift|move)|(lifting|rep|lowering) (tempo|speed)|what is tempo|tempo (training|reps?)|how long should (a|each) rep take|slow (reps|on the way down)|(lower|lowering) the weight slowly|control the weight (down|on the way down)|how fast should (my )?reps be)\\b",
+    "body": [
+      "Lower for about two to three seconds, then lift with control at whatever speed feels natural, a second or so. For most people that is the single biggest upgrade to their training. Control on the way down counts double: the lowering half builds strength and muscle, and it is where your form either holds or quietly falls apart.",
+      "You will sometimes see tempo written as numbers, like 3-1-1-0. That means 3 seconds lowering, a 1 second pause at the bottom, 1 second lifting, and no pause at the top. You do not need tempo codes to benefit; just count your lowering in your head.",
+      "Slower is not always better. Lowering for 6 or 8 seconds every rep makes sets painfully long and forces you to use less weight than you need. Two to three seconds down is the sweet spot."
+    ],
+    "more": {
+      "why": "A controlled lowering keeps the muscle under tension, lets you feel the position, and stops you from bouncing the weight off your joints. It also makes every weight a little harder, so you get more from less.",
+      "how": "Count one-one-thousand, two-one-thousand, three on the way down. Stand up or press up with control. Keep the same tempo for every rep of the set.",
+      "beginner": "Use a 3 second lowering on everything for your first couple of months. It teaches positions, keeps the weights sensible, and builds the habit that matters most.",
+      "mistake": "Lowering slowly for the first three reps and dropping the rest. If you cannot keep the tempo, the weight or the reps are too high.",
+      "advanced": "When a lift stalls, use a slower lowering on purpose for a few weeks: 4 seconds down, same weight. Many lifters move forward again when they return to a normal tempo."
+    },
+    "chips": [
+      "Why are negatives so hard?",
+      "Do pauses at the bottom help?",
+      "Should I do partial reps?"
+    ],
+    "related": [
+      "dj-a-097",
+      "dj-a-098",
+      "dj-a-099"
+    ]
+  },
+  {
+    "id": "dj-a-097",
+    "topic": "tempo",
+    "title": "Why the lowering half of a rep is harder than it looks",
+    "keys": [
+      "why are negatives so hard",
+      "negative reps",
+      "eccentric reps",
+      "what are eccentrics",
+      "eccentric training",
+      "why am i so sore from slow negatives",
+      "lowering phase",
+      "eccentric vs concentric",
+      "slow negatives",
+      "do negatives build muscle",
+      "negatives for beginners"
+    ],
+    "match": "\\b(negatives? (reps?|are so hard|so hard|for beginners)|why are negatives|do negatives|eccentrics?( reps?| training| overload| phase| vs concentric)?|lowering phase|concentric|slow negatives)\\b",
+    "body": [
+      "Negatives, the lowering half of a rep, feel deceptively easy in the moment and very hard the next day. Your muscles can lower more weight than they can lift, so the lowering half seems gentle, but stretching under load creates more of the small-scale muscle damage that leaves you sore. That is why slow negatives hit so hard, especially when they are new.",
+      "It is also why they are so useful. A slow lowering builds strength in the exact positions you need, teaches control, and lets you practice movements you cannot fully do yet, like a pull-up or a push-up from the floor.",
+      "Use them on purpose and in small amounts. Three to five slow negatives of four to five seconds at the end of a session is plenty. Expect extra soreness the first week, then much less once your body adapts."
+    ],
+    "more": {
+      "why": "A muscle lengthening under load can produce more force than one shortening. That makes the lowering half strong, and also demanding, so it leaves more soreness behind.",
+      "how": "Get into the top position with help, a step, a small jump or your other arm, then lower for 4 to 5 seconds with control. Reset and repeat. 2 to 3 sets of 3 to 5.",
+      "mistake": "Doing negatives every session with weights far heavier than you can lift. They are powerful, which means a little goes a long way.",
+      "example": "First pull-up project: step up so your chin is over the bar and lower for 5 seconds, 3 sets of 3, twice a week. Most people notice the soreness drop a lot by the third session."
+    },
+    "chips": [
+      "How slow should I lower the weight?",
+      "How do I get my first pull-up?",
+      "How do I reduce soreness?"
+    ],
+    "related": [
+      "dj-a-096",
+      "dj-a-080"
+    ]
+  },
+  {
+    "id": "dj-a-098",
+    "topic": "tempo",
+    "title": "Paused reps, and whether pauses at the bottom help",
+    "keys": [
+      "do pauses at the bottom help",
+      "paused reps",
+      "pause reps",
+      "should i pause at the bottom",
+      "pause at the top",
+      "pausing reps",
+      "paused bench",
+      "pause at the chest",
+      "why pause reps",
+      "isometric hold",
+      "no bounce reps"
+    ],
+    "match": "\\b(paus(e|es|ed|ing) (at the (bottom|top)|reps?|on the chest|at the chest)|paused (reps?|bench|press|rows?)|pause reps|why pause|isometric holds?)\\b",
+    "body": [
+      "Yes, and they are one of my favorite tools. A one or two second pause at the bottom of a rep takes away the bounce, so your muscles have to start the weight from a dead stop. That builds strength in the hardest position, keeps you honest about depth, and teaches you to stay tight exactly where it would be easy to relax.",
+      "Pause at the bottom on squats, presses and push-ups, and at the top, the squeezed position, on rows, curls, raises and hip thrusts. Stay braced and still during the pause; it is a pause, not a rest.",
+      "Expect to use about 10 to 20 percent less weight with pauses. That is fine. Pauses make lighter weights harder, which is a gift when you are learning a lift or working around a cranky joint."
+    ],
+    "more": {
+      "why": "Muscles store a little stretch at the bottom of a fast rep and bounce out of it. A pause lets that stretch fade, so the muscle does all the work from the hardest point.",
+      "how": "Lower under control, hold the bottom for 1 to 2 seconds while staying tight, then drive up. On pulls, hold the top for 1 second with a full squeeze.",
+      "mistake": "Relaxing during the pause, like sitting on the bottom of a squat or letting the bar sink into your chest. Stay braced; only the movement stops.",
+      "beginner": "Add a one second pause to every rep for a few weeks. It slows you down in the best way and makes your form much easier to feel."
+    },
+    "chips": [
+      "How slow should I lower the weight?",
+      "What is a paused squat?",
+      "When should I stop a set?"
+    ],
+    "related": [
+      "dj-a-096",
+      "dj-a-041"
+    ]
+  },
+  {
+    "id": "dj-a-099",
+    "topic": "range-of-motion",
+    "title": "Partial reps and how much range of motion you need",
+    "keys": [
+      "should i do partial reps",
+      "partial reps",
+      "half reps",
+      "full range of motion",
+      "is full range better",
+      "are partials good",
+      "short reps",
+      "lengthened partials",
+      "do i need full range of motion",
+      "top half reps",
+      "quarter reps"
+    ],
+    "match": "\\b(partial (reps?|range)|partials|half reps?|(full|short|partial) range of motion|need full range|quarter reps?|lengthened partials|top half reps?|short reps)\\b",
+    "body": [
+      "Make full range your default. Going through the whole movement, from a full stretch at the bottom to a full squeeze at the top, trains more of the muscle and builds strength in every position you might need. For most people and most exercises, a controlled full rep is the best rep.",
+      "Full range means the full range you can control with good form today. If your heels lift or your back rounds at the bottom of a squat, your range ends just above that point, and that is fine. It will grow.",
+      "Partial reps have a small place. Once your full reps are done and you cannot do another clean one, a few partials in the stretched bottom half can squeeze a little more out of a set. What I do not want is half reps instead of full ones, just so the number on the bar looks bigger."
+    ],
+    "more": {
+      "why": "Muscles adapt to the range you train. The stretched bottom of a movement is especially valuable for building muscle and keeping your joints comfortable in deep positions.",
+      "how": "Lower until you reach the end of your controlled range, pause for a beat, then return to the top. Mark your squat depth with a box or bench if you need a reference.",
+      "mistake": "Loading a leg press or a bench so heavy that you only move a few inches. If the range shrinks every week as the weight goes up, the weight is not really going up.",
+      "advanced": "Lengthened partials, small reps in the stretched bottom half after reaching failure on full reps, make a reasonable finisher on calf raises, leg presses and lateral raises. Two or three sets, not every exercise."
+    },
+    "chips": [
+      "How deep should I squat?",
+      "How slow should I lower the weight?",
+      "When should I stop a set?"
+    ],
+    "related": [
+      "dj-a-096",
+      "dj-a-003"
+    ]
+  },
+  {
+    "id": "dj-a-100",
+    "topic": "set-endpoint",
+    "title": "When to stop a set",
+    "keys": [
+      "when should i stop a set",
+      "when do i stop a set",
+      "should i go to failure",
+      "training to failure",
+      "when to end a set",
+      "how do i know when to stop",
+      "stop when form breaks",
+      "technical failure",
+      "form breaking down",
+      "should every set be hard",
+      "how close to failure"
+    ],
+    "match": "\\b(when (should|do) i (stop|end) (a|the|my) set|when to (stop|end) (a|the) set|(go|going|train|training) to failure|technical failure|form (breaks|breaking|starts to break) down|how close to failure|should every set be hard|stop (the set )?when (my )?form)\\b",
+    "body": [
+      "Stop the set when the next rep would look noticeably worse than the first one, or when you have about one to three reps left in the tank, whichever comes first. A rep that changes shape, heels lifting, back rounding, hips shooting up, bar drifting, is not an extra rep. It is practice at the wrong movement.",
+      "You do not need to go to total failure to make progress. Most of your sets can end with one to three reps in reserve, and you will still build strength and muscle well. Going to failure on safe exercises like machines, curls and lateral raises is fine now and then; going to failure on heavy squats and deadlifts is rarely worth it.",
+      "Write down the reps you got and how many you think you had left. That note is how you know when to add weight next time."
+    ],
+    "more": {
+      "why": "The last few reps before failure do most of the work, but the reps where form collapses add risk without adding much. Stopping a rep or two early gives you nearly all the benefit and lets you recover for the next session.",
+      "how": "Watch how the weight moves. When a rep slows down sharply or changes shape, finish that rep cleanly and rack it. Then rate the set: how many more could you have done well?",
+      "beginner": "In your first months, stop every set with two or three good reps left. You are learning positions, and learning works best before fatigue blurs them.",
+      "mistake": "Grinding out ugly reps because a number is written on the plan. The plan is a guide; your form is the boss."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What does reps in reserve mean?",
+      "How do I film my lifts?",
+      "When do I add weight?"
+    ],
+    "related": [
+      "dj-b-054",
+      "dj-a-113"
+    ]
+  },
+  {
+    "id": "dj-a-101",
+    "topic": "plank",
+    "title": "Plank form that actually works your core",
+    "keys": [
+      "how do i do a plank properly",
+      "plank form",
+      "how to plank",
+      "proper plank",
+      "plank technique",
+      "how long should i hold a plank",
+      "plank on elbows",
+      "forearm plank",
+      "high plank",
+      "plank for beginners",
+      "is my plank right",
+      "plank challenge"
+    ],
+    "match": "\\b(plank (form|technique|properly|for beginners|challenge)|how (do i|to) (do a )?plank( properly)?|proper plank|(forearm|elbow|high|straight arm) planks?|planks? on (my )?elbows|how long (should|do|can) i (hold|do) a plank|is my plank)\\b",
+    "body": [
+      "Forearms on the floor, elbows under your shoulders, legs straight behind you. Now the parts that matter: squeeze your glutes hard, tuck your pelvis slightly so your lower back is flat rather than sagging, and pull your elbows toward your toes without actually moving them. Your body should be one straight line from your head to your heels.",
+      "Breathe slowly the whole time. If your hips sag, your lower back starts to ache, or you start shaking and rising into a tent, the set is over, even if the timer says otherwise.",
+      "Quality beats time. Three sets of 20 to 30 seconds of a hard, tight plank do more than a sloppy two minute hold. When 3 sets of 45 seconds feel solid, make it harder instead of longer: lift one foot, reach one arm forward, or move on to dead bugs and rollouts."
+    ],
+    "more": {
+      "why": "A plank trains your core to keep your lower back from sagging, which is exactly the job it does when you squat, deadlift, carry and push. The glute squeeze and pelvic tuck are what make it a core exercise instead of a back ache.",
+      "how": "Elbows under shoulders, glutes squeezed, pelvis tucked, elbows pulled toward toes, slow breaths, straight line from head to heels. 3 sets of 20 to 45 seconds.",
+      "beginner": "Start on your knees, or with your forearms on a bench. Same squeeze, same straight line. Build up to 30 seconds, then go to your toes.",
+      "mistake": "Holding a plank for minutes with your hips sagging and your phone in front of your face. If it does not feel hard by 30 seconds, you are not squeezing enough.",
+      "home": "Planks need nothing but floor. Fit 3 short sets in during a commercial break or while dinner is in the oven."
+    },
+    "chips": [
+      "How do I do a side plank?",
+      "How do I do a dead bug?",
+      "My lower back hurts during ab work"
+    ],
+    "related": [
+      "dj-a-102",
+      "dj-a-103",
+      "dj-a-110"
+    ]
+  },
+  {
+    "id": "dj-a-102",
+    "topic": "side-plank",
+    "title": "Side plank form and easier versions",
+    "keys": [
+      "how do i do a side plank",
+      "side plank",
+      "side plank form",
+      "side planks",
+      "side plank on knees",
+      "how long to hold side plank",
+      "side plank hip drop",
+      "obliques exercise",
+      "side plank too hard",
+      "modified side plank",
+      "side plank for beginners"
+    ],
+    "match": "\\b(side ?-?planks?|obliques? exercises?)\\b",
+    "body": [
+      "Lie on your side with your elbow directly under your shoulder and your forearm flat on the floor. Stack your feet, or stagger them with the top foot in front for more balance. Lift your hips until your body is a straight line from your head to your feet, and hold.",
+      "The key is keeping your hips pushed forward and up, not sagging toward the floor or piking back behind you. Squeeze your glutes, keep your top shoulder stacked over your bottom one, and breathe slowly.",
+      "Too hard? Bend your knees and hold the side plank from your knees instead of your feet, with the same straight line from head to knees. Start with 3 sets of 15 to 20 seconds per side and add 5 seconds a week."
+    ],
+    "more": {
+      "why": "Side planks train the muscles along the sides of your trunk to keep you from bending sideways. That stability shows up in carries, lunges, single-leg work and plain walking.",
+      "how": "Elbow under shoulder, feet stacked or staggered, hips up and forward, glutes tight, straight line, slow breaths. Hold, then switch sides.",
+      "mistake": "Letting your hips drift back behind your shoulders. Check in a mirror: you should look like a straight board, not a folding chair.",
+      "advanced": "Lift your top leg, or add slow hip dips: lower your hip an inch or two toward the floor and lift it back up, 8 to 10 per side."
+    },
+    "chips": [
+      "How do I do a plank properly?",
+      "Suitcase carry",
+      "Pallof press form"
+    ],
+    "related": [
+      "dj-a-101",
+      "dj-a-106"
+    ]
+  },
+  {
+    "id": "dj-a-103",
+    "topic": "dead-bug",
+    "title": "Dead bugs, slow and boring and brilliant",
+    "keys": [
+      "dead bug",
+      "dead bugs",
+      "how do i do a dead bug",
+      "dead bug exercise",
+      "dead bug form",
+      "dead bug lower back",
+      "dead bugs too hard",
+      "how to do dead bugs",
+      "dead bug core",
+      "dead bug progression"
+    ],
+    "match": "\\bdead ?-?bugs?\\b",
+    "body": [
+      "Lie on your back with your arms pointing straight up at the ceiling and your knees bent at 90 degrees above your hips, like a bug that has given up. Press your lower back gently into the floor. That flat back is the whole exercise.",
+      "Breathe out and slowly lower your right arm overhead and your left leg toward the floor at the same time, only as far as you can go without your lower back lifting. Pause, bring them back, and switch sides. Move slowly, about three seconds out and three seconds back.",
+      "If your back arches as your leg goes down, shorten the range or keep your knee bent. Start with 2 to 3 sets of 6 to 8 per side. Done slowly, they are surprisingly hard."
+    ],
+    "more": {
+      "why": "Dead bugs teach your core to hold your spine still while your arms and legs move, which is exactly what bracing does during a lift. And they do it without loading your back.",
+      "how": "Back flat, arms up, knees over hips, breathe out, lower the opposite arm and leg slowly, keep the back flat, return, switch.",
+      "beginner": "Start with legs only and your arms resting on the floor, or just tap one heel to the floor with the knee bent. Add the arms when your back stays flat.",
+      "mistake": "Moving fast and letting your lower back peel off the floor. Ten fast reps teach nothing; five slow ones teach a lot.",
+      "home": "No equipment at all; a mat is plenty. Do 2 sets before bed or as part of your warm-up."
+    },
+    "chips": [
+      "How do I brace my core?",
+      "Bird dog form",
+      "How do I do a plank properly?"
+    ],
+    "related": [
+      "dj-a-104",
+      "dj-a-094",
+      "dj-a-101"
+    ]
+  },
+  {
+    "id": "dj-a-104",
+    "topic": "bird-dog",
+    "title": "Bird dogs for a steady back",
+    "keys": [
+      "bird dog",
+      "bird dogs",
+      "bird dog exercise",
+      "bird dog form",
+      "how to do bird dogs",
+      "opposite arm and leg raise",
+      "bird dog back pain",
+      "bird dog balance",
+      "bird dogs too easy",
+      "bird dog core"
+    ],
+    "match": "\\b(bird ?-?dogs?|opposite arm (and|leg) (leg )?raises?)\\b",
+    "body": [
+      "Start on your hands and knees, hands under your shoulders and knees under your hips, back flat like a tabletop. Brace gently. Slowly reach your right arm forward and your left leg back until both line up with your body, as if a cup of water were balanced on your lower back and you did not want to spill it.",
+      "Hold for two to three seconds at full reach, then bring your elbow and knee back under you without touching down, and reach again. Do all your reps on one side, then switch. Your hips stay level the whole time, with no tilt toward the raised leg.",
+      "Start with 2 to 3 sets of 6 to 8 slow reps per side. It looks gentle. Done slowly, with no wobble, it is real core work."
+    ],
+    "more": {
+      "why": "Bird dogs train the muscles along your spine and hips to hold steady while your limbs move, with very little load on your back. They make a great warm-up before hinging and a calm option on days your back feels tight.",
+      "how": "Hands under shoulders, knees under hips, flat back, reach the opposite arm and leg long, hold 2 to 3 seconds, return without touching down, repeat.",
+      "mistake": "Kicking the leg up high and arching your back. Reach long, not high. The leg stops level with your hip.",
+      "advanced": "Add a light ankle weight, or draw slow squares in the air with your hand and foot while your trunk stays perfectly still."
+    },
+    "chips": [
+      "How do I do a dead bug?",
+      "How do I brace my core?",
+      "My low back is tight after lifting"
+    ],
+    "related": [
+      "dj-a-103",
+      "dj-a-094"
+    ]
+  },
+  {
+    "id": "dj-a-105",
+    "topic": "pallof-press",
+    "title": "The Pallof press, core work where you stay still",
+    "keys": [
+      "what is a pallof press",
+      "pallof press",
+      "pallof press form",
+      "how to do pallof press",
+      "anti rotation exercise",
+      "anti rotation core",
+      "band pallof press",
+      "cable pallof press",
+      "palloff press",
+      "core exercise that does not hurt my back"
+    ],
+    "match": "\\b(pall?off? press(es)?|anti ?-?rotation)\\b",
+    "body": [
+      "A Pallof press is a core exercise where the goal is to not move. Set a cable or a band at chest height and stand side-on to it, far enough away that there is tension. Hold the handle at the middle of your chest with both hands, feet about hip width, knees soft, and brace.",
+      "Press the handle straight out in front of you until your arms are straight, and hold for two to three seconds while the cable tries to twist you toward the machine. Do not let it. Bring the handle back to your chest slowly. Do all your reps, then turn around and do the other side.",
+      "Start light, 2 to 3 sets of 8 to 10 per side. If your hips or shoulders turn toward the stack, the weight is too heavy."
+    ],
+    "more": {
+      "why": "A lot of your core's real job is resisting movement: keeping you from twisting, bending or arching when a load pulls on you. The Pallof press trains exactly that, and it is gentle on your back.",
+      "how": "Cable at chest height, stand side-on, handle at your chest, brace, press out, hold 2 to 3 seconds, return slowly. Same reps on both sides.",
+      "beginner": "Start half kneeling, one knee down, with a light band. It is easier to stay square when your hips are locked in place.",
+      "mistake": "Standing so close that the cable has no pull. You should feel it trying to turn you the moment your arms go out.",
+      "home": "A resistance band looped around a sturdy post or a closed door's handle works perfectly. Make sure the door is shut first."
+    },
+    "chips": [
+      "How do I use cable machines?",
+      "How do I do a side plank?",
+      "How do I brace my core?"
+    ],
+    "related": [
+      "dj-a-102",
+      "dj-a-088"
+    ]
+  },
+  {
+    "id": "dj-a-106",
+    "topic": "carries",
+    "title": "Farmer's carries and suitcase carries",
+    "keys": [
+      "farmers carry",
+      "farmers walk",
+      "farmer carry",
+      "farmer walk",
+      "how do i do farmers carries",
+      "suitcase carry",
+      "one arm carry",
+      "loaded carries",
+      "carry exercise",
+      "how heavy for farmers walk",
+      "farmers carry form",
+      "carries for core"
+    ],
+    "match": "\\b(farmer'?s? (carry|carries|walks?)|suitcase (carry|carries)|(one|single) ?-?arm carry|loaded carries|carry exercises?|carries for core)\\b",
+    "body": [
+      "Pick up two heavy dumbbells or kettlebells, stand tall, and walk. That is a farmer's carry, and it might be the most underrated exercise in the gym. Shoulders down and slightly back, ribs down over your hips, eyes forward, and short, steady steps, as if you were walking a narrow path.",
+      "A suitcase carry is the same idea with a weight in only one hand. Now your core has to keep you from leaning toward the weight. Stay perfectly upright, as if your empty hand were also holding something, and switch hands each round.",
+      "Walk for 30 to 40 seconds or about 20 to 40 yards, rest a minute, and repeat 3 or 4 times. Choose a weight that feels heavy but lets you stay tall the whole way. When your shoulders start rounding or your steps get wobbly, set the weights down carefully."
+    ],
+    "more": {
+      "why": "Carries train your grip, upper back, core and posture all at once, the same way you use your body in real life: groceries, luggage, a sleepy kid. They also build a steadiness that helps every other lift.",
+      "how": "Lift the weights with a flat back, stand tall, brace, walk with short steps for 30 to 40 seconds, then set them down by hinging, not by bending over.",
+      "beginner": "Start with dumbbells that are about a quarter of your body weight in each hand, or lighter if your grip says so. Add a little each week.",
+      "mistake": "Leaning, shrugging or speed walking. Tall, quiet and steady is the point; this is not a race.",
+      "home": "Two full grocery bags, two jugs of water, or a heavy backpack hugged in front. Walk the hallway or the driveway."
+    },
+    "chips": [
+      "My grip gives out first",
+      "How do I do a side plank?",
+      "Shrugs form"
+    ],
+    "related": [
+      "dj-a-083",
+      "dj-a-070"
+    ]
+  },
+  {
+    "id": "dj-a-107",
+    "topic": "leg-raises",
+    "title": "Hanging knee raises and leg raises without swinging",
+    "keys": [
+      "hanging knee raises",
+      "hanging leg raises",
+      "leg raises",
+      "knee raises",
+      "captains chair",
+      "lying leg raises",
+      "how to do hanging leg raises",
+      "leg raises hip flexors",
+      "roman chair knee raise",
+      "hanging abs",
+      "i swing on hanging knee raises",
+      "reverse crunch"
+    ],
+    "match": "\\b((hanging|lying) (knee|leg) raises?|(knee|leg) raises?|captain'?s? chair|roman chair|hanging abs|reverse crunch(es)?)\\b",
+    "body": [
+      "The goal is to curl your pelvis up, not just lift your legs. Hang from a pull-up bar, or use the captain's chair with your back against the pad, and pull your shoulders down so you are not dangling loosely. Bring your knees up toward your chest and, at the top, tilt your pelvis so your hips curl up a little, like rolling your tailbone forward.",
+      "Lower your legs slowly over two to three seconds, all the way down, and pause before the next rep so you are not swinging. If you start swinging, grip tighter, slow down, and stop each rep dead at the bottom.",
+      "Start with bent knees. Straight-leg raises are much harder and pull more on your lower back and hip flexors, so earn them. Sets of 8 to 12 slow knee raises are a great core exercise."
+    ],
+    "more": {
+      "why": "Lifting your legs alone is mostly hip flexor work. The curl of the pelvis at the top is what brings your abs in, so that small tilt is the real exercise.",
+      "how": "Hang or use the captain's chair, shoulders set, knees up, curl the pelvis at the top, lower in 2 to 3 seconds, pause at the bottom, repeat.",
+      "beginner": "On the floor, do reverse crunches: knees bent, lift your hips an inch or two off the floor by curling your pelvis toward your ribs, then lower slowly.",
+      "mistake": "Swinging your legs up with momentum. If you need the swing, the version is too hard. Bend your knees more or go back to the floor."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "My grip gives out first",
+      "My lower back hurts during ab work",
+      "How do I do a plank properly?"
+    ],
+    "related": [
+      "dj-a-110",
+      "dj-a-101"
+    ]
+  },
+  {
+    "id": "dj-a-108",
+    "topic": "ab-wheel",
+    "title": "Ab wheel rollouts without folding in half",
+    "keys": [
+      "ab wheel",
+      "ab roller",
+      "ab wheel rollout",
+      "ab rollouts",
+      "how to use ab wheel",
+      "ab wheel form",
+      "ab wheel hurts my back",
+      "ab wheel from knees",
+      "barbell rollout",
+      "stability ball rollout",
+      "ab wheel for beginners",
+      "kneeling rollouts"
+    ],
+    "match": "\\b(ab ?-?(wheel|roller)s?|(barbell|ball|stability ball|kneeling|ab) roll ?-?outs?|roll ?-?outs?)\\b",
+    "body": [
+      "Start on your knees with the wheel under your shoulders and your arms straight. Before you move, squeeze your glutes and tuck your pelvis slightly so your lower back is flat, the same position as a good plank. Then roll forward slowly, keeping that flat back, only as far as you can go without your hips sagging or your back arching.",
+      "At your furthest point, pause for a moment, then pull the wheel back by pressing it down and toward your knees, finishing with your hips under you. Keep your arms straight the whole time.",
+      "Most people should start with a short range, rolling out just a foot or two, or rolling toward a wall that stops the wheel. Add a few inches each week. Sets of 5 to 10 good reps are plenty. This is an advanced move, so earn it with planks and dead bugs first."
+    ],
+    "more": {
+      "why": "A rollout is a moving plank with a long lever, so your core has to work very hard to keep your lower back from sagging. Great when you can control it, hard on your back when you cannot.",
+      "how": "Knees down, glutes tight, pelvis tucked, roll out slowly to your controlled range, pause, press back to the start. 3 sets of 5 to 10.",
+      "beginner": "Roll out toward a wall a short distance away, so the wheel stops before your form does. Move farther from the wall as you get stronger.",
+      "mistake": "Letting your hips drop and your back arch as you roll out. If you feel it in your lower back rather than your stomach, shorten the range."
+    },
+    "chips": [
+      "How do I do a plank properly?",
+      "How do I do a dead bug?",
+      "My lower back hurts during ab work"
+    ],
+    "related": [
+      "dj-a-101",
+      "dj-a-103",
+      "dj-a-110"
+    ]
+  },
+  {
+    "id": "dj-a-109",
+    "topic": "crunches",
+    "title": "Crunches and sit-ups, and whether they are bad",
+    "keys": [
+      "are crunches bad",
+      "crunches",
+      "sit ups",
+      "situps",
+      "are sit ups bad for your back",
+      "crunch form",
+      "how to do crunches",
+      "cable crunch",
+      "decline sit ups",
+      "best ab exercise",
+      "do crunches work",
+      "sit up form"
+    ],
+    "match": "\\b(crunch(es)?|sit ?-?ups?|best ab(s| exercises?)|cable crunch(es)?)\\b",
+    "body": [
+      "Crunches and sit-ups are not bad, and they are not magic either. Done with control, a crunch trains your abs to curl your spine, which is one of their real jobs. The trouble comes from hundreds of fast, yanking reps with your hands pulling on your head.",
+      "For a good crunch, lie on your back with your knees bent and feet flat, hands lightly at your temples or crossed on your chest. Breathe out and curl your ribs toward your hips, lifting your shoulder blades off the floor. Pause for a second, then lower slowly. Your lower back stays down; this is a curl, not a sit-up.",
+      "Cable crunches, kneeling below a high cable with a rope, let you add weight and work in the 10 to 15 rep range like any other muscle. Pair one curling exercise with one stability exercise, like planks or carries, and you have a well-rounded core."
+    ],
+    "more": {
+      "why": "Your abs both bend your spine and resist bending. A balanced core program trains both jobs, so there is room for crunches next to planks.",
+      "how": "Feet flat, hands light, breathe out, curl ribs toward hips, shoulder blades up, pause 1 second, lower in 2 seconds. 2 to 3 sets of 10 to 15.",
+      "mistake": "Pulling on your neck to get up. Keep your hands light and imagine holding an orange under your chin.",
+      "beginner": "Start with 2 sets of 10 slow crunches twice a week next to a plank. That is a perfectly good core routine for a beginner."
+    },
+    "chips": [
+      "How do I do a plank properly?",
+      "How often should I train abs?",
+      "My lower back hurts during ab work"
+    ],
+    "related": [
+      "dj-a-114",
+      "dj-a-101"
+    ]
+  },
+  {
+    "id": "dj-a-110",
+    "topic": "core",
+    "title": "Feeling ab exercises in your lower back or hip flexors",
+    "keys": [
+      "my lower back hurts during ab work",
+      "lower back hurts during ab exercises",
+      "i feel abs in my lower back",
+      "i feel ab exercises in my hip flexors",
+      "planks hurt my lower back",
+      "leg raises hurt my lower back",
+      "hip flexors burn during abs",
+      "back arches during core work",
+      "lower back pain from crunches",
+      "cant feel my abs",
+      "ab work hurts my back",
+      "abs in my hip flexors"
+    ],
+    "match": "\\b((lower |low )?back (hurts|aches|pain|arches) (during|when (i do|doing)|from|on) (ab|abs|core|crunch\\w*|planks?|leg raises?)|(ab|abs|core) (work|exercises?) (hurts?|bothers?) my (lower |low )?back|(planks?|crunch(es)?|leg raises?|sit ?-?ups?) (hurt|hurts|bother|bothers) my (lower |low )?back|feel (ab|abs|core) (work |exercises? )?in my (lower back|hip flexors)|hip flexors? (burn|burning|take over)|(can'?t|cannot|don'?t) feel my abs)\\b",
+    "body": [
+      "That usually means your lower back is arching and your hip flexors are doing the work your abs should be doing. When your core cannot hold your pelvis in place, your back sways and the strong muscles at the front of your hips pull on it. It is a sign the exercise is too hard right now, not that your back is broken.",
+      "Fix the position first. Before each rep or hold, squeeze your glutes and tilt your pelvis so your lower back flattens. On planks, tuck your tailbone slightly. On leg raises, bend your knees and shorten the range. On dead bugs, lower your leg only as far as your back stays flat.",
+      "Then step back to an easier version and build up. Dead bugs, bird dogs and short planks rarely bother a back when done slowly. If your back hurts outside of training too, or the pain is sharp or travels down a leg, see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Your hip flexors attach to your lower spine. When your abs cannot keep your pelvis tucked, those muscles tug your lower back into an arch, and that is where the ache comes from.",
+      "how": "Glutes squeezed, pelvis tucked, lower back flat or neutral, and an easier lever: bent knees, a shorter range, hands on a bench. Then progress slowly.",
+      "mistake": "Pushing through more reps hoping your abs will kick in. They will not while your back is arched. Change the position, not the effort.",
+      "example": "Hanging leg raises bothering your back? Swap to reverse crunches on the floor for a month, then bent-knee hanging raises with a pelvic curl, then straight legs if you still want them."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I do a dead bug?",
+      "How do I do a plank properly?",
+      "When should I see a doctor?"
+    ],
+    "related": [
+      "dj-a-101",
+      "dj-a-103",
+      "dj-a-107"
+    ]
+  },
+  {
+    "id": "dj-a-111",
+    "topic": "feet",
+    "title": "How your feet should grip the floor",
+    "keys": [
+      "how should my feet grip the floor",
+      "foot position lifting",
+      "tripod foot",
+      "foot tripod",
+      "grip the floor with my feet",
+      "my feet roll in when i squat",
+      "flat feet lifting",
+      "arches collapse squat",
+      "where should my weight be on my feet",
+      "feet rolling in",
+      "screw my feet into the floor",
+      "weight on my heels or toes"
+    ],
+    "match": "\\b((feet|foot) (grip|gripping) the floor|grip the floor with (my |your )?feet|(foot )?tripod( foot)?|(feet|foot|arches) (roll|rolls|rolling|collaps\\w*) in|arches? collaps\\w*|where should my weight be|screw (my |your )?feet|flat feet|weight (on|in) (my )?(heels|toes))\\b",
+    "body": [
+      "Think of your foot as a tripod: your big toe, your little toe and your heel. Spread your weight evenly across all three and keep all three pressed into the floor through the whole rep. When you do, your arch lifts naturally, and your knees, hips and everything above them get a stable base to work from.",
+      "On squats, lunges and deadlifts, you want the weight roughly in the middle of your foot, a touch toward the heel, without your toes lifting or your heels coming up. If your arches collapse and your knees cave in, try screwing your feet into the floor: keep them planted and gently twist outward as if spreading the floor apart.",
+      "Lifting barefoot or in flat, firm shoes makes the tripod much easier to feel. Thick, squishy running shoes let your feet roll around under load."
+    ],
+    "more": {
+      "why": "Your feet are the only part of you touching the ground. A stable, spread foot lets force travel straight up through your legs instead of leaking out through collapsing arches or rocking heels.",
+      "how": "Stand tall, lift your toes, spread them, and set them back down. Feel big toe, little toe and heel. Keep that pressure as you squat, hinge or lunge.",
+      "mistake": "Clawing at the floor with your toes curled. Grip comes from the whole foot pressing evenly, not from scrunched toes.",
+      "beginner": "Practice standing on one leg for 20 to 30 seconds while feeling your tripod. It trains the foot and your balance at the same time."
+    },
+    "chips": [
+      "My knees cave in on squats",
+      "What shoes should I lift in?",
+      "My heels lift when I squat"
+    ],
+    "related": [
+      "dj-a-004",
+      "dj-a-043",
+      "dj-a-005"
+    ]
+  },
+  {
+    "id": "dj-a-112",
+    "topic": "ribs",
+    "title": "Ribs flaring up when you press overhead or brace",
+    "keys": [
+      "my ribs flare when i press overhead",
+      "ribs flare",
+      "rib flare",
+      "ribs sticking out",
+      "ribs flaring overhead press",
+      "ribs down cue",
+      "keep ribs down",
+      "lower back arches when pressing overhead",
+      "flared ribs",
+      "ribs pop up"
+    ],
+    "match": "\\b(ribs? (flare|flares|flaring|sticking out|pop|pops|popping)|flared ribs|ribs down|(lower |low )?back arch(es|ing)? (when|while|during) (i )?press(ing)? overhead|arching (my )?back (on|during) (the )?overhead press)\\b",
+    "body": [
+      "When your arms go overhead, your ribs like to lift and your lower back arches to make room. A little is normal. A lot means your lower back is doing the job your shoulders and upper back should be doing, and that tends to show up as a cranky lower back after pressing.",
+      "Before you press, breathe out a little and pull your ribs down toward your hips, like zipping up a jacket. Squeeze your glutes. Then brace and press, keeping the front of your ribs down. If your arms cannot reach fully overhead without your ribs popping up, that is your current range, and that is fine.",
+      "Work on upper back and shoulder mobility, and use half kneeling or seated presses with back support for a while. They make it much harder to cheat with an arch."
+    ],
+    "more": {
+      "why": "Flared ribs tip your pelvis and arch your lower back, which takes away the stable base your shoulders press from. Ribs stacked over hips is what lets your arms do the work.",
+      "how": "Breathe out slightly, ribs down toward hips, glutes tight, brace, press. From the side in a mirror, your torso should stay vertical, not lean back.",
+      "mistake": "Forcing full overhead lockout no matter what. If you can only get there by arching, press to the range you own and build mobility separately.",
+      "beginner": "Practice wall slides: back against a wall, ribs down, slide your arms up the wall only as far as your lower back stays flat."
+    },
+    "chips": [
+      "How do I brace my core?",
+      "Improving shoulder mobility",
+      "Landmine press"
+    ],
+    "related": [
+      "dj-a-060",
+      "dj-a-094",
+      "dj-a-072"
+    ]
+  },
+  {
+    "id": "dj-a-113",
+    "topic": "filming",
+    "title": "How to film your own lifts",
+    "keys": [
+      "how do i film my lifts",
+      "filming my lifts",
+      "film my squat",
+      "how to film yourself lifting",
+      "best angle to film lifts",
+      "recording my workout",
+      "where to put my phone",
+      "should i film my lifts",
+      "video my form",
+      "film from the side",
+      "how should i film my lifts",
+      "film my lifts"
+    ],
+    "match": "\\b(film(ing)? (my|your|yourself|myself) (lifts?|squats?|form|deadlifts?|sets?|lifting)|how (do i|to|should i) film|record(ing)? (my )?(lifts?|form|workouts?|sets?)|video (my|your) form|angle to film|where (do i|to|should i) (put|prop) my phone)\\b",
+    "body": [
+      "This is how I learned, with a phone propped against a water bottle. Set your phone at about hip height, six to ten feet away, so your whole body and the weight are in frame from head to feet. For squats, deadlifts, rows and lunges, film from the side or from about 45 degrees in front. For knees caving or a hip shifting, film from the front.",
+      "Film a work set, ideally the last one, since that is where your form leaks first. Watch it once at normal speed, then again slowed down. Look for one thing only: heels lifting, knees caving, hips rising first, back rounding, bar drifting. Pick the biggest one and give yourself one cue for next session.",
+      "Then film the same lift again in a week or two. Watching your own progress on video is one of the most encouraging things in training."
+    ],
+    "more": {
+      "why": "What a rep feels like and what it looks like are often very different. Video shows you the truth kindly and lets you fix one thing at a time.",
+      "how": "Phone at hip height, 6 to 10 feet away, side or 45 degree angle, whole body in frame. Film the last set, watch at normal speed and then slowed, name one fix.",
+      "mistake": "Filming every set and picking apart ten things. One fix per session. More than that and nothing sticks.",
+      "beginner": "Most gyms are fine with filming yourself. Keep other people out of your frame, and you will not be the only one doing it."
+    },
+    "chips": [
+      "Where should I look when I squat?",
+      "When should I stop a set?",
+      "Can you see my form?"
+    ],
+    "related": [
+      "dj-a-100",
+      "dj-a-093"
+    ]
+  },
+  {
+    "id": "dj-a-114",
+    "topic": "core",
+    "title": "How often to train abs, and whether you need direct core work",
+    "keys": [
+      "how often should i train abs",
+      "how often to train core",
+      "do i need to train abs",
+      "ab workout every day",
+      "should i do abs every day",
+      "core training frequency",
+      "do squats work abs",
+      "do i need direct ab work",
+      "how many ab exercises",
+      "ab routine",
+      "core routine",
+      "best core routine"
+    ],
+    "match": "\\b(how often (should i|to|do i) (train|work|do) (my )?(abs|core)|(abs|ab workouts?|core) every day|do i need (to train |direct )?(abs|ab work|core work)|(ab|core) routine|do (squats|deadlifts) work (my )?abs|core training frequency|how many ab exercises)\\b",
+    "body": [
+      "Two or three times a week is plenty for most people, with two or three core exercises each time and a few sets of each. Your abs are muscles like any other; they need work and they need recovery. Doing abs every day mostly means doing them a little less well every day.",
+      "Squats, deadlifts, overhead presses and carries already train your core hard by making it hold you steady under load. That is real core work. Direct core training fills in the gaps: curling your spine with crunches, resisting arching with planks and dead bugs, resisting twisting with Pallof presses, and resisting bending sideways with side planks and suitcase carries.",
+      "A simple routine at the end of two sessions a week: one plank or dead bug variation, one side plank or carry, and one crunch or leg raise variation, 2 to 3 sets each. Ten to twelve minutes, done well."
+    ],
+    "more": {
+      "why": "A strong, steady core helps every lift and makes daily life easier. It does not need more than a few focused sets a week to get stronger.",
+      "how": "Twice a week, after your main lifts: 3 sets of a plank or dead bug, 2 to 3 sets of a side plank or carry, 2 to 3 sets of crunches or knee raises.",
+      "mistake": "Doing core work first, then trying to squat or deadlift with a tired core. Big lifts first, core at the end.",
+      "example": "Monday: dead bugs 3 x 8 per side, suitcase carry 3 x 30 seconds per side, cable crunch 3 x 12. Thursday: plank 3 x 30 seconds, side plank 3 x 20 seconds per side, hanging knee raise 3 x 10."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I do a plank properly?",
+      "What is a Pallof press?",
+      "Are crunches bad?"
+    ],
+    "related": [
+      "dj-a-101",
+      "dj-a-109",
+      "dj-a-105"
+    ]
+  },
+  {
+    "id": "dj-a-115",
+    "topic": "rotation",
+    "title": "Russian twists and safer ways to train rotation",
+    "keys": [
+      "russian twists",
+      "russian twist",
+      "are russian twists bad",
+      "rotation exercises",
+      "woodchops",
+      "cable woodchop",
+      "wood chops",
+      "twisting ab exercises",
+      "obliques workout",
+      "rotational core",
+      "landmine rotation"
+    ],
+    "match": "\\b(russian twists?|wood ?-?chops?|woodchoppers?|rotation(al)? (exercises?|core|work)|twisting ab|landmine rotations?|obliques? workout)\\b",
+    "body": [
+      "Russian twists are not dangerous on their own, but the common version, leaning back and whipping a weight side to side as fast as possible, mostly twists your lower back instead of training your obliques. If you like them, slow them down: sit tall, lean back only slightly, and turn your shoulders and ribs together, pausing at each side.",
+      "My favorite way to train rotation is a cable woodchop. Set a cable high or low, stand side-on, hold the handle with both arms long, and rotate your hips and trunk together as the handle moves diagonally across your body. Hips and shoulders turn as one unit and your arms just hold on. Slow on the way back.",
+      "Pair one rotation exercise with one anti-rotation exercise, like a Pallof press, and you cover both sides of how your trunk handles twisting."
+    ],
+    "more": {
+      "why": "Your trunk needs to create rotation, like throwing or swinging, and to resist it, like holding a heavy bag on one side. Controlled rotation through your hips and upper back trains that without cranking on your lower back.",
+      "how": "Woodchop: cable high, stand side-on, arms long, turn hips and trunk together diagonally down and across, pause, return slowly. 2 to 3 sets of 8 to 12 per side.",
+      "mistake": "Swinging the weight with your arms while your hips stay frozen. The power comes from your legs and hips turning, not from your shoulders flinging.",
+      "beginner": "Start with a light band or cable and half the range. Smooth before strong."
+    },
+    "chips": [
+      "What is a Pallof press?",
+      "How do I do a side plank?",
+      "How often should I train abs?"
+    ],
+    "related": [
+      "dj-a-105",
+      "dj-a-102"
+    ]
+  }
+]
