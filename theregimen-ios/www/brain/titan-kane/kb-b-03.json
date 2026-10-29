@@ -1,0 +1,983 @@
+[
+  {
+    "id": "tk-b-050",
+    "topic": "max",
+    "title": "How to test a one-rep max safely",
+    "keys": [
+      "how do i test my 1rm",
+      "how to test a one rep max",
+      "test my max",
+      "max out safely",
+      "how to max out",
+      "testing a 1rm safely",
+      "how to find my one rep max",
+      "how to do a max test",
+      "testing my bench max",
+      "testing my squat max",
+      "how do i max out on deadlift",
+      "one rep max test",
+      "how to test 1rm safely"
+    ],
+    "match": "\\b(test(ing)? (a |my |your )?(1 ?rm|one[- ]rep max|max)|max(ing)? out|how (do i|to) (find|test) my (1 ?rm|one[- ]rep max|max)|one rep max test)\\b",
+    "body": [
+      "A max is earned in training and only shown on test day. Test fresh, after a lighter week, with safeties set or a spotter in place.",
+      "Warm up the same way every time. Bar for 10, then about 40 percent for 5, 60 percent for 3, 75 percent for 2, 85 percent for 1, 92 percent for 1. Then the attempt. Rest 3 to 5 minutes before each heavy single.",
+      "Take your first real attempt at a weight you are sure of, around your old max, and add 5 to 10 lb at a time if it moves well. Stop when a rep slows hard or form changes. A grinder that breaks your back position is not a max, only a mistake you got away with."
+    ],
+    "more": {
+      "why": "A max attempt is the highest risk set you will ever do. Fresh legs, a set warm-up and planned jumps keep the risk low and the number honest.",
+      "how": "Plan three attempts on paper before you start: one you know, one you think, one you hope. Never more than two attempts above your old best in one day.",
+      "example": "Old best bench 225, warm-ups to 205 for a single. Attempt one at 225 is fast, attempt two at 235 is slow but clean. Stop there: the new max is 235.",
+      "mistake": "Testing at the end of a hard training week, or chasing a fourth and fifth attempt after a miss. Fatigue makes the next miss more likely and less safe."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Can I estimate my max instead?",
+      "When should I not test?",
+      "How often should I test my max?"
+    ],
+    "related": [
+      "tk-b-051",
+      "tk-b-052",
+      "tk-b-053",
+      "tk-b-018"
+    ]
+  },
+  {
+    "id": "tk-b-051",
+    "topic": "max",
+    "title": "Estimating your max without testing it",
+    "keys": [
+      "how do i estimate my max",
+      "estimate my 1rm",
+      "estimated one rep max",
+      "e1rm",
+      "1rm calculator",
+      "one rep max formula",
+      "epley formula",
+      "brzycki formula",
+      "can i estimate my max instead",
+      "estimate max from reps",
+      "what is my max if i can do 5 reps",
+      "calculate one rep max",
+      "predicted max"
+    ],
+    "match": "\\b(estimat\\w* (my |your |a )?(1 ?rm|one[- ]rep max|max)|e1rm|1 ?rm calculator|one[- ]rep max (formula|calculator)|epley|brzycki|predicted max|calculate (my )?(1 ?rm|one[- ]rep max))\\b",
+    "body": [
+      "Yes, and for most lifters most of the time it is the smarter choice. A hard set of 3 to 6 reps tells you nearly as much as a true max, with far less risk.",
+      "A common formula: weight x (1 + reps / 30). Five reps at 225 gives about 262. Use sets of 10 or fewer. Above that the estimate drifts and usually runs high.",
+      "The estimate is only as good as the set. Use a set taken close to failure with clean reps, not a set you stopped with four left. Track the estimate over time. When it climbs, you are stronger, whether you tested or not."
+    ],
+    "more": {
+      "why": "Testing a true max costs a lot of recovery and carries more risk than any other set. A rep max gives a good estimate for planning percentages, without that cost.",
+      "how": "Take your best set from the last week or two. Plug in the weight and the reps. Use the result as your max for planning. If you use a training max, take 90 percent of it.",
+      "example": "Squat 275 for 4 at about RPE 9. 275 x (1 + 4/30) is about 312. Training max: about 280.",
+      "mistake": "Estimating from a set of 15 at a light weight. High-rep sets mostly measure endurance and often overstate a max."
+    },
+    "chips": [
+      "How do I test a 1RM safely?",
+      "What is a training max?"
+    ],
+    "related": [
+      "tk-b-050",
+      "tk-b-045",
+      "tk-b-013",
+      "tk-b-039"
+    ]
+  },
+  {
+    "id": "tk-b-052",
+    "topic": "max",
+    "title": "When not to test a max",
+    "keys": [
+      "when should i not test",
+      "when not to max out",
+      "should i max out as a beginner",
+      "should i test my max when tired",
+      "is it bad to max out often",
+      "max out every week",
+      "should beginners test 1rm",
+      "should i max out while cutting",
+      "max out when injured",
+      "should i max out this week",
+      "is maxing out dangerous",
+      "testing max while sore"
+    ],
+    "match": "\\b(when (should i )?not (to )?(test|max)|should (i|beginners) (test|max)( out)?|is (it bad to |)max(ing)? out (often|dangerous|every)|max out every (week|day)|is maxing out dangerous)\\b",
+    "body": [
+      "Not every day is a test day. Skip it when the answer is already known, or when the cost is higher than the information.",
+      "Do not test in your first three to six months, when every week is already a PR, or in the middle of a hard training block. Not on poor sleep, after a hard week of work, or while sick. Not with a sore or tweaked joint, and not in a steep calorie deficit, when strength is expected to dip.",
+      "Test when there is a reason: the end of a block, before setting new percentages, or for a meet. Otherwise estimate from your sets and keep building."
+    ],
+    "more": {
+      "why": "A max attempt under fatigue gives a low number and a higher risk. A low number drags your percentages down and makes you feel weaker than you are.",
+      "how": "Put test days on the calendar, two to four times a year, after a lighter week. Everything else is training.",
+      "beginner": "You do not need a max. Your working sets of five tell you everything. Keep adding weight to them.",
+      "mistake": "Testing to feel good after a bad week. Bad weeks make bad tests."
+    },
+    "chips": [
+      "Can I estimate my max instead?",
+      "How often should I test my max?"
+    ],
+    "related": [
+      "tk-b-050",
+      "tk-b-051",
+      "tk-b-053"
+    ]
+  },
+  {
+    "id": "tk-b-053",
+    "topic": "max",
+    "title": "How often to test your max",
+    "keys": [
+      "how often should i test my max",
+      "how often to max out",
+      "how often should i test 1rm",
+      "how often to test strength",
+      "test max every month",
+      "max out once a month",
+      "how many times a year to max",
+      "frequency of max testing",
+      "should i test every block",
+      "how often to retest max",
+      "test my max every week",
+      "how often should i test my lifts"
+    ],
+    "match": "\\b(how often (should i |to |do i )?(test|max|retest)( out| my| a| strength| 1 ?rm| lifts)?|max out once a (month|week)|test (my )?max every (week|month|block)|how many times a year)\\b",
+    "body": [
+      "Two to four times a year for most lifters. Once at the end of each training block is plenty. More than that and the testing gets in the way of the training.",
+      "Between tests, estimate. Your AMRAP sets, top sets and rep PRs show the trend every week. If those numbers climb, your max is climbing.",
+      "Powerlifters test at meets and sometimes once in training before a meet. General lifters can go months between true maxes and lose nothing. The point is to get strong, not to prove it every Friday."
+    ],
+    "more": {
+      "why": "Testing costs recovery for several days and gives back a single number. Building with submaximal work, then testing rarely, gets more total progress.",
+      "how": "Plan your blocks: 8 to 12 weeks of training, a short peak, a test, a deload, then the next block with new numbers.",
+      "example": "January to March build, test at the end of March. April to June build, test at the end of June. Four tests a year, each one meaningful.",
+      "beginner": "Do not test at all for your first several months. Your log is the test."
+    },
+    "chips": [
+      "How do I test a 1RM safely?",
+      "How do I peak for a max test?"
+    ],
+    "related": [
+      "tk-b-050",
+      "tk-b-018",
+      "tk-b-052"
+    ]
+  },
+  {
+    "id": "tk-b-054",
+    "topic": "max",
+    "title": "Choosing your three attempts: opener, second, third",
+    "keys": [
+      "how do i pick meet attempts",
+      "meet attempts",
+      "opener weight",
+      "how heavy should my opener be",
+      "picking attempts for a powerlifting meet",
+      "second attempt",
+      "third attempt",
+      "first powerlifting meet",
+      "attempt selection",
+      "what should i open with",
+      "how to choose attempts",
+      "opening attempt",
+      "mock meet"
+    ],
+    "match": "\\b(meet attempts?|opener|opening attempt|(second|third) attempt|attempt selection|first (powerlifting )?meet|mock meet|what should i open with)\\b",
+    "body": [
+      "Open with a weight you could lift on your worst day. About 90 to 92 percent of your best, a weight you have done for a clean triple or a fast double.",
+      "Second attempt: around 95 to 98 percent, a weight that sets a solid total or matches your best. Third attempt: the PR, 100 to 103 percent, only if the second moved well. If the second was slow, the third is a small step, not a leap.",
+      "Rules for meets: squat to depth, pause the bench until the press command, lock out the deadlift fully. Practice those in training. A missed opener for a technical reason wastes the day."
+    ],
+    "more": {
+      "why": "The opener gets you on the board. Three misses means no total. The rest of the plan builds on a first lift you make every time.",
+      "how": "Before the meet, write three plans for each lift: if the opener flies, if it is normal, if it is slow. Then you only pick from the plan on the day, not from emotion.",
+      "example": "Best squat 400. Opener 365. If fast, second 385, third 405. If slow, second 380, third 395.",
+      "beginner": "At a first meet, aim to go nine for nine. Open light, PR on the third if it is there. Experience is the prize."
+    },
+    "chips": [
+      "How do I peak for a max test?",
+      "Nervous before a heavy lift?"
+    ],
+    "related": [
+      "tk-b-018",
+      "tk-b-050",
+      "tk-b-057"
+    ]
+  },
+  {
+    "id": "tk-b-055",
+    "topic": "max",
+    "title": "Kinds of PRs and why rep PRs count",
+    "keys": [
+      "what counts as a pr",
+      "what is a pr",
+      "rep pr",
+      "rep prs",
+      "personal record",
+      "personal best",
+      "what is a rep pr",
+      "do rep prs count",
+      "pr meaning",
+      "volume pr",
+      "types of pr",
+      "how to track prs",
+      "new pr"
+    ],
+    "match": "\\b(rep prs?|volume prs?|what (counts as|is) a (pr|personal (record|best))|pr meaning|types of prs?|do rep prs count)\\b",
+    "body": [
+      "A PR is any number you have never hit before on the same lift done the same way. Not only a heavier single. Rep PRs, set PRs and estimated max PRs all count.",
+      "More weight for the same reps. More reps at the same weight. The same weight for the same reps at a lower effort, or with a pause, or deeper. Each one is proof you got stronger.",
+      "Most of your progress will show as rep PRs and set PRs, not true maxes. Log them. They are the real record of the work. Earned, not attempted."
+    ],
+    "more": {
+      "why": "A true max is rare and costly to test. Rep PRs come weekly and track the same thing: rising strength. Counting them keeps you honest and motivated.",
+      "how": "For each main lift, track your best set at 1, 3, 5, 8 and 10 reps. Any time one of them goes up, that is a PR. Check your Progress screen for the trend.",
+      "example": "Bench 185 for 6 last month, 185 for 8 today. Estimated max moved from about 222 to about 234. That is a PR.",
+      "mistake": "Ignoring a rep PR because the weight on the bar was not new. The bar does not care what kind of record it was."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I estimate my max?",
+      "How fast should I get stronger?"
+    ],
+    "related": [
+      "tk-b-051",
+      "tk-b-068",
+      "tk-b-024"
+    ]
+  },
+  {
+    "id": "tk-b-056",
+    "topic": "max",
+    "title": "Missing reps and failed lifts: what they mean",
+    "keys": [
+      "i keep failing reps",
+      "i keep failing reps why",
+      "missed a rep",
+      "failed my lift",
+      "failed a squat",
+      "failed my bench",
+      "missed my lift",
+      "why did i fail my set",
+      "couldnt finish my set",
+      "failed the last rep",
+      "missed reps on my sets",
+      "failing sets",
+      "what to do after failing a lift"
+    ],
+    "match": "\\b((keep |kept )?(fail(ed|ing)?|miss(ed|ing)?) (a |my |the |reps|rep|last rep|lift|set|sets|squat|bench|deadlift)|couldn'?t (finish|complete) (my |the )?(set|rep)|what to do after failing)\\b",
+    "body": [
+      "One missed rep is information. A pattern of misses is a message. Read it before you react.",
+      "Single miss: repeat the weight next session and expect to make it. Two or three misses at the same weight: the jump was too big, recovery is behind, or the technique breaks under that load. Check sleep, food, stress, then form at the sticking point.",
+      "Missing on the first set usually means too heavy for today. Missing only on the last sets usually means fatigue or too little rest. Missing in the same spot every time means a weak point. Each one has a different fix."
+    ],
+    "more": {
+      "why": "Misses come from load, fatigue or technique. The pattern tells you which. Fixing the wrong one wastes weeks.",
+      "how": "Log where the rep stopped and which set it was, then read the log after three sessions. If it is the same spot every time, train that range. If it is late sets only, rest longer or cut a set.",
+      "example": "Bench misses at the third set of five, halfway up, three sessions running. Rest five minutes instead of two, and add close-grip bench for lockout strength.",
+      "mistake": "Grinding through form breakdowns to avoid a miss. A clean miss into the safeties teaches more and costs less."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Why have I stalled?",
+      "How do I reset after a stall?"
+    ],
+    "related": [
+      "tk-b-058",
+      "tk-b-059",
+      "tk-b-037"
+    ]
+  },
+  {
+    "id": "tk-b-057",
+    "topic": "max",
+    "title": "Nerves before a heavy lift and getting ready",
+    "keys": [
+      "nervous before a heavy lift",
+      "scared of heavy weight",
+      "anxious before maxing",
+      "how to psych up",
+      "should i psych up for a lift",
+      "afraid of the bar",
+      "fear of heavy squats",
+      "scared to fail a lift",
+      "mental prep for a max",
+      "getting in the zone before lifting",
+      "heavy weight anxiety",
+      "scared of bench pressing heavy"
+    ],
+    "match": "\\b((nervous|scared|afraid|anxious|fear|anxiety)\\w* (of|before|about|to)? ?(a |the |my )?(heavy|max|maxing|bar|fail|squats?|bench|lifting|weight)|psych(ing|ed)? (up|myself)|in the zone)\\b",
+    "body": [
+      "Nerves are normal. They mean the weight matters. Respect it, then do what you practiced.",
+      "Make the heavy set feel like every other set: same warm-up, same setup, same breath and brace. The routine does the work when your head is loud. Set safeties or get a spotter so the fear of being stuck is gone.",
+      "Calm, not wild. A small lift in arousal helps. Screaming and slapping yourself usually wrecks the setup. Most strong lifters look almost bored on the platform, because the lift was rehearsed a hundred times."
+    ],
+    "more": {
+      "why": "Fear tightens the wrong muscles and rushes the setup. A fixed routine gives your attention a job, so the body runs the pattern it already knows.",
+      "how": "Write your setup as three cues, the same three every time. Say them in your head as you walk to the bar. Then lift.",
+      "beginner": "Heavy is relative. If a weight scares you, make the safeties your friend. Fail one rep into the pins on purpose with a light weight. The fear shrinks fast.",
+      "mistake": "Spending five minutes in front of the bar thinking. Long waits feed nerves. Walk up, set up, go."
+    },
+    "chips": [
+      "How do I test a 1RM safely?",
+      "How do I set the safety pins?"
+    ],
+    "related": [
+      "tk-b-050",
+      "tk-b-054",
+      "tk-a-121"
+    ]
+  },
+  {
+    "id": "tk-b-058",
+    "topic": "stalls",
+    "title": "Why you stalled and what to check first",
+    "keys": [
+      "why have i stalled",
+      "why am i not getting stronger",
+      "stalled on my lifts",
+      "strength plateau",
+      "stuck at the same weight",
+      "plateau in the gym",
+      "how to break a plateau",
+      "not making progress lifting",
+      "my lifts stopped going up",
+      "stalled out",
+      "hit a plateau",
+      "cant add weight anymore",
+      "stuck on all my lifts"
+    ],
+    "match": "\\b(stall(ed|ing)?( out| on)?|plateau(ed|s)?|stuck (at|on) the same (weight|number)|not getting (any )?stronger|lifts? (stopped|stop|aren'?t|are not) (going up|moving|improving)|can'?t add weight anymore)\\b",
+    "body": [
+      "A stall is information, never failure. It tells you the current plan has done its job. Now read what changed.",
+      "Check in this order. Sleep, because under seven hours most nights will stall anyone, then food, because losing weight or under-eating protein slows strength. Then consistency, recovery between sessions, and technique at the sticking point. Only then the program itself.",
+      "Most stalls end with one of three moves: a short deload, a small reset in weight, or a change in progression from session to week. Do not throw out the whole program because one lift stopped for two sessions."
+    ],
+    "more": {
+      "why": "Strength depends on training stress and recovery. When progress stops, one side of that balance changed. Finding which side is faster than guessing at a new program.",
+      "how": "Write down the last three weeks for the stalled lift: weights, reps, sleep, bodyweight trend. The pattern usually jumps out within ten minutes.",
+      "example": "Squat stuck at 275 for three weeks. Bodyweight down 6 lb in that time and sleep averaging six hours. Not a program problem.",
+      "beginner": "Your first stall is normal and expected. Repeat the weight. If it happens three times, drop 10 percent and build back up. You will pass the old number."
+    },
+    "reads": [
+      "stalls",
+      "sessions",
+      "weight"
+    ],
+    "chips": [
+      "How do I reset after a stall?",
+      "When should I deload?",
+      "Bench stuck for weeks?"
+    ],
+    "related": [
+      "tk-b-059",
+      "tk-b-060",
+      "tk-b-068"
+    ]
+  },
+  {
+    "id": "tk-b-059",
+    "topic": "stalls",
+    "title": "Resetting the weight after a stall",
+    "keys": [
+      "how do i reset after a stall",
+      "reset my weights",
+      "deload the weight 10 percent",
+      "drop the weight and build back",
+      "how much to drop after a stall",
+      "reset after failing three times",
+      "restart lower weight",
+      "should i reset my squat",
+      "reset my bench",
+      "how to reset a lift",
+      "when to reset",
+      "reset 10 percent"
+    ],
+    "match": "\\b(reset(ting)? (my |the |a )?(weights?|lifts?|squat|bench|deadlift|press|after)|how to reset|when to reset|reset (10|ten) ?(%|percent)|drop the weight and (build|work) back|how much to drop)\\b",
+    "body": [
+      "A reset is a step back to take a run at the wall. Drop the stalled lift about 10 percent and climb again, usually with the same reps.",
+      "Use it when the same weight fails three sessions in a row on a linear plan, or two or three weeks on a weekly plan. The climb back is quick, often two or three weeks, and you usually pass the old stall.",
+      "If you reset twice on the same lift and stall in the same place, the reset is not the fix. Change the progression: move from session to weekly progress, add a rep range, or add volume through a back-off set."
+    ],
+    "more": {
+      "why": "Fatigue builds while you grind at a stalled weight. Dropping the load clears it and lets you practice clean reps, then you approach the old weight fresher.",
+      "how": "Take the stalled weight, multiply by 0.9, round down to the nearest 5 lb. Resume normal jumps from there.",
+      "example": "Bench stalled at 200 for 3x5. Reset to 180. Then 185, 190, 195, 200, 205. Passed it in five sessions.",
+      "mistake": "Resetting after a single bad day. One miss is weather. Three is a pattern."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "When does linear progression end?",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-060",
+      "tk-b-058"
+    ]
+  },
+  {
+    "id": "tk-b-060",
+    "topic": "stalls",
+    "title": "When linear progression stops working",
+    "keys": [
+      "what do i do when lp stalls",
+      "linear progression stalled",
+      "when does linear progression end",
+      "beginner gains stopped",
+      "cant add weight every session",
+      "stuck on stronglifts",
+      "stalled on starting strength",
+      "after linear progression ends",
+      "novice gains over",
+      "linear progression not working anymore",
+      "what to do after stalling on 5x5",
+      "end of beginner gains"
+    ],
+    "match": "\\b((linear progression|lp|stronglifts|starting strength|5 ?x ?5) (stall|stalls|stalled|ended|ends|not working)|when (does|do) (linear progression|lp|beginner gains|novice gains) (end|stop)|stalled on (stronglifts|starting strength|5 ?x ?5)|(beginner|novice) gains (stopped|over|ended))\\b",
+    "body": [
+      "It ends for everyone. Usually three to six months in. It is not the end of progress, only the end of adding weight every session.",
+      "First, use the cheap fixes. Reset the stalled lift 10 percent and climb again. Make sure you are eating enough and sleeping seven hours or more. Many people get one or two more runs out of linear progression this way.",
+      "When resets stop working, move to weekly progress. Keep the lifts and change the structure: a heavier day and a lighter day each week, a three-week wave, or upper/lower four days, with small jumps and a deload every 4 to 8 weeks. You are an intermediate now."
+    ],
+    "more": {
+      "why": "Each session adds a little stress. Early on you recover from it in 48 hours. As the weights grow, one session is no longer enough to drive progress and still recover by the next.",
+      "how": "Keep 3x5 or 5x5 on one day per lift. Add a lighter day at 80 to 90 percent of that weight. Add load once a week instead of every session.",
+      "example": "Squat stalled at 285 after two resets. New week: Monday 3x5 at 285 aiming for 290 next Monday, Thursday 3x5 at 250.",
+      "mistake": "Jumping to a five-day bodybuilding split because linear progression stalled. You need a slower progression, not a different sport."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Programs for intermediates?",
+      "How do I reset after a stall?"
+    ],
+    "related": [
+      "tk-b-011",
+      "tk-b-059",
+      "tk-b-002",
+      "tk-b-069"
+    ]
+  },
+  {
+    "id": "tk-b-061",
+    "topic": "stalls",
+    "title": "Bench press stuck for weeks",
+    "keys": [
+      "bench stuck for weeks",
+      "bench plateau",
+      "bench not going up",
+      "stuck on bench press",
+      "how to break a bench plateau",
+      "bench press stalled",
+      "cant increase bench",
+      "bench stuck at 225",
+      "bench stuck at 135",
+      "bench stuck at 185",
+      "how to increase my bench",
+      "bench wont go up",
+      "bench stalled for months"
+    ],
+    "match": "\\b(bench\\w* (press )?(plateau|stuck|stall\\w*|not going up|won'?t go up)|stuck on (the )?bench|break a bench plateau|(increase|improve) my bench|can'?t increase (my )?bench|bench stuck at \\d+)\\b",
+    "body": [
+      "Bench stalls first and most often. Small muscles, small jumps, and it hates both overtraining and undertraining. That is normal.",
+      "Train it more often. Bench responds well to two or three sessions a week: one heavy, one with more volume, one variation like close-grip or paused. Use smaller jumps, 2.5 lb or less. Build the triceps, upper back and shoulders with real volume, 10 to 20 hard sets a week across pressing and rows.",
+      "Check bodyweight. A lighter lifter benches less. If you are cutting, a stalled bench is the expected price. Hold it steady and it will move again when food goes back up."
+    ],
+    "more": {
+      "why": "Bench uses less muscle than squats or deadlifts, so the absolute gains are smaller and stall sooner. More frequency and more upper body muscle are the two biggest levers.",
+      "how": "Monday: bench 4x4 heavy. Wednesday: close-grip 3x8. Friday: paused bench 4x5. Rows or pull-ups every day you bench.",
+      "example": "Stuck at 185 for 5. Eight weeks of three days a week, small plates, extra rows and dips: 195 for 5.",
+      "mistake": "Testing a max every week to see if it moved. Testing is not training."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Accessories for a weak bench?",
+      "Weak off the chest on bench",
+      "How do I microload?"
+    ],
+    "related": [
+      "tk-a-035",
+      "tk-a-036",
+      "tk-b-048"
+    ]
+  },
+  {
+    "id": "tk-b-062",
+    "topic": "stalls",
+    "title": "Squat stuck at the same weight",
+    "keys": [
+      "squat stuck",
+      "squat plateau",
+      "squat not going up",
+      "stuck on squat",
+      "how to break a squat plateau",
+      "squat stalled",
+      "cant increase squat",
+      "squat stuck at 225",
+      "squat stuck at 315",
+      "how to increase my squat",
+      "squat wont go up",
+      "squat stalled for months"
+    ],
+    "match": "\\b(squat\\w* (plateau|stuck|stall\\w*|not going up|won'?t go up)|stuck on (the )?squat|break a squat plateau|(increase|improve) my squat|can'?t increase (my )?squat|squat stuck at \\d+)\\b",
+    "body": [
+      "Squat stalls usually come from recovery, not muscle. Legs are big and the lift is exhausting. Check sleep, food and how much other leg work you are doing before blaming the squat.",
+      "Fixes that work: one heavy day and one lighter day per week instead of three hard ones. Pause squats or tempo squats if you lose position at the bottom. Front squats if your chest falls forward. More quad volume, like leg press or split squats, if the knees shoot forward and the hips take over.",
+      "Film a heavy set from the side. Where does it slow down? The sticking point picks the fix."
+    ],
+    "more": {
+      "why": "Squats tax the legs, back and whole system. When you squat heavy three times a week, fatigue often outpaces strength. Spreading the stress helps it catch up.",
+      "how": "Monday: squat 4x4 at about 82 percent. Thursday: pause squat 3x5 at about 70 percent. Add 5 lb a week to Monday only.",
+      "example": "Stuck at 315 for 3x5. Six weeks of heavy and light days plus split squats: 335 for 3x5.",
+      "mistake": "Cutting depth to keep adding weight. A shorter squat is not a stronger squat."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Accessories for a weak squat?",
+      "Should I do pause squats?"
+    ],
+    "related": [
+      "tk-a-018",
+      "tk-a-023",
+      "tk-b-059"
+    ]
+  },
+  {
+    "id": "tk-b-063",
+    "topic": "stalls",
+    "title": "Deadlift stuck for weeks",
+    "keys": [
+      "deadlift stuck",
+      "deadlift plateau",
+      "deadlift not going up",
+      "stuck on deadlift",
+      "how to break a deadlift plateau",
+      "deadlift stalled",
+      "cant increase deadlift",
+      "deadlift stuck at 315",
+      "deadlift stuck at 405",
+      "how to increase my deadlift",
+      "deadlift wont go up",
+      "deadlift stalled for months"
+    ],
+    "match": "\\b(deadlift\\w* (plateau|stuck|stall\\w*|not going up|won'?t go up)|stuck on (the )?deadlift|break a deadlift plateau|(increase|improve) my deadlift|can'?t increase (my )?deadlift|deadlift stuck at \\d+)\\b",
+    "body": [
+      "My favorite lift, and the one people overtrain most. Heavy pulls are expensive. One heavy deadlift session a week is plenty for most lifters, sometimes less.",
+      "Where it stops tells you what to train. Slow off the floor: deficit deadlifts, paused deadlifts an inch off the floor, more quad work. Stuck at the knees: RDLs, paused pulls at the knee, upper back work. Cannot lock out: hip thrusts, rack pulls, grip.",
+      "Grip failing? That is a grip problem, not a deadlift problem. Use chalk, hook grip or straps on the heavy sets while you build grip separately."
+    ],
+    "more": {
+      "why": "Heavy deadlifts load the back and grip hard and take days to recover. Doing more of them often slows progress. Doing the right variations fixes the weak point instead.",
+      "how": "One heavy pull a week, top set of 1 to 3 at RPE 8, a few back-off sets. A second lighter hinge day with RDLs or a variation at 60 to 70 percent.",
+      "example": "Stuck at 405. Monday heavy pulls, Thursday RDLs 3x6 and deficit pulls 3x3. Ten weeks later: 425.",
+      "mistake": "Testing a max every week. The deadlift punishes ego more than any other lift."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Accessories for a weak deadlift?",
+      "My hips shoot up on deadlifts",
+      "Grip giving out on deadlifts"
+    ],
+    "related": [
+      "tk-a-058",
+      "tk-a-062",
+      "tk-a-070"
+    ]
+  },
+  {
+    "id": "tk-b-064",
+    "topic": "stalls",
+    "title": "Overhead press stuck",
+    "keys": [
+      "overhead press stuck",
+      "ohp plateau",
+      "overhead press plateau",
+      "press not going up",
+      "stuck on overhead press",
+      "ohp stalled",
+      "cant increase overhead press",
+      "ohp stuck at 135",
+      "ohp stuck at 95",
+      "how to increase overhead press",
+      "shoulder press stalled",
+      "military press plateau"
+    ],
+    "match": "\\b((overhead|military|shoulder) press\\w* (plateau|stuck|stall\\w*|not going up)|ohp (plateau|stuck|stall\\w*)|stuck on (the )?(overhead|military) press|increase (my )?(overhead press|ohp)|ohp stuck at \\d+)\\b",
+    "body": [
+      "The overhead press moves the slowest of all the main lifts. A few pounds a month is real progress for an intermediate. Expect it.",
+      "Use the smallest jumps you can, 1 to 2.5 lb. Press twice a week: one heavy day of 3 to 5 reps, one volume day of 6 to 10 reps or a variation like the push press or seated dumbbell press. Build the triceps and upper back.",
+      "Bench and overhead press feed each other. When the press stalls, raising bench volume a little often helps, and the other way around."
+    ],
+    "more": {
+      "why": "The press uses smaller muscles than any other main lift, so a 5 lb jump can be a 4 or 5 percent leap. Small steps and more practice beat big jumps and frustration.",
+      "how": "Use double progression: 3 sets of 3 to 6. When you get 6, 6, 6, add the smallest jump and start again at 3s.",
+      "example": "Stuck at 115 for 5. Switched to 3x3 to 6 with 1.25 lb plates. Three months later: 125 for 5.",
+      "mistake": "Leaning back further each week to keep the weight moving. That is an incline bench with worse support."
+    },
+    "reads": [
+      "stalls"
+    ],
+    "chips": [
+      "Accessories for a weak press?",
+      "Stuck at forehead on press"
+    ],
+    "related": [
+      "tk-a-109",
+      "tk-b-048"
+    ]
+  },
+  {
+    "id": "tk-b-065",
+    "topic": "stalls",
+    "title": "Stuck at the same number of pull-ups",
+    "keys": [
+      "stuck at same number of pull ups",
+      "pull up plateau",
+      "cant do more pull ups",
+      "how to increase pull ups",
+      "how to do more pull ups",
+      "pull ups not improving",
+      "stuck at 5 pull ups",
+      "stuck at 10 pull ups",
+      "pull up reps stuck",
+      "get more pullups",
+      "chin up plateau",
+      "how to improve pull up reps"
+    ],
+    "match": "\\b((pull|chin)[- ]?ups? (plateau|not improving|reps stuck|stuck)|(increase|improve|get|do) more (pull|chin)[- ]?ups?|(increase|improve) (my )?(pull|chin)[- ]?up (reps|count|numbers)|stuck at \\d+ (pull|chin)[- ]?ups?|can'?t do more (pull|chin)[- ]?ups?)\\b",
+    "body": [
+      "Stop testing your max reps every session. Train below it, often, and the max climbs.",
+      "If your max is 6, do 4 or 5 sets of 3 or 4, two or three times a week. Add one rep to a set each week. When you can do 5 sets of 5 or 6 clean, test again. That is grease, not grind.",
+      "Also check bodyweight. Pull-ups are a bodyweight lift: lose 5 lb and you get stronger at them. Gain 10 and they get harder. Add rows and pulldowns for 6 to 12 reps to build the muscle behind them."
+    ],
+    "more": {
+      "why": "Max-rep sets to failure every session leave you tired and stuck. More total clean reps across the week builds strength and skill with less fatigue.",
+      "how": "Write the week: Monday 5x3, Wednesday 5x3 plus one extra rep in the first set, Friday 4x4. Next week add a rep somewhere. Test every three to four weeks.",
+      "example": "Max 6. Four weeks of 5 sets of 3 to 5, three days a week. Retest: 9.",
+      "beginner": "If you cannot do one yet, slow negatives and assisted sets are the path. Five slow three-second lowerings after each session."
+    },
+    "chips": [
+      "How to get your first pull-up",
+      "When to add weight to pull-ups"
+    ],
+    "related": [
+      "tk-a-098",
+      "tk-a-106",
+      "tk-a-099"
+    ]
+  },
+  {
+    "id": "tk-b-066",
+    "topic": "stalls",
+    "title": "Strength suddenly dropped",
+    "keys": [
+      "lost strength suddenly",
+      "my strength went down",
+      "why am i weaker this week",
+      "getting weaker",
+      "strength dropped",
+      "weaker than last week",
+      "lifts went down",
+      "why did my bench go down",
+      "why is my squat weaker",
+      "losing strength",
+      "strength decrease",
+      "lifting less than before"
+    ],
+    "match": "\\b((lost|losing|lose) (my )?strength|strength (went down|dropped|drop|decreased?)|(why am i|getting|got) weaker|weaker than (last|before|usual)|lifts? (went|go|going) down|why (did|is) my (bench|squat|deadlift|press) (go down|weaker|dropping))\\b",
+    "body": [
+      "A sudden drop is almost always fatigue, not lost strength. Real strength fades slowly, over weeks off. A bad week is usually sleep, stress, food or a cold coming on.",
+      "Check the last seven days for short sleep, a hard week at work, eating less, a bodyweight drop, or several hard sessions back to back. Any one of those can take 5 to 10 percent off the bar for a few days.",
+      "One bad session: train as planned with a lighter top set and move on. Two weeks of falling numbers: take a deload week. Strength comes back fast once the fatigue clears, often stronger."
+    ],
+    "more": {
+      "why": "Your performance on a given day is strength minus fatigue. Strength builds and fades slowly. Fatigue moves fast. When the number drops suddenly, it is the fatigue side that moved.",
+      "how": "Keep the session. Drop the weight 5 to 10 percent, get good reps, leave. Log sleep and stress with the session so you can see the pattern later.",
+      "example": "Squat 275 for 5 last week, 255 for 5 felt heavy today. Slept five hours three nights in a row. Not weaker. Tired.",
+      "mistake": "Adding volume to make up for a weak day. That digs the hole deeper."
+    },
+    "reads": [
+      "sessions",
+      "checkins",
+      "weight"
+    ],
+    "chips": [
+      "Feeling weak today: train or skip?",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-067"
+    ]
+  },
+  {
+    "id": "tk-b-067",
+    "topic": "stalls",
+    "title": "Feeling weak today: train or skip",
+    "keys": [
+      "feeling weak today",
+      "should i train or skip",
+      "bad day in the gym",
+      "weights feel heavy today",
+      "should i lift if i feel weak",
+      "tired should i still lift",
+      "bad workout",
+      "off day lifting",
+      "everything feels heavy",
+      "should i skip the gym today",
+      "not feeling it today",
+      "low energy workout"
+    ],
+    "match": "\\b((feel|feeling|felt) (weak|tired|off|flat|heavy)( today)?|train or skip|bad (day|session|workout) (in the gym|lifting)?|(weights?|everything|bar) (feels?|felt) heavy|should i (skip|still lift|lift)( the gym)?( today| if i)?|off day|low energy (workout|session|day)|not feeling it)\\b",
+    "body": [
+      "Show up and adjust. Most bad days get better after the warm-up. If they do not, lift lighter and leave. A light session still counts.",
+      "Warm up as planned. If the first work set feels normal, run the day. If it feels heavy, drop 5 to 10 percent and do your sets with good reps. If even that is a grind, do the main lift for a few easy sets, skip the rest, and go home.",
+      "Skip entirely only for real reasons: sick with fever or body aches, sharp pain, or a joint that is getting worse. Feeling flat is not one of them."
+    ],
+    "more": {
+      "why": "A day of light, clean work keeps the habit, keeps the groove and keeps the plan moving. Skipping teaches your schedule that it can be skipped.",
+      "how": "Use the first work set as your test. If the RPE is much higher than planned, cut the load, then cut the volume if needed. Never add on a bad day.",
+      "example": "Plan: bench 3x5 at 205. First set feels like RPE 9.5. Drop to 190 for the remaining sets. Skip the last accessory.",
+      "mistake": "Testing a max on a bad day to prove you are fine. You will prove the opposite."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "Strength suddenly dropped, why?",
+      "Should I lift when I am sick?"
+    ],
+    "related": [
+      "tk-b-066"
+    ]
+  },
+  {
+    "id": "tk-b-068",
+    "topic": "progress",
+    "title": "How fast you should get stronger",
+    "keys": [
+      "how fast should i get stronger",
+      "how fast do you get stronger",
+      "normal strength progress",
+      "how much should my lifts go up",
+      "how much stronger in a year",
+      "strength gains i can expect",
+      "how fast should my bench go up",
+      "strength gains per month",
+      "how long to get strong",
+      "expected strength progress",
+      "average strength gain",
+      "is my progress normal"
+    ],
+    "match": "\\b(how (fast|quickly) (should i|do you|will i|can i) get stronger|(normal|expected|average) (strength )?(progress|gains?)|how much should my (lifts?|bench|squat|deadlift) go up|strength gains? per (month|year|week)|how long (to|does it take to) get strong|is my progress normal)\\b",
+    "body": [
+      "Fast at first, then slower, then slower again. That curve is normal for everyone.",
+      "First 3 to 6 months: lifts can climb most weeks, often 5 to 10 lb a week on squat and deadlift and 2.5 to 5 lb on presses. Year one to two: a few pounds a month, maybe 5 to 15 percent a year. After several years: a few percent a year is a good year.",
+      "Rough first-year picture for a consistent lifter: squat and deadlift up 50 to 100 percent from where they started, bench up 30 to 50 percent. Your numbers depend on age, size, food, sleep and how consistent you are. Compare yourself to last month, not to anyone online."
+    ],
+    "more": {
+      "why": "Early strength comes from learning the lifts and from fresh muscle that responds to anything. Later gains depend on slow muscle growth and harder-won skill.",
+      "how": "Track your best set of five on each main lift. Look at it monthly. If the monthly trend is up, you are on track.",
+      "beginner": "Enjoy this year. It is the fastest strength you will ever gain. Do not waste it on program hopping.",
+      "advanced": "Five pounds on a total in a year can be a win after many years of training. Measure in blocks and years, not weeks."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "Am I a beginner or intermediate?",
+      "How strong should I be?"
+    ],
+    "related": [
+      "tk-b-069",
+      "tk-b-070",
+      "tk-b-009"
+    ]
+  },
+  {
+    "id": "tk-b-069",
+    "topic": "progress",
+    "title": "Beginner, intermediate, or advanced: which are you",
+    "keys": [
+      "am i a beginner or intermediate",
+      "am i a beginner",
+      "am i intermediate",
+      "what is an intermediate lifter",
+      "what makes you advanced",
+      "beginner vs intermediate vs advanced",
+      "how long to be intermediate",
+      "when am i no longer a beginner",
+      "what level lifter am i",
+      "advanced lifter definition",
+      "novice or intermediate",
+      "training age"
+    ],
+    "match": "\\b(am i (a |an )?(beginner|novice|intermediate|advanced)|(beginner|novice) (vs|or) intermediate|what (is|makes) (an )?(intermediate|advanced) (lifter)?|what level (lifter|of lifter) am i|training age|no longer a (beginner|novice))\\b",
+    "body": [
+      "Not by years. By how fast you recover and progress. That decides what program fits you.",
+      "Beginner: you can add weight session to session. Intermediate: you need a week or two between increases. Advanced: progress takes a month or a full block, and needs planned peaks to show. Most people stay intermediate for many years, and that is fine.",
+      "You can be a beginner on one lift and an intermediate on another. Overhead press often goes intermediate first. Deadlift often stays beginner longest."
+    ],
+    "more": {
+      "why": "Labels only matter because they tell you how to progress. A beginner on an advanced program wastes time. An intermediate on a beginner program stalls every week.",
+      "how": "Look at your log. Adding weight every session and still hitting your reps means beginner. Every week means intermediate, and every month or less means advanced.",
+      "example": "Two years in. Squat moves 5 lb a week with a heavy and a light day. Bench moves 5 lb every two to three weeks. Solid intermediate.",
+      "mistake": "Calling yourself advanced because you have lifted for ten years. Ten years of the same program is one year, ten times."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Programs for intermediates?",
+      "How fast should I get stronger?"
+    ],
+    "related": [
+      "tk-b-011",
+      "tk-b-068"
+    ]
+  },
+  {
+    "id": "tk-b-070",
+    "topic": "progress",
+    "title": "How strong you should be",
+    "keys": [
+      "how strong should i be",
+      "strength standards",
+      "is my bench good",
+      "is my squat good for my weight",
+      "good bench for my weight",
+      "what is a good deadlift",
+      "average bench press",
+      "bodyweight bench",
+      "how much should i lift for my weight",
+      "strong for my size",
+      "what is a strong squat",
+      "strength level",
+      "is a 225 bench good"
+    ],
+    "match": "\\b(how strong should i be|strength (standards|level)|is (my|a) (\\d+ )?(bench|squat|deadlift|press) good|good (bench|squat|deadlift) for my (weight|size)|average (bench|squat|deadlift)|how much should i (lift|bench|squat|deadlift) for my)\\b",
+    "body": [
+      "Stronger than you were. That is the only standard that matters for you. But here are rough marks, since everyone asks.",
+      "For a man after a few consistent years: bench about bodyweight, squat about 1.5 times bodyweight, deadlift about 2 times. For a woman: bench about 0.6 to 0.75 times bodyweight, squat about 1 to 1.25 times, deadlift about 1.25 to 1.5 times. Age, height and training history move these a lot.",
+      "Plenty of strong, healthy people never hit these. Plenty pass them in a year. Use them as a far marker on the road, not a grade."
+    ],
+    "more": {
+      "why": "Standards give a rough sense of what is possible with consistent work. They are not a minimum to feel good about, and they are not a ceiling.",
+      "how": "Write your current best set of five for each lift. Estimate the max. Divide by bodyweight. Watch that ratio climb over a year.",
+      "example": "A 180 lb lifter squatting 225 for 5 has an estimated max near 262, about 1.45 times bodyweight. Close to the marker. Keep building.",
+      "beginner": "Ignore the charts for a year. Your only job is beating your own log."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How fast should I get stronger?",
+      "How do I estimate my max?"
+    ],
+    "related": [
+      "tk-b-068",
+      "tk-b-051"
+    ]
+  },
+  {
+    "id": "tk-b-071",
+    "topic": "effort",
+    "title": "When you cannot judge RPE or reps left",
+    "keys": [
+      "rpe is hard to judge",
+      "i cant tell my rpe",
+      "how do i know how many reps i have left",
+      "bad at guessing rpe",
+      "how to get better at rpe",
+      "rpe feels confusing",
+      "how accurate is rpe",
+      "cant tell how close to failure",
+      "is my rpe accurate",
+      "learning rpe",
+      "guessing reps in reserve",
+      "how to calibrate rpe"
+    ],
+    "match": "\\b((can'?t|cannot|hard to) (tell|judge|guess) (my )?(rpe|reps (left|in reserve)|how close)|(bad|better) at (guessing |judging )?rpe|(calibrate|learning|learn) rpe|is my rpe accurate|how accurate is rpe|how (do i|to) know how many reps i have left)\\b",
+    "body": [
+      "Nobody can at first. RPE is a skill. It gets accurate with practice and a few honest tests.",
+      "Most new lifters underrate their sets, saying they had two left when they had five. Fix it with a calibration set: pick a safe exercise, like leg press, machine press or dumbbell curls. Guess your reps left at a point in the set, then keep going to failure. Compare.",
+      "Bar speed is the best clue. Fast and even means three or more left, the first slow rep means about two left, and grinding means one or none. Film a set and watch the last reps."
+    ],
+    "more": {
+      "why": "RPE only works if your guesses are honest. A few calibration sets each month keep them close, usually within one rep.",
+      "how": "Once every two or three weeks, on the last set of a safe accessory, call your reps left at rep 8, then go to failure. Note the gap. It closes fast.",
+      "beginner": "Use rep counts and leave two in the tank by feel. When the bar slows, stop. You will learn RPE without trying.",
+      "mistake": "Calibrating on heavy barbell squats. Use machines and dumbbells where failure is safe."
+    },
+    "chips": [
+      "What is RPE?",
+      "How close to failure should I go?"
+    ],
+    "related": [
+      "tk-b-034",
+      "tk-b-035",
+      "tk-b-036"
+    ]
+  },
+  {
+    "id": "tk-b-072",
+    "topic": "stalls",
+    "title": "Stuck for months: the long plateau",
+    "keys": [
+      "stuck for months",
+      "plateau for months",
+      "no progress in a year",
+      "stuck for a year",
+      "strength plateau for months",
+      "havent gotten stronger in months",
+      "long term plateau",
+      "stuck for six months",
+      "tried everything still stuck",
+      "progress stopped for months",
+      "plateau for a year",
+      "years of no progress"
+    ],
+    "match": "\\b(stuck (for|in) (months|a year|six months|\\d+ months)|plateau(ed)? for (months|a year)|no progress (in|for) (a year|months)|have ?n'?o?t gotten stronger in months|long[- ]term plateau|tried everything (still|and still) stuck|years of no progress)\\b",
+    "body": [
+      "A months-long plateau is rarely a program problem. It is usually a muscle problem, a food problem, or a plan that never changes.",
+      "Look at three things. Bodyweight: if it has not moved in a year and you are not a beginner, more muscle may need more food. Volume: if you have done the same sets for a year, a block of more volume at moderate loads can build the base. Structure: if you never deload, never peak, never test, you never see what you built.",
+      "Run a real block plan: 6 to 8 weeks of more volume, 4 weeks of heavier work, a short peak, a test. Then repeat. Give it two full cycles before you judge it."
+    ],
+    "more": {
+      "why": "Past the beginner stage, strength rises mostly with muscle and with planned changes in stress. Doing the same thing harder rarely breaks a long plateau. Doing something different on purpose usually does.",
+      "how": "Spend the next 6 weeks at 4x8 to 5x6 on the main lifts with more accessories. Then 4 weeks of 5x3 to 3x2. Then test. Log it all.",
+      "example": "Bench stuck at 245 for eight months, bodyweight flat. A 12-week block with a slow bodyweight gain of about 4 lb: 260.",
+      "mistake": "Chasing a new max every week for months. A plateau is not broken by testing it more."
+    },
+    "reads": [
+      "stalls",
+      "weight"
+    ],
+    "chips": [
+      "What is block periodization?",
+      "Bulk or cut for strength?"
+    ],
+    "related": [
+      "tk-b-005",
+      "tk-b-058"
+    ]
+  }
+]

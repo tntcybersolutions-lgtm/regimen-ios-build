@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "tk-a-026",
+    "topic": "bench",
+    "title": "Setting up the bench press",
+    "keys": [
+      "bench press form",
+      "how to bench press",
+      "bench setup",
+      "how do i set up for bench",
+      "bench press setup",
+      "bench technique",
+      "proper bench form",
+      "how do i bench",
+      "bench form check",
+      "flat bench form",
+      "barbell bench form",
+      "bench press technique",
+      "benchpress form",
+      "how to bench"
+    ],
+    "match": "\\b(bench(ing)?( press)? (form|setup|set ?up|technique)|(set ?up|setting up) (for |the )?bench|how (do i|to) bench)\\b",
+    "body": [
+      "A good bench is built before the bar moves. Lie down with your eyes under the bar. Grip it evenly. Pull your shoulder blades back and down, like you are putting them in your back pockets, and keep them there the whole set.",
+      "Feet flat on the floor, planted, a little behind your knees if your hips allow. A small natural arch in your lower back. Butt stays on the bench. Five points of contact: head, upper back, butt, left foot, right foot.",
+      "Unrack with straight arms, bring the bar over your shoulders, breathe in and brace. Lower to your lower chest under control. Press back up and slightly back toward your face. Same setup, every rep, every set."
+    ],
+    "more": {
+      "why": "Pinned shoulder blades give you a stable base to press from and keep the shoulder joint in a safer position. A loose upper back is why many benches feel shaky and why shoulders start to ache.",
+      "how": "Grip the bar. Lift your chest toward the bar while squeezing your shoulder blades together, then set your butt down without losing that squeeze. Plant your feet. Now unrack.",
+      "beginner": "Bench the empty bar for 3 sets of 10 with the full setup every set. Learn to set your shoulder blades before you worry about the weight.",
+      "mistake": "Setting up, then shrugging your shoulders forward to unrack. Unrack by straightening your arms, not by reaching. Or ask for a handoff."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How wide should I grip the bench?",
+      "Where should the bar touch my chest?",
+      "Is arching on bench cheating?"
+    ],
+    "related": [
+      "tk-a-027",
+      "tk-a-028",
+      "tk-a-033"
+    ]
+  },
+  {
+    "id": "tk-a-027",
+    "topic": "bench",
+    "title": "How wide to grip the bench press",
+    "keys": [
+      "how wide should i grip the bench",
+      "bench grip width",
+      "how wide to grip bench",
+      "wide grip bench",
+      "narrow grip bench",
+      "where do i put my hands on bench",
+      "bench press hand position",
+      "bench grip rings",
+      "grip width for bench",
+      "how far apart hands bench",
+      "index finger on the ring bench",
+      "bench grip"
+    ],
+    "match": "\\b(bench\\w*( press)? (grip|hand position|hands)|grip (width )?(for|on) (the )?bench|how wide[^.?!]{0,20}(grip|hands)[^.?!]{0,20}bench|(wide|narrow|close)[ -]grip bench)\\b",
+    "body": [
+      "Start where your forearms are vertical at the bottom of the rep, seen from the front. For most people that puts the hands a bit wider than shoulder width, often index or middle finger near the smooth ring on the bar.",
+      "Wider shortens the distance the bar travels and puts more on your chest and shoulders. Narrower travels further and puts more on your triceps. Too wide, and many shoulders complain. Too narrow, and wrists and elbows complain.",
+      "Use the rings to make it repeatable. Pick a finger, put it on the ring, same spot every set. If your shoulders hurt, bring the grip in a finger width or two before you change anything else."
+    ],
+    "more": {
+      "why": "Vertical forearms at the bottom mean the force goes straight up through the bar. Angled forearms waste force and stress the elbow and shoulder.",
+      "how": "Have someone look from the front, or film it, at the bottom of a rep with a light bar. Adjust grip until the forearms look vertical. Note the finger on the ring.",
+      "example": "Many lifters land with a pinky to ring finger on the rings for a wide grip, or index finger on the ring for a moderate grip. Your build decides. Test with light weight.",
+      "mistake": "Changing grip width every session. You cannot build a groove that keeps moving."
+    },
+    "chips": [
+      "My shoulders hurt on bench",
+      "Close grip bench: how and why"
+    ],
+    "related": [
+      "tk-a-026",
+      "tk-a-030",
+      "tk-a-044"
+    ]
+  },
+  {
+    "id": "tk-a-028",
+    "topic": "bench",
+    "title": "Where the bar touches and how it travels on bench",
+    "keys": [
+      "where should the bar touch my chest",
+      "bench bar path",
+      "bench touch point",
+      "where to touch bar on chest",
+      "bar path bench press",
+      "bench press bar path",
+      "bench j curve",
+      "touch the bar where on bench",
+      "bench bar position",
+      "bench to nipples",
+      "bench touch too high"
+    ],
+    "match": "\\b(bench\\w*[^.?!]{0,20}(bar path|touch point|j[ -]?curve)|bar path[^.?!]{0,15}bench|where (should|does|do) (the|i) (bar )?touch|touch[^.?!]{0,20}(my|the) chest)",
+    "body": [
+      "Touch low on the chest, around the bottom of your breastbone, roughly at or just below nipple level. Your exact spot depends on your arch and grip. Let the forearms decide: where they are vertical at the bottom is your touch point.",
+      "The path is not a straight line. The bar comes down at a slight angle to your lower chest, then presses up and back toward your face, finishing over your shoulders. It looks like a shallow J.",
+      "Touching too high, near the collarbone, flares the elbows and loads the front of the shoulder. Touching too low, on the belly, often means elbows tucked too hard. Film from the side to see yours."
+    ],
+    "more": {
+      "why": "The lockout over your shoulders is the strongest, most balanced spot. The touch point lower on the chest keeps the elbows under the bar where they push best. The curved path connects the two.",
+      "how": "Unrack, settle the bar over your shoulders. Lower it toward your lower chest. As you press, push the bar back toward the rack, not straight up toward the ceiling.",
+      "mistake": "Pressing straight up from the chest and missing the lockout way down over your stomach. Drive back toward the rack."
+    },
+    "chips": [
+      "Should my elbows tuck on bench?",
+      "Pause bench or touch and go?"
+    ],
+    "related": [
+      "tk-a-026",
+      "tk-a-031"
+    ]
+  },
+  {
+    "id": "tk-a-029",
+    "topic": "bench",
+    "title": "Wrists hurt on bench press",
+    "keys": [
+      "wrists hurt on bench",
+      "why do my wrists hurt on bench",
+      "wrist pain bench press",
+      "bench hurts my wrists",
+      "wrists bend back bench",
+      "sore wrists after bench",
+      "wrist pain pressing",
+      "bent wrists bench",
+      "bench wrist position",
+      "wrists hurt pressing",
+      "wrist hurts on bench"
+    ],
+    "match": "\\b(wrists?[^.?!]{0,25}(bench\\w*|press\\w*)|bench\\w*[^.?!]{0,25}wrists?)\\b",
+    "body": [
+      "The bar is sitting too high in your hand. When it rests near your fingers, the wrist bends back and the weight levers on the joint. Move the bar down into the heel of your palm, right over your forearm bones.",
+      "Grip it like this: set the bar diagonally across the palm, low near the base of the thumb, then wrap your fingers. Knuckles point roughly toward the ceiling, not back toward your face. Squeeze hard. A crushed bar keeps a straight wrist.",
+      "Check that forearms are vertical at the bottom and the bar is stacked over your elbow. Wrist wraps help hold the position on heavy sets. Pain that lingers between sessions, swelling, or clicking with pain: back off and get it seen by a physical therapist."
+    ],
+    "more": {
+      "why": "Force should travel in a straight line from the bar, through the wrist, down the forearm. A bent wrist turns that line into a lever, and the small joints of the wrist pay for it.",
+      "how": "Before you unrack, look at your hands. Bar low in the palm, wrist straight, thumb wrapped around. If you can see your palm angled back toward you, reset.",
+      "mistake": "A thumbless grip to make it feel better. It moves the bar higher and can let it roll out of your hand. Wrap the thumb."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Do wrist wraps help?",
+      "How wide should I grip the bench?"
+    ],
+    "related": [
+      "tk-a-027",
+      "tk-a-026"
+    ]
+  },
+  {
+    "id": "tk-a-030",
+    "topic": "bench",
+    "title": "Shoulders hurt on bench press",
+    "keys": [
+      "my shoulders hurt on bench",
+      "shoulder pain bench press",
+      "bench press shoulder pain",
+      "front of shoulder hurts bench",
+      "bench hurts my shoulder",
+      "shoulder pinch bench",
+      "shoulder pain pressing",
+      "sore shoulder after bench",
+      "bench bad for shoulders",
+      "shoulder hurts when i bench",
+      "bench shoulder injury"
+    ],
+    "match": "\\b(shoulders?[^.?!]{0,25}(hurt|pain|ache|pinch|sore)\\w*[^.?!]{0,25}bench\\w*|bench\\w*[^.?!]{0,25}shoulders?[^.?!]{0,10}(hurt|pain|ache|pinch|sore)?|bench\\w*[^.?!]{0,15}bad for (my |your )?shoulders?)",
+    "body": [
+      "Most bench shoulder pain comes from three things: shoulder blades not pinned back, elbows flared straight out to the sides, and a grip that is too wide. Fix those first.",
+      "Set your shoulder blades back and down and keep them there. Tuck the elbows to roughly 45 to 70 degrees from your body at the bottom, not 90. Bring the grip in a finger width or two. Lower under control and touch the lower chest, not the neck.",
+      "While it calms down, try a slightly narrower grip, a floor press, or neutral grip dumbbells, which most shoulders tolerate better. Sharp pain, pain at night, clicking with pain, or weakness lifting your arm: stop pressing and get it seen by a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "With loose shoulder blades and flared elbows, the front of the shoulder takes the load at the bottom of every rep. Pinned blades and tucked elbows share it with the chest and triceps.",
+      "how": "Drop the weight 20 to 30 percent. Bench with a two second pause on the chest for a few weeks, checking every rep: blades pinned, elbows tucked, touch low.",
+      "mistake": "Bouncing the bar off the chest. The bounce happens at the exact point where the shoulder is most exposed."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Should my elbows tuck on bench?",
+      "Pain-free alternatives to bench",
+      "Do dips hurt your shoulders?"
+    ],
+    "related": [
+      "tk-a-031",
+      "tk-a-045",
+      "tk-a-027"
+    ]
+  },
+  {
+    "id": "tk-a-031",
+    "topic": "bench",
+    "title": "Elbows: tuck or flare on bench",
+    "keys": [
+      "should my elbows tuck on bench",
+      "elbow flare bench",
+      "elbows flare out bench",
+      "tuck elbows bench",
+      "elbow angle bench press",
+      "how much to tuck elbows",
+      "elbows at 90 bench",
+      "elbows in bench",
+      "bench elbow position",
+      "flaring elbows",
+      "elbows out on bench"
+    ],
+    "match": "\\b(elbows? (tuck|flare)\\w*|(tuck|flare)\\w* (my |your |the )?elbows?|elbow (angle|position)[^.?!]{0,15}(bench|press))",
+    "body": [
+      "Somewhere in the middle. At the bottom, your upper arms should sit roughly 45 to 70 degrees from your torso. Not glued to your sides, not straight out like a T.",
+      "On the way down, tuck slightly so the bar lands on your lower chest with your forearms vertical. On the way up, the elbows flare a bit as the bar travels back over your shoulders. That is normal.",
+      "A small flare after the bar leaves your chest is fine. Flared from the start is the problem.",
+      "Cue: bend the bar. Try to snap it in half by twisting your hands toward your feet. That pulls the elbows into a good position and tightens your back."
+    ],
+    "more": {
+      "why": "Elbows straight out put the shoulder in its weakest, most exposed position at the bottom. Elbows tucked too hard move the touch point to your stomach and make the press longer.",
+      "how": "Film from above or at a slight angle. At the bottom, check the angle between your upper arm and torso. If it looks like the letter T, tuck more.",
+      "mistake": "Copying a tight elbow tuck from someone with a big arch and a wide grip. Your angle follows your grip and build."
+    },
+    "chips": [
+      "Where should the bar touch my chest?",
+      "My shoulders hurt on bench"
+    ],
+    "related": [
+      "tk-a-028",
+      "tk-a-030"
+    ]
+  },
+  {
+    "id": "tk-a-032",
+    "topic": "bench",
+    "title": "Leg drive and where your feet go on bench",
+    "keys": [
+      "leg drive bench",
+      "what is leg drive",
+      "how to use leg drive",
+      "feet position bench",
+      "where do my feet go on bench",
+      "feet on bench",
+      "feet up bench",
+      "should my feet be on the bench",
+      "feet flat bench press",
+      "heels up bench",
+      "how to use legs on bench"
+    ],
+    "match": "\\b(leg drive|feet (up|on|position)[^.?!]{0,15}bench|where (do|should) (my|your) feet[^.?!]{0,15}bench|(heels|feet) (up|flat)[^.?!]{0,15}bench)\\b",
+    "body": [
+      "Your legs do not press the bar. They lock you onto the bench so your upper body can. Feet planted, pushing into the floor, tightens everything from your feet to your upper back.",
+      "Set your feet flat, or on the balls of the feet if that is how your hips let you get tight, roughly under or just behind your knees. Push your feet into the floor and slightly toward the head of the bench, like you are trying to slide yourself back. Your butt stays down.",
+      "Feet up on the bench takes away your base. Useful only as a variation to make the press harder or if your back cannot handle an arch. For heavy pressing, feet down and driving."
+    ],
+    "more": {
+      "why": "Pushing through the floor sends tension up the body and pins the upper back against the bench. A stable base means more of your effort goes into the bar.",
+      "how": "Set up, plant the feet. Before you unrack, push through your heels or the balls of your feet until you feel your quads and glutes tighten and your upper back press harder into the bench. Hold that through the set.",
+      "mistake": "Pushing straight up, which lifts the butt off the bench. Push toward your head, not toward the ceiling."
+    },
+    "chips": [
+      "My butt lifts off the bench",
+      "Is arching on bench cheating?"
+    ],
+    "related": [
+      "tk-a-037",
+      "tk-a-033"
+    ]
+  },
+  {
+    "id": "tk-a-033",
+    "topic": "bench",
+    "title": "Is arching on bench cheating",
+    "keys": [
+      "is arching on bench cheating",
+      "bench arch",
+      "arch on bench",
+      "should i arch my back on bench",
+      "is it bad to arch bench",
+      "powerlifting arch",
+      "bench press arch",
+      "arched back bench",
+      "arching bench hurts back",
+      "how much should i arch bench",
+      "flat back bench"
+    ],
+    "match": "\\b(arch\\w*[^.?!]{0,25}bench|bench\\w*[^.?!]{0,20}arch\\w*)\\b",
+    "body": [
+      "No. A moderate arch is good technique. It keeps the shoulder blades pinned, puts your chest higher, and shortens the press a little. Your shoulders like it.",
+      "The arch comes mainly from your upper back and the pinned shoulder blades, with a natural curve in the lower back. Butt stays on the bench. It should feel tight and strong, not painful.",
+      "An extreme competition arch is a skill for powerlifters. You do not need it. If arching hurts your lower back, keep a gentle natural curve and focus on pulling the shoulder blades back. That is where most of the benefit lives anyway."
+    ],
+    "more": {
+      "why": "Pinned, depressed shoulder blades put the shoulder in a safer pressing position. The arch helps you keep them there. Shorter range is a side effect, not the point.",
+      "how": "Set your feet, lift your chest toward the bar while squeezing your shoulder blades together, then lower your butt to the bench while keeping the chest high.",
+      "mistake": "Arching from the lower back alone and leaving the shoulder blades loose. That gets you all of the back stress and none of the shoulder benefit."
+    },
+    "chips": [
+      "How do I set up for bench?",
+      "Leg drive on bench"
+    ],
+    "related": [
+      "tk-a-026",
+      "tk-a-032"
+    ]
+  },
+  {
+    "id": "tk-a-034",
+    "topic": "bench",
+    "title": "Pause bench or touch and go",
+    "keys": [
+      "pause bench or touch and go",
+      "paused bench",
+      "pause bench press",
+      "touch and go bench",
+      "should i pause my bench",
+      "bench pause",
+      "bench with a pause",
+      "competition pause bench",
+      "bouncing the bar off chest",
+      "bounce bench",
+      "is touch and go cheating"
+    ],
+    "match": "\\b(pause\\w* bench|bench\\w* (with a )?pause|touch[ -]and[ -]go[^.?!]{0,20}bench|bench\\w*[^.?!]{0,20}touch[ -]and[ -]go|bounc\\w*[^.?!]{0,20}(chest|bench))",
+    "body": [
+      "Both have a place. Bouncing never does.",
+      "Touch and go: the bar touches your chest lightly and you press immediately, no rest, no bounce. Lets you move a bit more weight and run more reps. Fine for most training.",
+      "Paused: the bar settles on your chest, motionless for about one second, then you press. It builds strength off the chest, cleans up your position, and is the standard in powerlifting meets. Expect to lose 5 to 10 percent off your touch-and-go numbers at first.",
+      "A good split: main bench work paused, back-off sets or higher reps touch and go. If you bounce the bar off your sternum to get it moving, the weight is ahead of you."
+    ],
+    "more": {
+      "why": "The pause removes the stretch and momentum. The muscles have to start the bar from zero, which builds raw pressing strength at the hardest point.",
+      "how": "Lower under control, let the bar sink in and stop. Stay tight, blades pinned, and count one. Press. Do not relax on the chest.",
+      "mistake": "Pausing an inch above the chest, or sinking and relaxing on it. Touch, stay tight, then drive."
+    },
+    "chips": [
+      "Weak off the chest on bench",
+      "Bench stuck halfway up"
+    ],
+    "related": [
+      "tk-a-035",
+      "tk-a-036"
+    ]
+  },
+  {
+    "id": "tk-a-035",
+    "topic": "bench",
+    "title": "Weak off the chest on bench",
+    "keys": [
+      "weak off the chest on bench",
+      "bench stuck at the bottom",
+      "cant get the bar off my chest",
+      "bench weak at the bottom",
+      "stuck on chest bench",
+      "bench fails at chest",
+      "bottom of bench is weak",
+      "bench sticking point bottom",
+      "how to get stronger off the chest",
+      "bench stalls off chest"
+    ],
+    "match": "\\b((weak|stuck|fail\\w*) (off|at|on) (the|my) chest|bench\\w*[^.?!]{0,25}(bottom|off the chest)|off the chest)\\b",
+    "body": [
+      "Weak off the chest usually means position is lost at the bottom or the chest and front shoulders are behind. Check position first, then build.",
+      "Position: shoulder blades pinned, elbows tucked so forearms are vertical at the bottom, bar landing low on the chest, tight the whole time. Many people relax at the bottom and lose a few inches of tension. That is the sticking point.",
+      "Build: paused bench, one to two second pauses, sets of 3 to 5. Spoto press, which pauses the bar an inch above the chest. Dumbbell bench press for chest strength through a full range.",
+      "A little wider grip work, kept to a few sets. Run them for 4 to 6 weeks and test again."
+    ],
+    "more": {
+      "why": "The bottom of the bench is where leverage is worst and where the chest does the most work. Pauses and a slight stretch at the bottom train exactly that.",
+      "how": "Spoto press: lower to an inch above your chest, hold one second without touching, press. Use about 80 to 85 percent of your normal bench weight for the same reps.",
+      "mistake": "Bouncing harder to get through it. That hides the weakness. It does not fix it."
+    },
+    "chips": [
+      "Pause bench or touch and go?",
+      "Bench press variations: which to use"
+    ],
+    "related": [
+      "tk-a-034",
+      "tk-a-053"
+    ]
+  },
+  {
+    "id": "tk-a-036",
+    "topic": "bench",
+    "title": "Bench stuck halfway up or at lockout",
+    "keys": [
+      "bench stuck halfway up",
+      "bench stuck at lockout",
+      "cant lock out bench",
+      "bench sticking point",
+      "bench fails mid range",
+      "bench stuck in the middle",
+      "weak lockout bench",
+      "bench stalls halfway",
+      "triceps weak bench",
+      "bar stops halfway bench"
+    ],
+    "match": "\\b(bench\\w*[^.?!]{0,30}(halfway|lock ?out|mid ?range|middle|sticking point)|(lock ?out|sticking point)[^.?!]{0,20}bench)\\b",
+    "body": [
+      "A bench that stalls halfway or at the top is usually a triceps problem, a bar path problem, or both.",
+      "Bar path first. If the bar drifts toward your stomach as you press, your shoulders lose leverage and the triceps have to fight a long lever. Press back toward the rack, finishing over your shoulders.",
+      "Then build the triceps. Close grip bench at a shoulder width grip, sets of 4 to 8. Board presses or pin presses from just below the sticking point, sets of 3 to 5, plus dips and heavy triceps extensions.",
+      "Run it 4 to 6 weeks. The lockout comes back."
+    ],
+    "more": {
+      "why": "As the bar rises, the chest hands more of the job to the triceps. Weak triceps or a bar drifting away from the shoulders both show up as a stall in the top half.",
+      "how": "Pin press: set the safety pins in a rack an inch or two below where you stall. Lie down, press the bar from the pins, lower it back to them. Short range, heavy, honest.",
+      "mistake": "Flaring the elbows hard to finish the rep. A small flare at the top is normal. A sudden flare is your shoulders taking over for weak triceps."
+    },
+    "chips": [
+      "Close grip bench: how and why",
+      "How do I do dips?"
+    ],
+    "related": [
+      "tk-a-044",
+      "tk-a-047",
+      "tk-a-053"
+    ]
+  },
+  {
+    "id": "tk-a-037",
+    "topic": "bench",
+    "title": "Butt lifting off the bench",
+    "keys": [
+      "my butt lifts off the bench",
+      "butt comes up on bench",
+      "hips lift bench press",
+      "glutes off bench",
+      "butt off bench",
+      "is it bad if my butt lifts bench",
+      "ass off the bench",
+      "hips off bench",
+      "bench butt lift"
+    ],
+    "match": "\\b((butt|ass|hips?|glutes?) (lifts?|lifting|comes? up|off)[^.?!]{0,20}bench|bench\\w*[^.?!]{0,20}(butt|ass|hips?|glutes?) (lifts?|comes? up|off))\\b",
+    "body": [
+      "Your butt stays on the bench. Always. Lifting it shortens the press and moves the load into your lower back.",
+      "In a meet, it fails the lift. In the gym, it inflates the number.",
+      "It happens because your leg drive is going straight up instead of back. Push your feet into the floor toward the head of the bench, as if sliding yourself backward. That tightens you without lifting you.",
+      "If your feet are tucked far behind you, move them forward an inch or two. Too much arch with heels up can also pop the hips. Lighten the bar and practice keeping contact for a few sessions. It becomes automatic."
+    ],
+    "more": {
+      "why": "When the hips leave the bench, your body becomes a bridge and the bar has less distance to travel. The press looks stronger than it is, and your back takes stress it does not need.",
+      "how": "Set up, then squeeze your glutes into the bench as you drive your feet. Think: heavy hips, driving legs.",
+      "mistake": "Fixing it by taking your legs out of the lift entirely. Keep the drive, change its direction."
+    },
+    "chips": [
+      "Leg drive on bench",
+      "Is arching on bench cheating?"
+    ],
+    "related": [
+      "tk-a-032",
+      "tk-a-033"
+    ]
+  },
+  {
+    "id": "tk-a-038",
+    "topic": "bench",
+    "title": "Unracking the bench and getting a handoff",
+    "keys": [
+      "how to unrack bench",
+      "bench unrack",
+      "handoff bench",
+      "lift off bench",
+      "should i get a handoff",
+      "unracking bench hurts shoulder",
+      "bench unrack tips",
+      "how to take the bar out on bench",
+      "bench rack height",
+      "j hooks bench height"
+    ],
+    "match": "\\b(unrack\\w*[^.?!]{0,20}bench|bench\\w*[^.?!]{0,20}(unrack|hand ?off|lift ?off)|hand ?off)\\b",
+    "body": [
+      "The unrack can wreck your setup before the first rep. Set the hooks so your arms are nearly straight when you grip the bar lying down. You should only need a short push to clear the hooks.",
+      "Eyes under the bar. Squeeze the shoulder blades back, grip, then press the bar straight up off the hooks and bring it forward over your shoulders with locked elbows. Do not reach up and forward with your shoulders. That undoes the setup.",
+      "A handoff helps on heavy sets. Your spotter lifts the bar out with you and guides it over your shoulders, then lets go cleanly. Tell them first: lift on three, let go when I say. Clear communication or none at all."
+    ],
+    "more": {
+      "why": "Reaching for the bar pulls the shoulder blades apart. The whole set then runs from a loose upper back, which costs strength and stresses the shoulders.",
+      "how": "Hooks too low: you end up pressing the bar out of a bent arm position. Too high: you reach and lose the shoulder blades. Adjust a notch at a time until the unrack is short and easy.",
+      "mistake": "A spotter who keeps their hands on the bar during the set. Hands off once it is over your shoulders, unless the bar stops moving up."
+    },
+    "chips": [
+      "How do I spot someone on bench?",
+      "How do I fail a bench safely?"
+    ],
+    "related": [
+      "tk-a-026"
+    ]
+  },
+  {
+    "id": "tk-a-039",
+    "topic": "bench",
+    "title": "Incline press: angle and setup",
+    "keys": [
+      "incline press",
+      "incline bench press",
+      "incline bench angle",
+      "what angle incline bench",
+      "incline press form",
+      "how to incline bench",
+      "incline barbell press",
+      "incline bench setup",
+      "low incline press",
+      "incline press shoulders",
+      "best incline angle for upper chest"
+    ],
+    "match": "\\bincline (bench|press|barbell|db|dumbbell|angle)\\w*|\\bwhat angle[^.?!]{0,20}incline",
+    "body": [
+      "Set the bench between 15 and 45 degrees. Lower angles, around 15 to 30, feel more like a chest press with extra upper chest. Steeper than about 45 and it turns into a shoulder press.",
+      "Same setup as flat bench: shoulder blades back and down, feet planted, butt down. The touch point moves up, to the upper chest just below your collarbone. Forearms vertical at the bottom. Press up and slightly back over your shoulders.",
+      "Use a fixed incline bench with a rack if you can, or set safeties in a power rack. Expect to use roughly 70 to 85 percent of your flat bench weight. That is normal."
+    ],
+    "more": {
+      "why": "The incline shifts more of the work to the upper chest and front shoulders. It is a strong second press in any week.",
+      "how": "Adjustable bench in a rack: set the incline, sit back, line your eyes up just in front of the bar, set the safeties a few inches below your touch point.",
+      "mistake": "Arching so hard on an incline that it becomes a flat bench. Keep a natural arch and let the angle do its job.",
+      "beginner": "Start with dumbbells on a low incline. Easier to set up, easier to bail, easier on the shoulders."
+    },
+    "chips": [
+      "Incline or flat bench?",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-040",
+      "tk-a-041"
+    ]
+  },
+  {
+    "id": "tk-a-040",
+    "topic": "bench",
+    "title": "Incline or flat bench",
+    "keys": [
+      "incline or flat bench",
+      "incline vs flat bench",
+      "should i do incline or flat",
+      "flat vs incline",
+      "is incline better than flat",
+      "incline instead of flat bench",
+      "which bench is better for chest",
+      "incline bench for upper chest",
+      "flat bench only",
+      "incline bench better for shoulders"
+    ],
+    "match": "\\b(incline (or|vs\\.?|versus|instead of) flat|flat (or|vs\\.?|versus) incline|incline better than flat)\\b",
+    "body": [
+      "Both. If you only pick one, pick the flat bench as your main press. It moves the most weight and builds the whole chest, shoulders and triceps.",
+      "Add the incline as your second press of the week for more upper chest and front shoulder. Many lifters find a low incline easier on cranky shoulders than flat. If flat hurts and incline does not, that is your answer for now.",
+      "A simple week: flat barbell bench on one day, incline dumbbell press on another. Both get hard sets in the 5 to 12 rep range. That covers the chest from every angle that matters."
+    ],
+    "more": {
+      "why": "The angle changes which part of the chest and how much shoulder does the work. Different angles across the week spread the load and build more complete strength.",
+      "mistake": "Doing three different chest presses in one session at medium effort. Two presses, done hard, beat four done halfway."
+    },
+    "chips": [
+      "Incline press: angle and setup",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-039",
+      "tk-a-042"
+    ]
+  },
+  {
+    "id": "tk-a-041",
+    "topic": "bench",
+    "title": "Dumbbell bench press setup and getting the bells up",
+    "keys": [
+      "dumbbell bench press form",
+      "how to dumbbell press",
+      "dumbbell press setup",
+      "how do i get heavy dumbbells into position",
+      "kick up dumbbells",
+      "how to get dumbbells up for bench",
+      "how to put dumbbells down after bench",
+      "dropping dumbbells after press",
+      "dumbbell chest press form",
+      "db bench",
+      "db press form",
+      "heavy dumbbell press setup"
+    ],
+    "match": "\\b((dumbbell|db) (bench|chest press|press)\\w*( form| setup)?|kick(ing)? (the )?(dumbbells|bells) up|(get|getting|put|putting) (heavy )?dumbbells (up|down|into position))\\b",
+    "body": [
+      "Getting them up is half the lift. Sit on the end of the bench with the dumbbells standing on your thighs, near your knees. Lie back and, as you go, bring your knees up so they kick the bells to your chest. Arrive with the dumbbells at your chest, not at arm's length.",
+      "Press up and slightly in, palms facing your feet or angled in a little. Lower until the handles are about level with your chest, elbows at roughly 45 to 70 degrees from your body. Shoulder blades pinned, same as a barbell.",
+      "To finish, bring the bells back to your chest, pull your knees up, and use the momentum to roll up to sitting with them on your thighs. Do not fling heavy dumbbells out to your sides. That is how shoulders get hurt."
+    ],
+    "more": {
+      "why": "The start and the finish are where most dumbbell press injuries happen. A clean kick up and a controlled return protect the shoulder at its most exposed point.",
+      "how": "Practice the kick up with moderate dumbbells until it is automatic. One fluid motion: lie back, knees up, bells to chest, press.",
+      "mistake": "Lying down with heavy dumbbells already at arm's length. Your shoulders take the full weight in a bad position before the first rep."
+    },
+    "chips": [
+      "Dumbbell or barbell bench?",
+      "Dumbbell jumps are too big"
+    ],
+    "related": [
+      "tk-a-042",
+      "tk-a-043"
+    ]
+  },
+  {
+    "id": "tk-a-042",
+    "topic": "bench",
+    "title": "Dumbbell or barbell bench",
+    "keys": [
+      "dumbbell or barbell bench",
+      "dumbbell vs barbell bench",
+      "are dumbbells better than barbell",
+      "db vs bb bench",
+      "should i use dumbbells or barbell for chest",
+      "dumbbell bench vs bench press",
+      "barbell or dumbbell press",
+      "dumbbells easier on shoulders",
+      "which is better for chest dumbbell or barbell"
+    ],
+    "match": "\\b((dumbbell|db)s?[^.?!]{0,15}(or|vs\\.?|versus)[^.?!]{0,10}(barbell|bb)|(barbell|bb)[^.?!]{0,15}(or|vs\\.?|versus)[^.?!]{0,10}(dumbbell|db)s?)\\b",
+    "body": [
+      "Barbell for load. Dumbbells for range and freedom. Use both.",
+      "The barbell lets you move the most weight and track progress in small, clean jumps. It is the best way to build pressing strength.",
+      "Dumbbells let each arm work on its own, give a deeper stretch at the bottom, and let your wrists and elbows find their natural path. Many cranky shoulders are happier with dumbbells, especially with palms angled slightly in. Expect each dumbbell to be a bit less than half your barbell weight for the same reps.",
+      "Simple plan: barbell bench as the main press, dumbbell press as a second press later in the week."
+    ],
+    "more": {
+      "why": "The barbell locks your hands at a fixed width, so the stronger side can carry the weaker. Dumbbells expose and fix that.",
+      "example": "If you bench 185 for 6 with a barbell, expect roughly 70 to 80 lb dumbbells for 6 to 8 reps. Start lighter while you learn the kick up.",
+      "mistake": "Judging dumbbell strength by adding the two together and comparing to the barbell. Stability costs strength. That is the point."
+    },
+    "chips": [
+      "How do I get heavy dumbbells up?",
+      "Pain-free alternatives to bench"
+    ],
+    "related": [
+      "tk-a-041",
+      "tk-a-045"
+    ]
+  },
+  {
+    "id": "tk-a-043",
+    "topic": "bench",
+    "title": "Dumbbell press: shoulders, depth and grip angle",
+    "keys": [
+      "how low should dumbbells go",
+      "dumbbell press depth",
+      "dumbbell press shoulder pain",
+      "neutral grip dumbbell press",
+      "palms facing dumbbell press",
+      "dumbbell press hurts shoulder",
+      "dumbbells touch at the top",
+      "clanking dumbbells",
+      "dumbbell press too deep",
+      "dumbbell press elbows"
+    ],
+    "match": "\\b((dumbbell|db) press\\w*[^.?!]{0,25}(depth|deep|low|shoulder|neutral|palms|touch|elbows?)|neutral grip (dumbbell|db)|clank\\w*)\\b",
+    "body": [
+      "Go as deep as your shoulders allow while staying pinned back. For most people, that is the handles level with or just below the chest. Deeper than that, with loose shoulder blades, is where shoulders complain.",
+      "Palms can face your feet, each other, or anywhere between. If your shoulders hurt, turn the palms in so they face each other or angle 45 degrees. That tucks the elbows naturally and is the friendliest grip there is.",
+      "At the top, bring the bells close but do not bang them together. Stop just before they touch. Clanking shifts the load off your chest and is the fastest way to lose control of a heavy dumbbell."
+    ],
+    "more": {
+      "why": "Dumbbells can travel lower than a barbell, which is useful but only if the shoulder stays in a stable position. The stretch is good. Collapse at the bottom is not.",
+      "how": "Neutral grip: hold the dumbbells like hammers, palms facing each other. Lower until your elbows are just below the bench line, press up and slightly in.",
+      "mistake": "Racing the lowering. Two to three seconds down on dumbbells keeps the shoulder honest."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My shoulders hurt on bench",
+      "How do I get heavy dumbbells up?"
+    ],
+    "related": [
+      "tk-a-041",
+      "tk-a-030"
+    ]
+  },
+  {
+    "id": "tk-a-044",
+    "topic": "bench",
+    "title": "Close grip bench: how and why",
+    "keys": [
+      "close grip bench",
+      "close grip bench press",
+      "how close is close grip bench",
+      "narrow grip bench press",
+      "cgbp",
+      "close grip bench for triceps",
+      "close grip bench wrists",
+      "close grip bench form",
+      "is close grip bench good"
+    ],
+    "match": "\\b(close[ -]?grip bench|narrow[ -]?grip bench|cgbp)\\b",
+    "body": [
+      "The best heavy triceps builder there is, and a strong bench in its own right. Grip about shoulder width, roughly a hand's width inside your normal bench grip. Not hands touching. That just wrecks your wrists.",
+      "Tuck the elbows more than on regular bench. Touch slightly lower on the chest. Press back over the shoulders with the same pinned shoulder blades and the same leg drive.",
+      "Use it as your second bench of the week or a lockout builder, sets of 4 to 8, at about 85 to 95 percent of your normal bench weight. If your wrists hurt, you are too narrow. Widen an inch."
+    ],
+    "more": {
+      "why": "A narrower grip puts more of the work on the triceps through the full range, which carries straight over to a stronger lockout on every press.",
+      "how": "Find your normal grip, move each hand in about two to three inches. Forearms should still be nearly vertical at the bottom, maybe angled slightly in.",
+      "mistake": "Hands an inch apart in the center of the bar. That is a wrist stress test, not a triceps exercise."
+    },
+    "chips": [
+      "Bench stuck halfway up",
+      "Wrists hurt on bench"
+    ],
+    "related": [
+      "tk-a-036",
+      "tk-a-027"
+    ]
+  },
+  {
+    "id": "tk-a-045",
+    "topic": "bench",
+    "title": "Pain-free alternatives to bench",
+    "keys": [
+      "pain-free alternatives to bench",
+      "pain free alternatives to bench",
+      "bench alternatives",
+      "bench press alternatives",
+      "what can i do instead of bench",
+      "floor press",
+      "bench press alternative bad shoulder",
+      "chest exercise without shoulder pain",
+      "replace bench press",
+      "landmine press",
+      "bench substitute"
+    ],
+    "match": "\\b(bench( press)? (alternative|substitute|replacement)s?|alternatives? (to|for) (the )?bench|instead of bench\\w*|floor press|landmine press)\\b",
+    "body": [
+      "Pain is a signal to change the press, not to stop pressing. Here are the swaps that most shoulders tolerate, in order.",
+      "Neutral grip dumbbell press: palms facing, elbows tucked, natural path. Floor press: lie on the floor with a barbell or dumbbells, your upper arms stop on the floor before the shoulder hits its painful range. Low incline dumbbell press.",
+      "Landmine press: one end of a barbell anchored, press the other end up and forward, very shoulder friendly. Push-ups, hands on dumbbells or handles so wrists stay straight.",
+      "Pick the one that is pain free and train it hard for a few weeks. Bring the bench back light, with a slightly narrower grip and a pause. Sharp pain, night pain, or weakness lifting the arm: see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Most bench shoulder pain lives at the bottom of the press, with the arm back and out. These variations shorten that range or let the arm move in a friendlier path.",
+      "how": "Floor press: set safeties or pins at floor height in a rack, lie down, upper arms at about 45 degrees. Lower until your triceps touch the floor, pause, press.",
+      "home": "Push-ups on handles, floor press with dumbbells or a loaded backpack, and slow tempo push-ups with a pause at the bottom. All chest, no bench needed."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My shoulders hurt on bench",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-030",
+      "tk-a-043",
+      "tk-a-046"
+    ]
+  },
+  {
+    "id": "tk-a-046",
+    "topic": "bench",
+    "title": "Can push-ups replace bench",
+    "keys": [
+      "can push-ups replace bench",
+      "push ups instead of bench",
+      "pushups vs bench",
+      "are push ups as good as bench",
+      "push up vs bench press",
+      "weighted push ups",
+      "no bench at home chest",
+      "push ups for chest strength",
+      "push up form",
+      "pushups replace bench press"
+    ],
+    "match": "\\b(push ?-?ups?[^.?!]{0,20}(instead of|replace|vs\\.?|versus|as good as|or)[^.?!]{0,10}bench|bench\\w*[^.?!]{0,20}(instead of|vs\\.?|versus|or) push ?-?ups?|weighted push ?-?ups?)\\b",
+    "body": [
+      "For building muscle, yes, if you make them hard. Push-ups taken close to failure build the chest about as well as bench at similar effort. For building max pressing strength, the bench wins, because you can load it in small steps forever.",
+      "Make them harder in order: slow the lowering to three seconds. Pause at the bottom. Raise your feet on a step.",
+      "Add a band across your back or a loaded backpack. Once you can do 25 or more clean reps, you need more load.",
+      "Form: hands just outside shoulder width, body straight from head to heels, elbows at about 45 degrees, chest to the floor or a fist height above it. Same rules as a bench, just upside down."
+    ],
+    "more": {
+      "why": "The muscle does not know whether the resistance is a barbell or your body. Effort and load decide. Push-ups run out of load, which is their only real limit.",
+      "home": "Backpack push-ups: fill a backpack with books, wear it high on your back. Feet on a chair makes it heavier still.",
+      "mistake": "Hips sagging or piked. If your body is not a straight plank, the reps are not counting for much."
+    },
+    "chips": [
+      "Pain-free alternatives to bench",
+      "How do I do dips?"
+    ],
+    "related": [
+      "tk-a-045",
+      "tk-a-047"
+    ]
+  },
+  {
+    "id": "tk-a-047",
+    "topic": "dips",
+    "title": "How to do dips",
+    "keys": [
+      "how do i do dips",
+      "dips form",
+      "how to dip",
+      "parallel bar dips",
+      "chest dips",
+      "tricep dips",
+      "dip technique",
+      "how low should i go on dips",
+      "dips for chest",
+      "weighted dips",
+      "bodyweight dips",
+      "dip form"
+    ],
+    "match": "\\b(how (do i|to) (do )?dips?|dips? (form|technique)|(chest|tricep|triceps|parallel bar|weighted|bodyweight) dips?|how (low|deep)[^.?!]{0,20}dips?)\\b",
+    "body": [
+      "Grip the bars, arms locked, shoulders pulled down away from your ears. Lower under control until your upper arms are about parallel to the floor. Press back up to straight arms. That is one rep.",
+      "Lean forward 20 to 30 degrees and let the elbows flare a little for more chest. Stay upright with elbows tight to your sides for more triceps. Either way, keep the shoulders down and back. Never let them roll forward and up at the bottom.",
+      "Cannot do one? Use an assisted dip machine, a band, or start with slow lowerings: jump to the top, take three to five seconds down. Once you can do 12 to 15 clean reps, add weight with a dip belt."
+    ],
+    "more": {
+      "why": "Dips load the chest, front shoulders and triceps hard through a big range. They are one of the best upper body builders when the shoulder stays stable.",
+      "how": "Top: arms locked, chest up. Descend: elbows back, shoulders down. Bottom: upper arm parallel, a short pause. Drive up through the palms.",
+      "beginner": "Bench dips with feet on the floor are easier but awkward on the shoulder. Assisted parallel bar dips teach the real movement better.",
+      "mistake": "Dropping fast and bouncing at the bottom. That is the exact moment shoulders get hurt on dips."
+    },
+    "chips": [
+      "Do dips hurt your shoulders?",
+      "Bench stuck halfway up"
+    ],
+    "related": [
+      "tk-a-048",
+      "tk-a-036"
+    ]
+  },
+  {
+    "id": "tk-a-048",
+    "topic": "dips",
+    "title": "Dips hurt your shoulders or chest",
+    "keys": [
+      "do dips hurt your shoulders",
+      "dips hurt my shoulders",
+      "shoulder pain dips",
+      "dips sternum pain",
+      "chest hurts after dips",
+      "dips bad for shoulders",
+      "front of shoulder hurts dips",
+      "dips pain",
+      "are dips dangerous",
+      "dips hurt chest bone",
+      "dip shoulder pain"
+    ],
+    "match": "\\b(dips?[^.?!]{0,25}(hurt|pain|sore|bad for|dangerous|sternum)|(shoulder|sternum|chest)[^.?!]{0,20}(hurt|pain)\\w*[^.?!]{0,15}dips?)\\b",
+    "body": [
+      "They do not have to. Dips hurt when you go too deep with loose shoulders, or when you add weight before the bodyweight reps are solid.",
+      "Fix depth first: stop when your upper arms reach parallel to the floor. Going deeper puts the front of the shoulder in a stretched, loaded position many people do not tolerate. Keep the shoulders pulled down and back the whole rep. Slow the lowering to two or three seconds.",
+      "Some people never tolerate dips well, especially with a past shoulder injury. That is fine. Close grip bench, push-ups and triceps extensions cover the same work. A sore breastbone that does not settle in a few days, sharp shoulder pain, or clicking with pain: drop dips and get it checked."
+    ],
+    "more": {
+      "why": "At the bottom of a deep dip the shoulder is pulled forward and stretched under your full body weight. Stable, packed shoulders and a sensible depth keep that load manageable.",
+      "how": "Use an assisted dip machine to take 20 to 30 percent of your weight off while you rebuild with controlled depth. Remove the assistance gradually.",
+      "mistake": "Adding a 45 lb plate to a dip you cannot do cleanly for 10 with bodyweight."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Pain-free alternatives to bench",
+      "Close grip bench: how and why"
+    ],
+    "related": [
+      "tk-a-047",
+      "tk-a-045"
+    ]
+  },
+  {
+    "id": "tk-a-049",
+    "topic": "bench",
+    "title": "Breathing on the bench press",
+    "keys": [
+      "when to breathe on bench",
+      "breathing bench press",
+      "bench press breathing",
+      "how to breathe bench",
+      "do i hold my breath on bench",
+      "breath between reps bench",
+      "bench breathing technique",
+      "exhale on bench",
+      "breathe in on the way down bench",
+      "bench brace"
+    ],
+    "match": "\\b(breath\\w*[^.?!]{0,25}bench|bench\\w*[^.?!]{0,25}(breath\\w*|brac\\w*|exhale|inhale))\\b",
+    "body": [
+      "Take a big breath at the top, hold it on the way down and up, breathe out at the top. One breath per rep for heavy sets.",
+      "Before the first rep, with the bar over your shoulders and arms locked: big breath into your chest and belly, brace hard, then lower. Keep it held through the press. At lockout, let some air out and take a new breath, without losing the shoulder blades.",
+      "For lighter, higher rep sets, you can take a quick breath every rep or two at the top. Never let all the air out at the bottom. That is the moment you need your torso stiff."
+    ],
+    "more": {
+      "why": "A full chest raises your torso slightly, shortens the press and gives the bar a firm base. Exhaling at the bottom softens everything right when the load is highest.",
+      "how": "Breathe in through your nose while the bar is locked out: fill up, brace your belly. Lower and press. At the top, short breath out, short breath in, reset.",
+      "mistake": "Holding one breath for a whole 10 rep set. You will get lightheaded. Breathe at the top between reps."
+    },
+    "chips": [
+      "How do I brace for a squat?",
+      "How do I set up for bench?"
+    ],
+    "related": [
+      "tk-a-026"
+    ]
+  },
+  {
+    "id": "tk-a-050",
+    "topic": "bench",
+    "title": "Feeling bench in shoulders or arms, not chest",
+    "keys": [
+      "i dont feel bench in my chest",
+      "feel bench in shoulders",
+      "bench all triceps",
+      "bench press not working chest",
+      "chest not sore after bench",
+      "bench feels like shoulders",
+      "how to feel chest on bench",
+      "mind muscle connection chest",
+      "bench hits my front delts",
+      "chest not growing bench"
+    ],
+    "match": "\\b((not |never |dont |don't )?feel\\w*[^.?!]{0,25}bench[^.?!]{0,25}(chest|shoulders?|triceps|arms|delts)|bench\\w*[^.?!]{0,25}(not working|feels? like) (my )?(chest|shoulders?)|chest not (sore|growing))",
+    "body": [
+      "Bench is a team lift: chest, front shoulders and triceps all work. Feeling it everywhere is normal. Feeling it only in your shoulders is a setup problem.",
+      "Pin the shoulder blades back and down before you unrack, and keep them pinned. Touch the lower chest, not up near the neck. Use a grip wide enough that your forearms are vertical at the bottom. Lower slowly, two to three seconds, and feel the chest stretch at the bottom.",
+      "Soreness is a poor sign of a good workout. Progress is the sign. If your bench and your dumbbell press are going up over weeks, your chest is working."
+    ],
+    "more": {
+      "why": "Loose shoulders roll forward and steal the work. A narrow grip shifts it to the triceps. Fix the position and the chest gets its share.",
+      "how": "Do a set of slow dumbbell presses, three seconds down, one second pause at the stretch. Then bench. You will feel the difference.",
+      "mistake": "Chasing soreness by adding more and more chest exercises. Two hard presses, done well, is enough for most people."
+    },
+    "chips": [
+      "How wide should I grip the bench?",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-026",
+      "tk-a-027"
+    ]
+  },
+  {
+    "id": "tk-a-051",
+    "topic": "bench",
+    "title": "Bench press without a spotter",
+    "keys": [
+      "bench without a spotter",
+      "can i bench alone",
+      "benching alone",
+      "no spotter bench",
+      "safe to bench without spotter",
+      "bench press alone safety",
+      "bench by myself",
+      "how to bench safely alone",
+      "safety bars bench",
+      "bench in a power rack"
+    ],
+    "match": "\\b(bench\\w*[^.?!]{0,25}(alone|by myself|no spotter|without (a )?spotter)|no spotter|without (a )?spotter)\\b",
+    "body": [
+      "Yes, if you set it up right. Best option: bench inside a power rack with the safety pins or straps set just below your chest at the bottom, about an inch below where the bar touches with your arch set. If you fail, lower the bar onto the safeties and slide out.",
+      "No rack? Bench with no collars on the bar so plates can be tipped off one side then the other if you get pinned. Only do this when you know how, and warn people nearby.",
+      "Leave one to two reps in the tank on heavy sets when you are alone. Save true max effort sets for when you have safeties or a spotter. Never bench alone with collars on and no safeties."
+    ],
+    "more": {
+      "why": "Most bench injuries in a gym are someone getting pinned with nowhere to put the bar. Safeties remove that risk completely.",
+      "how": "Lie down in the rack with an empty bar. Set your arch and lower to your chest. Set the safety pins one notch below the bar. Test: let the bar sink to the pins without moving your body.",
+      "mistake": "Setting safeties so high they catch the bar before it touches your chest. You lose the bottom of every rep."
+    },
+    "chips": [
+      "How do I fail a bench safely?",
+      "How do I set the safety pins?"
+    ],
+    "related": [
+      "tk-a-038"
+    ]
+  },
+  {
+    "id": "tk-a-052",
+    "topic": "bench",
+    "title": "Rounded shoulders or a crooked bench press",
+    "keys": [
+      "bench uneven",
+      "one arm locks out first bench",
+      "bar tilts on bench",
+      "crooked bench press",
+      "bench lopsided",
+      "one side weaker bench",
+      "uneven bench press",
+      "bar not level bench",
+      "one arm slower bench",
+      "bench imbalance"
+    ],
+    "match": "\\b(bench\\w*[^.?!]{0,25}(uneven|crooked|lopsided|tilt\\w*|imbalance|not level|one (arm|side))|(one arm|one side|bar tilts?)[^.?!]{0,25}bench)\\b",
+    "body": [
+      "Some unevenness is normal. One arm a beat slower than the other, under heavy weight, happens to most lifters. A bar that tilts badly or keeps getting worse is worth fixing.",
+      "Check the setup first: centered on the bench, eyes under the bar, hands even on the rings, shoulder blades pinned evenly. Film from your head end and watch. Many uneven benches are an off-center setup.",
+      "Then build the slower side. Dumbbell presses, starting with the weaker arm and matching reps with the stronger one. Single-arm dumbbell presses for a few sets a week. Keep barbell sets one to two reps from failure while you even it out."
+    ],
+    "more": {
+      "why": "On a barbell, the stronger side can carry the weaker. Dumbbells force each side to do its own work, which closes the gap.",
+      "how": "Mark the bar with tape at both rings. Lie down, grip and check from a phone on the floor at your head. Both hands the same distance from the tape.",
+      "mistake": "Pushing max sets while the bar tilts. That is exactly where a strained pec or shoulder comes from."
+    },
+    "chips": [
+      "One side stronger than the other",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-042"
+    ]
+  },
+  {
+    "id": "tk-a-053",
+    "topic": "bench",
+    "title": "Bench press variations: which to use",
+    "keys": [
+      "bench press variations which to use",
+      "bench variations",
+      "best bench variations",
+      "spoto press",
+      "board press",
+      "pin press",
+      "larsen press",
+      "bench accessories for bench",
+      "what variation for bench",
+      "bench press variation",
+      "feet up bench press"
+    ],
+    "match": "\\b(bench( press)? variations?|spoto press|board press|pin press|larsen press|feet up bench)\\b",
+    "body": [
+      "Pick the variation that fixes your weak point. Do not collect them.",
+      "Weak off the chest: paused bench, Spoto press (pause an inch above the chest), wider grip bench. Weak at lockout: close grip bench, board press or pin press from just below the stall. Shoulders cranky: floor press, neutral grip dumbbell press. Loose setup, legs doing too much: Larsen press or feet up bench, which removes leg drive and forces upper body control.",
+      "Run one variation as your second bench of the week for 4 to 8 weeks. Track it like a main lift. Then test your regular bench and decide whether it fixed the problem."
+    ],
+    "more": {
+      "why": "Variations work by overloading or isolating one part of the lift. Matched to a real weak point, they move the main lift. Picked at random, they just add fatigue.",
+      "how": "Film three heavy sets. Find where the bar slows down most: the chest, the middle or the top. That spot tells you which variation to use.",
+      "mistake": "Changing variation every two weeks. You never get strong at any of them."
+    },
+    "chips": [
+      "Weak off the chest on bench",
+      "Bench stuck halfway up"
+    ],
+    "related": [
+      "tk-a-035",
+      "tk-a-036",
+      "tk-a-044"
+    ]
+  }
+]

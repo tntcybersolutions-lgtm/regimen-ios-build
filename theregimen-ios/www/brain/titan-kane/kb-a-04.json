@@ -1,0 +1,1076 @@
+[
+  {
+    "id": "tk-a-082",
+    "topic": "overhead-press",
+    "title": "Setting up the overhead press",
+    "keys": [
+      "overhead press form",
+      "how to overhead press",
+      "ohp form",
+      "ohp setup",
+      "military press form",
+      "standing press form",
+      "shoulder press barbell",
+      "how do i overhead press",
+      "strict press",
+      "barbell overhead press",
+      "press form",
+      "overhead press technique",
+      "over head press",
+      "shoulder press form"
+    ],
+    "match": "\\b(overhead press\\w*( form| setup| technique)?|ohp|military press|strict press|standing (barbell )?press|how (do i|to) (overhead|shoulder) press)\\b",
+    "body": [
+      "Bar in the rack at upper chest height. Grip just outside your shoulders. Unrack so the bar sits on your front delts and upper chest, forearms vertical, elbows slightly in front of the bar.",
+      "Feet hip width. Squeeze your glutes, brace your abs, ribs down. You should be one solid piece from your feet to your hands. Big breath.",
+      "Press straight up, pulling your chin back so the bar passes your face. Once it clears your forehead, push your head forward through the window your arms make. Lock out with the bar over the middle of your foot, biceps by your ears.",
+      "Lower it the same way. The press is honest. No legs, no lean, no tricks."
+    ],
+    "more": {
+      "why": "The overhead press is the purest upper body strength test there is. Your whole body has to stay rigid while your shoulders and triceps do the work. That is why it moves slowly and teaches so much.",
+      "how": "Three checks before each rep: glutes tight, ribs down, elbows a touch in front of the bar. Then breathe, brace, press.",
+      "beginner": "Start with the empty bar or less. A 35 lb or a 15 kg bar is fine. Adding weight in small steps matters more on this lift than any other.",
+      "mistake": "Pressing the bar out and around your face. That sends it forward, away from your shoulders. Move your head, not the bar."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Shoulder pinch on overhead press",
+      "My lower back arches on press",
+      "Push press or strict press?"
+    ],
+    "related": [
+      "tk-a-083",
+      "tk-a-084",
+      "tk-a-085"
+    ]
+  },
+  {
+    "id": "tk-a-083",
+    "topic": "overhead-press",
+    "title": "Shoulder pinch on the overhead press",
+    "keys": [
+      "shoulder pinch on overhead press",
+      "shoulder pain overhead press",
+      "pinch in shoulder pressing",
+      "ohp shoulder pain",
+      "overhead press hurts shoulder",
+      "shoulder impingement pressing",
+      "shoulder hurts pressing overhead",
+      "pain at top of overhead press",
+      "front shoulder pain press",
+      "overhead press pinching",
+      "pressing overhead hurts"
+    ],
+    "match": "\\b(shoulder\\w*[^.?!]{0,25}(pinch\\w*|hurt\\w*|pain|impinge\\w*)[^.?!]{0,30}(overhead|ohp|press\\w*)|(overhead|ohp|shoulder press)[^.?!]{0,25}(pinch\\w*|hurt\\w*|pain))",
+    "body": [
+      "A pinch on the overhead press usually comes from pressing with your shoulder blades stuck down or the bar drifting forward. At the top, your shoulder blades need to rotate up and out. Let them.",
+      "Fix: at lockout, shrug up slightly into the bar, like pushing your shoulders toward your ears. The bar finishes over your midfoot with your head through, not out in front of your face. Bring the grip in or out an inch to see which is friendlier. Many people press better with the elbows slightly forward, not flared straight to the sides.",
+      "While it settles, press dumbbells with palms facing each other, or a landmine press. Sharp pain, pain at night, weakness raising the arm, or a pinch that is getting worse: stop pressing overhead and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Raising your arm overhead needs the shoulder blade to rotate upward. If it stays pinned down and back like on a bench press, the space at the top of the shoulder gets crowded.",
+      "how": "Test with an empty bar: press to lockout, then shrug up an inch and hold for two seconds. If the pinch eases, that was it.",
+      "mistake": "Pinning the shoulder blades back and down like on a bench. Bench is a pressing position for lying down. Overhead, the blades have to move."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Overhead press alternatives",
+      "Seated or standing press?"
+    ],
+    "related": [
+      "tk-a-085",
+      "tk-a-090",
+      "tk-a-086"
+    ]
+  },
+  {
+    "id": "tk-a-084",
+    "topic": "overhead-press",
+    "title": "Lower back arching on the overhead press",
+    "keys": [
+      "my lower back arches on press",
+      "leaning back overhead press",
+      "lower back hurts overhead press",
+      "ohp lower back pain",
+      "arching back shoulder press",
+      "overhead press lean back",
+      "back bend overhead press",
+      "overhead press turns into incline",
+      "ohp back arch",
+      "ribs flare overhead press"
+    ],
+    "match": "\\b((arch\\w*|lean\\w*)[^.?!]{0,25}(overhead|ohp|shoulder press|press)|(overhead|ohp|shoulder press)[^.?!]{0,30}((lower )?back|arch\\w*|lean\\w*)|ribs? flar\\w*)\\b",
+    "body": [
+      "A small lean back to clear your face is normal. Bending into a standing incline press is not. That loads your lower back and takes work off your shoulders.",
+      "Squeeze your glutes as hard as you can before the bar moves and keep them squeezed. Pull your ribs down toward your hips. Brace like you are about to be hit in the stomach. That locks the pelvis and stops the arch.",
+      "If the lean only shows up on the last reps, the weight is too heavy. Stop the set one or two reps earlier. If it happens on every rep, drop 10 percent and own the position. Seated presses with back support take the lower back out of it while you build the shoulders."
+    ],
+    "more": {
+      "why": "When the lower back arches, the press turns into a mix of overhead and incline. More weight moves, but your lower back is now carrying a heavy load in its weakest position.",
+      "how": "Do a set with your glutes squeezed and a hand-width stance. Feel the difference. Then keep that squeeze every rep.",
+      "mistake": "Widening your stance and leaning back to grind the last rep. That is how backs get tweaked on a light weight."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Seated or standing press?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-082",
+      "tk-a-087"
+    ]
+  },
+  {
+    "id": "tk-a-085",
+    "topic": "overhead-press",
+    "title": "Overhead press bar path: move your head",
+    "keys": [
+      "overhead press bar path",
+      "ohp bar path",
+      "bar path press",
+      "head through overhead press",
+      "where does my head go overhead press",
+      "bar hits my chin",
+      "bar hits my face press",
+      "press around face",
+      "chin out of the way press",
+      "bar goes forward on press"
+    ],
+    "match": "\\b((overhead|ohp|shoulder)[^.?!]{0,15}bar path|bar path[^.?!]{0,15}(press|ohp)|head through|bar (hits|hit|smacks) (my )?(chin|face|nose)|press\\w* around (my )?face|chin out of the way)\\b",
+    "body": [
+      "The bar goes straight up. Your head moves out of its way. Pull your chin back, press straight up past your face, and once the bar passes your forehead, push your head forward under it.",
+      "At lockout, the bar is over your midfoot and your ears are between your arms. From the side it should look like a straight vertical line from bar to ankles.",
+      "If the bar goes out and around your face, it ends up in front of you and your shoulders and lower back fight a long lever the whole rep. Film from the side: a straight line up is strong. A curve forward is lost strength."
+    ],
+    "more": {
+      "why": "A bar stacked over your shoulders and midfoot is the shortest, strongest path. Every inch it drifts forward makes the press heavier and pulls you into a lean.",
+      "how": "Practice with a broomstick or empty bar. Chin back, press, head through. Slow reps. Five sets of five until it is automatic.",
+      "mistake": "Looking up at the bar. That tilts your head back and makes it impossible to get your head through. Eyes straight ahead."
+    },
+    "chips": [
+      "Shoulder pinch on overhead press",
+      "Stuck at forehead on press"
+    ],
+    "related": [
+      "tk-a-082",
+      "tk-a-109"
+    ]
+  },
+  {
+    "id": "tk-a-086",
+    "topic": "overhead-press",
+    "title": "Grip width and wrists on the overhead press",
+    "keys": [
+      "overhead press grip width",
+      "how wide grip overhead press",
+      "ohp grip",
+      "press grip",
+      "wrists hurt overhead press",
+      "wrist pain shoulder press",
+      "ohp wrists bend back",
+      "grip for military press",
+      "elbows in front overhead press",
+      "forearms vertical press"
+    ],
+    "match": "\\b((overhead|ohp|military|shoulder) press\\w*[^.?!]{0,25}(grip|wrists?|elbows?)|(grip|wrists?)[^.?!]{0,25}(overhead|ohp|military|shoulder) press)\\b",
+    "body": [
+      "Grip just outside your shoulders, so your forearms are vertical from the front with the bar at the bottom. Too wide shortens the press but strains the shoulder. Too narrow pushes the elbows out and the bar forward.",
+      "Bar low in the palm, over the forearm bones, not up near the fingers. Wrists close to straight, a slight bend at most. Squeeze the bar hard. From the side, your elbows sit just in front of the bar, not behind it.",
+      "Sore wrists usually means the bar is too high in the hand. Move it down to the heel of the palm. Wrist wraps help on heavy sets."
+    ],
+    "more": {
+      "why": "Vertical forearms send force straight up. Elbows slightly forward put your triceps and shoulders under the bar instead of behind it.",
+      "how": "Hold the bar in the front rack. Look in a mirror from the front: forearms vertical? From the side: elbows a touch in front of the bar? Adjust hand position until both are true.",
+      "mistake": "A thumbless grip on the press. The bar can roll and land on your face or chest. Wrap your thumbs."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Do wrist wraps help?",
+      "Shoulder pinch on overhead press"
+    ],
+    "related": [
+      "tk-a-082",
+      "tk-a-083"
+    ]
+  },
+  {
+    "id": "tk-a-087",
+    "topic": "overhead-press",
+    "title": "Seated or standing press, barbell or dumbbell",
+    "keys": [
+      "seated or standing press",
+      "seated vs standing overhead press",
+      "seated shoulder press",
+      "dumbbell shoulder press",
+      "dumbbell overhead press",
+      "db shoulder press",
+      "arnold press",
+      "seated dumbbell press",
+      "standing dumbbell press",
+      "barbell or dumbbell shoulder press",
+      "machine shoulder press"
+    ],
+    "match": "\\b(seated (or|vs\\.?|versus) standing|standing (or|vs\\.?|versus) seated|seated[^.?!]{0,15}(shoulder|overhead|dumbbell) press|(dumbbell|db) (shoulder|overhead) press|arnold press|machine shoulder press)\\b",
+    "body": [
+      "Standing barbell press builds the most total strength. Your whole body has to brace. Seated presses take the legs and lower back out, so the shoulders get more of the load and the lower back gets a break.",
+      "Dumbbells let each arm find its own path, which many shoulders prefer. Palms forward, palms facing each other, or anywhere between. Most people press more total weight with a barbell than with two dumbbells.",
+      "A good week has a main press and a second press. For example: standing barbell press once, seated dumbbell press once. For dumbbells: press from shoulder height to lockout, biceps beside your ears at the top, lower until the handles are at about chin to shoulder level."
+    ],
+    "more": {
+      "why": "Standing makes the press a full body brace. Seated isolates the shoulders. Both build strength, in different ways.",
+      "how": "Seated dumbbell press: bench upright or one notch back, feet planted, back against the pad. Kick the dumbbells up off your thighs to your shoulders, then press.",
+      "mistake": "Setting the seated bench back too far. Past about 75 degrees it becomes an incline press."
+    },
+    "chips": [
+      "Setting up the overhead press",
+      "Overhead press alternatives"
+    ],
+    "related": [
+      "tk-a-082",
+      "tk-a-090"
+    ]
+  },
+  {
+    "id": "tk-a-088",
+    "topic": "overhead-press",
+    "title": "How to push press",
+    "keys": [
+      "push press",
+      "how to push press",
+      "push press form",
+      "push press technique",
+      "push press dip and drive",
+      "push press vs push jerk",
+      "how deep dip push press",
+      "push press setup",
+      "push press tips",
+      "what is a push press"
+    ],
+    "match": "\\bpush ?press\\w*",
+    "body": [
+      "A push press is an overhead press with a leg drive start. Same setup as a strict press: bar on the front delts, grip just outside shoulders, elbows slightly forward.",
+      "Dip: bend your knees a few inches, straight down, torso upright. Not a squat, just a short, quick dip, weight on your heels and midfoot. Drive: snap your legs straight hard and fast.",
+      "The bar leaves your shoulders from the leg drive. Then press it the rest of the way and lock out with your head through.",
+      "Keep the dip short and vertical. If your chest tips forward, the bar goes forward. Sets of 2 to 5, fast and crisp. Lower the bar to your shoulders with soft knees to absorb it."
+    ],
+    "more": {
+      "why": "The legs launch the bar past the hardest part of the press, so you handle more weight overhead than you could press strictly. It trains power and lockout strength.",
+      "how": "Practice the dip and drive with an empty bar: dip, drive, let the bar pop off your shoulders an inch, catch it. Then add the press.",
+      "mistake": "Dipping too deep or too slow. A slow, deep dip turns into a squat and kills the bounce. Quick and short."
+    },
+    "chips": [
+      "Push press or strict press?",
+      "Setting up the overhead press"
+    ],
+    "related": [
+      "tk-a-089",
+      "tk-a-082"
+    ]
+  },
+  {
+    "id": "tk-a-089",
+    "topic": "overhead-press",
+    "title": "Push press or strict press",
+    "keys": [
+      "push press or strict press",
+      "push press vs strict press",
+      "push press vs overhead press",
+      "should i push press",
+      "is push press cheating",
+      "push press for strength",
+      "strict press or push press",
+      "push press heavier than press"
+    ],
+    "match": "\\b(push ?press[^.?!]{0,20}(or|vs\\.?|versus|cheat\\w*)|(strict|overhead|military) press[^.?!]{0,10}(or|vs\\.?|versus) push ?press|should i push ?press)\\b",
+    "body": [
+      "Not cheating. A different lift with a different job. The strict press builds raw shoulder and triceps strength. The push press builds power and lets you handle heavier weight overhead.",
+      "Most people push press 20 to 30 percent more than they strict press. That extra load trains the lockout and the upper back to hold weight overhead.",
+      "For general strength, keep the strict press as your main lift. Add push presses as a second overhead movement, or as a way to finish a set when the strict reps stop. Athletes who need power can make the push press the main lift."
+    ],
+    "more": {
+      "why": "The leg drive gets the bar past the bottom of the press, where most people are weakest. That lets the top half and the lockout train with heavier loads.",
+      "example": "Strict press 115 for 5. Push press might land around 135 to 150 for 3 to 5. Track both on their own.",
+      "mistake": "Calling a push press a strict press in your log. Keep them separate or your numbers stop meaning anything."
+    },
+    "chips": [
+      "How to push press",
+      "Stuck at forehead on press"
+    ],
+    "related": [
+      "tk-a-088",
+      "tk-a-109"
+    ]
+  },
+  {
+    "id": "tk-a-090",
+    "topic": "overhead-press",
+    "title": "Overhead press alternatives for cranky shoulders",
+    "keys": [
+      "overhead press alternatives",
+      "shoulder press alternatives",
+      "cant press overhead",
+      "alternatives to overhead press",
+      "landmine shoulder press",
+      "overhead press bad shoulder",
+      "shoulder friendly press",
+      "what to do instead of overhead press",
+      "replace overhead press",
+      "half kneeling landmine press",
+      "high incline press"
+    ],
+    "match": "\\b((overhead|shoulder|military) press (alternative|substitute|replacement)s?|alternatives? (to|for) (the )?(overhead|shoulder) press|instead of (the )?(overhead|shoulder) press|cant press overhead|can't press overhead|landmine (shoulder )?press|high incline press)\\b",
+    "body": [
+      "If pressing straight overhead hurts, press at an angle. The shoulders still train hard.",
+      "Landmine press: one end of a barbell anchored in a corner or landmine holder, press the other end up and forward from your shoulder, one arm or two. Half kneeling makes it stricter. Very friendly on most shoulders.",
+      "High incline press, bench at 45 to 60 degrees, barbell or dumbbells. Neutral grip dumbbell press, palms facing each other, seated with back support.",
+      "Train the friendly version hard for several weeks, then test a light strict press again. Sharp pain, night pain or weakness lifting the arm: see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Pressing at an angle keeps the arm out of the very top of overhead range, where most irritated shoulders complain. The shoulders still get loaded.",
+      "how": "Half kneeling landmine press: kneel on the same side as the pressing arm, bar end at your shoulder, squeeze the glute of the down knee, press up and forward until the arm is straight.",
+      "home": "Pike push-ups, hands on the floor and hips high, press the shoulders without a bar. Elevate the feet to make them harder."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Shoulder pinch on overhead press",
+      "Seated or standing press?"
+    ],
+    "related": [
+      "tk-a-083",
+      "tk-a-087"
+    ]
+  },
+  {
+    "id": "tk-a-091",
+    "topic": "rows",
+    "title": "Barbell row setup and form",
+    "keys": [
+      "barbell row form",
+      "how to barbell row",
+      "bent over row",
+      "bent over row form",
+      "barbell row setup",
+      "how do i do a barbell row",
+      "bb row",
+      "row form",
+      "barbell row technique",
+      "how far bent over row",
+      "where to pull barbell row",
+      "bent row"
+    ],
+    "match": "\\b(barbell rows?( form| setup| technique)?|bent[ -]?over rows?|bent rows?|bb rows?|how (do i|to) (do a )?(barbell )?row)\\b",
+    "body": [
+      "Pick the bar up like a deadlift. Hinge forward by pushing your hips back until your torso is about 30 to 45 degrees above parallel, knees soft, back flat. Bar hanging at arm's length below your shoulders.",
+      "Grip just outside your knees, overhand or underhand. Pull the bar to your lower chest or upper belly, driving your elbows back. Squeeze your shoulder blades together at the top.",
+      "Lower under control to straight arms. Your torso stays still. That is the hard part.",
+      "Sets of 6 to 12. If you have to throw your torso up to move the bar, the weight is too heavy. A little body movement on the last rep or two is fine. Every rep looking like a hip thrust is not."
+    ],
+    "more": {
+      "why": "The barbell row builds the whole upper back, the lats and the grip, and it teaches you to hold a hinge under load. It carries over to the deadlift and the bench.",
+      "how": "Brace first, then pull. Think about pulling your elbows to the ceiling behind you, not lifting the bar with your hands.",
+      "beginner": "Start lighter than you think, often just the bar or the bar plus 10s. Learn to keep your back still before you add weight.",
+      "mistake": "Standing up more and more as the set goes on until you are doing a shrug. Keep the torso angle."
+    },
+    "chips": [
+      "Pendlay row or bent-over row?",
+      "Rows hurt my lower back",
+      "I feel rows in my biceps"
+    ],
+    "related": [
+      "tk-a-092",
+      "tk-a-093",
+      "tk-a-097"
+    ]
+  },
+  {
+    "id": "tk-a-092",
+    "topic": "rows",
+    "title": "Pendlay row or bent-over row",
+    "keys": [
+      "pendlay row or bent over row",
+      "pendlay row",
+      "pendlay row form",
+      "pendlay vs barbell row",
+      "what is a pendlay row",
+      "row from the floor",
+      "dead stop row",
+      "strict barbell row",
+      "explosive row"
+    ],
+    "match": "\\b(pendlay|row\\w* (from|off) the floor|dead[ -]stop row)\\w*",
+    "body": [
+      "A Pendlay row starts from the floor every rep. Torso nearly parallel to the floor, back flat, bar on the ground. Pull it explosively to your lower chest, then put it back down. Dead stop, reset, repeat.",
+      "A regular bent-over row stays in the air, torso a bit more upright, with continuous reps. More time under tension, slightly more weight, more stress on the lower back to hold the position.",
+      "Pendlay rows are stricter and kinder to a tired lower back, because you get a short rest each rep. Bent-over rows build more muscle per set. Either works. Pick the one your back tolerates and stay with it for a few months."
+    ],
+    "more": {
+      "why": "The Pendlay row removes momentum and the stretch reflex, so each rep starts from zero. It builds power off the floor and keeps the form honest.",
+      "how": "Set up like a deadlift but with a wider grip and hips higher, back parallel. Pull the slack, then pull fast. Touch your chest, set it back down.",
+      "mistake": "Lifting your torso with each pull on a Pendlay row. The back stays flat and still. Only the arms and shoulder blades move."
+    },
+    "chips": [
+      "Barbell row setup and form",
+      "Rows hurt my lower back"
+    ],
+    "related": [
+      "tk-a-091",
+      "tk-a-093"
+    ]
+  },
+  {
+    "id": "tk-a-093",
+    "topic": "rows",
+    "title": "Rows hurt your lower back",
+    "keys": [
+      "rows hurt my lower back",
+      "barbell row lower back pain",
+      "lower back sore after rows",
+      "bent over row back pain",
+      "rows hurt my back",
+      "row lower back",
+      "row without lower back",
+      "chest supported row",
+      "seal row",
+      "rows without back pain",
+      "t bar row"
+    ],
+    "match": "\\b(rows?[^.?!]{0,25}(lower |low )?back[^.?!]{0,10}(pain|hurt\\w*|sore)?|chest[ -]supported rows?|seal rows?|t[ -]bar rows?)\\b",
+    "body": [
+      "A heavy bent-over row asks your lower back to hold a hinge for a whole set. If it is already tired from squats or deadlifts, it complains.",
+      "First check your position: back flat, hips pushed back, knees soft, bar close to your legs. No jerking the weight up with your hips.",
+      "Then take the load off your back. Chest-supported dumbbell rows on an incline bench, seal rows lying flat on a high bench, machine rows with a chest pad, or seated cable rows. All hit the same upper back with almost no stress on the lower back.",
+      "Pain that shoots down a leg or sharp lower back pain: stop and get it checked by a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "In a bent-over row, your lower back works the whole set just to keep you still. Supporting your chest removes that job entirely.",
+      "how": "Chest-supported dumbbell row: incline bench at about 30 to 45 degrees, lie face down, dumbbells hanging. Pull the elbows back and up toward your hips. Squeeze, lower.",
+      "mistake": "Doing heavy bent-over rows the day after heavy deadlifts. Spread the hinging across the week."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How to do a dumbbell row",
+      "How to do a seated cable row"
+    ],
+    "related": [
+      "tk-a-094",
+      "tk-a-095",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-094",
+    "topic": "rows",
+    "title": "How to do a dumbbell row",
+    "keys": [
+      "how to do a dumbbell row",
+      "dumbbell row",
+      "one arm dumbbell row",
+      "single arm row",
+      "db row",
+      "dumbbell row form",
+      "bench dumbbell row",
+      "kroc row",
+      "dumbbell row technique",
+      "one arm row form"
+    ],
+    "match": "\\b((one|single)[ -]arm (dumbbell )?rows?|(dumbbell|db) rows?|kroc rows?)\\b",
+    "body": [
+      "One hand and one knee on a flat bench, or one hand on the bench with both feet on the floor in a split stance. Back flat, roughly parallel to the floor. Dumbbell hanging straight down under your shoulder.",
+      "Pull the dumbbell up and back toward your hip, not straight up to your chest. Elbow close to your side. Squeeze at the top.",
+      "Lower all the way until you feel a stretch in your lat. Do not twist your torso to lift it. Shoulders stay level.",
+      "Sets of 8 to 15 per side. Start each set with your weaker side and match the reps on the stronger. A heavy, slightly looser version with higher reps is fine as a finisher, but earn it with strict reps first."
+    ],
+    "more": {
+      "why": "Supporting yourself with one arm takes most of the load off your lower back, and working one side at a time fixes imbalances. It is one of the best lat builders there is.",
+      "how": "Think of your hand as a hook. Pull with your elbow, drawing it back in an arc toward your hip pocket.",
+      "home": "A loaded backpack, a jug of water or a heavy bag works for this with one hand on a chair or couch.",
+      "mistake": "Rotating your chest open to lift the weight higher. That turns a back exercise into a twist."
+    },
+    "chips": [
+      "I feel rows in my biceps",
+      "Which row should I do?"
+    ],
+    "related": [
+      "tk-a-097",
+      "tk-a-108"
+    ]
+  },
+  {
+    "id": "tk-a-095",
+    "topic": "rows",
+    "title": "How to do a seated cable row",
+    "keys": [
+      "how to do a seated cable row",
+      "seated cable row",
+      "cable row form",
+      "seated row",
+      "low row",
+      "cable row",
+      "seated row form",
+      "v handle row",
+      "how far to lean cable row",
+      "cable row lean back",
+      "wide grip cable row"
+    ],
+    "match": "\\b((seated )?cable rows?|seated rows?|low rows?|v[ -]handle rows?)\\b",
+    "body": [
+      "Sit tall, feet on the platform, knees slightly bent. Grab the handle and sit back until your arms are straight and your torso is upright. That is the start.",
+      "Pull the handle to your lower ribs, elbows close to your sides, shoulder blades squeezing together. Pause one second. Let it go forward under control until your arms are straight and you feel your shoulder blades stretch forward.",
+      "Your torso moves a little, maybe 10 to 15 degrees. Not a rowing machine swing.",
+      "Sets of 8 to 15. Close grip handle hits more lats. Wide grip bar with elbows flared hits more upper back. Both belong in a good program."
+    ],
+    "more": {
+      "why": "The cable keeps tension on your back the whole rep, top and bottom. Seated with your feet braced, your lower back stays out of it.",
+      "how": "Start each rep by pulling your shoulder blades back, then bend the elbows. End each rep by straightening the arms, then letting the shoulder blades reach forward.",
+      "mistake": "Rocking back to 45 degrees to move the stack. If your torso is doing the rowing, drop the pin."
+    },
+    "chips": [
+      "I feel rows in my biceps",
+      "Which row should I do?"
+    ],
+    "related": [
+      "tk-a-097",
+      "tk-a-108"
+    ]
+  },
+  {
+    "id": "tk-a-096",
+    "topic": "rows",
+    "title": "Shoulder blades on rows: let them move",
+    "keys": [
+      "shoulder blades rows",
+      "retract scapula rows",
+      "squeeze shoulder blades row",
+      "should shoulder blades move on rows",
+      "protract on rows",
+      "scapular retraction",
+      "shrugging on rows",
+      "shoulders up to ears rows",
+      "rows traps",
+      "rowing shoulders shrug"
+    ],
+    "match": "\\b((shoulder blades?|scapula\\w*)[^.?!]{0,25}rows?|rows?[^.?!]{0,25}(shoulder blades?|scapula\\w*|shrug\\w*|traps)|scapular retraction)\\b",
+    "body": [
+      "On rows, the shoulder blades should move. Reach forward at the bottom, letting them spread apart. Squeeze them together at the top. That full range is where the upper back gets trained.",
+      "Keep them down while they move. If your shoulders ride up toward your ears as you pull, the traps take over and the lats lose the job. Think: pull the elbows back and down toward your hips.",
+      "Bench press is different. On bench you pin the blades and keep them still. On rows, you move them on purpose."
+    ],
+    "more": {
+      "why": "Your upper back muscles pull the shoulder blades together and down. Locking them in place on a row cuts their range and their work.",
+      "how": "Start a cable or dumbbell row by letting the weight pull your shoulder forward. Then pull the shoulder blade back first, then the elbow. Reverse on the way down.",
+      "mistake": "Shrugging the weight up. If your neck is working, lower the load and pull to your lower ribs."
+    },
+    "chips": [
+      "I feel rows in my biceps",
+      "Pull-up form: full range"
+    ],
+    "related": [
+      "tk-a-097",
+      "tk-a-099"
+    ]
+  },
+  {
+    "id": "tk-a-097",
+    "topic": "rows",
+    "title": "Feeling rows and pulldowns in your biceps",
+    "keys": [
+      "i feel rows in my biceps",
+      "rows all biceps",
+      "cant feel my back on rows",
+      "feel pull ups in biceps",
+      "lat pulldown biceps",
+      "how to feel lats",
+      "mind muscle connection back",
+      "rows not working back",
+      "biceps take over rows",
+      "back not growing",
+      "how to feel my lats"
+    ],
+    "match": "\\b(feel\\w*[^.?!]{0,25}(rows?|pull ?-?ups?|pull ?downs?)[^.?!]{0,20}biceps|biceps[^.?!]{0,20}(take over|rows?|pull ?downs?)|(cant|can't|never) feel (my )?(back|lats)|how to feel (my )?lats|feel (my )?lats)\\b",
+    "body": [
+      "Your biceps help on every row and pull-up. That is fine. If they are doing all of it, change the focus from your hands to your elbows.",
+      "Cue: your hands are hooks. Pull with your elbows. On rows, drive the elbows back toward your hips.",
+      "On pulldowns and pull-ups, pull the elbows down to your back pockets. A thumbless grip or lifting straps take your forearms and biceps out of the lift so your back can lead.",
+      "Use a weight you can control with a one second squeeze at the top. Most people go too heavy on back work and start yanking with their arms. Drop the load 20 percent and feel the difference."
+    ],
+    "more": {
+      "why": "The lats and upper back move the upper arm. The biceps bend the elbow. Focus on moving the upper arm, and the back does more of the work.",
+      "how": "Before the set, have someone tap the muscle you want to work, or touch it yourself. Then pull while thinking about that spot. It sounds soft. It works.",
+      "mistake": "Curling the weight in with your wrists bent. Keep the wrists straight and the hands relaxed on the bar."
+    },
+    "chips": [
+      "How do I use lifting straps?",
+      "Lat pulldown form"
+    ],
+    "related": [
+      "tk-a-103",
+      "tk-a-096"
+    ]
+  },
+  {
+    "id": "tk-a-098",
+    "topic": "pullups",
+    "title": "How to get your first pull-up",
+    "keys": [
+      "how to get your first pull-up",
+      "cant do a pull up",
+      "first pull up",
+      "how to do a pull up for beginners",
+      "pull up progression",
+      "i cant do one pull up",
+      "how do i get better at pull ups",
+      "negative pull ups",
+      "pull up negatives",
+      "how to do pull ups when you cant",
+      "zero pull ups",
+      "learn pull ups"
+    ],
+    "match": "\\b((first|one|1|single) pull ?-?ups?|(cant|can't|cannot) do (a |one |any )?pull ?-?ups?|pull ?-?up (progression|negatives?)|negative pull ?-?ups?|zero pull ?-?ups?)\\b",
+    "body": [
+      "Three tools, used together, two or three times a week. You will get it.",
+      "Negatives: jump or step up so your chin is over the bar, then lower yourself as slowly as you can, aiming for 3 to 5 seconds. Sets of 3 to 5. Assisted pull-ups: a band looped over the bar under your knee or foot, or an assisted machine.",
+      "Sets of 5 to 8, cutting the help over weeks. Rows and pulldowns: lat pulldowns and inverted rows build the base.",
+      "Also hang from the bar for time and practice pulling your shoulder blades down while hanging. Lighter body weight helps too, but strength gets most people there. Many people go from zero to one in 6 to 12 weeks of honest work."
+    ],
+    "more": {
+      "why": "The lowering half is stronger than the lifting half, so negatives let you train the movement before you can do the whole thing.",
+      "how": "Example week: Monday, 4 sets of 3 negatives plus 3 sets of 8 lat pulldowns. Thursday, 4 sets of 5 band-assisted pull-ups plus 3 sets of 10 inverted rows. Test a full pull-up every two weeks.",
+      "home": "A doorway pull-up bar for negatives and hangs, and inverted rows under a sturdy table, cover the whole plan.",
+      "beginner": "Start with dead hangs: grip the bar and hang for 20 to 30 seconds. Then scapular pull-ups: hanging, pull your shoulder blades down without bending your elbows."
+    },
+    "chips": [
+      "Pull-up form: full range",
+      "Assisted machine or bands?",
+      "Lat pulldown form"
+    ],
+    "related": [
+      "tk-a-099",
+      "tk-a-107",
+      "tk-a-103"
+    ]
+  },
+  {
+    "id": "tk-a-099",
+    "topic": "pullups",
+    "title": "Pull-up form: full range",
+    "keys": [
+      "pull-up form full range",
+      "pull up form",
+      "how to do a pull up",
+      "proper pull up",
+      "pull up technique",
+      "pullup form",
+      "full range pull up",
+      "dead hang pull up",
+      "chin over bar",
+      "how high pull up",
+      "pull ups form",
+      "pull-up form"
+    ],
+    "match": "\\b(pull ?-?ups? (form|technique)|how (do i|to) (do a )?pull ?-?up|proper pull ?-?ups?|full range pull ?-?ups?|chin over (the )?bar|dead hang)\\b",
+    "body": [
+      "Start from a dead hang: arms straight, shoulders allowed to rise toward your ears. Pull your shoulder blades down first, then bend your elbows and pull until your chin clears the bar. Lower all the way back to straight arms. That is one rep.",
+      "Grip just outside shoulder width, palms facing away. Legs still, slightly in front of you or crossed behind, body tight. Think about pulling your elbows down toward your back pockets and your chest toward the bar.",
+      "Half reps feel stronger and build less. Every rep from straight arms to chin over. If you cannot do clean full reps, use a band or assisted machine and do them honestly."
+    ],
+    "more": {
+      "why": "The bottom of the pull-up, where the lats are stretched, is where much of the growth comes from. Cutting it short trains less muscle with more ego.",
+      "how": "Each rep: hang, shoulders down, pull, chin over, pause, lower under control to a full hang.",
+      "mistake": "Craning your neck to get the chin over. The chin goes over because the body rose, not because the head reached."
+    },
+    "chips": [
+      "Chin-up or pull-up?",
+      "Pull-up grip width",
+      "Is kipping cheating?"
+    ],
+    "related": [
+      "tk-a-100",
+      "tk-a-101",
+      "tk-a-102"
+    ]
+  },
+  {
+    "id": "tk-a-100",
+    "topic": "pullups",
+    "title": "Chin-up or pull-up",
+    "keys": [
+      "chin-up or pull-up",
+      "chin up vs pull up",
+      "chin up or pull up",
+      "difference between chin up and pull up",
+      "are chin ups easier",
+      "chin ups for biceps",
+      "underhand pull up",
+      "chinups",
+      "chin up form",
+      "which is better chin up or pull up"
+    ],
+    "match": "\\b(chin ?-?ups?|underhand pull ?-?ups?)\\b",
+    "body": [
+      "Chin-up: palms facing you, hands about shoulder width. Pull-up: palms facing away, hands a bit wider. Both build the lats and upper back. The chin-up adds more biceps, and most people can do a couple more reps of it.",
+      "If you cannot do a pull-up yet, start with chin-ups. If your elbows or wrists complain on one, use the other, or a neutral grip with palms facing each other.",
+      "Train both over the week if you can. One as the main pull with more sets, the other as a second pull later. Same rules for each: dead hang to chin over bar, every rep."
+    ],
+    "more": {
+      "why": "Supinated hands put the biceps in a stronger line of pull, so the arms help more. That makes the chin-up a little easier and a great arm builder.",
+      "mistake": "Chin-ups with half range to get more reps. Full hang at the bottom, chin over at the top.",
+      "how": "Chin-up: grip shoulder width, palms toward you. Pull your chest toward the bar, elbows in front of you and down to your sides."
+    },
+    "chips": [
+      "Pull-up grip width",
+      "Elbows hurt on pull-ups"
+    ],
+    "related": [
+      "tk-a-099",
+      "tk-a-101",
+      "tk-a-105"
+    ]
+  },
+  {
+    "id": "tk-a-101",
+    "topic": "pullups",
+    "title": "Pull-up grip width and neutral grip",
+    "keys": [
+      "pull-up grip width",
+      "wide grip pull ups",
+      "how wide pull up grip",
+      "neutral grip pull up",
+      "hammer grip pull up",
+      "close grip pull up",
+      "wide grip better for lats",
+      "pull up grip",
+      "parallel grip pull ups",
+      "grip for pull ups",
+      "pull up hand position"
+    ],
+    "match": "\\b((wide|close|narrow|neutral|hammer|parallel)[ -]grip pull ?-?ups?|pull ?-?ups?[^.?!]{0,15}(grip|hand position)|grip (width )?(for|on) pull ?-?ups?)\\b",
+    "body": [
+      "Just outside shoulder width is the best starting point. Wide grip pull-ups do not build wider lats. They shorten the range and stress the shoulders. Your lats work hard at every reasonable width.",
+      "Neutral grip, palms facing each other on parallel handles, is the friendliest grip there is for elbows and shoulders, and most people are strongest there. If pull-ups bother you, try it first.",
+      "Rotate grips across the week or across training blocks if you like. Just keep the range full and the reps honest."
+    ],
+    "more": {
+      "why": "Grip width changes which muscles share the work a little, but the lats drive the movement in every variation. Range of motion matters more than grip width for growth.",
+      "how": "Test three grips with one rep each: shoulder width overhand, neutral, underhand. Pick the one where your shoulders and elbows feel best as your main grip.",
+      "mistake": "Going extra wide because it looks like a lat exercise. It cuts the range, loads the front of the shoulder, and usually ends in half reps."
+    },
+    "chips": [
+      "Chin-up or pull-up?",
+      "Elbows hurt on pull-ups"
+    ],
+    "related": [
+      "tk-a-099",
+      "tk-a-100",
+      "tk-a-105"
+    ]
+  },
+  {
+    "id": "tk-a-102",
+    "topic": "pullups",
+    "title": "Is kipping cheating on pull-ups",
+    "keys": [
+      "is kipping cheating",
+      "kipping pull ups",
+      "kipping vs strict pull ups",
+      "should i kip",
+      "butterfly pull ups",
+      "swinging on pull ups",
+      "using momentum pull ups",
+      "strict pull ups",
+      "kipping bad for shoulders",
+      "body english pull ups"
+    ],
+    "match": "\\b(kip\\w*|butterfly pull ?-?ups?|swing\\w*[^.?!]{0,15}pull ?-?ups?|strict pull ?-?ups?)\\b",
+    "body": [
+      "For building strength and muscle, yes. Kipping uses a hip swing to move the body, so your back and arms do less. It is a skill for conditioning sports, not a strength builder.",
+      "Kipping also loads the shoulder hard at the bottom with a fast, swinging stretch. Without a base of strict strength, that is where shoulders get hurt. My rule: earn 8 to 10 strict pull-ups before you kip at all.",
+      "For strength: strict reps. Legs quiet, body still, dead hang to chin over bar. A small leg drive on the very last rep of a hard set is fine. Every rep swinging is not."
+    ],
+    "more": {
+      "why": "Strength is built by muscles moving load. Momentum moves the load for you, so the muscles get less of the work.",
+      "mistake": "Counting kipping reps as pull-ups in your strength log. Track strict and kipping separately or not at all.",
+      "how": "Keep the body still: squeeze your glutes, tighten your abs, legs slightly in front of you. That makes swinging almost impossible."
+    },
+    "chips": [
+      "Pull-up form: full range",
+      "How to get your first pull-up"
+    ],
+    "related": [
+      "tk-a-099",
+      "tk-a-098"
+    ]
+  },
+  {
+    "id": "tk-a-103",
+    "topic": "pullups",
+    "title": "Lat pulldown form",
+    "keys": [
+      "lat pulldown form",
+      "how to do lat pulldown",
+      "lat pulldown",
+      "pulldown form",
+      "lat pull down technique",
+      "where to pull lat pulldown",
+      "lat pulldown to chest",
+      "lean back lat pulldown",
+      "behind the neck pulldown",
+      "pulldown behind head",
+      "lat pulldowns",
+      "lat pull down"
+    ],
+    "match": "\\b(lat pull ?-?downs?|pull ?-?downs?( form| technique)?|behind the (neck|head) pull ?-?downs?)\\b",
+    "body": [
+      "Set the thigh pad so your legs are locked in. Grip just outside shoulder width. Sit tall and lean back just slightly, about 10 to 20 degrees.",
+      "Pull your shoulder blades down first, then drive your elbows down toward your back pockets. Bring the bar to your upper chest. Squeeze.",
+      "Let it rise under control until your arms are straight and your shoulders are pulled up by the weight. That stretch at the top counts.",
+      "Never pull it behind your neck. It forces the shoulder into a bad position for no extra gain. Sets of 8 to 15. If you are swinging your whole body back to move the stack, lighten it."
+    ],
+    "more": {
+      "why": "The pulldown trains the same pull as a pull-up with adjustable load. It builds the lats for people who cannot do pull-ups yet and adds volume for those who can.",
+      "how": "Each rep: tall chest, shoulders down, elbows to pockets, bar to upper chest, one second squeeze, slow return to full stretch.",
+      "mistake": "Leaning back to 45 degrees and rowing the bar to your stomach. That is a row with a pulldown handle."
+    },
+    "chips": [
+      "Lat pulldown or pull-up?",
+      "I feel rows in my biceps"
+    ],
+    "related": [
+      "tk-a-104",
+      "tk-a-097"
+    ]
+  },
+  {
+    "id": "tk-a-104",
+    "topic": "pullups",
+    "title": "Lat pulldown or pull-up",
+    "keys": [
+      "lat pulldown or pull-up",
+      "pulldown vs pull up",
+      "lat pulldown or pull up",
+      "is lat pulldown as good as pull ups",
+      "pull ups or pulldowns",
+      "does lat pulldown help pull ups",
+      "pulldown instead of pull ups",
+      "machine instead of pull ups",
+      "lat pulldown or pull-up",
+      "pulldown or pull-up",
+      "pulldowns or pull-ups"
+    ],
+    "match": "\\b(pull ?-?downs?[^.?!]{0,20}(or|vs\\.?|versus|instead of|as good as|help)[^.?!]{0,10}pull ?-?ups?|pull ?-?ups?[^.?!]{0,10}(or|vs\\.?|versus) pull ?-?downs?)\\b",
+    "body": [
+      "For building your back, both work about the same when the sets are hard. The pulldown lets you pick any weight, so it is perfect for beginners, for higher reps, and for adding volume after pull-ups.",
+      "For getting better at pull-ups, pull-ups win. Your body has to control itself in space, which a seated machine does not teach. Pulldowns build the muscle, pull-ups build the skill.",
+      "Best of both: pull-ups first, while fresh, for sets of 3 to 8. Pulldowns later for sets of 10 to 15. Cannot do pull-ups yet? Pulldowns and negatives together."
+    ],
+    "more": {
+      "why": "The muscles do not care where the load comes from. Skill is specific, though. To get better at moving your body, move your body.",
+      "example": "Can do 4 pull-ups? Do 4 sets of 3 pull-ups, then 3 sets of 12 lat pulldowns. When you can do 4 sets of 5, add reps or weight."
+    },
+    "chips": [
+      "How to get your first pull-up",
+      "Lat pulldown form"
+    ],
+    "related": [
+      "tk-a-103",
+      "tk-a-098"
+    ]
+  },
+  {
+    "id": "tk-a-105",
+    "topic": "pullups",
+    "title": "Elbows hurt on pull-ups or rows",
+    "keys": [
+      "elbows hurt on pull-ups",
+      "elbow pain pull ups",
+      "inner elbow pain pull ups",
+      "elbow hurts chin ups",
+      "elbow pain rows",
+      "outside elbow pain lifting",
+      "pull ups hurt my elbows",
+      "elbow tendon pain pulling",
+      "sore elbows from pulling",
+      "elbow pain lat pulldown"
+    ],
+    "match": "\\belbows?[^.?!]{0,25}(hurt|pain|ache|sore)\\w*[^.?!]{0,25}(pull ?-?ups?|chin ?-?ups?|rows?|pull ?-?downs?|pulling)|\\b(pull ?-?ups?|chin ?-?ups?|rows?|pulling)[^.?!]{0,20}hurt\\w* (my )?elbows?",
+    "body": [
+      "Elbow pain from pulling is usually too much, too fast, with a grip that forces the joint into one fixed line. It is common and it usually settles when you change the load.",
+      "First, switch to a neutral grip, palms facing each other, on pull-ups and rows. Use straps or a looser grip, squeezing less hard. Use dumbbells or cable handles that let your wrist and elbow rotate freely. Cut pulling sets by about a third for two to three weeks.",
+      "Keep the elbow moving with light, pain-free work rather than complete rest. Pain that keeps getting worse, swelling, numbness or tingling into the fingers, or pain that lasts more than a few weeks of reduced load: see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Straight bars lock your hands in one position. If that position does not match your elbow, every rep pulls on the same tendon at the same angle.",
+      "how": "Replace barbell rows and straight bar pull-ups with neutral grip pulldowns, cable rows with rotating handles and chest-supported dumbbell rows. Reintroduce the straight bar slowly.",
+      "mistake": "Adding heavy curls on top of all that pulling. The same tendons take that load too."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Pull-up grip width",
+      "How do I use lifting straps?"
+    ],
+    "related": [
+      "tk-a-101",
+      "tk-a-100"
+    ]
+  },
+  {
+    "id": "tk-a-106",
+    "topic": "pullups",
+    "title": "When to add weight to pull-ups",
+    "keys": [
+      "weighted pull ups",
+      "when to add weight to pull ups",
+      "how to do weighted pull ups",
+      "dip belt pull ups",
+      "pull ups with weight",
+      "weighted chin ups",
+      "how many pull ups before adding weight",
+      "pull up belt",
+      "add weight pull ups",
+      "weighted pullups"
+    ],
+    "match": "\\b(weighted (pull|chin) ?-?ups?|(add|adding) weight[^.?!]{0,15}(pull|chin) ?-?ups?|dip belt|(pull|chin) ?-?ups? with (a )?(weight|dumbbell|plate))\\b",
+    "body": [
+      "Once you can do 3 sets of 8 to 10 strict, full range reps, add weight. Before that, add reps.",
+      "Use a dip belt with a plate or kettlebell hanging between your legs, or a dumbbell held between your feet. Start small: 5 to 10 lb. Sets of 3 to 6. Every rep still from a full dead hang to chin over bar.",
+      "Mix weighted and bodyweight work: a few heavier sets first, then a set or two of bodyweight reps. Both build the back. Weighted sets build the strength. Bodyweight sets keep your reps high."
+    ],
+    "more": {
+      "why": "Bodyweight only goes so far. Past about 10 clean reps, adding load is the most direct way to keep building pulling strength.",
+      "how": "Loop the dip belt chain through a plate, clip it, step up, grip, hang. Control the swing before the first rep.",
+      "mistake": "Adding a plate and cutting the range to make the reps. Full hang, chin over. Every rep."
+    },
+    "chips": [
+      "Pull-up form: full range",
+      "Chin-up or pull-up?"
+    ],
+    "related": [
+      "tk-a-099",
+      "tk-a-100"
+    ]
+  },
+  {
+    "id": "tk-a-107",
+    "topic": "pullups",
+    "title": "Assisted pull-up machine or bands",
+    "keys": [
+      "assisted machine or bands",
+      "assisted pull up machine",
+      "band assisted pull ups",
+      "resistance band pull ups",
+      "assisted pull ups",
+      "pull up bands",
+      "which band for pull ups",
+      "assisted pull up machine weight",
+      "gravitron",
+      "pull up assist"
+    ],
+    "match": "\\b(assist\\w*[^.?!]{0,15}(pull|chin) ?-?ups?|(band|bands)[^.?!]{0,15}(pull|chin) ?-?ups?|(pull|chin) ?-?ups?[^.?!]{0,15}(band|bands|assist\\w*)|gravitron)\\b",
+    "body": [
+      "Both work. The machine gives the same help through the whole rep and is easy to track: less assistance each week means progress. Bands give the most help at the bottom, where you are already strongest, and less at the top.",
+      "On the machine, the number on the stack is help, not load. More weight, more help. Pick an amount that lets you do 5 to 8 strict reps and lower it in small steps.",
+      "With bands, loop the band over the bar and put your knee or foot in the loop. Thicker band, more help. Move to a thinner band when you can do 3 sets of 8. Mix in slow negatives either way."
+    ],
+    "more": {
+      "why": "Assistance lets you practice the real movement through the full range while you build the strength to do it alone.",
+      "how": "Write down the assistance you use. Aim to drop it by 5 to 10 lb every week or two on the machine, or down a band size every few weeks.",
+      "mistake": "Bouncing off the band at the bottom. Control the stretch, then pull."
+    },
+    "chips": [
+      "How to get your first pull-up",
+      "Lat pulldown form"
+    ],
+    "related": [
+      "tk-a-098",
+      "tk-a-103"
+    ]
+  },
+  {
+    "id": "tk-a-108",
+    "topic": "rows",
+    "title": "Which row should you do",
+    "keys": [
+      "which row should i do",
+      "best row exercise",
+      "best back exercise",
+      "barbell row vs dumbbell row",
+      "cable row vs barbell row",
+      "best row for back thickness",
+      "machine row",
+      "what row is best",
+      "rows for back",
+      "row variations",
+      "best back exercises"
+    ],
+    "match": "\\b(which rows?|best rows?( exercise)?|best back (exercise|exercises|lift)s?|row variations?|(barbell|dumbbell|cable|machine) rows? (vs\\.?|versus|or) (barbell|dumbbell|cable|machine))\\b",
+    "body": [
+      "The one you can do hard, with good form, and add weight to for months. No row is magic.",
+      "Barbell row: the most load, trains the hinge too, hardest on the lower back. Dumbbell row: each side alone, great stretch, easy on the back. Cable row: constant tension, very controllable. Chest-supported or machine row: zero lower back, lets you push the upper back hard.",
+      "A simple plan: one free weight row (barbell or dumbbell) and one supported row (cable or machine) each week, plus a vertical pull like pull-ups or pulldowns. That covers the whole back."
+    ],
+    "more": {
+      "why": "Horizontal rows build the middle of the back and the rear shoulders. Vertical pulls build more of the lats. Doing both covers it.",
+      "home": "Inverted rows under a sturdy table, one-arm backpack rows and towel rows around a solid post cover rows with no gym."
+    },
+    "chips": [
+      "Barbell row setup and form",
+      "How to do a dumbbell row",
+      "Rows hurt my lower back"
+    ],
+    "related": [
+      "tk-a-091",
+      "tk-a-094",
+      "tk-a-095"
+    ]
+  },
+  {
+    "id": "tk-a-109",
+    "topic": "overhead-press",
+    "title": "Stuck at the forehead on the overhead press",
+    "keys": [
+      "stuck at forehead on press",
+      "overhead press sticking point",
+      "ohp stuck at forehead",
+      "press stalls at eye level",
+      "cant lock out overhead press",
+      "overhead press weak lockout",
+      "press slows at forehead",
+      "overhead press stuck halfway",
+      "weak off the shoulders press",
+      "ohp sticking point"
+    ],
+    "match": "\\b((overhead|ohp|military|shoulder)[^.?!]{0,20}(sticking point|stuck|lock ?out|lockout)|stuck at (the |my )?(forehead|eye level|chin)|weak off (the|my) shoulders)\\b",
+    "body": [
+      "The bar slows around your forehead for most people. That is the point where your shoulders hand off to your triceps, and where the bar path often drifts forward.",
+      "Check the path first: get your head through as soon as the bar passes your forehead. If the bar drifts forward there, the lever grows and the rep dies. Then build the weak link: close grip bench, dips and heavy triceps work for the lockout.",
+      "Pin presses set just below the sticking point. Push presses to train the top half with heavier weight.",
+      "Weak off the shoulders instead? Start each rep tight: elbows slightly forward, glutes squeezed, and press fast from the bottom. Paused presses build that start."
+    ],
+    "more": {
+      "why": "Each part of the press leans on different muscles. Find where it slows, and you know what to build.",
+      "how": "Pin press: set the safety pins at your sticking point in a rack. Start the press from the pins, lock out, lower back to the pins. Sets of 3 to 5.",
+      "mistake": "Leaning back to grind past the sticking point. That turns the press into an incline and loads your lower back."
+    },
+    "chips": [
+      "Push press or strict press?",
+      "Close grip bench: how and why"
+    ],
+    "related": [
+      "tk-a-085",
+      "tk-a-089"
+    ]
+  }
+]

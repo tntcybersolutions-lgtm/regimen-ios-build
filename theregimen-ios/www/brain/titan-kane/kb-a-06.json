@@ -1,0 +1,755 @@
+[
+  {
+    "id": "tk-a-133",
+    "topic": "split-squat",
+    "title": "How to do Bulgarian split squats",
+    "keys": [
+      "how to do bulgarian split squats",
+      "bulgarian split squat",
+      "bulgarian split squat form",
+      "rear foot elevated split squat",
+      "rfess",
+      "bss",
+      "bulgarians",
+      "split squat on bench",
+      "how far from bench bulgarian",
+      "bulgarian split squat foot position",
+      "bulgarian split squats hate",
+      "bulgarian split squat balance"
+    ],
+    "match": "\\b(bulgarian\\w*|rear[ -]foot[ -]elevated|rfess|bss)\\b",
+    "body": [
+      "Stand about two feet in front of a bench, facing away. Put the top of your back foot on the bench, laces down. Front foot flat. Most of your weight on the front leg.",
+      "Lower straight down until your back knee is an inch or two from the floor and your front thigh is about parallel. Torso tall for more quads, leaning forward slightly for more glutes. Drive up through the whole front foot. Do all reps on one side, then switch.",
+      "Foot distance: too close and your front heel lifts and the knee jams forward. Too far and you overstretch the back hip. Find the spot where your front shin is close to vertical or slightly forward at the bottom.",
+      "Start with bodyweight, then dumbbells at your sides. Sets of 6 to 12 per leg."
+    ],
+    "more": {
+      "why": "One leg does the work of two. You get heavy leg training with half the load on your back, and each side has to pull its own weight.",
+      "how": "Set the foot distance once: kneel on the floor in front of the bench with your back knee under your hip and your front foot ahead. Put your back foot up on the bench. Stand. That is your spot.",
+      "beginner": "Hold onto a rack or wall with one hand for balance for the first few sessions. Balance improves fast.",
+      "mistake": "Pushing off the back foot. The back leg is a kickstand. The front leg does the work."
+    },
+    "chips": [
+      "Split squat or lunge?",
+      "Knees hurt on lunges"
+    ],
+    "related": [
+      "tk-a-134",
+      "tk-a-136",
+      "tk-a-129"
+    ]
+  },
+  {
+    "id": "tk-a-134",
+    "topic": "split-squat",
+    "title": "Split squat or lunge",
+    "keys": [
+      "split squat or lunge",
+      "split squat vs lunge",
+      "difference between split squat and lunge",
+      "static lunge",
+      "split squat form",
+      "how to do a split squat",
+      "stationary lunge",
+      "regular split squat",
+      "lunges or split squats",
+      "which is better split squat or lunge"
+    ],
+    "match": "\\b(split squats?[^.?!]{0,20}(or|vs\\.?|versus)[^.?!]{0,10}lunges?|lunges?[^.?!]{0,10}(or|vs\\.?|versus)[^.?!]{0,10}split squats?|static lunges?|stationary lunges?|how (do i|to) (do a )?split squat|split squat form)\\b",
+    "body": [
+      "A split squat keeps both feet planted. You go straight down and straight up. A lunge has you stepping each rep, forward or back.",
+      "The split squat is easier to learn, easier to load heavy, and easier on the knees. It is the place to start. The lunge adds balance, deceleration and a step, which is closer to how people move in sports and life.",
+      "Split squat form: long stride stance, feet hip width apart side to side, like standing on train tracks not a tightrope. Lower until your back knee nearly touches the floor. Drive up through the front foot.",
+      "Sets of 8 to 12 per side. Once you own it, add lunges, then elevate the back foot."
+    ],
+    "more": {
+      "why": "Removing the step lets you focus on loading the leg. Adding the step back in trains control and balance.",
+      "how": "Split squat checks: front heel down the whole rep, front knee tracking over the toes, torso tall, back knee straight down under the hip.",
+      "mistake": "Feet in a straight line, one directly in front of the other. Balance gets terrible. Keep them hip width apart."
+    },
+    "chips": [
+      "How to do Bulgarian split squats",
+      "Forward or reverse lunges?"
+    ],
+    "related": [
+      "tk-a-133",
+      "tk-a-135"
+    ]
+  },
+  {
+    "id": "tk-a-135",
+    "topic": "lunges",
+    "title": "Forward or reverse lunges",
+    "keys": [
+      "forward or reverse lunges",
+      "reverse lunge",
+      "forward lunge",
+      "reverse lunge vs forward lunge",
+      "walking lunges",
+      "walking lunge form",
+      "how to do lunges",
+      "lunge form",
+      "lunges technique",
+      "dumbbell lunges",
+      "barbell lunges",
+      "lunges for beginners"
+    ],
+    "match": "\\b((forward|reverse|backward|walking|dumbbell|barbell|front) lunges?|lunges? (form|technique|for beginners)|how (do i|to) (do )?lunges?)\\b",
+    "body": [
+      "Reverse lunges first. Stepping back is easier on the knees, easier to balance, and easier to load. You lower onto a planted front leg that stays in control.",
+      "Forward lunges are harder. You have to stop your body moving forward and push back up, which loads the front knee more. Great for athletes and for building control, once reverse lunges are solid. Walking lunges keep you moving forward and add conditioning.",
+      "Form for all: step long enough that both knees bend to about 90 degrees at the bottom. Front heel stays down. Back knee drops toward the floor without crashing.",
+      "Torso tall. Push through the front foot to stand. Sets of 8 to 12 per side with dumbbells at your sides."
+    ],
+    "more": {
+      "why": "Stepping back puts your weight on the front leg before you load it. Stepping forward makes you catch your weight while moving, which is a bigger demand on the knee.",
+      "how": "Reverse lunge: stand tall, step back, lower until the back knee is just off the floor, push through the front heel to return. Alternate legs or finish one side.",
+      "home": "Reverse lunges with a backpack or holding jugs of water are one of the best leg exercises you can do in a living room."
+    },
+    "chips": [
+      "Knees hurt on lunges",
+      "How to do step-ups"
+    ],
+    "related": [
+      "tk-a-136",
+      "tk-a-137"
+    ]
+  },
+  {
+    "id": "tk-a-136",
+    "topic": "lunges",
+    "title": "Knees hurt on lunges or split squats",
+    "keys": [
+      "knees hurt on lunges",
+      "knee pain lunges",
+      "lunges hurt my knees",
+      "split squat knee pain",
+      "bulgarian split squat knee pain",
+      "front knee hurts lunge",
+      "back knee hurts lunge",
+      "knee pain step ups",
+      "lunges bad for knees",
+      "kneecap pain lunges"
+    ],
+    "match": "\\b(knees?[^.?!]{0,25}(hurt|pain|ache|sore)\\w*[^.?!]{0,25}(lunges?|split squats?|bulgarian\\w*|step ?-?ups?)|(lunges?|split squats?|bulgarian\\w*|step ?-?ups?)[^.?!]{0,25}(hurt\\w*|pain|bad for)[^.?!]{0,10}knees?)",
+    "body": [
+      "Usually a stance problem. A stride that is too short shoves the front knee far forward with the heel lifting. Lengthen the stride so your front heel stays down and your shin stays closer to vertical.",
+      "Switch forward lunges to reverse lunges or split squats. Slow the lowering to three seconds. Shorten the range: stop a few inches higher until it feels fine, then work deeper over weeks. A pad under the back knee helps if the knee taps the floor.",
+      "Back knee hurting usually means you are dropping onto it. Lower under control. Sharp pain, swelling, locking, or pain getting worse week to week: stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The knee tolerates load well when it builds slowly and the foot stays planted. A short stride and a lifting heel concentrate load at the front of the knee.",
+      "how": "Find a pain-free version: reverse lunge with a longer step, or a split squat with a slightly elevated front foot. Train there for two to three weeks, then progress.",
+      "mistake": "Skipping all single-leg work because one version hurt. Change the version."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Forward or reverse lunges?",
+      "Why do my knees hurt squatting?"
+    ],
+    "related": [
+      "tk-a-135",
+      "tk-a-006"
+    ]
+  },
+  {
+    "id": "tk-a-137",
+    "topic": "step-ups",
+    "title": "How to do step-ups",
+    "keys": [
+      "how to do step-ups",
+      "step ups",
+      "step up form",
+      "box step ups",
+      "dumbbell step ups",
+      "how high should step ups be",
+      "step ups for glutes",
+      "step ups vs lunges",
+      "weighted step ups",
+      "step up technique",
+      "stepups"
+    ],
+    "match": "\\bstep ?-?ups?\\b",
+    "body": [
+      "Pick a box or bench about knee height or a little lower. Put your whole foot on it. Lean slightly forward and push through the heel of the top leg to stand all the way up.",
+      "The back leg does as little as possible. No bouncing off the floor with the bottom foot.",
+      "Lower slowly, same leg in control, until the bottom foot touches the floor. Then go again. All reps on one leg, then switch. Sets of 8 to 12 per side with dumbbells at your sides.",
+      "Higher boxes put more work on the glutes and hip and need more control. Lower boxes put more on the quads and are easier on the knees. Start low. Height comes after control."
+    ],
+    "more": {
+      "why": "Step-ups train one leg through a big range with very little stress on your back. They carry over well to stairs, hiking and sports.",
+      "how": "Count the lowering: two to three seconds down. That is where most of the work and control comes from.",
+      "mistake": "Pushing off the bottom foot to get up. If your bottom leg is doing a calf raise to launch you, the box is too high or the weight too heavy.",
+      "home": "A sturdy step, a stair or a solid chair is all you need. Hold a backpack or water jugs for load."
+    },
+    "chips": [
+      "Forward or reverse lunges?",
+      "Knees hurt on lunges"
+    ],
+    "related": [
+      "tk-a-135",
+      "tk-a-136"
+    ]
+  },
+  {
+    "id": "tk-a-138",
+    "topic": "leg-press",
+    "title": "Leg press form and foot placement",
+    "keys": [
+      "leg press form",
+      "how to leg press",
+      "leg press foot placement",
+      "where to put feet on leg press",
+      "high feet leg press",
+      "low feet leg press",
+      "leg press depth",
+      "how deep leg press",
+      "leg press lower back lift",
+      "leg press technique",
+      "45 degree leg press",
+      "leg press knees"
+    ],
+    "match": "\\b(leg press\\w*( form| technique| depth| foot| feet)?|how (do i|to) leg press)\\b",
+    "body": [
+      "Sit all the way back, lower back flat against the pad, hips down. Feet about shoulder width in the middle of the platform. Unlock the safeties.",
+      "Lower the sled under control until your knees are bent about 90 degrees or a bit more, as deep as you can go while your lower back and butt stay on the pad. That is your depth. Press back up through your whole foot, stopping just before your knees lock hard. Lock the safeties when you finish.",
+      "Feet higher on the platform: more glutes and hamstrings, less knee bend. Lower: more quads, more knee bend, more knee stress. Wider: more inner thigh. The middle is the best starting point."
+    ],
+    "more": {
+      "why": "The leg press lets you load the legs hard with your back supported. Good for building legs, training close to failure safely, and working around a cranky back.",
+      "how": "Find your depth: lower slowly with light weight until you feel your tailbone start to curl up off the pad. Stop a couple of inches above that. That is your bottom.",
+      "mistake": "Going so deep your hips roll up off the seat. That rounds your lower back under the whole stack."
+    },
+    "chips": [
+      "Leg press or squat?",
+      "Leg press hurts my lower back"
+    ],
+    "related": [
+      "tk-a-139",
+      "tk-a-140"
+    ]
+  },
+  {
+    "id": "tk-a-139",
+    "topic": "leg-press",
+    "title": "Leg press or squat",
+    "keys": [
+      "leg press or squat",
+      "leg press vs squat",
+      "is leg press as good as squats",
+      "can leg press replace squats",
+      "leg press instead of squats",
+      "squat or leg press",
+      "leg press for beginners",
+      "does leg press build legs",
+      "is leg press cheating",
+      "leg press numbers vs squat"
+    ],
+    "match": "\\b(leg press[^.?!]{0,20}(or|vs\\.?|versus|instead of|as good as|replace)[^.?!]{0,10}squats?|squats?[^.?!]{0,10}(or|vs\\.?|versus|instead of) leg press)\\b",
+    "body": [
+      "For building leg muscle, the leg press works as well as squats when the sets are hard. For building whole body strength, balance and a stronger back, the squat wins.",
+      "The leg press is easier to learn, needs less skill, and keeps your back out of it. Great if your back is cranky, if you are new, or as a second leg exercise after squats.",
+      "Best plan for most people: squat first, while fresh, then leg press for higher reps. If squats are not an option right now, the leg press plus split squats will keep your legs growing. Do not compare the numbers. Leg press weight is much higher and means something different."
+    ],
+    "more": {
+      "why": "Muscles respond to effort and load. Squats also train your trunk and balance. Leg press isolates the legs more.",
+      "example": "A typical week: squats 3 sets of 5 to 8, then leg press 3 sets of 10 to 15 on one day. Split squats and RDLs on another.",
+      "mistake": "Bragging about a leg press number with four inches of range. Full range or it does not count."
+    },
+    "chips": [
+      "Leg press form and foot placement",
+      "Squat alternatives for a sore back"
+    ],
+    "related": [
+      "tk-a-138",
+      "tk-a-024"
+    ]
+  },
+  {
+    "id": "tk-a-140",
+    "topic": "leg-press",
+    "title": "Leg press hurts your lower back or knees",
+    "keys": [
+      "leg press hurts my lower back",
+      "leg press back pain",
+      "leg press knee pain",
+      "leg press hurts knees",
+      "lower back lifts off leg press",
+      "leg press butt comes up",
+      "locking knees leg press",
+      "leg press tailbone",
+      "leg press hip pain",
+      "is leg press bad for back"
+    ],
+    "match": "\\bleg press\\w*[^.?!]{0,30}(hurt\\w*|pain|back|knees?|tailbone|butt|lock\\w*|bad)",
+    "body": [
+      "Lower back pain on the leg press almost always means you are going too deep. When your hips roll up off the seat at the bottom, your lower back rounds under the whole stack. Cut the depth to where your butt stays down.",
+      "Knee pain: move your feet higher on the platform, which reduces how far the knees bend forward. Keep knees tracking over your toes. Never lock your knees hard at the top.",
+      "Stop just short of straight, especially with heavy weight. A hard lock under a heavy sled loads the joint with nothing to protect it.",
+      "Pain that stays after these changes, sharp pain, or pain that is getting worse: drop the exercise and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The leg press seat holds your hips in place only until you go past your range. Then the pelvis tucks and the back takes over.",
+      "how": "Use a mirror or a friend: watch your hips at the bottom. The moment your tailbone curls up, that is your depth limit.",
+      "mistake": "Pushing with your hands on your knees to finish a rep. If you need your hands, the weight is too heavy."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Leg press form and foot placement",
+      "Why do my knees hurt squatting?"
+    ],
+    "related": [
+      "tk-a-138",
+      "tk-a-006"
+    ]
+  },
+  {
+    "id": "tk-a-141",
+    "topic": "leg-press",
+    "title": "Hack squat and pendulum squat",
+    "keys": [
+      "hack squat",
+      "hack squat form",
+      "pendulum squat",
+      "hack squat vs squat",
+      "hack squat machine",
+      "v squat",
+      "belt squat machine",
+      "hack squat knees",
+      "hack squat foot placement",
+      "machine squat"
+    ],
+    "match": "\\b(hack squats?|pendulum squats?|v[ -]squats?|machine squats?)\\b",
+    "body": [
+      "Machine squats with your back supported and the path fixed. Great quad builders. The hack squat puts you on an angled sled, back against the pad, shoulders under pads.",
+      "Feet shoulder width, middle of the platform. Lower under control as deep as you can while your lower back stays flat on the pad, often below parallel. Drive up through the whole foot without locking the knees hard.",
+      "Feet lower on the platform mean more quads and more knee bend. Feet higher shifts toward the glutes.",
+      "Use them after free squats or instead of them when your back needs a break. Sets of 8 to 15, close to failure. The machine makes that safe."
+    ],
+    "more": {
+      "why": "With the balance handled and the back supported, the legs can be pushed harder and deeper with less risk.",
+      "mistake": "Comparing hack squat weight to barbell squat weight. Machines vary wildly. Compare a machine only to itself.",
+      "how": "Use the safety catches. Set them just below your deepest rep before you start."
+    },
+    "chips": [
+      "Leg press or squat?",
+      "Machines or free weights?"
+    ],
+    "related": [
+      "tk-a-139",
+      "tk-a-142"
+    ]
+  },
+  {
+    "id": "tk-a-142",
+    "topic": "equipment",
+    "title": "Machines or free weights",
+    "keys": [
+      "machines or free weights",
+      "machines vs free weights",
+      "are machines bad",
+      "free weights better than machines",
+      "should i use machines",
+      "machine vs barbell",
+      "are machines good for building muscle",
+      "machines for beginners",
+      "cable vs free weight",
+      "do machines work"
+    ],
+    "match": "\\b(machines? (or|vs\\.?|versus) free ?weights?|free ?weights? (or|vs\\.?|versus) machines?|are machines (bad|good)|should i use (the )?machines?|machines? for beginners)\\b",
+    "body": [
+      "Both build muscle. Free weights build more skill, balance and real world strength. Machines let you push a muscle hard with less skill and less risk.",
+      "The free weight lifts, squat, bench, deadlift, press and rows, are the core for strength. They teach you to control load through your whole body. Machines are perfect for adding volume after the big lifts, training close to failure safely, working around injuries, and isolating a muscle that is lagging.",
+      "Simple rule: start each session with one or two free weight lifts. Finish with machines and cables. If an injury keeps you off a free weight lift, a machine keeps the muscle working until you are back."
+    ],
+    "more": {
+      "why": "Muscle responds to tension and effort. Machines provide both. Strength in a free weight lift also depends on skill, which only free weights teach.",
+      "beginner": "Machines are a fine way to start in your first weeks. Start learning a goblet squat, dumbbell press and a row at the same time.",
+      "mistake": "Thinking machines do not count. A hard set on a good machine counts."
+    },
+    "chips": [
+      "Is the Smith machine squat okay?",
+      "Dumbbell or barbell bench?"
+    ],
+    "related": [
+      "tk-a-025",
+      "tk-a-042"
+    ]
+  },
+  {
+    "id": "tk-a-143",
+    "topic": "warmup",
+    "title": "Warm-up sets: how to ramp to your working weight",
+    "keys": [
+      "warm up sets",
+      "how many warm up sets",
+      "how to warm up for squats",
+      "warm up for bench",
+      "ramping sets",
+      "ramp up to working weight",
+      "warm up sets for deadlift",
+      "how to warm up before lifting heavy",
+      "warmup sets",
+      "what weight to warm up with",
+      "warm up percentages",
+      "how should i warm up for heavy sets"
+    ],
+    "match": "\\b(warm ?-?up sets?|ramp\\w*( up)? (to|sets?)|how (do i|to|should i) warm ?-?up (for|before)|warm ?-?up (for|before) (squats?|bench|dead ?lifts?|lifting|heavy))\\b",
+    "body": [
+      "Start with the empty bar, then climb in jumps that get smaller and reps that get fewer as you get close to your working weight. Three to five warm-up sets for most lifts. More for heavy squats and deadlifts, fewer for accessories.",
+      "A simple ladder: empty bar for 10, then about 40 percent for 5, 60 percent for 3, 75 to 80 percent for 2, 90 percent for 1, then your work sets. Warm-ups should feel easy. They are practice, not work.",
+      "For lifts later in the session, one or two warm-up sets is enough because you are already warm. Rest briefly between warm-ups, 60 seconds or so, and take your full rest before the first work set."
+    ],
+    "more": {
+      "why": "Warm-ups raise muscle temperature, groove the movement, and let you check how you feel today before the heavy weight arrives. A lift that feels off at 60 percent will feel worse at 90.",
+      "example": "Working sets at 225 on squat: bar x10, 95 x5, 135 x3, 165 x2, 195 x1, 225 for your sets.",
+      "mistake": "Warming up with so many reps that you are tired before the work sets. Reps go down as weight goes up."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Do I need cardio before lifting?",
+      "How do I load the bar?"
+    ],
+    "related": [
+      "tk-a-144",
+      "tk-a-146"
+    ]
+  },
+  {
+    "id": "tk-a-144",
+    "topic": "warmup",
+    "title": "General warm-up before lifting",
+    "keys": [
+      "do i need cardio before lifting",
+      "general warm up",
+      "warm up before gym",
+      "should i stretch before lifting",
+      "static stretching before lifting",
+      "how long should i warm up",
+      "warm up routine lifting",
+      "dynamic warm up",
+      "foam roll before lifting",
+      "cardio before weights",
+      "stretch before squats"
+    ],
+    "match": "\\b(cardio before (lifting|weights)|general warm ?-?up|stretch\\w* before (lifting|squat\\w*|the gym|training)|warm ?-?up routine|dynamic warm ?-?up|how long (should i|to) warm ?-?up|foam roll\\w* before)\\b",
+    "body": [
+      "Five to ten minutes. Get warm, then get specific. You do not need a long routine.",
+      "Easy cardio for 3 to 5 minutes until you are just starting to sweat: bike, rower, brisk walk. Then a few movements that open up what you are about to train. Leg swings, bodyweight squats and hip openers before squats.",
+      "Arm circles, band pull-aparts and push-ups before pressing. Then go to the bar and do your warm-up sets. That is where most of the real warming up happens.",
+      "Long static stretches held 60 seconds or more right before heavy lifting can sap a little strength. Short stretches are fine. Save the long holds for after the session or another time."
+    ],
+    "more": {
+      "why": "Warm muscles and joints move better and produce force better. The bar warm-up sets prepare the exact movement. The general warm-up just gets the body ready to start them.",
+      "short_on_time": "Two minutes of jumping jacks or the bike, then straight into your bar warm-up sets with an extra light set at the start.",
+      "mistake": "A 25 minute warm-up of foam rolling and stretching, then rushing the actual warm-up sets."
+    },
+    "chips": [
+      "Warm-up sets: how many?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-143"
+    ]
+  },
+  {
+    "id": "tk-a-145",
+    "topic": "warmup",
+    "title": "How many warm-up sets for accessories and second lifts",
+    "keys": [
+      "do i warm up for every exercise",
+      "warm up for accessories",
+      "warm up second exercise",
+      "do i need warm up sets for curls",
+      "warm up for dumbbell press after bench",
+      "feeder sets",
+      "how many warm ups for machines",
+      "warm up isolation",
+      "warm up sets accessory lifts",
+      "do i warm up every lift"
+    ],
+    "match": "\\b(warm ?-?up\\w*[^.?!]{0,25}(every|each) (exercise|lift)|warm ?-?up\\w*[^.?!]{0,20}(accessor\\w*|second (lift|exercise)|isolation|machines?|curls?)|feeder sets?)\\b",
+    "body": [
+      "Fewer. Your body is already warm from the main lift. One or two quick sets at about half your working weight is enough for most second lifts and accessories.",
+      "If the second lift uses similar muscles to the first, for example dumbbell press after bench, one light set to find the groove is plenty. If it is a new pattern, like rows after squats, take two.",
+      "Isolation work like curls, raises and extensions: one light set of 10 to 15, then go. Heavy barbell lifts always get a proper ramp, even late in the session."
+    ],
+    "more": {
+      "why": "The goal of warm-ups is to prepare the specific movement. Once the body is warm, the specific prep needed is small.",
+      "example": "After bench, dumbbell incline press at 60s for 10: one set of 30s for 8, then work sets."
+    },
+    "chips": [
+      "Warm-up sets: how many?",
+      "Do I need cardio before lifting?"
+    ],
+    "related": [
+      "tk-a-143",
+      "tk-a-144"
+    ]
+  },
+  {
+    "id": "tk-a-146",
+    "topic": "plate-math",
+    "title": "How to load the bar: plate math",
+    "keys": [
+      "how do i load the bar",
+      "plate math",
+      "how to load a barbell",
+      "what plates do i put on",
+      "how much weight is on the bar",
+      "plate calculator",
+      "how many plates for 225",
+      "what is 135",
+      "how to add up weight on the bar",
+      "loading plates",
+      "plate loading",
+      "what does one plate mean",
+      "two plates"
+    ],
+    "match": "\\b(plate math|plate calculator|load(ing)? (the |a )?(bar|barbell|plates?)|what plates|how (much|many) (weight|plates)[^.?!]{0,15}(bar|for)|(one|two|three|four) plates?)\\b",
+    "body": [
+      "Bar weight plus both sides. Work out what goes on one side, then put the same on the other.",
+      "Formula: total minus the bar, divided by two, is what goes on each side. With a 45 lb bar: 135 is one 45 a side, 225 is two 45s a side, 315 is three, 405 is four. That is what lifters mean by one plate, two plates. For 185: 185 minus 45 is 140, half is 70, so a 45 and a 25 each side.",
+      "Load the big plates first, small plates on the outside. Same order on both sides. Then collars. In kilograms with a 20 kg bar: 60 kg is a 20 each side, 100 kg is two 20s each side."
+    ],
+    "more": {
+      "why": "Loading the same way every time stops mistakes. A 10 on one side and a 5 on the other is how bars tip.",
+      "example": "Target 155: 155 minus 45 is 110. Half is 55. Each side: a 45 and a 10.",
+      "how": "Read the plates back to yourself before you lift: bar 45, side 45 plus 10, other side 45 plus 10, total 155. Two seconds. Catches most errors.",
+      "mistake": "Forgetting the bar. Two 45s on a 45 bar is 135, not 90."
+    },
+    "chips": [
+      "How much does the bar weigh?",
+      "Microplates: are they worth it?"
+    ],
+    "related": [
+      "tk-a-120",
+      "tk-a-147"
+    ]
+  },
+  {
+    "id": "tk-a-147",
+    "topic": "plate-math",
+    "title": "Microplates: are they worth it",
+    "keys": [
+      "microplates worth it",
+      "microplates",
+      "micro plates",
+      "fractional plates",
+      "one and a quarter lb plates",
+      "small plates",
+      "1 lb plates",
+      "2 and a half lb jumps",
+      "how to add less than 5 lbs",
+      "change plates",
+      "small jumps on overhead press",
+      "fractional plates overhead press"
+    ],
+    "match": "\\b(micro ?plates?|fractional plates?|change plates?|(0\\.5|1|1\\.25) ?(lb|kg) plates?|(add|adding|jump\\w*) (less than|under) (5|2\\.5))\\b",
+    "body": [
+      "Yes, especially for pressing. A 5 lb jump on an overhead press is often a 5 percent jump. That is a big step for a small lift. Microplates of 0.5 to 1.25 lb let you add 1 to 2.5 lb total and keep progressing when normal jumps stall you.",
+      "Use them on the overhead press, bench press and any lift where 5 lb is too much. Lower body lifts can usually handle 5 to 10 lb jumps for longer.",
+      "If your gym only has 2.5 lb plates, you can still add 5 lb total, or try adding reps first: hit 3 sets of 6 instead of 3 sets of 5 before moving up. Small steps, stacked for months, build big numbers."
+    ],
+    "more": {
+      "why": "Progress slows as you get stronger. A jump that was easy when you pressed 65 is a big leap at 135. Smaller jumps keep the steps the same size relative to your strength.",
+      "example": "Overhead press 115 for 3 sets of 5. Next session, 117.5 with 1.25 lb on each side. Then 120. That is still 5 lb in two sessions, just smaller steps.",
+      "home": "Washers, small ankle weights clipped to the bar, or a loop of light chain are cheap fractional plates."
+    },
+    "chips": [
+      "How do I load the bar?",
+      "Dumbbell jumps are too big"
+    ],
+    "related": [
+      "tk-a-146",
+      "tk-a-148"
+    ]
+  },
+  {
+    "id": "tk-a-148",
+    "topic": "plate-math",
+    "title": "Dumbbell jumps are too big",
+    "keys": [
+      "dumbbell jumps are too big",
+      "dumbbell jumps",
+      "jump between dumbbells too big",
+      "cant go up in dumbbells",
+      "5 lb dumbbell jumps",
+      "dumbbells go up by 5",
+      "stuck on same dumbbell",
+      "next dumbbell too heavy",
+      "how to progress dumbbells",
+      "dumbbell progression",
+      "going up in dumbbell weight"
+    ],
+    "match": "\\b(dumbbell (jump|jumps|progression)|jump\\w* (between|in) dumbbells|(next|heavier) dumbbells? (is |are )?too heavy|stuck on (the )?same dumbbell|progress\\w* (with )?dumbbells|going up in dumbbell)\\b",
+    "body": [
+      "Normal. A jump from 20s to 25s is a 25 percent increase. You will rarely make that in one step. Add reps first, then move up.",
+      "Use a rep range, say 8 to 12. Stay on the same dumbbells until you hit 12 on every set. Then go up to the next pair, start at 8, and build back to 12. That is double progression, and it is how dumbbell lifts grow.",
+      "Other tools: slow the lowering to three or four seconds, add a pause at the bottom, or add a set. Some gyms have 2.5 lb add-on magnets. When you jump, expect to lose a few reps the first session. That is normal."
+    ],
+    "more": {
+      "why": "Dumbbells come in fixed jumps, so the reps have to do the work that small plates do on a barbell.",
+      "example": "Dumbbell press with 40s: week one 10, 9, 8; week two 11, 10, 9; week three 12, 12, 11. Week four 12, 12, 12. Week five: 45s for 8, 8, 7.",
+      "mistake": "Jumping up the moment you get one set of 12, then grinding out sloppy 6s. Earn the jump on every set."
+    },
+    "chips": [
+      "Microplates: are they worth it?",
+      "How do I get heavy dumbbells up?"
+    ],
+    "related": [
+      "tk-a-147",
+      "tk-a-041"
+    ]
+  },
+  {
+    "id": "tk-a-149",
+    "topic": "plate-math",
+    "title": "Kilos and pounds on the bar",
+    "keys": [
+      "kilos to pounds",
+      "kg to lbs",
+      "convert kg to lb",
+      "how many pounds is 100 kg",
+      "pounds or kilos",
+      "kg plates vs lb plates",
+      "20 kg plate in pounds",
+      "is a 20 kg plate 45 lbs",
+      "kilo plates",
+      "lb to kg lifting"
+    ],
+    "match": "\\b(kg to lbs?|lbs? to kg|kilos? to pounds?|pounds? to kilos?|convert\\w*[^.?!]{0,10}(kg|kilo|pound|lb)|(kg|kilo) plates?|pounds or kilos)\\b",
+    "body": [
+      "One kilogram is about 2.2 pounds. To go from kilos to pounds, multiply by 2.2. To go from pounds to kilos, divide by 2.2.",
+      "A 20 kg plate is about 44 lb, close to a 45 but not the same. A 25 kg plate is 55 lb. So two red 25s and a 20 kg bar is 120 kg, about 265 lb.",
+      "Common landmarks: 60 kg is about 132 lb. 100 kg is about 220 lb. 140 kg is about 309 lb.",
+      "180 kg is about 397 lb. Pick one unit for your log and stay with it. Switching back and forth hides real progress."
+    ],
+    "more": {
+      "why": "Small differences add up. Four 20 kg plates plus a 20 kg bar is 180 kg, about 397 lb, not 405. If you train in one gym and test in another, convert carefully.",
+      "example": "Squat 102.5 kg. Times 2.2 is about 225.5 lb. Close enough to call it two plates."
+    },
+    "chips": [
+      "How do I load the bar?",
+      "How much does the bar weigh?"
+    ],
+    "related": [
+      "tk-a-146",
+      "tk-a-120"
+    ]
+  },
+  {
+    "id": "tk-a-150",
+    "topic": "technique",
+    "title": "Leg extensions and knee health",
+    "keys": [
+      "are leg extensions bad for knees",
+      "leg extension",
+      "leg extensions",
+      "leg extension machine",
+      "quad extensions",
+      "leg extension knee pain",
+      "leg extensions safe",
+      "should i do leg extensions",
+      "leg extension form",
+      "knee extension machine"
+    ],
+    "match": "\\b(leg extensions?|quad extensions?|knee extension machine)\\b",
+    "body": [
+      "Leg extensions are not bad for healthy knees. They are one of the few ways to train the quads with the hips out of it, and a useful tool after squats or for knees that do not tolerate deep loading yet.",
+      "Line up the machine's pivot with your knee joint, pad just above your ankles. Lift under control, squeeze at the top for a second, lower for two to three seconds. Sets of 10 to 20, no swinging, no slamming the stack.",
+      "If your knees ache at the bottom or the top, shorten the range to the pain-free part and build from there. Kneecap pain that is sharp, or gets worse after each session: stop and get it checked."
+    ],
+    "more": {
+      "why": "The quad is the main knee extensor. Training it directly is how many people with sensitive knees build them back up.",
+      "how": "Seat back so your knee lines up with the red dot or pivot mark on the machine. Adjust the shin pad so it rests just above your ankle.",
+      "mistake": "Kicking the weight up fast and letting it drop. That loads the knee in the least controlled way possible."
+    },
+    "chips": [
+      "Why do my knees hurt squatting?",
+      "Machines or free weights?"
+    ],
+    "related": [
+      "tk-a-006",
+      "tk-a-142"
+    ]
+  },
+  {
+    "id": "tk-a-151",
+    "topic": "technique",
+    "title": "Hamstring curls: lying, seated or Nordic",
+    "keys": [
+      "hamstring curls",
+      "leg curl",
+      "lying leg curl",
+      "seated leg curl",
+      "nordic curl",
+      "nordic hamstring curl",
+      "leg curl vs rdl",
+      "best hamstring exercise",
+      "hamstring curl form",
+      "hamstring cramp leg curl"
+    ],
+    "match": "\\b(hamstring curls?|leg curls?|(lying|seated) (leg )?curls?|nordic\\w*|best hamstring (exercise|exercises|lift))\\b",
+    "body": [
+      "Your hamstrings do two jobs: extend the hip, like in an RDL, and bend the knee, like in a leg curl. Train both.",
+      "Seated leg curls are usually the best of the machines, because sitting puts the hamstrings in a stretched position. Lying leg curls work well too. Nordic curls, kneeling with your ankles held while you lower your body forward under control, are brutally hard and very effective. Start with short, slow lowerings.",
+      "Sets of 8 to 15 for curls, close to failure. Control the lowering. Cramping during curls is common: point your toes slightly, warm up with a light set, and stretch the calf between sets."
+    ],
+    "more": {
+      "why": "Hip hinges like RDLs and knee bending curls stress the hamstrings differently. Programs that include both build more complete hamstrings.",
+      "how": "Nordic curl: kneel on a pad, ankles anchored. Keep hips straight and lower your body forward as slowly as you can, catching yourself with your hands. Push back up. Sets of 3 to 5.",
+      "home": "Slider leg curls: lie on your back, heels on a towel on a smooth floor, lift your hips, curl your heels in and slide them back out."
+    },
+    "chips": [
+      "Romanian deadlift: how to do it",
+      "Machines or free weights?"
+    ],
+    "related": [
+      "tk-a-065",
+      "tk-a-142"
+    ]
+  },
+  {
+    "id": "tk-a-152",
+    "topic": "technique",
+    "title": "Calf raises that actually work",
+    "keys": [
+      "calf raises",
+      "calf raise form",
+      "how to grow calves",
+      "standing calf raise",
+      "seated calf raise",
+      "calves wont grow",
+      "calf raises not working",
+      "calf training",
+      "bouncing calf raises",
+      "calf raises full range"
+    ],
+    "match": "\\b(calf raises?|calves|calf training|grow (my )?calf)\\b",
+    "body": [
+      "Most calf raises are bounced, half range, and too fast. Fix that and calves respond.",
+      "Stand on the edge of a step or platform. Lower your heels all the way down until you feel a deep stretch, and pause there for one to two seconds with no bounce. Rise all the way up onto the balls of your feet and squeeze for a second. Lower slowly, sets of 10 to 20, close to failure.",
+      "Standing calf raises with straight knees work the bigger calf muscle. Seated calf raises with bent knees work the deeper one. Use both across the week. Calves recover fast, so two or three sessions a week works well."
+    ],
+    "more": {
+      "why": "The calf tendon is springy. Bouncing lets the tendon do the work. The pause at the bottom takes the spring out and makes the muscle do it.",
+      "home": "Single-leg calf raises on a stair, holding a rail, with a backpack for load. Pause at the bottom every rep.",
+      "mistake": "Piling on weight and moving two inches. Full range, slow, paused."
+    },
+    "chips": [
+      "Machines or free weights?",
+      "How to do step-ups"
+    ],
+    "related": [
+      "tk-a-142"
+    ]
+  }
+]

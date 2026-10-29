@@ -1,0 +1,779 @@
+[
+  {
+    "id": "tk-b-073",
+    "topic": "deload",
+    "title": "When to deload and what a deload is",
+    "keys": [
+      "when should i deload",
+      "what is a deload",
+      "deload week",
+      "do i need a deload",
+      "how often deload",
+      "deloading",
+      "take a week off lifting",
+      "light week",
+      "how do i deload",
+      "is a deload necessary",
+      "deload every 4 weeks",
+      "back off week",
+      "should i take a deload"
+    ],
+    "match": "\\b(de-?load(s|ing|ed)?|back ?off week|light week)\\b",
+    "body": [
+      "A deload is a planned easy week so your body can catch up to the training you have been piling on. You keep showing up, you keep moving the bars, you just do less. Most people come back from one stronger than they left.",
+      "Take one when you see two or more of these: lifts stalled or sliding for two weeks, joints achy in a way that lingers, sleep getting worse, and warm-ups feeling heavy. If none of that is happening, you do not need one just because a calendar says so. Most lifters land on one every 6 to 10 weeks."
+    ],
+    "more": {
+      "why": "Fatigue hides fitness. You can be stronger than you have ever been and still lift worse, because you are tired. A deload clears the tiredness so the strength shows.",
+      "how": "Keep your normal exercises. Cut your sets roughly in half and drop the weight about 10 to 20 percent. Stop every set with three or more good reps left.",
+      "beginner": "In your first six months you rarely need a planned deload. Sleep, eat and repeat. Take one only if you stall three sessions in a row on most lifts.",
+      "mistake": "Turning the deload into a test week. If you max out on a deload, it was not a deload."
+    },
+    "reads": [
+      "stalls",
+      "sessions"
+    ],
+    "chips": [
+      "How do I run a deload week?",
+      "Why you stalled and what to check"
+    ],
+    "related": [
+      "tk-b-074",
+      "tk-b-058"
+    ]
+  },
+  {
+    "id": "tk-b-074",
+    "topic": "deload",
+    "title": "How to run a deload week",
+    "keys": [
+      "how do i run a deload week",
+      "how to deload",
+      "deload sets and reps",
+      "how light should a deload be",
+      "deload percentage",
+      "deload workout",
+      "what to do on a deload",
+      "deload weight",
+      "half volume week",
+      "how much to cut on a deload",
+      "should i rest on a deload"
+    ],
+    "match": "\\b(how (do i|to|should i) (run |do )?(a )?de-?load|de-?load (week )?(sets|reps|weight|workout|percentage))\\b",
+    "body": [
+      "Keep the schedule, change the dial. Same days, same exercises, about half the sets, and around 80 to 90 percent of your usual working weights. Every set should feel crisp and easy. You should leave the gym feeling like you could train again right now.",
+      "Use the week to clean up form. Film your main lifts, slow your reps down, pause at the bottom. A deload done right sharpens technique and sends you into the next block hungry."
+    ],
+    "more": {
+      "example": "Normal squat day is 4 sets of 5 at 275. Deload is 2 sets of 5 at 235, with a pause on the last rep of each set.",
+      "how": "Monday and Thursday: main lift for 2 sets, one accessory for 2 sets, done in 35 minutes. Walk every day.",
+      "advanced": "Some lifters keep the weight and cut volume only. That keeps the feel of heavy bars. It works if your joints are fine and only your energy is low.",
+      "mistake": "Skipping the gym for the whole week. Full rest is fine once in a while, but light training usually recovers you faster and keeps the habit."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "When should I deload?",
+      "How many days a week should I lift?"
+    ],
+    "related": [
+      "tk-b-073"
+    ]
+  },
+  {
+    "id": "tk-b-075",
+    "topic": "split",
+    "title": "How many days a week to lift for strength",
+    "keys": [
+      "how many days a week should i lift",
+      "how many days a week",
+      "days per week strength",
+      "3 days a week lifting",
+      "4 days a week lifting",
+      "is 2 days a week enough",
+      "lift every day",
+      "training frequency",
+      "how often should i lift",
+      "5 days a week lifting",
+      "how many times a week should i go to the gym",
+      "days per week"
+    ],
+    "match": "\\b(how many (days|times) (a|per) week|(2|3|4|5|6|two|three|four|five|six) days? (a|per) week|lift(ing)? every day|training frequency)\\b",
+    "body": [
+      "Three days a week gets most people strong. Four is a great sweet spot once you are past the beginner stage. Five or six only pays off if your sleep, food and schedule can carry it, and for most people with jobs and kids, they cannot.",
+      "Pick the number you can hit every single week for a year, not the number that looks impressive this month. Three days done for twelve months beats five days done for six weeks and then quitting."
+    ],
+    "more": {
+      "why": "Strength comes from repeated practice and recovery. Three to four sessions gives each main lift one to two practices a week with plenty of time to recover between.",
+      "beginner": "Start with three full body days, Monday, Wednesday, Friday or any three with a day off between. Squat, press and pull every day.",
+      "short_on_time": "Two full body sessions a week will still make you stronger. Squat or deadlift, a press, and a row each time. Forty minutes.",
+      "advanced": "Advanced lifters often go four days, upper and lower, so each lift gets a heavy day and a lighter day."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Best split for strength",
+      "Full body or upper lower?"
+    ],
+    "related": [
+      "tk-b-076",
+      "tk-b-077"
+    ]
+  },
+  {
+    "id": "tk-b-076",
+    "topic": "split",
+    "title": "The best split for getting strong",
+    "keys": [
+      "best split for strength",
+      "what split should i run",
+      "best workout split",
+      "training split",
+      "push pull legs for strength",
+      "bro split",
+      "upper lower split",
+      "full body split",
+      "which split is best",
+      "split for powerlifting",
+      "best split",
+      "workout split for beginners",
+      "ppl"
+    ],
+    "match": "\\b(splits?|push pull legs|ppl|bro split|upper ?lower|full body (split|routine))\\b",
+    "body": [
+      "The best split is the one that lets you train each main lift at least twice a week and still recover. For three days, that is full body. For four days, upper and lower. For five or six, push, pull, legs can work, but only if you keep the heavy work spread out.",
+      "A bro split, one muscle a day, is the weakest choice for strength. Each lift gets practiced once a week, and practice is what makes you strong. Save it for bodybuilding phases if you love it."
+    ],
+    "more": {
+      "example": "Four day upper lower: Monday heavy squat and deadlift accessories, Tuesday heavy bench and rows, Thursday lighter deadlift and squat, Friday press and lighter bench.",
+      "why": "A lift is a skill. Squatting twice a week gives you twice the practice of once a week, and practice moves the number.",
+      "beginner": "Three full body days. Do not overthink it. You will outgrow it in six to twelve months and that is the right time to switch.",
+      "mistake": "Changing splits every month. Run one for at least eight weeks before you judge it."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Full body or upper lower?",
+      "How many days a week should I lift?"
+    ],
+    "related": [
+      "tk-b-075",
+      "tk-b-077"
+    ]
+  },
+  {
+    "id": "tk-b-077",
+    "topic": "split",
+    "title": "Full body or upper lower",
+    "keys": [
+      "full body or upper lower",
+      "full body vs upper lower",
+      "should i do full body",
+      "upper lower or full body",
+      "is full body better",
+      "full body workouts for strength",
+      "switch from full body to upper lower",
+      "when to switch to upper lower",
+      "upper lower vs ppl",
+      "full body every day"
+    ],
+    "match": "\\b(full body (vs|or|versus) upper ?lower|upper ?lower (vs|or|versus) full body|switch(ing)? (from )?full body)\\b",
+    "body": [
+      "Full body on three days is the best start. You practice every lift often, sessions are short, and missing a day does not wreck the week. Upper lower on four days is where most people go next, when full body sessions start running long because every lift is getting heavy.",
+      "Switch when your full body days take more than 90 minutes or your squats and deadlifts on the same day leave you wrecked. Not before."
+    ],
+    "more": {
+      "why": "As weights climb, each heavy lift costs more. Splitting upper from lower gives each one fresh energy.",
+      "how": "Take your three full body days and spread them into four: two lower days with squat and deadlift, two upper days with bench, press and rows.",
+      "short_on_time": "If your week is unpredictable, stay full body. Miss a day and you still hit everything."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Best split for strength",
+      "How long should a workout take?"
+    ],
+    "related": [
+      "tk-b-076"
+    ]
+  },
+  {
+    "id": "tk-b-078",
+    "topic": "older",
+    "title": "Lifting heavy after 40",
+    "keys": [
+      "lifting after 40",
+      "lifting after 50",
+      "too old to lift heavy",
+      "strength training over 40",
+      "older lifter",
+      "lifting in my 50s",
+      "heavy lifting at 45",
+      "can you get stronger after 40",
+      "masters lifter",
+      "lifting at 60",
+      "is heavy lifting safe when older",
+      "old man strength"
+    ],
+    "match": "\\b(after|over|past) (40|50|60|forty|fifty|sixty)\\b|\\b(older|masters?|old man) lift(er|ers|ing)?\\b|\\bin my (40|50|60)s\\b",
+    "body": [
+      "You can get strong at any age, and the older you are, the more it matters. Muscle and bone both respond to heavy training into your 70s and beyond. Some of the strongest people I lifted next to at meets were over 50.",
+      "What changes is recovery. Warm up longer, 10 to 15 minutes, with more ramp-up sets. Keep most sets two or three reps short of failure. Train three to four days, not six. Lean on variations your joints like, such as trap bar deadlifts, box squats and dumbbell presses. Heavy is still the goal, just earned more patiently."
+    ],
+    "more": {
+      "why": "From your 30s on you slowly lose muscle and strength unless you train for it. Lifting is the most direct way to keep both.",
+      "how": "Add one extra warm-up set per lift. Use sets of 4 to 8 more than heavy singles. Take a deload every 5 to 6 weeks.",
+      "beginner": "Starting from zero after 50: two or three full body days, machines and dumbbells for the first month, then add barbells. Check with your doctor first if you have heart or joint conditions.",
+      "mistake": "Training like you are 25 and then blaming age when something gets cranky. Age asks for smarter loading, not lighter goals."
+    },
+    "reads": [
+      "sessions",
+      "injury"
+    ],
+    "chips": [
+      "Joints ache when I lift",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-079"
+    ]
+  },
+  {
+    "id": "tk-b-079",
+    "topic": "older",
+    "title": "Joints that ache when you lift",
+    "keys": [
+      "joints ache when i lift",
+      "achy joints",
+      "elbows hurt",
+      "knees ache lifting",
+      "sore joints after lifting",
+      "joint pain lifting",
+      "my joints hurt",
+      "cranky shoulder",
+      "achy knees squat",
+      "elbow pain bench"
+    ],
+    "match": "\\b(joints? (ache|aches|hurt|hurts|pain)|achy (joints?|knees?|elbows?|shoulders?)|elbows? (ache|hurt|hurts))\\b",
+    "body": [
+      "Achy joints usually mean the load or the volume climbed faster than your joints and tendons could keep up. Muscles adapt in weeks. Tendons take months. So the fix is mostly patience and smarter choices, not quitting.",
+      "Swap to the version of the lift that does not bother you, like a narrower grip on bench, a trap bar instead of a straight bar, or a safety bar for squats. Warm up longer. Cut the hardest set for a couple of weeks. If the pain is sharp, gets worse during the set, or comes with swelling, stop and get it looked at by a doctor or physical therapist."
+    ],
+    "more": {
+      "how": "Use a pain scale. A 0 to 3 out of 10 that settles by the next day is usually fine to train around. Above that, change the exercise or the weight.",
+      "example": "Elbows ache on heavy bench: switch to dumbbells for two weeks, keep reps 6 to 10, and the ache usually fades while strength holds.",
+      "mistake": "Pushing through sharp pain because you do not want to lose progress. You lose far more by turning an ache into an injury."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Lifting heavy after 40",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-078",
+      "tk-b-073"
+    ]
+  },
+  {
+    "id": "tk-b-080",
+    "topic": "cutting",
+    "title": "Keeping your strength while losing weight",
+    "keys": [
+      "keep strength while cutting",
+      "losing strength on a cut",
+      "lifting while losing weight",
+      "strength on a diet",
+      "will i lose strength cutting",
+      "cutting and lifting heavy",
+      "how to keep muscle while losing weight",
+      "weaker on a cut",
+      "lifting during weight loss",
+      "protect strength on a cut",
+      "maintain strength while dieting"
+    ],
+    "match": "\\b((keep|keeping|maintain|protect|lose|losing) (my )?(strength|muscle) (while|on a|during) (cut|cutting|diet|dieting|losing weight)|weaker on a (cut|diet))\\b",
+    "body": [
+      "Keep lifting heavy. That is the signal that tells your body to hold onto muscle while you lose fat. Keep your main lifts in the 3 to 6 rep range, keep the weights close to what you were using, and cut back on extra sets rather than cutting the weight.",
+      "Eat enough protein, about 0.7 to 1 gram per pound of goal weight, and lose slowly, around half a percent to one percent of body weight a week. Expect your top end to slip a little near the end of a long cut. That is normal, and it comes back fast once you eat at maintenance again."
+    ],
+    "more": {
+      "why": "A calorie deficit makes your body look for things to drop. Heavy training gives it a reason to keep muscle. Pump work alone does not send that message as strongly.",
+      "how": "Keep one heavy top set on each main lift each week, then two or three back-off sets. Drop accessory volume by about a third.",
+      "example": "Before the cut: bench 4 sets of 5 at 225. During: 1 set of 4 at 225, then 2 sets of 6 at 195. Strength holds, recovery stays manageable.",
+      "mistake": "Switching to light weights and high reps to burn fat. Your diet burns the fat. Your training's job is to keep the muscle."
+    },
+    "reads": [
+      "weight",
+      "protein",
+      "stalls"
+    ],
+    "chips": [
+      "Strength suddenly dropped",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "tk-b-081"
+    ]
+  },
+  {
+    "id": "tk-b-081",
+    "topic": "cutting",
+    "title": "Lifting when you have a lot of weight to lose",
+    "keys": [
+      "lifting when overweight",
+      "lifting with a lot of weight to lose",
+      "strength training for weight loss",
+      "should i lift or do cardio to lose weight",
+      "big guy lifting",
+      "lifting at 300 pounds",
+      "overweight beginner lifting",
+      "lose weight with weights",
+      "heavy and want to get strong",
+      "obese lifting"
+    ],
+    "match": "\\b(overweight|obese|(a lot|lots) of weight to lose|lifting at (2|3|4)\\d\\d|big (guy|girl) lift(ing)?)\\b",
+    "body": [
+      "Lifting is one of the best things you can do. You will likely be stronger than most beginners from day one, because you already move a big body around every day. Use that. Building strength while you lose weight changes how you look and feel far more than cardio alone.",
+      "Start with movements that fit your body: box squats to a comfortable height, trap bar deadlifts, incline presses, rows, sled pushes. Three days a week. Add walking on the other days. Your diet does most of the weight loss work; the barbell keeps you strong while it happens."
+    ],
+    "more": {
+      "how": "Week one: three full body days, two or three exercises each, 3 sets of 8. Add a little weight every session for as long as it keeps moving.",
+      "why": "More muscle means a body that handles daily life better and holds a lower weight more easily once you get there.",
+      "home": "No gym yet? Bodyweight box squats onto a chair, wall push-ups, backpack rows and long walks get you started.",
+      "mistake": "Waiting to lose weight before you start lifting. Start now; the two help each other."
+    },
+    "reads": [
+      "weight",
+      "sessions"
+    ],
+    "chips": [
+      "How heavy should I start?",
+      "How many days a week should I lift?"
+    ],
+    "related": [
+      "tk-b-080"
+    ]
+  },
+  {
+    "id": "tk-b-082",
+    "topic": "power",
+    "title": "Training to be explosive and powerful",
+    "keys": [
+      "how to be more explosive",
+      "explosive training",
+      "power training",
+      "speed strength",
+      "get more explosive",
+      "jump higher",
+      "power vs strength",
+      "explosive lifts",
+      "plyometrics for strength",
+      "box jumps",
+      "how to build power",
+      "athletic power"
+    ],
+    "match": "\\b(explosive(ness)?|power training|speed strength|plyo(metric)?s?|box jumps?|jump higher|build power)\\b",
+    "body": [
+      "Power is strength done fast. You build it two ways: get stronger, and practice moving fast on purpose. Most people need more of the first. A stronger squat lifts your jump, your sprint and your throw.",
+      "Then add a little speed work at the start of a session, when you are fresh: 3 to 5 sets of 3 jumps, throws or fast reps, with full rest. Box jumps, broad jumps, medicine ball throws and kettlebell swings are the simple ones. Quality over sweat. If a rep slows down, the set is done."
+    ],
+    "more": {
+      "how": "Before squats: 4 sets of 3 box jumps, stepping down each time. Before bench: 4 sets of 3 medicine ball chest passes against a wall.",
+      "why": "Speed work trains your nervous system to fire fast. It only works when you are fresh and each rep is all out.",
+      "beginner": "Your first year, just get strong and do one jump or throw before training. Strength gives you the biggest jump in power early on.",
+      "mistake": "Doing jumps until you are gasping. That is conditioning, not power."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Speed work with the barbell",
+      "Best split for strength"
+    ],
+    "related": [
+      "tk-b-083"
+    ]
+  },
+  {
+    "id": "tk-b-083",
+    "topic": "power",
+    "title": "Speed work with the barbell",
+    "keys": [
+      "speed work",
+      "dynamic effort",
+      "speed squats",
+      "speed bench",
+      "speed deadlifts",
+      "compensatory acceleration",
+      "lift the bar fast",
+      "should i lift fast",
+      "bar speed",
+      "speed sets",
+      "dynamic effort day"
+    ],
+    "match": "\\b(speed (work|squats?|bench|deadlifts?|sets?|pulls?)|dynamic effort|bar speed|compensatory acceleration)\\b",
+    "body": [
+      "Speed work means moving lighter weights as fast as you can with clean form. Classic setup: 6 to 10 sets of 2 or 3 reps at about 50 to 65 percent of your max, with 45 to 60 seconds of rest. Every rep should fly.",
+      "It is a useful tool for intermediate lifters who want more practice and more pop off the bottom. For beginners, simply pushing every working rep as fast as you can control gives you most of the benefit for free."
+    ],
+    "more": {
+      "example": "Squat max 315: 8 sets of 2 at 185 to 205, one minute between sets, each rep driven hard out of the hole.",
+      "how": "Lower under control, then drive up as fast as you can. Keep the bar path the same as your heavy reps.",
+      "why": "Intent to move fast recruits more of your muscle, even when the bar is light.",
+      "mistake": "Letting speed work creep heavier until it is just slow sets. If the bar slows, drop the weight."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Training to be explosive",
+      "Percentage-based training"
+    ],
+    "related": [
+      "tk-b-082"
+    ]
+  },
+  {
+    "id": "tk-b-084",
+    "topic": "conditioning",
+    "title": "Conditioning for lifters without losing strength",
+    "keys": [
+      "conditioning for lifters",
+      "cardio for powerlifters",
+      "how to get in shape without losing strength",
+      "lifters cardio",
+      "conditioning without killing gains",
+      "best cardio for strength athletes",
+      "gassed after one set",
+      "out of breath lifting",
+      "get conditioned",
+      "sled for conditioning"
+    ],
+    "match": "\\b(conditioning (for|without)|cardio for (powerlifters|lifters|strength)|gassed after|out of breath (lifting|after a set))\\b",
+    "body": [
+      "Some conditioning makes you a better lifter. You recover between sets faster, you handle more work, and heavy triples do not leave you seeing stars. The trick is choosing work that does not beat up your legs or your recovery.",
+      "Two or three sessions a week of 20 to 30 minutes. Walking, easy biking and sled drags are the friendliest. Keep most of it easy enough to talk. Put hard intervals on non-lifting days, or after upper body work, never right before heavy squats."
+    ],
+    "more": {
+      "why": "Easy cardio improves your heart and blood flow, which helps you recover between sets and between sessions.",
+      "how": "Daily 20 to 30 minute walk, plus one sled session a week: 8 drags of 40 yards with a walk back between.",
+      "example": "Monday squat, Tuesday 25 minute bike, Wednesday bench, Thursday walk, Friday deadlift, Saturday sled drags.",
+      "mistake": "Long hard runs the day before leg day. That one hurts your squat."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "How many days a week should I lift?",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-075"
+    ]
+  },
+  {
+    "id": "tk-b-085",
+    "topic": "grip",
+    "title": "Building grip strength for heavy pulls",
+    "keys": [
+      "grip strength",
+      "grip giving out",
+      "losing grip on deadlift",
+      "how to improve grip",
+      "bar slipping out of my hands",
+      "grip training",
+      "forearm strength",
+      "farmer carries for grip",
+      "dead hangs for grip",
+      "weak grip",
+      "hands give out first"
+    ],
+    "match": "\\b(grip (strength|training|giving out|gives out|is weak)|weak grip|losing (my )?grip|bar slip(s|ping)? out)\\b",
+    "body": [
+      "If your hands give out before your back and legs do, grip is holding your deadlift hostage. Train it directly and use chalk. Chalk alone often adds 10 to 20 pounds to what you can hold.",
+      "Do farmer carries, heavy holds at the top of a deadlift, and dead hangs from a pull-up bar, two or three times a week. Do your warm-up sets double overhand as long as you can, then switch to a mixed grip or hook grip for the heavy ones. Use straps on back-off sets so your back still gets trained."
+    ],
+    "more": {
+      "how": "After deadlifts: 3 farmer carries of 40 yards, heavy enough that the last few steps are a fight. Or 3 dead hangs as long as you can.",
+      "why": "Grip is a small muscle group with a big job. It responds fast when you train it directly.",
+      "example": "Pull with double overhand up to 275, switch to hook grip for 315 and up, then strap up for back-off sets of 5.",
+      "mistake": "Strapping every set, including warm-ups. Your grip never gets the chance to catch up."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Deadlift stuck for weeks",
+      "Speed work with the barbell"
+    ],
+    "related": [
+      "tk-b-086"
+    ]
+  },
+  {
+    "id": "tk-b-086",
+    "topic": "gear",
+    "title": "Lifting straps: when they help and when they hurt",
+    "keys": [
+      "should i use straps",
+      "lifting straps",
+      "are straps cheating",
+      "straps for deadlift",
+      "when to use straps",
+      "straps for rows",
+      "wrist straps",
+      "figure 8 straps",
+      "straps vs chalk",
+      "do straps make grip weaker"
+    ],
+    "match": "\\b(lifting straps|wrist straps|figure ?8 straps|(use|using|wear|wearing) straps|straps (for|on|vs|are))\\b",
+    "body": [
+      "Straps are a tool, not a cheat. Use them when your grip is not the thing you are trying to train: heavy rows, shrugs, high rep deadlifts, back-off sets. They let your back and legs work as hard as they can.",
+      "Skip them on warm-ups and your top sets if you compete or want a strong grip, and train grip directly. That way you get the best of both: your back is pushed hard, and your hands keep up."
+    ],
+    "more": {
+      "how": "Loop the strap around the bar under your hand, wrap it once in the direction the bar rolls, then grip on top. Tighten it by rolling the bar toward you.",
+      "beginner": "You do not need straps your first few months. Learn to grip hard first; add straps when your hands stop your rows and deadlifts.",
+      "mistake": "Using straps on every set, every lift, forever. Your grip will lag behind everything else."
+    },
+    "chips": [
+      "Building grip strength",
+      "Deadlift stuck for weeks"
+    ],
+    "related": [
+      "tk-b-085"
+    ]
+  },
+  {
+    "id": "tk-b-087",
+    "topic": "busy",
+    "title": "Getting strong on a busy schedule",
+    "keys": [
+      "no time to lift",
+      "busy schedule lifting",
+      "short workouts for strength",
+      "only have 30 minutes",
+      "strength training busy",
+      "lifting with kids and a job",
+      "time efficient strength training",
+      "quick strength workout",
+      "two days a week strength",
+      "lift on a tight schedule"
+    ],
+    "match": "\\b(no time to (lift|train)|(only|just) (have )?(20|30|thirty|twenty) minutes|busy (schedule|week)|time efficient)\\b",
+    "body": [
+      "You do not need long workouts to get strong. You need the main lifts done hard and consistently. Thirty minutes is plenty: one main lift, worked up to a heavy set, then one accessory paired with it.",
+      "Cut warm-up waste, not the warm-up: go straight to the bar and ramp up in three or four quick sets. Superset your accessories. Rest two to three minutes on the main lift, ninety seconds on the rest. Two or three of these a week will move your numbers for a long time."
+    ],
+    "more": {
+      "example": "Thirty minute session: squat up to 3 sets of 5, then dumbbell rows and push-ups back to back for 3 rounds. Done.",
+      "short_on_time": "Ten minutes? Warm up and do one heavy set of 5 on your main lift for the day. It still counts.",
+      "how": "Plan the session before you walk in. Know the lift, the weight and the reps. Deciding in the gym eats the clock."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How many days a week should I lift?",
+      "Full body or upper lower?"
+    ],
+    "related": [
+      "tk-b-075"
+    ]
+  },
+  {
+    "id": "tk-b-088",
+    "topic": "comeback",
+    "title": "Coming back to lifting after a long break",
+    "keys": [
+      "coming back after a break",
+      "returning to lifting",
+      "back in the gym after months",
+      "lost my strength after time off",
+      "starting over lifting",
+      "back after injury time off",
+      "how much strength did i lose",
+      "muscle memory",
+      "comeback after a year off",
+      "how fast will my strength come back"
+    ],
+    "match": "\\b(coming back|getting back|return(ing)? to) (to )?(lifting|the gym|training)\\b|\\b(muscle memory|time off from lifting|months off|year off)\\b",
+    "body": [
+      "Good news first: strength comes back far faster than it took to build the first time. Muscle memory is real. Most people regain old numbers in a fraction of the time they were away.",
+      "Start at about 60 to 70 percent of your old working weights for the first two weeks. Your muscles will be ready before your tendons and joints are, so do not chase old PRs early. Add weight every session while it moves easily. By week six, most lifters are close to where they left off."
+    ],
+    "more": {
+      "why": "Your muscles keep extra nuclei from the training you did before, and your nervous system still remembers the movement. Both speed the rebuild.",
+      "example": "Old squat 5 rep set: 315. Week one: 3 sets of 5 at 205. Week three: 255. Week six: back near 300.",
+      "mistake": "Going for your old max in the first week. That is how a comeback turns into a second layoff.",
+      "beginner": "If you only trained a few months before the break, treat it like starting fresh and follow a beginner plan again."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How heavy should I start?",
+      "Joints ache when I lift"
+    ],
+    "related": [
+      "tk-b-079"
+    ]
+  },
+  {
+    "id": "tk-b-089",
+    "topic": "belt",
+    "title": "When to start wearing a lifting belt",
+    "keys": [
+      "should i wear a belt",
+      "lifting belt",
+      "when to use a belt",
+      "weightlifting belt",
+      "do i need a belt",
+      "belt for squats",
+      "belt for deadlift",
+      "lever belt",
+      "is a belt cheating",
+      "belt makes core weak",
+      "how tight should a belt be"
+    ],
+    "match": "\\b(lifting belt|weight ?lifting belt|lever belt|(wear|wearing|use|using|need) a belt|belt (for|on|makes))\\b",
+    "body": [
+      "A belt is useful once you know how to brace without one. It gives your stomach something to push against, which helps you build more pressure and stay tighter under heavy weight. It does not make your core weak; you are still bracing, just harder.",
+      "Learn to brace beltless for your first few months. After that, wear it on your heavy squat and deadlift sets, usually above about 80 percent, and leave it off for warm-ups. Snug, not crushing: you should fit a flat hand between belt and stomach before you breathe in."
+    ],
+    "more": {
+      "how": "Put it on around your belly button. Breathe into your stomach and sides like you are filling the belt, push out against it, then lift.",
+      "beginner": "Skip the belt for now. Learn to take a big breath and tighten your stomach like someone is about to poke you.",
+      "mistake": "Cranking it so tight you cannot breathe in. That defeats the point."
+    },
+    "chips": [
+      "How do I brace for heavy lifts?",
+      "Lifting straps: when to use"
+    ],
+    "related": [
+      "tk-b-086"
+    ]
+  },
+  {
+    "id": "tk-b-090",
+    "topic": "sleep",
+    "title": "Sleep and how much it moves your lifts",
+    "keys": [
+      "does sleep affect strength",
+      "sleep for strength",
+      "bad sleep weaker",
+      "how much sleep for lifting",
+      "sleep and gains",
+      "tired and weak in the gym",
+      "lifting on no sleep",
+      "sleep for recovery lifting",
+      "short on sleep training"
+    ],
+    "match": "\\b(sleep (and|for) (strength|gains|lifting|recovery)|lifting on (no|little|bad) sleep|(bad|poor|no) sleep (and )?(weak|weaker))\\b",
+    "body": [
+      "Sleep is the most underrated training tool you have. Short sleep makes heavy weight feel heavier, slows recovery and makes it harder to keep muscle when you are losing weight. Seven to nine hours is where strength grows best.",
+      "One bad night will not wreck a session. Warm up longer and take the planned weights, but stop a little earlier. A week of bad nights is a different story; treat it like a light week and fix the sleep before you chase a PR."
+    ],
+    "more": {
+      "how": "Same wake time every day, a dark cool room, caffeine done by early afternoon, and screens down 30 minutes before bed.",
+      "why": "Your body does much of its repair and recovery while you sleep. Cut that time and you get less of it.",
+      "example": "Lifters often see top sets climb within two weeks of going from six hours a night to seven and a half."
+    },
+    "chips": [
+      "Strength suddenly dropped",
+      "When should I deload?"
+    ],
+    "related": [
+      "tk-b-073"
+    ]
+  },
+  {
+    "id": "tk-b-091",
+    "topic": "fatigue",
+    "title": "Managing fatigue so you can keep training hard",
+    "keys": [
+      "how do i manage fatigue",
+      "managing fatigue",
+      "always tired from lifting",
+      "fatigue management",
+      "too much fatigue",
+      "beat up from training",
+      "run down from lifting",
+      "accumulated fatigue",
+      "how to recover between sessions",
+      "feel burnt out lifting",
+      "training fatigue"
+    ],
+    "match": "\\b(manag(e|ing) fatigue|fatigue management|accumulated fatigue|(run down|burnt out|beat up) from (lifting|training))\\b",
+    "body": [
+      "Fatigue is the cost of hard training, and you manage it like a budget. Spend it on the lifts that matter, cut it where it buys you nothing, and pay it back with sleep, food and planned easy weeks.",
+      "In practice: keep most sets one to three reps short of failure, cap the true all-out sets to the last set of a lift, trim junk accessory volume, and take a deload when your warm-ups feel heavy for more than a week. Seven or more hours of sleep and enough protein do more for fatigue than any recovery gadget."
+    ],
+    "more": {
+      "why": "Strength shows up when fatigue is low enough to let it. Pile on too much and you are stronger than you can show.",
+      "how": "Rate each session from 1 to 10 for how beat up you feel. Three sessions in a row at 8 or higher means cut a set from every lift for a week.",
+      "example": "Squat 5 sets of 5 to failure every week leaves you fried. Same lift at 4 sets of 5 with two reps left moves up steadily for months.",
+      "mistake": "Answering fatigue with more caffeine and more volume. That digs the hole deeper."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "When should I deload?",
+      "Should I train to failure?"
+    ],
+    "related": [
+      "tk-b-073",
+      "tk-b-037"
+    ]
+  },
+  {
+    "id": "tk-b-092",
+    "topic": "accessories",
+    "title": "How to pick accessory exercises",
+    "keys": [
+      "how do i pick accessories",
+      "picking accessories",
+      "best accessories for bench",
+      "best accessories for squat",
+      "accessory exercises",
+      "what accessories should i do",
+      "accessory work",
+      "assistance exercises",
+      "accessories for deadlift",
+      "choosing accessory lifts"
+    ],
+    "match": "\\b(pick(ing)? accessor(y|ies)|accessor(y|ies) (for|work|exercises|lifts)|assistance (exercises|work)|best accessor(y|ies))\\b",
+    "body": [
+      "Accessories exist to fix the weak link in your main lifts or to build muscle that supports them. Pick them by asking where the lift fails. Bench dies off the chest: paused bench and dumbbell presses. Dies at lockout: close grip bench and triceps work. Squat folds forward: front squats and back work. Deadlift slow off the floor: paused or deficit pulls.",
+      "Then cover the basics every week: rows and pulldowns for the upper back, single leg work, hamstrings, and some core. Two or three accessories per session, 3 sets of 8 to 15, pushed hard but not to failure every set."
+    ],
+    "more": {
+      "how": "Film your heavy sets. Where the bar slows down is where the weak link lives. Choose one accessory that trains that spot.",
+      "beginner": "In your first year, keep accessories simple: rows, lunges, dumbbell presses, curls and planks. Your main lifts are the best accessories right now.",
+      "example": "Bench stuck at lockout: add close grip bench 3 sets of 6 and overhead triceps extensions 3 sets of 12 twice a week.",
+      "mistake": "Ten accessories a session. Two good ones done hard beat ten done tired."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Main lifts vs accessories",
+      "Bench press stuck for weeks"
+    ],
+    "related": [
+      "tk-b-022",
+      "tk-b-059"
+    ]
+  }
+]

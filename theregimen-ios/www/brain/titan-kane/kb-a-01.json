@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "tk-a-001",
+    "topic": "squat",
+    "title": "Setting up a back squat, from the hooks to the walkout",
+    "keys": [
+      "back squat form",
+      "how to back squat",
+      "squat setup",
+      "how do i set up for squat",
+      "how do i set up a back squat",
+      "squat walkout",
+      "unracking the squat",
+      "how to unrack a squat",
+      "where do i put the bar on my back",
+      "barbell squat form",
+      "squat technique",
+      "how to squat with a barbell",
+      "squat form check",
+      "proper squat form",
+      "sqaut form"
+    ],
+    "match": "\\b(back squat (form|setup|technique)|(set ?up|setting up|unrack\\w*|walk ?out)( for| the| a)? (back )?squat|squat (setup|walk ?out|form check)|how (do i|to) (back )?squat)\\b",
+    "body": [
+      "The squat starts before the bar moves. Set the hooks at mid chest so you unrack with a small knee bend, not a calf raise. Get under the bar centered, hands even, and pull your shoulder blades together so the bar sits on muscle, not bone.",
+      "Stand it up with both feet under the bar. Three steps back, no more: one, two, set the stance. Every extra shuffle burns energy you need for the set.",
+      "Before the first rep: big breath into your belly, brace like you are about to be punched, then break at hips and knees together. Eyes on a spot on the floor a few feet ahead. Technique first. Load comes after."
+    ],
+    "more": {
+      "why": "A sloppy unrack costs you the set before it starts. A bar placed off center or a long walkout leaves you tired and twisted under weight you have not lifted yet.",
+      "how": "Hooks at mid chest, grip even on the rings. Duck under, bar on upper back, elbows down, brace and stand straight up. Step back right, step back left, adjust. Breathe, brace, descend.",
+      "beginner": "Practice the whole setup with an empty bar for a week. Same grip, same steps, same breath every time. The setup should be boring before the weight gets interesting.",
+      "mistake": "Walking the bar out like you are moving furniture. If you take more than three steps, set up closer to the hooks and face the rack so the walkout stays short."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "High bar or low bar?",
+      "How deep should I squat?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-002",
+      "tk-a-003",
+      "tk-a-008"
+    ]
+  },
+  {
+    "id": "tk-a-002",
+    "topic": "squat",
+    "title": "High bar or low bar squat",
+    "keys": [
+      "high bar or low bar",
+      "high bar vs low bar",
+      "low bar squat",
+      "high bar squat",
+      "which squat is better high bar",
+      "should i low bar",
+      "low bar vs high bar",
+      "olympic squat vs powerlifting squat",
+      "where should the bar sit on my back",
+      "bar position squat",
+      "low bar squat form",
+      "high bar squat form",
+      "is low bar better"
+    ],
+    "match": "\\b(high[ -]?bar|low[ -]?bar)\\b",
+    "body": [
+      "Both build strong legs. Pick the one your body holds well and stay with it long enough to get good.",
+      "High bar sits on the meaty top of your traps. Torso stays more upright, knees travel forward more, quads do more of the work. It feels natural to most people and carries over to front squats and athletic work.",
+      "Low bar sits two to three inches lower, across the back of your shoulders, on the ridge of the shoulder blade. You lean forward more, hips do more, and most people move a bit more weight. It asks more of your shoulders and wrists to hold.",
+      "New to the bar? Start high bar. Want to compete in powerlifting later? Learn low bar once the basic squat is solid."
+    ],
+    "more": {
+      "why": "Bar position changes where your torso has to be to keep the bar over midfoot. Lower bar, more forward lean, more hip. Higher bar, more upright, more knee.",
+      "how": "For low bar, pull your shoulder blades tight, find the bony ridge across the back of the shoulder, and set the bar just below it. Grip a bit wider than high bar, wrists straight, thumbs over the bar if your elbows complain.",
+      "mistake": "Switching every month. Each switch resets your groove. Choose one and stay with it for at least three months.",
+      "advanced": "Many lifters keep both. Low bar for the heavy work, high bar or front squats as a second squat in the week for quads and upright strength."
+    },
+    "chips": [
+      "My elbows hurt holding the bar",
+      "Front squat or back squat?"
+    ],
+    "related": [
+      "tk-a-001",
+      "tk-a-020",
+      "tk-a-014"
+    ]
+  },
+  {
+    "id": "tk-a-003",
+    "topic": "squat",
+    "title": "How deep to squat",
+    "keys": [
+      "how deep should i squat",
+      "how deep to squat",
+      "squat depth",
+      "is parallel deep enough",
+      "ass to grass",
+      "atg squat",
+      "below parallel squat",
+      "half squats",
+      "are half squats bad",
+      "should i squat to parallel",
+      "deep squats bad for knees",
+      "how low should i squat",
+      "what counts as parallel",
+      "quarter squat"
+    ],
+    "match": "\\b(squat depth|how (deep|low) (should i|to|do i|do you) (go|squat)|squat\\w* (to |below )?parallel|break(ing)? parallel|ass to grass|atg squats?|(half|quarter) squats?)\\b",
+    "body": [
+      "Deep enough that your hip crease drops just below the top of your knee. That is parallel, and for most people it is the standard. Deeper is fine if your back stays neutral and your heels stay down.",
+      "Depth is earned with control, not dropped into. Go as low as you can while your lower back holds its position. If it rounds hard at the bottom, that is your depth for now. Work there and build it.",
+      "Half squats load you heavy and train you short. Use partials on purpose, never by accident. Healthy knees handle deep squats well when the load is earned."
+    ],
+    "more": {
+      "why": "Full depth trains the whole range: quads, glutes and adductors all work hard at the bottom. Strength you build in a range is strongest in that range.",
+      "how": "Film from the side at hip height. Pause a rep at the bottom and check: hip crease below knee top. If you cannot get there, try a slightly wider stance, toes out a bit more, or a small heel lift.",
+      "beginner": "Squat to a box or bench that puts you at parallel. Touch it lightly, do not sit and relax. It teaches you where depth is without guessing.",
+      "mistake": "Cutting depth as the weight climbs. If your heavy sets are four inches higher than your warm-ups, the weight is ahead of you."
+    },
+    "chips": [
+      "What is butt wink?",
+      "Can I squat to a box?",
+      "Do knees go past toes?"
+    ],
+    "related": [
+      "tk-a-004",
+      "tk-a-017",
+      "tk-a-008"
+    ]
+  },
+  {
+    "id": "tk-a-004",
+    "topic": "squat",
+    "title": "Butt wink at the bottom of the squat",
+    "keys": [
+      "butt wink",
+      "what is butt wink",
+      "how do i fix butt wink",
+      "buttwink",
+      "pelvis tucks under at the bottom",
+      "lower back rounds at bottom of squat",
+      "tailbone tucks squat",
+      "pelvic tilt squat",
+      "is butt wink bad",
+      "butt wink fix",
+      "hips tuck under squat",
+      "back rounds at bottom of squat"
+    ],
+    "match": "\\b(butt ?wink|(pelvis|hips?|tailbone|butt) (tucks?|tucking|rounds?|rolls?) under|(lower )?back rounds? (at|in) the bottom)\\b",
+    "body": [
+      "Butt wink is your pelvis tucking under at the bottom of the squat, which rounds your lower back. A little, with light weight, is common and not worth panic. A lot, under heavy load, is worth fixing.",
+      "Find where it starts. Squat with an empty bar and stop an inch above that point. That is your working depth for now.",
+      "Then fix the cause. Brace harder before you descend and keep it all the way down. Widen your stance and turn your toes out 15 to 30 degrees.",
+      "If your ankles are stiff, a small heel lift (lifting shoes or a pair of small plates under the heels) often cleans it up. Rebuild depth slowly."
+    ],
+    "more": {
+      "why": "Under load, the spine handles force best in a neutral, braced position. A lower back that rounds at the bottom, rep after rep, shifts stress onto tissue that is not built to take it heavy.",
+      "how": "Film from the side. Goblet squat to a box at the depth where you stay neutral. Lower the box an inch every week or two as long as your back holds.",
+      "mistake": "Stretching your hamstrings to fix it. Butt wink is usually about stance, ankle range, bracing and depth. The hamstrings barely change length in a squat.",
+      "beginner": "Do not chase depth past where your back holds. Squat to that point, own it, and let depth come over weeks."
+    },
+    "chips": [
+      "Do lifting shoes help my squat?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-003",
+      "tk-a-008"
+    ]
+  },
+  {
+    "id": "tk-a-005",
+    "topic": "squat",
+    "title": "Knees caving in when you squat",
+    "keys": [
+      "knees cave in squat",
+      "knees caving in",
+      "knee valgus",
+      "knees go in on squat",
+      "knees buckle in when i squat",
+      "knees collapse squat",
+      "how do i stop my knees caving",
+      "knees in on the way up",
+      "knees cave",
+      "knee cave",
+      "knees coming in",
+      "knees knock together squat"
+    ],
+    "match": "\\b(knees? (cav(e|es|ing)|buckl\\w*|collaps\\w*|knock\\w*|go(ing)? in|coming in)|knee valgus|valgus)\\b",
+    "body": [
+      "Knees should track in line with your toes, down and up. If they drift in, usually on the way up, the weight is ahead of your control.",
+      "Cue it: spread the floor with your feet. Screw your feet into the ground without moving them. Keep pressure across the whole foot, big toe included. Knees follow the second and third toes.",
+      "Drop the load 10 to 20 percent and own every rep. Add pause squats, two seconds at the bottom, knees pushed out. Goblet squats help too: the bell in front teaches you to sit between your hips.",
+      "A small inward drift out of the hole on a max effort is common. On every rep of every set, it is a fault."
+    ],
+    "more": {
+      "why": "Caving shifts load away from your hips and onto the inside of the knee. Your glutes and adductors should be doing that work.",
+      "how": "Set stance about shoulder width, toes out 15 to 30 degrees. Before each rep, grip the floor with your feet and push your knees out until they line up with your toes. Hold that line the whole rep.",
+      "mistake": "Shoving the knees so far out you roll onto the outside of your foot. Knees over toes, not past them to the outside.",
+      "beginner": "Use a light goblet squat and a phone camera from the front. Watch the knees. Slow down on the way up."
+    },
+    "chips": [
+      "Why do my knees hurt squatting?",
+      "Should I do pause squats?",
+      "How wide should my squat stance be?"
+    ],
+    "related": [
+      "tk-a-006",
+      "tk-a-008",
+      "tk-a-018"
+    ]
+  },
+  {
+    "id": "tk-a-006",
+    "topic": "squat",
+    "title": "Knees hurt when you squat",
+    "keys": [
+      "knees hurt squatting",
+      "knee pain squat",
+      "knees hurt when i squat",
+      "squats hurt my knees",
+      "knee pain after squats",
+      "why do my knees hurt squatting",
+      "sore knees from squats",
+      "squat knee pain",
+      "knee hurts at bottom of squat",
+      "front of knee hurts squat",
+      "are squats bad for your knees",
+      "squats bad for knees"
+    ],
+    "match": "\\b(knee\\w* (hurt|pain|ache|sore)\\w*[^.?!]{0,30}squat|squat\\w*[^.?!]{0,30}(knee\\w* (hurt|pain|ache|sore)|hurt\\w* (my )?knee)|squats? (are )?bad for (your |my |the )?knees?)",
+    "body": [
+      "Squats are not bad for knees. Bad squats and big jumps in load are. Healthy knees are built by squatting well, not by avoiding it.",
+      "Check four things: knees tracking over toes, not caving; weight over midfoot, not rolling onto your toes; load added slowly, not ten pounds a session forever. And a real warm-up, an empty bar set and a few climbing sets before working weight.",
+      "While it settles, train in the range that does not hurt. Box squat to a pain-free height, slow the lowering, drop the weight. Knee sleeves keep the joint warm. They do not fix the cause.",
+      "Sharp pain, swelling, locking, the knee giving way, or pain that gets worse week to week: stop squatting and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "Knee pain from squatting is usually a load problem, too much too soon, or a tracking problem. Both are fixable. Pushing through pain usually just makes it louder.",
+      "how": "Cut load by 20 to 30 percent. Squat to a box at pain-free depth for two weeks. Add 2 to 3 sets of slow step-ups or split squats. Lower the box as the knees settle.",
+      "mistake": "Stopping leg training entirely. Rest alone rarely fixes it. Load the knee in a range it tolerates and build back.",
+      "home": "Slow bodyweight squats to a chair, three seconds down, and wall sits at a pain-free angle keep the legs working until you are back under the bar."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Do knee sleeves actually help?",
+      "Can I squat to a box?",
+      "Knees caving in on squats"
+    ],
+    "related": [
+      "tk-a-005",
+      "tk-a-017",
+      "tk-a-007"
+    ]
+  },
+  {
+    "id": "tk-a-007",
+    "topic": "squat",
+    "title": "Knees past your toes is fine",
+    "keys": [
+      "knees past toes",
+      "knees over toes",
+      "can my knees go past my toes",
+      "is it bad if knees go over toes",
+      "do knees go past toes",
+      "knees going past toes squat",
+      "knee over toe",
+      "knees too far forward squat",
+      "knees forward in squat",
+      "should my knees pass my toes"
+    ],
+    "match": "\\b(knees? (go(ing|es)? )?(past|over|beyond|in front of) (my |your |the )?toes?|knees? too far forward)\\b",
+    "body": [
+      "Your knees can go past your toes. For most people, in a full squat, they have to. Try to sit deep without it and you will fall over backward or fold forward at the hips.",
+      "What matters is that the knee tracks in line with the foot and your heel stays down. Weight over midfoot, knees over toes, not caving in. That is the rule.",
+      "Taller lifters and people with long thighs will see more knee travel. That is leverage, not a fault. If your heel lifts or you shift onto your toes, that is the fault. Fix that with stance, ankle range or a small heel lift."
+    ],
+    "more": {
+      "why": "The old rule looked only at stress on the knee and ignored the hips. Restrict the knee and you push more load onto the lower back instead.",
+      "mistake": "Forcing your shins vertical in a squat. It turns the squat into a good morning and makes depth harder.",
+      "beginner": "Squat to a box and let your knees go where they go, as long as your heels stay planted and the knees point over your toes."
+    },
+    "chips": [
+      "My heels come up when I squat",
+      "Do lifting shoes help my squat?"
+    ],
+    "related": [
+      "tk-a-006",
+      "tk-a-009"
+    ]
+  },
+  {
+    "id": "tk-a-008",
+    "topic": "squat",
+    "title": "Squat stance width and toe angle",
+    "keys": [
+      "squat stance",
+      "how wide should my squat stance be",
+      "stance width squat",
+      "feet position squat",
+      "toes out squat",
+      "how far apart feet squat",
+      "wide stance squat",
+      "narrow stance squat",
+      "should my toes point forward squat",
+      "foot angle squat",
+      "where do i put my feet squat",
+      "squat foot position"
+    ],
+    "match": "\\b(squat\\w* (stance|foot|feet|toes)|stance width|how wide[^.?!]{0,20}squat|(feet|foot|toes?)[^.?!]{0,20}squat\\w*)",
+    "body": [
+      "Start with your heels about shoulder width and toes turned out 15 to 30 degrees. That works for most people. Then adjust from there.",
+      "Find yours: drop into a bodyweight squat a few times with slightly different widths and angles. The stance where you hit depth with a flat back, heels down and knees over toes is your stance.",
+      "Longer thighs and stiff hips usually like wider and more turned out. Shorter thighs and good ankles often like narrower. Low bar tends to go a touch wider than high bar.",
+      "Once you find it, mark it. Same stance every rep, every session."
+    ],
+    "more": {
+      "why": "Turning the toes out opens the hips so you can sit between them instead of folding over. It also lets the knees track out naturally.",
+      "how": "Stand under the bar, heels at shoulder width. Turn the toes out until your knees line up with them when you sit down. Take a phone photo of your feet so you can repeat it.",
+      "mistake": "Toes straight forward with a wide stance. The knees then have nowhere to go but in."
+    },
+    "chips": [
+      "Knees caving in on squats",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "tk-a-001",
+      "tk-a-003",
+      "tk-a-005"
+    ]
+  },
+  {
+    "id": "tk-a-009",
+    "topic": "squat",
+    "title": "Heels coming up or falling forward in the squat",
+    "keys": [
+      "my heels come up when i squat",
+      "heels lift squat",
+      "heels coming off the ground squat",
+      "falling forward squat",
+      "squat turns into good morning",
+      "chest falls forward squat",
+      "hips rise first squat",
+      "leaning too far forward squat",
+      "good morning squat",
+      "weight on my toes squat",
+      "tipping forward when i squat",
+      "heels rise squatting",
+      "chest caves squat"
+    ],
+    "match": "\\b(heels? (come|comes|coming|lift|lifts|lifting|rise|rises|rising) (up|off)|hips? (rise|rises|rising|shoot\\w*|come up|comes up)[^.?!]{0,25}squat\\w*|squat\\w*[^.?!]{0,25}(fall\\w* forward|tip\\w* forward|good ?morning|chest (falls|drops|caves))|(fall\\w*|tip\\w*) forward[^.?!]{0,25}squat)",
+    "body": [
+      "Two faults, one cause: the weight drifted off midfoot. Heels lift when the load shifts forward onto your toes. The chest drops and the squat turns into a good morning when your hips rise faster than your shoulders.",
+      "Fix the foot first. Whole foot planted, pressure over midfoot, toes able to wiggle. If your ankles are stiff, a lifting shoe or a small plate under each heel buys range.",
+      "Then the drive. Out of the bottom, lead with your upper back into the bar. Chest and hips rise together.",
+      "Pause squats and front squats teach this better than any cue. Drop the weight until you own it."
+    ],
+    "more": {
+      "why": "The bar wants to stay over midfoot. When you tip forward, your back takes the load your legs should be pushing, and the rep gets harder and riskier.",
+      "how": "Film from the side. Picture a vertical line from midfoot. The bar should travel up and down that line. Where it drifts forward is where you lose position.",
+      "mistake": "Trying to fix it by sitting back harder. That pushes your hips further behind and makes the forward lean worse.",
+      "advanced": "If it only happens on heavy sets, your quads or upper back are the limit. Front squats and paused squats at moderate weight build both."
+    },
+    "chips": [
+      "Do lifting shoes help my squat?",
+      "Front squat or back squat?",
+      "What is the right squat bar path?"
+    ],
+    "related": [
+      "tk-a-023",
+      "tk-a-014",
+      "tk-a-018"
+    ]
+  },
+  {
+    "id": "tk-a-010",
+    "topic": "squat",
+    "title": "Lower back sore or tight after squats",
+    "keys": [
+      "lower back hurts after squats",
+      "lower back sore after squatting",
+      "back pain from squats",
+      "squats hurt my lower back",
+      "low back tight after squat",
+      "back hurts when i squat",
+      "lower back pain squat",
+      "my back is sore after leg day",
+      "squat back pain",
+      "squats hurt my back"
+    ],
+    "match": "\\b((lower |low )?back[^.?!]{0,25}(after|from|when i|during)[^.?!]{0,10}squat\\w*|squat\\w*[^.?!]{0,20}(hurt|tweak)\\w* (my )?(lower |low )?back|squat back pain)",
+    "body": [
+      "Some tired back muscles after heavy squats are normal. Your back works hard to hold you upright under the bar. Dull, even, and gone in a day or two: that is training. Sharp, one-sided, or running down your leg: that is not.",
+      "If it is more than tired, check these. Bracing that leaks halfway down. Butt wink under heavy load.",
+      "Chest dropping out of the hole. Depth you are forcing past what your back holds.",
+      "Back off the load 20 percent and film every set for two weeks. Swap back squats for front squats, goblet squats or a belt squat while it calms down. Pain that shoots down a leg, numbness or tingling, or pain that is getting worse: stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The lower back's job in a squat is to stay still under load. When it moves, rounding or arching hard, it takes stress that should be on your hips and legs.",
+      "how": "Breathe into your belly, brace all the way around, belt optional for heavy sets. Hold that brace from the unrack until the bar is back in the hooks.",
+      "mistake": "Stretching the back hard before squatting to loosen it. Warm it up with light sets instead."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "What is butt wink?",
+      "How do I brace for a squat?",
+      "Squat alternatives for a sore back"
+    ],
+    "related": [
+      "tk-a-004",
+      "tk-a-024",
+      "tk-a-009"
+    ]
+  },
+  {
+    "id": "tk-a-011",
+    "topic": "squat",
+    "title": "Front squat setup and the rack position",
+    "keys": [
+      "front squat form",
+      "how to front squat",
+      "how do i front squat",
+      "front squat setup",
+      "front squat rack position",
+      "front rack",
+      "clean grip front squat",
+      "how to hold the bar front squat",
+      "front squat grip",
+      "cross arm front squat",
+      "front squat technique",
+      "bar position front squat"
+    ],
+    "match": "\\b(front squat\\w* (form|setup|technique|grip)|how (do i|to) (do a )?front squat|front rack position|clean grip|cross[ -]?arm(ed)? (front )?squat)\\b",
+    "body": [
+      "The bar rides on your shoulders, not your hands. Step under it so it sits on the meat of your front delts, pressed against your throat. Elbows up high, upper arms near parallel to the floor.",
+      "Clean grip: hands just outside shoulder width, two or three fingers under the bar, palms open. You do not need a full grip. Fingers hold it in place, shoulders carry it.",
+      "Cross-arm is fine if your wrists will not allow the clean grip. Arms crossed, hands on top of the bar, elbows high. Then squat straight down. Torso upright, elbows leading up out of the hole."
+    ],
+    "more": {
+      "why": "A front squat forces an upright torso. Lose the elbows and the bar rolls forward. It punishes bad position instantly, which is why it teaches it so well.",
+      "how": "Unrack, two steps back, brace. Elbows up before you descend. Sit straight down between your heels. Drive elbows up first out of the bottom.",
+      "beginner": "Practice the rack with an empty bar. Hold it for 20 seconds standing, elbows up. Do that before you add a single plate.",
+      "example": "If your back squat is 225 for 5, expect a front squat somewhere around 70 to 85 percent of that, roughly 160 to 190. Start lighter. Position first."
+    },
+    "chips": [
+      "My wrists hurt in the front rack",
+      "Elbows drop on front squats",
+      "Front squat or back squat?"
+    ],
+    "related": [
+      "tk-a-012",
+      "tk-a-013",
+      "tk-a-014"
+    ]
+  },
+  {
+    "id": "tk-a-012",
+    "topic": "squat",
+    "title": "Wrists hurt holding the front squat rack",
+    "keys": [
+      "my wrists hurt in the front rack",
+      "front squat wrist pain",
+      "wrists hurt front squat",
+      "cant hold front rack",
+      "front rack wrist mobility",
+      "front squat hurts wrists",
+      "front squat wrist",
+      "wrist pain clean grip",
+      "cant get my elbows up front squat",
+      "front squat with straps",
+      "front rack mobility"
+    ],
+    "match": "\\b(wrists?[^.?!]{0,25}(front (squat|rack)|clean grip)|(front (squat|rack)|clean grip)[^.?!]{0,25}wrists?|front rack mobility|front squat\\w* (with )?straps)",
+    "body": [
+      "Your wrists are doing a job your shoulders should do. The bar sits on your delts. Fingers only keep it from rolling. Open the hand, loosen the grip, let the bar rest on two or three fingertips.",
+      "Still pinching? Widen the grip an inch or two. Or loop lifting straps around the bar and hold the strap ends, elbows high. Or go cross-arm.",
+      "Tight lats and triceps usually stop the elbows from rising, which pushes the stress into the wrist. Spend a minute before front squats on a lat stretch against a rack and a triceps stretch overhead. Within a few weeks most people find the position."
+    ],
+    "more": {
+      "why": "When the elbows cannot rise, the wrist bends back further to keep the hand on the bar. Fix the elbows and the wrists usually stop complaining.",
+      "how": "Strap trick: wrap a lifting strap around the bar on each side, hold the tails just outside your shoulders, drive the elbows up. Same rack, almost no wrist bend.",
+      "mistake": "White-knuckle gripping the bar. A full grip forces the wrist back and pulls the elbows down."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Elbows drop on front squats",
+      "How do I use lifting straps?"
+    ],
+    "related": [
+      "tk-a-011",
+      "tk-a-013"
+    ]
+  },
+  {
+    "id": "tk-a-013",
+    "topic": "squat",
+    "title": "Elbows dropping and upper back rounding on front squats",
+    "keys": [
+      "elbows drop on front squats",
+      "elbows dropping front squat",
+      "upper back rounds front squat",
+      "front squat bar rolls forward",
+      "losing the bar front squat",
+      "front squat falling forward",
+      "front squat upper back",
+      "dropping the bar front squat",
+      "front squat chest falls",
+      "elbows down front squat",
+      "front squats hard to keep upright"
+    ],
+    "match": "\\b(elbows? (drop\\w*|down|falling|fall)[^.?!]{0,20}front|front squat\\w*[^.?!]{0,25}(elbows? (drop|down|fall)|upper back|rolls? forward|falling forward|chest))",
+    "body": [
+      "Elbows down means the bar rolls forward and your upper back rounds with it. The cue is simple: elbows up, the whole rep, hardest out of the bottom.",
+      "Think of driving your elbows to the ceiling as you stand. Lead with them. Your chest follows, the bar stays on the shelf.",
+      "If it only happens on the last reps, your upper back is the weak link. Cut the reps per set to three to five, keep them clean, and stop the set when the elbows sink. Add pause front squats at lighter weight: two seconds in the hole, elbows high. Position first, then load."
+    ],
+    "more": {
+      "why": "The front squat is honest. The moment your upper back loses, the bar tells you by rolling forward. The fix is upper back strength and the habit of leading with the elbows.",
+      "how": "Before each rep: breathe, brace, elbows up. At the bottom: elbows up. Standing up: elbows up first. Repetition makes it automatic.",
+      "mistake": "High-rep front squats. Sets of 10 almost always end with collapsed elbows. Keep them lower rep and crisp."
+    },
+    "chips": [
+      "My wrists hurt in the front rack",
+      "Should I do pause squats?"
+    ],
+    "related": [
+      "tk-a-011",
+      "tk-a-012",
+      "tk-a-018"
+    ]
+  },
+  {
+    "id": "tk-a-014",
+    "topic": "squat",
+    "title": "Front squat or back squat",
+    "keys": [
+      "front squat or back squat",
+      "front squat vs back squat",
+      "should i do front squats",
+      "is front squat better than back squat",
+      "front squats instead of back squats",
+      "back squat vs front squat",
+      "which squat is best",
+      "front squat for quads",
+      "are front squats easier on the back",
+      "best squat variation",
+      "front or back squat"
+    ],
+    "match": "\\b(front (squat\\w* )?(or|vs\\.?|versus|instead of) back|back (squat\\w* )?(or|vs\\.?|versus) front|should i (do|be doing) front squats?|which squat (is|should))",
+    "body": [
+      "Back squat moves the most weight. Front squat demands the best position. Both earn a place.",
+      "Choose the back squat when the goal is overall leg and hip strength and the most load you can handle. Choose the front squat when you want more quads, a more upright torso, less load on the lower back, or you are an athlete who needs to stay upright under weight.",
+      "Many lifters do both: back squat as the main lift, front squat as the second squat of the week at lighter weight. If your back is cranky, the front squat often lets you keep squatting while it settles, because it uses less weight for the same leg work."
+    ],
+    "more": {
+      "why": "The bar in front forces an upright torso, which puts more work on the knees and quads and less shear on the lower back. The bar on the back lets your hips join in, so you move more.",
+      "mistake": "Judging the front squat by the number. It will be lighter. That is the point, not a weakness.",
+      "example": "Main day: back squat. A second day later in the week: front squat at a weight you can move for clean sets of 3 to 5. Same week, two squats, different jobs."
+    },
+    "chips": [
+      "How do I front squat?",
+      "Squat alternatives for a sore back"
+    ],
+    "related": [
+      "tk-a-011",
+      "tk-a-024",
+      "tk-a-002"
+    ]
+  },
+  {
+    "id": "tk-a-015",
+    "topic": "squat",
+    "title": "How to goblet squat",
+    "keys": [
+      "goblet squat",
+      "how to goblet squat",
+      "goblet squat form",
+      "dumbbell goblet squat",
+      "kettlebell goblet squat",
+      "goblet squat technique",
+      "how to hold a goblet squat",
+      "goblet squats for beginners",
+      "how do i do a goblet squat",
+      "goblet sqaut"
+    ],
+    "match": "\\b(how (do i|to) (do a )?goblet|goblet (squat|sqaut)\\w* (form|technique|how|for beginners)|(dumbbell|kettlebell) goblet)",
+    "body": [
+      "Best squat teacher in the gym. Hold one dumbbell vertically against your chest, hands cupped under the top end, or a kettlebell by the horns. Elbows point down.",
+      "Feet about shoulder width, toes out a little. Breathe, brace, and sit straight down between your heels, letting your elbows slide inside your knees at the bottom. Chest tall, then stand up by pushing the floor away.",
+      "The weight in front pulls you upright and makes you sit between your hips instead of folding over. Most people find depth here first. Sets of 8 to 12, slow on the way down, crisp on the way up."
+    ],
+    "more": {
+      "why": "The load in front acts as a counterbalance. It lets you squat deep with an upright torso and teaches the pattern before a bar ever touches your back.",
+      "how": "Bell at chest, brace. Three seconds down, elbows touching the inside of your knees and pushing them out. One second pause. Drive up.",
+      "beginner": "Start with a 15 to 25 lb dumbbell. Own sets of 10 before you think about a barbell.",
+      "home": "A backpack loaded with books, held at the chest, works the same way. So does a full jug of water."
+    },
+    "chips": [
+      "Goblet squats feel too easy now",
+      "How deep should I squat?"
+    ],
+    "related": [
+      "tk-a-016",
+      "tk-a-003"
+    ]
+  },
+  {
+    "id": "tk-a-016",
+    "topic": "squat",
+    "title": "When goblet squats get too easy",
+    "keys": [
+      "goblet squats feel too easy now",
+      "goblet squat too light",
+      "outgrew goblet squats",
+      "heaviest dumbbell too light goblet",
+      "when do i move from goblet to barbell",
+      "goblet squat to barbell squat",
+      "goblet squats too easy",
+      "what after goblet squats",
+      "goblet squat progression",
+      "switch from goblet to back squat"
+    ],
+    "match": "\\bgoblet[^.?!]{0,30}(too (light|easy)|progress\\w*|outgr\\w*|move on|switch|to (barbell|back squat))",
+    "body": [
+      "Good. That means the pattern is yours. Time to load it differently.",
+      "Once you can do clean sets of 10 with a dumbbell around a third to half your body weight, or your arms give out before your legs, move to a barbell. Front squat or back squat, starting with the empty bar. The pattern carries over.",
+      "Before you switch, squeeze more from the goblet. Slow the lowering to four seconds. Add a three second pause at the bottom.",
+      "Do one and a half reps: down, halfway up, down again, all the way up. The same dumbbell gets heavy fast."
+    ],
+    "more": {
+      "why": "The goblet squat is limited by how much you can hold, not by how much your legs can push. Past a point, your arms are the weak link, not your quads.",
+      "how": "First barbell session: empty bar, 3 sets of 8, same depth and same brace as your goblets. Add weight in small steps once every rep looks the same.",
+      "home": "No barbell? Hold two dumbbells at your shoulders, or move to split squats with a dumbbell in each hand. Single-leg work makes the same weight heavy."
+    },
+    "chips": [
+      "How do I set up a back squat?",
+      "How to do Bulgarian split squats"
+    ],
+    "related": [
+      "tk-a-015",
+      "tk-a-001"
+    ]
+  },
+  {
+    "id": "tk-a-017",
+    "topic": "squat",
+    "title": "Box squats: how and when",
+    "keys": [
+      "box squat",
+      "can i squat to a box",
+      "box squats",
+      "how to box squat",
+      "squat to a bench",
+      "are box squats good",
+      "box squat form",
+      "squat to box",
+      "box squat vs regular squat",
+      "squatting to a chair"
+    ],
+    "match": "\\b(box squat\\w*|squat\\w* to (a )?(box|bench|chair))\\b",
+    "body": [
+      "Two kinds of box squat. Touch-and-go to a box is a depth target. You tap it lightly and come up. Great for learning depth and squatting around sore knees.",
+      "A true box squat is a pause. Sit back onto the box, stay braced, release your hip flexors for a second without relaxing your back, then drive up. It builds power from a dead stop and teaches you to sit back.",
+      "Box height: at or just below parallel for most work. Higher to work around an injury, never as a way to skip depth forever. Do not crash onto it.",
+      "Control down, sit, stand. Your spine should never take a drop onto a hard box under load."
+    ],
+    "more": {
+      "why": "The box removes the bounce and gives you a consistent depth. Every rep goes to the same spot, which makes it easy to track and hard to cheat.",
+      "how": "Box behind you, feet a touch wider than normal. Brace, push hips back, sit until you feel the box. Pause one second, stay tight, drive up.",
+      "mistake": "Plopping down and rocking back to get momentum. That turns a strength tool into a spine hazard.",
+      "beginner": "Squat to a bench or a sturdy chair with bodyweight first. If you can sit to it and stand without rocking, you are ready to add load."
+    },
+    "chips": [
+      "How deep should I squat?",
+      "Should I do pause squats?"
+    ],
+    "related": [
+      "tk-a-003",
+      "tk-a-018"
+    ]
+  },
+  {
+    "id": "tk-a-018",
+    "topic": "squat",
+    "title": "Pause squats: what they fix",
+    "keys": [
+      "should i do pause squats",
+      "pause squats",
+      "paused squats",
+      "pause squat",
+      "how long to pause squat",
+      "what do pause squats do",
+      "pause squat weight",
+      "pause at the bottom of squat",
+      "weak out of the hole",
+      "stuck at the bottom of squat",
+      "cant get out of the hole"
+    ],
+    "match": "\\b(paused? squats?|pause at the bottom|out of the hole|stuck (at|in) the (bottom|hole))\\b",
+    "body": [
+      "Pause squats fix the bottom. Weak out of the hole, losing position at depth, bouncing to get up: pause them.",
+      "Squat down, hold two to three seconds at full depth, stay braced and tight, then drive up without a bounce. You start from zero speed, so your legs do all the work and your position has to hold.",
+      "Expect to use about 70 to 85 percent of your normal squat weight for the same reps. Sets of 2 to 5. If your chest drops or your back loosens during the pause, the weight is too heavy. Earned, not attempted."
+    ],
+    "more": {
+      "why": "The stretch reflex out of the bottom hides weakness. Take it away and you build strength exactly where most squats fail.",
+      "how": "Count the pause in your head: one thousand one, one thousand two. Hold the brace, knees out, then drive straight up.",
+      "mistake": "Relaxing in the pause. You should be as tight at second two as at second zero."
+    },
+    "chips": [
+      "What is the right squat bar path?",
+      "Knees caving in on squats"
+    ],
+    "related": [
+      "tk-a-017",
+      "tk-a-009"
+    ]
+  },
+  {
+    "id": "tk-a-019",
+    "topic": "squat",
+    "title": "Shoulders hurt holding the squat bar",
+    "keys": [
+      "shoulders hurt holding squat bar",
+      "shoulder pain back squat",
+      "cant get my hands on the bar squat",
+      "shoulder mobility squat",
+      "safety squat bar",
+      "ssb squat",
+      "yoke bar squat",
+      "squat with bad shoulders",
+      "shoulder hurts when i squat",
+      "squat without holding the bar",
+      "squat bar hurts shoulders"
+    ],
+    "match": "\\b(safety squat bar|ssb|yoke bar|shoulders? (hurt|pain|ache)\\w*[^.?!]{0,25}squat|squat\\w*[^.?!]{0,25}(bad|sore|hurt\\w*) shoulders?)",
+    "body": [
+      "Your legs should not wait on your shoulders. If holding a back squat hurts, change how the bar is held, not whether you squat.",
+      "First, widen your grip. A wide grip with thumbs over the bar takes most of the strain off the shoulder. Raise the bar to a high bar position. That alone fixes it for many people.",
+      "Still sore? Use a safety squat bar if your gym has one: padded yoke, handles in front, hands barely needed. Front squats, goblet squats and belt squats load the legs with almost no shoulder rotation. Sharp shoulder pain, or pain that wakes you at night: get it seen by a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "A low bar squat with a narrow grip asks for a lot of shoulder rotation. Tight or irritated shoulders hate that position under load.",
+      "how": "Grip as wide as you need. Thumbs over the bar. Pull the bar down into your back with your lats. Hands just keep it in place.",
+      "mistake": "Forcing a narrow grip because you saw a strong lifter do it. Your shoulders, your grip."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "My elbows hurt holding the bar",
+      "Front squat or back squat?"
+    ],
+    "related": [
+      "tk-a-020",
+      "tk-a-014",
+      "tk-a-024"
+    ]
+  },
+  {
+    "id": "tk-a-020",
+    "topic": "squat",
+    "title": "Elbows or wrists hurt holding the back squat",
+    "keys": [
+      "my elbows hurt holding the bar",
+      "elbow pain squat",
+      "elbows hurt from low bar",
+      "wrist pain back squat",
+      "wrists hurt squatting",
+      "low bar elbow pain",
+      "squat elbow pain",
+      "elbows sore after squats",
+      "holding the squat bar hurts my wrists",
+      "squat grip hurts"
+    ],
+    "match": "\\b(elbows?[^.?!]{0,25}(squat\\w*|low ?bar|holding the bar)|(back squat\\w*|low ?bar)[^.?!]{0,25}(elbows?|wrists?)|wrists? (hurt|pain)\\w* (when )?(back )?squat\\w*)",
+    "body": [
+      "The bar belongs on your back, not in your hands. When your wrists bend back and your elbows point up behind you, your arms end up holding the weight. Elbows and wrists pay for it.",
+      "Fix: wrists straight, in line with your forearm. Thumbs over the bar if that helps. Grip a little wider.",
+      "Elbows down under the bar, not flared up and back. Pull the bar into your back with your lats so it is pinned there by tension, not by your hands.",
+      "Low bar is the usual culprit. If it still hurts, move the bar up to a high bar position for a few weeks. Wrist wraps can help hold the wrist neutral. Elbow pain that lingers for weeks: get it looked at by a physical therapist."
+    ],
+    "more": {
+      "why": "In low bar, the bar sits lower and wants to slide down. If your upper back is loose, your hands push up to hold it, and that force runs through the wrist and inner elbow.",
+      "how": "Squeeze shoulder blades together before you get under. Set the bar, then pull it down hard like a lat pulldown. Hands loose enough you could open your fingers.",
+      "mistake": "Bending the wrists back to cradle the bar. That is how elbows start to ache after every squat day."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Do wrist wraps help?",
+      "High bar or low bar?"
+    ],
+    "related": [
+      "tk-a-002",
+      "tk-a-019"
+    ]
+  },
+  {
+    "id": "tk-a-021",
+    "topic": "squat",
+    "title": "Hips shifting to one side when you squat",
+    "keys": [
+      "hip shift squat",
+      "hips shift to one side squat",
+      "squat shifting to the side",
+      "lean to one side squat",
+      "uneven squat",
+      "squat crooked",
+      "hip shift out of the hole",
+      "squat twisting",
+      "shifting weight to one leg squat",
+      "squat leaning sideways"
+    ],
+    "match": "\\b(hip shift\\w*|hips? shift\\w*|shift\\w* to (one|the) side|squat\\w*[^.?!]{0,20}(crooked|uneven|lopsided|twist\\w*|sideways))",
+    "body": [
+      "Most people have a small shift. You only need to fix it if it is getting bigger, it gets worse as the weight climbs, or something starts to hurt.",
+      "Check the simple things first: bar centered on your back, hands even on the rings, feet even with the same toe angle both sides. Film from the front. A lot of shifts are a setup that is a half inch off.",
+      "Then build the weak side. Split squats, step-ups and single-leg work, starting with your weaker leg and matching its reps with the stronger one. Lighter squats with a slow lowering and a pause at the bottom. Stay in the range where the shift does not happen and add weight only when it stays straight."
+    ],
+    "more": {
+      "why": "A shift usually means one hip, ankle or leg is doing more of the work. It is often stiffness or a strength difference, sometimes an old injury. Under heavy load, small asymmetries grow.",
+      "how": "Film from behind at hip height. Mark the center of the bar. Watch whether the bar tilts or your hips slide. Note which way and at what point in the rep.",
+      "mistake": "Forcing yourself to sit straight with heavy weight. Fix it light and slow, then load it."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "One side stronger than the other",
+      "How to do Bulgarian split squats"
+    ],
+    "related": [
+      "tk-a-005"
+    ]
+  },
+  {
+    "id": "tk-a-022",
+    "topic": "squat",
+    "title": "The squat bar hurts your neck or back",
+    "keys": [
+      "squat bar hurts my neck",
+      "bar hurts my back squat",
+      "squat pad",
+      "should i use a squat pad",
+      "neck pad squat",
+      "bar digging into neck",
+      "squat bar bruise",
+      "neck pain from squat bar",
+      "bar on my spine hurts",
+      "manta ray squat",
+      "bar hurts my traps"
+    ],
+    "match": "\\b(squat pad|neck pad|bar (hurts? my (neck|back|traps|spine)|dig\\w* into (my )?(neck|spine|back))|neck (pain|hurts?)[^.?!]{0,20}(bar|squat)|manta ray)",
+    "body": [
+      "If the bar sits on bone, it hurts. It should sit on muscle. Squeeze your shoulder blades together hard before you get under the bar.",
+      "That builds a shelf of upper back muscle. Set the bar on that shelf, below the bony knob at the base of your neck.",
+      "Skip the pad. It puts the bar higher, makes it roll, and hides a setup problem. The bar should be pinned by your upper back tension, not cushioned by foam.",
+      "A bit of tenderness in your first weeks is normal while your back adapts. Bruising, sharp pain, or numbness in your arms: stop, check your bar position, and get it looked at if it continues."
+    ],
+    "more": {
+      "why": "Tight upper back muscles form a thick, stable shelf. A loose back lets the bar sit right on the spine, which is both painful and unstable.",
+      "how": "Grip the bar, pull your elbows down and back, shoulder blades together. Duck under and stand into it. You should feel the bar pressing evenly across the top of your traps.",
+      "mistake": "Rolling a towel around the bar. Same problem as the pad. Fix the shelf."
+    },
+    "chips": [
+      "How do I set up a back squat?",
+      "High bar or low bar?"
+    ],
+    "related": [
+      "tk-a-001",
+      "tk-a-002"
+    ]
+  },
+  {
+    "id": "tk-a-023",
+    "topic": "squat",
+    "title": "The squat bar path: straight over midfoot",
+    "keys": [
+      "what is the right squat bar path",
+      "squat bar path",
+      "bar path squat",
+      "bar moves forward squat",
+      "midfoot squat",
+      "where should the bar be over my foot",
+      "bar drifting forward squat",
+      "squat balance",
+      "bar over midfoot",
+      "balance in the squat"
+    ],
+    "match": "\\b(squat\\w* bar path|bar path[^.?!]{0,15}squat|bar over (mid ?foot|the middle of (my|your) foot)|mid ?foot[^.?!]{0,15}squat|squat balance)",
+    "body": [
+      "Straight up and down over the middle of your foot. That is the whole rule. Any squat, any bar position.",
+      "Midfoot is roughly the spot just in front of your ankle bone. When the bar stays over it, you are balanced and the force goes straight into the floor. Drift forward and you tip onto your toes. Drift back and you rock onto your heels.",
+      "Film from the side, camera at hip height, square to you. Trace the end of the bar. A good squat looks like a vertical line or a narrow oval.",
+      "A curve forward out of the bottom means your chest dropped. Fix the position, the path follows."
+    ],
+    "more": {
+      "why": "A bar over midfoot is the most efficient line. Every inch it drifts adds leverage your back has to fight.",
+      "how": "Pause the video at the top, the bottom and halfway. Note where the end of the bar sits each time. Compare. A bar path tracking app does the same thing faster.",
+      "beginner": "Feel it before you film it. Whole foot on the floor, toes light enough to wiggle. If you feel heels or toes doing all the work, you are off balance."
+    },
+    "chips": [
+      "My heels come up when I squat",
+      "How should I film my lifts?"
+    ],
+    "related": [
+      "tk-a-009",
+      "tk-a-001"
+    ]
+  },
+  {
+    "id": "tk-a-024",
+    "topic": "squat",
+    "title": "Squat options when your back is cranky",
+    "keys": [
+      "squat alternatives for a sore back",
+      "squat alternative bad back",
+      "cant back squat",
+      "what to do instead of squats",
+      "squats without back pain",
+      "leg training with back pain",
+      "belt squat",
+      "alternatives to back squat",
+      "replace back squat",
+      "squat substitute",
+      "squat alternatives"
+    ],
+    "match": "\\b(squat (alternative|substitute|replacement)s?|alternatives? (to|for) (back )?squats?|instead of (back )?squats?|replace (the )?(back )?squats?|belt squats?)\\b",
+    "body": [
+      "Keep training legs. Change how the load reaches them.",
+      "Least back stress first: a belt squat, if your gym has one, loads the hips with nothing on your spine. Leg press, feet mid platform, stopping before your lower back lifts. Goblet squats, where the torso stays upright.",
+      "Bulgarian split squats with dumbbells. Front squats, which need far less weight for the same leg work.",
+      "Pick two, train them hard for a few weeks, and bring back squats light and slow. Soreness that settles is fine to train around. Pain that shoots down a leg, numbness, or pain getting worse week to week: see a doctor or physical therapist before you load your back again."
+    ],
+    "more": {
+      "why": "The back squat puts the full load on your spine. Your legs do not care where the weight sits. Move it off your back and the legs still get the work.",
+      "how": "Two to three weeks of leg press and split squats, then one light back squat session a week at half your usual weight, adding weight only if it feels fine the next day.",
+      "home": "Split squats with a backpack, step-ups onto a sturdy chair, and slow single-leg squats to a bench. All of it loads the legs with almost nothing on the back."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Leg press or squat?",
+      "How to do Bulgarian split squats",
+      "Is the Smith machine squat okay?"
+    ],
+    "related": [
+      "tk-a-010",
+      "tk-a-025",
+      "tk-a-015"
+    ]
+  },
+  {
+    "id": "tk-a-025",
+    "topic": "squat",
+    "title": "Is the Smith machine squat okay",
+    "keys": [
+      "is the smith machine squat okay",
+      "smith machine squat",
+      "smith squat",
+      "is smith machine bad",
+      "smith machine vs barbell",
+      "should i use the smith machine",
+      "is the smith machine safe",
+      "smith machine squats for beginners",
+      "smith machine form",
+      "smith machine"
+    ],
+    "match": "\\bsmith (machine|squat)",
+    "body": [
+      "It is a tool, not a cheat. It just teaches you something different from a barbell.",
+      "The bar runs on a fixed track, so you do not have to balance it. That lets you push your legs hard with less skill. Good for quads, for training close to failure safely, and for people working around balance limits.",
+      "The cost: it will not build the balance and stabilizer strength a free bar does, and the fixed path may not suit your body. Set your feet slightly forward of the bar so it travels over midfoot at the bottom. Set the safety stops just below your bottom position every time. Use it alongside free squats, not in place of them forever."
+    ],
+    "more": {
+      "why": "A free bar forces you to control three directions at once. The Smith machine handles two of them for you. You get stronger at pushing, but less practiced at controlling.",
+      "how": "Stand under, feet 6 to 12 inches in front of the bar line. Rotate the bar off the hooks. Squat to depth with the bar tracking down over your midfoot, not your toes.",
+      "mistake": "Using Smith machine numbers to judge your barbell squat. Many Smith bars are counterbalanced and the path differs. Compare Smith to Smith only."
+    },
+    "chips": [
+      "Machines or free weights?",
+      "Squat alternatives for a sore back"
+    ],
+    "related": [
+      "tk-a-024"
+    ]
+  }
+]

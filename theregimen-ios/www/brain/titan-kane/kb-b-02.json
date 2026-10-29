@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "tk-b-025",
+    "topic": "reps",
+    "title": "The best rep range for strength",
+    "keys": [
+      "best rep range for strength",
+      "how many reps for strength",
+      "reps for strength",
+      "what rep range builds strength",
+      "low reps for strength",
+      "is 5 reps best for strength",
+      "how many reps to get stronger",
+      "strength rep range",
+      "should i do low reps",
+      "heavy low reps",
+      "reps to build strength",
+      "rep scheme for strength"
+    ],
+    "match": "\\b((best |what |which )?rep (range|scheme)s? (for|to build|that builds) strength|how many reps (for|to get|to build) (strength|stronger)|strength rep range|low reps for strength)\\b",
+    "body": [
+      "For max strength, most of your main-lift work belongs in 1 to 6 reps at roughly 75 to 90 percent of your max. Sets of 3 to 5 are the workhorse. Singles and doubles sharpen. They do not build much on their own.",
+      "Strength is specific. To lift heavy, you practice heavy, so the bar, the brace and the groove all learn the load. But muscle is the engine behind it, so sets of 6 to 12 on secondary lifts and accessories still matter.",
+      "A sound week: main lifts at 3 to 5 reps, a secondary lift at 5 to 8, accessories at 8 to 15. Heavy where it counts. Volume where it builds."
+    ],
+    "more": {
+      "why": "Heavy loads train your nervous system to recruit more muscle at once and coordinate the lift under real weight. That skill only develops close to the loads you want to lift.",
+      "how": "Start each main lift with 3 to 5 working sets of 3 to 5 reps, stopping with one to three reps left. Add load when every set is clean.",
+      "beginner": "Sets of 5 are perfect. Heavy enough to learn the load, light enough to own the form. Leave the singles for later.",
+      "mistake": "Training only heavy singles. Your max is built by volume at submaximal loads. Singles test it."
+    },
+    "chips": [
+      "Best rep range for muscle?",
+      "Is 5x5 a good program?",
+      "Should I do heavy singles?"
+    ],
+    "related": [
+      "tk-b-026",
+      "tk-b-027",
+      "tk-b-044",
+      "tk-b-016"
+    ]
+  },
+  {
+    "id": "tk-b-026",
+    "topic": "reps",
+    "title": "The best rep range for muscle growth",
+    "keys": [
+      "best rep range for muscle",
+      "best rep range for hypertrophy",
+      "how many reps to build muscle",
+      "reps for muscle growth",
+      "hypertrophy rep range",
+      "is 8 to 12 reps best",
+      "high reps or low reps for size",
+      "do high reps build muscle",
+      "reps for size",
+      "how many reps for mass",
+      "light weight high reps",
+      "rep range for growth"
+    ],
+    "match": "\\b((best |what |which )?rep ranges? (for|to build) (muscle|size|mass|hypertrophy|growth)|hypertrophy rep range|how many reps (to build|for) (muscle|size|mass)|(light weight )?high reps (or|vs) low reps|is 8 ?(to|-) ?12 reps)\\b",
+    "body": [
+      "Muscle grows across a wide range, roughly 6 to 30 reps, as long as the set ends close to failure. Zero to three reps in reserve. The rep count matters far less than the effort.",
+      "Practical sweet spot: 6 to 12 reps on big lifts, 10 to 20 on small ones like curls, raises and calf work. Very high reps work too, but they hurt more and take longer to reach real effort.",
+      "Below about 5 reps, each set builds less muscle, so you need many more sets for the same growth. That is why size work lives in the middle ranges."
+    ],
+    "more": {
+      "why": "Growth comes from muscle fibers working hard under tension. Near failure, nearly all fibers are working, whether the load is heavy or moderate. Effort is the common thread.",
+      "how": "Pick a weight you can lift for the rep range with two or three reps to spare on the first set. Push the last set to one rep left. Add reps, then weight.",
+      "example": "Dumbbell incline press, 3 sets of 8 to 12 with 60s. When all three sets reach 12, move to 65s.",
+      "mistake": "Stopping a set of 12 at 12 when you had 8 more in you. That set did not build much. Pick a heavier weight."
+    },
+    "chips": [
+      "How many sets per muscle a week?",
+      "How close to failure should I go?"
+    ],
+    "related": [
+      "tk-b-025",
+      "tk-b-029",
+      "tk-b-036",
+      "tk-b-016"
+    ]
+  },
+  {
+    "id": "tk-b-027",
+    "topic": "reps",
+    "title": "Is 5x5 a good program",
+    "keys": [
+      "is 5x5 good",
+      "is 5x5 a good program",
+      "5x5 workout",
+      "five by five",
+      "5 sets of 5",
+      "should i do 5x5",
+      "is 5x5 good for strength",
+      "5x5 or 3x5",
+      "is 5x5 good for size",
+      "5x5 vs 3x10",
+      "how to do 5x5",
+      "does 5x5 work"
+    ],
+    "match": "\\b(5 ?x ?5|five by five|5 sets of 5|five sets of five)\\b",
+    "body": [
+      "Yes. Five sets of five is one of the best strength rep schemes ever written: heavy enough to build strength, enough total reps to build muscle, and easy to track.",
+      "Run it with a weight you could lift for about 7 or 8 reps on a fresh set. All five sets at the same weight. When you get all 25 reps clean, add 5 lb to lower body lifts, 2.5 to 5 lb to upper body.",
+      "When 5x5 gets too long to recover from, step down to 3x5, or keep 5x5 on a lighter day and add a heavier triple day. It is a tool. It does not have to be a religion."
+    ],
+    "more": {
+      "why": "Twenty-five reps at 75 to 85 percent is a strong amount of work for both strength and size. Fives also keep technique sharp because fatigue stays manageable within each set.",
+      "how": "Rest 3 to 5 minutes between sets. If set four or five falls short, keep the weight next session and finish the sets. Miss the same target three times, drop 10 percent.",
+      "example": "Squat 5x5 at 225 completed, so next session is 230, then 235. At 265 you get 5, 5, 5, 4, 3. Repeat 265 until it is 5 across.",
+      "mistake": "Running 5x5 on every lift including curls and lateral raises. Small muscles grow better with more reps per set."
+    },
+    "chips": [
+      "3x5 or 5x5?",
+      "How many sets per exercise?"
+    ],
+    "related": [
+      "tk-b-028",
+      "tk-b-025",
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-028",
+    "topic": "reps",
+    "title": "Three sets of five vs five sets of five",
+    "keys": [
+      "3x5 or 5x5",
+      "3x5 vs 5x5",
+      "is 3x5 enough",
+      "three sets of five",
+      "3 sets of 5",
+      "is 3x5 enough volume",
+      "should i do 3x5",
+      "difference between 3x5 and 5x5",
+      "3x5 program",
+      "three by five",
+      "3x5 for strength"
+    ],
+    "match": "\\b(3 ?x ?5|three by five|3 sets of 5|three sets of five)\\b",
+    "body": [
+      "3x5 builds strength with less fatigue. 5x5 builds a little more muscle and work capacity and costs more recovery. Both work. Pick by where you are.",
+      "Early beginners on 3x5 can add weight every session because recovery stays ahead of the work. As the weights get heavy, 3x5 often becomes the main heavy work and extra volume comes from other lifts.",
+      "If you are short on time or recovery, 3x5 is enough to keep progressing on the main lifts. If you want more size and recover well, 5x5 or extra back-off sets give you more."
+    ],
+    "more": {
+      "why": "Two extra sets of five add about two thirds more volume at the same load. That helps growth and grinds recovery. Trade-offs, not right and wrong.",
+      "how": "Start with 3x5. If you recover well and progress stalls, add one or two back-off sets at 85 to 90 percent of the working weight.",
+      "example": "Squat 3x5 at 275, then 2x5 at 245. Strength from the top sets, a little more muscle from the back-offs.",
+      "beginner": "Three sets of five is plenty. Spend the energy on getting every rep the same."
+    },
+    "chips": [
+      "Is 5x5 a good program?",
+      "What are back-off sets?"
+    ],
+    "related": [
+      "tk-b-027",
+      "tk-b-038",
+      "tk-b-030"
+    ]
+  },
+  {
+    "id": "tk-b-029",
+    "topic": "volume",
+    "title": "How many sets per muscle per week",
+    "keys": [
+      "how many sets per muscle per week",
+      "how many sets per muscle a week",
+      "weekly sets per muscle",
+      "weekly volume",
+      "how much volume should i do",
+      "sets per week for growth",
+      "how many sets for chest per week",
+      "how many sets for legs per week",
+      "is 10 sets a week enough",
+      "is 20 sets a week too much",
+      "training volume",
+      "how many hard sets per week",
+      "volume per muscle group"
+    ],
+    "match": "\\b(how many sets (per|a|each) (muscle|week)|sets per (muscle|week)|weekly (sets|volume)|how much volume|training volume|volume per muscle|(10|20|ten|twenty) sets a week)\\b",
+    "body": [
+      "Ten to twenty hard sets per muscle per week covers almost everyone. Beginners grow on the low end. Experienced lifters often need the middle or upper end.",
+      "A hard set is a working set taken within about three reps of failure. Warm-ups do not count. Compound lifts count for every muscle that works hard in them: a squat set counts for quads and glutes, a bench set for chest and triceps.",
+      "Start near 10. Add a couple of sets per muscle when progress slows and recovery is good. If performance drops, joints ache, or sleep suffers, you are past what you can recover from. Pull back."
+    ],
+    "more": {
+      "why": "More volume drives more growth up to a point, then recovery becomes the limit. Ten to twenty is where most people get the most return for the cost.",
+      "how": "Count your hard sets for each muscle across a week. Spread them over two or three sessions, about 4 to 10 per muscle per session.",
+      "example": "Quads per week: squat 4 sets Monday, leg press 3 sets Monday, front squat 3 sets Thursday, split squats 3 sets Thursday. Thirteen sets.",
+      "mistake": "Doing 30 sets for chest because more is better, then wondering why bench stalls. Volume you cannot recover from is just fatigue."
+    },
+    "chips": [
+      "How often to train each muscle?",
+      "How many sets per exercise?",
+      "Am I doing junk volume?"
+    ],
+    "related": [
+      "tk-b-031",
+      "tk-b-030",
+      "tk-b-043",
+      "tk-b-042"
+    ]
+  },
+  {
+    "id": "tk-b-030",
+    "topic": "volume",
+    "title": "How many sets per exercise",
+    "keys": [
+      "how many sets per exercise",
+      "how many sets should i do",
+      "how many working sets",
+      "is 3 sets enough",
+      "how many sets for each exercise",
+      "is one set enough",
+      "should i do 3 or 4 sets",
+      "sets per lift",
+      "how many sets on bench",
+      "how many sets of squats",
+      "number of sets per exercise",
+      "how many sets for strength"
+    ],
+    "match": "\\b(how many (working )?sets (per|for|of|on|should i do (for|on|of)?) ?(each )?(exercise|lift|bench|squats?|deadlifts?|strength)?|is (one|1|two|2|three|3) sets? enough|sets per (exercise|lift)|3 or 4 sets)\\b",
+    "body": [
+      "Two to five working sets per exercise for most lifts. Three is a solid default. The main lift of the day can take four or five. Accessories do well with two or three.",
+      "Past about five hard sets of one exercise in a session, each extra set returns less. If a muscle needs more weekly volume, add a second exercise or a second day rather than piling sets onto one lift.",
+      "One hard set can build strength for a beginner and keep it for a busy lifter. It is better than skipping. It is rarely the fastest road."
+    ],
+    "more": {
+      "why": "Sets give the muscle repeated exposure to effort. Spread across exercises and days, they add up to weekly volume, which is what drives growth over time.",
+      "how": "Main lift: 3 to 5 sets. Secondary lift: 3 sets. Accessories: 2 to 3 sets. Count the week and keep each muscle in the 10 to 20 range.",
+      "beginner": "Three sets per exercise. Learn what a hard set feels like before adding more.",
+      "short_on_time": "Two hard sets of each exercise, the last one close to failure. You keep most of the benefit for half the time."
+    },
+    "chips": [
+      "How many sets per muscle a week?",
+      "How many exercises per workout?"
+    ],
+    "related": [
+      "tk-b-029",
+      "tk-b-022",
+      "tk-b-028"
+    ]
+  },
+  {
+    "id": "tk-b-031",
+    "topic": "volume",
+    "title": "How often to train each muscle or lift",
+    "keys": [
+      "how often should i train each muscle",
+      "training frequency",
+      "how many times a week should i train legs",
+      "how often to train chest",
+      "train each muscle twice a week",
+      "once a week or twice a week",
+      "how often should i squat",
+      "how often should i bench",
+      "how often to deadlift",
+      "is once a week enough per muscle",
+      "how many times per week per muscle",
+      "frequency for strength"
+    ],
+    "match": "\\b(training frequency|frequency for (strength|growth)|how often (should i|to|do i) (train|hit|work) (each|a|my) (muscle|body ?part)|how often (should i|to) (squat|bench|deadlift|press)|(once|twice) a week (or|vs) (once|twice)|how many times (a|per) week (should i )?(train )?(legs|chest|back|per muscle))\\b",
+    "body": [
+      "Twice a week per muscle beats once for most people, mainly because it spreads the volume into better sessions. For the big lifts, two to three practices a week builds skill faster.",
+      "Squat: two or three times a week, one heavier day. Bench: two to four times, it recovers fast. Deadlift: once or twice, one heavy pull is plenty for most. Overhead press: twice.",
+      "Frequency is a tool for fitting volume. Twenty sets on chest in one session is mostly junk by the end. The same twenty spread over three sessions is real work."
+    ],
+    "more": {
+      "why": "Growth signals from a hard session rise for a day or two then fade. Training a muscle again after that keeps the signal going. For lifts, more practice means better technique under load.",
+      "how": "Split each muscle's weekly sets over two or three days. Put the heavy version of a lift on one day and a lighter or variation version on another.",
+      "example": "Bench 4x5 heavy on Monday, close-grip bench 3x8 on Thursday. Same pattern, two exposures, different stress.",
+      "mistake": "Training the same heavy lift to near failure four days a week. Frequency only works when some of those days are easier."
+    },
+    "chips": [
+      "How many days a week should I lift?",
+      "Which split should I use?"
+    ],
+    "related": [
+      "tk-b-029"
+    ]
+  },
+  {
+    "id": "tk-b-032",
+    "topic": "rest",
+    "title": "How long to rest between sets",
+    "keys": [
+      "how long to rest between sets",
+      "rest between sets",
+      "how long should i rest",
+      "rest time for strength",
+      "rest periods",
+      "how much rest between sets",
+      "is 1 minute rest enough",
+      "rest 3 minutes between sets",
+      "short rest or long rest",
+      "rest between sets for muscle",
+      "rest time between heavy sets",
+      "should i rest 5 minutes"
+    ],
+    "match": "\\b(rest(ing)? (time|periods?)|how (long|much) (should i |to )?rest|rest(ing)? between sets|(\\d|one|two|three|five) minutes? (of )?rest)\\b",
+    "body": [
+      "Long enough to do the next set as well as the last one. For heavy main lifts that is 3 to 5 minutes. Rushing heavy sets costs reps and form.",
+      "Guide: heavy sets of 1 to 5 reps, 3 to 5 minutes. Sets of 6 to 12 on big lifts, 2 to 3 minutes. Small isolation lifts, 60 to 90 seconds. Deadlifts and heavy squats can take five and that is fine.",
+      "Short rest feels harder, which feels productive. It is not more effective for strength or size. Rest, then lift with intent."
+    ],
+    "more": {
+      "why": "Your muscles need a few minutes to restore the fast energy that heavy efforts use. Too little rest drops the load or reps on the next set, which cuts the stimulus you came for.",
+      "how": "Start a timer the moment you rack the bar. Use the time: breathe, log the set, set up for the next. Begin when your breathing is back to near normal.",
+      "short_on_time": "Pair two non-competing lifts. Bench, rest 90 seconds, row, rest 90 seconds, back to bench. Each lift still gets about three minutes.",
+      "mistake": "Resting 45 seconds on heavy squats to keep the heart rate up. You lose strength work to get worse cardio. Do conditioning separately."
+    },
+    "chips": [
+      "Supersets for strength work?",
+      "How long should a workout be?"
+    ],
+    "related": [
+      "tk-b-033",
+      "tk-b-021"
+    ]
+  },
+  {
+    "id": "tk-b-033",
+    "topic": "rest",
+    "title": "Supersets and pairing lifts in strength training",
+    "keys": [
+      "supersets for strength",
+      "can i superset heavy lifts",
+      "superset bench and rows",
+      "antagonist supersets",
+      "pairing exercises",
+      "superset compound lifts",
+      "are supersets good for strength",
+      "superset to save time",
+      "paired sets",
+      "superset squat and bench",
+      "giant sets for strength",
+      "do supersets hurt strength"
+    ],
+    "match": "\\b(supersets? (for|and|with|to|heavy|compound|bench|squat|deadlift)|(can i|should i) superset|antagonist (pair|superset)s?|paired sets|giant sets? for strength|do supersets hurt)\\b",
+    "body": [
+      "Pair lifts that do not compete. Push with pull. Upper with lower. Never two lifts that tire the same muscles or the same grip.",
+      "Good pairs: bench with chest-supported rows, overhead press with pull-ups, split squats with a core move. Rest 90 seconds to 2 minutes between each half, so each lift still gets 3 minutes or more before its next set.",
+      "Leave the heaviest main lift out of it. Squats and deadlifts above 85 percent get their own full rest. Supersets are for accessories and for saving time without losing quality."
+    ],
+    "more": {
+      "why": "Opposite muscles recover while the other works. You get the same work done in less time, with little loss in strength, as long as the lifts do not drain each other.",
+      "how": "Write the pair as A1 and A2. Do A1, rest, A2, rest, back to A1. Same for B1 and B2. Keep the rest honest.",
+      "example": "A1 incline dumbbell press 3x8, A2 seated cable row 3x10, 90 seconds between each. B1 lateral raise 3x15, B2 face pulls 3x15, 60 seconds.",
+      "mistake": "Superset deadlifts with squats. Same muscles, same bracing, same lower back. Both get worse."
+    },
+    "chips": [
+      "How long to rest between sets?",
+      "Strength training in 30 minutes?"
+    ],
+    "related": [
+      "tk-b-032"
+    ]
+  },
+  {
+    "id": "tk-b-034",
+    "topic": "effort",
+    "title": "What RPE means and how to use it",
+    "keys": [
+      "what is rpe",
+      "rpe meaning",
+      "what does rpe mean",
+      "rpe scale",
+      "rpe 8",
+      "what is rpe 8",
+      "rpe 7 meaning",
+      "rate of perceived exertion",
+      "how to use rpe",
+      "rpe in lifting",
+      "what does rpe 9 mean",
+      "rpe for strength training",
+      "how do i use the rpe scale"
+    ],
+    "match": "\\b(rpe|rate of perceived exertion)\\b",
+    "body": [
+      "RPE is a 1 to 10 rating of how hard a set was, tied to how many reps you had left. RPE 10 means nothing left, RPE 9 one more rep, RPE 8 two more, RPE 7 three more.",
+      "Most strength work lives at RPE 7 to 9. Volume sets around 7 to 8, heavy top sets around 8 to 9. RPE 10 is for tests, and rarely.",
+      "RPE adjusts the load to the day. A program that says 5 reps at RPE 8 wants the weight you can do for 5 with two in the tank today, not on your best day. That is how you train hard without digging a hole."
+    ],
+    "more": {
+      "why": "Your strength swings with sleep, food and stress. Fixed percentages ignore that. RPE lets the load move with you so the effort stays where it should.",
+      "how": "After each set, ask: how many more clean reps could I have done? Log that. Over time your guesses sharpen. Use the guess to adjust the next set.",
+      "beginner": "Your RPE calls will be off for a while. Most new lifters underrate their sets. Leave two reps in the tank and focus on form until the calls get honest.",
+      "example": "Plan says squat 5 at RPE 8. The first work set at 245 feels like RPE 7, three left, so go to 255. That moves at an 8, so stay there for the remaining sets."
+    },
+    "chips": [
+      "What is reps in reserve?",
+      "How close to failure should I go?",
+      "RPE or percentages?"
+    ],
+    "related": [
+      "tk-b-035",
+      "tk-b-036",
+      "tk-b-012",
+      "tk-b-071"
+    ]
+  },
+  {
+    "id": "tk-b-035",
+    "topic": "effort",
+    "title": "Reps in reserve: the reps you leave in the tank",
+    "keys": [
+      "what is rir",
+      "reps in reserve",
+      "what does rir mean",
+      "rir 2",
+      "2 reps in reserve",
+      "leave reps in the tank",
+      "what does 1 rir mean",
+      "rir vs rpe",
+      "how many reps in reserve",
+      "reps left in the tank",
+      "stop two reps short",
+      "reps in the tank"
+    ],
+    "match": "\\b(rir|reps? (in|left in) (the )?(reserve|tank)|stop (one|two|1|2) reps short)\\b",
+    "body": [
+      "Reps in reserve is the number of clean reps you could still do when you stop the set. RIR 2 means you stopped with two left. It is the same scale as RPE read from the other side: RIR 2 is RPE 8.",
+      "For strength, stop most sets at 1 to 3 in reserve. For muscle, 0 to 3 in reserve, with isolation work closer to 0. Heavy compound lifts stay further from failure than curls do.",
+      "Count clean reps only. If the next rep would have broken your back position or bounced off your chest, it was not in reserve."
+    ],
+    "more": {
+      "why": "Most of a set's growth signal comes from the last few hard reps. Stopping a rep or two before failure gets most of that signal and saves recovery, joints and technique.",
+      "how": "Every few weeks, take one safe exercise, like a machine press or leg press, to true failure. See how many reps you actually had. Use it to calibrate your guesses everywhere else.",
+      "example": "Planned 3x8 at RIR 2. Set one: 8 reps, could have done 11, that is RIR 3, add 5 lb. Set two: 8 reps, about 2 left. Stay.",
+      "mistake": "Calling RIR 3 when the bar is barely moving. Slow reps near the end mean you are close to zero."
+    },
+    "chips": [
+      "What is RPE?",
+      "How close to failure should I go?"
+    ],
+    "related": [
+      "tk-b-034",
+      "tk-b-036",
+      "tk-b-037"
+    ]
+  },
+  {
+    "id": "tk-b-036",
+    "topic": "effort",
+    "title": "How close to failure your sets should be",
+    "keys": [
+      "how close to failure should i go",
+      "how hard should my sets be",
+      "how close to failure",
+      "should every set be hard",
+      "how hard should i push",
+      "how hard should a set feel",
+      "am i training hard enough",
+      "training intensity effort",
+      "how heavy should my sets feel",
+      "should the last rep be hard",
+      "not pushing hard enough",
+      "effort level in sets"
+    ],
+    "match": "\\b(how (close|near) to failure|how hard should (my|a|each|the) (sets?|reps?|last rep|workout)|am i (training|pushing|lifting) hard enough|should (every|each) set be hard|how hard should i push)\\b",
+    "body": [
+      "Close enough that the last rep or two slow down. Not so close that form breaks. For most sets that means one to three clean reps left.",
+      "Main barbell lifts: two or three reps left on most work, one left on a top set. Accessories and machines: zero to two left. Small single-joint lifts can go to failure on the last set.",
+      "Most beginners stop too early. Most intermediates go too close too often. If your last rep moves at the same speed as your first, the set was too easy to count as a hard set."
+    ],
+    "more": {
+      "why": "Sets far from failure build little muscle. Sets at failure on heavy compound lifts cost a lot of recovery and raise the injury risk. The sweet spot is close, not over.",
+      "how": "Watch bar speed. When a rep slows clearly, you have about two left. When it grinds, you have about one. Stop there on heavy lifts.",
+      "beginner": "Learn the lifts first. Leave two or three in the tank for your first months. Then start pushing accessories closer to failure.",
+      "mistake": "Grinding every set of squats to failure. You get one great session and three tired ones."
+    },
+    "chips": [
+      "Should I train to failure?",
+      "What is RPE?"
+    ],
+    "related": [
+      "tk-b-037",
+      "tk-b-035",
+      "tk-b-034",
+      "tk-b-026"
+    ]
+  },
+  {
+    "id": "tk-b-037",
+    "topic": "effort",
+    "title": "Should you train to failure",
+    "keys": [
+      "should i train to failure",
+      "training to failure",
+      "is going to failure bad",
+      "go to failure every set",
+      "failure on squats",
+      "muscle failure",
+      "lift until failure",
+      "should i go until i cant lift",
+      "is failure necessary for growth",
+      "failure training",
+      "failing on purpose",
+      "going to failure on compound lifts"
+    ],
+    "match": "\\b((train|training|go|going|lift|lifting|take sets?) (un)?t?i?l? ?to failure|to failure|muscle failure|failure training|is failure (necessary|needed|bad))\\b",
+    "body": [
+      "Sometimes. Not every set, and rarely on heavy barbell lifts. Failure is a tool with a high cost.",
+      "Safe and useful at failure: machines, cables, dumbbell curls, lateral raises, the last set of an accessory. Not useful at failure: heavy squats, deadlifts, bench without safeties, overhead press. Form breaks first, then the rep fails.",
+      "Sets stopped one or two reps short build nearly as much muscle and cost less recovery. Use true failure on the last set of small lifts, or now and then to check your effort calls."
+    ],
+    "more": {
+      "why": "The final grinding reps add a little stimulus and a lot of fatigue. On big lifts that fatigue spills into the next sessions and into your form on the current rep.",
+      "how": "Plan where failure is allowed. Write it on the last set of the last two accessories. Everywhere else, stop with a rep or two left.",
+      "beginner": "Avoid failure on barbell lifts entirely while you learn them. Practice good reps, not ugly ones.",
+      "mistake": "Treating a failed rep as a badge. A failed squat is a rep you did not complete and a back that took a beating."
+    },
+    "chips": [
+      "How close to failure should I go?",
+      "I keep failing reps, why?"
+    ],
+    "related": [
+      "tk-b-036",
+      "tk-b-035",
+      "tk-b-056"
+    ]
+  },
+  {
+    "id": "tk-b-038",
+    "topic": "sets",
+    "title": "Top sets and back-off sets",
+    "keys": [
+      "what is a top set",
+      "top set and back off sets",
+      "what are back off sets",
+      "back off sets",
+      "top set then back off",
+      "how heavy should back off sets be",
+      "heavy top set",
+      "how to do a top set",
+      "backoff sets",
+      "top set back down sets",
+      "drop back sets",
+      "one heavy set then lighter sets"
+    ],
+    "match": "\\b(top sets?|back ?-?offs?( sets?)?|back down sets?|one heavy set then lighter)\\b",
+    "body": [
+      "One heavy set, then lighter sets for volume. The top set builds strength and tells you how strong you are today. The back-off sets build muscle and practice without the grind.",
+      "A common setup: work up to a top set of 3 to 5 reps at RPE 8 to 9. Then drop 10 to 15 percent and do two to four sets of the same reps or a few more. The top set sets the day. The back-offs build the base.",
+      "Progress the top set when it moves easily at the target effort. The back-offs follow it."
+    ],
+    "more": {
+      "why": "Only one or two sets need to be truly heavy to drive strength. The rest of the volume can be lighter, so you get the benefit of heavy work without stacking fatigue from five maximal sets.",
+      "how": "Ramp up with warm-ups. Hit the top set. Take the weight, multiply by 0.85 to 0.9, round to plates. Back-offs with the same rest.",
+      "example": "Bench top set 225 x 4 at RPE 8.5. Back-offs at 195 for 3 sets of 6.",
+      "mistake": "Making the top set a max every week. It should be heavy, not a test."
+    },
+    "chips": [
+      "What is an AMRAP set?",
+      "What is RPE?"
+    ],
+    "related": [
+      "tk-b-039",
+      "tk-b-034",
+      "tk-b-028"
+    ]
+  },
+  {
+    "id": "tk-b-039",
+    "topic": "sets",
+    "title": "AMRAP sets: as many reps as possible",
+    "keys": [
+      "what is an amrap set",
+      "amrap meaning",
+      "what does amrap mean",
+      "as many reps as possible",
+      "plus set",
+      "what does 5 plus mean",
+      "how to do amrap sets",
+      "should amrap be to failure",
+      "amrap on squats",
+      "last set amrap",
+      "amrap set safety",
+      "how hard to push amrap"
+    ],
+    "match": "\\b(amrap|as many reps as possible|plus sets?|\\d ?\\+ sets?|what does \\d plus mean)\\b",
+    "body": [
+      "An AMRAP set is the last set where you do as many good reps as you can. Good reps, not every rep you can force. Stop when the next rep would break form.",
+      "It measures strength and drives progress. If the plan says 1x5+ at 225 and you get 9, you are stronger than the program assumed. Many programs use that rep count to set next week's weight.",
+      "On squats, deadlifts and bench, stop one rep short of failure. Use safeties or a spotter. A rep PR you have to fight bad form for is not a rep PR. It is a risk."
+    ],
+    "more": {
+      "why": "AMRAP sets let the program read your real strength each week. If you beat the target by a lot, the load goes up faster. If you barely hit it, it slows down.",
+      "how": "Hit the minimum reps listed. Then keep going while the bar speed and form hold. When a rep slows hard, that is your last one. Log the total.",
+      "example": "Bench 1x5+ at 185. You get 8. With 8 at 185, your estimated max is about 230. Next cycle can move up.",
+      "mistake": "Going to the absolute limit on every AMRAP. You will win the set and lose the next week."
+    },
+    "chips": [
+      "How do I estimate my max?",
+      "Should I train to failure?"
+    ],
+    "related": [
+      "tk-b-051",
+      "tk-b-037",
+      "tk-b-038",
+      "tk-b-013"
+    ]
+  },
+  {
+    "id": "tk-b-040",
+    "topic": "sets",
+    "title": "Drop sets, rest-pause, and cluster sets",
+    "keys": [
+      "what is a drop set",
+      "drop sets",
+      "rest pause sets",
+      "what is rest pause",
+      "cluster sets",
+      "what is a cluster set",
+      "myo reps",
+      "are drop sets good for strength",
+      "intensity techniques",
+      "do drop sets build muscle",
+      "cluster sets for strength",
+      "mechanical drop set"
+    ],
+    "match": "\\b(drop ?sets?|rest[- ]pause|cluster sets?|myo ?reps?|intensity techniques?)\\b",
+    "body": [
+      "Three ways to squeeze more work into less time. Drop set: hit near failure, cut the weight 20 to 30 percent, keep going. Rest-pause: hit near failure, rest 10 to 20 seconds, do a few more reps. Cluster: break a heavy set into small chunks with short rests.",
+      "Drop sets and rest-pause are size tools for machines and dumbbells, best on the last set of an accessory. They save time. They do not beat normal sets for growth.",
+      "Cluster sets are a strength tool. Doing 5 singles at 88 percent with 20 to 30 seconds between them lets you handle more heavy reps with better speed than a straight set of 5 at that load."
+    ],
+    "more": {
+      "why": "Drop sets and rest-pause stack hard reps at the end of a set. Clusters keep each rep fresh so heavy loads move faster and cleaner.",
+      "how": "Drop set: last set of cable flyes, 10 reps, drop the pin two plates, 8 more, drop again, 6 more. Cluster: rack, breathe 20 seconds, unrack, one rep, repeat.",
+      "mistake": "Drop sets on barbell squats. The setup alone is a risk when you are that tired. Use them on machines.",
+      "short_on_time": "Use one rest-pause set on the last accessory instead of three straight sets. Most of the work in a third of the time."
+    },
+    "chips": [
+      "Should I train to failure?",
+      "How long to rest between sets?"
+    ],
+    "related": [
+      "tk-b-037",
+      "tk-b-032",
+      "tk-b-044"
+    ]
+  },
+  {
+    "id": "tk-b-041",
+    "topic": "tempo",
+    "title": "Tempo for strength: how fast to lift",
+    "keys": [
+      "tempo for strength",
+      "how fast should i lift",
+      "lifting tempo",
+      "should i lift slow",
+      "slow reps",
+      "what does 3010 tempo mean",
+      "tempo numbers meaning",
+      "explosive reps",
+      "how fast should i lower the weight",
+      "controlled eccentric",
+      "lift fast or slow",
+      "speed of reps"
+    ],
+    "match": "\\b(tempo|how fast (should i|to) (lift|lower|move)|lift (fast|slow) or|slow reps|explosive reps|controlled eccentric|speed of (my )?reps|\\d{4} tempo)\\b",
+    "body": [
+      "Lower under control. Lift with intent to move it fast. That is the strength tempo. The bar may move slowly on heavy reps, but you are always trying to drive it hard.",
+      "Tempo is often written as four numbers, like 3-1-1-0: three seconds down, one second pause at the bottom, one second up, no pause at the top. For most strength work, one to three seconds down and as fast as possible up is right.",
+      "Very slow reps build control and help learn a groove, but they cut the load you can use. Use tempo work as a tool, a few weeks at a time, not as the default for heavy lifting."
+    ],
+    "more": {
+      "why": "Trying to move a weight fast recruits more muscle fibers, including the strongest ones. Control on the way down keeps the bar on path and you out of trouble.",
+      "how": "On the way down, count one-two to the bottom. Pause if the program asks. Then drive up as hard as you can, even if the bar only moves slowly.",
+      "example": "Tempo squats at 3-1-1-0 for 3 sets of 5 at 65 percent. Three seconds down, one second hold, up hard. Great for owning depth and position.",
+      "mistake": "Dropping fast and bouncing out of the bottom of a squat or off your chest. That is not speed. It is losing control."
+    },
+    "chips": [
+      "Should I do pause squats?",
+      "How do I train for power?"
+    ]
+  },
+  {
+    "id": "tk-b-042",
+    "topic": "volume",
+    "title": "Minimum and maximum volume you can recover from",
+    "keys": [
+      "minimum effective volume",
+      "maximum recoverable volume",
+      "what is mev",
+      "what is mrv",
+      "mev and mrv",
+      "how much volume can i recover from",
+      "too much volume",
+      "too little volume",
+      "volume landmarks",
+      "how do i know my volume is right",
+      "am i doing too much volume",
+      "maintenance volume"
+    ],
+    "match": "\\b(mev|mrv|minimum effective volume|maximum recoverable volume|volume landmarks|too (much|little) volume|maintenance volume)\\b",
+    "body": [
+      "There is a floor and a ceiling. The floor is the least volume that still drives progress. The ceiling is the most you can recover from. Good training lives between them.",
+      "For most muscles, maintenance takes very little, roughly a third of normal volume with heavy effort. The floor for growth sits near 8 to 10 hard sets a week. The ceiling is often 15 to 25, and it drops when sleep, food or stress get worse.",
+      "Signs you are near the ceiling: lifts stall or drop, joints ache, you dread sessions, sleep slips. Signs you are near the floor: you recover easily, never sore, and nothing grows. Adjust by two sets a week at a time."
+    ],
+    "more": {
+      "why": "Too little volume gives no reason to adapt. Too much leaves fatigue you cannot clear, so performance falls even while you work harder. Between them, more work generally means more progress.",
+      "how": "Start a block near the floor. Add one or two sets per muscle per week. When performance drops, deload. Next block, start a little higher.",
+      "advanced": "Run a block that ramps from about 10 to 18 sets per muscle over four or five weeks, then deload. Repeat. Many advanced lifters progress this way.",
+      "mistake": "Treating soreness as the measure. Sore is not the same as stimulated, and not sore does not mean nothing happened."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "Am I doing junk volume?",
+      "How do I manage fatigue?"
+    ],
+    "related": [
+      "tk-b-029",
+      "tk-b-043"
+    ]
+  },
+  {
+    "id": "tk-b-043",
+    "topic": "volume",
+    "title": "Junk volume and how to spot it",
+    "keys": [
+      "junk volume",
+      "what is junk volume",
+      "am i doing junk volume",
+      "too many sets",
+      "useless sets",
+      "pointless sets",
+      "is more sets better",
+      "diminishing returns sets",
+      "easy sets dont count",
+      "filler exercises",
+      "wasted sets",
+      "sets that dont count"
+    ],
+    "match": "\\b(junk volume|too many sets|(useless|pointless|wasted) sets|is more sets better|diminishing returns|filler (exercises|sets)|sets (that )?don'?t count)\\b",
+    "body": [
+      "Junk volume is work that costs recovery and builds nothing. Sets too far from failure. Sets after your form or effort has collapsed. Ten exercises for one muscle in one session.",
+      "Rough marks: more than 8 to 10 hard sets for one muscle in a single session usually adds little. Sets stopped with five or more reps in reserve do not count as hard. Reps where the target muscle is not doing the work do not count.",
+      "Cut junk first when time or recovery is short. Fewer, harder, cleaner sets. The bar does not care how long you were in the gym."
+    ],
+    "more": {
+      "why": "Recovery is a budget. Every set spends some of it. Spending it on sets that drive nothing leaves less for the sets that do.",
+      "how": "Review a week. Cross out any set stopped far from failure, any set beyond about 10 for one muscle that day, and any exercise you cannot say the reason for. That is the junk.",
+      "example": "Chest day of 6 exercises at 4 sets each is 24 sets. The last 12 were done tired and sloppy. Cut to 3 exercises, 3 to 4 hard sets each, add a second chest day.",
+      "mistake": "Adding volume to break a plateau when the real problem is sleep. More junk is still junk."
+    },
+    "chips": [
+      "How many sets per muscle a week?",
+      "How do I manage fatigue?"
+    ],
+    "related": [
+      "tk-b-029",
+      "tk-b-042"
+    ]
+  },
+  {
+    "id": "tk-b-044",
+    "topic": "sets",
+    "title": "Heavy singles in training",
+    "keys": [
+      "should i do heavy singles",
+      "heavy singles",
+      "singles in training",
+      "how often should i do singles",
+      "daily heavy single",
+      "training with singles",
+      "single at rpe 8",
+      "heavy single each week",
+      "are singles good for strength",
+      "working up to a single",
+      "singles for practice",
+      "heavy single then back off"
+    ],
+    "match": "\\b(heavy singles?|daily (heavy )?singles?|singles? (at rpe|in training|for practice|each week)|work(ing)? up to a single|are singles good)\\b",
+    "body": [
+      "Useful in small amounts. A heavy single at RPE 7 to 8 teaches you how heavy feels, without the cost of a true max. It sharpens. It does not build much on its own.",
+      "One to three singles at about 85 to 92 percent, once a week, ahead of your regular work. Then back off to your normal sets. In the final weeks before a test, singles take a bigger share of the work.",
+      "Keep the single crisp. If it slows hard or form changes, the load was too heavy for a practice single. Leave something on the bar. You will need it later."
+    ],
+    "more": {
+      "why": "Heavy loads feel different: different bracing, different bar speed, different nerves. Practicing that feel makes a max attempt less of a shock.",
+      "how": "Warm up as normal. Work up to a single that moves well. Log it with an RPE. Drop to back-off sets at 75 to 85 percent.",
+      "example": "Deadlift: single at 405, RPE 7.5. Then 3 sets of 3 at 355.",
+      "beginner": "Skip them for now. Your first year of sets of five builds the strength the singles would only show."
+    },
+    "chips": [
+      "How do I test a 1RM safely?",
+      "What are back-off sets?"
+    ],
+    "related": [
+      "tk-b-050",
+      "tk-b-038",
+      "tk-b-025"
+    ]
+  },
+  {
+    "id": "tk-b-045",
+    "topic": "reps",
+    "title": "How many reps you can do at a percentage of your max",
+    "keys": [
+      "how many reps at 80 percent",
+      "reps at 90 percent",
+      "percentage chart",
+      "rep percentage table",
+      "what percent is a 5 rep max",
+      "how many reps can i do at 75 percent",
+      "percent of max to reps",
+      "rep max chart",
+      "what is my 5rm as a percentage",
+      "reps at each percentage",
+      "3 rep max percentage",
+      "10 rep max percentage"
+    ],
+    "match": "\\b(how many reps (can i do )?at (\\d+|seventy|eighty|ninety) ?(%|percent)|reps at (\\d+|each) ?(%|percent(age)?)?|percentage (chart|table)|rep (max|percentage) (chart|table)|what percent(age)? is (a|my) \\d+ ?(rep max|rm))\\b",
+    "body": [
+      "Rough rule for most lifters: 100 percent for 1 rep, 95 percent for 2, 90 percent for 3 to 4, 85 percent for 5 to 6, 80 percent for 7 to 8. Lower down: 75 percent for about 10, 70 percent for about 12, 65 percent for 15 or so.",
+      "These are averages. Lifters with lots of endurance get more reps at each percentage, and explosive lifters get fewer. Deadlifts often allow fewer reps than squats at the same percentage, while lower body machines allow more.",
+      "Use the table to plan, then trust the bar. If 80 percent gives you 11 reps, your real max is higher than your number says."
+    ],
+    "more": {
+      "why": "The relationship between load and reps lets you plan weights from a max, or estimate a max from a set of reps, without testing to the limit every time.",
+      "how": "Find your number in the table, plan the load, then compare what you actually did. Keep your own notes. Your personal table beats the average one.",
+      "example": "Max 300. A set of 5 should be around 255 to 260, about 85 percent. A set of 8, about 240.",
+      "mistake": "Planning sets of 10 at 85 percent. That is near a 5 or 6 rep max. You will fail or grind every set."
+    },
+    "chips": [
+      "How do I estimate my max?",
+      "What is a training max?"
+    ],
+    "related": [
+      "tk-b-051",
+      "tk-b-012",
+      "tk-b-013"
+    ]
+  },
+  {
+    "id": "tk-b-046",
+    "topic": "overload",
+    "title": "Add reps or add weight first",
+    "keys": [
+      "add reps or add weight",
+      "should i add reps or weight",
+      "more reps or more weight",
+      "increase reps or weight",
+      "when to add weight vs reps",
+      "add weight or reps first",
+      "go up in weight or reps",
+      "more weight fewer reps",
+      "should i increase weight or reps",
+      "reps vs weight progression",
+      "progress reps or load",
+      "weight or reps to progress"
+    ],
+    "match": "\\b((add|increase|more) (reps|weight) or (add |increase |more )?(reps|weight)|(reps|weight) (vs|or) (weight|reps) (progression|first)|go up in (weight|reps) or)\\b",
+    "body": [
+      "Both work. The rule: add weight when the reps are owned, add reps when the weight is not yet owned.",
+      "Barbell main lifts with small jumps: add weight on a schedule, keep reps fixed. Dumbbells, machines and bodyweight with big jumps: add reps inside a range until you hit the top, then add weight.",
+      "A rep PR is a real PR. 225 for 7 when you used to get 5 is stronger. Do not chase weight while reps collapse to ugly singles. Earned, not attempted."
+    ],
+    "more": {
+      "why": "Strength shows up as more load for the same reps or more reps at the same load. The limiting factor is usually equipment: when the smallest jump is too big, reps carry you there.",
+      "how": "Pick a rep range for the exercise, like 5 to 8. Add reps each session. When every set reaches 8, add the smallest weight jump and start again at 5.",
+      "example": "Overhead press 3x5 to 8 at 115. Weeks: 5,5,5 then 7,6,6 then 8,8,8. Next session 120 for 5,5,5.",
+      "beginner": "On the big barbell lifts, add weight. Your first months move fast enough that reps stay fixed."
+    },
+    "chips": [
+      "What is double progression?",
+      "How much weight do I add?"
+    ],
+    "related": [
+      "tk-b-003",
+      "tk-b-047",
+      "tk-b-049"
+    ]
+  },
+  {
+    "id": "tk-b-047",
+    "topic": "overload",
+    "title": "How much weight to add and how often",
+    "keys": [
+      "how much weight should i add",
+      "how much weight do i add",
+      "how much to increase weight",
+      "how often should i add weight",
+      "add 5 lbs or 10 lbs",
+      "weight increase per week",
+      "how fast to increase weight",
+      "how much should i go up",
+      "jumping weight too fast",
+      "weight increments",
+      "how much to add to my bench",
+      "how much to add to squat"
+    ],
+    "match": "\\b(how much (weight )?(should i|do i|to) (add|increase|go up)|how (often|fast) (should i|to|do i) (add|increase) (weight|the weight)|weight (increments|increase per)|add (5|10|five|ten) ?(lbs?|pounds|kg)? or)\\b",
+    "body": [
+      "The smallest jump that still moves you forward. For barbell lifts that is usually 5 lb for squat and deadlift and 2.5 to 5 lb for bench and overhead press.",
+      "Beginners: every session while every rep is clean. Intermediates: every week or two. Advanced: every few weeks to every few months, often only on a single top set. As a share, about 2 to 5 percent per jump is right for most lifts.",
+      "If you miss reps the session after a jump, the jump was too big or recovery is behind. Repeat the weight. Smaller, steadier steps beat a big jump and three weeks stuck."
+    ],
+    "more": {
+      "why": "Strength adapts gradually. A small jump keeps you in the range where every rep is still clean, which keeps technique and progress going.",
+      "how": "Lower body: 5 to 10 lb jumps early, 5 lb later. Upper body: 5 lb early, 2.5 lb later. When even that stalls, add reps or sets before adding weight.",
+      "example": "Overhead press at 95 for 3x5. 100, 102.5, 105, 107.5. Small plates kept it moving for months.",
+      "mistake": "Adding 20 lb to the bench because the last set felt easy. Easy is good. Keep it easy for longer."
+    },
+    "chips": [
+      "Add reps or add weight?",
+      "How do I microload?"
+    ],
+    "related": [
+      "tk-b-046",
+      "tk-b-048",
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-048",
+    "topic": "overload",
+    "title": "Microloading: progress in tiny steps",
+    "keys": [
+      "how do i microload",
+      "microloading",
+      "what is microloading",
+      "small weight increases",
+      "add 1 lb a week",
+      "microload bench",
+      "microload overhead press",
+      "progress with tiny jumps",
+      "tiny weight increases",
+      "fractional increase",
+      "adding small weights",
+      "microloading for strength"
+    ],
+    "match": "\\b(micro ?load(ing)?|fractional (plates|increase)|tiny (weight )?(jumps|increases)|add (1|one|2|two) ?(lb|lbs|pound|pounds) a week)\\b",
+    "body": [
+      "Microloading is adding very small jumps, often 1 to 2.5 lb a week, once 5 lb jumps stop working. It keeps the bar moving up when bigger steps cause stalls.",
+      "It works best on bench and overhead press, where 5 lb can be a 3 to 5 percent jump. A pound a week is 52 pounds a year. That is a strong year for an intermediate presser.",
+      "You need small plates, from half a pound to 1.25 lb. If you do not have them, use double progression instead: add reps at the same weight until the next real jump fits."
+    ],
+    "more": {
+      "why": "Strength gains slow as you get stronger. When the body can only adapt by 1 or 2 percent a week, a 5 percent jump outruns it every time.",
+      "how": "Start at your current working weight. Add the smallest plate pair you have each week. When reps start failing, repeat the weight once before adding again.",
+      "example": "Overhead press 135 for 3x5. Add 1 lb a week with half-pound plates. Three months later: 148 for 3x5.",
+      "mistake": "Microloading as a beginner. If you can still add 5 lb, add 5 lb."
+    },
+    "chips": [
+      "How much weight do I add?",
+      "What is double progression?"
+    ],
+    "related": [
+      "tk-b-047",
+      "tk-b-003"
+    ]
+  },
+  {
+    "id": "tk-b-049",
+    "topic": "overload",
+    "title": "Progressive overload in all its forms",
+    "keys": [
+      "progressive overload ways",
+      "ways to progress",
+      "forms of progressive overload",
+      "how to progress without adding weight",
+      "progressive overload without more weight",
+      "other ways to progress",
+      "overload when i cant add weight",
+      "progress at home with same weights",
+      "how to make it harder",
+      "is more reps progressive overload",
+      "progressive overload explained",
+      "types of progressive overload"
+    ],
+    "match": "\\b((forms|types|ways) of (progressive )?overload|(ways|how) to progress without (adding |more )?weight|progressive overload (without|explained|ways)|other ways to progress)\\b",
+    "body": [
+      "Overload means doing more than last time in a way your body has to adapt to. Weight is the obvious one. It is not the only one.",
+      "The dials: more load at the same reps, more reps at the same load, or more sets. Same work with better form, deeper range, or more control. Same work with less rest, or a harder variation, like a pause or a deficit.",
+      "For strength, load and reps lead. The rest are tools for when load is stuck or the equipment runs out. One rule: only count it if the reps are the same quality. A shorter range is not progress."
+    ],
+    "more": {
+      "why": "Muscles and nerves adapt to the demands placed on them. The demand has to rise over time, or the adaptation stops. How you raise it is flexible.",
+      "how": "Pick one dial at a time. Turn it a little. Log it. When it stops turning, pick another.",
+      "home": "Fixed dumbbells at home: add reps, add a set, add a pause at the bottom, slow the lowering, then switch to a single-leg or single-arm version.",
+      "mistake": "Cutting depth to hit more weight and calling it progress. The lift got easier, not you stronger."
+    },
+    "chips": [
+      "Add reps or add weight?",
+      "How do I microload?"
+    ],
+    "related": [
+      "tk-b-046",
+      "tk-b-048",
+      "tk-b-047"
+    ]
+  }
+]

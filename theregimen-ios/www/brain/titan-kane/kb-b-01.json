@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "tk-b-001",
+    "topic": "programming",
+    "title": "How to read a strength program",
+    "keys": [
+      "how to read a program",
+      "what does 5x5 mean",
+      "what does 3x8 mean",
+      "sets x reps meaning",
+      "what does 3x5 at 80 percent mean",
+      "program notation",
+      "how do i read my workout",
+      "what does a plus sign mean in a program",
+      "what is 4x6 at 80 percent",
+      "understanding a lifting program",
+      "reading a workout plan",
+      "program numbers explained",
+      "what do the numbers mean in a program"
+    ],
+    "match": "\\b(how (do i|to) read (a|my|this) (program|workout|plan)|what does \\d+ ?x ?\\d+ mean|program notation|what do the numbers mean)\\b",
+    "body": [
+      "Sets first, reps second. 5x5 means five sets of five reps. 3x8 means three sets of eight. When you see 3x5 at 80%, every set uses 80 percent of your one-rep max.",
+      "RPE 8 means stop each set with about two reps left in the tank. A plus sign, like 1x5+, means the last set is as many reps as you can do with good form. TM means training max, a number set a little under your real max so the work stays clean.",
+      "Read the whole week before you start. Know which day is heavy, which is light, and which lift leads. A program is a blueprint. Build it the way it is drawn before you start moving walls."
+    ],
+    "more": {
+      "why": "Every number in a program is a decision someone made about stress and recovery. Read it wrong and you train a different program than the one you picked, then blame the program.",
+      "how": "Write the first week out in your log before day one: lift, sets, reps, and the actual weight on the bar. Percentages become plates on paper, not in your head between sets.",
+      "example": "Squat 3x5 at 75% with a 300 lb max: 0.75 x 300 = 225. Three sets of five at 225, rest three to five minutes between sets.",
+      "mistake": "Treating the listed weight as a minimum and adding more because the first set felt easy. The program planned that easy set. It is building toward something."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is a training max?",
+      "What is RPE?",
+      "What is an AMRAP set?"
+    ],
+    "related": [
+      "tk-b-013",
+      "tk-b-034",
+      "tk-b-039",
+      "tk-b-012"
+    ]
+  },
+  {
+    "id": "tk-b-002",
+    "topic": "programming",
+    "title": "Linear progression: add weight every session",
+    "keys": [
+      "linear progression",
+      "what is linear progression",
+      "add weight every workout",
+      "add weight every session",
+      "lp program",
+      "novice linear progression",
+      "beginner linear progression",
+      "how long does linear progression last",
+      "when does linear progression stop working",
+      "starting strength style",
+      "stronglifts style",
+      "adding 5 lbs every workout",
+      "is linear progression good"
+    ],
+    "match": "\\b((?<!after )linear progression|novice lp|\\blp\\b program|add(ing)? (5|five|10|ten) ?(lb|lbs|pounds)? (to the bar )?every (workout|session))\\b",
+    "body": [
+      "The simplest program that works. Same lifts, same sets and reps, a little more weight every session. It works because a new lifter recovers fast and adapts faster.",
+      "Typical jumps: squat and deadlift 5 to 10 lb a session, bench and overhead press 2.5 to 5 lb. Three full-body sessions a week, three sets of five on the main lifts, one heavy set of five on the deadlift.",
+      "Most people get three to six months out of it before sessions start failing. That is not the end of progress, only the end of this phase. You move to weekly progression and keep building."
+    ],
+    "more": {
+      "why": "In your first months your nervous system learns the lifts and your muscles respond to almost any new load. Session-to-session gains are possible only while recovery outpaces the stress. That window closes for everyone.",
+      "how": "Start lighter than you think, a weight you could do for 8 to 10 reps. Add the smallest jump that keeps every rep clean. When a lift fails, repeat the weight next session. Fail it three sessions in a row, drop 10 percent and climb again.",
+      "beginner": "This is your program. Do not get clever. Squat, press, pull, three days a week, more weight every time you can earn it.",
+      "example": "Week one: squat 135, 140, 145 across Monday, Wednesday, Friday. Week eight: around 215. Same three sets of five the whole way.",
+      "mistake": "Starting too heavy. The lighter you start, the longer the climb lasts. Ego on day one costs you months later."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "What do I do when LP stalls?",
+      "How much weight do I add?",
+      "Best program for beginners?"
+    ],
+    "related": [
+      "tk-b-060",
+      "tk-b-047",
+      "tk-b-010",
+      "tk-b-003"
+    ]
+  },
+  {
+    "id": "tk-b-003",
+    "topic": "programming",
+    "title": "Double progression: reps first, then weight",
+    "keys": [
+      "double progression",
+      "what is double progression",
+      "rep range progression",
+      "when to go up in weight with a rep range",
+      "progress with 8 to 12 reps",
+      "hit the top of the rep range",
+      "reps then weight",
+      "progressing in a rep range",
+      "when do i move up in weight on 3x8 to 12",
+      "double progression model",
+      "how to progress accessories"
+    ],
+    "match": "\\b(double progression|top of (the|my) rep range|progress(ing)? (in|within|through) a rep range|reps (first,? )?then weight)\\b",
+    "body": [
+      "Two dials, turned in order. First you add reps inside a range. When every set hits the top of the range, you add weight and drop back to the bottom.",
+      "Example: 3 sets of 8 to 12. Week one you get 10, 9, 8, so the weight stays. Week three you get 12, 12, 12. Now add the smallest jump the equipment allows and start again around 8.",
+      "Best for dumbbells, machines, cables, pull-ups, and anything where weight jumps are big compared to the load. It also works on barbell lifts with a tighter range, like 3 to 5 or 5 to 8. Slow, honest, and it almost never stalls hard."
+    ],
+    "more": {
+      "why": "A 5 lb jump on a 25 lb dumbbell is a 20 percent jump. Nobody adds 20 percent in a week. Reps bridge the gap so the weight increase lands on a muscle that is ready for it.",
+      "how": "Pick a range. Pick a weight you can do for the bottom of it with two or three reps left. Add reps each session. Only when all sets reach the top, go up.",
+      "example": "Dumbbell row, 3x8 to 12 with 50s: 9, 8, 8, then 11, 10, 9, then 12, 12, 12. Next session, 55s for 8, 8, 8.",
+      "mistake": "Counting sloppy reps to reach the top. A rep with half the range or a hip swing does not count. The range only works if the reps are the same reps."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Add reps or add weight?",
+      "How much weight do I add?"
+    ],
+    "related": [
+      "tk-b-046",
+      "tk-b-047",
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-004",
+    "topic": "programming",
+    "title": "Undulating periodization: different reps on different days",
+    "keys": [
+      "undulating periodization",
+      "daily undulating periodization",
+      "dup program",
+      "what is dup",
+      "heavy light medium days",
+      "different reps each day",
+      "heavy day light day",
+      "heavy medium light",
+      "is dup better than linear",
+      "wave the reps through the week",
+      "varying rep ranges in a week",
+      "texas method"
+    ],
+    "match": "\\b(undulating|\\bdup\\b|heavy,? (light|medium),? (and )?(medium|light) days?|texas method)\\b",
+    "body": [
+      "Same lift, different job each day. One day heavy with low reps, one day moderate with more reps, sometimes a light day for speed and practice. The week as a whole moves forward.",
+      "A simple squat week: Monday 4x8 around 70 percent, Wednesday 5x5 around 77 percent, Friday 5x3 around 85 percent. Next week, add 5 lb to each day. You train strength and size in the same week and practice the lift three times.",
+      "It suits intermediates who stall on straight linear work. Beginners do not need it yet. A well-run linear plan beats a fancy wave you do not recover from."
+    ],
+    "more": {
+      "why": "Varying the stress lets you train more often without hammering the same quality every session. Heavy days build max strength, volume days build muscle and work capacity, and fatigue gets spread out.",
+      "how": "Keep the order fixed: the hardest day goes where you sleep and eat best. Progress each day separately. If the heavy day stalls, the volume day can still move.",
+      "advanced": "Run the volume day at RPE 7 to 8 and the heavy day at RPE 8 to 9. Track both. If the volume day climbs and the heavy day stalls, you need more intensity exposure, not more volume.",
+      "mistake": "Making every day a heavy day with a different rep count. Light days are part of the design. Treat them as practice, not a test."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is block periodization?",
+      "What is periodization?"
+    ],
+    "related": [
+      "tk-b-005",
+      "tk-b-006",
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-005",
+    "topic": "programming",
+    "title": "Block periodization: build, sharpen, show it",
+    "keys": [
+      "block periodization",
+      "what is block periodization",
+      "accumulation block",
+      "intensification block",
+      "realization block",
+      "hypertrophy block then strength block",
+      "training blocks",
+      "what is a training block",
+      "mesocycle",
+      "what is a mesocycle",
+      "strength block",
+      "volume block",
+      "how to run training blocks"
+    ],
+    "match": "\\b(block periodi[sz]ation|accumulation (block|phase)|intensification (block|phase)|realization (block|phase)|mesocycles?|training blocks?)\\b",
+    "body": [
+      "Build the foundation, then the structure, then the roof. Block periodization trains one main quality at a time, in order, each block setting up the next.",
+      "Accumulation, 3 to 6 weeks: more sets, more reps, loads around 65 to 75 percent. You build muscle and work capacity. Intensification, 3 to 4 weeks: fewer sets, heavier, 75 to 90 percent. Realization, 1 to 3 weeks: low volume, heavy singles and doubles, then a test or a meet.",
+      "A deload sits between blocks or at the end. Then you start over a little stronger. This is how most intermediate and advanced lifters peak. It is slower than it looks and it works."
+    ],
+    "more": {
+      "why": "You cannot train everything at full effort at once. Focusing volume in one block and intensity in the next lets fatigue drop just as strength peaks.",
+      "how": "Pick a test date and count back. The last 1 to 2 weeks are realization. Before that, 3 to 4 weeks of intensification, and before that, 4 to 6 weeks of accumulation.",
+      "example": "A 12-week run: weeks 1 to 5 squat 4x8 to 5x6, weeks 6 to 9 squat 5x3 to 4x2, weeks 10 to 11 singles at 90 to 95 percent, week 12 light, then test.",
+      "beginner": "You do not need blocks yet. While you can add weight every week, add weight every week. Blocks come when that stops."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I peak for a max test?",
+      "How long should a program last?"
+    ],
+    "related": [
+      "tk-b-018",
+      "tk-b-006",
+      "tk-b-004",
+      "tk-b-007"
+    ]
+  },
+  {
+    "id": "tk-b-006",
+    "topic": "programming",
+    "title": "What periodization is and whether you need it",
+    "keys": [
+      "what is periodization",
+      "periodization explained",
+      "do i need periodization",
+      "periodized training",
+      "should i periodize",
+      "is periodization necessary",
+      "macrocycle",
+      "microcycle",
+      "periodization for beginners",
+      "planning training phases",
+      "how to plan my training year",
+      "periodizing my training"
+    ],
+    "match": "\\b((?<!(undulating|block) )periodi[sz]ation|periodi[sz]e(d)?|macrocycles?|microcycles?)\\b",
+    "body": [
+      "Periodization is a plan for how training changes over time. Nothing more mysterious than that. Volume, intensity, and exercise choice move on purpose instead of by mood.",
+      "A microcycle is usually a week. A mesocycle is a block of 3 to 6 weeks with one main goal. A macrocycle is the long arc, often a few months to a year, toward a test, a meet, or a season.",
+      "Beginners need very little of it. Add weight, recover, repeat. Once progress slows to week to week or month to month, planning matters more. The longer you train, the more your gains depend on the plan."
+    ],
+    "more": {
+      "why": "A body adapts to what it does repeatedly, then stops adapting. Planned change keeps the stimulus new enough to drive progress and controlled enough to recover from.",
+      "how": "Start simple: train one emphasis for 4 to 6 weeks, take an easier week, shift the emphasis. Write it down before you start so the plan decides, not your mood that day.",
+      "beginner": "Your periodization is linear: a little more weight each session. That is a plan. It is just the simplest one.",
+      "advanced": "Advanced lifters often run a volume block, a strength block and a short peak, two or three times a year, with deloads between. The structure matters more than the brand name on it."
+    },
+    "chips": [
+      "What is undulating training?",
+      "What is block periodization?"
+    ],
+    "related": [
+      "tk-b-005",
+      "tk-b-004",
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-007",
+    "topic": "programming",
+    "title": "How long to run a program",
+    "keys": [
+      "how long should i run a program",
+      "how long should a program last",
+      "how many weeks should i run a program",
+      "how long to stay on a program",
+      "program length",
+      "how long until a program stops working",
+      "should i run a program for 12 weeks",
+      "how many weeks per block",
+      "how long should my workout plan last",
+      "how long do i stick with a routine",
+      "when does a program stop working",
+      "length of a training cycle"
+    ],
+    "match": "\\b(how long (should|do|to) (i )?(run|stay on|stick with|keep|do) (a|my|this|the) (program|routine|plan|split)|how long should (a|my) (program|routine|plan) last|how many weeks (should i run|per block|on a program))\\b",
+    "body": [
+      "As long as it keeps working. That is the real answer. For most structured programs, plan on 8 to 16 weeks before judging it.",
+      "A beginner linear program can run three to six months, sometimes longer. A block program for intermediates usually runs 8 to 12 weeks, then repeats with new numbers. Wave programs run in 3 or 4 week cycles and can repeat for a year if the numbers keep climbing.",
+      "Strength is slow. Four weeks tells you almost nothing. The first two weeks are you learning the program. The work starts paying after that."
+    ],
+    "more": {
+      "why": "Adaptation takes weeks to show up on the bar. Switch too soon and you only ever collect the first, easiest month of every program and never the payoff.",
+      "how": "Before you start, write down your current best set for each main lift. Run the program as written for at least 8 weeks. Compare. Then decide.",
+      "example": "You squat 225 for 5 when you start a 12-week plan. At week 8 you do 245 for 5. That program is working. Keep running it or start the next cycle of it.",
+      "mistake": "Judging a program by how it feels in week two. Hard does not mean right and easy does not mean wrong. Judge it by the numbers in week eight."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "When should I switch programs?",
+      "Is my program still working?"
+    ],
+    "related": [
+      "tk-b-008",
+      "tk-b-009",
+      "tk-b-005"
+    ]
+  },
+  {
+    "id": "tk-b-008",
+    "topic": "programming",
+    "title": "When to switch programs, and program hopping",
+    "keys": [
+      "when should i switch programs",
+      "when to change my program",
+      "program hopping",
+      "is program hopping bad",
+      "should i change my routine",
+      "switch routines",
+      "how often should i change programs",
+      "should i try a new program",
+      "bored of my program",
+      "new program every month",
+      "time to change workout plan",
+      "when to change my workout routine",
+      "should i change my split"
+    ],
+    "match": "\\b(program hopping|(switch|change|swap)(ing)? (my |a |the )?(program|routine|workout plan|workout routine)s?|new program every (month|week)|bored (of|with) my (program|routine))\\b",
+    "body": [
+      "Switch when the program stops working, not when it stops being new. Boredom is not a stall. Most people quit a program right before it pays.",
+      "Good reasons to switch: you stalled on the main lifts for three or four weeks despite good sleep, food, and a reset. Your schedule changed and the program no longer fits your week. Pain that keeps coming back on a specific movement. Your goal changed.",
+      "Program hopping every few weeks keeps you a beginner forever. You collect the easy first weeks and never the payoff. Pick one, run it, and earn the right to judge it."
+    ],
+    "more": {
+      "why": "Every program needs time to build fatigue, adapt, and show results. Changing every month resets the clock and the progress you were about to get never arrives.",
+      "how": "Keep the main lifts and swap the accessories if you are bored. Fresh accessories give you something new without throwing away the structure that is working.",
+      "example": "Bench stalled at 185 for three weeks. Sleep is fine, food is fine, a 10 percent reset did not help. That is a real reason to move to a weekly or wave progression.",
+      "mistake": "Switching to a harder program because progress slowed. Slower progress often means you need better recovery or a deload, not more work."
+    },
+    "reads": [
+      "stalls",
+      "sessions"
+    ],
+    "chips": [
+      "Is my program still working?",
+      "How long should a program last?"
+    ],
+    "related": [
+      "tk-b-007",
+      "tk-b-009",
+      "tk-b-058"
+    ]
+  },
+  {
+    "id": "tk-b-009",
+    "topic": "programming",
+    "title": "How to tell if your program is working",
+    "keys": [
+      "is my program working",
+      "is my program still working",
+      "is my routine working",
+      "how do i know if my workout is working",
+      "am i making progress",
+      "not seeing results from lifting",
+      "how to measure strength progress",
+      "is my training working",
+      "am i getting stronger",
+      "how to tell if i am progressing",
+      "no progress in the gym",
+      "my workout is not working"
+    ],
+    "match": "\\b(is my (program|routine|training|workout|plan) (still )?working|am i (getting stronger|making progress|progressing)|how (do i|to) (know|tell) if (my|the) (program|workout|routine|training) is working)\\b",
+    "body": [
+      "Look at the bar, not the mirror. If the weight or the reps on your main lifts are climbing over 4 to 8 weeks, it is working. If they are flat, it is telling you something.",
+      "Compare like with like: same lift, same reps, same depth, same rest. 225 for 5 eight weeks ago and 245 for 5 now is progress. So is 225 for 8, because rep PRs count.",
+      "Beginners should see the main lifts move most weeks. Intermediates, every few weeks. Advanced lifters, every few months. If nothing has moved in six weeks, check sleep, food, and whether you are actually following the plan."
+    ],
+    "more": {
+      "why": "How hard a session feels is a poor measure. Fatigue, mood and sleep swing it daily. The numbers on the bar, tracked over weeks, are the only honest witness.",
+      "how": "Pick one benchmark set per main lift, like your best set of five. Write it down every time you hit it. Read the trend monthly, not daily.",
+      "beginner": "In your first three months, if the weight on the bar is not going up most weeks, start lighter, eat more, and sleep more before you blame the program.",
+      "mistake": "Calling a program broken after one bad week. One week is weather. Six weeks is climate."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "How fast should I get stronger?",
+      "Why have I stalled?"
+    ],
+    "related": [
+      "tk-b-068",
+      "tk-b-058",
+      "tk-b-024"
+    ]
+  },
+  {
+    "id": "tk-b-010",
+    "topic": "programming",
+    "title": "The best strength program for a beginner",
+    "keys": [
+      "best program for beginners",
+      "beginner strength program",
+      "what program should i do as a beginner",
+      "beginner workout plan",
+      "first lifting program",
+      "beginner routine",
+      "what program should i start with",
+      "good starter program",
+      "beginner powerlifting program",
+      "program for new lifters",
+      "beginner strength routine",
+      "new to lifting what program"
+    ],
+    "match": "\\b(?<!(from|after) )(beginner|novice|starter) (strength |powerlifting |lifting |workout )?(program|routine|plan)s?\\b|\\bwhat program should i (do|start)",
+    "body": [
+      "The best beginner program is simple, full body, three days a week, and adds weight on a schedule. That is it. The brand on it matters less than you running it for months.",
+      "Each session: a squat or leg press pattern, a press, a pull, and a hinge most days. Three sets of five to eight on the big lifts. A couple of accessories for two or three sets of 8 to 12. Add a little weight each session while you can, then each week.",
+      "Sessions run 45 to 75 minutes. Rest 2 to 3 minutes on the big lifts. Leave a rep or two in the tank, learn the movements, and log every set."
+    ],
+    "more": {
+      "why": "Beginners improve fastest from practicing the main lifts often. Full body three times a week means you squat, press and pull three times a week. More practice, more progress.",
+      "how": "Day A: squat 3x5, bench 3x5, row 3x8. Day B: squat 3x5, overhead press 3x5, deadlift 1x5, pull-ups or pulldowns 3x8. Alternate A and B, three days a week.",
+      "example": "Monday A, Wednesday B, Friday A. Next week starts with B. Add 5 lb to squat and deadlift, 2.5 lb to the presses, each session the last one was clean.",
+      "mistake": "Starting with a five-day bodybuilder split from a magazine. It hits each lift once a week. You need the practice more than you need the pump."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is linear progression?",
+      "Full body or a split?",
+      "What weight should I start with?"
+    ],
+    "related": [
+      "tk-b-002"
+    ]
+  },
+  {
+    "id": "tk-b-011",
+    "topic": "programming",
+    "title": "Programs for intermediate lifters",
+    "keys": [
+      "intermediate program",
+      "intermediate strength program",
+      "program after beginner",
+      "what to run after linear progression",
+      "next program after stronglifts",
+      "next program after starting strength",
+      "best program for intermediates",
+      "intermediate powerlifting program",
+      "weekly progression program",
+      "what program after lp",
+      "graduated from beginner program",
+      "intermediate routine"
+    ],
+    "match": "\\b(intermediate (strength |powerlifting |lifting )?(program|routine|plan)|(program|run) after (linear progression|lp|beginner)|next program after|weekly progression)\\b",
+    "body": [
+      "You are intermediate when you can no longer add weight every session but can still add it every week or two. The program has to change to match.",
+      "Three solid options. Upper/lower four days a week with a heavy day and a volume day per lift. A weekly wave where the top set gets heavier across three weeks, then resets a little higher. Or a simple undulating plan with heavy, medium, and light days.",
+      "What they share: more total volume than a beginner plan, some sets at 80 to 90 percent, progression measured week to week, and a lighter week every 4 to 8 weeks. Pick one that fits your schedule and run it for at least two full cycles."
+    ],
+    "more": {
+      "why": "The stress needed to drive adaptation is now bigger than one session can deliver and recover from. Spreading it across a week, with planned variation, is how you keep climbing.",
+      "how": "Choose by days available. Three days: full body with heavy, light, medium. Four days: upper/lower. Run each main lift twice a week, one heavier, one with more volume.",
+      "example": "Week 1 bench top set 5 reps at 200, week 2 a triple at 210, week 3 a single at 220, week 4 deload. Next wave starts at 205 for 5.",
+      "mistake": "Calling yourself intermediate after one stall. One failed session on a beginner plan is not graduation. Reset once or twice first."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "Am I a beginner or intermediate?",
+      "What is undulating training?"
+    ],
+    "related": [
+      "tk-b-069",
+      "tk-b-004",
+      "tk-b-060"
+    ]
+  },
+  {
+    "id": "tk-b-012",
+    "topic": "programming",
+    "title": "Percentage-based training",
+    "keys": [
+      "percentage based training",
+      "training with percentages",
+      "percent of 1rm",
+      "percent of max",
+      "what is 80 percent of my max",
+      "how to use percentages in lifting",
+      "program says 75 percent",
+      "percentages or rpe",
+      "should i use percentages",
+      "percent based program",
+      "how to calculate percentages for lifting",
+      "working off percentages"
+    ],
+    "match": "\\b(percent(age)?s?[- ]based|percentages? (or|vs) rpe|(\\d+ ?(%|percent)) of (my )?(max|1rm|one rep max)|training (with|off) percentages)\\b",
+    "body": [
+      "A percentage program sets each weight as a share of your one-rep max. Simple, objective, easy to plan. It only works if the max you plug in is honest and current.",
+      "Rough guide: 65 to 75 percent for volume work of 6 to 10 reps, 75 to 85 percent for sets of 3 to 6, 85 to 95 percent for heavy triples, doubles and singles. Most programs use a training max a little under your true max so the numbers stay doable on an average day.",
+      "Percentages do not know you slept four hours. Pair them with RPE. If 80 percent moves like a grind, you are tired. If it flies, you may be stronger than your number says."
+    ],
+    "more": {
+      "why": "Percentages control intensity across a whole cycle. You know weeks ahead that week six is heavier than week two, and the plan can build toward it on purpose.",
+      "how": "Use a recent max, tested or estimated. Multiply by the percentage. Round to the nearest load you can make with your plates, usually to the nearest 5 lb.",
+      "example": "Max 315. 75 percent is 236, round to 235. 85 percent is 268, round to 270. 90 percent is 283.5, round to 285.",
+      "mistake": "Using a max from a year ago or a max you hit once on a great day with a bad squat. Inflated maxes make every percentage too heavy and the whole program grinds."
+    },
+    "chips": [
+      "What is a training max?",
+      "How do I estimate my max?",
+      "What is RPE?"
+    ],
+    "related": [
+      "tk-b-013",
+      "tk-b-051",
+      "tk-b-034",
+      "tk-b-045"
+    ]
+  },
+  {
+    "id": "tk-b-013",
+    "topic": "programming",
+    "title": "What a training max is and why it is lighter",
+    "keys": [
+      "what is a training max",
+      "training max",
+      "tm in a program",
+      "what does tm mean",
+      "training max 90 percent",
+      "how to set a training max",
+      "why is my training max lower",
+      "calculate training max",
+      "531 training max",
+      "should my training max be my real max",
+      "training max too heavy",
+      "lower my training max"
+    ],
+    "match": "\\b(training max|\\btm\\b|531 training)\\b",
+    "body": [
+      "A training max is a working number set below your true max, usually 85 to 90 percent of it. The program builds every weight off that number instead of your best day ever.",
+      "Why lighter: you get to run the whole cycle with clean reps on average days, not perfect ones. Progress comes from adding to the training max each cycle, often 5 lb for upper body and 10 lb for lower body.",
+      "If the planned sets start grinding or you miss reps on the main work, the training max is too high. Drop it by 10 percent and climb again. Ego in the training max costs you the whole cycle."
+    ],
+    "more": {
+      "why": "True maxes vary day to day. A program built on your best day breaks on your normal days. A training max builds in room for sleep, stress, and life.",
+      "how": "Take a recent tested or estimated one-rep max. Multiply by 0.9. Round down to the nearest 5 lb. That is your training max for the cycle.",
+      "example": "Squat max 300. Training max 270. A set at 85 percent of the training max is 229.5, so 230 on the bar.",
+      "mistake": "Raising the training max every cycle even when your reps on the top sets are falling. Raise it only when the work is moving well."
+    },
+    "chips": [
+      "How do I estimate my max?",
+      "Percentages or RPE?"
+    ],
+    "related": [
+      "tk-b-012",
+      "tk-b-051",
+      "tk-b-039"
+    ]
+  },
+  {
+    "id": "tk-b-014",
+    "topic": "programming",
+    "title": "Writing your own strength program",
+    "keys": [
+      "how to write my own program",
+      "make my own workout plan",
+      "design my own program",
+      "create my own routine",
+      "build my own strength program",
+      "write a lifting program",
+      "how to program for myself",
+      "diy program",
+      "make a workout routine",
+      "how to build a workout program",
+      "custom program",
+      "program design"
+    ],
+    "match": "\\b((write|make|design|create|build)(ing)? (my|your) own (strength |lifting |training )?(program|routine|workout plan|plan)|program design|diy program)\\b",
+    "body": [
+      "You can. Build it like a structure, foundation first: decide days per week, then put a main lift at the start of each day. Add one or two secondary lifts, and finish with two to four accessories.",
+      "Rules that keep it honest: each main lift trained once or twice a week, and 10 to 20 hard sets per muscle per week. Main lifts in 3 to 6 reps, accessories in 8 to 15, with 3 to 5 minutes of rest on heavy sets. The progression is planned and written down before day one.",
+      "Then leave it alone for 8 weeks. Most homemade programs fail from constant edits, not bad design. Change one thing at a time, and only after the numbers tell you to."
+    ],
+    "more": {
+      "why": "A good program balances stress and recovery and moves you toward a goal on purpose. Writing your own teaches you what every piece is for. That makes you a better lifter.",
+      "how": "In order: goal, days available, split, and the main lift for each day. Then sets, reps and a progression rule for each lift. Then accessories, and a deload every 4 to 8 weeks.",
+      "example": "Four days: Monday squat 4x5 and RDL, Tuesday bench 4x5 and rows, Thursday deadlift 3x3 and front squat, Friday overhead press 4x5 and chin-ups. Accessories after. Add 5 lb a week to each main lift.",
+      "beginner": "Run a proven beginner program first. Learn what it feels like when a plan works. Write your own once you know what you are replacing."
+    },
+    "chips": [
+      "How many sets per muscle a week?",
+      "How do I order my exercises?"
+    ],
+    "related": [
+      "tk-b-029",
+      "tk-b-019"
+    ]
+  },
+  {
+    "id": "tk-b-015",
+    "topic": "programming",
+    "title": "Can you change exercises in a program",
+    "keys": [
+      "can i swap exercises in a program",
+      "change exercises in my program",
+      "substitute an exercise",
+      "replace an exercise in a program",
+      "can i add exercises to a program",
+      "can i modify a program",
+      "add more to my program",
+      "swap barbell for dumbbell",
+      "exercise substitution",
+      "can i skip an exercise",
+      "tweak a program",
+      "adding extra work to a program"
+    ],
+    "match": "\\b((swap|substitut\\w*|replac\\w*) (an |one |the )?exercises?( in)?|(modify|tweak)(ing)? (a|my|the) program|add(ing)? (more|extra) (exercises|work|sets) to (a|my|the) program|can i skip an exercise)\\b",
+    "body": [
+      "Swap like for like and you keep the program. Change the structure and you have a different program. Know which one you are doing.",
+      "Fine: a dumbbell press for a barbell press when your shoulder complains. A leg press for a hack squat when the machine is taken. A different row. Same pattern, similar reps, similar effort.",
+      "Not fine: adding three extra sets to everything because the program felt easy in week one, or dropping the main lift you dislike. Easy early weeks are planned. If you want to add, add one accessory for an area the program misses, and watch your recovery for two weeks."
+    ],
+    "more": {
+      "why": "A program balances stress across the week. Extra work in one place takes recovery from somewhere else, often the main lifts you are trying to grow.",
+      "how": "Match the movement pattern, the rep range, and the effort. Keep the new exercise for the rest of the cycle so you can actually progress it.",
+      "example": "Program says barbell row 4x8, your back is cranky. Do chest-supported dumbbell row 4x8 at a similar effort. Pattern kept, back spared.",
+      "mistake": "Changing the main lift every week. You cannot progress something you only do once."
+    },
+    "chips": [
+      "How often should I change exercises?",
+      "How many exercises per workout?"
+    ],
+    "related": [
+      "tk-b-023",
+      "tk-b-022",
+      "tk-b-008"
+    ]
+  },
+  {
+    "id": "tk-b-016",
+    "topic": "programming",
+    "title": "Training for strength vs training for size",
+    "keys": [
+      "strength vs hypertrophy",
+      "strength or size",
+      "train for strength or muscle",
+      "difference between strength and hypertrophy training",
+      "powerlifting vs bodybuilding training",
+      "does strength training build muscle",
+      "can i get strong without getting big",
+      "strong but not big",
+      "big but not strong",
+      "hypertrophy vs strength",
+      "strength training vs muscle building",
+      "lift heavy or lift for size"
+    ],
+    "match": "\\b(strength (vs|or|versus) (hypertrophy|size|muscle)|hypertrophy (vs|or|versus) strength|powerlifting (vs|or|versus) bodybuilding|strong (but|without) (not )?(getting )?big|big but not strong)\\b",
+    "body": [
+      "They overlap more than people think. Bigger muscles can produce more force. Heavier lifting builds muscle. The difference is emphasis, not a wall.",
+      "Strength work: heavier loads, often 1 to 6 reps at 80 percent and up, long rests, lots of practice on the specific lift. Size work: more total sets, 6 to 30 reps taken within 0 to 3 reps of failure, shorter rests are fine, more exercise variety.",
+      "Strength is a skill on top of muscle. A lifter who only does sets of 12 will be strong, but not as strong on a single as someone who practices heavy singles. Most people do best with both: heavy main lifts, then volume accessories."
+    ],
+    "more": {
+      "why": "Max strength depends on muscle size plus how well your nervous system recruits and coordinates it. Heavy, specific practice trains the second part. Volume trains the first.",
+      "how": "Start each session with a main lift at 3 to 6 reps. Follow with 2 to 4 accessories at 8 to 15 reps. That covers both.",
+      "example": "Squat 4x4 at 82 percent, then leg press 3x10, walking lunges 2x12 a leg, leg curls 3x12.",
+      "beginner": "For your first year the line barely exists. Sets of 5 to 10 with good form will make you bigger and stronger at the same time."
+    },
+    "chips": [
+      "Best rep range for strength?",
+      "Best rep range for muscle?",
+      "Can I train for both?"
+    ],
+    "related": [
+      "tk-b-025",
+      "tk-b-026",
+      "tk-b-017"
+    ]
+  },
+  {
+    "id": "tk-b-017",
+    "topic": "programming",
+    "title": "Training for strength and size at the same time",
+    "keys": [
+      "powerbuilding",
+      "what is powerbuilding",
+      "strength and size at the same time",
+      "can i train for both strength and size",
+      "powerlifting and bodybuilding together",
+      "get big and strong",
+      "strong and muscular program",
+      "hybrid strength program",
+      "combine strength and hypertrophy",
+      "powerbuilding program",
+      "can i train for both",
+      "size and strength program"
+    ],
+    "match": "\\b(powerbuilding|strength and (size|hypertrophy|muscle) (at the same time|together)|(get|getting) big and strong|train for both)\\b",
+    "body": [
+      "Yes, and most people should. Heavy main lift first, while you are fresh, then volume work after. That is the whole idea.",
+      "A typical day: one main lift for 3 to 5 sets of 3 to 6 reps around 75 to 87 percent. One secondary lift for 3 sets of 6 to 8. Then two or three accessories for 2 to 4 sets of 8 to 15, last reps hard.",
+      "Watch total volume. Keep it near 10 to 20 hard sets per muscle per week. The heavy work counts toward it. When recovery slips, cut accessory sets before you cut the main lift."
+    ],
+    "more": {
+      "why": "Heavy sets build skill and max strength. Moderate sets near failure build muscle. Muscle raises your strength ceiling, and strength lets you use heavier loads for the volume work. Each feeds the other.",
+      "how": "Four days upper/lower works well. Each day leads with one heavy lift, then goes to volume. Progress the heavy lift by load, the accessories by reps first.",
+      "example": "Upper day: bench 4x4 at 85 percent, incline dumbbell press 3x8, chest-supported row 4x10, lateral raise 3x15, triceps pushdown 3x12.",
+      "mistake": "Doing a full powerlifting session and then a full bodybuilding session on top. That is two programs. You will recover from neither."
+    },
+    "chips": [
+      "Strength or size?",
+      "How many sets per muscle a week?"
+    ],
+    "related": [
+      "tk-b-016",
+      "tk-b-029"
+    ]
+  },
+  {
+    "id": "tk-b-018",
+    "topic": "programming",
+    "title": "How to peak for a max test or a meet",
+    "keys": [
+      "how to peak",
+      "peaking for a meet",
+      "peaking program",
+      "peak for a max test",
+      "how to taper before testing",
+      "taper before a meet",
+      "week before a meet",
+      "week before max out",
+      "how to get ready to test my max",
+      "peak week",
+      "tapering for powerlifting",
+      "what to do before a max test"
+    ],
+    "match": "\\b(peak(ing)?( week| for| program)|taper(ing)? (before|for)|week before (a |my |the )?(meet|max test|max out|testing))\\b",
+    "body": [
+      "A peak drops fatigue while keeping strength sharp. Volume comes down, intensity stays up, and the heavy day arrives on the day it counts.",
+      "Last 3 to 4 weeks: sets get fewer, reps drop to triples, doubles, and singles at 85 to 95 percent. Ten to fourteen days out: last heavy single, around 90 to 93 percent, never a max. Final week: a few light sets at 60 to 70 percent early in the week, then rest the last two days.",
+      "Do not try anything new: no new grips, no new shoes, no new stance. Sleep, eat normally, and keep the bar moving fast. The heavy day is earned in the months before, and the peak only reveals it."
+    ],
+    "more": {
+      "why": "Strength shows up when fatigue falls faster than fitness. Fatigue clears in days. Fitness takes weeks to fade. A short taper exploits that gap.",
+      "how": "Count back from test day. Week minus 4 to minus 2: heavy triples to singles, volume cut by a third. Week minus 1: light openers early, then rest.",
+      "example": "Goal: a 405 squat. Ten days out, a single at 375. Five days out, 3 sets of 2 at 275, then rest the last two days. Test day: open at 365, then 390, then 405.",
+      "mistake": "Testing a max in the final week to see if you are ready. You will be tired on the day that matters."
+    },
+    "chips": [
+      "How do I pick meet attempts?",
+      "How do I test a 1RM safely?"
+    ],
+    "related": [
+      "tk-b-054",
+      "tk-b-050",
+      "tk-b-005"
+    ]
+  },
+  {
+    "id": "tk-b-019",
+    "topic": "programming",
+    "title": "What order to do your exercises in",
+    "keys": [
+      "exercise order",
+      "what order should i do exercises",
+      "which exercise first",
+      "squat or deadlift first",
+      "bench or squat first",
+      "should i do big lifts first",
+      "order of exercises in a workout",
+      "compound lifts first",
+      "accessories before or after main lifts",
+      "isolation before compound",
+      "pre exhaust",
+      "what lift comes first"
+    ],
+    "match": "\\b(exercise order|order (of|for) (my )?exercises|what order (should i|to) (do|put)|which (exercise|lift) (first|comes first)|(squat|bench|deadlift|press) (or|before|then) (squat|bench|deadlift|press) first|pre[- ]?exhaust)\\b",
+    "body": [
+      "Hardest and most important first. Power, technique, progression, in that order. The lift you most want to improve goes when you are freshest.",
+      "Typical order: any jumps or throws, then the main barbell lift, then a secondary lift, then accessories, then isolation and core. Heavy and technical early. Simple and pumpy late.",
+      "If you squat and deadlift on the same day, the one you care about more goes first. Most people squat first because squats are harder to do well tired. Arms, calves, and abs go at the end."
+    ],
+    "more": {
+      "why": "Fatigue costs technique and load. The first lift of the day gets your best effort. Spend it where progress matters most.",
+      "how": "Write the session top to bottom: speed work, main lift, secondary lift, two or three accessories. If two lifts tie, rotate which goes first each week.",
+      "advanced": "Pre-fatiguing a muscle with isolation work before the main lift is a hypertrophy tool. It lowers the load you can use. Skip it when strength is the goal.",
+      "mistake": "Doing biceps and abs first because they are fun, then squatting tired. Fun goes last."
+    },
+    "chips": [
+      "How many exercises per workout?",
+      "Squat and deadlift same day?"
+    ],
+    "related": [
+      "tk-b-022",
+      "tk-b-020"
+    ]
+  },
+  {
+    "id": "tk-b-020",
+    "topic": "programming",
+    "title": "Main lifts, secondary lifts, and accessories",
+    "keys": [
+      "main lift vs accessory",
+      "what is an accessory exercise",
+      "what is a secondary lift",
+      "main lifts and accessories",
+      "how to structure a workout",
+      "structure of a strength session",
+      "what counts as a main lift",
+      "supplemental lifts",
+      "what are assistance exercises",
+      "how to set up a training day",
+      "main movement",
+      "what is assistance work"
+    ],
+    "match": "\\b(main lift (vs|or|and) accessor\\w*|what (is|are) (an )?(accessory|assistance|supplemental|secondary) (exercise|lift|work)s?|structure (of )?(a|my) (strength )?(session|workout|training day))\\b",
+    "body": [
+      "Three tiers. Main lift: the one you are building, trained heavy, early. Secondary lift: a close variation that supports it. Accessories: smaller lifts that fix weak links and add muscle.",
+      "Main lift: 3 to 5 sets of 1 to 6 reps, long rests, progress by load. Secondary: 3 to 4 sets of 4 to 8, like a pause squat after squats or a close-grip bench after bench. Accessories: 2 to 4 sets of 8 to 15, progress by reps then load.",
+      "The main lift gets the best of you. Accessories serve it. When time or recovery is short, cut from the bottom up."
+    ],
+    "more": {
+      "why": "Not every exercise deserves the same effort. Ranking them protects the lift that matters most from the fatigue of everything else.",
+      "how": "Pick the main lift for the day. Pick one secondary that targets its sticking point. Pick two or three accessories for the muscles that limit it.",
+      "example": "Deadlift day: deadlift 4x3, then RDL 3x6, then chest-supported row 3x10, back extension 3x12, farmer carry 3 trips.",
+      "short_on_time": "Main lift plus one accessory. Thirty-five minutes. That still moves you forward."
+    },
+    "chips": [
+      "How do I pick accessories?",
+      "What order do I do exercises?"
+    ],
+    "related": [
+      "tk-b-019",
+      "tk-b-022"
+    ]
+  },
+  {
+    "id": "tk-b-021",
+    "topic": "programming",
+    "title": "How long a strength workout should take",
+    "keys": [
+      "how long should a workout be",
+      "how long should i lift",
+      "how long should a strength workout take",
+      "workout too long",
+      "is a 2 hour workout too long",
+      "is 45 minutes enough to lift",
+      "how long should i be at the gym",
+      "ideal workout length",
+      "is an hour enough",
+      "my workouts take too long",
+      "length of a lifting session",
+      "how many minutes should i lift"
+    ],
+    "match": "\\b(how long should (a|my) (workout|session|lifting session|strength workout) (be|take|last)|(workouts?|sessions?) (are |is )?too long|is (a |an )?(\\d+|one|two) (hour|minute)s? (workout|session) (too long|enough)|ideal workout length)\\b",
+    "body": [
+      "Most strength sessions land between 45 and 90 minutes. Heavy work needs long rests, so strength days run longer than pump days. That is normal.",
+      "Rough math: a 10 minute warm-up, then the main lift for 4 to 5 working sets with 3 to 4 minutes rest, about 25 minutes. A secondary lift takes 12 to 15 minutes and two accessories another 15. Call it 65 to 75 minutes.",
+      "Past 90 minutes, effort usually drops and the extra work adds little. If sessions keep running long, cut accessory sets, not rest on the main lift. Phones are the usual thief."
+    ],
+    "more": {
+      "why": "Strength needs recovery between heavy sets to keep load and technique high. Cutting that rest to save time cuts the quality of the work that matters most.",
+      "how": "Time your next session from first warm-up to last set. Write down where the minutes went. Cut the lowest value work first.",
+      "short_on_time": "Forty minutes: short warm-up, main lift for 3 working sets, one accessory paired with a core move. Done.",
+      "mistake": "Adding more exercises because the session feels short. A short, heavy, focused session builds more than a long, scattered one."
+    },
+    "chips": [
+      "How long to rest between sets?",
+      "Strength training in 30 minutes?"
+    ],
+    "related": [
+      "tk-b-032",
+      "tk-b-022"
+    ]
+  },
+  {
+    "id": "tk-b-022",
+    "topic": "programming",
+    "title": "How many exercises per workout",
+    "keys": [
+      "how many exercises per workout",
+      "how many exercises should i do",
+      "how many exercises per session",
+      "how many exercises per muscle",
+      "too many exercises",
+      "how many lifts per day",
+      "number of exercises in a workout",
+      "how many exercises for legs",
+      "how many exercises on chest day",
+      "is 3 exercises enough",
+      "how many movements per workout",
+      "how many exercises per day"
+    ],
+    "match": "\\b(how many (exercises|lifts|movements) (per|a|in a|each|should i|for|on)|too many exercises|number of exercises|is (3|three|4|four|5|five) exercises enough)\\b",
+    "body": [
+      "Four to six for most sessions. One or two main lifts, then two to four accessories. More than that and the last ones become filler.",
+      "Count sets, not exercises. 15 to 25 hard working sets in a session is plenty for most people. Three exercises done well for four sets each beat eight exercises done for two sloppy sets.",
+      "Per muscle, one to three exercises a session is enough. A squat plus a single-leg move covers your quads. A row plus a pulldown covers your back. Variety comes across the week, not all in one day."
+    ],
+    "more": {
+      "why": "Every new exercise needs its own warm-up and its own learning curve. Fewer exercises means more time on productive, heavy work and easier progress tracking.",
+      "how": "List the main lift. Add the accessory that best supports it. Add one for any muscle the week is missing. Stop there.",
+      "beginner": "Three to five exercises per session. Master them. You will add more when you can tell what each one is for.",
+      "short_on_time": "Three exercises: one squat or hinge, one press, one pull. Three or four sets each. Strong enough."
+    },
+    "chips": [
+      "How many sets per exercise?",
+      "How long should a workout be?"
+    ],
+    "related": [
+      "tk-b-030",
+      "tk-b-021",
+      "tk-b-020"
+    ]
+  },
+  {
+    "id": "tk-b-023",
+    "topic": "programming",
+    "title": "How often to change exercises",
+    "keys": [
+      "how often should i change exercises",
+      "muscle confusion",
+      "should i change my exercises every week",
+      "do muscles get used to exercises",
+      "switch up exercises",
+      "keep the same exercises",
+      "how often to rotate exercises",
+      "change exercises to shock muscles",
+      "shock your muscles",
+      "same workout every week",
+      "is doing the same workout bad",
+      "rotating exercises"
+    ],
+    "match": "\\b(muscle confusion|shock (your|my|the) muscles|how often (should i|to|do i) (change|rotate|switch) (my )?(exercises|lifts|workouts?)|same workout every (week|day)|muscles get used to)\\b",
+    "body": [
+      "Muscle confusion is a myth. Muscles do not get bored. They get stronger when you do the same thing with more weight over time.",
+      "Keep the main lifts the same for at least 8 to 16 weeks, often much longer. Rotate accessories every 4 to 8 weeks if they stop progressing, get stale, or start aching. Keep an exercise as long as it keeps going up.",
+      "Repetition is how you get good at a lift. You cannot progress something you change every week. Change with a reason. Never just to change."
+    ],
+    "more": {
+      "why": "Progressive overload needs a stable reference. If the squat is a back squat one week and a hack squat the next, you never know if you got stronger.",
+      "how": "At the end of each block, check each accessory. If it is still progressing and not hurting, keep it. If it has been flat for a month or it aches, swap it for a similar movement.",
+      "advanced": "Advanced lifters rotate variations of the main lifts by block, like pause squats in one block and regular squats in the next. Planned variation, not random variety.",
+      "mistake": "Building a new workout every session from social media. Interesting is not the same as effective."
+    },
+    "chips": [
+      "When should I switch programs?",
+      "How do I pick accessories?"
+    ],
+    "related": [
+      "tk-b-008",
+      "tk-b-015"
+    ]
+  },
+  {
+    "id": "tk-b-024",
+    "topic": "programming",
+    "title": "Logging your training: what to write down",
+    "keys": [
+      "should i track my workouts",
+      "what should i log",
+      "how to log my lifts",
+      "workout log",
+      "training log",
+      "do i need to track my lifts",
+      "what to write in a training journal",
+      "tracking my weights",
+      "keep a lifting journal",
+      "how to track progress in the gym",
+      "log my sets",
+      "why log workouts"
+    ],
+    "match": "\\b((track|log)(ing)? (my )?(workouts?|lifts|sets|weights|training)|training (log|journal)|workout (log|journal)|lifting (log|journal))\\b",
+    "body": [
+      "If it is not written down, it did not happen. Memory flatters. The log does not. You cannot progress what you do not measure.",
+      "For every working set: the lift, the weight, the reps, and how hard it was, as RPE or reps left. Add a short note when something matters, like a sore knee, bad sleep, a new grip, or a rep that moved fast.",
+      "Log it the moment the set ends, not after the session. Before every session, read the last one. Your target today is the last entry plus a little. That is the whole system."
+    ],
+    "more": {
+      "why": "A log turns training into a series of small, beatable targets. It also shows patterns, like the lift that stalls every time sleep drops, that you would never notice by feel.",
+      "how": "Log each set with the + button as you go. After the session, check your Progress screen. Read the last two weeks before planning the next.",
+      "example": "Squat 255 x 5, 5, 4 at RPE 9. Note: slept 5 hours, last rep slow. Next session: 255 again, target 5, 5, 5.",
+      "mistake": "Logging only the good days. The bad days are where the information is."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Is my program still working?",
+      "What is RPE?"
+    ],
+    "related": [
+      "tk-b-009",
+      "tk-b-034",
+      "tk-b-055"
+    ]
+  }
+]

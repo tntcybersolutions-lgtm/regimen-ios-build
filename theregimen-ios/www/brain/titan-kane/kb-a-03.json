@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "tk-a-054",
+    "topic": "deadlift",
+    "title": "Setting up a conventional deadlift",
+    "keys": [
+      "deadlift form",
+      "how to deadlift",
+      "deadlift setup",
+      "how do i set up a deadlift",
+      "conventional deadlift form",
+      "deadlift technique",
+      "proper deadlift form",
+      "how do i deadlift",
+      "deadlift form check",
+      "where should the bar be deadlift",
+      "deadlift foot position",
+      "how far from the bar deadlift",
+      "deadlfit form",
+      "dead lift form"
+    ],
+    "match": "\\b(dead ?l(i|f)\\w*( form| setup| set ?up| technique| form check)|how (do i|to) (do a )?dead ?lift|(set ?up|setting up) (a |the |for )?dead ?lift|conventional dead ?lift)\\b",
+    "body": [
+      "My favorite lift. Built from the floor up. Stand with the bar over the middle of your foot, about an inch from your shins, feet about hip width and toes slightly out.",
+      "Bend over and grip the bar just outside your legs, arms straight. Now bend your knees until your shins touch the bar, without moving the bar. Chest up, back flat, lats tight like you are squeezing oranges in your armpits.",
+      "Pull the slack out: lift against the bar until it clicks against the plates without leaving the floor. Big breath, brace, and push the floor away. The bar drags up your legs while hips and shoulders rise together.",
+      "Stand tall, glutes squeezed, no lean back. Lower it the same way, hips back first."
+    ],
+    "more": {
+      "why": "The bar over midfoot is the balance point. Start anywhere else and the bar swings toward it on the way up, which costs you strength and stresses your back.",
+      "how": "Five steps, every rep: feet, grip, shins to bar, chest up, pull. Same order, same feel. Rushing the setup is how most deadlift reps go wrong.",
+      "beginner": "Start with a weight you can move for 5 clean reps, often just the bar plus a pair of 25s, or a trap bar. Learn the setup until it is automatic. Strength builds fast once it is.",
+      "mistake": "Squatting the deadlift: hips too low, knees too far forward, bar starting in front of the knees. Hips belong higher than in a squat, lower than your shoulders."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Sumo or conventional deadlift?",
+      "Lower back sore after deadlifts",
+      "What does pulling the slack mean?"
+    ],
+    "related": [
+      "tk-a-055",
+      "tk-a-057",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-055",
+    "topic": "deadlift",
+    "title": "Pulling the slack out of the bar",
+    "keys": [
+      "what does pulling the slack mean",
+      "pull the slack out",
+      "slack out of the bar",
+      "deadlift slack",
+      "wedge deadlift",
+      "bar click deadlift",
+      "jerking the bar deadlift",
+      "yanking the deadlift",
+      "deadlift jerk off the floor",
+      "how to start a deadlift",
+      "get tight before deadlift"
+    ],
+    "match": "\\b(slack|wedg\\w*|(jerk|yank)\\w*[^.?!]{0,20}(bar|dead ?lift)|bar click\\w*)\\b",
+    "body": [
+      "Every barbell has a little give between the bar and the plates. Pulling the slack means taking that out before the plates leave the floor. You lift until you hear the bar click against the top of the plate holes, then you pull.",
+      "How it feels: arms straight, lats tight, you pull up against the bar and your hips sink slightly into position. Everything goes tight. The bar is loaded but not moving yet. Then you push the floor away.",
+      "Yanking the bar off the floor feels powerful. It is not. It throws your back out of position and sends the bar forward. Squeeze it off the floor: slow at the start, fast through the middle."
+    ],
+    "more": {
+      "why": "When you jerk a loose bar, your body takes the slack in one sudden snap. The back rounds and the hips shoot up. Taking the slack out first means the bar starts moving with you already locked in.",
+      "how": "Grip, lats tight. Pull up on the bar while pushing your hips back and down a touch until you feel the click. Breathe and brace. Now leg drive.",
+      "mistake": "Thinking the slack is a separate movement that takes ages. It is a second or two of building tension, then the pull."
+    },
+    "chips": [
+      "My hips shoot up on deadlifts",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-054",
+      "tk-a-058"
+    ]
+  },
+  {
+    "id": "tk-a-056",
+    "topic": "deadlift",
+    "title": "Sumo or conventional deadlift",
+    "keys": [
+      "sumo or conventional deadlift",
+      "sumo vs conventional",
+      "should i pull sumo",
+      "is sumo cheating",
+      "sumo deadlift",
+      "conventional vs sumo",
+      "which deadlift is better",
+      "sumo deadlift easier",
+      "sumo better for long legs",
+      "conventional or sumo"
+    ],
+    "match": "\\b(sumo|conventional (or|vs\\.?|versus) sumo)\\b",
+    "body": [
+      "Neither is cheating. Both are legal in every meet and both build a strong back and hips. Pick the one your build pulls best and that does not hurt.",
+      "Conventional: narrow stance, hands outside the legs. More hamstrings and lower back, more forward lean. Often suits people with long arms and a shorter torso.",
+      "Sumo: wide stance, toes turned well out, hands inside the legs. More upright, more quads and adductors, shorter bar travel. Often suits people with long legs, a long torso or cranky lower backs. It also demands open hips.",
+      "Try each for a few weeks at moderate weight. The one that feels stronger and smoother, keep. Many lifters train both."
+    ],
+    "more": {
+      "why": "Leverage decides it. Your limb lengths change how far the bar has to travel and how much your back has to lean in each style.",
+      "how": "Sumo setup: stance wide enough that your shins are close to vertical at the bottom, toes out 30 to 45 degrees, grip shoulder width inside the legs. Spread the floor with your feet and push your knees out over your toes.",
+      "mistake": "Going so wide on sumo that your hips cannot get you to the bar. Start moderately wide and adjust."
+    },
+    "chips": [
+      "How to deadlift sumo",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-057",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-057",
+    "topic": "deadlift",
+    "title": "How to deadlift sumo",
+    "keys": [
+      "how to deadlift sumo",
+      "sumo deadlift form",
+      "sumo setup",
+      "sumo deadlift setup",
+      "how wide sumo stance",
+      "sumo deadlift technique",
+      "sumo hips",
+      "sumo knees in",
+      "sumo stuck off floor",
+      "sumo deadlift tips",
+      "sumo lockout"
+    ],
+    "match": "\\bsumo (dead ?lift\\w* )?(form|setup|set ?up|technique|stance|tips|hips|knees|lockout|stuck)|\\bhow (do i|to) (deadlift |pull )?sumo\\b",
+    "body": [
+      "Stance wide, toes turned out 30 to 45 degrees, shins close to vertical when you are down at the bar. Bar over midfoot, touching or almost touching your shins.",
+      "Grip the bar shoulder width, arms hanging straight down inside your knees. Push your knees out hard so they track over your toes. Chest up, back flat, hips close to the bar.",
+      "Pull the slack. Spread the floor and push your legs out as you drive up.",
+      "Sumo is slow off the floor and fast at the top. Patience at the start. Once it breaks, push your hips through to the bar and stand tall. If it will not leave the floor, your stance may be too wide or your hips too far back."
+    ],
+    "more": {
+      "why": "The wide stance puts you more upright and shortens the bar path. Your quads and adductors do more, your lower back does less. That only works if your knees stay out.",
+      "how": "Wedge in: grip the bar, pull up on it, and let your hips sink down toward the bar until your chest is up and your shins are vertical. Then push the floor apart.",
+      "mistake": "Knees caving in off the floor. That pulls the hips back and turns it into a weak conventional pull with a wide stance."
+    },
+    "chips": [
+      "Sumo or conventional deadlift?",
+      "Deadlift lockout: stop leaning back"
+    ],
+    "related": [
+      "tk-a-056",
+      "tk-a-055"
+    ]
+  },
+  {
+    "id": "tk-a-058",
+    "topic": "deadlift",
+    "title": "Hips shooting up first on the deadlift",
+    "keys": [
+      "my hips shoot up on deadlifts",
+      "hips rise first deadlift",
+      "hips shoot up deadlift",
+      "deadlift turns into stiff leg",
+      "hips come up too fast deadlift",
+      "deadlift hips rising first",
+      "butt comes up first deadlift",
+      "legs straighten first deadlift",
+      "hips shoot up"
+    ],
+    "match": "\\b(hips? (shoot|shoots|shooting|rise|rises|rising|come up|comes up)(?![^.?!]*squat)|butt (comes|shoots) up(?![^.?!]*squat)|legs straighten first)\\b",
+    "body": [
+      "When the hips rise before the bar does, your legs quit and your back is left to finish the job. Fix it before the weight climbs.",
+      "Two common causes. Starting with the hips too low, which feels strong but just means they jump up to where they wanted to be. And not pulling the slack, so the bar jerks and you lose position.",
+      "Cue: push the floor away, do not pull the bar up. Chest and hips rise together. Start with hips a bit higher than you think.",
+      "Lats tight, slack out, then leg drive. Paused deadlifts, two seconds just below the knee, build the strength to hold position. Drop the weight 10 to 20 percent while you fix it."
+    ],
+    "more": {
+      "why": "Weak quads off the floor or a loose setup both show up as hips racing ahead. The body takes the easiest leverage, which loads the back.",
+      "how": "Film from the side. In the first two inches, the angle of your back should barely change. If your back angle flattens toward horizontal before the bar moves, that is the fault.",
+      "advanced": "If it only happens on max attempts, your quads are the limit. Front squats and deficit deadlifts off a small platform build them."
+    },
+    "chips": [
+      "What does pulling the slack mean?",
+      "Deficit deadlifts: when to use them"
+    ],
+    "related": [
+      "tk-a-055",
+      "tk-a-070",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-059",
+    "topic": "deadlift",
+    "title": "Lower back rounding on the deadlift",
+    "keys": [
+      "back rounds deadlift",
+      "rounding back deadlift",
+      "deadlift with rounded back",
+      "is it bad to round your back deadlifting",
+      "cat back deadlift",
+      "upper back rounding deadlift",
+      "lower back rounding deadlift",
+      "deadlift spine position",
+      "flat back deadlift",
+      "my back curls on deadlift",
+      "rounded back pull"
+    ],
+    "match": "\\b(round\\w*[^.?!]{0,20}(back|spine)[^.?!]{0,20}dead ?lift\\w*|dead ?lift\\w*[^.?!]{0,25}(round\\w*|cat back|curl\\w*)|rounded back (pull|dead ?lift))",
+    "body": [
+      "Upper back rounding a little on a heavy pull is common and many strong lifters live with it. Lower back rounding under load is the one to fix. That is where the risk sits.",
+      "The fix starts in the setup. Lats tight: imagine bending the bar around your shins. Chest up before you pull.",
+      "Take the slack out. Breathe into your belly and brace hard. If your lower back still rounds before the bar leaves the floor, your hips may be too low or the weight is too heavy for your position.",
+      "Drop the load to where every rep stays flat. Build up with deadlifts off blocks set just below the knee, Romanian deadlifts, and back extensions. Pain that shoots down a leg, numbness, or sharp pain: stop and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "A braced, neutral lower back spreads load across the strongest structures. Rounding under heavy load concentrates it on the discs and ligaments, which are not built to take it repeatedly.",
+      "how": "Set up, then take a photo from the side before the bar moves. Lower back should be flat or slightly arched. If it already rounds there, it will round more under load.",
+      "mistake": "Overcorrecting into a big arch and looking straight up. Neutral spine, eyes on a spot on the floor a few feet ahead."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Lower back sore after deadlifts",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-060",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-060",
+    "topic": "deadlift",
+    "title": "Lower back sore after deadlifts",
+    "keys": [
+      "lower back sore after deadlifts",
+      "lower back hurts after deadlift",
+      "deadlift back pain",
+      "back pain from deadlifts",
+      "lower back tight after deadlifting",
+      "deadlifts hurt my back",
+      "is it normal for lower back to hurt after deadlift",
+      "back sore deadlift",
+      "deadlift lower back pump",
+      "should my back hurt after deadlifts",
+      "sore back deadlifting"
+    ],
+    "match": "\\b((lower |low )?back[^.?!]{0,30}(after|from|when i)[^.?!]{0,15}dead ?lift\\w*|dead ?lift\\w*[^.?!]{0,25}(hurt|tweak|sore)\\w*[^.?!]{0,10}(lower |low )?back|dead ?lift back pain)",
+    "body": [
+      "Some fatigue in your lower back the day after heavy deadlifts is normal. Your back muscles work hard holding position. Even, dull, gone in a day or two: that is training.",
+      "More than that, look at the lift. Did your lower back round off the floor? Did the bar drift away from your legs? Did you lean back hard at the top, or bounce the bar off the floor every rep?",
+      "Each of those puts the load on your back instead of your hips and legs. Film the next session. Back off 20 to 30 percent and do clean sets for two weeks, swapping to trap bar deadlifts or Romanian deadlifts at moderate weight if needed.",
+      "Sharp pain, pain down the leg, numbness or tingling, or pain getting worse: stop deadlifting and see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The deadlift trains your back by making it hold still under load. When it moves instead, the soreness turns from training into strain.",
+      "how": "Next session: film from the side. Check the bar stays in contact with your legs, your back stays flat from floor to lockout, and you finish by squeezing your glutes, not leaning back.",
+      "mistake": "Doing heavy deadlifts and heavy good mornings and heavy rows all in one week, then wondering why the back is fried. Spread the back work out."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Lower back rounding on deadlift",
+      "Deadlift lockout: stop leaning back",
+      "Trap bar or straight bar?"
+    ],
+    "related": [
+      "tk-a-059",
+      "tk-a-063",
+      "tk-a-067"
+    ]
+  },
+  {
+    "id": "tk-a-061",
+    "topic": "deadlift",
+    "title": "The bar drifting away from your legs",
+    "keys": [
+      "bar drifts away deadlift",
+      "bar away from legs deadlift",
+      "bar swings out deadlift",
+      "keep the bar close deadlift",
+      "deadlift bar path",
+      "bar too far forward deadlift",
+      "bar comes off my legs",
+      "deadlift bar should touch legs",
+      "drag the bar up legs",
+      "deadlift shins scraped",
+      "bar scrapes shins"
+    ],
+    "match": "\\b(bar (drifts?|swings?|comes?|gets?)( out| away| forward| off)|keep (the )?bar close|dead ?lift\\w* bar path|bar path[^.?!]{0,15}dead ?lift|scrap\\w*[^.?!]{0,15}shins?|shins?[^.?!]{0,15}scrap\\w*)\\b",
+    "body": [
+      "The bar should touch your legs the whole way up. Shins, knees, thighs. Every inch it drifts forward adds leverage your lower back has to fight.",
+      "Fix it with your lats. Before you pull, push the bar back toward your shins with straight arms. Think about bending the bar around your legs, or squeezing something in your armpits. Keep that pressure the whole lift.",
+      "Wear long socks or tall pants if the bar scrapes your shins. Light contact is the goal, not grinding. If the bar starts away from you, it swings in toward midfoot as you pull and throws you off balance. Start with it an inch from your shins and leave it there."
+    ],
+    "more": {
+      "why": "The deadlift is a lever. The further the bar from your hips, the longer the lever and the harder your back works. A bar dragging up your legs is the shortest, strongest path.",
+      "how": "Film from the side. The bar should travel in a nearly straight vertical line from the floor to lockout. A curve outward means your lats let go.",
+      "mistake": "Letting the knees push the bar forward on the way up. Your knees should move back out of the way as the bar passes them."
+    },
+    "chips": [
+      "How do I set up a deadlift?",
+      "Lower back sore after deadlifts"
+    ],
+    "related": [
+      "tk-a-054",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-062",
+    "topic": "deadlift",
+    "title": "Grip giving out on deadlifts",
+    "keys": [
+      "grip giving out on deadlifts",
+      "grip fails deadlift",
+      "cant hold the bar deadlift",
+      "bar slipping out of my hands",
+      "mixed grip",
+      "mixed grip deadlift",
+      "hook grip",
+      "hook grip deadlift",
+      "alternate grip deadlift",
+      "double overhand deadlift",
+      "over under grip",
+      "deadlift grip"
+    ],
+    "match": "\\b(grip (giv\\w*|fail\\w*|slip\\w*)|mixed grip|hook grip|alternat\\w* grip|over[ -]?under|double overhand|dead ?lift\\w* grip|bar slip\\w*)\\b",
+    "body": [
+      "Train your grip honest first: double overhand, both palms facing you, for every warm-up and as many work sets as you can hold. Chalk helps more than anything else.",
+      "When double overhand fails, you have two choices. Mixed grip: one palm toward you, one away. Strong and simple, but alternate which hand faces away across sessions, and keep the underhand arm straight, never bending at the elbow, to protect the biceps.",
+      "Hook grip: thumb wrapped under your fingers. Painful for a few weeks, then rock solid. Many lifters prefer it.",
+      "Straps are fine for back-off sets, high reps and Romanian deadlifts when your grip is the only thing failing. Just keep enough strapless pulling in the week that your grip keeps up."
+    ],
+    "more": {
+      "why": "Your back and legs will outgrow your grip unless your grip trains too. Double overhand on the warm-ups builds it without costing your top sets.",
+      "how": "Hook grip: wrap your thumb around the bar, then trap it with your index and middle fingers. Squeeze. The thumb acts like a strap.",
+      "mistake": "Pulling with a bent underhand arm on mixed grip. That is how biceps tears happen. Lock the elbow before the bar leaves the floor."
+    },
+    "chips": [
+      "Chalk: is it worth it?",
+      "How do I use lifting straps?",
+      "How to build grip strength"
+    ],
+    "related": [
+      "tk-a-113",
+      "tk-a-114",
+      "tk-a-115"
+    ]
+  },
+  {
+    "id": "tk-a-063",
+    "topic": "deadlift",
+    "title": "Deadlift lockout: stop leaning back",
+    "keys": [
+      "deadlift lockout",
+      "stop leaning back deadlift",
+      "leaning back at top of deadlift",
+      "hyperextending deadlift",
+      "finish the deadlift",
+      "weak lockout deadlift",
+      "hitching deadlift",
+      "deadlift stuck at knees",
+      "cant lock out deadlift",
+      "how to finish a deadlift",
+      "hips through deadlift",
+      "hitching"
+    ],
+    "match": "\\b(dead ?lift\\w*[^.?!]{0,25}(lock ?out|stuck at (the )?knees?|finish|top)|lean\\w* back[^.?!]{0,20}(top|dead ?lift|lockout)|hyperextend\\w*|hitch\\w*)\\b",
+    "body": [
+      "Lockout means standing tall: knees straight, hips through, shoulders stacked over hips. That is it. Leaning way back adds nothing but stress on your lower back.",
+      "Finish with your glutes. Squeeze them and drive your hips forward to the bar. Stop when you are standing straight.",
+      "Your shoulders do not need to roll back. Your chest does not need to point at the ceiling.",
+      "Stuck at the knees or hitching, where the bar rests on your thighs and you bounce it up? Your hips and upper back are the weak link. Build them with Romanian deadlifts, block or rack pulls from just below the knee, and hip thrusts. A hitched rep is not a finished rep."
+    ],
+    "more": {
+      "why": "Leaning back puts your lower back in a loaded, extended position at the top, where it is not built to take heavy weight. A strong, neutral stand is the strongest and safest finish.",
+      "how": "At the top, think tall: glutes tight, ribs down, chin neutral. Hold for a second, then lower the bar by pushing your hips back first.",
+      "mistake": "Flexing your knees again at the top to get under the bar. That is a hitch. Push your hips into the bar instead."
+    },
+    "chips": [
+      "Rack pulls and block pulls",
+      "Hip thrust setup"
+    ],
+    "related": [
+      "tk-a-069",
+      "tk-a-077"
+    ]
+  },
+  {
+    "id": "tk-a-064",
+    "topic": "deadlift",
+    "title": "Touch and go or dead stop deadlifts",
+    "keys": [
+      "touch and go deadlift",
+      "dead stop deadlift",
+      "should i reset every deadlift rep",
+      "bouncing deadlift",
+      "deadlift reset between reps",
+      "dead stop vs touch and go",
+      "touch and go vs dead stop",
+      "do i let go between deadlift reps",
+      "bounce the bar off the floor",
+      "deadlift reps reset"
+    ],
+    "match": "\\b(touch[ -]and[ -]go|dead[ -]stop|reset (every|each|between)[^.?!]{0,15}reps?|bounc\\w*[^.?!]{0,20}(floor|dead ?lift))\\b",
+    "body": [
+      "Dead stop is the honest deadlift. The bar settles completely on the floor, you reset your position, slack out, and pull again. Every rep starts from zero, like a real single.",
+      "Touch and go means the plates touch the floor and you go right back up, no rest. Fine for moderate weight and higher reps, as long as you touch, not bounce. Bouncing the plates off the floor uses the rebound and lets your back round on the next pull.",
+      "My rule: heavy sets of 1 to 5, dead stop. Lighter sets of 6 to 10 or Romanian deadlifts, touch and go is fine if every rep looks like the first. If your setup gets worse each rep, go back to dead stop."
+    ],
+    "more": {
+      "why": "Each rep of a deadlift is only as good as its setup. Dead stops force a fresh setup every rep. Touch and go lets fatigue creep in silently.",
+      "how": "Dead stop rep: lower under control, plates rest on the floor, let go of tension for a breath without letting go of the bar, reset lats, slack, brace, pull.",
+      "mistake": "Dropping the bar from lockout and catching the bounce. That is not a rep, and your back pays for the next one."
+    },
+    "chips": [
+      "What does pulling the slack mean?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-055",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-065",
+    "topic": "deadlift",
+    "title": "Romanian deadlift: how to do it",
+    "keys": [
+      "romanian deadlift",
+      "rdl",
+      "how to rdl",
+      "rdl form",
+      "romanian deadlift form",
+      "how do i do a romanian deadlift",
+      "rdls",
+      "rdl technique",
+      "how low should i go on rdl",
+      "rdl depth",
+      "barbell rdl",
+      "dumbbell rdl",
+      "romanian dead lift"
+    ],
+    "match": "\\b(romanian dead ?lifts?|rdls?)\\b",
+    "body": [
+      "The RDL starts at the top, not the floor. Stand tall holding the bar, hands just outside your thighs. Soft bend in the knees, and leave it there.",
+      "Push your hips straight back like you are closing a car door with your butt. The bar slides down your thighs, staying in contact. Back flat.",
+      "Go until you feel a strong stretch in your hamstrings and your hips stop moving back, usually somewhere between the knee and mid shin. Then drive your hips forward to stand.",
+      "Depth is set by your hamstrings, not by the floor. If your back starts to round, that is the bottom. Sets of 6 to 12, slow on the way down, two to three seconds. It is a hamstring and glute builder, not a max lift."
+    ],
+    "more": {
+      "why": "The RDL loads the hamstrings in a long, stretched position, which makes it one of the best hamstring builders there is. It also teaches the hip hinge better than anything else.",
+      "how": "Unrack the bar from a rack at hip height or deadlift it up. Knees soft, hips back, bar on the thighs. Stretch, then hips through. Every rep the same.",
+      "beginner": "Start with dumbbells or a light bar. Stand facing a wall a few inches away, turn around and push your hips back to touch it. That is the motion.",
+      "mistake": "Squatting it down by bending the knees more as you go. The knees bend a little at the start and then stay still."
+    },
+    "chips": [
+      "RDL or deadlift?",
+      "I feel RDLs in my lower back"
+    ],
+    "related": [
+      "tk-a-066",
+      "tk-a-067"
+    ]
+  },
+  {
+    "id": "tk-a-066",
+    "topic": "deadlift",
+    "title": "RDL or deadlift",
+    "keys": [
+      "rdl or deadlift",
+      "rdl vs deadlift",
+      "romanian deadlift vs deadlift",
+      "stiff leg deadlift",
+      "stiff leg vs rdl",
+      "rdl instead of deadlift",
+      "difference between rdl and deadlift",
+      "stiff legged deadlift",
+      "sldl",
+      "should i do rdls or deadlifts"
+    ],
+    "match": "\\b((rdls?|romanian)[^.?!]{0,20}(or|vs\\.?|versus|instead of)[^.?!]{0,15}dead ?lifts?|dead ?lifts?[^.?!]{0,15}(or|vs\\.?|versus)[^.?!]{0,10}(rdls?|romanian)|stiff[ -]?leg\\w*|sldl)\\b",
+    "body": [
+      "Different jobs. The deadlift starts from the floor, uses your legs, hips and back, and moves the most weight. It is a strength lift.",
+      "The RDL starts from the top, keeps the knees nearly still, and stretches the hamstrings under load. It is a builder.",
+      "A stiff leg deadlift sits between them: knees nearly straight, each rep usually starting from the floor. More hamstring stretch, more lower back demand. Use it lighter.",
+      "For most people: deadlift once a week for strength, RDL once a week for hamstrings and glutes. If deadlifts beat up your back, the RDL at moderate weight often keeps you hinging while it settles."
+    ],
+    "more": {
+      "why": "The RDL keeps tension on the hamstrings the whole set because the bar never rests on the floor. The deadlift trades some of that for heavier load and leg drive.",
+      "example": "If you deadlift 315 for 3, an RDL for 8 might be around 185 to 225. Start lower and build.",
+      "mistake": "Treating the RDL like a heavy deadlift and racing through it. Slow lowering, controlled stretch."
+    },
+    "chips": [
+      "Romanian deadlift: how to do it",
+      "Trap bar or straight bar?"
+    ],
+    "related": [
+      "tk-a-065",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-067",
+    "topic": "deadlift",
+    "title": "Feeling RDLs in your lower back",
+    "keys": [
+      "i feel rdls in my lower back",
+      "rdl lower back pain",
+      "rdl hurts my back",
+      "rdl not feeling hamstrings",
+      "feel rdl in back not hamstrings",
+      "rdl back sore",
+      "how to feel hamstrings rdl",
+      "romanian deadlift lower back",
+      "rdl hamstrings",
+      "cant feel hamstrings on rdl"
+    ],
+    "match": "\\b(rdls?|romanian)[^.?!]{0,30}((lower |low )?back|hamstrings?|hurt\\w*|pain)|\\bfeel\\w*[^.?!]{0,15}(rdls?|romanian)",
+    "body": [
+      "You are probably bending forward instead of pushing your hips back, or going deeper than your hamstrings allow.",
+      "Fix: start every rep by pushing your hips back. Not by bending at the waist. The bar stays glued to your thighs.",
+      "Stop when your hips stop moving back, even if the bar is only at your knees. That is your range for now. Going lower by rounding the back moves the work off the hamstrings and onto your spine.",
+      "Lighten the weight 20 to 30 percent and slow down: three seconds down, feel the hamstrings stretch, then drive the hips forward. Some lower back work is normal in any hinge. Pain is not, and if it hurts, see a doctor or physical therapist."
+    ],
+    "more": {
+      "why": "The hamstrings attach at the hips. They only stretch when the hips move back. If the hips stay put and the back bends, the hamstrings barely work.",
+      "how": "Do a set with your butt touching a wall behind you at the bottom. Stand a few inches from the wall, push back to tap it. That teaches the hip-back motion.",
+      "mistake": "Locking the knees fully straight. Keep a soft bend. It lets the hamstrings stretch without pulling your lower back into a round."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Romanian deadlift: how to do it",
+      "Lower back sore after deadlifts"
+    ],
+    "related": [
+      "tk-a-065",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-068",
+    "topic": "deadlift",
+    "title": "Trap bar or straight bar deadlift",
+    "keys": [
+      "trap bar or straight bar",
+      "trap bar deadlift",
+      "hex bar deadlift",
+      "is trap bar easier",
+      "trap bar vs barbell deadlift",
+      "trap bar form",
+      "hex bar",
+      "trap bar high or low handles",
+      "is trap bar cheating",
+      "trap bar for beginners",
+      "trap bar deadlift form"
+    ],
+    "match": "\\b(trap ?bar|hex ?bar)\\b",
+    "body": [
+      "Both are deadlifts. The trap bar puts the weight at your sides instead of in front, so your torso stays more upright and your legs do more. Easier on most lower backs. Not cheating, just a different leverage.",
+      "Most people lift more on a trap bar. It is a great main deadlift for beginners, for athletes, for older lifters and for anyone whose lower back does not like the straight bar.",
+      "Form: step inside, feet hip width, centered so the handles line up with the middle of your feet. Grip the handles in the center. Hips down a bit lower than a straight bar pull, chest up, slack out, push the floor away.",
+      "High handles cut the range. Use them to start or if mobility is limited. Low handles for a full pull."
+    ],
+    "more": {
+      "why": "With the load centered on your body, there is less forward lever on your back. That changes the lift toward a squat and deadlift hybrid.",
+      "mistake": "Comparing trap bar numbers to straight bar numbers. They are different lifts. Track each on its own.",
+      "beginner": "Trap bar from high handles is one of the friendliest ways to learn to pick something heavy off the floor. Learn there, then move to low handles."
+    },
+    "chips": [
+      "How do I set up a deadlift?",
+      "Lower back sore after deadlifts"
+    ],
+    "related": [
+      "tk-a-054",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-069",
+    "topic": "deadlift",
+    "title": "Rack pulls and block pulls",
+    "keys": [
+      "rack pulls and block pulls",
+      "rack pull",
+      "block pulls",
+      "rack pulls",
+      "are rack pulls good",
+      "rack pulls for lockout",
+      "pulls from blocks",
+      "rack pull height",
+      "block pull deadlift",
+      "partial deadlifts"
+    ],
+    "match": "\\b(rack pulls?|block pulls?|pulls? (from|off) (blocks|pins)|partial dead ?lifts?)\\b",
+    "body": [
+      "A deadlift that starts higher. The bar sits on blocks or the rack pins, usually just below or just above the knee. Shorter range, more weight, more work for your upper back, grip and lockout.",
+      "Use them for two things. Building a weak lockout. And deadlifting when the floor position bothers your back. Set the height just below where you usually slow down.",
+      "Do not chase rack pull numbers for their own sake. They are a tool. Sets of 3 to 6, clean lockouts, no leaning back.",
+      "Pulls from just below the knee carry over best. Pulls from mid thigh are mostly an upper back and grip builder."
+    ],
+    "more": {
+      "why": "Starting higher lets you overload the top half of the lift. It trains the hips and upper back to hold position with weight you cannot yet pull from the floor.",
+      "how": "Set pins at the height you want. Set up exactly like a deadlift: bar over midfoot, lats tight, slack out. Pull and lock out. Lower to the pins under control.",
+      "mistake": "Rack pulls from above the knee with weight so heavy you hitch every rep. That trains a bad lockout."
+    },
+    "chips": [
+      "Deadlift lockout: stop leaning back",
+      "Deficit deadlifts: when to use them"
+    ],
+    "related": [
+      "tk-a-063",
+      "tk-a-070"
+    ]
+  },
+  {
+    "id": "tk-a-070",
+    "topic": "deadlift",
+    "title": "Deficit deadlifts: when to use them",
+    "keys": [
+      "deficit deadlifts when to use them",
+      "deficit deadlift",
+      "deficit pulls",
+      "standing on a plate deadlift",
+      "weak off the floor deadlift",
+      "deadlift slow off the floor",
+      "deadlift wont break the floor",
+      "deadlift stuck at the floor",
+      "how high deficit deadlift",
+      "deadlift off the floor"
+    ],
+    "match": "\\b(deficit (dead ?lifts?|pulls?)|(weak|slow|stuck) (off|at) the floor|(wont|won't|will not|cant|can't) break (the )?floor|standing on (a )?plates?)\\b",
+    "body": [
+      "A deficit deadlift has you standing on a platform, one to three inches high, so the bar starts lower than normal. It makes the first part of the pull longer and harder.",
+      "Use it if the bar is slow to leave the floor or your hips shoot up at the start. It builds leg drive, positions you lower, and demands a tight setup. Stay with one to two inches. More than that changes the lift.",
+      "Expect to use 10 to 20 percent less than your normal deadlift. Sets of 3 to 6. If you cannot get into a flat back position at the bottom of a deficit, the deficit is too big for you. Lower it, or use paused deadlifts just off the floor instead."
+    ],
+    "more": {
+      "why": "Making the hardest part of the lift longer builds strength right where the lift is failing. Once you return to the floor, the start feels shorter.",
+      "how": "Stand on a stable weight plate or a low platform. Set up exactly like a normal deadlift, hips slightly lower. Pull the slack, push the floor away.",
+      "mistake": "Using a deficit so deep your back rounds just to reach the bar."
+    },
+    "chips": [
+      "My hips shoot up on deadlifts",
+      "Rack pulls and block pulls"
+    ],
+    "related": [
+      "tk-a-058",
+      "tk-a-069"
+    ]
+  },
+  {
+    "id": "tk-a-071",
+    "topic": "deadlift",
+    "title": "Breathing and bracing for the deadlift",
+    "keys": [
+      "how to breathe deadlift",
+      "deadlift breathing",
+      "when to breathe on deadlift",
+      "breathe between deadlift reps",
+      "deadlift brace",
+      "bracing for deadlift",
+      "hold breath deadlift",
+      "valsalva deadlift",
+      "breath on deadlift",
+      "deadlift belt and breathing",
+      "breathing and bracing for the deadlift",
+      "bracing for the deadlift",
+      "breathe on deadlift"
+    ],
+    "match": "\\b(breath\\w*[^.?!]{0,30}dead ?lift\\w*|dead ?lift\\w*[^.?!]{0,20}(breath\\w*|brac\\w*|valsalva))\\b",
+    "body": [
+      "Breathe at the bottom, not at the top. Unlike a squat, the deadlift starts from the floor, so you set your breath before each rep down there.",
+      "Get into position and pull the slack, then take a big breath into your belly and brace all the way around, like someone is about to punch your stomach. Hold it through the pull and the lockout. At the top or after you set the bar down, breathe out, reset, and take a new breath for the next rep.",
+      "For a long set, you can breathe out at the top and take a new breath while standing, then lower and pull again, as long as you rebrace before the bar leaves the floor. Heavy singles and triples, breathe at the floor."
+    ],
+    "more": {
+      "why": "A full belly breath plus a hard brace creates pressure inside your torso that stiffens your spine. That is what holds your lower back still under load.",
+      "how": "Hand on your belly, breathe in so it pushes out, not just your chest rising. Then tighten your abs against that air. That is the brace.",
+      "mistake": "Taking the breath at the top, then bending over to the bar. The bend squeezes the air out before you even start."
+    },
+    "chips": [
+      "How do I brace for a squat?",
+      "Should I wear a lifting belt?"
+    ],
+    "related": [
+      "tk-a-110",
+      "tk-a-111"
+    ]
+  },
+  {
+    "id": "tk-a-072",
+    "topic": "deadlift",
+    "title": "Deadlift alternatives when your back needs a break",
+    "keys": [
+      "deadlift alternatives",
+      "alternatives to deadlift",
+      "what to do instead of deadlifts",
+      "deadlift substitute",
+      "replace deadlift",
+      "deadlift bad back",
+      "cant deadlift",
+      "hinge without deadlift",
+      "deadlift replacement",
+      "back friendly deadlift"
+    ],
+    "match": "\\b(dead ?lift (alternative|substitute|replacement)s?|alternatives? (to|for) (the )?dead ?lifts?|instead of dead ?lifts?|replace (the )?dead ?lifts?|cant dead ?lift|can't dead ?lift)\\b",
+    "body": [
+      "Keep hinging. Change the tool.",
+      "Easiest on the back first: hip thrusts and glute bridges, which load the hips with almost no spine stress. Back extensions on a 45 degree bench, bodyweight then holding a plate. Cable pull-throughs.",
+      "Trap bar deadlifts from high handles. Light Romanian deadlifts with dumbbells. Single-leg Romanian deadlifts, which load each side with half the weight.",
+      "Train them hard for a few weeks while the back calms down, then bring the deadlift back light, maybe 50 to 60 percent of your usual, and climb over several weeks. Pain that runs down a leg, numbness, or pain that is getting worse: see a doctor or physical therapist before loading your back again."
+    ],
+    "more": {
+      "why": "Your hips and hamstrings still need the work. These options move the load off the spine or reduce it, so you keep strength without poking the problem.",
+      "how": "Cable pull-through: face away from a low cable, rope between your legs, push your hips back, then snap them forward to stand tall. Light, smooth, all hips.",
+      "home": "Single-leg hip bridges, backpack Romanian deadlifts and back extensions off the edge of a bed keep the hinge alive with no barbell."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Trap bar or straight bar?",
+      "Hip thrust setup",
+      "Lower back sore after deadlifts"
+    ],
+    "related": [
+      "tk-a-068",
+      "tk-a-077",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-073",
+    "topic": "deadlift",
+    "title": "Deadlift from the floor with short or long arms",
+    "keys": [
+      "deadlift long legs",
+      "deadlift short arms",
+      "deadlift tall lifter",
+      "deadlift for tall people",
+      "long femurs deadlift",
+      "deadlift body type",
+      "short torso deadlift",
+      "deadlift leverage",
+      "deadlift hard because tall",
+      "bad deadlift build"
+    ],
+    "match": "\\b(dead ?lift\\w*[^.?!]{0,30}(long|short|tall)[ -]?(legs?|arms?|torso|femurs?|lifters?|people)?|(long|short)[ -](legs?|arms?|femurs?|torso)[^.?!]{0,25}dead ?lift)",
+    "body": [
+      "Your build changes how the deadlift looks, not whether you can be good at it. Long arms help. Long legs and a short torso make it harder. Every build can pull well.",
+      "Long legs, short arms: you start with your hips higher and your back more horizontal. Consider sumo, which puts you more upright, or a trap bar. Short legs, long arms: conventional usually suits you, and your hips start a bit lower.",
+      "Do not copy someone else's start position. Set the bar over midfoot, shins to bar, chest up, hips wherever that puts them. That is your position. Film it, and if your back stays flat, it is right."
+    ],
+    "more": {
+      "why": "The bar has to travel from the floor over midfoot. Your limb lengths decide where your hips and shoulders have to be to keep it there.",
+      "mistake": "Forcing a low-hip, upright deadlift start because it looks right in videos. If your legs are long, your hips will be higher. That is physics, not a fault.",
+      "advanced": "Test both stances over a few weeks at the same effort. Compare smoothness, speed off the floor and how your back feels the next day."
+    },
+    "chips": [
+      "Sumo or conventional deadlift?",
+      "Trap bar or straight bar?"
+    ],
+    "related": [
+      "tk-a-056",
+      "tk-a-068"
+    ]
+  },
+  {
+    "id": "tk-a-074",
+    "topic": "deadlift",
+    "title": "Deadlifting in a gym that bans dropping",
+    "keys": [
+      "can i drop the deadlift",
+      "dropping the bar deadlift",
+      "should i lower the deadlift",
+      "lowering the deadlift",
+      "eccentric deadlift",
+      "gym wont let me drop",
+      "control the deadlift down",
+      "do i lower deadlifts slowly",
+      "slamming deadlifts",
+      "drop deadlift from top"
+    ],
+    "match": "\\b(drop\\w*[^.?!]{0,20}(dead ?lift|the bar)|lower\\w*[^.?!]{0,10}(the )?dead ?lift|slam\\w*[^.?!]{0,15}(dead ?lift|bar)|dead ?lift\\w*[^.?!]{0,15}(down|lowering|eccentric))\\b",
+    "body": [
+      "Lower it with control. Not slow motion, but not a free fall. Push your hips back first, let the bar slide down your thighs, bend your knees once it passes them, and set it down on the floor over midfoot.",
+      "A controlled lowering builds your hamstrings and back, keeps the bar in the right spot for the next rep, and keeps the gym from asking you to leave. One to two seconds down is plenty. You do not need a slow negative on heavy deadlifts. That just adds fatigue.",
+      "On a true max single, guiding it down quickly with your hands on it is fine. Dropping from lockout with no control damages bars and floors and teaches you to bounce."
+    ],
+    "more": {
+      "why": "The bar in the right spot at the end of the rep is the bar in the right spot for the next setup. Sloppy lowering leads to sloppy pulling.",
+      "how": "At the top, hips back, bar on thighs, knees bend once the bar clears them, plates down. Same path as the way up, in reverse.",
+      "mistake": "Bending the knees first on the way down. The bar has to go around them and drifts forward. Hips first."
+    },
+    "chips": [
+      "Touch and go or dead stop?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-064",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-075",
+    "topic": "deadlift",
+    "title": "Good mornings and back extensions",
+    "keys": [
+      "good mornings",
+      "good morning exercise",
+      "how to do good mornings",
+      "back extension",
+      "back extensions",
+      "hyperextension",
+      "45 degree back extension",
+      "reverse hyper",
+      "are good mornings safe",
+      "good morning form",
+      "lower back exercises for deadlift",
+      "strengthen lower back"
+    ],
+    "match": "\\b(good mornings?( exercise| form)?|back extensions?|hyper ?extension bench|45 degree (back )?extension|reverse hyper|strengthen (my |your |the )?lower back)\\b",
+    "body": [
+      "Both build the back, hips and hamstrings that hold a deadlift together.",
+      "Back extensions: set the pad just below your hip crease. Hinge forward with a flat back, then drive your hips into the pad to come up until your body is in a straight line. Stop there.",
+      "No arching past straight. Start with bodyweight for sets of 10 to 15, then hold a plate at your chest.",
+      "Good mornings: bar on your back like a squat, soft knees, push your hips back until your torso is near parallel or your hamstrings stop you, then stand. Start light, empty bar or a bit more, sets of 6 to 10. This one punishes ego. Keep it moderate and smooth."
+    ],
+    "more": {
+      "why": "Your back's job in a deadlift is to stay rigid while your hips move. These train exactly that, with less load than a heavy pull.",
+      "how": "For more glute on back extensions, round the upper back slightly and point your toes out. For more lower back, keep everything neutral.",
+      "mistake": "Swinging up fast on back extensions and hyperextending at the top. Control the whole rep."
+    },
+    "chips": [
+      "Lower back sore after deadlifts",
+      "Deadlift alternatives"
+    ],
+    "related": [
+      "tk-a-072",
+      "tk-a-060"
+    ]
+  },
+  {
+    "id": "tk-a-076",
+    "topic": "deadlift",
+    "title": "Deadlifting with a bar that is too low",
+    "keys": [
+      "deadlift with light plates",
+      "bar too low deadlift",
+      "small plates deadlift",
+      "deadlift with 10 lb plates",
+      "deadlift starting height",
+      "deadlift with bumpers",
+      "deadlift beginner light weight",
+      "cant deadlift from floor light plates",
+      "raise the bar deadlift",
+      "blocks for light deadlifts",
+      "deadlifting with a bar that is too low"
+    ],
+    "match": "\\b(dead ?lift\\w*[^.?!]{0,25}(light|small|10 ?lb|5 ?lb|smaller) plates?|bar[^.?!]{0,12}too low|starting height)\\b",
+    "body": [
+      "A standard deadlift starts with the bar about eight and a half inches off the floor, the height of a full size 45 lb plate. Smaller plates put the bar lower, which makes the lift harder and pulls your back into a round.",
+      "If you are deadlifting less than 135, set the bar at standard height. Use bumper plates that are full size but lighter, if your gym has them. Or stack plates or a step under each end of the bar until it sits at the right height.",
+      "Learning with the bar at the correct height protects your back and builds the right start position from day one."
+    ],
+    "more": {
+      "why": "Two inches lower might not sound like much, but it changes the start position to a deficit pull, which is harder and asks more of your back.",
+      "how": "Measure from the floor to the center of the bar. About 8 to 9 inches. Raise it with plates, mats or a low step under each plate until it is there.",
+      "beginner": "A trap bar with high handles or a kettlebell deadlift from a step teaches the hinge at the right height while you build up to 135."
+    },
+    "chips": [
+      "Trap bar or straight bar?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-054",
+      "tk-a-068"
+    ]
+  },
+  {
+    "id": "tk-a-077",
+    "topic": "hips",
+    "title": "Hip thrust setup",
+    "keys": [
+      "hip thrust setup",
+      "how to hip thrust",
+      "hip thrust form",
+      "barbell hip thrust",
+      "hip thrust technique",
+      "how do i do hip thrusts",
+      "hip thrusts",
+      "hip thrust bench height",
+      "hip thrust foot position",
+      "where do i put my feet hip thrust",
+      "hip thrust tips",
+      "glute thrust"
+    ],
+    "match": "\\b(hip ?thrusts?|glute thrusts?)\\b",
+    "body": [
+      "Bench behind you, about knee height. Sit on the floor with the bottom edge of your shoulder blades against the bench. Roll a padded barbell over your legs until it sits in your hip crease.",
+      "Feet flat, about hip width, placed so your shins are vertical at the top. Chin tucked, eyes forward, not at the ceiling. Drive through your heels and push your hips up until your torso is level with the bench and your body is a straight line from shoulders to knees.",
+      "At the top, squeeze your glutes hard for a second with your ribs down. Do not arch your lower back to get higher. Lower under control until your butt is just above the floor.",
+      "Sets of 8 to 15. Glutes do the work. Lower back stays quiet."
+    ],
+    "more": {
+      "why": "The hip thrust loads the glutes hardest when they are shortened at the top, which the squat and deadlift do not. It builds glutes with very little stress on the lower back.",
+      "how": "Shins vertical at the top is the key check. Feet too far forward and you feel it in your hamstrings. Too close and it moves to your quads.",
+      "beginner": "Start with a glute bridge on the floor, then a bodyweight hip thrust off a bench. Add a barbell once you can do 15 smooth reps with a hard squeeze.",
+      "mistake": "Arching your lower back at the top to finish. Tuck the chin, keep the ribs down, finish with your glutes."
+    },
+    "chips": [
+      "Hip thrust or glute bridge?",
+      "The bar hurts my hips on thrusts",
+      "I feel hip thrusts in my hamstrings"
+    ],
+    "related": [
+      "tk-a-078",
+      "tk-a-079",
+      "tk-a-080"
+    ]
+  },
+  {
+    "id": "tk-a-078",
+    "topic": "hips",
+    "title": "Hip thrust or glute bridge",
+    "keys": [
+      "hip thrust or glute bridge",
+      "glute bridge",
+      "hip thrust vs glute bridge",
+      "glute bridge form",
+      "how to do a glute bridge",
+      "barbell glute bridge",
+      "single leg glute bridge",
+      "glute bridge vs hip thrust",
+      "floor bridge",
+      "bridges for glutes"
+    ],
+    "match": "\\b(glute bridges?|hip bridges?|floor bridges?|single[ -]leg (glute |hip )?bridges?)\\b",
+    "body": [
+      "Same idea, different range. The glute bridge is done lying flat on the floor, so the range is shorter. The hip thrust puts your upper back on a bench, so your hips travel further and the glutes work through more range.",
+      "The bridge is easier to set up, needs no bench, and is great for beginners, warm-ups and home training. The hip thrust takes more load and builds more over time.",
+      "Glute bridge: lie on your back, feet flat near your butt, push through your heels to lift your hips until your body is straight from shoulders to knees, squeeze, lower. Single-leg bridges, one foot up, double the difficulty with no weight at all."
+    ],
+    "more": {
+      "why": "The extra range of the hip thrust adds more glute work at the bottom. The bridge keeps the hardest part, the top squeeze.",
+      "home": "Single-leg bridges, bridges with a backpack on your hips, and slow bridges with a three second hold at the top are a full glute session on a living room floor.",
+      "beginner": "Start with 3 sets of 15 glute bridges, two second squeeze at the top. When that is easy, move to a hip thrust off a couch or bench."
+    },
+    "chips": [
+      "Hip thrust setup",
+      "Hip thrust or squat for glutes?"
+    ],
+    "related": [
+      "tk-a-077",
+      "tk-a-081"
+    ]
+  },
+  {
+    "id": "tk-a-079",
+    "topic": "hips",
+    "title": "The bar hurts your hips on thrusts",
+    "keys": [
+      "the bar hurts my hips on thrusts",
+      "hip thrust bar hurts",
+      "hip thrust pad",
+      "bar hurts hip bones",
+      "hip thrust bruise",
+      "hip thrust pain hip bone",
+      "bar digs into hips",
+      "hip thrust padding",
+      "hip thrust hurts pelvis",
+      "thick pad hip thrust"
+    ],
+    "match": "\\b(hip thrust\\w*[^.?!]{0,25}(pad|hurt\\w*|bruis\\w*|pain|padding)|bar (hurts?|digs?)[^.?!]{0,15}hips?)\\b",
+    "body": [
+      "Use a pad. A thick barbell pad, a folded yoga mat, or a rolled towel wrapped around the bar. The bar should sit in the crease of your hips, below the hip bones, not on them.",
+      "If it still hurts, use bigger plates. Full size plates let the bar roll over your legs at a height that sits right in the crease. Small plates leave the bar lower, so you have to roll it further and it lands in the wrong spot.",
+      "Bruising means too little padding or the bar is sitting on bone. Fix the padding before adding more weight. A hip thrust machine or a band across the hips, anchored to two dumbbells, are both options if a bar never feels right."
+    ],
+    "more": {
+      "why": "The hip bones sit right under the skin. Even moderate weight pressing on them hurts. The crease is soft tissue, and a pad spreads the load.",
+      "how": "Sit with your back to the bench, roll the padded bar over your thighs to your hip crease, then hold it in place with both hands just outside your hips while you thrust.",
+      "mistake": "Toughing it out with no pad. Your glutes cannot work hard while you are flinching."
+    },
+    "chips": [
+      "Hip thrust setup",
+      "I feel hip thrusts in my hamstrings"
+    ],
+    "related": [
+      "tk-a-077"
+    ]
+  },
+  {
+    "id": "tk-a-080",
+    "topic": "hips",
+    "title": "Feeling hip thrusts in hamstrings, quads or lower back",
+    "keys": [
+      "i feel hip thrusts in my hamstrings",
+      "hip thrust hamstrings",
+      "hip thrust lower back",
+      "hip thrust quads",
+      "cant feel glutes hip thrust",
+      "hip thrust not working glutes",
+      "hip thrust cramps hamstrings",
+      "hamstring cramp glute bridge",
+      "feel bridges in back",
+      "hip thrust feel it in back"
+    ],
+    "match": "\\b(hip thrust\\w*|glute bridge\\w*|bridges?)[^.?!]{0,30}(hamstrings?|quads?|lower back|cramp\\w*|not working)|\\bfeel\\w*[^.?!]{0,20}(hip thrusts?|bridges?)",
+    "body": [
+      "Foot position decides it. Feet too far from you: hamstrings take over and may cramp. Feet too close: quads take over. Lower back burning: you are arching at the top instead of squeezing your glutes.",
+      "Find the spot: at the top of the thrust, your shins should be vertical. Move your feet an inch at a time until they are. Then tuck your chin, keep your ribs down, and finish each rep by squeezing your glutes, not by pushing your belly up.",
+      "Pushing through your heels with toes slightly raised shifts work to the hamstrings. Flat feet, pressure through midfoot and heels, keeps it on the glutes. A one second squeeze at the top on every rep makes the difference."
+    ],
+    "more": {
+      "why": "The glutes extend the hip. The hamstrings and lower back can help. Your setup decides which ones get the job.",
+      "how": "Do one set slowly, three seconds up, two second hold, three seconds down. Notice where you feel it. Adjust your feet. Repeat until it lands in the glutes.",
+      "mistake": "Looking at the ceiling at the top. That arches your back. Chin tucked, eyes forward."
+    },
+    "chips": [
+      "Hip thrust setup",
+      "Hip thrust or glute bridge?"
+    ],
+    "related": [
+      "tk-a-077",
+      "tk-a-078"
+    ]
+  },
+  {
+    "id": "tk-a-081",
+    "topic": "hips",
+    "title": "Hip thrust or squat for glutes",
+    "keys": [
+      "hip thrust or squat for glutes",
+      "best glute exercise",
+      "hip thrust vs squat",
+      "squats or hip thrusts",
+      "what builds glutes best",
+      "glute exercises",
+      "best exercise for glutes",
+      "grow my glutes",
+      "squats for glutes",
+      "how to build glutes"
+    ],
+    "match": "\\b(hip thrusts? (or|vs\\.?|versus) squats?|squats? (or|vs\\.?|versus) hip thrusts?|best (exercise|exercises|lift|move)s? for (the )?glutes|best glute (exercise|lift|move)s?|(build|grow)\\w* (my |your )?glutes)\\b",
+    "body": [
+      "Both, plus a lunge. The squat and the lunge load the glutes in a deep stretch at the bottom. The hip thrust loads them hardest at the top, fully contracted. Different positions, different work.",
+      "Strong evidence points to deep squats and lunges as great glute builders, and the hip thrust as a strong partner. If you can only fit two, pick a squat or lunge variation and a hip thrust or Romanian deadlift.",
+      "A simple week: one squat or split squat day, one hip thrust or RDL day. Each with 3 to 4 hard sets in the 6 to 15 rep range, close to failure. Add weight slowly. Glutes grow like everything else: hard sets, done often, over months."
+    ],
+    "more": {
+      "why": "Muscles grow well when trained through a full range under load, especially in the stretched position. Combining a stretch-focused lift with a squeeze-focused lift covers both ends.",
+      "mistake": "Doing ten glute exercises lightly instead of three exercises hard. Volume only counts when the sets are hard.",
+      "home": "Bulgarian split squats with a backpack and single-leg hip bridges are a complete glute workout with no equipment."
+    },
+    "chips": [
+      "How to do Bulgarian split squats",
+      "Hip thrust setup"
+    ],
+    "related": [
+      "tk-a-077",
+      "tk-a-133"
+    ]
+  }
+]

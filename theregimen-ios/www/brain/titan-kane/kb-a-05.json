@@ -1,0 +1,878 @@
+[
+  {
+    "id": "tk-a-110",
+    "topic": "bracing",
+    "title": "How to brace under the bar",
+    "keys": [
+      "how do i brace for a squat",
+      "how to brace",
+      "bracing",
+      "how to brace your core lifting",
+      "brace core squat",
+      "breathing and bracing",
+      "breathe into your belly",
+      "360 breathing",
+      "belly breath lifting",
+      "how to breathe when lifting",
+      "should i hold my breath when lifting",
+      "valsalva",
+      "brace for deadlift",
+      "core bracing"
+    ],
+    "match": "\\b(brac(e|es|ed|ing)|valsalva|belly breath\\w*|360 breath\\w*|hold (my|your) breath[^.?!]{0,20}lift\\w*|how (do i|to|should i) breathe[^.?!]{0,20}(lift|squat|under))\\b",
+    "body": [
+      "Bracing is how you turn your torso into a solid column so the load goes through you, not into your lower back. Every heavy rep starts with it.",
+      "Take a big breath through your nose, down into your belly, sides and lower back, not up into your chest and shoulders. Your waist should expand all the way around. Then tighten your abs against that air, like you are about to take a punch. Hold that pressure for the rep.",
+      "Breathe at the top of a squat or bench, at the bottom of a deadlift. For sets of 1 to 5, one breath per rep. For lighter, longer sets, you can let a little air out near the top and grab another. If you have a heart or blood pressure condition, check with your doctor about holding your breath under heavy load."
+    ],
+    "more": {
+      "why": "Air held under pressure plus tight abs stiffens the spine from the inside. A stiff spine passes force from your legs to the bar instead of bending under it.",
+      "how": "Practice lying on your back: hands on the sides of your waist, breathe so your hands get pushed out, then tighten without letting the air go. Then stand and do it with an empty bar.",
+      "beginner": "Brace for every rep, even warm-ups. It should be automatic long before the weight is heavy.",
+      "mistake": "Sucking your stomach in. That makes the torso smaller and softer. Push out against your abs, do not pull in."
+    },
+    "chips": [
+      "Should I wear a lifting belt?",
+      "How tight should my belt be?"
+    ],
+    "related": [
+      "tk-a-111",
+      "tk-a-112",
+      "tk-a-071"
+    ]
+  },
+  {
+    "id": "tk-a-111",
+    "topic": "belt",
+    "title": "Should you wear a lifting belt",
+    "keys": [
+      "should i wear a lifting belt",
+      "lifting belt",
+      "weightlifting belt",
+      "do i need a belt",
+      "when to wear a belt",
+      "belt for squats",
+      "belt for deadlifts",
+      "does a belt make your core weak",
+      "is a belt cheating",
+      "when should i start using a belt",
+      "powerlifting belt",
+      "lever belt",
+      "prong belt",
+      "belt or no belt"
+    ],
+    "match": "\\b(lifting belts?|weight ?lifting belts?|powerlifting belts?|lever belts?|prong belts?|(wear|need|use|using) (a )?belt|belt (for|on) (squats?|dead ?lifts?)|belt or no belt|belt cheating)\\b",
+    "body": [
+      "A belt is a tool, not a crutch. It gives your abs something to push against, which helps you brace harder. Most people lift a little more with one, and it does not make your core weak if you also train without it.",
+      "Learn to brace without a belt first. Then use it for heavy sets of squats, deadlifts and overhead presses, roughly anything above 80 percent of your best. Warm up without it, put it on for the heavy work.",
+      "No belt needed for rows, bench, machine work, or light sets. If you are in your first months of lifting, focus on the brace. The belt will still be there when the weights are heavy."
+    ],
+    "more": {
+      "why": "Your brace creates pressure inside your torso. A belt gives that pressure a firm wall to push against, which raises it further. More pressure, stiffer spine, stronger lift.",
+      "how": "Wrap it around your waist over the belly, roughly over your navel, a bit higher or lower to feel. Breathe in and brace into it. You should feel your belly and sides pushing hard against the belt all the way around.",
+      "beginner": "First 6 to 12 months: no belt. Learn the brace on your own. Then add it for heavy sets.",
+      "mistake": "Wearing it for the entire session, including curls and the walk to the water fountain. Heavy sets only."
+    },
+    "chips": [
+      "How tight should my belt be?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-112",
+      "tk-a-110"
+    ]
+  },
+  {
+    "id": "tk-a-112",
+    "topic": "belt",
+    "title": "How tight the belt should be and where it sits",
+    "keys": [
+      "how tight should my belt be",
+      "belt tightness",
+      "where should a lifting belt sit",
+      "belt position",
+      "belt too tight",
+      "belt hurts my ribs",
+      "belt for deadlift position",
+      "how to wear a lifting belt",
+      "belt digs in",
+      "lifting belt placement",
+      "which belt to buy",
+      "belt thickness"
+    ],
+    "match": "\\b(belt[^.?!]{0,20}(tight\\w*|position|placement|sit\\w*|hurts?|digs?|thick\\w*|too)|how (to|do i) wear (a |my )?(lifting )?belt|which belt)\\b",
+    "body": [
+      "Tight enough that you can just fit a flat hand between the belt and your belly with your breath let out. Then when you breathe in and brace, you fill that space and push hard into the belt. If you cannot breathe in at all, it is too tight.",
+      "Position: most people wear it centered over the navel, in the space between the bottom ribs and the top of the hips. For deadlifts, many lifters set it a notch looser or slightly higher so it does not jam into the hips at the bottom.",
+      "Buy a 10 mm or 13 mm thick belt with an even width all the way around, 4 inches. A prong or lever closure both work. Thin, tapered belts are support belts, not bracing belts."
+    ],
+    "more": {
+      "why": "Too loose and there is nothing to push against. Too tight and you cannot fill your belly with air. The goal is a snug wall you can expand into.",
+      "how": "Put the belt on, let your breath out, tighten until you can slide a flat hand in. Breathe in and brace. You should feel even pressure all the way around.",
+      "mistake": "Cranking it so tight you cannot get a breath, then holding the breath in your chest. That defeats the whole purpose."
+    },
+    "chips": [
+      "Should I wear a lifting belt?",
+      "How do I brace for a squat?"
+    ],
+    "related": [
+      "tk-a-111",
+      "tk-a-110"
+    ]
+  },
+  {
+    "id": "tk-a-113",
+    "topic": "grip",
+    "title": "Chalk: is it worth it",
+    "keys": [
+      "chalk worth it",
+      "chalk is it worth it",
+      "should i use chalk",
+      "lifting chalk",
+      "liquid chalk",
+      "chalk for deadlift",
+      "gym doesnt allow chalk",
+      "chalk ball",
+      "chalk vs straps",
+      "what does chalk do",
+      "sweaty hands lifting",
+      "hands slipping on bar"
+    ],
+    "match": "\\b(chalk\\w*|sweaty hands|hands slip\\w*)\\b",
+    "body": [
+      "Yes. Chalk is the cheapest strength gain in the gym. It dries your hands and lets the bar sit firmly in the knurling. More grip, less slipping, fewer torn calluses.",
+      "Use it on deadlifts, rows, pull-ups and anything heavy you hold. A light coat on the palms and fingers. You do not need to cover your forearms.",
+      "If your gym bans loose chalk, use liquid chalk: a few drops rubbed into your hands, let it dry for 20 seconds. Same effect, almost no mess. A chalk ball in a sock is the next best option."
+    ],
+    "more": {
+      "why": "Sweat and oil make the bar slide in your hands. Even a small slip on a heavy pull makes your grip fail long before your back or legs do.",
+      "how": "Chalk up before each heavy set. Rub it in, tap off the excess. If the bar still slips, wipe the bar with a dry towel first.",
+      "mistake": "Using lotion before the gym. Clean, dry hands, then chalk."
+    },
+    "chips": [
+      "How do I use lifting straps?",
+      "How to build grip strength"
+    ],
+    "related": [
+      "tk-a-114",
+      "tk-a-115",
+      "tk-a-062"
+    ]
+  },
+  {
+    "id": "tk-a-114",
+    "topic": "grip",
+    "title": "How to use lifting straps",
+    "keys": [
+      "how do i use lifting straps",
+      "lifting straps",
+      "how to use straps",
+      "are straps cheating",
+      "when to use straps",
+      "straps for deadlift",
+      "lasso straps",
+      "figure 8 straps",
+      "should i use straps",
+      "straps vs chalk",
+      "wrist straps for lifting",
+      "how to wrap straps"
+    ],
+    "match": "\\b(lifting straps?|(use|using|wrap\\w*) (lifting )?straps?|straps? (for|on) (dead ?lifts?|rows?|pull ?-?ups?|shrugs?)|lasso straps?|figure ?8 straps?|straps? (vs\\.?|or) chalk|straps? cheating|when to use straps?)\\b",
+    "body": [
+      "Straps are not cheating. They let your back and legs train past where your grip gives out. Use them for back-off sets, heavy rows, shrugs, Romanian deadlifts and high-rep pulls.",
+      "How: put your hand through the loop so the tail runs along your palm, toward your thumb. Place your hand on the bar, wrap the tail under and around the bar, away from you, then roll your hand toward you to tighten the wrap. Grip the bar over the strap. One wrap is enough.",
+      "Rule: keep your top deadlift sets and your warm-ups strapless so grip keeps up. Chalk first, straps when chalk is no longer enough."
+    ],
+    "more": {
+      "why": "Grip is a small muscle group. Your back can pull far more than your hands can hold for long sets. Straps let the big muscles get the work they need.",
+      "how": "Practice wrapping with an empty bar until you can do it in five seconds without looking. Wrap the strap in the opposite direction to your fingers, so it tightens as you grip.",
+      "mistake": "Strapping every set of every pull. Your grip stops growing and then fails you on the day you need it.",
+      "beginner": "Skip straps for your first few months. Let your grip grow with your deadlift."
+    },
+    "chips": [
+      "Chalk: is it worth it?",
+      "How to build grip strength"
+    ],
+    "related": [
+      "tk-a-113",
+      "tk-a-115",
+      "tk-a-062"
+    ]
+  },
+  {
+    "id": "tk-a-115",
+    "topic": "grip",
+    "title": "How to build grip strength",
+    "keys": [
+      "how to build grip strength",
+      "grip strength",
+      "weak grip",
+      "improve grip",
+      "grip training",
+      "forearm strength",
+      "how to get a stronger grip",
+      "grip exercises",
+      "farmers walk",
+      "dead hang for grip",
+      "grip keeps failing",
+      "forearms burn out"
+    ],
+    "match": "\\b(grip strength|weak grip|improve (my |your )?grip|grip (training|exercises?|work)|stronger grip|farmer'?s? (walks?|carr(y|ies))|forearm strength)\\b",
+    "body": [
+      "Hold heavy things for time. That is grip training.",
+      "Easiest wins: deadlift warm-ups and as many work sets as you can with a double overhand grip. Then add one or two of these, two or three times a week. Farmer's carries: heaviest dumbbells you can hold, walk 30 to 40 steps, 3 to 4 rounds.",
+      "Dead hangs from a pull-up bar: 3 sets, as long as you can. Holds at the top of a deadlift: 10 to 20 seconds with a heavy bar.",
+      "Use chalk. Avoid straps on warm-ups. Within six to eight weeks most people stop losing deadlifts to grip."
+    ],
+    "more": {
+      "why": "Grip strength builds fast because the muscles are small and adapt quickly. It just has to be trained directly, with heavy holds, not only light reps.",
+      "how": "Two sessions a week: finish with 3 rounds of farmer's carries and 2 dead hangs. Add 5 lb to the carries or 5 seconds to the hangs when it gets easy.",
+      "home": "Hang from a doorway bar, carry heavy grocery bags or water jugs, or hold a towel looped over a bar for pull-up hangs."
+    },
+    "chips": [
+      "Chalk: is it worth it?",
+      "How do I use lifting straps?",
+      "Grip giving out on deadlifts"
+    ],
+    "related": [
+      "tk-a-113",
+      "tk-a-114",
+      "tk-a-062"
+    ]
+  },
+  {
+    "id": "tk-a-116",
+    "topic": "gear",
+    "title": "Do wrist wraps help",
+    "keys": [
+      "do wrist wraps help",
+      "wrist wraps",
+      "should i use wrist wraps",
+      "when to use wrist wraps",
+      "how to wear wrist wraps",
+      "wrist wraps for bench",
+      "wrist wraps vs straps",
+      "wrist wraps for overhead press",
+      "wrist support lifting",
+      "stiff wrist wraps",
+      "how tight wrist wraps"
+    ],
+    "match": "\\b(wrist wraps?|wrist support)\\b",
+    "body": [
+      "They help on heavy pressing. Wraps hold your wrist closer to straight under heavy weight on bench, overhead press and sometimes squats. They do not fix a bad grip.",
+      "How to wear: put the thumb loop on, then wrap around the wrist joint itself, not the forearm below it. Pull firmly, and take the thumb loop off before lifting so it does not pull your thumb. The wrap should cover the joint, half on the hand side, half on the forearm side.",
+      "Use them on top sets, and warm up without them so your wrists keep their own strength. Wrist wraps are not lifting straps: wraps support the joint, straps attach your hand to the bar."
+    ],
+    "more": {
+      "why": "Under very heavy weight the bar levers the wrist back. A tight wrap adds support right at the joint and keeps the force traveling down the forearm.",
+      "how": "Longer, stiffer wraps give more support for heavy singles. Shorter, softer ones are fine for general pressing.",
+      "mistake": "Wrapping well below the wrist on the forearm. It looks right and does almost nothing."
+    },
+    "chips": [
+      "Wrists hurt on bench",
+      "Do knee sleeves actually help?"
+    ],
+    "related": [
+      "tk-a-029",
+      "tk-a-117"
+    ]
+  },
+  {
+    "id": "tk-a-117",
+    "topic": "gear",
+    "title": "Do knee sleeves actually help",
+    "keys": [
+      "do knee sleeves actually help",
+      "knee sleeves",
+      "should i wear knee sleeves",
+      "knee sleeves for squats",
+      "knee wraps",
+      "knee sleeves vs knee wraps",
+      "what size knee sleeves",
+      "7mm knee sleeves",
+      "knee sleeves for knee pain",
+      "neoprene knee sleeves"
+    ],
+    "match": "\\b(knee sleeves?|knee wraps?|neoprene)\\b",
+    "body": [
+      "They help a little, mostly with warmth and comfort. Neoprene sleeves keep the knee warm, give a snug feeling of support, and may give a tiny bit of rebound out of the bottom of a squat. They do not fix knee pain or bad tracking.",
+      "If your knees feel better squatting in sleeves, use them. Pick 5 to 7 mm neoprene, sized so they are snug but you can still get them on without a fight. Too tight and they cut off circulation behind the knee.",
+      "Knee wraps are different. Wound tight for a heavy single, they store real elastic energy and add weight to a squat. That is a competition tool. You do not need it for training."
+    ],
+    "more": {
+      "why": "Warmth makes joints feel smoother. Compression gives a sense of support. Neither changes how your knee tracks or how much load the tissue can handle.",
+      "mistake": "Using sleeves to squat through knee pain that is getting worse. If it hurts, change the lift or the load, and see a professional if it continues.",
+      "how": "Pull the sleeve up so it is centered over your kneecap. Put them on after your first warm-up set so they are not on for the whole session."
+    },
+    "chips": [
+      "Why do my knees hurt squatting?",
+      "Do wrist wraps help?"
+    ],
+    "related": [
+      "tk-a-006",
+      "tk-a-116"
+    ]
+  },
+  {
+    "id": "tk-a-118",
+    "topic": "shoes",
+    "title": "Do lifting shoes help your squat",
+    "keys": [
+      "do lifting shoes help my squat",
+      "lifting shoes",
+      "weightlifting shoes",
+      "squat shoes",
+      "are squat shoes worth it",
+      "do i need lifting shoes",
+      "olympic shoes",
+      "heeled shoes squat",
+      "raised heel shoes",
+      "shoes with a heel for squats",
+      "lifters shoes",
+      "oly shoes"
+    ],
+    "match": "\\b((weight ?)?lifting shoes?|squat shoes?|oly(mpic)? shoes?|heeled shoes?|raised heel shoes?|lifters? shoes?)\\b",
+    "body": [
+      "For many people, yes. A lifting shoe has a hard, raised heel, usually about three quarters of an inch, and a solid sole that does not squish. The heel lets your knees travel forward with less ankle bend, which helps you squat deeper and more upright.",
+      "Who gains the most: people with stiff ankles, high bar and front squatters, people whose heels come up or who fold forward at the bottom. Low bar squatters with good ankles often prefer flat shoes.",
+      "Not ready to buy? Try a small plate or a wedge under each heel for a few sessions. If your squat cleans up, a lifting shoe will do the same thing, more securely. Never squat heavy on a stack of plates that can slide."
+    ],
+    "more": {
+      "why": "Less ankle range is needed when the heel is raised, so the knees can travel forward and the torso can stay upright. The hard sole means force goes into the floor instead of into a squishy cushion.",
+      "mistake": "Deadlifting in lifting shoes. The heel moves you forward and raises the bar distance. Flat shoes or socks for deadlifts.",
+      "how": "Wear them for squats and front squats, and for Olympic lifts. Switch to flat shoes for deadlifts. Some people also like them for overhead press."
+    },
+    "chips": [
+      "Best shoes for deadlifts",
+      "Can I lift in running shoes?"
+    ],
+    "related": [
+      "tk-a-119",
+      "tk-a-009"
+    ]
+  },
+  {
+    "id": "tk-a-119",
+    "topic": "shoes",
+    "title": "Best shoes for deadlifts and lifting in running shoes",
+    "keys": [
+      "best shoes for deadlifts",
+      "can i lift in running shoes",
+      "running shoes for lifting",
+      "shoes for deadlift",
+      "deadlift in socks",
+      "barefoot deadlift",
+      "flat shoes for lifting",
+      "converse for lifting",
+      "lifting in sneakers",
+      "what shoes for the gym",
+      "shoes for squatting",
+      "what shoes for lifting weights",
+      "barefoot lifting"
+    ],
+    "match": "\\b((running|cushion\\w*|squishy) shoes?|shoes? for (dead ?lifts?|lifting|the gym|squat\\w*)|dead ?lift\\w* (in )?(socks|barefoot)|barefoot (lifting|dead ?lift\\w*)|converse|chucks|sneakers?)\\b",
+    "body": [
+      "For deadlifts: flat and thin. Flat soled canvas sneakers, wrestling shoes, deadlift slippers, or socks if your gym allows it. The thinner the sole, the shorter the pull and the more stable your feet.",
+      "Running shoes are built to cushion. Under a heavy bar, that cushion squishes unevenly and your foot rocks. Fine for light machine work and cardio. Not great for heavy squats and deadlifts.",
+      "Squats: a lifting shoe or a flat, firm shoe. Bench: anything with grip on the floor. The goal for every barbell lift is the same. A stable foot that stays put."
+    ],
+    "more": {
+      "why": "Force goes from the floor through your feet to the bar. A soft sole absorbs and wobbles. A firm, flat sole passes force straight through.",
+      "how": "Keep one pair of flat shoes in your gym bag for lifting days. Change at the rack if you ran in on running shoes.",
+      "mistake": "Heavy squats in thick, high cushion running shoes. Your heels sink, your balance moves, your knees drift."
+    },
+    "chips": [
+      "Do lifting shoes help my squat?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-118",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-120",
+    "topic": "bars",
+    "title": "Barbell types and how much the bar weighs",
+    "keys": [
+      "how much does the bar weigh",
+      "barbell weight",
+      "olympic bar weight",
+      "is the bar 45 pounds",
+      "35 lb bar",
+      "womens barbell",
+      "15 kg bar",
+      "20 kg bar",
+      "what bar should i use",
+      "power bar vs olympic bar",
+      "deadlift bar",
+      "ez bar weight",
+      "how heavy is a barbell",
+      "bar types",
+      "squat bar"
+    ],
+    "match": "\\b((how (much|heavy)|what) (does|is) (the|a) (bar|barbell)( weigh)?|bar(bell)? weigh\\w*|(35|45) ?(lb|pound)s? bar|(15|20) ?kg bar|women'?s (bar|barbell)|power ?bar|deadlift bar|ez[ -]?bar|bar types?|types of (bar|barbell)s?)\\b",
+    "body": [
+      "A standard men's Olympic barbell weighs 45 lb, or 20 kg, and is about 7 feet long. A women's bar weighs 35 lb, or 15 kg, with a thinner shaft for smaller hands. Gyms also have shorter bars and fixed barbells that can weigh anything, so check the end cap or ask.",
+      "Power bars are stiff, with aggressive knurling and a center knurl that grips your back on squats. Great for squat, bench and deadlift. Olympic weightlifting bars spin more and flex a little.",
+      "Deadlift bars are longer and whippier, so the plates leave the floor a moment after you start pulling. Use a standard bar for training unless you compete.",
+      "EZ curl bars usually weigh 15 to 25 lb. Smith machine bars vary widely and are often counterbalanced. Write down which bar you used so your numbers stay honest."
+    ],
+    "more": {
+      "why": "A wrong bar weight throws off every number you log. Ten pounds of difference is the gap between a PR and a regular day.",
+      "how": "Check the end cap or the sleeve for a stamped weight. If nothing is marked, weigh it on a scale once and write it down.",
+      "mistake": "Logging the plates but not the bar. A set of 135 is the bar plus two 45s. Log the total."
+    },
+    "chips": [
+      "How do I load the bar?",
+      "Machines or free weights?"
+    ],
+    "related": [
+      "tk-a-146",
+      "tk-a-142"
+    ]
+  },
+  {
+    "id": "tk-a-121",
+    "topic": "safety",
+    "title": "How to set the safety pins or spotter arms",
+    "keys": [
+      "how do i set the safety pins",
+      "safety pins",
+      "safety bars",
+      "spotter arms",
+      "how high safety pins squat",
+      "safety pin height bench",
+      "safety straps rack",
+      "power rack safeties",
+      "where to set safeties",
+      "squat safety bars height",
+      "rack safeties"
+    ],
+    "match": "\\b(safety (pins?|bars?|straps?|arms?)|spotter arms?|safeties|rack safet\\w*)\\b",
+    "body": [
+      "Set them just below the lowest point the bar reaches in a good rep. If the bar touches them on every rep, they are too high. If you fail and they are a foot below, they are useless.",
+      "Squat: get in position with an empty bar and squat to your normal depth. Set the pins one notch below where the bar is at the bottom. Bench in a rack: lie down with your arch set, lower the bar to your chest, set the pins one notch below. Your chest should sink slightly under the bar if you fail and let it rest on them.",
+      "Every heavy session, check them. Different lifts and different racks need different heights. It takes 30 seconds. Skipping it is the only way to get hurt failing a rep alone."
+    ],
+    "more": {
+      "why": "Safeties turn a failed rep into a non-event. You set the bar down and walk away. Without them, a failed squat or bench alone can pin you.",
+      "how": "Test with an empty bar: go to your deepest rep position and pause. If the bar lands on the pins before you get there, lower them a notch. If there is more than a couple of inches of gap, raise them.",
+      "mistake": "Leaving them at whatever height the last person used. Their legs are not your legs."
+    },
+    "chips": [
+      "How do I fail a squat safely?",
+      "How do I fail a bench safely?"
+    ],
+    "related": [
+      "tk-a-122",
+      "tk-a-123",
+      "tk-a-051"
+    ]
+  },
+  {
+    "id": "tk-a-122",
+    "topic": "safety",
+    "title": "How to fail a squat safely",
+    "keys": [
+      "how do i fail a squat safely",
+      "bailing a squat",
+      "how to bail a squat",
+      "failing a squat",
+      "dumping the bar squat",
+      "stuck at the bottom of a squat",
+      "what if i fail a squat",
+      "bail backwards squat",
+      "drop the bar behind squat",
+      "missing a squat",
+      "squat bail"
+    ],
+    "match": "\\b(bail\\w*|fail\\w* (a |the )?squat|dump\\w* the bar|miss\\w* (a |the )?squat|what (if|happens if) i fail[^.?!]{0,15}squat)\\b",
+    "body": [
+      "In a rack with safeties set: sit down into the bottom of the squat and let the bar settle onto the pins. Keep your chest up so it lands on the pins, not on your neck. Then crawl out from under it. That is the cleanest bail there is.",
+      "No safeties, but a spotter: tell them the plan before the set. When you fail, they help you stand it up and rack it.",
+      "Open platform, no pins, no spotter: push your hips forward and drop the bar straight off your back behind you while you step or jump forward. Only practice this with an empty bar first, and only on a platform with bumper plates and space behind you. Never squat to failure alone without safeties."
+    ],
+    "more": {
+      "why": "A failed squat is only dangerous if you have nowhere to put the bar. Safeties set at the right height make failure a non-event.",
+      "how": "Practice failing once with an empty bar inside the rack: squat to the bottom, sit lower, let the bar land on the pins, slide out. Knowing you can do it makes heavy sets less scary.",
+      "mistake": "Leaning forward and letting the bar roll up onto your neck as you fail. Keep the chest up and sit down."
+    },
+    "chips": [
+      "How do I set the safety pins?",
+      "How do I spot a squat?"
+    ],
+    "related": [
+      "tk-a-121",
+      "tk-a-126"
+    ]
+  },
+  {
+    "id": "tk-a-123",
+    "topic": "safety",
+    "title": "How to fail a bench safely",
+    "keys": [
+      "how do i fail a bench safely",
+      "failing bench press",
+      "what if i fail a bench",
+      "stuck under the bar bench",
+      "bench press pinned",
+      "roll of shame",
+      "bar stuck on chest",
+      "failing bench alone",
+      "how to bail bench",
+      "bench press failure safety",
+      "got pinned bench"
+    ],
+    "match": "\\b(fail\\w*[^.?!]{0,15}bench|bench\\w*[^.?!]{0,15}fail\\w*|roll of shame|(stuck|pinned) (under|on)[^.?!]{0,15}(bar|chest|bench)|bar stuck on (my )?chest)\\b",
+    "body": [
+      "Best: bench in a power rack with safeties set just below your chest. When the bar stops, lower it to your chest, then let it rest on the safeties. Slide out toward your head.",
+      "No safeties, a spotter: tell them the signal and the plan before you lie down. They take it when the bar stops moving up, not before.",
+      "Alone with no safeties: bench without collars and know how to tilt the plates off one side, then the other. Or the roll of shame: lower the bar to your chest, roll it down over your stomach to your hips, sit up. It is ugly, it hurts, and it works with moderate weight. Avoid both by leaving a rep or two in the tank when you lift alone."
+    ],
+    "more": {
+      "why": "The bench is the lift people get hurt on most when alone, because the bar ends up over your face and neck. Every bench needs a plan for failure before the first rep.",
+      "how": "Set safeties: lie down, arch, lower the empty bar to your chest, set the pins one notch below the bar.",
+      "mistake": "Benching heavy alone, collars on, no rack. Never."
+    },
+    "chips": [
+      "How do I set the safety pins?",
+      "How do I spot someone on bench?"
+    ],
+    "related": [
+      "tk-a-121",
+      "tk-a-124",
+      "tk-a-051"
+    ]
+  },
+  {
+    "id": "tk-a-124",
+    "topic": "safety",
+    "title": "How to spot someone on bench",
+    "keys": [
+      "how do i spot someone on bench",
+      "how to spot bench press",
+      "spotting bench",
+      "spotter bench",
+      "spot me",
+      "how to be a good spotter",
+      "when should a spotter help",
+      "spotter touching the bar",
+      "alternating grip spot",
+      "spotting technique bench",
+      "good spotter"
+    ],
+    "match": "\\b(spot\\w*[^.?!]{0,15}bench|bench\\w*[^.?!]{0,15}spot\\w*|spot me|good spotter|how (do i|to) spot)\\b",
+    "body": [
+      "Before the set, ask three things: how many reps, do you want a handoff, and when do you want help. Then stand at the head of the bench, feet planted, close enough to grab the bar without leaning.",
+      "Hands near the bar, not on it, with an alternating grip: one palm up, one down. That way the bar cannot roll out of your hands. Follow the bar down and up with your hands an inch or two away.",
+      "Help the moment the bar stops moving up or starts coming back down. Not when it slows. Lift with your legs, not your back.",
+      "Take just enough weight to keep it moving and guide it into the hooks together. Then you say rack. Do not grab the bar mid-rep for a lifter who is still moving it."
+    ],
+    "more": {
+      "why": "A good spotter is invisible until needed, then instant. A bad one either grabs too early and steals the rep or reacts too late.",
+      "how": "Agree on words: lifter says take it or rack, spotter says ok and helps. Clear words matter when someone is under a heavy bar.",
+      "mistake": "Standing far back, arms crossed, looking at your phone. If you agreed to spot, you are working."
+    },
+    "chips": [
+      "How do I spot a squat?",
+      "How do I fail a bench safely?"
+    ],
+    "related": [
+      "tk-a-123",
+      "tk-a-126"
+    ]
+  },
+  {
+    "id": "tk-a-125",
+    "topic": "safety",
+    "title": "Spotting dumbbell presses",
+    "keys": [
+      "spotting dumbbell press",
+      "how to spot dumbbells",
+      "spot dumbbell bench",
+      "spot at the wrists",
+      "spotting dumbbell shoulder press",
+      "spot elbows dumbbell",
+      "dumbbell spotter",
+      "help with dumbbells",
+      "should spotter hold elbows"
+    ],
+    "match": "\\b(spot\\w*[^.?!]{0,20}(dumbbells?|db)|(dumbbells?|db)[^.?!]{0,20}spot\\w*)\\b",
+    "body": [
+      "Spot the wrists, not the elbows. Hands on the lifter's wrists or forearms, right under the dumbbells. Spotting at the elbows lets the dumbbells tip toward the lifter's face.",
+      "Same rules as a bar: agree on reps and signal first. Follow the movement with your hands close. Help only when the dumbbells stop moving up. Give just enough to keep them moving.",
+      "For heavy dumbbells, help the lifter get them into position at the start too. Many dumbbell press injuries happen getting the bells up or putting them down, not during the reps."
+    ],
+    "more": {
+      "why": "A dumbbell can rotate around the wrist. Supporting the wrist keeps the weight over the forearm and away from the face.",
+      "mistake": "Pushing up on the elbows. The lifter's forearms then lever the dumbbells inward and down.",
+      "how": "Kneel or stand behind the bench head, hands just under the lifter's wrists, ready but not touching."
+    },
+    "chips": [
+      "How do I spot someone on bench?",
+      "How do I get heavy dumbbells up?"
+    ],
+    "related": [
+      "tk-a-124",
+      "tk-a-041"
+    ]
+  },
+  {
+    "id": "tk-a-126",
+    "topic": "safety",
+    "title": "How to spot a squat",
+    "keys": [
+      "how do i spot a squat",
+      "spotting squat",
+      "squat spotter",
+      "how to spot squats",
+      "spot from behind squat",
+      "two spotters squat",
+      "side spotters squat",
+      "should i have a spotter for squats",
+      "spot someone squatting",
+      "squat spotting technique"
+    ],
+    "match": "\\b(spot\\w*[^.?!]{0,15}squat\\w*|squat\\w*[^.?!]{0,15}spot\\w*)\\b",
+    "body": [
+      "The best squat spot is two spotters, one on each end of the bar. If the lifter fails, each takes their side and they guide the bar up and back to the hooks together.",
+      "One spotter stands behind the lifter, close, arms under the lifter's armpits or wrapped around the chest, following them down and up. If the lifter stalls, you help them stand by lifting at the torso while they keep driving. You cannot hold the bar from behind for long. It is a spot for a rep that is grinding, not for a dead failure.",
+      "Better than either: squat in a rack with safeties at the right height. Then no one has to catch anything. Use a spotter as a backup, not a replacement."
+    ],
+    "more": {
+      "why": "A squat bar is wide and heavy. One person cannot safely take a full failed squat from behind. Two spotters or safeties can.",
+      "how": "Talk first: reps, signal, and that you stay with them all the way to the hooks. Squat down with them, hands an inch away, not touching.",
+      "mistake": "A spotter grabbing the bar from behind and pulling it backward. That pulls the lifter off balance."
+    },
+    "chips": [
+      "How do I fail a squat safely?",
+      "How do I set the safety pins?"
+    ],
+    "related": [
+      "tk-a-122",
+      "tk-a-121"
+    ]
+  },
+  {
+    "id": "tk-a-127",
+    "topic": "safety",
+    "title": "Collars and clips: always use them",
+    "keys": [
+      "do i need collars",
+      "barbell collars",
+      "clips on the bar",
+      "should i use clips",
+      "collars bench",
+      "plates sliding off bar",
+      "why use collars",
+      "spring clips",
+      "bar clips",
+      "lockjaw collars"
+    ],
+    "match": "\\b(collars?|(bar|barbell|spring) clips?|clips? on (the )?bar|lockjaw|plates? (slid\\w*|fall\\w*) off)\\b",
+    "body": [
+      "Yes. Collars keep plates from creeping toward the end of the bar. Uneven plates make the bar tip, and a tipping bar is how people get hurt.",
+      "Use them on squats, deadlifts, rows, overhead presses and any bar you are moving. Spring clips work. Lock style collars are faster and hold better.",
+      "One exception: bench alone with no safeties. Many lifters leave collars off so they can tilt the plates off one side if they get pinned. Better plan: bench in a rack with safeties and use the collars."
+    ],
+    "more": {
+      "why": "Plates shift a little every rep. Over a set they can slide an inch or more on one side. That tilt throws your balance under load.",
+      "how": "Slide the plates all the way in against the sleeve, then push the collar tight against them. Check both sides before you lift."
+    },
+    "chips": [
+      "How do I fail a bench safely?",
+      "How do I load the bar?"
+    ],
+    "related": [
+      "tk-a-123",
+      "tk-a-146"
+    ]
+  },
+  {
+    "id": "tk-a-128",
+    "topic": "technique",
+    "title": "How to film your lifts",
+    "keys": [
+      "how should i film my lifts",
+      "filming lifts",
+      "how to film squat",
+      "best angle to film lifts",
+      "record my form",
+      "form check video",
+      "where to put phone filming",
+      "film deadlift angle",
+      "video my lifts",
+      "check my form on video"
+    ],
+    "match": "\\b(film\\w*[^.?!]{0,20}(lifts?|form|squat\\w*|dead ?lift\\w*|bench\\w*|sets?)|video\\w*[^.?!]{0,12}(lifts?|form|squat\\w*|dead ?lift\\w*|bench\\w*)|form check video|record (a )?video)\\b",
+    "body": [
+      "Side view, at hip height, about 8 to 12 feet away, with the whole body and the bar in frame. That one angle shows depth, bar path, back position and balance on almost every lift.",
+      "Add a front view for knees caving, uneven pressing and hip shifts. A 45 degree angle from the front works for squats and deadlifts too. Keep the phone still: a water bottle, a plate, a small tripod.",
+      "Film your top set, not your warm-ups. Watch it once at normal speed, once slowed down, and pick one thing to fix. Next session, film again and compare. That is how technique gets built."
+    ],
+    "more": {
+      "why": "What you feel and what you do are different things under heavy load. Video is the honest version.",
+      "how": "Same spot, same height, same angle every time. Then you can compare week to week and see real change.",
+      "mistake": "Filming from above, at a sharp angle, or with half the bar out of frame. You cannot judge what you cannot see."
+    },
+    "chips": [
+      "What is the right squat bar path?",
+      "One side stronger than the other"
+    ],
+    "related": [
+      "tk-a-023"
+    ]
+  },
+  {
+    "id": "tk-a-129",
+    "topic": "technique",
+    "title": "One side stronger than the other",
+    "keys": [
+      "one side stronger than the other",
+      "muscle imbalance",
+      "left side weaker",
+      "right side weaker",
+      "strength imbalance",
+      "one arm stronger",
+      "one leg stronger",
+      "uneven strength",
+      "fix imbalances",
+      "imbalanced muscles",
+      "weaker side",
+      "one side bigger"
+    ],
+    "match": "\\b(one (side|arm|leg) (is )?(stronger|weaker|bigger)|(muscle|strength) imbalances?|imbalanced|uneven strength|weaker side|(left|right) side (is )?weaker)\\b",
+    "body": [
+      "Everyone has one. A small difference is normal and not worth chasing. A big one, or one that keeps growing, is worth fixing.",
+      "Single-limb work fixes it: dumbbell presses, one-arm rows, split squats, step-ups, single-leg Romanian deadlifts. Start each set with your weaker side. Do as many good reps as it can. Then match that number with the stronger side, and stop there even if the strong side could do more.",
+      "Keep your barbell lifts in the program. Just keep a few clean reps in reserve while the weak side catches up. Most noticeable imbalances shrink a lot in two to three months of this."
+    ],
+    "more": {
+      "why": "On a barbell, the stronger side quietly carries extra load. Single-limb work removes that option and lets the weaker side catch up.",
+      "how": "Two or three single-limb movements a week, 3 sets each, weak side first, strong side matched. Log the weak side's reps. That is your progress number.",
+      "mistake": "Doing extra sets only on the weak side. It works, slowly, but matching reps is simpler and safer."
+    },
+    "chips": [
+      "How to do Bulgarian split squats",
+      "How to do a dumbbell row"
+    ],
+    "related": [
+      "tk-a-094",
+      "tk-a-021",
+      "tk-a-052"
+    ]
+  },
+  {
+    "id": "tk-a-130",
+    "topic": "grip",
+    "title": "Calluses, torn hands and lifting gloves",
+    "keys": [
+      "calluses from lifting",
+      "torn callus",
+      "ripped hands lifting",
+      "should i wear gloves",
+      "lifting gloves",
+      "gym gloves",
+      "blisters from lifting",
+      "how to take care of calluses",
+      "hands hurt from barbell",
+      "gloves for deadlift",
+      "knurling hurts my hands"
+    ],
+    "match": "\\b(callus\\w*|torn hands?|ripped hands?|(lifting|gym|weight ?lifting) gloves?|wear(ing)? gloves?|blisters?|knurl\\w* hurts?)\\b",
+    "body": [
+      "Calluses are normal. Torn calluses are a grip problem. Keep the bar low in your fingers on pulls, near where the fingers meet the palm, not in the middle of the palm. That stops the skin from folding and pinching.",
+      "Keep calluses filed down: a pumice stone or callus file once or twice a week after a shower. Smooth, flat calluses do not catch and tear. Use chalk so the bar does not slide around.",
+      "Gloves are fine for light machine work, but they make the bar thicker and your grip weaker on heavy lifts. If you tear a callus, clean it, cover it, and use straps for pulling until it heals."
+    ],
+    "more": {
+      "why": "When the bar sits in your palm, the skin bunches up under it as you grip. That fold is what tears. Bar in the fingers, skin stays flat.",
+      "how": "Hold the bar for a deadlift: place it along the base of your fingers, then wrap the fingers around it. Your palm closes over the top of your fingers.",
+      "mistake": "Letting calluses build into thick ridges. The thicker they are, the more they catch."
+    },
+    "chips": [
+      "Chalk: is it worth it?",
+      "How to build grip strength"
+    ],
+    "related": [
+      "tk-a-113",
+      "tk-a-115"
+    ]
+  },
+  {
+    "id": "tk-a-131",
+    "topic": "technique",
+    "title": "Where to look and what to do with your neck",
+    "keys": [
+      "where should i look when squatting",
+      "neck position lifting",
+      "look up squat",
+      "should i look up when deadlifting",
+      "head position deadlift",
+      "eyes squat",
+      "neck pain lifting",
+      "chin tuck lifting",
+      "neutral neck",
+      "head position bench"
+    ],
+    "match": "\\b(where (should i|do i|to) look|neck position|head position|look(ing)? up when|chin tuck\\w*|neutral neck|neck (pain|hurts?)[^.?!]{0,20}lift\\w*)\\b",
+    "body": [
+      "Keep your neck in line with your back. That is it. Where you look follows from that.",
+      "Squat: eyes on a spot on the floor 6 to 10 feet ahead. For low bar, the spot is closer. For front and high bar squats, closer to straight ahead.",
+      "Deadlift: eyes on the floor a few feet in front of the bar at the start, then straight ahead as you stand. Bench: eyes on the ceiling or the bar, head flat on the bench, never lifting it.",
+      "Looking straight up at the ceiling on a squat or deadlift cranks your neck back under load. Looking at your feet pulls your chest down. Neither helps."
+    ],
+    "more": {
+      "why": "Your head is the top of your spine. Where it goes, the upper back tends to follow. A neutral neck makes it easier to keep a neutral back.",
+      "mistake": "Pushing your head into the bench hard on a bench press. Neck stays relaxed, back does the pressing work.",
+      "how": "Before you start, pick your spot. Lock your eyes there for the whole rep."
+    },
+    "chips": [
+      "How do I set up a back squat?",
+      "How do I set up a deadlift?"
+    ],
+    "related": [
+      "tk-a-001",
+      "tk-a-054"
+    ]
+  },
+  {
+    "id": "tk-a-132",
+    "topic": "technique",
+    "title": "Clicking or popping joints when you lift",
+    "keys": [
+      "knees click when i squat",
+      "shoulder pops when pressing",
+      "joint popping lifting",
+      "cracking knees squat",
+      "clicking hips",
+      "shoulder clicking bench",
+      "is joint cracking bad",
+      "popping noise lifting",
+      "knee crack squat",
+      "hip pops squat"
+    ],
+    "match": "\\b(click\\w*|pop\\w*|crack\\w*|crunch\\w*)[^.?!]{0,25}(knees?|shoulders?|hips?|joints?|squat\\w*|bench\\w*|press\\w*)|\\b(knees?|shoulders?|hips?|joints?)[^.?!]{0,10}(click|pop|crack|crunch)\\w*",
+    "body": [
+      "Noise without pain is common and usually harmless. Many healthy knees and shoulders click, pop or crunch under load. If it does not hurt, it does not need fixing.",
+      "Watch for this: noise together with pain, swelling, the joint catching or locking, giving way, or a sudden pop followed by pain or bruising. Any of those, stop that lift and see a doctor or physical therapist.",
+      "Warming up well often quiets things down. A few lighter sets before your working weight, a slow first set. If one lift makes a joint noisy and sore, try a variation for a while: a box squat, a different grip, dumbbells instead of a barbell."
+    ],
+    "more": {
+      "why": "Joints move gas and fluid around as they bend, and tendons slide over bone. That makes noise. Noise alone is not damage.",
+      "mistake": "Avoiding a lift for months because a pain-free joint clicks. Train it."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "Why do my knees hurt squatting?",
+      "My shoulders hurt on bench"
+    ],
+    "related": [
+      "tk-a-006",
+      "tk-a-030"
+    ]
+  }
+]
