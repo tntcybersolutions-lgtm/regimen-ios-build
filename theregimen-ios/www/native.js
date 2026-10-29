@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   THE REGIMEN — native shell for iOS (Capacitor).
+   formed fit, native shell for iOS (Capacitor).
 
    The app (index.html) never talks to a plugin directly. It looks for
    `window.RUN` and asks it questions; this file is the only place that knows
@@ -19,7 +19,10 @@
      RUN.restNotify(seconds, exName), RUN.restCancel()         ~14276
      RUN.rest.available()/start(...)   Live Activity  -- optional, absent here
      RUN.watch.available()             Apple Watch    -- optional, absent here
+     RUN.health.heartRate(since)       -> {ok, readings:[{at,bpm,source}]}   (v315, a session's watch readings)
+     RUN.ble.available()/pick()/start(id, onBytes, onLost)/stop(id)   (v315, Bluetooth heart rate)
      RUN.share({text, title})                                 shareRecap     ~26482
+     RUN.shareFile({filename, base64, mime, title})           C3.xlsx.share  (v371, the Excel menu)
      RUN.labs                          null: the app's own file-input photo path is used (see below)
      RUN.ai.ask(...)                   optional; absent -> app uses its own service
      window.onNativeAction(d)          the APP defines this; we call it when a
@@ -97,7 +100,7 @@
      app never has to know: a `percent` quantity is a fraction (0.97, 0.25) —
      the app reads 97 and 25; a sleep sample is one stage segment, and a night
      is the asleep segments that END on a day, summed under that day. */
-  const READ = ['weight', 'bodyFat', 'steps', 'workouts', 'sleep', 'restingHeartRate',
+  const READ = ['weight', 'bodyFat', 'steps', 'workouts', 'sleep', 'heartRate', 'restingHeartRate',
     'heartRateVariability', 'vo2Max', 'oxygenSaturation', 'respiratoryRate', 'appleSleepingWristTemperature'];
   const WRITE = ['weight', 'bodyFat'];
   const HK = () => plugin('Health');
@@ -172,6 +175,18 @@
       try { const r = await hk.queryAggregated({ dataType: 'steps', startDate, endDate, bucket: 'day', aggregation: 'sum' }); raw.steps = (r && r.aggregatedData) || (r && r.samples) || []; } catch (e) { raw.steps = []; }
       return health.shape(raw);
     },
+    /* v315: heart rate during a session. An Apple Watch running a workout (or AirPods / Powerbeats
+       that measure it) saves a reading every few seconds into Health; this reads the ones after
+       `since`, oldest first, as {at, bpm, source}. The app polls it while a session is open. */
+    async heartRate(since) {
+      const hk = HK(); if (!hk) return { ok: false, readings: [] };
+      try {
+        const r = await hk.readSamples({ dataType: 'heartRate', startDate: iso(since || Date.now() - 10 * 60000), endDate: iso(Date.now() + 1000), limit: 0 });
+        const readings = ((r && r.samples) || []).map((x) => ({ at: Date.parse(x.startDate), bpm: Math.round(x.value), source: x.sourceName || '' }))
+          .filter((x) => Number.isFinite(x.at) && x.bpm > 20 && x.bpm < 240).sort((a, b) => a.at - b.at);
+        return { ok: true, readings };
+      } catch (e) { return { ok: false, readings: [], error: String(e && e.message || e) }; }
+    },
     async pushWeight(at, lb) {
       const hk = HK(); if (!hk) return { ok: false };
       try { await hk.saveSample({ dataType: 'weight', value: lb / 2.2046226, unit: 'kilogram', startDate: iso(at), endDate: iso(at) }); return { ok: true }; }
@@ -192,6 +207,60 @@
     onChange(fn) { if (typeof fn === 'function') this._changed.push(fn); },
   };
 
+
+  /* ---------- ble (v315): Bluetooth heart rate through @capacitor-community/bluetooth-le ----------
+     Any strap, watch, armband or earbud that sends the standard Bluetooth Heart Rate service
+     (0x180D, measurement 0x2A37): Polar, Garmin, Wahoo, Coros, Suunto, Whoop broadcast mode,
+     Garmin/Coros/Polar watches in "broadcast heart rate". The app parses the bytes (hrParse in
+     index.html); this only moves them. Read from the plugin's own Swift (Plugin.swift, 8.3.0):
+       requestDevice -> the iOS picker (displayMode 'list'), resolves {deviceId, name}
+       connect / disconnect, the 'disconnected|<id>' event
+       startNotifications -> events 'notification|<id>|<service>|<characteristic>' with {value: hex}
+     The Swift writes the service and characteristic as CBUUID.uuidString lowercased, which for a
+     standard UUID can be the short form ("180d") rather than the 128-bit one, so both are listened to. */
+  const BL = () => plugin('BluetoothLe');
+  const U = (short) => '0000' + short + '-0000-1000-8000-00805f9b34fb';
+  const HR_SVC = U('180d'), HR_MEAS = U('2a37'), BATT_SVC = U('180f'), BATT_LVL = U('2a19');
+  const hexBytes = (hex) => { const h = String(hex || '').replace(/[^0-9a-f]/gi, ''); const out = []; for (let i = 0; i + 1 < h.length; i += 2) out.push(parseInt(h.slice(i, i + 2), 16)); return out; };
+  const ble = {
+    _subs: {},
+    available() { return isNative() && !!BL(); },
+    async init() { const b = BL(); if (!b) return false; try { await b.initialize({ androidNeverForLocation: true }); return true; } catch (e) { return false; } },
+    /* the picker; resolves {ok, id, name} or {ok:false, reason} */
+    async pick() {
+      const b = BL(); if (!b) return { ok: false, reason: 'no-plugin' };
+      if (!(await ble.init())) return { ok: false, reason: 'bluetooth-off' };
+      try {
+        const d = await b.requestDevice({ services: [HR_SVC], optionalServices: [BATT_SVC], displayMode: 'list' });
+        return d && d.deviceId ? { ok: true, id: d.deviceId, name: d.name || '' } : { ok: false, reason: 'none' };
+      } catch (e) { return { ok: false, reason: String(e && e.message || e) }; }
+    },
+    /* connect and stream: onBytes(bytes[]) for every measurement, onLost() when the link drops */
+    async start(id, onBytes, onLost) {
+      const b = BL(); if (!b || !id) return { ok: false, reason: 'no-plugin' };
+      await ble.stop(id);
+      if (!(await ble.init())) return { ok: false, reason: 'bluetooth-off' };
+      const subs = ble._subs[id] = [];
+      const on = async (ev, fn) => { try { const h = await b.addListener(ev, fn); subs.push(h); } catch (e) {} };
+      await on('disconnected|' + id, () => { if (typeof onLost === 'function') onLost(); });
+      try { await b.connect({ deviceId: id, timeout: 12000 }); }
+      catch (e) { await ble.stop(id); return { ok: false, reason: String(e && e.message || e) }; }
+      let last = 0;
+      const feed = (ev) => { const bytes = hexBytes(ev && ev.value); const t = Date.now(); if (bytes.length >= 2 && t - last > 5) { last = t; onBytes(bytes); } };
+      for (const [svc, ch] of [[HR_SVC, HR_MEAS], ['180d', '2a37'], ['180D', '2A37']]) await on('notification|' + id + '|' + svc + '|' + ch, feed);
+      try { await b.startNotifications({ deviceId: id, service: HR_SVC, characteristic: HR_MEAS }); }
+      catch (e) { await ble.stop(id); return { ok: false, reason: String(e && e.message || e) }; }
+      let battery = null;
+      try { const r = await b.read({ deviceId: id, service: BATT_SVC, characteristic: BATT_LVL }); const v = hexBytes(r && r.value); if (v.length) battery = v[0]; } catch (e) {}
+      return { ok: true, battery };
+    },
+    async stop(id) {
+      const b = BL(); const subs = ble._subs[id] || []; delete ble._subs[id];
+      for (const h of subs) { try { await h.remove(); } catch (e) {} }
+      if (b && id) { try { await b.stopNotifications({ deviceId: id, service: HR_SVC, characteristic: HR_MEAS }); } catch (e) {} try { await b.disconnect({ deviceId: id }); } catch (e) {} }
+    },
+  };
+
   /* ---------- notifications: @capacitor/local-notifications ---------- */
   const LN = () => plugin('LocalNotifications');
   const REST_ID = 900001;
@@ -202,9 +271,9 @@
       await ln.requestPermissions().catch(() => {});
       await ln.schedule({ notifications: [{
         id: Number(n.id) || Math.floor(Math.random() * 1e6),
-        title: n.title || 'The Regimen', body: n.body || '',
+        title: n.title || 'formed fit', body: n.body || '',
         schedule: { at: new Date(n.at) },
-        extra: { action: n.action || '', proto: n.proto || null, mg: n.mg || null, at: +new Date(n.at) || null },
+        extra: { action: n.action || '', open: n.open || '', meal: n.meal == null ? null : n.meal, day: n.day || null, proto: n.proto || null, mg: n.mg || null, at: +new Date(n.at) || null },   /* v344: open = where a plain tap goes */
         actionTypeId: n.actionType || 'REGIMEN_DEFAULT',
       }] });
     },
@@ -228,6 +297,16 @@
     return sh.share({ title: o.title, text: o.text, dialogTitle: o.title });
   }
 
+  /* ---------- v371: share a file (the Excel menu): written to the app's cache with @capacitor/filesystem, then the
+     share sheet gets the file itself (Excel, Numbers, Files, Mail, Messages, AirDrop, Print) ---------- */
+  async function shareFile(o) {
+    const fs = plugin('Filesystem'), sh = plugin('Share');
+    if (!fs || !sh) throw new Error('file sharing is not available');
+    const name = String(o.filename || 'formed-fit.xlsx').replace(/[^\w.\- ]+/g, '-');
+    const w = await fs.writeFile({ path: name, data: o.base64, directory: 'CACHE' });
+    return sh.share({ title: o.title, files: [w.uri], dialogTitle: o.title });
+  }
+
   /* ---------- labs: deliberately absent ----------
      The app reads lab and label photos through <input type="file"
      capture="environment">, which WKWebView presents as camera-or-library on
@@ -249,7 +328,8 @@
       { id: 'REGIMEN_DEFAULT', actions: [] } ] }).catch(() => {});
     ln.addListener('localNotificationActionPerformed', (ev) => {
       const extra = (ev && ev.notification && ev.notification.extra) || {};
-      const pressed = ev && ev.actionId && ev.actionId !== 'tap' ? ev.actionId : extra.action;
+      /* v344: a button is its own action; a plain tap opens what the banner is about (a dose banner's tap used to log it) */
+      const pressed = ev && ev.actionId && ev.actionId !== 'tap' ? ev.actionId : (extra.open || extra.action);
       if (typeof window.onNativeAction === 'function' && pressed) window.onNativeAction({ ...extra, action: pressed, at: extra.at || Date.now() });
     });
   }
@@ -257,8 +337,9 @@
   const RUN = {
     get native() { return isNative(); },
     platform: 'ios',
-    store, health, notify, restNotify, restCancel, share, labs,
+    store, health, ble, notify, restNotify, restCancel, share, shareFile, labs,
     ai: null, rest: null, watch: null,
+    strip: true,
   };
   window.RUN = RUN;
 
@@ -281,3 +362,58 @@
   };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
 })();
+
+
+
+/* ios-native-fallback: App Store review shell. When strip is set, the dosage
+   calculators (math), the compound catalog (addcmp), the shop link (shop),
+   the peptide onboarding options and the compound setup empty-state are
+   hidden or redirected INSIDE the native build only (RUN.native).
+   Web (RUN.native false) is unchanged. Remove strip to retire the fallback. */
+if (window.RUN && window.RUN.strip) {
+  var RUN = window.RUN;
+  var STRIP_ROUTES = ['math', 'addcmp', 'shop'];
+  var ffStripTimer = setInterval(function () {
+    if (!(window.C3 && C3.go)) return;
+    clearInterval(ffStripTimer);
+    if (!RUN.native) return;
+    var go0 = C3.go;
+    C3.go = function (route) {
+      if (STRIP_ROUTES.indexOf(route) >= 0) {
+        if (route === 'addcmp') return go0.call(this, 'doses');
+        return;
+      }
+      return go0.apply(this, arguments);
+    };
+    var css = '[data-go="math"],[data-go="addcmp"],[data-go="shop"],[data-act="padd"],[data-key="padd"],[data-act="pmath"],.pd-calc{display:none!important}'
+      + '.tl-row:has([data-go="math"]),.tl-row:has([data-go="addcmp"]),.tl-row:has([data-go="shop"]){display:none!important}'
+      + '#onb [data-focus="track"],#onb [data-focus="both"]{display:none!important}';
+    var st0 = document.createElement('style');
+    st0.id = 'ff-strip';
+    st0.textContent = css;
+    document.head.appendChild(st0);
+    var ffRootTimer = setInterval(function () {
+      if (!C3.root) return;
+      clearInterval(ffRootTimer);
+      var st1 = document.createElement('style');
+      st1.id = 'ff-strip-shadow';
+      st1.textContent = css + '.pd-firstgo{display:none!important}.dj-help{display:none!important}';
+      C3.root.appendChild(st1);
+      var ffNote = function () {
+        var first = C3.root.querySelector('.pd-first');
+        if (first && !first.querySelector('#ff-strip-note')) {
+          var p = document.createElement('p');
+          p.className = 'yd-note';
+          p.id = 'ff-strip-note';
+          p.style.marginTop = '14px';
+          p.textContent = 'Nothing to track yet. Your training, food and progress are all here.';
+          first.appendChild(p);
+        }
+      };
+      ffNote();
+      new MutationObserver(ffNote).observe(C3.root, {childList: true, subtree: true});
+    }, 100);
+  }, 50);
+}
+
+

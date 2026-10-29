@@ -16,7 +16,8 @@
    this page, the player sees https://app.formedlabs.co and plays. Messages are relayed both ways
    so the app still hears "playing" and "cannot play". */
 (function () {
-  var YT = 'https://www.youtube-nocookie.com';
+  /* v346: the standard player; the privacy-enhanced one (youtube-nocookie.com) refused the form videos (error 150) */
+  var YT = 'https://www.youtube.com';
   var q = new URLSearchParams(location.search);
   var v = (q.get('v') || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 20);
   if (!v) return;
@@ -35,3 +36,4 @@
 </script>
 </body>
 </html>
+
