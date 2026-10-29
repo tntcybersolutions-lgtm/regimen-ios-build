@@ -1,0 +1,891 @@
+[
+  {
+    "id": "nr-b-001",
+    "topic": "weigh-ins",
+    "title": "Why your weight jumps from day to day",
+    "keys": [
+      "why does my weight jump",
+      "weight jumped",
+      "weight went up overnight",
+      "gained weight overnight",
+      "scale went up",
+      "weight fluctuations",
+      "weight fluctuates",
+      "why did i gain 3 pounds",
+      "up 2 pounds overnight",
+      "scale jumped",
+      "daily weight swings",
+      "weight up for no reason",
+      "why is my weight up today",
+      "gained weight but ate well",
+      "weight spike",
+      "my weight keeps going up and down"
+    ],
+    "match": "\\b(weight|scale)\\b.{0,30}\\b(jump\\w*|spike\\w*|fluctuat\\w*|swing\\w*|went up overnight|up overnight|up and down)\\b|\\b(gain(ed)?|up) \\d+(\\.\\d+)? ?(lb|lbs|pounds?) (overnight|in a day|today)\\b",
+    "body": [
+      "A jump of 1 to 4 pounds overnight is almost never fat. To gain one pound of fat you would need to eat roughly 3,500 calories more than you burn, on top of everything else that day. What moves the scale that fast is water, salt, carbs and the food still sitting in your gut.",
+      "The usual suspects: a salty dinner, a bigger carb day, a hard leg session, a short night of sleep, a stressful week, the time of month, or simply not having gone to the bathroom yet. Each one pulls in or holds water, and water is heavy. A liter weighs about 2.2 pounds.",
+      "So log the number and let it go. One weigh-in is a snapshot. Your weekly average is the story, and that is the only number I want you to judge."
+    ],
+    "more": {
+      "why": "Your body stores carbs with about three grams of water per gram, and sodium holds water too. Both can swing several pounds in a day without a single ounce of fat changing.",
+      "example": "Monday 181.2, Tuesday 183.0 after tacos, Thursday 180.8. The Tuesday spike was water. The weekly average still moved down.",
+      "how": "Weigh daily or most days under the same conditions, then compare this week's average with last week's. Ignore any single day that sits a pound or two off the line.",
+      "mistake": "Cutting food hard the day after a spike. That fights water with hunger and usually ends in a rebound. Eat your normal plan and let the water leave on its own."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How often should I weigh?",
+      "Weight up after a salty meal?",
+      "What is water weight?"
+    ],
+    "related": [
+      "nr-b-002",
+      "nr-b-004",
+      "nr-b-005",
+      "nr-b-009"
+    ]
+  },
+  {
+    "id": "nr-b-002",
+    "topic": "weigh-ins",
+    "title": "How often to weigh yourself",
+    "keys": [
+      "how often should i weigh",
+      "how often should i weigh myself",
+      "weigh every day",
+      "daily weigh ins",
+      "should i weigh daily",
+      "weigh once a week",
+      "weekly weigh in",
+      "how many times a week should i weigh",
+      "is weighing every day bad",
+      "weigh in frequency",
+      "should i step on the scale every day",
+      "best day to weigh",
+      "how often to weigh in",
+      "how often do you weigh"
+    ],
+    "match": "\\bhow often (should|do) (i|you) (weigh|step on the scale)|\\bweigh(ing)? (myself |yourself )?(every ?day|daily|once a week|weekly)\\b|\\bdaily weigh ?ins?\\b",
+    "body": [
+      "If the number does not mess with your head, weigh every morning, or at least four mornings a week. More weigh-ins make a smoother average, and the average is what tells the truth. Once a week is the least useful option, because that one morning can land on a salty day and fool you for seven days straight.",
+      "The trick is what you do with the numbers. Daily weighing works because you stop reacting to any single one. Log it, step off, move on. Then compare this week's average with last week's.",
+      "If daily weigh-ins make you anxious or start running your mood, weigh less often or take a break. Progress photos, a waist measurement and how your clothes fit are real data too."
+    ],
+    "more": {
+      "why": "Scale weight can swing 1 to 4 pounds a day from water and food. Seven readings averaged together cancel most of that noise. One reading cannot.",
+      "beginner": "Start with three mornings a week, the same days each week. Once that feels routine, add more if you like the clearer trend.",
+      "example": "Seven readings between 182 and 185 average about 183.4. Next week averages 182.6. That is a real 0.8 pound drop, even though Wednesday read 184.",
+      "how": "Use the same conditions every time: after the bathroom, before food or drink, same scale, same spot on the floor, and the same light clothes or none."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How should I weigh myself?",
+      "How do I read my weekly average?",
+      "The scale stresses me out"
+    ],
+    "related": [
+      "nr-b-003",
+      "nr-b-004",
+      "nr-b-016",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-003",
+    "topic": "weigh-ins",
+    "title": "How to weigh in so the number means something",
+    "keys": [
+      "how should i weigh myself",
+      "best time to weigh",
+      "when should i weigh myself",
+      "weigh in the morning",
+      "weigh before or after eating",
+      "weigh with clothes on",
+      "how to weigh yourself",
+      "weigh before or after the bathroom",
+      "same time every day",
+      "accurate weigh in",
+      "scale accuracy",
+      "where to put my scale",
+      "is my scale wrong",
+      "different scales different weight",
+      "gym scale vs home scale"
+    ],
+    "match": "\\b(best time to weigh|when (should|do) i weigh|how (should|do) i weigh (myself|in))\\b|\\bweigh(ing)? (before|after) (i eat|eating|breakfast|the bathroom|peeing|pooping)\\b|\\bscale (is )?(wrong|accurate|accuracy)\\b",
+    "body": [
+      "First thing in the morning, after the bathroom, before you eat or drink anything. Same scale, same spot on a hard floor, and either no clothes or the same light clothes each time. That removes most of the noise you can control.",
+      "Do not chase the perfect scale. A basic digital scale is fine as long as you always use the same one. Different scales read differently, so the gym scale and your bathroom scale will never agree, and that is okay. Consistency beats precision here.",
+      "Then log it right away so you are not trying to remember it at lunch, and let the weekly average do the talking."
+    ],
+    "more": {
+      "why": "Food, drinks and whatever is still in your gut can add 2 to 4 pounds by evening. Weighing at the same empty moment each day makes the readings comparable.",
+      "mistake": "Weighing after a workout to get a lower number. That is sweat you will drink back within the hour, so it just makes your trend messy.",
+      "how": "Put the scale on tile or wood, not carpet, and leave it there. Moving it between rooms can shift the reading by a pound or more.",
+      "example": "Step on twice and get 172.4 and 172.8? Log the first and move on. Your trend does not care about four tenths of a pound."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How often should I weigh?",
+      "Why am I heavier at night?"
+    ],
+    "related": [
+      "nr-b-002",
+      "nr-b-018",
+      "nr-b-004"
+    ]
+  },
+  {
+    "id": "nr-b-004",
+    "topic": "weigh-ins",
+    "title": "Reading your weekly average instead of one morning",
+    "keys": [
+      "how do i read my weekly average",
+      "weekly average",
+      "average weight",
+      "trend weight",
+      "weight trend",
+      "how to read my trend",
+      "moving average",
+      "is my weight going down",
+      "am i losing weight",
+      "how do i know if im losing",
+      "compare weeks",
+      "seven day average",
+      "trend line",
+      "how do i know if its working"
+    ],
+    "match": "\\b(weekly|7 ?day|seven ?day|moving|rolling) average\\b|\\b(weight|scale) trend\\b|\\btrend (line|weight)\\b|\\bam i (actually )?losing weight\\b",
+    "body": [
+      "Add up every weigh-in for the week and divide by how many you have. That one number matters more than any single morning. Then compare it with last week's average. If it dropped by about 0.5 to 1 percent of your body weight, you are right on pace for fat loss.",
+      "Look at three or four weeks before you decide anything. Week to week, the average can still wobble because of a salty weekend or the time of month. A line that drifts down over a month is working, even with a flat week in the middle.",
+      "Your Progress screen already plots the trend for you. Your job is to keep feeding it weigh-ins and to read it like a weather forecast, not a verdict."
+    ],
+    "more": {
+      "example": "Week one averages 190.6, week two 189.4, week three 189.6, week four 188.2. That is 2.4 pounds in three weeks, with one flat week that was just water.",
+      "why": "Averages cancel out the day to day water swings. The fewer readings you have, the more one odd morning drags the number around.",
+      "how": "Aim for at least four weigh-ins a week. Compare averages with averages, never your best morning against your worst.",
+      "beginner": "If the math is annoying, ask one question: is this month's line lower than last month's? That is the whole test."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Is it a real plateau?",
+      "How fast should I lose weight?",
+      "How often should I weigh?"
+    ],
+    "related": [
+      "nr-b-002",
+      "nr-b-011",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-005",
+    "topic": "water-weight",
+    "title": "Weight up after a salty meal",
+    "keys": [
+      "weight up after a salty meal",
+      "salty food weight gain",
+      "ate salty food",
+      "sodium water weight",
+      "weight up after chinese food",
+      "weight up after takeout",
+      "salt bloat",
+      "puffy after salty food",
+      "how long does salt water weight last",
+      "weight up after pizza",
+      "high sodium meal",
+      "salty dinner scale",
+      "retaining water from salt",
+      "does salt make you gain weight"
+    ],
+    "match": "\\b(salt|salty|sodium)\\b.{0,40}\\b(weight|scale|bloat\\w*|puffy|retain\\w*|retention)\\b|\\b(weight|scale)\\b.{0,30}\\b(salt|salty|sodium)\\b",
+    "body": [
+      "Totally normal, and it is water, not fat. A salty restaurant meal can add 1 to 4 pounds by the next morning because sodium makes your body hold extra water until it rebalances. Rings a little tight, face a little puffy, scale up. Classic.",
+      "It usually clears in one to three days without anything special. Drink your usual water (a bit more helps), eat your normal meals with fruit, vegetables and potatoes, which bring potassium, and get your steps in.",
+      "Do not skip meals or slash calories to push the number down faster. The water leaves on its own schedule, and the hungry rebound is not worth it."
+    ],
+    "more": {
+      "why": "Your body keeps sodium in a fairly tight range. When you eat a lot at once, you hold extra water to dilute it, then let the extra go over the next day or two.",
+      "example": "Sunday ramen night, Monday up 2.6 pounds, Wednesday back where you started. Nothing happened except water.",
+      "how": "Log the meal and judge the week by its average. One salty dinner barely nudges a seven day average.",
+      "mistake": "Deciding you have to avoid salt forever. Salt is part of good food. Just expect the water and do not panic at it."
+    },
+    "reads": [
+      "weight",
+      "water"
+    ],
+    "chips": [
+      "How much sodium is okay?",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-b-001",
+      "nr-b-009",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-006",
+    "topic": "water-weight",
+    "title": "Weight up after a big meal or a big day",
+    "keys": [
+      "weight up after a big meal",
+      "weight up after cheat day",
+      "gained weight after cheat meal",
+      "ate a lot yesterday scale up",
+      "big dinner weight gain",
+      "weight up after the weekend",
+      "overate and gained weight",
+      "did i undo my progress",
+      "did one big meal ruin my progress",
+      "up 5 pounds after eating out",
+      "carb heavy day weight",
+      "scale up after pizza and dessert",
+      "ate too much yesterday",
+      "overate last night"
+    ],
+    "match": "\\b(weight|scale)\\b.{0,30}\\b(after|from) (a |my |one |the )?(big|huge|cheat|large) (meal|dinner|day|weekend)\\b|\\b(did|will|can) (one|a) (big|cheat|bad) (meal|day|dinner) (ruin|undo)\\b|\\b(ate too much|overate) (yesterday|last night)\\b",
+    "body": [
+      "Ate a big meal and the scale is up 3, 4, even 5 pounds? Breathe. Most of that is the food still in your system, the carbs pulling water into your muscles, and the salt holding more. Actual fat from one big day is usually a fraction of a pound.",
+      "The math: storing one pound of fat takes roughly 3,500 calories above what you burn. A big day that lands 1,500 calories over maintenance is under half a pound, and that is the ceiling, not the usual result.",
+      "So tomorrow is boring on purpose: normal meals, good protein, your water, your steps. The extra water usually drains in two to four days. Give the scale until the end of the week before you read anything into it."
+    ],
+    "more": {
+      "why": "Every gram of stored carb brings about three grams of water with it. A carb heavy day can add a pound or two of water on its own.",
+      "mistake": "Trying to make up for it by eating very little the next day or adding a punishing workout. That turns one meal into a cycle. Just go back to normal.",
+      "example": "Saturday birthday dinner, Sunday up 4.2 pounds, Wednesday down 3.8 of it. The real cost was a few tenths of a pound.",
+      "how": "Log the meal honestly, even with rough estimates, then eat your normal plan. Your weekly average will show the true cost, which is almost always small."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "What is water weight?",
+      "How do I get back on track?",
+      "Why do weekends undo my week?"
+    ],
+    "related": [
+      "nr-b-001",
+      "nr-b-009",
+      "nr-b-005"
+    ]
+  },
+  {
+    "id": "nr-b-007",
+    "topic": "water-weight",
+    "title": "Scale weight around your period",
+    "keys": [
+      "weight up around my period",
+      "weight up during period",
+      "period water weight",
+      "scale up on my period",
+      "bloated before my period",
+      "time of the month weight",
+      "menstrual cycle weight",
+      "pms weight gain",
+      "why do i gain weight before my period",
+      "weight changes during my cycle",
+      "period bloat",
+      "heavier on my period",
+      "gaining weight before my period"
+    ],
+    "match": "\\b(period|menstrua\\w*|pms|time of (the )?month)\\b.{0,40}\\b(weight|scale|bloat\\w*|heavier)\\b|\\b(weight|scale|bloat\\w*|heavier)\\b.{0,40}\\b(period|menstrua\\w*|pms|time of (the )?month)\\b",
+    "body": [
+      "For a lot of women the scale climbs 1 to 5 pounds in the days before a period and the first days of it. That is water and bloating from normal hormone shifts, sometimes with extra hunger and cravings on top. It is not fat, and it usually comes back down within a few days.",
+      "The fix is comparing like with like. Look at this cycle's average against the same days last cycle, not against last week. Plenty of people see their lowest weigh-ins in the week after their period, and that is just the water leaving.",
+      "Keep your protein and water steady, eat normally, and go easy on yourself. If cravings show up, plan a snack you enjoy instead of white knuckling it."
+    ],
+    "more": {
+      "why": "Hormone shifts across the cycle change how much water and sodium your body holds. The timing and size of the swing are different for everyone.",
+      "how": "Note the first day of your period where you can see it. After two or three cycles you will know your own pattern and stop being surprised by it.",
+      "example": "Weigh-ins of 146.0, 147.8 and 148.4 in the days before, then 145.6 a week later. The trend never changed. The water did.",
+      "mistake": "Cutting calories harder that week to fight the number. It makes the hunger worse and does nothing to the water. If your cycle changes a lot or something feels off, check in with your doctor."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Period cravings",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-b-001",
+      "nr-b-009"
+    ]
+  },
+  {
+    "id": "nr-b-008",
+    "topic": "water-weight",
+    "title": "Weight up after a hard workout or a new program",
+    "keys": [
+      "weight up after a hard workout",
+      "weight up after leg day",
+      "gained weight after starting lifting",
+      "started working out and gained weight",
+      "new program weight gain",
+      "sore and heavier",
+      "weight up after hard training",
+      "water retention after workout",
+      "why did i gain weight when i started exercising",
+      "scale up after the gym",
+      "started lifting and gained weight",
+      "weight gain from new training"
+    ],
+    "match": "\\b(weight|scale)\\b.{0,30}\\b(after|since) (a |my )?(hard |big )?(workout|leg day|training|lifting|the gym)\\b|\\b(started|starting) (lifting|working out|training|exercising|the gym) and (i )?(gained|gaining|gain)\\b",
+    "body": [
+      "Very common. A hard session, especially legs or anything new, can push the scale up 1 to 3 pounds for a few days. Your muscles hold extra water while they repair, and if you are new to lifting they also start storing more carbs, which carry water with them.",
+      "That is a good sign, not a setback. It means your muscles are doing their job. Starting a new program can hide fat loss for one to three weeks, then the trend usually settles and starts moving again.",
+      "Keep eating your protein, hit your water, and give it time. Watch your waist measurement and how your clothes fit during this stretch, because those often move first."
+    ],
+    "more": {
+      "why": "Repair after hard training pulls fluid into the worked muscles, and carbs stored in muscle bind water. Both are temporary and both are normal.",
+      "beginner": "In your first month of lifting, expect the scale to be a little confusing. Judge it at week four, not day four.",
+      "example": "First week of a new leg program: up 2 pounds and sore. Third week: soreness gone, trend back on its old pace.",
+      "how": "Measure your waist at the belly button once a week, same morning as a weigh-in. If the waist is steady or shrinking, you are fine."
+    },
+    "reads": [
+      "weight",
+      "sessions"
+    ],
+    "chips": [
+      "Scale up but clothes fit better?",
+      "Progress photos and measurements?"
+    ],
+    "related": [
+      "nr-b-014",
+      "nr-b-009",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-009",
+    "topic": "water-weight",
+    "title": "What water weight actually is",
+    "keys": [
+      "what is water weight",
+      "water weight",
+      "is it water weight",
+      "how do i lose water weight",
+      "water retention",
+      "retaining water",
+      "how long does water weight last",
+      "losing water not fat",
+      "am i losing fat or water",
+      "puffy and bloated",
+      "how to get rid of water weight",
+      "is it fat or water"
+    ],
+    "match": "\\bwater (weight|retention)\\b|\\bretain(ing)? water\\b|\\b(losing|lose|is it) (fat|water) or (fat|water)\\b",
+    "body": [
+      "Water weight is the fluid your body holds on top of its baseline, and it changes every day. The big drivers are carbs (stored with about three grams of water per gram), sodium, hard training, stress, sleep, heat and, for many women, the time of month. Together they can move the scale a few pounds either way.",
+      "You do not need to get rid of it. It is not fat, it is not harmful, and it always comes and goes. Trying to strip it with very low carbs or by skipping water just makes the next swing bigger.",
+      "What helps is steady habits: similar salt and carbs most days, your water target, seven or more hours of sleep, and your steps. The steadier the routine, the steadier the scale."
+    ],
+    "more": {
+      "why": "Water is heavy. A liter weighs about 2.2 pounds, so a small shift in how much you hold shows up on the scale right away.",
+      "mistake": "Calling a fast drop on a new diet pure fat loss. The first few pounds on fewer carbs are mostly water and stored carbs. That is fine, just know what it is.",
+      "example": "Low carb weekend: down 3 pounds. Normal carbs Monday: back up 2. That is water moving, not progress lost.",
+      "how": "Drinking enough actually helps your body let go of extra water. Pair it with fruit, vegetables and potatoes for potassium."
+    },
+    "reads": [
+      "weight",
+      "water"
+    ],
+    "chips": [
+      "Why does my weight jump?",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-b-001",
+      "nr-b-005",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-010",
+    "topic": "plateau",
+    "title": "Why your weight is not moving",
+    "keys": [
+      "why is my weight not moving",
+      "weight not moving",
+      "not losing weight",
+      "scale not moving",
+      "stuck at the same weight",
+      "weight stuck",
+      "eating less and not losing",
+      "in a deficit but not losing",
+      "no weight loss",
+      "cant lose weight",
+      "weight wont budge",
+      "same weight for weeks",
+      "doing everything right not losing",
+      "scale wont move"
+    ],
+    "match": "\\b(weight|scale)\\b.{0,20}\\b(not|isn'?t|won'?t|wont|hasn'?t|hasnt) (moving|move|budging|budge|going down|dropping|changing)\\b|\\b(i'?m|im) not losing\\b|\\b(not|stopped|can'?t|cant) losing weight\\b|\\bweight (is )?stuck\\b",
+    "body": [
+      "If your weekly average has been flat for two to three weeks, one of a few things is almost always going on. You are eating a bit more than you think, moving a bit less than you think, or water is hiding fat loss for a while. Usually it is a mix.",
+      "Run the checklist in order. Are weekends logged as carefully as weekdays? Are oils, sauces, drinks and bites while cooking in there? Have your daily steps dropped? Did you lose weight earlier, which lowers what you burn? Is sleep short or stress high, which holds water and turns up hunger?",
+      "Fix the cheapest thing first. Most stalls break with one week of tighter logging or about 2,000 more steps a day. Only after that would I trim food, and only by 100 to 200 calories."
+    ],
+    "more": {
+      "why": "As you lose weight your body burns a bit less, and most people also move less without noticing. The deficit that worked at the start quietly shrinks.",
+      "how": "Log everything for seven days with a food scale, weekends and drinks included. Then compare your real average calories and steps with what you thought they were.",
+      "mistake": "Cutting another 500 calories after one flat week. Give it two to three weeks of honest data before you change anything.",
+      "example": "Logged average 1,800, but weekend days were rough guesses. Measured properly, the week averaged 2,150. That was the whole stall.",
+      "advanced": "Lean, logging tight, flat for a month? A week or two at maintenance can make the next push easier. Keep your floor around 1,200 calories for women and 1,500 for men."
+    },
+    "reads": [
+      "weight",
+      "calories",
+      "steps"
+    ],
+    "chips": [
+      "Is it a real plateau?",
+      "What do I change when I stall?",
+      "Why do weekends undo my week?"
+    ],
+    "related": [
+      "nr-b-011",
+      "nr-b-012",
+      "nr-b-020"
+    ]
+  },
+  {
+    "id": "nr-b-011",
+    "topic": "plateau",
+    "title": "Is it a real plateau or just a slow week",
+    "keys": [
+      "is it a real plateau",
+      "plateau",
+      "am i on a plateau",
+      "weight loss plateau",
+      "how long is a plateau",
+      "hit a plateau",
+      "plateaued",
+      "how do i know if i plateaued",
+      "stalled for a week",
+      "slow week on the scale",
+      "plateau or water",
+      "how long before i change something",
+      "flat week on the scale"
+    ],
+    "match": "\\b(real|true|actual) plateau\\b|\\b(am i|i'?m|im|have i|i) (on a |hit a |at a )?plateau(ed)?\\b|\\bplateau or (water|a slow week)\\b|\\bhow long (is|does|do) (a )?plateaus?\\b|\\bweight loss plateau\\b",
+    "body": [
+      "One flat week is not a plateau. It is a week. A real plateau is when your weekly average has not moved for about three weeks while you have been logging honestly and hitting your targets. Anything shorter is usually water covering fat loss that is still happening.",
+      "Before you call it, check the comparison is fair. Same weigh-in conditions? Any salty weekend, new training block, short sleep or time of month in there? Those can freeze the scale for a week or two before it drops all at once.",
+      "If three weeks really are flat, that is not failure. It is information, and it is fixable. Look at logging accuracy and steps first, then adjust calories a little."
+    ],
+    "more": {
+      "why": "Fat loss is slow and steady while water is fast and noisy. Over short windows the noise can be bigger than the signal.",
+      "how": "Write down your last four weekly averages. If the newest is not lower than the one from three weeks back, treat it as a stall and run the checklist.",
+      "example": "Averages of 201.4, 201.2, 201.5, then 199.6. Three flat weeks, then a drop. Nothing was wrong. Patience was the fix.",
+      "beginner": "In your first two months, the most common plateau is a weekend logging gap. Start there."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "What do I change when I stall?",
+      "Why did my weight drop overnight?"
+    ],
+    "related": [
+      "nr-b-010",
+      "nr-b-012",
+      "nr-b-013",
+      "nr-b-004"
+    ]
+  },
+  {
+    "id": "nr-b-012",
+    "topic": "plateau",
+    "title": "What to change when you truly stall",
+    "keys": [
+      "what do i change when i stall",
+      "how to break a plateau",
+      "break through a plateau",
+      "what to do when weight stalls",
+      "should i eat less to break a stall",
+      "should i cut more calories",
+      "lower my calories",
+      "stalled what now",
+      "fix a plateau",
+      "should i do more cardio to lose weight",
+      "plateau buster",
+      "what should i change",
+      "how do i start losing again",
+      "get past a plateau"
+    ],
+    "match": "\\b(break|bust|beat|fix|get past|push through) (through )?(a |my |the |this )?(plateau|stall)\\b|\\bplateau ?bust\\w*\\b|\\bwhat (do|should) i change\\b|\\bstart losing again\\b",
+    "body": [
+      "Change one thing, the smallest one that will work, and give it two weeks. My order: tighten logging first, then add steps, then trim food a little. Big swings feel productive but they are hard to keep and they tell you nothing about what worked.",
+      "Step one, log everything for a week, weekends and drinks included, with a food scale for oils and spreads. Step two, add about 2,000 steps a day over your current average. Step three, if the trend is still flat after two more weeks, cut 100 to 200 calories, mostly from fats or snacks rather than protein.",
+      "Keep protein high and keep lifting the whole time. Stay above about 1,200 calories a day for women or 1,500 for men. If you are already near that floor, more steps or a short stretch at maintenance is the better move."
+    ],
+    "more": {
+      "why": "Small changes are easier to stick to, and when the trend moves you know exactly why. Change five things at once and you are left guessing.",
+      "example": "Averaging 7,000 steps and 1,900 calories, flat for three weeks. Add 2,000 steps for two weeks. Still flat? Go to about 1,750. That is the whole plan.",
+      "mistake": "Slashing 500 calories and adding an hour of cardio on the same day. You get hungrier, you move less outside the gym, and the stall often comes right back.",
+      "short_on_time": "No time to log everything this week? Add a 20 minute walk after dinner every day. That is roughly 2,000 to 2,500 steps."
+    },
+    "reads": [
+      "weight",
+      "steps",
+      "range"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "Why is weight loss slowing down?"
+    ],
+    "related": [
+      "nr-b-010",
+      "nr-b-011",
+      "nr-b-020"
+    ]
+  },
+  {
+    "id": "nr-b-013",
+    "topic": "plateau",
+    "title": "When the scale drops all at once",
+    "keys": [
+      "why did my weight drop overnight",
+      "sudden weight drop",
+      "dropped 3 pounds overnight",
+      "whoosh effect",
+      "whoosh",
+      "weight dropped all at once",
+      "lost a lot of weight in one day",
+      "big drop on the scale",
+      "scale dropped suddenly",
+      "weight fell overnight",
+      "is the whoosh real",
+      "down 3 pounds overnight"
+    ],
+    "match": "\\bwhoosh\\w*\\b|\\b(weight|scale)\\b.{0,20}\\b(dropped|drop|fell|plunged) (overnight|suddenly|all at once)\\b|\\bsudden (weight )?drop\\b|\\bdown \\d+(\\.\\d+)? ?(lb|lbs|pounds) overnight\\b",
+    "body": [
+      "This happens a lot after a flat stretch. You sit still for a week or two, then one morning you are down 2 or 3 pounds. People call it a whoosh. Nobody can explain every detail, but the simple version is that water was masking fat loss, and then the water let go.",
+      "Enjoy it, but do not treat the new low as your new normal. Big drops are often followed by a small bounce as your water settles. The weekly average will show the real change, and it usually lands somewhere in the middle.",
+      "The useful lesson: the stall before it was not a stall. Your habits were working the whole time. Next time the scale freezes for a week, remember this morning."
+    ],
+    "more": {
+      "why": "Stress, short sleep, hard training and salt can all make you hold water for a while. When they ease off, your body can release it quickly.",
+      "example": "Flat at 168 for 12 days, then 165.6 on a Monday and 166.4 by Wednesday. The real drop was about 1.6 pounds over two weeks.",
+      "mistake": "Celebrating with a huge weekend, then panicking when the bounce shows up. Treat the drop as one more data point."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Is it a real plateau?",
+      "What is water weight?"
+    ],
+    "related": [
+      "nr-b-011",
+      "nr-b-009",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-014",
+    "topic": "weigh-ins",
+    "title": "The scale went up but your clothes fit better",
+    "keys": [
+      "scale up but clothes fit better",
+      "losing inches not pounds",
+      "losing inches but not weight",
+      "clothes looser but weight the same",
+      "weight same but look leaner",
+      "gaining weight but looking smaller",
+      "losing fat gaining muscle scale",
+      "pants fit better but scale up",
+      "waist smaller weight the same",
+      "is muscle heavier than fat",
+      "does muscle weigh more than fat",
+      "body recomposition scale"
+    ],
+    "match": "\\b(losing|lost) inches\\b|\\bclothes (fit|feel|are) (better|looser)\\b|\\b(pants|jeans) (fit|feel|are) (better|looser)\\b|\\bmuscle (weighs?|is heavier|heavier) (more )?than fat\\b",
+    "body": [
+      "That is progress, and honestly one of my favorite kinds. If your clothes are looser and your waist is smaller while the scale sits still or ticks up, you are probably losing fat while your muscles hold more water and stored carbs. If you are newer to lifting, you may be adding some muscle too.",
+      "A pound of muscle and a pound of fat weigh the same, but muscle takes up less room. That is why two people at the same weight can look completely different, and why the scale alone is a blunt tool.",
+      "Keep doing what you are doing. Keep protein up, keep lifting with real effort, and track your waist and progress photos alongside your weigh-ins. When those move the right way, the scale is just running late."
+    ],
+    "more": {
+      "why": "Newer lifters and people coming back from a break can lose fat and gain muscle at the same time, especially with enough protein. The scale nets the two out to almost nothing.",
+      "how": "Measure your waist at the belly button every week, relaxed. Take photos every two to four weeks in the same light and the same pose.",
+      "example": "Six weeks: scale down 1 pound, waist down 1.5 inches, squat up 30 pounds. That is a great six weeks.",
+      "beginner": "Your first three to six months of lifting are when this happens most. Enjoy it."
+    },
+    "reads": [
+      "weight",
+      "sessions"
+    ],
+    "chips": [
+      "Progress photos and measurements?",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-b-008",
+      "nr-b-016",
+      "nr-b-004"
+    ]
+  },
+  {
+    "id": "nr-b-015",
+    "topic": "weigh-ins",
+    "title": "When your weight creeps up slowly",
+    "keys": [
+      "weight creeping up",
+      "slowly gaining weight",
+      "gaining weight slowly over months",
+      "weight keeps creeping up",
+      "gained 10 pounds this year",
+      "slow weight gain",
+      "how did i gain weight",
+      "gaining a pound a month",
+      "weight going up and i dont know why",
+      "weight creep",
+      "gradual weight gain",
+      "putting on weight without noticing"
+    ],
+    "match": "\\bweight (is |keeps )?(creep\\w*|slowly (going up|rising|climbing))\\b|\\b(slow|gradual|steady) weight gain\\b|\\b(slowly|gradually|steadily) (gaining|putting on)\\b|\\bweight creep\\b",
+    "body": [
+      "Slow creep is the most common way weight changes, and it is almost never one big thing. An extra 100 calories a day, a latte here, a few more bites there, slightly fewer steps since a job change, adds up to roughly 10 pounds over a year. Nobody notices 100 calories. Everybody notices 10 pounds.",
+      "The good news is that the fix is usually just as small. Look at your weekly average trend over the last two or three months, then look for what changed around when it started: new job, new commute, less sleep, more takeout, a drink after work, a new coffee order, an injury that cut your steps.",
+      "Then reverse one or two of those. Bringing steps back up by 2,000 a day and trimming one daily extra is often enough to stop the creep, and going a little further turns it around."
+    ],
+    "more": {
+      "example": "A 250 calorie flavored coffee every workday is about 65,000 calories a year, close to 18 pounds on paper. Switching to a smaller one with less syrup changes the whole year.",
+      "how": "Log everything for one normal week without changing anything. Just see where your days really land, then pick the two easiest changes.",
+      "why": "Your body does not notice small daily surpluses, and neither does your hunger. They only show up on the trend, which is why watching the trend matters.",
+      "mistake": "Panicking and starting a strict diet. A slow creep needs a small correction, not a crash."
+    },
+    "reads": [
+      "weight",
+      "steps"
+    ],
+    "chips": [
+      "Hidden calories in drinks?",
+      "How many steps a day?",
+      "Why is my weight not moving?"
+    ],
+    "related": [
+      "nr-b-004",
+      "nr-b-010"
+    ]
+  },
+  {
+    "id": "nr-b-016",
+    "topic": "weigh-ins",
+    "title": "When the scale stresses you out",
+    "keys": [
+      "the scale stresses me out",
+      "scale makes me anxious",
+      "scale ruins my day",
+      "i hate the scale",
+      "afraid to weigh myself",
+      "scale anxiety",
+      "obsessed with the scale",
+      "should i stop weighing myself",
+      "take a break from the scale",
+      "scale affects my mood",
+      "dont want to weigh myself",
+      "weighing makes me feel bad",
+      "scared of the scale"
+    ],
+    "match": "\\bscale (stresses|ruins|anxiety|makes me (anxious|upset|sad|feel))\\b|\\b(hate|afraid of|scared of|obsessed with) (the |my )?scale\\b|\\b(stop|quit|break from) weighing\\b",
+    "body": [
+      "Then let's take the pressure off. The scale is one tool, not a grade. If it ruins your mood, you are allowed to weigh less often, or put it away for a few weeks and track other things instead.",
+      "Some people do better weighing every day because no single number feels like a big deal. Others do better once a week, or not at all for a while. Both are fine. Waist measurements, progress photos, how your clothes fit, your energy and your lifts are real progress, and they do not shout at you at 6 a.m.",
+      "And if the scale or food starts taking up most of your headspace, or you catch yourself skipping meals because of a number, please talk with your doctor or someone you trust. You deserve support with that, and asking for it is a strength."
+    ],
+    "more": {
+      "why": "Your worth has nothing to do with a reading that changes with salt and sleep. The trend is for planning, not for deciding how you feel about yourself.",
+      "how": "Try a two week break: no scale, keep logging food and steps, measure your waist once a week. Then decide how, or whether, to bring the scale back.",
+      "beginner": "Just starting out? It is completely fine to skip the scale for the first month and focus on building three or four habits."
+    },
+    "chips": [
+      "Progress photos and measurements?",
+      "How do I stop feeling guilty?"
+    ],
+    "related": [
+      "nr-b-014",
+      "nr-b-002"
+    ]
+  },
+  {
+    "id": "nr-b-017",
+    "topic": "weigh-ins",
+    "title": "Weight up after a vacation or a weekend away",
+    "keys": [
+      "weight up after vacation",
+      "gained weight on vacation",
+      "weight after a trip",
+      "back from vacation scale",
+      "gained 5 pounds on vacation",
+      "how long to lose vacation weight",
+      "weight after a cruise",
+      "weight after travel",
+      "came back heavier",
+      "after a weekend away",
+      "vacation weight gain",
+      "post vacation weight"
+    ],
+    "match": "\\b(weight|scale|gained|heavier)\\b.{0,40}\\b(vacation|cruise|trip|weekend away)\\b|\\b(after|post|back from) (my |a |the )?(vacation|cruise|trip)\\b.{0,30}\\b(weight|scale|pounds|lbs)\\b",
+    "body": [
+      "Coming home 3 to 8 pounds heavier from a trip is really common, and most of it is not fat. Restaurant salt, more carbs, drinks, travel days, less sleep and a gut full of different food all hold water. Real fat gain from a week away is usually a pound or two at most, often less.",
+      "Do not weigh the morning after you land and decide anything. Go straight back to your normal routine: regular meals, your protein, your water, your steps. Most of the extra comes off within five to ten days.",
+      "Then read the trend from your second week home. That is your honest number, and it is almost always kinder than that first morning made it look."
+    ],
+    "more": {
+      "why": "Travel stacks every water driver at once: salt, carbs, drinks, hours of sitting, short sleep, sometimes constipation. The scale reflects all of it.",
+      "mistake": "Starting a crash diet the day you get back. Week one turns miserable and it often leads to a second round of overeating. Normal habits clear the water faster than you think.",
+      "example": "Back from a cruise up 6.4 pounds. Ten days of normal routine later, up 1.2. That was the real cost of a great week.",
+      "how": "Unpack, grocery shop and prep two or three easy meals the first day back. Having food ready is the fastest way home."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How do I eat on vacation?",
+      "How do I get back on track?"
+    ],
+    "related": [
+      "nr-b-001",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-018",
+    "topic": "weigh-ins",
+    "title": "Why you weigh more at night",
+    "keys": [
+      "why am i heavier at night",
+      "heavier at night",
+      "weight higher in the evening",
+      "morning vs night weight",
+      "weigh in the evening",
+      "evening weight",
+      "weight changes during the day",
+      "weigh more after eating",
+      "how much does weight change in a day",
+      "weight difference morning and night",
+      "can i weigh at night"
+    ],
+    "match": "\\b(heavier|weigh more|weight (is )?higher) (at night|in the evening|after (eating|dinner))\\b|\\b(morning|evening|night) (vs|versus|and) (morning|evening|night) weight\\b|\\b(evening|night) weigh ?ins?\\b|\\bweigh (myself )?at night\\b",
+    "body": [
+      "Because you have eaten and drunk all day, and it is still in you. Food, water and whatever has not been digested yet can easily add 2 to 5 pounds by bedtime. Overnight you breathe out water, sweat a little and use the bathroom, so the number comes back down by morning.",
+      "That is why I like weigh-ins first thing, after the bathroom and before breakfast. It is the most consistent moment of your day. An evening reading is not wrong, it just is not comparable with your morning ones.",
+      "If mornings truly do not work for you, pick another consistent moment and stick to it. A trend built from evening weigh-ins still works. Just do not mix the two."
+    ],
+    "more": {
+      "example": "Two liters of water across the day weighs about 4.4 pounds before your body processes it. That alone covers most of the gap.",
+      "why": "Body weight is your body plus everything in it. Until food and drink are digested and used, they count on the scale.",
+      "how": "If you step on at night out of curiosity, do not log it as your daily weigh-in. Keep the trend clean with one consistent time."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How should I weigh myself?",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-b-003",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-019",
+    "topic": "weigh-ins",
+    "title": "Why you dropped so fast in the first week",
+    "keys": [
+      "why did i drop so fast in week one",
+      "lost a lot of weight the first week",
+      "first week weight loss",
+      "lost 5 pounds the first week",
+      "fast weight loss at the start",
+      "big drop at the beginning",
+      "why did weight loss slow after the first week",
+      "is first week weight loss fat",
+      "lost so much the first week",
+      "first week on a diet"
+    ],
+    "match": "\\b(first|1st) (week|few days)\\b.{0,40}\\b(lost|dropped|weight loss|losing)\\b|\\b(lost|dropped|losing) .{0,30}\\b(first|1st) (week|few days)\\b|\\bweek one\\b.{0,30}\\b(lost|dropped|drop)\\b",
+    "body": [
+      "A big first week is normal and mostly water. When you start eating a bit less and cut back on salty snacks, you store fewer carbs and hold less sodium, and both carry water. Dropping 2 to 6 pounds in week one is common, especially at a higher starting weight.",
+      "Then it slows down, and that is when people panic. It should slow. From week two on, about 0.5 to 1 percent of your body weight per week is the real fat loss pace, and it is a great one.",
+      "So enjoy week one, but set your expectations from week two. Start your trend comparisons there and you will save yourself a lot of stress."
+    ],
+    "more": {
+      "why": "Your muscles and liver store carbs with water. Eat fewer carbs or fewer calories and part of that store empties, water and all.",
+      "example": "Starting at 220: week one down 5, week two down 1.8, week three down 1.6. The last two weeks are the honest pace, about 0.8 percent a week.",
+      "mistake": "Trying to keep the week one pace by cutting harder. That pace was never fat loss, so chasing it just means eating too little."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How fast should I lose weight?",
+      "Why is weight loss slowing down?"
+    ],
+    "related": [
+      "nr-b-009",
+      "nr-b-020",
+      "nr-b-004"
+    ]
+  },
+  {
+    "id": "nr-b-020",
+    "topic": "plateau",
+    "title": "Why losing gets slower as you go",
+    "keys": [
+      "why is weight loss slowing down",
+      "weight loss slowing",
+      "losing slower now",
+      "weight loss slowed down",
+      "weight loss got harder",
+      "losing weight slower than before",
+      "why am i losing less each week",
+      "harder to lose weight now",
+      "metabolic adaptation",
+      "losing less than i used to",
+      "progress slowing down",
+      "losing slower every month"
+    ],
+    "match": "\\b(weight loss|losing( weight)?|progress) (is |has |got )?(slowing|slower|slowed)\\b|\\bmetabolic adaptation\\b|\\blosing less\\b",
+    "body": [
+      "Losing slower as you go is expected, and your metabolism is not broken. A smaller body burns fewer calories, roughly 100 fewer a day for every 10 pounds lost, and most people also move a little less without noticing when they eat less. So the same plan makes a smaller deficit over time.",
+      "Starvation mode, in the sense of your body refusing to lose fat, is a myth. What is real is a modest drop in daily burn, more hunger, and less fidgeting and walking. All of that is manageable.",
+      "The fixes: keep your steps steady or nudge them up, recheck your logging, keep protein high and keep lifting. Near your goal, slower loss is fine. A week or two at maintenance can also settle your hunger before the next push."
+    ],
+    "more": {
+      "why": "Your daily burn depends on your size and how much you move. Lose weight and both tend to drop a little, so the gap between eating and burning shrinks.",
+      "example": "At 200 pounds, 2,000 calories made a 500 calorie deficit. At 180, the same 2,000 might be closer to 300 under. Slower, still working.",
+      "how": "Every 10 pounds lost, recheck your calorie range and your step average. Small updates keep the trend moving.",
+      "mistake": "Thinking you need to eat very little to lose the last few pounds. Stay above about 1,200 calories for women and 1,500 for men, and let the pace be slow."
+    },
+    "reads": [
+      "weight",
+      "steps",
+      "range"
+    ],
+    "chips": [
+      "What is NEAT?",
+      "What is maintenance?",
+      "What do I change when I stall?"
+    ],
+    "related": [
+      "nr-b-012",
+      "nr-b-010",
+      "nr-b-019"
+    ]
+  }
+]

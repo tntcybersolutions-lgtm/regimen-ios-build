@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "nr-a-001",
+    "topic": "protein",
+    "title": "How much protein you actually need",
+    "keys": [
+      "how much protein do i need",
+      "how much protein should i eat",
+      "protein per day",
+      "daily protein",
+      "protein target",
+      "protein goal",
+      "grams of protein a day",
+      "how many grams of protein",
+      "protein intake",
+      "protein per pound",
+      "protein per kg",
+      "how much protien",
+      "protein to build muscle",
+      "how much protein for muscle",
+      "what should my protein goal be"
+    ],
+    "match": "\\bhow (much|many grams of) (protein|protien)\\b(?!\\s+(per meal|in a meal|at once|in one|before|after|can|is too|on rest|in (chicken|eggs?|an egg|tofu|tuna|beans|lentils)))|\\bprotein (target|goal|intake)\\b|\\bprotein per (day|pound|lb|kg)\\b|\\bdaily protein\\b",
+    "body": [
+      "Aim for 0.7 to 1 gram of protein per pound of your goal body weight every day (1.6 to 2.2 g per kg). If your goal is 160 lb, that is roughly 110 to 160 grams. The low end already covers most of the muscle-building benefit; the top end is a comfortable ceiling, not a requirement.",
+      "Pick a number in that range you can actually hit most days and keep it boring. A target you hit six days a week beats a heroic one you hit twice. If you are cutting, sit toward the top of the range, because protein protects muscle and keeps you fuller while food is tight.",
+      "Then split it over three to five meals so no single plate has to carry the whole day. Numbers, not opinions: log it for a week and see where you really land before changing anything."
+    ],
+    "more": {
+      "why": "Protein supplies the building blocks for muscle repair after training, and lifters eating in this range keep and build more muscle than those eating less. Past about 1 gram per pound, the extra benefit flattens out for most people.",
+      "how": "Multiply your goal weight in pounds by 0.7 and by 1. Pick a number between them, round it to the nearest 10, and divide by the number of meals you eat. That is your per-meal amount.",
+      "beginner": "Start at 0.7 grams per pound for two weeks. Once that feels normal, nudge it up by 10 to 20 grams a day if you want. Raising the floor slowly sticks better than overhauling everything on a Monday.",
+      "example": "Goal weight 150 lb: 0.7 x 150 = 105 g, 1 x 150 = 150 g. Pick 130 g. Over four meals that is about 32 g each, which is a cup of Greek yogurt (about 23 g) with a handful of nuts, or 4 oz of cooked chicken (about 35 g)."
+    },
+    "reads": [
+      "protein",
+      "weight"
+    ],
+    "chips": [
+      "Should I use my goal weight?",
+      "How much protein per meal?",
+      "How do I hit my protein?"
+    ],
+    "related": []
+  },
+  {
+    "id": "nr-a-002",
+    "topic": "protein",
+    "title": "Goal weight or current weight for your protein number",
+    "keys": [
+      "should i use my goal weight",
+      "goal weight or current weight",
+      "protein for goal weight",
+      "protein based on goal weight",
+      "protein if i am overweight",
+      "protein if i have a lot to lose",
+      "protein for my current weight",
+      "which weight for protein",
+      "protein per pound of goal weight",
+      "protein for a heavier person",
+      "lean body mass protein",
+      "protein target if im overweight"
+    ],
+    "match": "\\b(goal|current|target) (body )?weight\\b.*\\bprotein\\b|\\bprotein\\b.*\\b(goal|current|target) (body )?weight\\b|\\blean (body )?mass\\b.*\\bprotein\\b|\\bshould i use my goal weight\\b",
+    "body": [
+      "Use your goal weight, or your current weight if you are already close to your goal. If you weigh 260 lb and want to be 200, 1 gram per pound of current weight is 260 grams a day, which is a lot of chicken and not much extra benefit. Based on a 200 lb goal, 140 to 200 grams covers what your muscles actually need.",
+      "If you are within about 20 lb of your goal, the difference barely matters, so use whichever number is simpler. If you have a lot to lose, goal weight keeps the target doable and leaves room in your calories for the carbs and fats that fuel training.",
+      "If you are building and your goal is heavier than you are now, use the goal number. It nudges you to eat a bit more, which is what a bulk needs anyway."
+    ],
+    "more": {
+      "why": "Protein needs track muscle, not total weight. Body fat needs very little protein to maintain, so basing the target on a much heavier current weight overshoots without adding anything.",
+      "how": "Pick a goal weight you could reach in the next 6 to 12 months, not a dream number from ten years ago. Multiply it by 0.7 and by 1. Recheck the number every time you get within 10 lb of it.",
+      "example": "Current weight 230 lb, goal 185 lb. Protein target: 130 to 185 g. Many people in this spot land around 160 g, which is 40 g over four meals.",
+      "mistake": "Choosing a goal weight so low that your protein target ends up under what your body needs right now. If you are unsure, use the midpoint between your current and goal weight."
+    },
+    "reads": [
+      "protein",
+      "weight"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "How do I hit my protein?"
+    ],
+    "related": [
+      "nr-a-001"
+    ]
+  },
+  {
+    "id": "nr-a-003",
+    "topic": "protein",
+    "title": "How to actually hit your protein number",
+    "keys": [
+      "how do i hit my protein",
+      "cant hit my protein",
+      "struggling to hit protein",
+      "how to eat more protein",
+      "how to get more protein",
+      "always under my protein",
+      "hard to get enough protein",
+      "tips to hit protein goal",
+      "easy ways to add protein",
+      "protein hacks",
+      "i never hit my protein",
+      "how to reach protein goal",
+      "missing my protein",
+      "how do i get enough protein"
+    ],
+    "match": "\\b(hit|hitting|reach|reaching) (my |your |the )?(protein|protien)\\b|\\b(get|getting|eat|eating) (enough|more) (protein|protien)\\b|\\b(under|short on|missing) (my )?protein\\b|\\bways to add protein\\b",
+    "body": [
+      "Build every meal around the protein first, then add the rest. Most people who miss their number eat a protein-light breakfast and lunch, then try to cram 90 grams into dinner, which is how you end up eating plain chicken at 10 p.m. out of spite.",
+      "The easy fix: put 30 to 40 grams on the plate at each of three meals, then add one protein snack. That is 110 to 150 grams without anything heroic. Greek yogurt, cottage cheese, eggs with egg whites, a tuna pouch, deli turkey, a shake, leftover chicken: pick two or three you like and keep them stocked.",
+      "Log it as you go, not at night. If you are at 40 grams by 2 p.m., you know dinner needs to be a big one while there is still time to fix it."
+    ],
+    "more": {
+      "how": "Write down your three most common breakfasts, lunches and dinners. Next to each, write its protein. Upgrade the lowest one first: add egg whites to eggs, swap regular yogurt for Greek, double the meat on a salad.",
+      "example": "Breakfast: 1 cup Greek yogurt with berries (23 g). Lunch: wrap with 4 oz chicken (35 g). Snack: string cheese and a tuna pouch (about 24 g). Dinner: 5 oz salmon with rice (about 31 g). Total: about 113 grams.",
+      "mistake": "Relying on foods that are mostly fat or carbs with a little protein, like peanut butter, nuts or regular yogurt. They are fine foods, but 2 tablespoons of peanut butter is 190 calories for about 7 grams.",
+      "short_on_time": "Keep three no-cook options on hand at all times: Greek yogurt cups, precooked chicken or a tuna pouch, and a protein shake. Any one of them adds 15 to 30 grams in under a minute."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein snack ideas?",
+      "Protein without shakes?",
+      "How much protein per meal?"
+    ],
+    "related": [
+      "nr-a-001",
+      "nr-a-002"
+    ]
+  },
+  {
+    "id": "nr-a-004",
+    "topic": "protein",
+    "title": "How much protein to eat at each meal",
+    "keys": [
+      "how much protein per meal",
+      "protein per meal",
+      "protein in each meal",
+      "how to split protein",
+      "grams of protein per meal",
+      "protein each meal",
+      "how much protein in one meal",
+      "protein per sitting",
+      "best amount of protein per meal",
+      "spread protein across the day",
+      "how many meals for protein",
+      "protein distribution"
+    ],
+    "match": "\\bprotein (per|in (each|one|a)|each) (meal|sitting|plate)\\b|\\b(split|spread|distribute) (my |your )?protein\\b|\\bprotein distribution\\b",
+    "body": [
+      "For most people, 25 to 40 grams per meal across three to five meals is the sweet spot. A handy rule is about 0.2 grams per pound of body weight per meal (0.4 g per kg), so a 180 lb lifter aims for roughly 35 to 40 grams each time.",
+      "Spreading it out does two things: each meal gives your muscles a fresh signal to rebuild, and your daily total stops depending on one giant dinner. Four meals of 35 grams is 140 grams, which covers most lifters.",
+      "It does not need to be perfect. A 20 gram breakfast and a 50 gram dinner still count. Total daily protein matters most; even distribution is the bonus round."
+    ],
+    "more": {
+      "why": "Muscle building gets a stronger push from several solid protein feedings than from one or two small ones. Around 0.4 g per kg per meal seems to hit that push for most adults, and a little more does no harm.",
+      "how": "Take your daily target and divide by the number of times you eat. If that comes out above 50 grams, add a meal or a protein snack instead of cramming it into three.",
+      "example": "Target 150 g over four meals: about 38 g each. Breakfast: 3 eggs plus half a cup of egg whites (about 31 g) and a glass of milk (8 g). That is one meal done.",
+      "advanced": "Older lifters may do better toward the top of the range, around 40 grams per meal, because muscle gets a little less responsive to protein with age."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Can my body only use 30 g at once?",
+      "How many meals a day should I eat?",
+      "High protein breakfast ideas?"
+    ],
+    "related": [
+      "nr-a-001",
+      "nr-a-003"
+    ]
+  },
+  {
+    "id": "nr-a-005",
+    "topic": "protein",
+    "title": "Protein timing around your workout",
+    "keys": [
+      "does protein timing matter",
+      "protein after workout",
+      "protein before workout",
+      "anabolic window",
+      "how soon after workout protein",
+      "protein within 30 minutes",
+      "post workout protein",
+      "pre workout protein",
+      "when should i eat protein",
+      "best time for protein",
+      "protein timing",
+      "do i need a shake right after the gym",
+      "missed my post workout shake"
+    ],
+    "match": "\\banabolic window\\b|\\bprotein timing\\b|\\b(best )?time (to|for) (eat |have |drink )?(protein|a shake)\\b|\\bprotein (right )?(after|before|post|pre)[- ]?(a )?(workout|training|gym|lifting|session)\\b|\\b(post|pre)[- ]?workout (protein|shake)\\b|\\bwhen should i eat protein\\b",
+    "body": [
+      "Timing matters a lot less than the internet thinks. The famous 30-minute window is more like a wide-open door: 20 to 40 grams of protein within a few hours before or after training covers it. If you ate a solid meal two hours before you lifted, you are already covered.",
+      "Where timing matters more is when you train fasted first thing in the morning. Then the meal after is your first protein in 10 or more hours, so get it in within an hour or so.",
+      "So no, you do not need to sprint to the locker room with a shaker bottle. Hit your daily total, spread it across the day, and put one of those meals near your session because it is convenient, not because the gains expire."
+    ],
+    "more": {
+      "why": "Studies comparing protein right after training with protein a few hours later find little difference when daily protein is equal. The total for the day drives most of the result.",
+      "example": "Lift at 6 p.m. after a 3 p.m. Greek yogurt: dinner at 7:30 with 35 grams of protein is perfect. Lift at 6 a.m. on an empty stomach: have breakfast or a shake by about 7:30.",
+      "mistake": "Chugging a shake after training, then eating a low-protein lunch because you already had protein. The shake counts toward the day; it does not replace the rest of it."
+    },
+    "reads": [
+      "protein",
+      "sessions"
+    ],
+    "chips": [
+      "What should I eat after training?",
+      "Is it bad to train fasted?",
+      "Is protein before bed worth it?"
+    ],
+    "related": [
+      "nr-a-004"
+    ]
+  },
+  {
+    "id": "nr-a-006",
+    "topic": "protein",
+    "title": "Protein before bed",
+    "keys": [
+      "is protein before bed worth it",
+      "protein before bed",
+      "casein before bed",
+      "eating protein at night",
+      "protein before sleep",
+      "bedtime protein",
+      "cottage cheese before bed",
+      "greek yogurt before bed",
+      "slow digesting protein",
+      "casein protein",
+      "night time protein shake",
+      "protein shake before bed"
+    ],
+    "match": "\\b(protein|casein|cottage cheese|shake)\\b.*\\b(before|at) (bed|bedtime|sleep)\\b|\\bbedtime protein\\b|\\bcasein\\b(?!.*\\bwhey\\b)|\\bslow digesting protein\\b",
+    "body": [
+      "It is a nice bonus, especially if it helps you hit your daily number, and research backs it. About 30 to 40 grams of protein in the hour or two before sleep gives your muscles something to work with overnight. It does not make you gain fat on its own; calories for the whole day decide that.",
+      "Slower-digesting options work well: a cup of cottage cheese (about 24 to 28 grams), a cup of Greek yogurt (about 23 grams), or a casein shake. Casein is the main protein in milk and digests slowly, which is why it shows up in all the bedtime studies.",
+      "If you already hit your protein by dinner and you are not hungry, skip it. It is a tool for people who come up short, not a rule."
+    ],
+    "more": {
+      "why": "Overnight is the longest stretch most people go without protein. Studies giving lifters 30 to 40 grams of casein before bed found a modest extra boost to muscle building over weeks of training.",
+      "how": "Pick one bedtime option you actually like and keep it boring. Cottage cheese with cinnamon and berries, Greek yogurt with a little honey, or a casein shake made thick like pudding.",
+      "mistake": "Using bedtime protein to make up a 70 gram shortfall. That is a lot to eat right before sleep. Fix the earlier meals instead and keep the bedtime snack modest."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Is eating late bad?",
+      "High protein snack ideas?"
+    ],
+    "related": [
+      "nr-a-004",
+      "nr-a-005"
+    ]
+  },
+  {
+    "id": "nr-a-007",
+    "topic": "protein",
+    "title": "The best protein foods, with real numbers",
+    "keys": [
+      "what are the best protein foods",
+      "best protein sources",
+      "high protein foods",
+      "foods high in protein",
+      "best sources of protein",
+      "protein foods list",
+      "list of protein foods",
+      "good protein foods",
+      "what has the most protein",
+      "which foods have protein",
+      "best meats for protein",
+      "how much protein in chicken",
+      "how much protein in an egg",
+      "protein in greek yogurt",
+      "protein in cottage cheese",
+      "protein in tuna",
+      "how much protein in steak"
+    ],
+    "match": "\\b(best|good|top|high|list of) (protein (foods?|sources?)|sources? of protein|foods? (high in|with) protein)\\b|\\bhigh protein foods\\b|\\b(how much|what) protein (is )?in (chicken|eggs?|an egg|greek yogurt|cottage cheese|tuna|steak|salmon|beef|turkey|shrimp)\\b|\\bwhat has the most protein\\b|\\bprotein foods list\\b",
+    "body": [
+      "Here is the cheat sheet, cooked weights unless noted. Chicken breast, 4 oz: about 35 grams. Lean ground beef (93%), 4 oz raw: about 23 grams. Salmon, 4 oz: about 25 grams. Canned tuna, a 5 oz can drained: about 25 grams. Shrimp, 3 oz: about 20 grams. Pork tenderloin, 4 oz: about 30 grams.",
+      "Dairy and eggs: plain nonfat Greek yogurt, 1 cup: about 23 grams. Cottage cheese, 1 cup: 24 to 28 grams. One large egg: 6 grams. Liquid egg whites, 1 cup: about 26 grams. Milk, 1 cup: 8 grams. String cheese: about 7 grams.",
+      "The best protein food is the one you will eat five days a week without sighing. Pick three you like, keep them in rotation, and stop auditioning new ones every Monday."
+    ],
+    "more": {
+      "why": "Animal proteins are dense (a lot of protein per bite) and complete, meaning they contain all the amino acids your muscles need. That makes hitting your number easier, not mandatory.",
+      "how": "For packaged foods, check protein per serving and the serving size. Anything with about 10 grams of protein or more per 100 calories is a lean, efficient pick.",
+      "example": "A day built from this list: 1 cup Greek yogurt (23 g), 4 oz chicken (35 g), 1 can tuna (25 g), 3 eggs (18 g), 1 cup milk (8 g). Total: about 109 grams before counting bread, rice or anything else.",
+      "beginner": "Start with two: chicken breast and Greek yogurt. They are easy to find, easy to log and hard to mess up."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "What are good plant proteins?",
+      "Which proteins are lowest calorie?",
+      "What is the cheapest protein?"
+    ],
+    "related": [
+      "nr-a-003"
+    ]
+  },
+  {
+    "id": "nr-a-008",
+    "topic": "protein",
+    "title": "Plant proteins and how much they really give you",
+    "keys": [
+      "what are good plant proteins",
+      "plant based protein",
+      "plant protein sources",
+      "best plant proteins",
+      "protein in beans",
+      "protein in lentils",
+      "how much protein in tofu",
+      "protein in tofu",
+      "protein in tempeh",
+      "protein in edamame",
+      "meatless protein",
+      "plant foods high in protein",
+      "non meat protein",
+      "protein without meat",
+      "how much protein in chickpeas",
+      "how much protein in beans"
+    ],
+    "match": "\\bplant[- ]?(based )?proteins?\\b(?! powder)|\\b(protein|how much protein) in (beans|lentils|tofu|tempeh|edamame|chickpeas|seitan|quinoa)\\b|\\b(meatless|non[- ]?meat) protein\\b|\\bprotein without meat\\b",
+    "body": [
+      "Plant proteins work fine; they just come with more carbs or fat attached, so you need a bit more food to reach the same number. Cooked, per serving: lentils, 1 cup: about 18 grams. Black beans, 1 cup: about 15 grams. Chickpeas, 1 cup: about 14 grams. Shelled edamame, 1 cup: about 18 grams.",
+      "The dense ones: extra-firm tofu runs about 9 to 10 grams per 3 oz serving, so a 14 oz block is roughly 35 to 45 grams depending on the brand. Tempeh, 3 oz: about 16 grams. Seitan, 3 oz: usually 15 to 20 grams, so check the label. Soy milk, 1 cup: 7 to 8 grams. Peanut butter, 2 tablespoons: about 7 grams (and 190 calories).",
+      "Lean on soy foods, seitan and legumes for most of your number, and use nuts and seeds as extras rather than the main event."
+    ],
+    "more": {
+      "why": "Beans and lentils are about two-thirds carbs by calories, and nuts are mostly fat. They are great foods, but if protein is the goal, tofu, tempeh, seitan, edamame and a plant protein powder are the most efficient.",
+      "how": "Build each meal around one dense plant protein, then add a legume on the side. Tofu stir-fry with edamame, lentil pasta with seitan crumbles, tempeh bowl with black beans.",
+      "example": "Half a block of extra-firm tofu (about 20 g), 1 cup of lentils (18 g) and a soy milk latte (7 g) add up to about 45 grams across a day's meals.",
+      "mistake": "Counting the protein in a cup of rice or a slice of bread as a protein serving. Grains help, but at 3 to 5 grams per serving they are not carrying your number."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do vegetarians hit protein?",
+      "Can I hit protein as a vegan?",
+      "Do I need complete proteins?"
+    ],
+    "related": [
+      "nr-a-007"
+    ]
+  },
+  {
+    "id": "nr-a-009",
+    "topic": "protein",
+    "title": "Cheap protein that does not taste like punishment",
+    "keys": [
+      "what is the cheapest protein",
+      "cheap protein",
+      "protein on a budget",
+      "budget protein",
+      "cheapest protein sources",
+      "affordable protein",
+      "protein when broke",
+      "protein is expensive",
+      "cheap high protein foods",
+      "best protein for the money",
+      "cheap ways to get protein",
+      "low cost protein"
+    ],
+    "match": "\\b(cheap|cheapest|budget|affordable|inexpensive|low[- ]cost)\\b.*\\bprotein\\b|\\bprotein\\b.*\\b(on a budget|is (so )?expensive|for the money|when broke)\\b",
+    "body": [
+      "The best protein for the money usually sits on the boring shelves: dried or canned beans and lentils, eggs, chicken thighs or leg quarters, milk, canned tuna, plain Greek yogurt in the big tub, cottage cheese, and protein powder in large tubs. Per gram of protein, a big tub of whey often beats most meats.",
+      "Buy the big package and portion it yourself. Family packs of chicken, the 32 oz yogurt tub instead of single cups, the 5 lb bag of rice, the 18-count eggs. Single-serve anything is where your grocery money goes to disappear.",
+      "Mix one cheap animal protein with one legume in a meal and you stretch both: ground turkey with black beans in tacos, chicken thighs with lentils, eggs with beans and rice."
+    ],
+    "more": {
+      "how": "Compare price per gram of protein, not price per pound. Divide the price by the total grams of protein in the package (protein per serving times servings). Do it once for your usual buys and you will know your top three forever.",
+      "example": "A cheap day: 4 scrambled eggs (24 g), 1 cup cottage cheese (about 25 g), chicken thigh and lentil soup (about 34 g), a scoop of whey in milk (about 32 g). Roughly 115 grams, mostly from the cheapest shelf in the store.",
+      "mistake": "Buying protein bars and ready-to-drink shakes as your main source. They are handy, but per gram of protein they are some of the most expensive options in the store."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I eat well on a budget?",
+      "Give me a grocery list",
+      "Chicken thighs or breasts?"
+    ],
+    "related": [
+      "nr-a-007",
+      "nr-a-008"
+    ]
+  },
+  {
+    "id": "nr-a-010",
+    "topic": "protein",
+    "title": "Hitting your protein as a vegetarian",
+    "keys": [
+      "how do vegetarians hit protein",
+      "vegetarian protein",
+      "protein for vegetarians",
+      "vegetarian high protein",
+      "lacto ovo protein",
+      "vegetarian lifter protein",
+      "vegetarian muscle building",
+      "vegetarian protein sources",
+      "i dont eat meat how do i get protein",
+      "pescatarian protein",
+      "vegetarian bodybuilding",
+      "no meat high protein diet"
+    ],
+    "match": "\\b(vegetarian|pescatarian|lacto[- ]?ovo)s?\\b(?!.*\\b(day|meal plan|sample)\\b)|\\bdont eat meat\\b",
+    "body": [
+      "Vegetarians have it easier than they think, because eggs and dairy are protein powerhouses. Plain Greek yogurt (about 23 grams a cup), cottage cheese (24 to 28 grams a cup), eggs (6 grams each), egg whites (about 26 grams a cup), milk and cheese carry a lot of the load with no meat at all.",
+      "Add the soy and legume crew for the rest: tofu, tempeh, edamame, lentils, beans, and seitan if you eat wheat. If you eat fish, canned tuna and salmon make it even simpler.",
+      "A rhythm that works: dairy or eggs at breakfast, a soy or legume main at lunch and dinner, and Greek yogurt or cottage cheese as the snack. That lands at 100 to 140 grams without much drama."
+    ],
+    "more": {
+      "example": "Breakfast: 2 eggs plus 1/2 cup egg whites (25 g). Lunch: lentil salad with feta (about 22 g). Snack: 1 cup cottage cheese (about 25 g). Dinner: tofu stir-fry with edamame (about 30 g). Total: about 100 grams.",
+      "how": "Make sure each meal has one clear protein anchor. If the protein on a plate is a sprinkle of cheese, it needs an upgrade: add eggs, a Greek yogurt sauce, tofu or a side of edamame.",
+      "mistake": "Swapping meat for pasta with extra cheese and calling it a vegetarian meal. Tasty, but low in protein and heavy in calories. Pasta made from lentils or chickpeas helps a lot."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Show me a vegetarian day",
+      "What are good plant proteins?",
+      "Whole eggs or egg whites?"
+    ],
+    "related": [
+      "nr-a-008"
+    ]
+  },
+  {
+    "id": "nr-a-011",
+    "topic": "protein",
+    "title": "Hitting your protein as a vegan",
+    "keys": [
+      "can i hit protein as a vegan",
+      "vegan protein",
+      "vegan protein sources",
+      "protein for vegans",
+      "where do vegans get protein",
+      "vegan lifter",
+      "vegan muscle building",
+      "vegan bodybuilding",
+      "plant based diet protein",
+      "enough protein on a vegan diet",
+      "vegan high protein",
+      "is it hard to get protein as a vegan"
+    ],
+    "match": "\\bvegans?\\b(?!.*\\b(day|meal plan|sample|powder)\\b)|\\bplant[- ]based diet\\b",
+    "body": [
+      "Yes, you can, and plenty of strong lifters do. The plan is simple: lean on soy (tofu, tempeh, edamame, soy milk), seitan, lentils and beans, and use a plant protein powder to close the gap. Aim for the top half of the usual range, around 0.8 to 1 gram per pound of goal weight, since plant proteins are a little less efficient gram for gram.",
+      "Eat a mix across the day so you get the full set of amino acids. You do not need to combine foods at every meal; variety over the day does the job.",
+      "Expect more volume and more fiber, which is great for fullness and a little harder if you are trying to eat a lot on a bulk. Lentil or chickpea pasta, seitan and protein powder keep the numbers from turning into a mountain of beans."
+    ],
+    "more": {
+      "why": "Plant proteins are digested a little less completely, and most are lower in leucine, the amino acid that signals muscle building. Eating a bit more total protein covers that difference.",
+      "example": "Oats made with soy milk plus a scoop of pea protein (about 34 g). Tofu scramble wrap (about 24 g). Lentil pasta with seitan crumbles (about 33 g). Edamame snack (about 18 g). Total: around 110 grams.",
+      "how": "Pick one vegan protein powder you like, keep tofu and tempeh in the fridge every week, and stock canned lentils and chickpeas. That covers most of the work."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Show me a vegan day of eating",
+      "Whey or plant protein powder?",
+      "Do I need complete proteins?"
+    ],
+    "related": [
+      "nr-a-008",
+      "nr-a-010"
+    ]
+  },
+  {
+    "id": "nr-a-012",
+    "topic": "protein",
+    "title": "Complete and incomplete proteins in plain words",
+    "keys": [
+      "do i need complete proteins",
+      "complete protein",
+      "incomplete protein",
+      "complete vs incomplete protein",
+      "what is a complete protein",
+      "food combining protein",
+      "rice and beans complete protein",
+      "essential amino acids",
+      "amino acids",
+      "do i need to combine proteins",
+      "is plant protein complete",
+      "protein quality"
+    ],
+    "match": "\\b(in)?complete proteins?\\b|\\bessential amino acids?\\b|\\b(combine|combining) proteins?\\b|\\bprotein quality\\b",
+    "body": [
+      "A complete protein has all nine essential amino acids, the ones your body cannot make on its own. Meat, fish, eggs, dairy, soy and quinoa are complete. Most beans, grains, nuts and seeds run low in one or two, which makes them incomplete on their own.",
+      "The good news: you do not need to pair them perfectly at every meal. Your body pools amino acids across the day, so eating a variety of plant proteins over 24 hours fills the gaps. Rice and beans at lunch and peanut butter toast at breakfast are already teaming up.",
+      "If you eat any animal products, you can stop thinking about this entirely. If you are vegan, eat soy or seitan daily, mix legumes and grains, and keep total protein toward the top of your range."
+    ],
+    "more": {
+      "why": "Each essential amino acid is a required part. Muscle building slows when one runs short, a bit like a recipe missing one ingredient. Variety across the day keeps every ingredient in stock.",
+      "example": "Lentils are low in methionine and rice is low in lysine. Eat them together, or a few hours apart, and they cover each other.",
+      "mistake": "Avoiding beans or grains because they are incomplete. Incomplete does not mean useless. It means they play best on a team."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "What are good plant proteins?",
+      "Can I hit protein as a vegan?"
+    ],
+    "related": [
+      "nr-a-008",
+      "nr-a-011"
+    ]
+  },
+  {
+    "id": "nr-a-013",
+    "topic": "protein",
+    "title": "Do you need protein powder",
+    "keys": [
+      "do i need protein powder",
+      "is protein powder necessary",
+      "should i use protein powder",
+      "is protein powder bad",
+      "are protein shakes good",
+      "do protein shakes work",
+      "is whey safe",
+      "protein shake benefits",
+      "should i drink protein shakes",
+      "is protein powder healthy",
+      "protein powder worth it",
+      "what is protein powder"
+    ],
+    "match": "\\b(do i|should i|is it ok to) (need|use|take|drink|have) (a )?(protein powder|protein shakes?|whey)\\b|\\bprotein (powder|shakes?) (necessary|bad|good|healthy|worth it|safe)\\b|\\bis (protein powder|whey|a protein shake) (bad|safe|necessary|worth it|healthy)\\b|\\bdo protein shakes work\\b",
+    "body": [
+      "No, you do not need it. Protein powder is food in a convenient form: milk or plant protein, dried and flavored. If you hit your number with meals, you are done. If you keep coming up 20 to 40 grams short, a scoop is the easiest fix there is.",
+      "A typical scoop has 20 to 25 grams of protein for about 100 to 130 calories. That is very efficient, which is why it shows up in so many lifters' days. For healthy adults it is an ordinary food, not a risk.",
+      "Choose one that is third-party tested (look for an NSF Certified for Sport or Informed Choice seal), because supplements are not approved by the FDA before they are sold. And if you have a health condition, are pregnant, or are under a doctor's care, check with your doctor before adding one."
+    ],
+    "more": {
+      "why": "Whey and plant powders are made from the same proteins found in dairy, peas and soy. Your body handles them like the food versions; they are just faster to get down.",
+      "how": "Use it to patch your weakest meal. If breakfast is coffee and a banana, a shake turns it into a 25 gram meal. If it is the snack you always skip, a shake fixes that instead.",
+      "mistake": "Living on shakes and skipping real meals. Powder is great at protein and bad at everything else food gives you, like fiber, vitamins and the feeling of having actually eaten."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Whey or plant protein powder?",
+      "How many shakes a day is ok?",
+      "Protein without shakes?"
+    ],
+    "related": [
+      "nr-a-003"
+    ]
+  },
+  {
+    "id": "nr-a-014",
+    "topic": "protein",
+    "title": "Choosing a protein powder: whey, casein or plant",
+    "keys": [
+      "whey or plant protein powder",
+      "whey vs plant protein",
+      "best protein powder",
+      "which protein powder should i buy",
+      "whey isolate vs concentrate",
+      "whey isolate",
+      "whey concentrate",
+      "plant protein powder",
+      "pea protein",
+      "soy protein powder",
+      "lactose intolerant protein powder",
+      "what protein powder is best",
+      "how to pick a protein powder",
+      "casein vs whey"
+    ],
+    "match": "\\b(whey|casein|isolate|concentrate|pea|soy|plant)( protein)?( powder)? (or|vs|versus) (whey|casein|isolate|concentrate|pea|soy|plant)\\b|\\b(best|which|what|pick|choose|choosing) (a )?(protein )?powder\\b|\\bwhey (isolate|concentrate)\\b|\\b(pea|soy|plant|vegan) protein powder\\b",
+    "body": [
+      "Whey is the default for most people: cheap per gram, mixes easily, tastes decent, and is rich in leucine, the amino acid that signals muscle building. Whey concentrate is the cheaper version. Whey isolate has most of the lactose and fat filtered out, so it is the better pick if dairy bothers your stomach.",
+      "Plant powders (pea, soy, or a pea and rice blend) work well too, especially blends, and are the choice for vegans or anyone avoiding dairy. Casein digests slowly and mixes up thick, which makes it popular before bed or in pudding-style bowls.",
+      "Whatever you choose, read the label: 20 grams or more of protein per scoop for 130 calories or less, a short ingredient list, and a third-party testing seal. Then pick a flavor you actually like, because the best powder is the one you finish."
+    ],
+    "more": {
+      "how": "Check the protein per scoop and the number of servings. Divide the price by total servings to compare. If two powders are close, choose the one with a third-party seal.",
+      "mistake": "Buying a giant tub of a brand-new flavor. Get a small bag or a sample first. A 5 lb tub of something you hate is a very expensive doorstop.",
+      "beginner": "Start with a whey isolate or a pea and rice blend in chocolate or vanilla. Those flavors work in milk, water, oats and smoothies, so nothing goes to waste."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Do I need protein powder?",
+      "How many shakes a day is ok?"
+    ],
+    "related": [
+      "nr-a-013"
+    ]
+  },
+  {
+    "id": "nr-a-015",
+    "topic": "protein",
+    "title": "How many protein shakes a day is fine",
+    "keys": [
+      "how many shakes a day is ok",
+      "how many protein shakes a day",
+      "is two shakes a day too much",
+      "can i drink 3 protein shakes a day",
+      "protein shake as a meal",
+      "meal replacement shake",
+      "replace a meal with a shake",
+      "shake instead of breakfast",
+      "too many protein shakes",
+      "how many scoops a day",
+      "protein shake every day"
+    ],
+    "match": "\\bhow many (protein )?(shakes|scoops)\\b|\\b(two|2|three|3|four|4) (protein )?shakes\\b|\\b(meal replacement|replace a meal)\\b|\\bshakes? (instead of|as a) (a )?(meal|breakfast|lunch|dinner)\\b|\\btoo many (protein )?shakes\\b",
+    "body": [
+      "One or two shakes a day is perfectly fine for most people, and three is not dangerous, just a sign your meals could carry more of the load. Powder is food. The limit is less about safety and more about crowding out the meals that bring fiber, vitamins and actual chewing.",
+      "A shake can stand in for a meal when life is chaotic, but make it a real meal: a scoop of protein, a banana or a cup of berries, a spoon of peanut butter or some oats, and milk. That is 400 to 500 calories and roughly 35 grams of protein, which actually holds you until lunch.",
+      "A plain scoop in water is a snack, not breakfast. Replace a meal with 120 calories of shake and you will meet your hunger again by 10 a.m., and it will have brought friends."
+    ],
+    "more": {
+      "example": "Meal shake: 1 scoop whey (24 g protein), 1 cup milk (8 g), 1 banana, 1 tablespoon peanut butter. About 440 calories and 37 grams of protein.",
+      "mistake": "Drinking three shakes a day and then wondering why your fiber is low and you are always hungry. Liquids do not fill you up the way chewed food does.",
+      "short_on_time": "Keep a ready-to-drink protein shake and a banana in your bag. Together they are about 270 calories and 30 grams of protein, which beats skipping the meal entirely."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I build a protein smoothie?",
+      "Protein without shakes?"
+    ],
+    "related": [
+      "nr-a-013",
+      "nr-a-014"
+    ]
+  },
+  {
+    "id": "nr-a-016",
+    "topic": "protein",
+    "title": "Can you eat too much protein",
+    "keys": [
+      "can i eat too much protein",
+      "too much protein",
+      "is too much protein bad",
+      "protein bad for kidneys",
+      "protein and kidneys",
+      "is high protein safe",
+      "is 1 gram per pound too much",
+      "is 200 grams of protein too much",
+      "high protein diet dangers",
+      "side effects of too much protein",
+      "is a high protein diet safe",
+      "can protein hurt you"
+    ],
+    "match": "\\btoo much protein\\b(?! (in|at) (one|a single))|\\bprotein\\b.*\\bkidneys?\\b|\\bkidneys?\\b.*\\bprotein\\b|\\b(high|lots of) protein\\b.*\\b(safe|dangerous|bad|side effects|dangers)\\b",
+    "body": [
+      "For healthy adults, high-protein eating is well studied and safe. Intakes at and somewhat above 1 gram per pound have not shown harm to healthy kidneys in research. The real downside of going way over is simpler: it crowds out the carbs that fuel your training and the fats you need, and it gets expensive.",
+      "Past about 1 gram per pound of goal weight, extra protein brings little extra muscle. There is no prize for 300 grams; you are just paying more for chicken.",
+      "One important exception: if you have kidney disease or have been told your kidneys are not working fully, talk to your doctor before raising protein. The same goes if you are pregnant or have another health condition your doctor is watching."
+    ],
+    "more": {
+      "why": "Healthy kidneys handle the byproducts of protein easily and adjust to higher intakes. The concern about protein and kidneys comes from people who already have kidney disease, which is a different situation.",
+      "mistake": "Cutting carbs to the bone to make room for even more protein. Your training runs on carbs, and trading them for a fourth chicken breast usually costs you performance.",
+      "example": "A 180 lb lifter eating 180 grams is at the top of the useful range. Eating 260 grams is not dangerous for a healthy person; it just leaves less room for rice, fruit and oats."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "How many carbs should a lifter eat?"
+    ],
+    "related": [
+      "nr-a-001"
+    ]
+  },
+  {
+    "id": "nr-a-017",
+    "topic": "protein",
+    "title": "Why protein keeps you full when you are cutting",
+    "keys": [
+      "why does protein keep me full",
+      "protein and hunger",
+      "protein for fat loss",
+      "does protein help weight loss",
+      "protein keeps you full",
+      "high protein for cutting",
+      "protein satiety",
+      "high protein to lose fat",
+      "does protein burn fat",
+      "protein and metabolism",
+      "is protein good for losing weight"
+    ],
+    "match": "\\bprotein\\b.*\\b(keeps? (me|you) full|fullness|hunger|satiety|satiating|fat loss|weight loss|losing weight|lose (fat|weight)|burn fat|metabolism)\\b",
+    "body": [
+      "Protein is the most filling of the three macros, calorie for calorie, and it costs your body the most energy to digest. Roughly 20 to 30 percent of protein's calories are used up just processing it, compared with a few percent for fat. That is why a 400 calorie meal with 40 grams of protein feels very different from a 400 calorie pastry.",
+      "On a cut, high protein does three jobs at once: it protects the muscle you are working to keep, it makes your meals more satisfying, and it slightly raises what you burn digesting food. Keep it toward the top of your range, near 1 gram per pound of goal weight.",
+      "It does not burn fat by itself. The deficit still does that. Protein just makes the deficit a lot easier to live with."
+    ],
+    "more": {
+      "why": "Protein triggers fullness signals in the gut and takes longer to digest. People who raise protein often eat less overall without trying, which is why it is the first lever on a cut.",
+      "how": "Start each meal with the protein portion. Eat it first, slowly, then the rest. It sounds too simple, but it works.",
+      "example": "Swap a 400 calorie bagel with cream cheese (about 12 g protein) for 2 eggs, 1/2 cup egg whites, a slice of toast and some fruit (about 29 g protein, roughly 345 calories). Same morning, very different 11 a.m."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "How fast should I cut?",
+      "How do I keep muscle on a cut?"
+    ],
+    "related": [
+      "nr-a-001"
+    ]
+  },
+  {
+    "id": "nr-a-018",
+    "topic": "protein",
+    "title": "Will eating more protein make you bulky",
+    "keys": [
+      "will protein make me bulky",
+      "will protein make me fat",
+      "does protein make you gain weight",
+      "protein make women bulky",
+      "is protein only for bodybuilders",
+      "i dont want to get bulky",
+      "protein for women",
+      "do women need as much protein",
+      "will i get big from protein",
+      "does protein turn into fat",
+      "protein for toning"
+    ],
+    "match": "\\bprotein\\b.*\\b(bulky|make me (fat|big|gain)|turns? (in)?to fat|only for bodybuilders|for (women|ladies|toning))\\b|\\b(bulky|toning)\\b.*\\bprotein\\b|\\bwomen need as much protein\\b",
+    "body": [
+      "No. Protein does not make anyone bulky. Muscle is built slowly by hard training plus enough total food over months and years, and most people who worry about bulking up would be thrilled to gain muscle that fast. Protein simply helps you keep and build what your training asks for.",
+      "The same range works for everyone, women included: 0.7 to 1 gram per pound of goal body weight. What people call toned is muscle plus a little less fat, and protein is how you get the muscle part.",
+      "Can protein make you gain weight? Only through calories, like any food. A gram of protein has 4 calories. Eat more total calories than you burn and you gain; protein happens to be the hardest macro to overeat."
+    ],
+    "more": {
+      "why": "Building noticeable size takes a training stimulus and usually a calorie surplus, over a long time. Protein supplies the raw material, but without the training and extra food, the body has no reason to build size.",
+      "beginner": "If you are new to lifting, raise protein slowly over a couple of weeks and focus on training consistently. The look most people want comes from that combination, not from avoiding protein.",
+      "mistake": "Eating very little protein to avoid looking big, then losing muscle during a diet. That leaves you smaller but softer, which is the opposite of what most people want."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "Can I lose fat and build muscle?"
+    ],
+    "related": [
+      "nr-a-001",
+      "nr-a-017"
+    ]
+  },
+  {
+    "id": "nr-a-019",
+    "topic": "protein",
+    "title": "Whole eggs or egg whites, and how many eggs is fine",
+    "keys": [
+      "whole eggs or egg whites",
+      "are egg yolks bad",
+      "egg whites vs whole eggs",
+      "how many eggs a day",
+      "is it ok to eat eggs every day",
+      "eggs and cholesterol",
+      "egg yolk protein",
+      "too many eggs",
+      "are eggs healthy",
+      "liquid egg whites",
+      "egg white protein",
+      "how many eggs can i eat"
+    ],
+    "match": "\\begg (whites?|yolks?)\\b(?!.*\\bcook)|\\beggs?\\b.*\\b(a day|every day|per day|cholesterol|healthy|too many)\\b|\\bhow many eggs\\b",
+    "body": [
+      "Both are great. A large whole egg has about 6 grams of protein and 70 calories, with roughly half the protein and all the fat in the yolk. Liquid egg whites run about 26 grams of protein per cup for around 125 calories, so they are a cheap way to add protein when calories are tight.",
+      "The combo is the move: 2 whole eggs plus half a cup of egg whites is about 25 grams of protein for roughly 200 calories, and it still tastes like real eggs. Yolks bring vitamins, choline and flavor, so there is no need to toss them.",
+      "For most healthy people an egg or two a day fits fine, and current US dietary guidelines do not set a strict daily number for dietary cholesterol. If your doctor has told you to watch cholesterol or you have heart concerns, follow their advice on yolks."
+    ],
+    "more": {
+      "how": "Scramble 2 eggs, pour in half a cup of egg whites once they start to set, and stir in salsa or spinach. Five minutes, about 25 grams of protein.",
+      "example": "On a cut: 1 egg plus 3/4 cup egg whites, about 25 grams of protein for 165 calories. On a bulk: 4 whole eggs, about 24 grams of protein for 280 calories, plus toast.",
+      "mistake": "Eating only egg whites to save calories, then adding cheese and butter to make them taste like something. You saved nothing and lost the yolk's nutrients."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein breakfast ideas?",
+      "How do I cook eggs for the week?"
+    ],
+    "related": [
+      "nr-a-007"
+    ]
+  },
+  {
+    "id": "nr-a-020",
+    "topic": "protein",
+    "title": "Are protein bars worth it",
+    "keys": [
+      "are protein bars worth it",
+      "protein bars",
+      "best protein bar",
+      "are protein bars healthy",
+      "protein bar every day",
+      "protein bars good for weight loss",
+      "protein bar as a snack",
+      "protein bar vs shake",
+      "protein cookies",
+      "are protein bars junk",
+      "protein bar calories",
+      "which protein bar should i get"
+    ],
+    "match": "\\bprotein (bars?|cookies?|chips)\\b",
+    "body": [
+      "They can be, as long as you read them like a candy bar that happens to have protein. Some are excellent: around 200 calories with 20 grams of protein. Others are 300 calories with 10 grams and a lot of marketing. The label tells you which one you are holding.",
+      "A quick filter: at least 15 grams of protein, ideally 1 gram of protein for every 10 to 12 calories. So a 200 calorie bar should have 17 to 20 grams. Some bars use sugar alcohols for sweetness, which upset some stomachs, so try one before buying a box.",
+      "Bars are a great backup in a gym bag, car or desk drawer. As your main daily protein, they are pricey and less filling than food. Eat them because they are handy and you enjoy them, not because they are magic."
+    ],
+    "more": {
+      "how": "Flip the bar over. Check calories, protein and serving size (some packs are two servings). Divide calories by protein: 10 or less is excellent, 10 to 15 is fine, above 15 is mostly a snack bar.",
+      "example": "Bar A: 190 calories, 20 g protein (about 9.5 calories per gram). Bar B: 280 calories, 12 g protein (about 23 calories per gram). Bar A is a protein bar. Bar B is a granola bar in a gym outfit.",
+      "mistake": "Eating a protein bar as a bonus on top of a full day and not logging it. It still counts. Log it like any other food."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "High protein snack ideas?",
+      "How do I read a nutrition label?"
+    ],
+    "related": [
+      "nr-a-003"
+    ]
+  },
+  {
+    "id": "nr-a-021",
+    "topic": "protein",
+    "title": "Can your body only use 30 grams of protein at once",
+    "keys": [
+      "can my body only use 30 g at once",
+      "can my body only absorb 30 grams of protein",
+      "how much protein can you absorb at once",
+      "protein absorption limit",
+      "is 50 grams of protein in one meal wasted",
+      "max protein per meal",
+      "too much protein in one sitting",
+      "does extra protein go to waste",
+      "protein absorption",
+      "can you absorb more than 30g protein",
+      "how much protein can your body use"
+    ],
+    "match": "\bprotein absorption\b|\btoo much protein (in|at) (one|a single) (meal|sitting)\b|\\b(absorb|use|utilize|digest)\\b.{0,40}\\b(at once|in one (meal|sitting)|per (meal|sitting))\\b|\\bprotein\\b.{0,40}\\b(wasted|go to waste)\\b|\\bmax(imum)? protein per meal\\b",
+    "body": [
+      "No, that one is a myth, and a stubborn one. Your gut absorbs basically all the protein you eat; it just takes longer with a bigger meal. A 60 gram dinner is not 30 grams of muscle food and 30 grams of waste.",
+      "What is true: in older studies, muscle building from a single meal seemed to top out around 0.4 grams per kg of body weight for most people. But a 2023 study gave lifters 100 grams in one sitting and found the response simply lasted longer. Bigger meals are slower, not wasted.",
+      "So spreading protein across three to five meals is still a smart default, mostly because it makes your daily number easier to hit. If your schedule means one big protein dinner, it still counts."
+    ],
+    "more": {
+      "why": "Protein that is not used to build muscle right away still does useful work: repairing other tissues, making enzymes, or being burned for energy. It does not vanish.",
+      "example": "People who eat in a short window often have two meals with 60 to 80 grams each. Research suggests they still build muscle well when their daily total and training are on point.",
+      "mistake": "Forcing down a shake every two hours to stay under 30 grams per meal. That is a lot of effort for a rule that does not exist."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much protein per meal?",
+      "Does intermittent fasting work?"
+    ],
+    "related": [
+      "nr-a-004"
+    ]
+  },
+  {
+    "id": "nr-a-022",
+    "topic": "protein",
+    "title": "Protein on rest days",
+    "keys": [
+      "do i need protein on rest days",
+      "protein on rest days",
+      "protein on off days",
+      "should i eat less protein on rest days",
+      "rest day protein",
+      "do i need protein if i didnt work out",
+      "protein when not training",
+      "protein on days off",
+      "same protein every day",
+      "skip protein on rest day"
+    ],
+    "match": "\\bprotein\\b.*\\b(rest|off|non[- ]?training) days?\\b|\\b(rest|off) days?\\b.*\\bprotein\\b|\\bprotein\\b.*\\b(didnt|did not|not) (work(ed)? out|train(ing)?|lift(ing)?)\\b|\\bprotein on days off\\b",
+    "body": [
+      "Yes, keep it the same. Rest days are when a lot of the rebuilding actually happens, and muscle repair keeps running for 24 to 48 hours or more after a hard session. Protein on Tuesday is helping fix what you broke on Monday.",
+      "Keep your protein target steady every day of the week. If you want to adjust calories on rest days, take the change out of carbs, not protein.",
+      "It also makes life simpler. One protein number, every day, no calendar math."
+    ],
+    "more": {
+      "why": "Muscle protein building stays elevated for a day or two after training. Cutting protein on rest days removes the raw material right when repair is busiest.",
+      "example": "Training days: 150 g protein, 250 g carbs. Rest days: 150 g protein, 200 g carbs. Same protein, a little less fuel.",
+      "beginner": "Do not bother changing anything on rest days at first. Same food, same protein, every day. Fine-tuning can come later if you want it."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Should I eat less on rest days?",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-a-001",
+      "nr-a-005"
+    ]
+  },
+  {
+    "id": "nr-a-023",
+    "topic": "protein",
+    "title": "Hitting protein without shakes or powder",
+    "keys": [
+      "protein without shakes",
+      "protein without powder",
+      "i hate protein shakes",
+      "no protein powder",
+      "whole food protein",
+      "can i hit protein without shakes",
+      "dont like protein shakes",
+      "protein shakes make me sick",
+      "real food protein",
+      "protein without supplements",
+      "protein with just food"
+    ],
+    "match": "\\bprotein\\b.*\\bwithout (shakes?|powders?|supplements?)\\b|\\b(hate|dont like|do not like|cant stand) (protein )?(shakes|powder)\\b|\\b(whole|real) food protein\\b|\\bno (protein )?powder\\b|\\bprotein shakes make me sick\\b",
+    "body": [
+      "Completely doable. Shakes are a shortcut, not a requirement. The trick is a real protein anchor at every meal and a couple of no-cook options in the fridge so snacks pull their weight too.",
+      "Your no-powder workhorses: Greek yogurt (about 23 grams a cup), cottage cheese (24 to 28 grams a cup), liquid egg whites (about 26 grams a cup), canned tuna (about 25 grams per 5 oz can), deli turkey (about 10 grams per 2 oz), jerky (about 9 to 10 grams per ounce), string cheese (about 7 grams) and leftover cooked chicken.",
+      "A food-only day can look like this: eggs and egg whites at breakfast, a big chicken salad at lunch, cottage cheese with fruit as a snack, and salmon or lean beef at dinner. That lands around 120 to 150 grams with zero scoops."
+    ],
+    "more": {
+      "how": "Cook a big batch of one protein each week, like 2 to 3 lb of chicken or lean ground turkey. Having it ready turns every meal into a quick plate instead of a project.",
+      "mistake": "Replacing shakes with protein snacks that are mostly fat, like cheese cubes and nuts. They taste great but bring a lot of calories for the protein you get.",
+      "example": "Breakfast: 2 eggs plus 1/2 cup whites (25 g). Lunch: salad with 5 oz chicken (about 44 g). Snack: 1 cup cottage cheese (about 25 g). Dinner: 5 oz salmon (about 31 g). Total: about 125 grams."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein snack ideas?",
+      "How do I batch cook protein?",
+      "Is deli meat a good protein?"
+    ],
+    "related": [
+      "nr-a-003",
+      "nr-a-007"
+    ]
+  },
+  {
+    "id": "nr-a-024",
+    "topic": "protein",
+    "title": "The leanest proteins, ranked by calories",
+    "keys": [
+      "which proteins are lowest calorie",
+      "low calorie protein",
+      "lean protein sources",
+      "lean protein",
+      "protein per calorie",
+      "high protein low calorie foods",
+      "most protein for the least calories",
+      "low fat protein",
+      "lean protein for cutting",
+      "best protein for weight loss",
+      "low calorie high protein",
+      "protein dense foods"
+    ],
+    "match": "\\b(low[- ]?cal(orie)?|low[- ]?fat|lean(est)?) proteins?\\b|\\bbest proteins? for (weight|fat) loss\\b|\\bproteins? (are|is) (the )?(lowest|leanest)\\b|\\bprotein per calorie\\b|\\bhigh protein low cal(orie)?\\b|\\bmost protein for\\b",
+    "body": [
+      "When calories are tight, these give you the most protein per bite (roughly 10 grams or more per 100 calories): chicken breast, turkey breast, shrimp, white fish like cod or tilapia, canned tuna in water, egg whites, nonfat Greek yogurt, 1% or 2% cottage cheese, 93% or leaner ground turkey or beef, and whey protein.",
+      "For scale: 4 oz of cooked chicken breast is about 185 calories with 35 grams of protein. Four ounces of cooked cod is about 120 calories with 26 grams. A cup of egg whites is about 125 calories with 26 grams. Compare that with 2 tablespoons of peanut butter at 190 calories and 7 grams.",
+      "Fattier proteins like salmon, whole eggs, thighs and 80% beef are still great foods. They just cost more calories, so on a cut, mix them in rather than building every meal on them."
+    ],
+    "more": {
+      "how": "Divide protein grams by calories and multiply by 100. Ten or higher is very lean, 7 to 9 is solid, and under 5 is mostly a fat or carb food with some protein along for the ride.",
+      "example": "Nonfat Greek yogurt, 1 cup: 23 g protein, about 130 calories. That is roughly 18 grams per 100 calories, one of the best ratios in the whole store.",
+      "mistake": "Cutting out every fattier protein to save calories. Salmon brings healthy fats and a lot of flavor; one or two servings a week fit easily on a cut."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "What are the best protein foods?",
+      "How fast should I cut?"
+    ],
+    "related": [
+      "nr-a-007",
+      "nr-a-017"
+    ]
+  },
+  {
+    "id": "nr-a-025",
+    "topic": "protein",
+    "title": "Deli meat, jerky and other grab-and-go proteins",
+    "keys": [
+      "is deli meat a good protein",
+      "deli meat protein",
+      "lunch meat",
+      "is deli turkey healthy",
+      "beef jerky protein",
+      "is jerky healthy",
+      "rotisserie chicken",
+      "rotisserie chicken protein",
+      "processed meat",
+      "precooked chicken",
+      "convenience protein",
+      "grab and go protein",
+      "are hot dogs a good protein"
+    ],
+    "match": "\\b(deli|lunch) meats?\\b|\\bdeli turkey\\b|\\b(beef |turkey )?jerky\\b|\\brotisserie chicken\\b|\\bprocessed meats?\\b|\\bprecooked chicken\\b|\\bgrab and go protein\\b",
+    "body": [
+      "They are useful tools with two catches: sodium, and with processed meats, how often you eat them. Deli turkey or chicken runs about 9 to 11 grams of protein per 2 oz for around 60 calories. Jerky is about 9 to 10 grams per ounce. A store rotisserie chicken gives you about 30 grams of protein per 4 oz of meat, ready the moment you walk in the door.",
+      "Health groups recommend keeping processed meats like bacon, salami, hot dogs and cured deli meats as an occasional thing rather than an everyday staple. A smart compromise: rotisserie or home-cooked chicken sliced for sandwiches most days, deli meat some days.",
+      "Look for lower-sodium versions when you can, and pair salty proteins with fruit, vegetables and water. Fast protein you actually eat beats perfect protein that stays in the store."
+    ],
+    "more": {
+      "how": "Pull a rotisserie chicken apart the day you buy it. Skin off, meat in a container. It makes three or four meals and keeps 3 to 4 days in the fridge.",
+      "example": "Lunch in two minutes: a small tortilla with 3 oz deli turkey, a slice of cheese, spinach and mustard, plus an apple. About 360 calories and roughly 22 grams of protein.",
+      "mistake": "Treating jerky as a low-calorie snack without checking the label. Some are sugary, and the bag is several servings. Weigh out an ounce or two."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein lunch ideas?",
+      "What is the cheapest protein?"
+    ],
+    "related": [
+      "nr-a-023"
+    ]
+  }
+]

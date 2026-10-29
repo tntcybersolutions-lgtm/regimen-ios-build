@@ -1,0 +1,702 @@
+[
+  {
+    "id": "nr-a-026",
+    "topic": "calories",
+    "title": "How many calories you should eat",
+    "keys": [
+      "how many calories should i eat",
+      "how many calories",
+      "calorie target",
+      "my calories",
+      "daily calories",
+      "what should my calories be",
+      "calories for my goal",
+      "how much should i eat a day",
+      "calorie goal",
+      "cals per day"
+    ],
+    "body": [
+      "Start from your maintenance, the amount that keeps your weight flat, then adjust for your goal. A rough starting point for most active adults is body weight in pounds times 14 to 16. To lose fat, eat about 300 to 500 below that. To build muscle, eat about 200 to 300 above it.",
+      "That first number is a guess, and that is fine. Eat it consistently for two to three weeks, watch your weight trend, then nudge it by 100 to 200 calories. Your own trend beats every formula."
+    ],
+    "more": {
+      "why": "Formulas cannot see your steps, your job, your sleep or your genetics. Your weight trend can, so it is the real referee.",
+      "example": "At 180 lb, maintenance is roughly 2,500 to 2,900. For fat loss, start near 2,200 and check the trend after three weeks."
+    },
+    "reads": [
+      "range",
+      "weight"
+    ],
+    "chips": [
+      "What is maintenance?",
+      "How fast should I lose weight?"
+    ]
+  },
+  {
+    "id": "nr-a-027",
+    "topic": "calories",
+    "title": "What maintenance calories are",
+    "keys": [
+      "what is maintenance",
+      "maintenance calories",
+      "find my maintenance",
+      "how do i find maintenance",
+      "tdee",
+      "what is tdee",
+      "total daily energy",
+      "calories to maintain",
+      "maintain my weight"
+    ],
+    "body": [
+      "Maintenance is the number of calories that keeps your weight steady over time. It is everything you burn: your body running at rest, digesting food, your workouts, and all the walking and moving you do in a day. That last part changes the most from person to person.",
+      "The best way to find yours: log what you eat honestly for two to three weeks while weighing most mornings. If your average weight stayed flat, your average calories are your maintenance. Real data, no guessing."
+    ],
+    "more": {
+      "how": "Log every day, weigh most mornings, and compare the first week's average weight to the third week's. Flat means you found it.",
+      "beginner": "If logging feels like a lot, use body weight in pounds times 15 as a starting point and adjust from the trend."
+    },
+    "reads": [
+      "calories",
+      "weight"
+    ],
+    "chips": [
+      "How many calories should I eat?",
+      "How often should I weigh?"
+    ]
+  },
+  {
+    "id": "nr-a-028",
+    "topic": "calories",
+    "title": "How big a calorie deficit should be",
+    "keys": [
+      "how big a deficit",
+      "calorie deficit",
+      "how much of a deficit",
+      "deficit size",
+      "how many calories to cut",
+      "500 calorie deficit",
+      "aggressive deficit",
+      "how low should i go"
+    ],
+    "body": [
+      "Aim to lose about 0.5 to 1 percent of your body weight a week. For most people that is a deficit of 300 to 500 calories a day. Bigger deficits feel faster but cost you muscle, energy, sleep and mood, and they are much harder to stick to.",
+      "If you are lifting, err toward the smaller end. You will keep more muscle and your training will not fall apart. Never drop below about 1,200 calories for women or 1,500 for men without a doctor guiding you."
+    ],
+    "more": {
+      "why": "Losing faster than about 1 percent a week tends to pull from muscle, not just fat, and hunger climbs until the plan breaks.",
+      "example": "At 200 lb, 0.5 to 1 percent is 1 to 2 lb a week. Start with a 400 calorie deficit and see what the trend says."
+    },
+    "reads": [
+      "weight",
+      "range"
+    ],
+    "chips": [
+      "How fast should I lose weight?",
+      "Protecting muscle while cutting"
+    ]
+  },
+  {
+    "id": "nr-a-029",
+    "topic": "calories",
+    "title": "How fast you should lose weight",
+    "keys": [
+      "how fast should i lose weight",
+      "how much weight should i lose a week",
+      "rate of weight loss",
+      "losing too fast",
+      "losing too slow",
+      "pounds per week",
+      "safe weight loss",
+      "how quickly"
+    ],
+    "body": [
+      "About 0.5 to 1 percent of your body weight per week is the sweet spot. Faster than that and you start losing muscle, feeling drained and hungry, and the rebound gets more likely. Slower is completely fine, especially if you are close to your goal or new to lifting.",
+      "The first week often drops more because you are holding less water and food. Ignore that first whoosh and judge your pace from week two onward, using weekly averages, not single mornings."
+    ],
+    "more": {
+      "why": "Your body can only burn so much fat per day. Past that point the extra comes from muscle and water, which is not what you want.",
+      "example": "At 160 lb, a good pace is about 0.8 to 1.6 lb a week."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Why does my weight jump?",
+      "How big should my deficit be?"
+    ]
+  },
+  {
+    "id": "nr-a-030",
+    "topic": "calories",
+    "title": "Calories in and calories out, in plain words",
+    "keys": [
+      "calories in calories out",
+      "cico",
+      "does cico work",
+      "energy balance",
+      "is it just calories",
+      "do calories matter",
+      "calories vs food quality",
+      "a calorie is a calorie",
+      "calories in and calories out"
+    ],
+    "body": [
+      "Your weight over time follows energy balance: eat more than you burn and you gain, eat less and you lose. That part is real physics. What it does not tell you is how hungry you will be, how much muscle you keep, or how you will feel.",
+      "That is where food quality comes in. Protein and fiber keep you full, plants keep you healthy, and enough carbs keep your training strong. So calories decide the direction, and the food you choose decides whether you can stay on the road."
+    ],
+    "more": {
+      "why": "Two diets with the same calories can feel completely different. One leaves you starving at 3 pm, the other keeps you full until dinner.",
+      "mistake": "Thinking it is only calories and eating nothing but snack foods. You can lose weight that way, but you will be hungry and weak doing it."
+    },
+    "chips": [
+      "How many calories should I eat?",
+      "Foods that keep you full"
+    ]
+  },
+  {
+    "id": "nr-a-031",
+    "topic": "macros",
+    "title": "What macros are and how to set them",
+    "keys": [
+      "what are macros",
+      "how to set macros",
+      "macros",
+      "my macros",
+      "macro split",
+      "protein carbs fat",
+      "macro ratio",
+      "how should i split my macros",
+      "iifym"
+    ],
+    "body": [
+      "Macros are the three things that carry calories: protein, carbs and fat. Set them in that order. Protein first, about 0.7 to 1 gram per pound of your goal weight. Fat next, at least 0.3 grams per pound so your hormones and joints stay happy. Carbs fill the rest of your calories.",
+      "That is it. No magic ratio. People who train hard usually feel better with more carbs, and people who prefer fattier foods can shift a little that way. Hit protein and calories, and the rest is preference."
+    ],
+    "more": {
+      "example": "At a 170 lb goal and 2,200 calories: about 150 g protein (600 cal), 60 g fat (540 cal), and the remaining 1,060 cal as carbs, about 265 g.",
+      "beginner": "Just track protein and calories at first. Add the other two once that feels easy."
+    },
+    "reads": [
+      "protein",
+      "range"
+    ],
+    "chips": [
+      "How many carbs should I eat?",
+      "How much fat do I need?"
+    ]
+  },
+  {
+    "id": "nr-a-032",
+    "topic": "macros",
+    "title": "How many carbs you should eat",
+    "keys": [
+      "how many carbs",
+      "carbs for lifting",
+      "are carbs bad",
+      "low carb",
+      "carbs at night",
+      "should i cut carbs",
+      "carb intake",
+      "carbs for fat loss",
+      "keto for lifting"
+    ],
+    "body": [
+      "Carbs are not the enemy. They are your best training fuel, especially for hard sets and intervals. Once your protein and fat minimum are set, carbs fill the rest of your calories. For most people who lift, that ends up around 1 to 2 grams per pound of body weight.",
+      "Low carb can work for fat loss because it often cuts calories, but most lifters feel flatter and train weaker on it. If you like carbs, keep them, and put a good chunk of them around your training."
+    ],
+    "more": {
+      "why": "Your muscles store carbs as glycogen, which is what powers hard, fast work. Run it low and your sets feel heavy sooner.",
+      "mistake": "Cutting carbs to near zero and wondering why leg day feels like wading through mud."
+    },
+    "chips": [
+      "What to eat before a workout",
+      "Carbs at night"
+    ]
+  },
+  {
+    "id": "nr-a-033",
+    "topic": "macros",
+    "title": "How much fat you need",
+    "keys": [
+      "how much fat",
+      "fat intake",
+      "is fat bad",
+      "healthy fats",
+      "low fat diet",
+      "minimum fat",
+      "fat grams",
+      "eating fat makes you fat"
+    ],
+    "body": [
+      "Keep fat at least around 0.3 grams per pound of body weight, and for most people somewhere between 20 and 35 percent of calories. Fat helps your body make hormones, absorb certain vitamins and keeps meals satisfying.",
+      "Fat is also calorie dense, 9 calories a gram compared with 4 for protein and carbs, so it adds up fast. Oils, butter, nuts and dressings are the sneaky ones. Measure those for a week and you will be surprised."
+    ],
+    "more": {
+      "example": "At 160 lb, a minimum is about 48 g of fat a day. One tablespoon of olive oil alone is about 14 g.",
+      "mistake": "Going very low fat for months. People often feel worse, sleep worse and crave more."
+    },
+    "chips": [
+      "Hidden calories in cooking oil",
+      "How to set my macros"
+    ]
+  },
+  {
+    "id": "nr-a-034",
+    "topic": "labels",
+    "title": "How to read a nutrition label",
+    "keys": [
+      "how to read a nutrition label",
+      "nutrition label",
+      "food label",
+      "reading labels",
+      "serving size",
+      "nutrition facts",
+      "what to look at on a label",
+      "understanding food labels",
+      "label calories",
+      "per serving"
+    ],
+    "body": [
+      "Start with the serving size, because every number below it depends on that line. Then check calories, protein, and fiber. Those three tell you most of what you need. Sugar and sodium are worth a glance, but they are rarely the deciding factor.",
+      "The trap is the serving size. A bag that looks like one snack might be three servings. Multiply before you log it, or weigh it, and your numbers will actually mean something."
+    ],
+    "more": {
+      "how": "Look at serving size, then calories per serving, then protein and fiber. Compare protein to calories: 10 g of protein per 100 calories is a great ratio.",
+      "mistake": "Logging the label for one serving when you ate the whole container."
+    },
+    "chips": [
+      "Should I weigh my food?",
+      "Foods that keep you full"
+    ]
+  },
+  {
+    "id": "nr-a-035",
+    "topic": "tracking",
+    "title": "Do you have to count calories",
+    "keys": [
+      "do i have to count calories",
+      "do i need to track",
+      "counting calories",
+      "tracking food",
+      "i hate tracking",
+      "without counting",
+      "is tracking necessary",
+      "intuitive eating"
+    ],
+    "body": [
+      "No, but it helps a lot at the start. Tracking for a few weeks teaches you what portions look like and where your calories really come from. Most people are shocked by the oil, the drinks and the weekend.",
+      "After that, you can coast on habits: protein at every meal, half the plate vegetables, a fist of carbs, a thumb of fat. Track again whenever progress stalls. Think of it as a tool you pick up when you need it, not a life sentence."
+    ],
+    "more": {
+      "beginner": "Track just protein for the first two weeks. It is the habit that pays off most.",
+      "how": "Log as you eat, not at night from memory. Memory always rounds down."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How to eyeball portions",
+      "Should I weigh my food?"
+    ]
+  },
+  {
+    "id": "nr-a-036",
+    "topic": "tracking",
+    "title": "Eyeballing portions with your hand",
+    "keys": [
+      "how to eyeball portions",
+      "hand portions",
+      "portion size",
+      "without a scale",
+      "estimate portions",
+      "how big is a serving",
+      "palm portion",
+      "portion control"
+    ],
+    "body": [
+      "Your hand is a portion tool you always have. A palm of meat or fish is about 20 to 30 grams of protein. A cupped hand of rice, pasta or potatoes is about 25 to 30 grams of carbs. A thumb of oil, butter or peanut butter is about a tablespoon of fat. A fist of vegetables is one serving.",
+      "For most meals: one to two palms of protein, one to two fists of vegetables, one to two cupped hands of carbs and one to two thumbs of fat. Bigger bodies and bigger goals get the larger end."
+    ],
+    "more": {
+      "mistake": "Eyeballing oil. A drizzle is often three tablespoons. Measure fats even if you eyeball everything else.",
+      "example": "A typical lunch: two palms of chicken, two fists of salad, one cupped hand of rice, one thumb of dressing."
+    },
+    "chips": [
+      "How do I build a plate?",
+      "Hidden calories in cooking oil"
+    ]
+  },
+  {
+    "id": "nr-a-037",
+    "topic": "tracking",
+    "title": "Should you weigh your food",
+    "keys": [
+      "should i weigh my food",
+      "food scale",
+      "weighing food",
+      "kitchen scale",
+      "do i need a food scale",
+      "weigh raw or cooked",
+      "measuring food",
+      "grams or cups",
+      "weigh meat raw",
+      "measuring cups"
+    ],
+    "body": [
+      "A food scale is the fastest way to get honest numbers, and it only takes a couple of weeks to train your eye. Weigh the dense stuff that is easy to underestimate: oils, nut butters, rice, pasta, cereal and meat.",
+      "Weigh raw when you can, because cooking changes the weight. If you weigh cooked food, log it with a cooked entry so the numbers match. After a few weeks you will rarely need the scale except for oils and snacks."
+    ],
+    "more": {
+      "why": "A heaping spoon of peanut butter can be double the label serving. The scale catches what eyes miss.",
+      "how": "Put the bowl on the scale, press zero, add the food, read the grams. That is the whole thing."
+    },
+    "chips": [
+      "How to read a nutrition label",
+      "How to eyeball portions"
+    ]
+  },
+  {
+    "id": "nr-a-038",
+    "topic": "tracking",
+    "title": "Hidden calories in oils, sauces and drinks",
+    "keys": [
+      "hidden calories",
+      "cooking oil calories",
+      "sauces calories",
+      "liquid calories",
+      "why am i not losing weight",
+      "coffee drink calories",
+      "dressing calories",
+      "where calories hide"
+    ],
+    "body": [
+      "The usual hiding spots: cooking oil, butter, salad dressing, sauces, coffee drinks, juice, soda, alcohol and the bites you take while cooking. One tablespoon of oil is about 120 calories. A large flavored coffee can be 300 to 500.",
+      "You do not have to give these up. Measure oil with a spoon, use sauces you love but measure them, and pick the drinks that are worth it to you. That alone fixes most stalls."
+    ],
+    "more": {
+      "example": "Cooking with three tablespoons of oil instead of one adds about 240 calories. Do that daily and it is a pound every two weeks.",
+      "how": "Use a spray or a measured teaspoon, swap creamy dressings for vinaigrettes, and log every drink."
+    },
+    "chips": [
+      "Why is my weight not moving?",
+      "Alcohol and fat loss"
+    ]
+  },
+  {
+    "id": "nr-a-039",
+    "topic": "plate",
+    "title": "How to build a plate",
+    "keys": [
+      "how do i build a plate",
+      "build a plate",
+      "healthy plate",
+      "what should my plate look like",
+      "plate method",
+      "balanced meal",
+      "what to put on my plate",
+      "plate for weight loss",
+      "what goes on a plate",
+      "dinner plate ratio"
+    ],
+    "body": [
+      "Start with protein, about a quarter to a third of the plate. Add vegetables or fruit to fill about half. Add a carb you like for the rest: rice, potatoes, pasta, bread or beans. Finish with a little fat for flavor, like oil, avocado or cheese.",
+      "That template works for breakfast, lunch and dinner. On training days, make the carb portion a bit bigger. On lazy days, keep the protein and vegetables and shrink the carb. Easy to repeat, which is the whole point."
+    ],
+    "more": {
+      "example": "Salmon, a big pile of roasted broccoli, a fist of rice and a squeeze of lemon. Done.",
+      "beginner": "Pick the protein first every time. The rest of the plate is easy once that is decided."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Easy high protein breakfasts",
+      "Ten minute dinners"
+    ]
+  },
+  {
+    "id": "nr-a-040",
+    "topic": "plate",
+    "title": "Foods that keep you full",
+    "keys": [
+      "foods that keep you full",
+      "always hungry",
+      "how to feel full",
+      "filling foods",
+      "hungry on a diet",
+      "most filling foods",
+      "volume eating",
+      "stop being hungry"
+    ],
+    "body": [
+      "Protein, fiber and water are the big three for fullness. Lean meats, eggs, Greek yogurt, cottage cheese, beans, potatoes, oatmeal, berries, apples and big salads or vegetable soups keep you full for far fewer calories than chips or pastries.",
+      "A simple rule: start each meal with the protein and the vegetables, then eat the rest. Drink a glass of water first too. Your hunger will be a lot quieter by the time you reach the carbs."
+    ],
+    "more": {
+      "why": "Protein triggers the strongest fullness signals, fiber slows digestion, and water and bulk stretch the stomach for very few calories.",
+      "example": "A big bowl of vegetable soup with chicken is about 350 calories and feels like a feast."
+    },
+    "chips": [
+      "How much protein do I need?",
+      "Late night snacking"
+    ]
+  },
+  {
+    "id": "nr-a-041",
+    "topic": "meals",
+    "title": "Easy high protein breakfasts",
+    "keys": [
+      "high protein breakfast",
+      "breakfast ideas",
+      "what to eat for breakfast",
+      "protein breakfast",
+      "quick breakfast",
+      "breakfast with protein",
+      "easy breakfast",
+      "breakfast for weight loss",
+      "eggs for breakfast",
+      "breakfast for muscle"
+    ],
+    "body": [
+      "Some easy wins: three eggs with toast and fruit (about 20 g protein), Greek yogurt with berries and granola (20 to 25 g), cottage cheese with pineapple (25 g), a protein shake blended with a banana and peanut butter (30 g), or an egg and turkey sausage breakfast burrito (30 g).",
+      "Make breakfast boring on purpose. Pick two you like and rotate them. When breakfast is automatic, the rest of the day's protein gets much easier."
+    ],
+    "more": {
+      "short_on_time": "Greek yogurt cup plus a piece of fruit. Grab, eat, done, about 15 to 20 g protein.",
+      "example": "Overnight oats with a scoop of protein powder and milk: about 35 g protein, ready when you wake up."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Not hungry in the morning",
+      "How much protein do I need?"
+    ]
+  },
+  {
+    "id": "nr-a-042",
+    "topic": "meals",
+    "title": "Ten minute dinners",
+    "keys": [
+      "ten minute dinners",
+      "quick dinner",
+      "easy dinner ideas",
+      "fast dinners",
+      "dinner when tired",
+      "lazy dinner",
+      "what to make for dinner",
+      "no time to cook"
+    ],
+    "body": [
+      "My favorites: rotisserie chicken with a bagged salad and microwave rice; scrambled eggs with toast and frozen vegetables; tuna or chicken wraps with lettuce and salsa; a frozen stir fry bag plus precooked shrimp; or a baked potato topped with cottage cheese, beans and salsa.",
+      "The trick is keeping the parts in your kitchen. Precooked protein, frozen vegetables, quick carbs and a couple of sauces turn into a real dinner in under ten minutes."
+    ],
+    "more": {
+      "how": "Stock three proteins (rotisserie chicken, eggs, canned tuna), three carbs (microwave rice, tortillas, potatoes) and two sauces you love.",
+      "example": "Taco bowl: microwave rice, canned black beans, rotisserie chicken, salsa, cheese. About 45 g protein."
+    },
+    "chips": [
+      "Meal prep for beginners",
+      "Grocery list for the week"
+    ]
+  },
+  {
+    "id": "nr-a-043",
+    "topic": "meals",
+    "title": "Easy lunches that travel",
+    "keys": [
+      "lunch ideas",
+      "work lunch",
+      "packed lunch",
+      "lunch for work",
+      "easy lunch",
+      "lunch with protein",
+      "what to bring for lunch",
+      "meal ideas for lunch",
+      "cheap lunch",
+      "lunch for fat loss"
+    ],
+    "body": [
+      "Lunches that survive a backpack: chicken and rice bowls, wraps with deli turkey and cheese, pasta salad with chicken or chickpeas, hard boiled eggs with fruit and cheese, or a big salad with the dressing packed separately.",
+      "Aim for 30 to 40 grams of protein at lunch. It keeps the afternoon slump away and makes your evening protein target far less of a scramble."
+    ],
+    "more": {
+      "example": "Two tortillas, 4 oz of turkey, a slice of cheese, spinach and mustard: about 35 g protein for about 450 calories.",
+      "short_on_time": "A protein shake, a bag of baby carrots and a cheese stick. Not glamorous, but it works."
+    },
+    "chips": [
+      "Meal prep for beginners",
+      "Eating at your desk"
+    ]
+  },
+  {
+    "id": "nr-a-044",
+    "topic": "meals",
+    "title": "Snacks with protein",
+    "keys": [
+      "high protein snacks",
+      "snack ideas",
+      "healthy snacks",
+      "what to snack on",
+      "protein snacks",
+      "snacks for fat loss",
+      "afternoon snack",
+      "snacks under 200 calories",
+      "what to eat between meals",
+      "snack for weight loss"
+    ],
+    "body": [
+      "Good snacks pull double duty: they stop hunger and add protein. Try Greek yogurt, cottage cheese, string cheese, beef or turkey jerky, hard boiled eggs, edamame, a protein shake, tuna packets, or roasted chickpeas.",
+      "Pair one of those with a piece of fruit and you have a snack that actually holds you until the next meal, usually 15 to 25 grams of protein for 150 to 250 calories."
+    ],
+    "more": {
+      "example": "One cup of cottage cheese with berries: about 25 g protein, roughly 220 calories.",
+      "mistake": "Snacking on crackers and chips alone. They are fine, but they barely touch your hunger."
+    },
+    "chips": [
+      "Late night snacking",
+      "Foods that keep you full"
+    ]
+  },
+  {
+    "id": "nr-a-045",
+    "topic": "meal-prep",
+    "title": "Meal prep for beginners",
+    "keys": [
+      "meal prep for beginners",
+      "how to meal prep",
+      "easy meal prep",
+      "meal prep ideas",
+      "start meal prepping",
+      "sunday meal prep",
+      "batch cooking",
+      "prep my meals"
+    ],
+    "body": [
+      "Start small: prep one protein, one carb and one vegetable. For example, a tray of chicken thighs, a pot of rice and a sheet pan of roasted vegetables. That is about an hour and covers four or five lunches.",
+      "Change the sauce each day so it does not get old: salsa Monday, teriyaki Tuesday, pesto Wednesday. Once that feels easy, add a second protein or prep breakfasts too."
+    ],
+    "more": {
+      "how": "Oven at 425 F. Chicken and vegetables on separate pans for 25 to 35 minutes while rice cooks. Portion into containers while it is warm.",
+      "mistake": "Trying to prep 21 unique meals on day one and burning out by Wednesday."
+    },
+    "chips": [
+      "How long does meal prep last?",
+      "Grocery list for the week"
+    ]
+  },
+  {
+    "id": "nr-a-046",
+    "topic": "meal-prep",
+    "title": "How long meal prep lasts",
+    "keys": [
+      "how long does meal prep last",
+      "is my meal prep still good",
+      "how long can i keep chicken",
+      "fridge leftovers",
+      "freezing meal prep",
+      "food safety meal prep",
+      "leftovers how many days",
+      "how long does chicken last in the fridge",
+      "can i freeze rice",
+      "meal prep safety"
+    ],
+    "body": [
+      "Most cooked meals keep 3 to 4 days in the fridge. Cooked rice and seafood are best within 3 days. Anything you will not eat by then, freeze right away; most cooked meals freeze well for 2 to 3 months.",
+      "Cool food quickly and get it into the fridge within about two hours of cooking. If something smells off, looks slimy or you are not sure, throw it out. Food poisoning is not worth one container."
+    ],
+    "more": {
+      "how": "Prep twice a week instead of once: Sunday for Monday to Wednesday, Wednesday night for Thursday to Saturday.",
+      "example": "Freeze burrito bowls or soups in single portions. Move one to the fridge the night before."
+    },
+    "chips": [
+      "Meal prep for beginners",
+      "Ten minute dinners"
+    ]
+  },
+  {
+    "id": "nr-a-047",
+    "topic": "grocery",
+    "title": "A simple grocery list for the week",
+    "keys": [
+      "grocery list",
+      "what to buy at the grocery store",
+      "shopping list",
+      "healthy grocery list",
+      "what should i buy",
+      "grocery haul",
+      "groceries for the week",
+      "what groceries to get",
+      "basic groceries",
+      "weekly shopping"
+    ],
+    "body": [
+      "Proteins: eggs, chicken thighs or breast, ground turkey or lean beef, canned tuna, Greek yogurt, cottage cheese. Carbs: rice, oats, potatoes, tortillas, bread, fruit. Vegetables: bagged salad, frozen mixed vegetables, broccoli, peppers, onions. Extras: olive oil, salsa, hot sauce, a couple of sauces you love, coffee.",
+      "Buy the same core list every week and only change one or two things. Repeating the basics is how you stop wasting food and money."
+    ],
+    "more": {
+      "how": "Shop the outside of the store first for the basics, then grab the few pantry items you need. Never shop hungry.",
+      "example": "A week of the core list for one person usually covers 21 meals with about four proteins on rotation."
+    },
+    "chips": [
+      "Eating well on a budget",
+      "Meal prep for beginners"
+    ]
+  },
+  {
+    "id": "nr-a-048",
+    "topic": "budget",
+    "title": "Eating well on a budget",
+    "keys": [
+      "eating healthy on a budget",
+      "cheap healthy food",
+      "budget meals",
+      "cheap protein",
+      "food is expensive",
+      "save money on food",
+      "budget grocery",
+      "eat well for cheap"
+    ],
+    "body": [
+      "The cheapest protein per gram is usually eggs, dry beans and lentils, canned tuna, chicken thighs, frozen chicken breast, cottage cheese, milk and peanut butter. Pair them with rice, oats, potatoes and frozen vegetables, which are cheap, filling and keep for ages.",
+      "Buy store brands, buy bigger packs of protein and freeze portions, and cook a big batch twice a week. Eating out is where most food budgets go, so even two fewer takeout meals a week makes a real difference."
+    ],
+    "more": {
+      "example": "Rice, black beans, eggs, frozen vegetables and salsa cover a full meal for around two dollars.",
+      "mistake": "Thinking healthy means expensive. Frozen vegetables and canned beans are just as nutritious as fresh."
+    },
+    "chips": [
+      "Cheap high protein meals",
+      "Grocery list for the week"
+    ]
+  },
+  {
+    "id": "nr-a-049",
+    "topic": "budget",
+    "title": "Cheap high protein meals",
+    "keys": [
+      "cheap high protein meals",
+      "budget protein meals",
+      "cheap meals with protein",
+      "affordable protein",
+      "low cost meals",
+      "cheap muscle building meals",
+      "broke and lifting",
+      "high protein on a budget",
+      "cheap dinner protein",
+      "meals under 3 dollars"
+    ],
+    "body": [
+      "A few that cost very little: eggs and potato hash; chicken thigh and rice bowls; turkey chili with beans; tuna pasta with frozen peas; lentil soup with a side of Greek yogurt; peanut butter toast with a big glass of milk.",
+      "Most of these are 30 to 45 grams of protein a serving and cook in one pot. Make a double batch and you have lunch tomorrow too."
+    ],
+    "more": {
+      "example": "Turkey chili: 1 lb ground turkey, 2 cans beans, a can of tomatoes, spices. Four servings, about 35 g protein each.",
+      "how": "Cook once, eat twice. Every dinner recipe becomes tomorrow's lunch."
+    },
+    "chips": [
+      "Eating well on a budget",
+      "Meal prep for beginners"
+    ]
+  }
+]

@@ -1,0 +1,876 @@
+[
+  {
+    "id": "nr-a-050",
+    "topic": "fuel",
+    "title": "What to eat before a workout",
+    "keys": [
+      "what to eat before a workout",
+      "pre workout meal",
+      "pre workout food",
+      "eat before the gym",
+      "what should i eat before lifting",
+      "food before training",
+      "pre workout snack",
+      "best thing to eat before gym",
+      "meal before workout",
+      "eat before training",
+      "before gym food",
+      "should i eat before working out"
+    ],
+    "match": "\\b(pre ?workout (meal|food|snack)|(eat|food|meal|snack) before (a |my |the )?(workout|gym|lift|lifting|training|session))\\b",
+    "body": [
+      "Eat a normal meal with protein and carbs two to three hours before, or a small carb snack 30 to 60 minutes before if you are short on time. Carbs fuel the work, protein starts the repair, and keeping fat and fiber lower right before training keeps your stomach calm.",
+      "Easy options: a turkey sandwich two hours out; oatmeal with a scoop of protein; a banana and a yogurt 45 minutes out; toast with honey and a glass of milk. Pick something you have tested on an easy day before you try it before a hard one."
+    ],
+    "more": {
+      "why": "Carbs top up the fuel stored in your muscles and keep your blood sugar steady, so hard sets and intervals feel stronger.",
+      "how": "Count back from your session. Three hours: full meal. One hour: small snack, around 30 to 50 grams of carbs. Fifteen minutes: just a banana or some juice.",
+      "example": "Training at 6 pm: lunch at 1 pm, then a banana and a cheese stick at 5 pm.",
+      "mistake": "A big greasy meal right before squats. Fat and fiber digest slowly and sit heavy.",
+      "short_on_time": "A banana in the car on the way in. That alone helps."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "Training on an empty stomach",
+      "What to eat after a workout"
+    ],
+    "related": [
+      "nr-a-051",
+      "nr-a-052"
+    ]
+  },
+  {
+    "id": "nr-a-051",
+    "topic": "fuel",
+    "title": "Training on an empty stomach",
+    "keys": [
+      "training on an empty stomach",
+      "fasted workout",
+      "fasted cardio",
+      "work out without eating",
+      "is fasted cardio better",
+      "lifting fasted",
+      "morning workout no breakfast",
+      "train fasted",
+      "fasted training fat loss",
+      "exercise before breakfast",
+      "workout on empty stomach"
+    ],
+    "match": "\\b(fasted (cardio|training|workout|lifting|lift)|empty stomach|(train|training|lift|lifting|work ?out|working out) (fasted|without eating|before breakfast))\\b",
+    "body": [
+      "Training fasted is fine if you feel good doing it. It does not burn more fat by the end of the day, because your total calories decide fat loss, not the timing of your cardio. So it is a preference, not a trick.",
+      "For easy cardio and walks, fasted is no problem. For hard lifting or intervals, most people perform better with at least a little food. If you get lightheaded, weak or nauseous fasted, eat something small: a banana, juice, or half a protein shake."
+    ],
+    "more": {
+      "why": "You might burn a bit more fat during a fasted session, but your body balances it out later in the day. The weekly number is the same.",
+      "how": "If you train early and cannot eat, have a glass of milk or a few bites of fruit. Then eat a real breakfast with protein right after.",
+      "mistake": "Training fasted, then skipping breakfast too, and arriving at lunch starving.",
+      "example": "6 am lift: half a banana and coffee, train, then eggs, toast and fruit at 7:30."
+    },
+    "chips": [
+      "What to eat before a workout",
+      "Early morning workout fuel"
+    ],
+    "related": [
+      "nr-a-050",
+      "nr-a-053"
+    ]
+  },
+  {
+    "id": "nr-a-052",
+    "topic": "fuel",
+    "title": "What to eat after a workout",
+    "keys": [
+      "what to eat after a workout",
+      "post workout meal",
+      "post workout food",
+      "after gym meal",
+      "what to eat after lifting",
+      "recovery meal",
+      "eat after training",
+      "anabolic window",
+      "how soon to eat after workout",
+      "post workout shake",
+      "after workout snack",
+      "best food after gym"
+    ],
+    "match": "\\b(post ?workout (meal|food|snack|shake)|(eat|food|meal|snack) after (a |my |the )?(workout|gym|lift|lifting|training|session)|anabolic window)\\b",
+    "body": [
+      "Have a meal with 25 to 40 grams of protein and some carbs within a couple of hours after training. That is it. The rushed 30 minute window is mostly a myth for people who ate earlier in the day. What matters far more is your protein and calories across the whole day.",
+      "Good choices: chicken, rice and vegetables; eggs and toast; a protein shake with a banana; Greek yogurt with granola and fruit; a burrito bowl. If you trained fasted early in the morning, eat sooner rather than later."
+    ],
+    "more": {
+      "why": "Protein gives your muscles the building blocks to repair, and carbs refill the fuel you used. Both help you show up stronger next time.",
+      "how": "Plan your next normal meal to land after training. You do not need a special recovery meal, just a good regular one.",
+      "example": "Lift at 5 pm, dinner at 6:30: salmon, potatoes, salad and a glass of milk. Perfect.",
+      "mistake": "Slamming a shake after training, then eating very little protein the rest of the day.",
+      "short_on_time": "A shake and a piece of fruit in the car, then a normal dinner later."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "Is a protein shake enough after?"
+    ],
+    "related": [
+      "nr-a-050",
+      "nr-a-005"
+    ]
+  },
+  {
+    "id": "nr-a-053",
+    "topic": "fuel",
+    "title": "Early morning workout fuel",
+    "keys": [
+      "early morning workout food",
+      "eat before 6am workout",
+      "morning workout breakfast",
+      "5am gym what to eat",
+      "breakfast before morning workout",
+      "eating before early workout",
+      "no time to eat before morning gym",
+      "morning training nutrition",
+      "early workout snack"
+    ],
+    "match": "\\b((early|5 ?am|6 ?am|morning) (workout|gym|training|lift|session) (food|fuel|breakfast|snack|eat))\\b|\\beat before (a |my )?(5|6|early|morning)",
+    "body": [
+      "Keep it small and fast. Something with easy carbs 15 to 30 minutes before: a banana, a slice of toast with honey, a small glass of juice, or a few bites of a granola bar. Add a little protein if your stomach likes it, like a glass of milk or half a shake.",
+      "If you truly cannot eat that early, it is okay to train with just water and coffee. Eat a solid breakfast with protein afterward, and have a good dinner the night before so you are not running on empty."
+    ],
+    "more": {
+      "how": "Set it out the night before: banana on the counter, shaker bottle ready. Decisions at 5 am are hard.",
+      "why": "Overnight your body uses some stored carbs. A small top up helps your first hard sets feel normal.",
+      "example": "5:15 am: half a banana and coffee. 5:45 lift. 7:00 eggs, toast, fruit and Greek yogurt.",
+      "mistake": "Forcing a full breakfast at 5 am and feeling sick on the first set."
+    },
+    "chips": [
+      "Training on an empty stomach",
+      "Caffeine before training"
+    ],
+    "related": [
+      "nr-a-051"
+    ]
+  },
+  {
+    "id": "nr-a-054",
+    "topic": "fuel",
+    "title": "Late evening workout and eating after",
+    "keys": [
+      "eating after a late workout",
+      "night workout food",
+      "train at night what to eat",
+      "eat after 9pm workout",
+      "late night gym meal",
+      "is it bad to eat late after workout",
+      "dinner after evening workout",
+      "evening training nutrition",
+      "eating before bed after gym"
+    ],
+    "match": "\\b((late|night|evening|9 ?pm|10 ?pm) (workout|gym|training|session)|eat(ing)? after (a |my )?late)\\b",
+    "body": [
+      "Eat after a late workout. Your body does not store food as fat just because the clock says 9 pm. What counts is the total for the day. A meal with protein and some carbs after training helps you recover and often helps you sleep.",
+      "Keep it lighter if a big meal keeps you awake: Greek yogurt with fruit, a turkey wrap, eggs and toast, or a shake with a banana. If your dinner is earlier, plan a snack before training and that recovery snack after."
+    ],
+    "more": {
+      "why": "Calories count the same at noon or midnight. Skipping food after training just leaves you hungrier and less recovered tomorrow.",
+      "how": "Shift some of your dinner calories to after the workout. Same total day, better timing for you.",
+      "example": "Dinner at 6, gym 8 to 9, then cottage cheese with berries at 9:30.",
+      "mistake": "Skipping the post workout meal to save calories, then waking up starving and overeating at breakfast."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Carbs at night",
+      "What to eat after a workout"
+    ],
+    "related": [
+      "nr-a-052"
+    ]
+  },
+  {
+    "id": "nr-a-055",
+    "topic": "fuel",
+    "title": "Fuel for long sessions and endurance days",
+    "keys": [
+      "fuel during workout",
+      "eat during a long workout",
+      "carbs during exercise",
+      "long run fuel",
+      "what to eat during a long session",
+      "gels and chews",
+      "sports drink during workout",
+      "fueling for a long ride",
+      "intra workout carbs",
+      "endurance nutrition",
+      "fuel for a half marathon"
+    ],
+    "match": "\\b(fuel(ing)? (during|for (a |my )?(long|half|full|marathon|ride|run))|intra ?workout|(gels?|chews) (during|for)|carbs during)\\b",
+    "body": [
+      "For sessions under about an hour, water is enough. For anything over 75 to 90 minutes, like a long run, ride or hike, start taking in some carbs: about 30 to 60 grams per hour. That keeps your energy from crashing in the back half.",
+      "Simple options are sports drinks, energy chews, gels, a banana, dried fruit or pretzels. Practice in training, never try something new on race day, and sip fluids with electrolytes if you sweat a lot."
+    ],
+    "more": {
+      "example": "Two hour ride: one banana at 45 minutes, a sports drink sipped through the second hour. About 60 grams of carbs.",
+      "why": "Your muscles only store so much fuel. Long efforts burn through it, and taking carbs in delays the wall.",
+      "how": "Set a timer every 20 to 30 minutes as a reminder to take a few bites or a few sips.",
+      "beginner": "If you are new to long sessions, start with a sports drink. It covers carbs, fluid and salt at once.",
+      "mistake": "Waiting until you feel empty to eat. By then it is late."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "What to eat before a workout"
+    ],
+    "related": [
+      "nr-a-050"
+    ]
+  },
+  {
+    "id": "nr-a-056",
+    "topic": "creatine",
+    "title": "Creatine: what it does and how to take it",
+    "keys": [
+      "creatine",
+      "should i take creatine",
+      "how to take creatine",
+      "how much creatine",
+      "what does creatine do",
+      "creatine monohydrate",
+      "is creatine safe",
+      "creatine for beginners",
+      "creatine benefits",
+      "best creatine",
+      "creatine every day"
+    ],
+    "match": "\\bcreatine\\b",
+    "body": [
+      "Creatine monohydrate is one of the most studied supplements there is. It helps your muscles make quick energy for short hard efforts, so most people can squeeze out a rep or two more over time, which adds up to more strength and muscle.",
+      "Take 3 to 5 grams a day, any time of day, with or without food. Every day, including rest days. No loading needed; it builds up in your muscles in three to four weeks. Plain monohydrate is all you need. Check with your doctor first if you have kidney issues."
+    ],
+    "more": {
+      "why": "Your muscles store a fuel called phosphocreatine for short bursts. Creatine fills that tank higher.",
+      "how": "One level teaspoon of powder is about 5 grams. Stir it into water, coffee, a shake or yogurt.",
+      "mistake": "Paying extra for fancy forms. Monohydrate works and costs the least.",
+      "beginner": "Not required to make progress. Food, sleep and training come first. Creatine is a small bonus on top."
+    },
+    "chips": [
+      "Will creatine make me gain weight?",
+      "Do I need to load creatine?"
+    ],
+    "related": [
+      "nr-a-057",
+      "nr-a-058"
+    ]
+  },
+  {
+    "id": "nr-a-057",
+    "topic": "creatine",
+    "title": "Creatine and water weight",
+    "keys": [
+      "will creatine make me gain weight",
+      "creatine water weight",
+      "creatine bloating",
+      "creatine makes you puffy",
+      "weight gain from creatine",
+      "creatine fat loss",
+      "creatine while cutting",
+      "does creatine make you look fat",
+      "creatine scale weight"
+    ],
+    "match": "\\bcreatine\\b.*\\b(weight|bloat|bloating|puffy|water|fat|cut|cutting)\\b|\\b(weight|bloat|water).*\\bcreatine\\b",
+    "body": [
+      "Creatine can add 1 to 3 pounds on the scale in the first few weeks. That is water stored inside your muscles, not fat, and not the puffy kind under your skin. Many people see their muscles look fuller.",
+      "It is fine to take while you are losing fat. Just know about the small jump so it does not scare you. Judge your progress by the trend after the first month, plus how your clothes fit and your strength."
+    ],
+    "more": {
+      "why": "Creatine pulls water into muscle cells. That water is part of how it helps you perform.",
+      "how": "Start creatine at a time when you are not about to judge a weigh-in, then compare weeks four and eight.",
+      "mistake": "Stopping creatine because the scale went up two pounds in week one."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Creatine: what it does",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-a-056"
+    ]
+  },
+  {
+    "id": "nr-a-058",
+    "topic": "creatine",
+    "title": "Loading creatine and timing",
+    "keys": [
+      "do i need to load creatine",
+      "creatine loading phase",
+      "when to take creatine",
+      "creatine before or after workout",
+      "creatine timing",
+      "creatine on rest days",
+      "creatine with coffee",
+      "how long for creatine to work",
+      "skip a day of creatine",
+      "creatine loading 20 grams"
+    ],
+    "match": "\\bcreatine\\b.*\\b(load|loading|timing|when|before|after|rest days?|coffee|how long)\\b",
+    "body": [
+      "You do not need to load. Taking 3 to 5 grams daily fills your muscles in about three to four weeks. Loading, around 20 grams a day split into four servings for five to seven days, gets you there in a week, but it is more likely to upset your stomach.",
+      "Timing barely matters. Take it whenever you will remember: with breakfast, in your shake, in your coffee. Missing a day here and there changes nothing; just keep going."
+    ],
+    "more": {
+      "how": "Tie it to something you already do every day, like your morning coffee. Consistency beats timing.",
+      "why": "Creatine works by building up over weeks, not by spiking right before training.",
+      "mistake": "Taking it only on training days. Rest days keep the stores topped up too."
+    },
+    "chips": [
+      "Creatine: what it does",
+      "Will creatine make me gain weight?"
+    ],
+    "related": [
+      "nr-a-056"
+    ]
+  },
+  {
+    "id": "nr-a-059",
+    "topic": "caffeine",
+    "title": "Caffeine before training",
+    "keys": [
+      "caffeine before training",
+      "coffee before workout",
+      "caffeine before gym",
+      "does caffeine help workouts",
+      "pre workout drink caffeine",
+      "how much caffeine before lifting",
+      "energy drink before gym",
+      "coffee before running",
+      "caffeine for performance",
+      "pre workout powder"
+    ],
+    "match": "\\b(caffeine|coffee|energy drink|pre ?workout (drink|powder))\\b.*\\b(before|workout|gym|training|lift|run|performance)\\b",
+    "body": [
+      "Caffeine does help most people train harder. A cup or two of regular coffee about 30 to 60 minutes before training is plenty for most people. You do not need a big scoop of pre-workout powder; many of them pack as much as three or four cups of coffee.",
+      "Watch your timing. Caffeine can stay in your system for many hours, so an evening coffee before a 7 pm session can wreck your sleep, and sleep matters more for your progress than one strong workout. Skip it if you are sensitive, pregnant, or have heart issues, and check with your doctor."
+    ],
+    "more": {
+      "how": "Try a cup of coffee 45 minutes before your next hard session. Note how you feel and how you sleep that night.",
+      "why": "Caffeine makes effort feel easier, so you push a little harder for the same perceived work.",
+      "mistake": "Stacking coffee, an energy drink and a pre-workout in one afternoon. Jittery, wired, then up until 2 am.",
+      "beginner": "If you already drink coffee in the morning, you do not need more for training."
+    },
+    "chips": [
+      "How much caffeine is too much?",
+      "Early morning workout fuel"
+    ],
+    "related": [
+      "nr-a-060"
+    ]
+  },
+  {
+    "id": "nr-a-060",
+    "topic": "caffeine",
+    "title": "How much caffeine is too much",
+    "keys": [
+      "how much caffeine is too much",
+      "too much coffee",
+      "caffeine limit",
+      "how many cups of coffee a day",
+      "energy drinks every day",
+      "caffeine and sleep",
+      "coffee after 2pm",
+      "caffeine crash",
+      "jittery from coffee",
+      "cutting back on caffeine"
+    ],
+    "match": "\\b(too much (caffeine|coffee)|caffeine (limit|crash)|how many (cups of )?coffees?|jittery|cut(ting)? back on (caffeine|coffee))\\b",
+    "body": [
+      "For most healthy adults, up to about four regular cups of coffee a day is the general upper limit. Less is better if you are sensitive. Signs you are over your line: jitters, a racing heart, an upset stomach, anxiety, or trouble falling asleep.",
+      "My rule is simple: last caffeine about eight hours before bed. If you go to sleep at 10, that is a 2 pm cutoff. If you want to cut back, drop half a cup every few days so the headaches stay mild."
+    ],
+    "more": {
+      "how": "Count every source: coffee, tea, soda, energy drinks and pre-workout powder. They add up fast.",
+      "example": "Morning coffee, a large iced coffee at lunch and a pre-workout at 5 pm can easily be five or six cups' worth.",
+      "why": "Caffeine lingers. Half of it can still be in your system six hours later."
+    },
+    "chips": [
+      "Caffeine before training",
+      "Sleep and hunger"
+    ],
+    "related": [
+      "nr-a-059"
+    ]
+  },
+  {
+    "id": "nr-a-061",
+    "topic": "bulk",
+    "title": "How to bulk without getting sloppy",
+    "keys": [
+      "how to bulk",
+      "bulking",
+      "lean bulk",
+      "dirty bulk",
+      "how much to eat to build muscle",
+      "calorie surplus",
+      "bulk calories",
+      "gaining muscle diet",
+      "how to gain muscle and not fat",
+      "clean bulk",
+      "best way to bulk",
+      "surplus for muscle"
+    ],
+    "match": "\\b(bulk(ing)?|lean bulk|dirty bulk|clean bulk|calorie surplus|surplus for muscle)\\b",
+    "body": [
+      "Eat about 200 to 300 calories above maintenance, keep protein around 0.7 to 1 gram per pound, and train hard and consistently. Aim to gain roughly 0.25 to 0.5 percent of your body weight a month if you have been lifting for a while, and up to about 1 percent a month if you are newer.",
+      "Gaining faster than that mostly adds fat, not more muscle. A slow lean bulk means less to diet off later and you look better the whole time. Check your weight trend every two weeks and adjust by 100 to 150 calories."
+    ],
+    "more": {
+      "why": "Your body can only build muscle so fast. Extra calories beyond what it can use mostly end up stored as fat.",
+      "example": "At 170 lb and two years of lifting: maintenance around 2,700, bulk at about 2,950, aiming for roughly a pound a month.",
+      "mistake": "A dirty bulk, eating everything in sight. You gain 20 pounds, and most of it is fat you then spend months removing.",
+      "beginner": "In your first year, a small surplus and lots of protein will grow you fast. Do not overeat to speed it up."
+    },
+    "reads": [
+      "weight",
+      "calories",
+      "protein"
+    ],
+    "chips": [
+      "Hard gainer: cannot gain weight",
+      "What is maintenance?"
+    ],
+    "related": [
+      "nr-a-062",
+      "nr-a-063"
+    ]
+  },
+  {
+    "id": "nr-a-062",
+    "topic": "bulk",
+    "title": "Hard gainers who cannot put on weight",
+    "keys": [
+      "cant gain weight",
+      "hard gainer",
+      "how to gain weight",
+      "skinny and cant gain",
+      "fast metabolism",
+      "need to eat more",
+      "how to eat more calories",
+      "too skinny",
+      "weight gain tips",
+      "underweight lifting",
+      "high calorie foods",
+      "not hungry enough to bulk"
+    ],
+    "match": "\\b(can'?t (gain|put on) weight|hard ?gainer|too skinny|fast metabolism|how (do i |to )gain weight|eat more calories)\\b",
+    "body": [
+      "If you are not gaining, you are not eating enough yet, even if it feels like a lot. Track for one honest week. Most people who say they eat a ton are eating big at one meal and barely anything at the others.",
+      "Make calories easier: add a fourth meal or a big snack, drink some of your calories with milk and smoothies, use calorie dense foods like peanut butter, olive oil, granola, rice, whole milk, cheese, nuts and dried fruit. Add 200 to 300 calories a day and check the scale trend in two weeks."
+    ],
+    "more": {
+      "how": "Blend a shake: milk, a banana, oats, peanut butter and protein powder. Easily 700 to 900 calories you barely notice.",
+      "example": "Adding a tablespoon of olive oil to rice and a glass of whole milk with dinner is about 270 extra calories.",
+      "why": "Liquid and dense foods do not fill you up as much as their calories, so you can eat more without forcing it.",
+      "mistake": "Eating lots of salad and chicken breast while trying to gain. Filling foods work against you here."
+    },
+    "reads": [
+      "weight",
+      "calories"
+    ],
+    "chips": [
+      "How to bulk without getting sloppy",
+      "Eating enough with a small appetite"
+    ],
+    "related": [
+      "nr-a-061"
+    ]
+  },
+  {
+    "id": "nr-a-063",
+    "topic": "recomp",
+    "title": "Losing fat and building muscle at the same time",
+    "keys": [
+      "body recomposition",
+      "recomp",
+      "lose fat and build muscle",
+      "build muscle and lose fat at the same time",
+      "can i lose fat and gain muscle",
+      "recomp diet",
+      "recomp calories",
+      "skinny fat",
+      "toning up",
+      "lose fat gain muscle same time"
+    ],
+    "match": "\\b(re-?comp(osition)?|skinny fat|(lose|losing) fat (and|while) (build|building|gain|gaining) muscle|(build|gain)(ing)? muscle (and|while) (lose|losing) fat)\\b",
+    "body": [
+      "Yes, it works, especially if you are new to lifting, coming back after a break, or carrying extra body fat. Eat around maintenance or a small deficit of 200 to 300 calories, keep protein high at about 1 gram per pound of goal weight, and lift hard with steady progress.",
+      "The scale may barely move, which is why people quit too early. Track your waist measurement, your lifts and progress photos every four weeks. If your waist is going down and your lifts are going up, it is working."
+    ],
+    "more": {
+      "why": "Newer lifters build muscle quickly even without extra food, while stored fat covers the gap in energy.",
+      "how": "Measure your waist at the belly button every two weeks, same time of day. Log every session so you can see strength climbing.",
+      "mistake": "Judging a recomp by the scale alone. You can lose four pounds of fat, gain three of muscle and see a one pound change.",
+      "advanced": "If you have been lifting for years and are already lean, recomp slows to a crawl. A focused gaining phase then a cut usually works better."
+    },
+    "reads": [
+      "weight",
+      "protein",
+      "sessions"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "Why is my weight not moving?"
+    ],
+    "related": [
+      "nr-a-061",
+      "nr-a-064"
+    ]
+  },
+  {
+    "id": "nr-a-064",
+    "topic": "cutting",
+    "title": "Protecting muscle while cutting",
+    "keys": [
+      "protecting muscle while cutting",
+      "keep muscle while losing weight",
+      "lose fat not muscle",
+      "losing muscle on a diet",
+      "how to keep muscle on a cut",
+      "muscle loss when dieting",
+      "cutting without losing muscle",
+      "keep gains while cutting",
+      "preserve muscle"
+    ],
+    "match": "\\b((protect|protecting|keep|keeping|preserve|preserving) (my )?(muscle|gains)|lose fat not muscle|losing muscle (on|while|when))\\b",
+    "body": [
+      "Three things protect muscle on a cut: keep lifting with heavy enough weights, keep protein high, and lose weight at a steady pace. Protein around 0.8 to 1 gram per pound of goal weight. Weight loss around 0.5 to 1 percent of body weight per week.",
+      "Keep training the same main lifts in a similar rep range; you can trim extra sets, but do not swap to light pump work. Sleep matters too. Under six hours a night makes muscle loss more likely during a diet."
+    ],
+    "more": {
+      "why": "When you eat less, your body looks for things to drop. Heavy training and plenty of protein tell it to keep muscle.",
+      "how": "Spread protein across three or four meals, about 30 to 50 grams each. Keep your strength numbers in your log and watch them.",
+      "example": "Cutting at 180 lb toward 165: about 150 to 165 g protein a day, losing around a pound a week.",
+      "mistake": "Crash dieting on 1,000 calories with lots of cardio. You lose weight fast, but a lot of it is muscle."
+    },
+    "reads": [
+      "protein",
+      "weight"
+    ],
+    "chips": [
+      "How big should my deficit be?",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-a-028",
+      "nr-a-001"
+    ]
+  },
+  {
+    "id": "nr-a-065",
+    "topic": "cutting",
+    "title": "How long to diet before taking a break",
+    "keys": [
+      "how long should i cut",
+      "diet break",
+      "how long to diet",
+      "maintenance break",
+      "when to stop cutting",
+      "cutting for months",
+      "diet fatigue",
+      "tired of dieting",
+      "take a break from dieting",
+      "refeed day",
+      "long cut"
+    ],
+    "match": "\\b(diet break|maintenance break|refeed( day)?s?|diet fatigue|tired of (dieting|cutting)|how long (should i|to|can i) (cut|diet))\\b",
+    "body": [
+      "Most people do well cutting for 8 to 16 weeks, then spending 2 to 4 weeks at maintenance before going again if they still have more to lose. Those maintenance weeks are not wasted. They let your hunger, energy and training recover so the next stretch is easier.",
+      "Signs you need a break: hunger that never shuts off, sleep getting worse, lifts sliding for weeks, constant food thoughts, or just feeling done. Eat at maintenance, keep lifting, keep protein the same."
+    ],
+    "more": {
+      "how": "Add back about 300 to 500 calories, mostly carbs, to reach maintenance. Expect a 1 to 3 pound bump from food and water. It is not fat.",
+      "why": "Long diets wear on you mentally and physically. Short breaks help you stick with the overall plan.",
+      "example": "12 weeks cutting, down 14 lb. Two weeks at maintenance. Then another 8 week cut.",
+      "mistake": "Treating a diet break as a free-for-all. Maintenance is a number, not a vacation."
+    },
+    "reads": [
+      "weight",
+      "calories",
+      "range"
+    ],
+    "chips": [
+      "What is maintenance?",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-a-064",
+      "nr-a-066"
+    ]
+  },
+  {
+    "id": "nr-a-066",
+    "topic": "maintenance",
+    "title": "Keeping the weight off after a cut",
+    "keys": [
+      "keep weight off",
+      "after a cut what now",
+      "reverse diet",
+      "how to maintain weight loss",
+      "stop dieting without gaining",
+      "maintenance after cutting",
+      "regain weight after diet",
+      "life after the diet",
+      "how to stop cutting",
+      "reverse dieting"
+    ],
+    "match": "\\b(reverse diet(ing)?|keep (the )?weight off|maintain(ing)? (my )?weight loss|after (a|my|the) (cut|diet))\\b",
+    "body": [
+      "When you reach your goal, raise calories to your new maintenance over one to three weeks. Your new maintenance is lower than before because you weigh less, so do not jump back to your old eating. Expect a quick 2 to 4 pound bump from food and water; that is normal and not fat.",
+      "Keep the habits that got you there: protein at every meal, lifting three or more days, daily walking, and weighing in a few times a week. Pick a range, like 3 to 4 pounds around your goal. If your weekly average climbs above it, tighten up for a week."
+    ],
+    "more": {
+      "how": "Add 150 to 250 calories a week until your weekly average weight holds steady. That is your new maintenance.",
+      "why": "Most regain happens because habits stop the day the diet ends. Keeping the habits keeps the result.",
+      "example": "Cut ended at 2,000 calories. Week one: 2,200. Week two: 2,400. Weight holds at 2,400, so that is home.",
+      "mistake": "Celebrating the goal with a two week eating spree and losing a month of progress."
+    },
+    "reads": [
+      "weight",
+      "range",
+      "calories"
+    ],
+    "chips": [
+      "How often should I weigh?",
+      "What is maintenance?"
+    ],
+    "related": [
+      "nr-a-065",
+      "nr-a-027"
+    ]
+  },
+  {
+    "id": "nr-a-067",
+    "topic": "timing",
+    "title": "How many meals a day you should eat",
+    "keys": [
+      "how many meals a day",
+      "meal frequency",
+      "eat 6 small meals",
+      "three meals or six",
+      "does meal frequency matter",
+      "how often should i eat",
+      "small frequent meals metabolism",
+      "two meals a day",
+      "one meal a day",
+      "eating every 3 hours"
+    ],
+    "match": "\\b(how many meals|meal frequency|(6|six|5|five|small) (small )?(frequent )?meals|(two|2|one|1) meals? a day|omad|eat(ing)? every (2|3|two|three) hours)\\b",
+    "body": [
+      "Whatever number lets you hit your calories and protein comfortably. Eating six small meals does not speed up your metabolism; your total food does. Three meals and a snack works for most people because it spreads protein out and keeps hunger in check.",
+      "For muscle, three or four meals with 25 to 50 grams of protein each is a nice target. If you prefer two bigger meals, that is okay too, as long as your protein total for the day gets there."
+    ],
+    "more": {
+      "why": "Your body burns energy digesting food in proportion to how much you eat, not how often. So frequency is about comfort and hunger, not speed.",
+      "example": "Breakfast, lunch, a snack after the gym, dinner. Four protein hits, done.",
+      "mistake": "Grazing all day and never knowing how much you actually ate."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Intermittent fasting: does it work?",
+      "How much protein per meal?"
+    ],
+    "related": [
+      "nr-a-068",
+      "nr-a-004"
+    ]
+  },
+  {
+    "id": "nr-a-068",
+    "topic": "timing",
+    "title": "Intermittent fasting and lifting",
+    "keys": [
+      "intermittent fasting",
+      "16 8 fasting",
+      "does intermittent fasting work",
+      "fasting and lifting",
+      "if for fat loss",
+      "eating window",
+      "skip breakfast fat loss",
+      "fasting for weight loss",
+      "intermittent fasting muscle",
+      "time restricted eating",
+      "fasting while bulking"
+    ],
+    "match": "\\b(intermittent fasting|16[ :/]8|eating window|time restricted eating|fasting (and|while|for) (lifting|weight loss|fat loss|muscle|bulking))\\b",
+    "body": [
+      "Intermittent fasting works for fat loss because a shorter eating window often means fewer calories. It is not magic beyond that. If it fits your life and you hit your protein and calories, it is a fine tool.",
+      "For lifters, the challenge is protein. Fitting 140 grams or more into an eight hour window takes planning. Try to get at least two or three solid protein meals in your window, and put your workout inside or just before it if you can."
+    ],
+    "more": {
+      "how": "Example 16 and 8: eat noon to 8 pm. Lunch 40 g protein, a snack 25 g after the gym, dinner 50 g, a yogurt at 7:30 with 20 g.",
+      "why": "Fewer eating hours makes it harder to overeat for many people. Some people just like not thinking about breakfast.",
+      "mistake": "Fasting, then eating a giant meal that blows past your calories, and calling the fast the reason you are stuck.",
+      "beginner": "If skipping breakfast makes you irritable or hungry all afternoon, IF is not for you. That is fine."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "How many meals a day?",
+      "Not hungry in the morning"
+    ],
+    "related": [
+      "nr-a-067"
+    ]
+  },
+  {
+    "id": "nr-a-069",
+    "topic": "cooking",
+    "title": "Cooking chicken that is not dry",
+    "keys": [
+      "how to cook chicken breast",
+      "dry chicken",
+      "juicy chicken",
+      "how long to bake chicken",
+      "chicken breast recipe",
+      "cook chicken for meal prep",
+      "chicken thighs vs breast",
+      "air fryer chicken",
+      "chicken temperature",
+      "how do i make chicken taste good",
+      "boring chicken"
+    ],
+    "match": "\\b(dry chicken|juicy chicken|(cook|bake|baking|cooking|grill|grilling|air fry|air frying) chicken|chicken (breast|thighs?) (recipe|vs|temperature|in the oven))\\b",
+    "body": [
+      "Dry chicken is almost always overcooked chicken. Cook breasts to 165 F in the thickest part and pull them right at that point. A cheap instant read thermometer fixes this forever. Let it rest five minutes before cutting.",
+      "Pound breasts to an even thickness or slice them in half, season well with salt, pepper, garlic powder and paprika, then bake at 425 F for 18 to 22 minutes, or air fry at 400 F for 12 to 16. Thighs are more forgiving and juicier, with a bit more fat."
+    ],
+    "more": {
+      "how": "Brine for 30 minutes in water with about a tablespoon of salt per four cups. It makes even lean breast juicy.",
+      "example": "Four breasts, olive oil spray, taco seasoning, 425 F for 20 minutes. Slice and portion for the week.",
+      "mistake": "Cooking until it looks white all the way and then another ten minutes just to be safe.",
+      "beginner": "Buy a meat thermometer. It is the single best cooking tool for someone who meal preps."
+    },
+    "chips": [
+      "Meal prep for beginners",
+      "Sauces that save boring food"
+    ],
+    "related": [
+      "nr-a-045",
+      "nr-a-070"
+    ]
+  },
+  {
+    "id": "nr-a-070",
+    "topic": "cooking",
+    "title": "Sauces and seasonings that save boring food",
+    "keys": [
+      "sauces that save boring food",
+      "low calorie sauces",
+      "how to make healthy food taste good",
+      "seasoning ideas",
+      "bland diet food",
+      "healthy sauces",
+      "spices for chicken",
+      "low calorie condiments",
+      "sick of eating the same thing",
+      "flavor without calories",
+      "diet food is boring"
+    ],
+    "match": "\\b(low calorie (sauces?|condiments?)|(boring|bland) (food|chicken|diet)|healthy sauces?|season(ing|ings)? (ideas|for)|flavor without calories)\\b",
+    "body": [
+      "Flavor is how healthy eating lasts. Lower calorie heavy hitters: salsa, hot sauce, mustard, soy sauce, sriracha, buffalo sauce, lemon or lime juice, vinegar, garlic, and spice blends like taco, Cajun, everything bagel and lemon pepper.",
+      "Then use the richer sauces with a measuring spoon instead of avoiding them: pesto, peanut sauce, ranch, teriyaki and barbecue all fit in your day. One tablespoon gives a lot of flavor. Same chicken and rice, five different sauces, and you are never bored."
+    ],
+    "more": {
+      "example": "Greek yogurt with garlic, lemon, dill and salt makes a creamy sauce for about 30 calories a serving.",
+      "how": "Pick a theme each night: Mexican with salsa and lime, Asian with soy and ginger, Italian with marinara and basil.",
+      "mistake": "Eating plain dry food for weeks, then caving because you cannot face another bite."
+    },
+    "chips": [
+      "Cooking chicken that is not dry",
+      "Ten minute dinners"
+    ],
+    "related": [
+      "nr-a-069",
+      "nr-a-042"
+    ]
+  },
+  {
+    "id": "nr-a-071",
+    "topic": "cooking",
+    "title": "Cooking basics for people who never cook",
+    "keys": [
+      "i dont know how to cook",
+      "cooking for beginners",
+      "easy cooking",
+      "learn to cook",
+      "simple recipes",
+      "cant cook",
+      "basic cooking skills",
+      "first time cooking",
+      "how to start cooking",
+      "cook at home more"
+    ],
+    "match": "\\b((don'?t|do not|can'?t|cannot) (know how to )?cook|cooking for beginners|learn(ing)? to cook|basic cooking|first time cooking)\\b",
+    "body": [
+      "Learn four things and you can feed yourself well forever: scrambling eggs, roasting a sheet pan of meat and vegetables, cooking rice or potatoes, and browning ground meat. Everything else is combinations of those plus sauces.",
+      "Start with one new skill a week. Week one, sheet pan chicken and vegetables at 425 F. Week two, a big pot of turkey chili. Week three, a stir fry. You do not need to be a chef, just someone who can do a few things well."
+    ],
+    "more": {
+      "how": "Sheet pan: chop chicken and vegetables into similar sizes, toss in oil and seasoning, spread out, 425 F for 20 to 25 minutes. That is dinner.",
+      "example": "Ground turkey browned with taco seasoning becomes tacos Monday, a rice bowl Tuesday, and a salad topper Wednesday.",
+      "beginner": "Buy a sheet pan, one nonstick skillet, a pot, a sharp knife and a meat thermometer. That covers almost everything."
+    },
+    "chips": [
+      "Ten minute dinners",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-a-042",
+      "nr-a-045"
+    ]
+  },
+  {
+    "id": "nr-a-072",
+    "topic": "cooking",
+    "title": "Air fryer meals with protein",
+    "keys": [
+      "air fryer meals",
+      "air fryer recipes",
+      "air fryer protein",
+      "what to make in air fryer",
+      "air fryer salmon",
+      "air fryer chicken",
+      "air fryer healthy",
+      "is air fryer healthy",
+      "air fried food"
+    ],
+    "match": "\\bair ?fr(yer|ied|y)\\b",
+    "body": [
+      "An air fryer is a busy person's best friend: crispy food with a fraction of the oil. Great proteins in it: chicken thighs or breast bites at 400 F for 12 to 16 minutes, salmon at 390 F for 8 to 10, shrimp at 400 F for 6 to 8, and turkey meatballs at 380 F for 10 to 12.",
+      "Do the sides in there too: potato wedges, sweet potato fries, broccoli, Brussels sprouts and green beans with a light spray of oil. Shake the basket halfway through and do not overcrowd it, or things steam instead of crisp."
+    ],
+    "more": {
+      "example": "Salmon with lemon pepper and a side of air fried broccoli: about 35 grams of protein, dinner in 12 minutes.",
+      "how": "Pat food dry, spray lightly with oil, season, then cook in a single layer.",
+      "mistake": "Thinking air fried means calorie free. Breaded frozen foods are still breaded frozen foods; read the label."
+    },
+    "chips": [
+      "Ten minute dinners",
+      "Cooking chicken that is not dry"
+    ],
+    "related": [
+      "nr-a-069"
+    ]
+  }
+]

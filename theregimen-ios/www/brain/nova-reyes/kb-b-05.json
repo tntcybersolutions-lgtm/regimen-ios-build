@@ -1,0 +1,804 @@
+[
+  {
+    "id": "nr-b-085",
+    "topic": "alcohol",
+    "title": "Alcohol and fat loss",
+    "keys": [
+      "alcohol and fat loss",
+      "does alcohol stop fat loss",
+      "can i drink and lose weight",
+      "drinking on a diet",
+      "beer and weight loss",
+      "wine and weight loss",
+      "does alcohol make you gain weight",
+      "alcohol calories",
+      "how much can i drink and still lose weight",
+      "weekend drinking and fat loss",
+      "is alcohol bad for weight loss",
+      "drinking while cutting",
+      "alcohol belly",
+      "beer belly"
+    ],
+    "match": "\\b(alcohol|booze|beer|wine|liquor|cocktails?|drinking alcohol)\\b.{0,30}\\b(fat loss|lose weight|losing weight|weight loss|weight gain|gain weight|diet|cutting|deficit)\\b|\\bbeer belly\\b|\\balcohol (calories|belly)\\b|\\bdrink(ing)? and (still )?lose weight\\b",
+    "body": [
+      "You can drink and still lose fat, but alcohol makes it harder in three ways. The calories add up fast (alcohol has 7 calories per gram, and mixers add more). Your body clears alcohol first, which puts fat burning on pause while it does. And a few drinks in, late night food always looks like a great idea.",
+      "Rough numbers: a light beer is about 100 calories, a regular beer about 150, an IPA 200 to 300, a 5 ounce glass of wine about 120, a shot of liquor about 100, and a margarita or other sugary cocktail 250 to 500. Four IPAs on a Saturday can be 1,000 calories before the nachos.",
+      "If you drink, plan it. Pick the nights, pick your number, and pick lower calorie drinks. Eat a real meal with protein first, alternate each drink with water, and have a plan for food after so it is not the drive thru at midnight. Less is better for your health and your goals, and zero is always a great choice."
+    ],
+    "more": {
+      "why": "Alcohol is not stored as fat directly, but while your body is busy clearing it, the fat and carbs from the rest of the night get stored more easily. Add worse sleep and more hunger the next day, and the effect is bigger than the drinks alone.",
+      "example": "Friday: three light beers (about 300) instead of three IPAs (about 750), with water in between and a burger dinner first. One swap saves about 450 calories and a lot of next day hunger.",
+      "mistake": "Skipping dinner to save calories for drinks. Alcohol on an empty stomach hits harder, and the 1 a.m. food decisions get worse.",
+      "how": "Log drinks the same way you log food. Seeing a Saturday add up to 1,500 calories is often all the motivation you need to adjust."
+    },
+    "reads": [
+      "range",
+      "weight"
+    ],
+    "chips": [
+      "What drinks are lowest calorie?",
+      "Does drinking hurt my gains?",
+      "What to eat after drinking?"
+    ],
+    "related": [
+      "nr-b-049",
+      "nr-b-086",
+      "nr-b-087"
+    ]
+  },
+  {
+    "id": "nr-b-086",
+    "topic": "alcohol",
+    "title": "The lowest calorie drinks to order",
+    "keys": [
+      "what drinks are lowest calorie",
+      "low calorie alcohol",
+      "best alcohol for weight loss",
+      "lowest calorie beer",
+      "low calorie cocktails",
+      "what to drink on a diet",
+      "skinny margarita",
+      "vodka soda calories",
+      "hard seltzer calories",
+      "light beer vs regular",
+      "best drink at the bar",
+      "low calorie mixed drinks",
+      "wine or beer for weight loss"
+    ],
+    "match": "\\b(low(est)?|least) calorie (alcohol|drinks?|beer|cocktails?|mixed drinks?|wine)\\b|\\bbest (alcohol|drink|beer|liquor) (for (weight|fat) loss|at the bar)\\b|\\b(vodka soda|hard seltzers?|skinny margarita)\\b|\\b(wine|beer) or (wine|beer)\\b|\\blight beer (vs|or)\\b",
+    "body": [
+      "The leanest drinks are spirits with zero calorie mixers, light beer, hard seltzer and dry wine. Most land around 90 to 130 calories each. The heavy hitters are sugary cocktails, frozen drinks, big craft beers and anything with juice, syrup or cream.",
+      "Easy orders: vodka, tequila, gin or whiskey with soda water and lime, or with diet soda (about 100 calories). Light beer (around 100). Hard seltzer (about 100). Dry red or white wine, 5 ounces (about 120). A skinny margarita with fresh lime and no sweet mix (about 150 to 200 instead of 300 to 500). A regular beer is about 150, and a strong IPA can be 200 to 300.",
+      "The pour matters as much as the drink. A heavy restaurant wine pour can be 8 or 9 ounces, closer to 200 calories. Whatever you pick, a glass of water between drinks keeps the total down and the next morning better."
+    ],
+    "more": {
+      "example": "Two margaritas (about 700) versus two tequila sodas with lime (about 200): same night out, 500 calories apart.",
+      "how": "Order your first drink with a big glass of water and finish the water before the second drink. It slows the pace without feeling like a rule.",
+      "mistake": "Thinking wine is basically free because it is wine. Three big pours is about 600 calories, the same as a meal."
+    },
+    "chips": [
+      "Alcohol and fat loss",
+      "Does drinking hurt my gains?"
+    ],
+    "related": [
+      "nr-b-085"
+    ]
+  },
+  {
+    "id": "nr-b-087",
+    "topic": "alcohol",
+    "title": "Does drinking hurt your training",
+    "keys": [
+      "does drinking hurt my gains",
+      "alcohol and muscle",
+      "alcohol and recovery",
+      "drinking after the gym",
+      "does alcohol kill gains",
+      "beer after a workout",
+      "alcohol and muscle growth",
+      "drinking and lifting",
+      "can i drink and build muscle",
+      "hungover workout",
+      "training hungover",
+      "alcohol and protein synthesis"
+    ],
+    "match": "\\b(alcohol|beer|booze|drunk|drinking alcohol)\\b.{0,30}\\b(gains|muscle|recovery|lifting|workouts?|gym|training|protein synthesis)\\b|\\bdrinking (after|before) (the gym|lifting|training|a workout)\\b|\\b(train(ing)?|lift(ing)?|work(ing)? ?out) hungover\\b|\\bhungover (workout|training|lift)\\b",
+    "body": [
+      "A drink or two now and then will not erase your progress. Heavy drinking is where it starts to cost you. Several drinks after a hard session can noticeably slow muscle repair, even when you eat protein, and they wreck your sleep, which is when a lot of that repair happens.",
+      "If you are going out, a few habits protect your training. Get your workout in earlier in the day, eat a solid meal with protein before drinking, keep the number of drinks modest, alternate with water, and have a protein snack before bed. Plan the next session for later in the day, or make it a lighter one.",
+      "Training hungover is usually a rough, low quality session, and you are often already dehydrated. If you go, keep it light, start with water and a real breakfast, and save the heavy day for when you feel human."
+    ],
+    "more": {
+      "why": "Alcohol interferes with the signals that build muscle and with deep sleep, and it dehydrates you. One or two drinks has a small effect. A big night stacks all three.",
+      "example": "Saturday: lift at 10 a.m., big lunch with chicken, two drinks at the party with water in between, Greek yogurt before bed. Sunday: easy walk, then back to normal. Barely a dent.",
+      "mistake": "Replacing your post workout meal with drinks. That is the worst timing for both recovery and your judgment later in the night."
+    },
+    "chips": [
+      "Alcohol and fat loss",
+      "What to eat after drinking?",
+      "What actually helps recovery?"
+    ],
+    "related": [
+      "nr-b-085",
+      "nr-b-040"
+    ]
+  },
+  {
+    "id": "nr-b-088",
+    "topic": "alcohol",
+    "title": "What to eat the day after drinking",
+    "keys": [
+      "what to eat after drinking",
+      "hangover food",
+      "eating the day after drinking",
+      "what to eat when hungover",
+      "hungover and starving",
+      "best hangover breakfast",
+      "the morning after drinking",
+      "hangover cravings",
+      "drunk food",
+      "late night drunk food",
+      "how to recover from a night out",
+      "rehydrate after drinking"
+    ],
+    "match": "\\bhang ?over (food|breakfast|cravings|meal)\\b|\\b(eat\\w*|food) (when|while|if) (i'?m |im )?hung ?over\\b|\\bhung ?over\\b.{0,20}\\b(eat\\w*|food|hungry|starving)\\b|\\b(after|day after|morning after) (a night of )?drinking\\b|\\bdrunk food\\b",
+    "body": [
+      "Water first, then real food. Alcohol dehydrates you, so a big glass of water right away, plus some electrolytes or a salty breakfast if you sweated a lot dancing, helps more than any hangover trick. Then eat a normal breakfast with protein and some carbs: eggs and toast, a breakfast burrito, Greek yogurt with fruit and granola, or oatmeal with a protein shake.",
+      "You will probably be hungrier than usual and want greasy food. That is normal after short, broken sleep. Have the breakfast sandwich if you want it, then steer the rest of the day back to normal: protein at each meal, water, a walk outside. Do not try to make up for last night by skipping meals.",
+      "Next time, plan the late night food before you go out, not at 1 a.m. A turkey sandwich, a protein shake or a bowl of cereal at home beats a drive thru run."
+    ],
+    "more": {
+      "example": "Morning after: 500 ml of water right away, eggs, toast and fruit at 9, a 20 minute walk, a chicken rice bowl for lunch. You feel better faster and the day stays on track.",
+      "why": "Alcohol breaks up your sleep and dehydrates you, which turns up hunger and cravings the next day. Water, protein and daylight are the fastest way back.",
+      "how": "Before you go out, put a glass of water and a simple snack by your bed. Future you will be grateful."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Alcohol and fat loss",
+      "Slept badly, how do I eat today?"
+    ],
+    "related": [
+      "nr-b-085",
+      "nr-b-038"
+    ]
+  },
+  {
+    "id": "nr-b-089",
+    "topic": "social",
+    "title": "How to eat at parties",
+    "keys": [
+      "how do i eat at parties",
+      "party food",
+      "eating at a party",
+      "social events and dieting",
+      "birthday party food",
+      "how to handle social eating",
+      "eating with friends on a diet",
+      "game day party food",
+      "party snacks",
+      "going to a party on a diet",
+      "social eating",
+      "potluck",
+      "eating at events"
+    ],
+    "match": "\\b(party|parties|social events?|social eating|potluck|get ?togethers?|game day)\\b",
+    "body": [
+      "Go, have fun, eat some of the food. A party is about the people. A simple plan just keeps one evening from turning into a three day food hangover.",
+      "Eat a normal meal with protein before you go, so you arrive hungry, not starving. When you get there, do a lap before you fill a plate. Start with protein and vegetables (wings, meatballs, shrimp, chicken skewers, the veggie tray), then add the two or three things you are most excited about. Use a plate instead of grazing at the table, then step away from the food and go talk to people.",
+      "Hold a non alcoholic drink between the ones that are: sparkling water with lime looks like anything. And if a dessert is someone's special recipe, have a piece and enjoy it. That is what it is for."
+    ],
+    "more": {
+      "example": "Game day party: chicken and rice before, then one plate of wings, veggies and a scoop of dip, two beers and one brownie. Maybe 1,200 calories for the party. A great time, and totally fine for the week.",
+      "how": "Stand or sit away from the food table. Distance does more than willpower at parties.",
+      "mistake": "Starving all day to save up, then arriving ravenous. You will eat more, not less, and enjoy it less."
+    },
+    "reads": [
+      "range"
+    ],
+    "chips": [
+      "How do I say no to food?",
+      "Alcohol and fat loss",
+      "How do I handle Thanksgiving?"
+    ],
+    "related": [
+      "nr-b-083",
+      "nr-b-084",
+      "nr-b-085"
+    ]
+  },
+  {
+    "id": "nr-b-090",
+    "topic": "social",
+    "title": "How to handle Thanksgiving",
+    "keys": [
+      "how do i handle thanksgiving",
+      "thanksgiving dinner",
+      "thanksgiving on a diet",
+      "thanksgiving calories",
+      "how many calories at thanksgiving",
+      "thanksgiving plate",
+      "turkey day eating",
+      "should i track on thanksgiving",
+      "thanksgiving weight gain",
+      "big family dinner",
+      "thanksgiving dessert",
+      "thanksgiving leftovers"
+    ],
+    "match": "\\bthanksgiving\\b|\\bturkey day\\b|\\bfriendsgiving\\b",
+    "body": [
+      "Enjoy it. Thanksgiving is one day, and one day cannot undo your progress. A full Thanksgiving day can run 2,500 to 4,000 calories, but even a big surplus is well under a pound of actual fat. The scale may jump 2 to 5 pounds the next morning from salt, carbs and food volume, and that is gone within a few days.",
+      "My Thanksgiving plan: a normal breakfast with protein, a walk in the morning (a family walk after the meal is even better), and a plate built around turkey first, then your favorite sides. Skip the ones you do not love, there are always a few. Have the dessert you look forward to all year, one slice, slowly. Drink water between everything else.",
+      "The real risk is not Thursday. It is four days of leftovers and pie. Send some home with guests, freeze some, and turn the leftovers into normal meals: turkey sandwiches, turkey soup, turkey and vegetable bowls."
+    ],
+    "more": {
+      "example": "Six ounces of turkey breast (about 250 calories and 50 grams of protein), mashed potatoes, stuffing, green beans, a roll, gravy and a slice of pie: roughly 1,300 to 1,500 calories. A big plate, and completely fine.",
+      "how": "Walk 20 to 30 minutes after the meal. It helps digestion, gets you away from the snack table, and makes a nice family tradition.",
+      "mistake": "Skipping breakfast and lunch to save room. You show up ravenous and eat past comfortable. A normal breakfast leads to a calmer plate."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Weight up after a big meal?",
+      "Getting through December",
+      "How do I say no to food?"
+    ],
+    "related": [
+      "nr-b-006",
+      "nr-b-089"
+    ]
+  },
+  {
+    "id": "nr-b-091",
+    "topic": "social",
+    "title": "Getting through December",
+    "keys": [
+      "getting through december",
+      "christmas eating",
+      "christmas cookies",
+      "december parties",
+      "end of year parties",
+      "christmas dinner",
+      "new years eve food",
+      "eating during christmas",
+      "gaining weight in december",
+      "how to not gain weight over christmas",
+      "office christmas party",
+      "christmas treats everywhere",
+      "festive season eating"
+    ],
+    "match": "\\b(christmas|xmas|hanukkah|december)\\b|\\bnew years? eve\\b",
+    "body": [
+      "December is a marathon of cookies, parties and late nights, not one big meal. The goal for the month is to maintain, not to lose. Coming out of it within a pound or two of where you started is a win, and lots of people manage it with a few anchors.",
+      "Anchors that work: keep training, even if sessions get shorter. Keep protein at breakfast and lunch, since the evenings are where the treats live. Get your steps, especially on party days. And pick your favorites: the cookies your mom makes once a year are worth it, the store bought ones in the break room probably are not.",
+      "Christmas Day itself is like Thanksgiving. Enjoy it fully and go back to normal the next meal. The ordinary days between the parties are where the month is won, so keep those boring and steady."
+    ],
+    "more": {
+      "example": "A week with three parties: normal meals and protein all week, a walk before each party, one plate and two drinks at each, regular meals in between. That week often ends flat on the trend.",
+      "how": "Look at your December calendar now and mark the events you really care about. Plan to enjoy those, and treat every other day as a normal day.",
+      "mistake": "Deciding December is a write off and planning to start over in January. That turns four weeks of easy maintenance into a much bigger hole to climb out of."
+    },
+    "reads": [
+      "weight",
+      "steps"
+    ],
+    "chips": [
+      "How do I eat at parties?",
+      "How do I handle Thanksgiving?",
+      "Alcohol and fat loss"
+    ],
+    "related": [
+      "nr-b-089",
+      "nr-b-090"
+    ]
+  },
+  {
+    "id": "nr-b-092",
+    "topic": "social",
+    "title": "Saying no to food without hurting feelings",
+    "keys": [
+      "how do i say no to food",
+      "food pushers",
+      "family keeps pushing food",
+      "how to turn down food",
+      "grandma makes me eat more",
+      "people pressure me to eat",
+      "saying no to seconds",
+      "how to say no politely",
+      "friends make fun of my diet",
+      "people comment on my eating",
+      "pressure to eat at family dinners",
+      "they keep offering me food"
+    ],
+    "match": "\\bfood push\\w*\\b|\\b(say(ing)? no|turn(ing)? down|refus\\w*) (to )?(food|seconds|dessert|cake|more food)\\b|\\b(pressure|pushing|push) (me )?to eat\\b|\\b(comment\\w*|mak\\w* fun) (on|of) (my )?(eating|diet|food)\\b",
+    "body": [
+      "Food is love in a lot of families, mine included, so turning it down can feel like turning down the person. The trick is to say yes to them while you choose how much you eat.",
+      "Easy lines that work: That was amazing, I am so full. Can I take some home for tomorrow? I will have a small piece, I want to save room for your pie. Not right now, maybe later. You do not owe anyone an explanation about your goals, and a smile plus a compliment usually ends it.",
+      "If someone keeps pushing or teases you about how you eat, a calm I am good, thank you, repeated as needed, works. For the people who matter most, a quick private chat (I am working on my health and it would mean a lot if you backed me up) can turn a pusher into a supporter."
+    ],
+    "more": {
+      "why": "A flat no can sound like a rejection of the cook. Praising the food and taking a smaller portion, or some to go, keeps the connection while you stay in charge.",
+      "example": "Grandma offers seconds: this is the best thing I have eaten all month, I am stuffed, can you pack some for my lunch tomorrow? She is thrilled, you are full, everybody wins.",
+      "how": "Keep a little food on your plate or a drink in your hand. An empty plate is an open invitation for more."
+    },
+    "chips": [
+      "My family eats differently",
+      "How do I eat at parties?"
+    ],
+    "related": [
+      "nr-b-089",
+      "nr-b-090"
+    ]
+  },
+  {
+    "id": "nr-b-093",
+    "topic": "social",
+    "title": "When your family or partner eats differently",
+    "keys": [
+      "my family eats differently",
+      "my partner eats junk food",
+      "my husband eats whatever he wants",
+      "my wife does not diet",
+      "partner not supportive of my diet",
+      "living with someone who eats a lot",
+      "family snacks in the house",
+      "roommate food is tempting",
+      "eating different meals than my family",
+      "my family will not eat healthy",
+      "spouse sabotaging my diet",
+      "different diets in one house"
+    ],
+    "match": "\\bmy (family|partner|husband|wife|spouse|boyfriend|girlfriend|roommates?)\\b.{0,30}\\b(eats?|eating|snacks?|junk|diet|not supportive|sabotag\\w*)\\b|\\bdifferent diets in (one|the same) house\\b",
+    "body": [
+      "Very common, and very doable. You do not need everyone in the house on your plan. You need a way of eating that works next to theirs without constant friction or a separate kitchen.",
+      "Cook one base meal and customize it. Tacos, rice bowls, pasta night, burgers, stir fry and sheet pan dinners all let everyone build their own plate: you go heavier on protein and vegetables, they add more of the extras. For snacks, ask for a shelf or cabinet that holds theirs, out of your line of sight, and keep your own snacks front and center.",
+      "Talk to your partner or family about what would help without asking them to change their diet. Something like: I am not asking you to eat what I eat, but could we keep the chips in the pantry instead of on the counter? Small asks get a yes far more often than big ones."
+    ],
+    "more": {
+      "why": "Cooking separate meals every night is exhausting and rarely lasts. Shared meals with different plates protect both your goals and family dinner.",
+      "example": "Taco night: you have three corn tortillas with double chicken, beans, salsa and lettuce. They have flour tortillas, cheese and sour cream. Same table, same meal, different plates.",
+      "mistake": "Lecturing anyone about their food. It creates tension and makes your own plan feel like a burden. Lead by example and let them get curious."
+    },
+    "chips": [
+      "How do I say no to food?",
+      "Ten minute dinners",
+      "I am a picky eater"
+    ],
+    "related": [
+      "nr-b-092",
+      "nr-b-059"
+    ]
+  },
+  {
+    "id": "nr-b-094",
+    "topic": "picky-eating",
+    "title": "Eating well as a picky eater",
+    "keys": [
+      "i am a picky eater",
+      "im a picky eater",
+      "picky eater diet",
+      "i dont like many foods",
+      "i hate most healthy food",
+      "picky eater high protein",
+      "how to eat healthy as a picky eater",
+      "i only like a few foods",
+      "picky eater weight loss",
+      "texture issues with food",
+      "picky eater same foods every day",
+      "trying new foods"
+    ],
+    "match": "\\bpicky (eater|eating)\\b|\\b(i'?m|im|i am) (so )?picky\\b|\\bonly (like|eat) a few foods\\b|\\btry(ing)? new foods\\b",
+    "body": [
+      "Being picky is fine. You do not need to love kale to reach your goals. You need enough protein, enough fiber and a calorie total that matches your goal, and you can get all three from a short list of foods you actually like.",
+      "Start by writing down every food you genuinely enjoy in each group: proteins, carbs, fruits, vegetables (even if it is just two) and snacks. Then build five or six meals from that list and rotate them. Eating similar things most days is not a problem. Plenty of people who do this well eat the same breakfasts and lunches all week.",
+      "Then expand slowly. Try one new food a week, in a form close to something you already like. Like chicken nuggets? Try air fried chicken tenders. Like ranch? Try raw veggies with ranch. Seasoning, sauces and cooking method change everything."
+    ],
+    "more": {
+      "example": "A short list: chicken, eggs, ground beef, Greek yogurt, rice, potatoes, bread, apples, bananas, carrots, corn. That is enough for a balanced week of meals.",
+      "how": "Pick two proteins you like and learn three ways to make each. Variety in flavor often matters more than variety in foods.",
+      "why": "Many people dislike certain foods because of texture or how they were cooked growing up. Roasting, air frying or a sauce you love can turn a hard no into a maybe."
+    },
+    "chips": [
+      "I hate vegetables",
+      "Meal prep for beginners",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-b-093"
+    ]
+  },
+  {
+    "id": "nr-b-095",
+    "topic": "vegetables",
+    "title": "Vegetables for people who hate vegetables",
+    "keys": [
+      "i hate vegetables",
+      "i dont like vegetables",
+      "how to eat more vegetables",
+      "vegetables taste bad",
+      "how to make vegetables taste good",
+      "hiding vegetables in food",
+      "veggies for picky eaters",
+      "do i have to eat vegetables",
+      "easiest vegetables to eat",
+      "how to like vegetables",
+      "i cant stand veggies",
+      "sneaking in vegetables"
+    ],
+    "match": "\\b(hate|don'?t like|dont like|can'?t stand) (vegetables|veggies|greens|salads?)\\b|\\b(eat|get|sneak\\w*) (in )?more (vegetables|veggies)\\b|\\b(hid(e|ing)|sneak(ing)?) (in )?(vegetables|veggies)\\b|\\b(vegetables|veggies) taste\\b|\\bmake (vegetables|veggies) taste\\b",
+    "body": [
+      "Most people who hate vegetables hate boiled, mushy, unseasoned vegetables. Same. Cooking method and seasoning change everything, so let's start there before you give up on them.",
+      "Roast or air fry them hot (425 F, a little oil, salt and garlic powder) until the edges are brown and crispy. Broccoli, Brussels sprouts, carrots, green beans and cauliflower become a different food that way. Add a sauce you already love: ranch, buffalo, teriyaki, parmesan, everything bagel seasoning. Start with the mild, sweet ones: carrots, bell peppers, corn, peas, snap peas, cucumber.",
+      "And hide them where you will not notice: spinach blended into a fruit smoothie, cauliflower rice mixed into regular rice, finely chopped veggies in pasta sauce, chili, tacos or meatballs, frozen stir fry blends in fried rice. Fruit brings a lot of the same fiber and vitamins, so lean on it while you work on the veggies."
+    ],
+    "more": {
+      "example": "Air fried broccoli with parmesan and garlic, 12 minutes, crispy edges. For a lot of people this is the gateway vegetable.",
+      "why": "Vegetables bring fiber, water and volume for very few calories, which helps you feel full and keeps digestion moving. They are worth the effort, but they do not have to taste like punishment.",
+      "how": "Add one vegetable you can tolerate to one meal a day this week. Next week, two meals. Tiny steps, no forced salads.",
+      "beginner": "Frozen vegetable blends and microwave steam bags are the easiest start. Add butter or cheese if that is what gets you eating them. A little fat for a lot of vegetables is a great trade."
+    },
+    "chips": [
+      "How many vegetables a day?",
+      "I am a picky eater",
+      "How much fiber do I need?"
+    ],
+    "related": [
+      "nr-b-094",
+      "nr-b-096"
+    ]
+  },
+  {
+    "id": "nr-b-096",
+    "topic": "vegetables",
+    "title": "How many vegetables you need in a day",
+    "keys": [
+      "how many vegetables a day",
+      "how many servings of vegetables",
+      "vegetables per day",
+      "how many cups of vegetables",
+      "is that enough vegetables",
+      "do frozen vegetables count",
+      "do potatoes count as a vegetable",
+      "does corn count as a vegetable",
+      "fruits and vegetables per day",
+      "5 a day",
+      "how much salad should i eat",
+      "eat the rainbow"
+    ],
+    "match": "\\bhow many (servings of |cups of )?(vegetables|veggies)\\b|\\b(vegetables|veggies) (per|a|each) day\\b|\\b5 a day\\b|\\beat the rainbow\\b|\\b(potatoes|corn) counts? as a vegetable\\b",
+    "body": [
+      "Aim for about 2.5 to 3 cups of vegetables a day, roughly a fist or two at lunch and dinner. Add 1.5 to 2 cups of fruit and you are right in line with the usual guidelines. Most people are well under that, so any step up counts.",
+      "Frozen and canned vegetables count fully, and they are often just as nutritious as fresh. Raw leafy greens count as half, since 2 cups of salad greens is about 1 cup of vegetables. Potatoes and corn are starchy vegetables, so they count, but I treat them as your carb rather than your vegetable.",
+      "Variety helps, because different colors bring different nutrients. Mix it up across the week: green (broccoli, spinach, green beans), orange (carrots, sweet potatoes), red (tomatoes, peppers) and so on. You do not need all of them every day."
+    ],
+    "more": {
+      "example": "Lunch: a cup of baby carrots with your sandwich. Dinner: 2 cups of salad greens plus 1.5 cups of roasted broccoli and peppers. That is about 3.5 cups.",
+      "how": "Make half your plate vegetables at one meal a day to start. That alone gets most people to 1.5 to 2 cups.",
+      "why": "Vegetables bring fiber, potassium, vitamins and volume for very few calories. They help with fullness, digestion and steadier energy."
+    },
+    "chips": [
+      "I hate vegetables",
+      "How much fiber do I need?"
+    ],
+    "related": [
+      "nr-b-095"
+    ]
+  },
+  {
+    "id": "nr-b-097",
+    "topic": "appetite",
+    "title": "Not hungry in the morning",
+    "keys": [
+      "not hungry in the morning",
+      "no appetite in the morning",
+      "cant eat breakfast",
+      "i dont eat breakfast",
+      "skip breakfast",
+      "is it bad to skip breakfast",
+      "feel sick eating in the morning",
+      "breakfast makes me nauseous",
+      "not a breakfast person",
+      "do i need to eat breakfast",
+      "should i eat breakfast if im not hungry",
+      "morning appetite"
+    ],
+    "match": "\\bnot hungry (in the morning|at breakfast|when i wake up)\\b|\\b(no|zero|little) appetite (in the morning|at breakfast)\\b|\\bskip(ping)? breakfast\\b|\\b(can'?t|cant|don'?t|dont) eat breakfast\\b|\\bnot a breakfast person\\b|\\bdo i (need|have) to eat breakfast\\b",
+    "body": [
+      "You do not have to eat breakfast. What matters most is your total protein and calories across the day, and plenty of people do great with a first meal at 10 or 11. If you are hitting your numbers and feel good, keep doing what works.",
+      "Where it causes trouble is when skipping breakfast means you are starving by 3 p.m., missing your protein, or training in the morning on nothing. If that sounds familiar, start small and liquid: a protein shake, a glass of milk, a drinkable yogurt, or coffee made with milk. Liquids are much easier when your stomach is not awake yet.",
+      "Appetite is partly habit. Eat something small within an hour or two of waking for a week or two, and many people find real morning hunger starts to show up on its own."
+    ],
+    "more": {
+      "example": "Week one: a 20 gram protein shake at 8 a.m. Week two: the shake plus a banana. Week three: Greek yogurt with granola. Small steps, and lunch stops being a desperate event.",
+      "why": "Your hunger signals follow your routine. If you never eat in the morning, your body stops expecting food then. Give it a reason and it often adjusts.",
+      "how": "If you train early, have something small and easy before, like a banana or half a shake, and a real breakfast after.",
+      "mistake": "Skipping breakfast, eating a light lunch, then eating most of your day after 6 p.m. It works for some people, but if it leads to late night overeating, move some food earlier."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Small appetite, how to eat enough?",
+      "Easy high protein breakfasts?",
+      "Late night snacking"
+    ],
+    "related": [
+      "nr-b-098",
+      "nr-b-042"
+    ]
+  },
+  {
+    "id": "nr-b-098",
+    "topic": "appetite",
+    "title": "Eating enough when your appetite is small",
+    "keys": [
+      "small appetite how to eat enough",
+      "small appetite",
+      "how to eat more food",
+      "i cant eat enough",
+      "struggling to eat enough calories",
+      "how to eat more when not hungry",
+      "eating enough protein with a small appetite",
+      "not eating enough calories",
+      "hard to eat enough",
+      "how to increase appetite",
+      "low appetite eating enough",
+      "how do i eat more"
+    ],
+    "match": "\\bsmall appetite\\b|\\b(struggl\\w*|hard) to eat enough\\b|\\bcan'?t eat enough\\b|\\bnot eating enough\\b|\\b(increase|boost|improve) (my )?appetite\\b|\\beat more (food )?when (i'?m |im )?not hungry\\b",
+    "body": [
+      "When your appetite is small, the goal is to get more nutrition into fewer, easier bites. Eating only when hungry will not work, because hunger will not show up often enough. So we use a schedule, calorie dense foods and liquids.",
+      "What helps: eat every three to four hours by the clock, even if it is small. Use calorie dense foods that do not fill you up much: nuts and nut butter, whole milk and cheese, olive oil drizzled on food, granola, dried fruit, avocado, rice instead of potatoes. Drink some of your calories too: a smoothie with milk, protein powder, banana, oats and peanut butter can be 600 to 800 calories and 40 to 50 grams of protein, and it goes down easy.",
+      "Save the water and the big salads for between meals so they do not crowd out the food. And eat the protein first, so if you stop early, you still got the most important part."
+    ],
+    "more": {
+      "example": "Smoothie: 12 ounces of whole milk, a scoop of whey, a banana, half a cup of oats and 2 tablespoons of peanut butter. About 750 to 800 calories and close to 50 grams of protein.",
+      "how": "Set phone reminders for meals and snacks for two weeks. Once the routine sticks, appetite often grows into it.",
+      "mistake": "Filling up on low calorie, high volume food like big salads and broth soups first. Great on a cut, the opposite of what you need here.",
+      "why": "Liquids and calorie dense foods take up less room in your stomach and trigger fewer fullness signals, so more fits without feeling stuffed."
+    },
+    "reads": [
+      "calories",
+      "protein"
+    ],
+    "chips": [
+      "No appetite today?",
+      "Not hungry in the morning",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-b-097",
+      "nr-b-030"
+    ]
+  },
+  {
+    "id": "nr-b-099",
+    "topic": "appetite",
+    "title": "Days when nothing sounds good",
+    "keys": [
+      "no appetite today",
+      "not hungry today",
+      "lost my appetite",
+      "no appetite",
+      "dont feel like eating",
+      "too stressed to eat",
+      "too hot to eat",
+      "sick and not hungry",
+      "nothing sounds good",
+      "should i eat if im not hungry",
+      "my appetite is gone",
+      "hard to eat when stressed"
+    ],
+    "match": "\\b(no|lost (my )?|zero) appetite\\b|\\bappetite (is )?gone\\b|\\bnot hungry today\\b|\\b(don'?t|dont) feel like eating\\b|\\btoo (stressed|hot|tired|nauseous|sick) to eat\\b|\\bnothing sounds good\\b",
+    "body": [
+      "Some days nothing sounds good. Heat, stress, a cold, a big week or a hard workout can all shut appetite down. One low day is no big deal. The goal is to get some protein and fluids in so you do not crash, then let your appetite come back on its own.",
+      "Go for easy foods: a protein shake or a glass of milk, Greek yogurt, cottage cheese with fruit, soup with chicken, eggs on toast, a smoothie, crackers with cheese, cereal with milk. Cold foods often go down easier in the heat. Small amounts every few hours beat waiting for one big meal you will not want.",
+      "If you are sick, fluids come first, then whatever you can keep down. If your appetite stays low for more than a week or two, you are losing weight without trying, or it comes with other symptoms, check in with your doctor."
+    ],
+    "more": {
+      "example": "Hot July day after a long hike: chocolate milk at 3 p.m., Greek yogurt and berries at 5, a cold chicken wrap at 7:30. Around 65 grams of protein without a single big meal.",
+      "why": "Stress, heat and illness all shift your body's priorities away from digestion for a while. Appetite usually rebounds within a day or two.",
+      "how": "Keep a short list of your easy foods on your phone. On low days, pick one from the list every three hours."
+    },
+    "reads": [
+      "protein",
+      "water"
+    ],
+    "chips": [
+      "Small appetite, how to eat enough?",
+      "How stress affects hunger?"
+    ],
+    "related": [
+      "nr-b-098",
+      "nr-b-039"
+    ]
+  },
+  {
+    "id": "nr-b-100",
+    "topic": "appetite",
+    "title": "When you get full too fast",
+    "keys": [
+      "i get full too fast",
+      "full too quickly",
+      "get full fast",
+      "cant finish my meals",
+      "stuffed after a few bites",
+      "full after eating a little",
+      "how to eat more without feeling full",
+      "always too full to finish",
+      "feel full quickly",
+      "full after half a plate"
+    ],
+    "match": "\\b(get|getting|feel|feeling) full (too )?(fast|quick\\w*|early)\\b|\\bfull too (fast|quick\\w*|soon)\\b|\\bcan'?t finish my (meals?|plate|food)\\b|\\bstuffed after (a few|two|three) bites\\b",
+    "body": [
+      "Getting full fast is common if you naturally have a small appetite, eat a lot of high fiber food, or drink a lot with meals. If you are trying to eat more, a few tweaks make a big difference.",
+      "Eat the protein and carbs first and the vegetables last. Drink most of your water between meals instead of with them. Choose softer, more calorie dense versions: white rice instead of brown sometimes, cooked vegetables instead of big raw salads, whole milk instead of skim, a drizzle of olive oil. Spread food over four to six smaller meals instead of three big ones.",
+      "If getting full quickly is new for you, especially with pain, nausea, bloating that does not go away, or weight loss you did not plan, please get it checked by your doctor."
+    ],
+    "more": {
+      "example": "Swap a big salad with grilled chicken (very filling, fewer calories) for chicken over rice with roasted vegetables and a drizzle of oil. Same plate size, nearly double the calories.",
+      "why": "Fiber, water and air all take up space in your stomach and signal fullness. Less bulk per bite means more food fits before you feel done.",
+      "how": "Add a small snack between meals, like a handful of nuts or a glass of milk. Small and frequent beats big and occasional for small appetites."
+    },
+    "chips": [
+      "Small appetite, how to eat enough?",
+      "Is water with meals okay?"
+    ],
+    "related": [
+      "nr-b-098",
+      "nr-b-030"
+    ]
+  },
+  {
+    "id": "nr-b-101",
+    "topic": "social",
+    "title": "Cookouts and backyard barbecues",
+    "keys": [
+      "cookout and bbq tips",
+      "cookout tips",
+      "backyard bbq food",
+      "summer cookout on a diet",
+      "fourth of july food",
+      "memorial day cookout",
+      "grilling party food",
+      "hot dogs and burgers at a cookout",
+      "potato salad calories",
+      "pool party food",
+      "picnic food"
+    ],
+    "match": "\\bcook ?outs?\\b|\\bbackyard (bbq|barbecue)\\b|\\b(fourth|4th) of july\\b|\\bmemorial day\\b|\\blabor day\\b|\\bpicnics?\\b",
+    "body": [
+      "Cookouts are easy wins because the grill is usually full of protein. Burgers, chicken, brats, hot dogs, kebabs and grilled shrimp are all on the table. The calories hide in the creamy sides, the chips and dips, and the cooler full of drinks.",
+      "Build your plate: one or two grilled proteins, then the lighter sides (watermelon, corn on the cob, grilled veggies, a green or bean salad), then a scoop of the one creamy side you really love, like potato or macaroni salad. A burger with a bun and fixings is great. Two burgers and two hot dogs is a lot.",
+      "In the heat, alternate drinks with water. Beer and sugary drinks go down fast when it is hot, and dehydration makes you hungrier. Lawn games, swimming and walking around all count as movement, so jump in."
+    ],
+    "more": {
+      "example": "Cookout plate: a burger with bun, a grilled chicken breast, corn on the cob, watermelon, half a cup of potato salad and two light beers. About 1,100 to 1,200 calories with 60 grams of protein.",
+      "how": "Bring a dish you know fits your goals, like a big fruit bowl or chicken skewers. That way there is always one good option on the table.",
+      "mistake": "Grazing on chips and dip for three hours while the grill heats up. Grab a drink, step away from the snack table, and wait for the real food."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How do I eat at parties?",
+      "Alcohol and fat loss"
+    ],
+    "related": [
+      "nr-b-089",
+      "nr-b-027"
+    ]
+  },
+  {
+    "id": "nr-b-102",
+    "topic": "social",
+    "title": "Weddings, birthdays and big celebrations",
+    "keys": [
+      "eating at a wedding",
+      "wedding food on a diet",
+      "birthday dinner",
+      "celebration dinner",
+      "special occasion eating",
+      "anniversary dinner",
+      "graduation party food",
+      "how to enjoy a celebration without overeating",
+      "big event food",
+      "wedding cake on a diet",
+      "date night on a diet"
+    ],
+    "match": "\\bweddings?\\b|\\b(birthday|anniversary|celebration|graduation) (dinner|cake|meal)\\b|\\bspecial occasions?\\b|\\bdate night\\b",
+    "body": [
+      "Special occasions are for celebrating, full stop. A wedding, a birthday dinner, an anniversary, a graduation: eat the cake, raise the toast, enjoy the meal. These are the moments food is for, and they come around a handful of times a year.",
+      "A light touch keeps the day from spilling into the week. Eat normally earlier in the day with some protein, so you are not arriving starving. At the event, enjoy the parts that are special to you and skip the filler, like the dinner rolls or the passed appetizers you do not care about. And dance. Seriously, two hours of dancing is great movement.",
+      "The next morning, go right back to normal. Expect the scale to be up from salt and a late dinner, ignore it for a few days, and keep your eye on the trend."
+    ],
+    "more": {
+      "example": "Wedding day: eggs and fruit for breakfast, a normal lunch, then cocktail hour, dinner, cake and three drinks. Maybe 2,000 calories at the event. Back to normal Sunday, and the week barely moves.",
+      "how": "Pick your highlights in advance: maybe the steak and the cake, not the bread and the late night fries. Choosing ahead makes them easy to enjoy fully.",
+      "mistake": "Spending the whole celebration worrying about calories. You will remember the people and the moment, not the number."
+    },
+    "chips": [
+      "Weight up after a big meal?",
+      "Alcohol and fat loss",
+      "How do I stop feeling guilty?"
+    ],
+    "related": [
+      "nr-b-089",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-103",
+    "topic": "social",
+    "title": "Eating at someone else's house",
+    "keys": [
+      "eating at someone elses house",
+      "dinner at my in laws",
+      "eating at friends houses",
+      "dinner party as a guest",
+      "served a huge plate",
+      "visiting family food",
+      "staying with family eating",
+      "eating at my parents house",
+      "guest at dinner on a diet",
+      "dont want to be rude about food",
+      "cant control what is served"
+    ],
+    "match": "\\b(dinner|eating|eat|food) at (my )?(someone else'?s|in ?laws'?|friends?'?|parents'?|grandma'?s|mom'?s) (house|place|home)\\b|\\bstaying with (family|my parents|my in ?laws)\\b|\\bvisiting family\\b|\\bdinner at my in ?laws\\b",
+    "body": [
+      "When you are the guest, the goal is to be a good guest and still feel good after. You cannot control the menu, but you can control your portions and the rest of your day.",
+      "Easy moves: eat a normal breakfast and lunch with protein, so you are not starving at dinner. Serve yourself if you can, starting with the protein and vegetables. If someone else plates it, eat what you want, leave the rest without a fuss, and compliment the cook. Offer to bring a dish like a salad, roasted vegetables or a fruit platter, which guarantees one thing you know works.",
+      "Staying a few days? Keep your anchors: protein at breakfast (pick up Greek yogurt or eggs if you need to), walks with the family, water and a decent bedtime. Your exact routine can wait until you get home."
+    ],
+    "more": {
+      "example": "Weekend at the in laws: yogurt and fruit each morning, family walks after lunch, normal portions at dinner with one dessert. Home within a pound, and everyone had a great time.",
+      "how": "If someone asks about your eating, keep it light: I am trying to eat more protein lately. It sounds positive and usually starts a friendly chat instead of a debate.",
+      "mistake": "Eating nothing at someone's table or picking at your plate. That is more awkward than eating a normal portion and enjoying the meal."
+    },
+    "chips": [
+      "How do I say no to food?",
+      "My family eats differently"
+    ],
+    "related": [
+      "nr-b-092",
+      "nr-b-093"
+    ]
+  },
+  {
+    "id": "nr-b-104",
+    "topic": "cravings",
+    "title": "Halloween candy and other candy seasons",
+    "keys": [
+      "halloween candy",
+      "candy in the house",
+      "how to stop eating halloween candy",
+      "fun size candy calories",
+      "kids candy stash",
+      "trick or treat candy",
+      "leftover candy",
+      "easter candy",
+      "valentines chocolate",
+      "candy bowl at home"
+    ],
+    "match": "\\bhalloween\\b|\\btrick or treat\\w*\\b|\\b(fun size|leftover|easter|valentine'?s?) (candy|chocolate|candies)\\b|\\bcandy (stash|bowl|in the house)\\b",
+    "body": [
+      "Fun size candy is sneaky because each piece feels like nothing. Most are about 60 to 100 calories, and a handful a day for two weeks adds up to a few thousand calories. None of it is a problem by itself. The bowl on the counter is the problem.",
+      "Buy the candy the day of, not two weeks early, and buy the kind you do not love so it is less tempting. After the night is over, pick your favorites, set a handful aside to enjoy over the next week, and move the rest out of sight, donate it, or send it to work. Same goes for the kids' stash: a closed bin in a cupboard, not an open bowl.",
+      "When you eat it, eat it on purpose. Two or three pieces after dinner, sitting down and actually enjoyed, beats twelve pieces grabbed walking past the counter."
+    ],
+    "more": {
+      "example": "Ten fun size bars over a day is roughly 800 calories, almost a whole extra meal. Two after dinner is about 160. Same candy, very different week.",
+      "how": "Portion your picks into small bags of two or three pieces. One bag a day, enjoyed, and the rest stays put."
+    },
+    "chips": [
+      "How do I handle a sweet tooth?",
+      "Trigger foods?"
+    ],
+    "related": [
+      "nr-b-043",
+      "nr-b-062"
+    ]
+  }
+]

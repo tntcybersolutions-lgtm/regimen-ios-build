@@ -1,0 +1,852 @@
+[
+  {
+    "id": "nr-b-042",
+    "topic": "cravings",
+    "title": "Late night snacking",
+    "keys": [
+      "late night snacking",
+      "snacking at night",
+      "how do i stop eating at night",
+      "night time snacking",
+      "midnight snacks",
+      "night eating",
+      "i snack after dinner",
+      "cant stop eating at night",
+      "hungry at night",
+      "raiding the fridge at night",
+      "evening snacking",
+      "after dinner snacking",
+      "late night munchies",
+      "stop snacking at night"
+    ],
+    "match": "\\b(late ?night|night ?time|midnight|evening|after dinner)\\b.{0,15}\\b(snack\\w*|munchies|grazing)\\b|\\b(snack\\w*|munch\\w*)\\b.{0,10}\\b(at night|late at night|after dinner)\\b|\\bcan'?t stop eating at night\\b|\\bstop eating at night\\b|\\braid(ing)? the (fridge|pantry|kitchen) at night\\b",
+    "body": [
+      "Late night snacking is rarely about the late night. Most of the time it is a day that was too light on food, especially protein, followed by a tired brain and a quiet house. By 9 p.m. you are genuinely hungry, and the kitchen is right there.",
+      "Start with the day. Eat a real breakfast or lunch with protein, have an afternoon snack, and make dinner satisfying: a palm or two of protein, a fist or two of carbs, vegetables, a little fat. For a lot of people, night snacking drops by half from that alone.",
+      "Then plan the snack instead of fighting it. If you like something in the evening, budget 150 to 250 calories and enjoy it on purpose: Greek yogurt with berries, popcorn, a protein shake, cottage cheese, a couple of squares of chocolate. Then give your brain a kitchen closed signal, like brushing your teeth or making a cup of herbal tea."
+    ],
+    "more": {
+      "why": "Hunger builds through the day when meals are light, and willpower is lowest when you are tired. Night is where the two meet.",
+      "how": "For one week, jot down when you snack at night and what you ate earlier that day. The pattern usually jumps out within three or four days.",
+      "example": "Breakfast: coffee. Lunch: salad with no protein. 9 p.m.: half a sleeve of cookies. Fix: eggs at breakfast, chicken on the salad, a planned yogurt at 8:30. The cookies stop calling.",
+      "mistake": "Banning all food after 7 p.m. The clock matters far less than your daily total, and a planned evening snack often makes the whole day easier."
+    },
+    "reads": [
+      "calories",
+      "protein"
+    ],
+    "chips": [
+      "Carbs at night",
+      "High protein snacks?",
+      "Am I actually hungry?"
+    ],
+    "related": [
+      "nr-b-037",
+      "nr-b-038"
+    ]
+  },
+  {
+    "id": "nr-b-043",
+    "topic": "cravings",
+    "title": "Cravings and a sweet tooth",
+    "keys": [
+      "cravings and sweet tooth",
+      "sweet tooth",
+      "how do i handle a sweet tooth",
+      "craving sugar",
+      "craving sweets",
+      "sugar cravings",
+      "how to stop sugar cravings",
+      "always want something sweet",
+      "need something sweet after dinner",
+      "craving chocolate",
+      "i need dessert after every meal",
+      "candy cravings",
+      "how to stop craving sweets"
+    ],
+    "match": "\\bsweet tooth\\b|\\bcrav\\w* (sugar|sweets?|something sweet|chocolate|candy|dessert)\\b|\\b(sugar|sweet|chocolate|candy) cravings?\\b|\\bsomething sweet\\b",
+    "body": [
+      "A sweet tooth is not a flaw to fix. It is a preference to plan for. The goal is not to never want sugar. The goal is to enjoy sweet things in a way that fits your week and does not run your evenings.",
+      "What works: first, eat enough during the day, especially protein, because loud sugar cravings often mean you are underfed. Second, plan a daily sweet thing you actually look forward to, around 100 to 200 calories: a couple of squares of dark chocolate, a frozen yogurt bar, a protein pudding, berries with whipped cream, a small cookie. Eat it sitting down, slowly, and enjoy it.",
+      "Third, keep the big packages out of easy reach and buy single servings when you can. You are not weak for eating the second sleeve of cookies. You are human, and the sleeve was there."
+    ],
+    "more": {
+      "why": "Cutting sweets out completely tends to make them louder. Planned, regular sweets usually take the urgency away, and the cravings settle.",
+      "example": "After dinner: a cup of Greek yogurt with cocoa powder, a little honey and berries. About 200 calories, around 20 grams of protein, and it scratches the itch.",
+      "how": "Give your sweet a regular spot, like after dinner, and keep it there. Random sweet cravings often fade once your brain knows one is coming.",
+      "mistake": "Swearing off sugar on Monday and eating a whole pan of brownies on Thursday. Small and steady beats strict and explosive."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "Can I have dessert?",
+      "Why do I get cravings?",
+      "Late night snacking"
+    ],
+    "related": [
+      "nr-b-042"
+    ]
+  },
+  {
+    "id": "nr-b-044",
+    "topic": "cravings",
+    "title": "Why cravings happen",
+    "keys": [
+      "why do i get cravings",
+      "why do i have cravings",
+      "what causes cravings",
+      "constant cravings",
+      "food cravings",
+      "how do i stop cravings",
+      "cravings all the time",
+      "what are my cravings telling me",
+      "how to beat cravings",
+      "craving junk food",
+      "cravings on a diet",
+      "how to control cravings"
+    ],
+    "match": "\\b(why|what causes|stop|beat|handle|control)\\b.{0,15}\\bcravings?\\b|\\bfood cravings\\b|\\bcravings (all the time|on a diet|every day)\\b|\\bconstant cravings\\b",
+    "body": [
+      "Cravings usually come from a handful of very ordinary places: not eating enough (especially protein), going too long between meals, short sleep, stress, boredom, habit, and cues like a certain time of day or a certain couch. Only rarely is it a deep mystery about your body needing one specific food.",
+      "So treat a craving like a message and check the usual suspects. Did I eat enough today? When did I last eat? How did I sleep? Am I stressed, bored or tired? Is this the time I always snack? Fixing the cause works far better than trying to out muscle it with willpower.",
+      "And sometimes you just want the food because it is delicious. That is allowed. Have a reasonable portion, enjoy it and move on. A craving honored calmly is a much smaller deal than one fought for three hours."
+    ],
+    "more": {
+      "why": "Your brain is wired to want energy dense food when it is tired, stressed or underfed. That is survival biology, not a lack of discipline.",
+      "how": "When a craving hits, drink a glass of water and wait 10 minutes. If it is still there, eat a real portion of the thing you want, sitting down, without guilt.",
+      "example": "Craving chips every day at 3 p.m.? Usually lunch was light and early. Add 30 grams of protein to lunch or bring a planned afternoon snack, and the 3 p.m. craving often fades.",
+      "mistake": "Trying to satisfy a chocolate craving with five other foods first, then eating the chocolate anyway. Just have a bit of the chocolate."
+    },
+    "chips": [
+      "How do I handle a sweet tooth?",
+      "Why do I crave salty food?",
+      "Am I actually hungry?"
+    ],
+    "related": [
+      "nr-b-043",
+      "nr-b-037"
+    ]
+  },
+  {
+    "id": "nr-b-045",
+    "topic": "cravings",
+    "title": "Why you crave salty food",
+    "keys": [
+      "why do i crave salty food",
+      "craving salt",
+      "salty cravings",
+      "craving chips",
+      "always want salty snacks",
+      "craving salty snacks",
+      "need something salty",
+      "salt craving after a workout",
+      "craving pretzels",
+      "why do i want salt so bad"
+    ],
+    "match": "\\bcrav\\w* (salt|salty|chips|pretzels|something salty)\\b|\\bsalt(y)? cravings?\\b|\\bsomething salty\\b|\\bwant salt\\b",
+    "body": [
+      "Salty cravings usually come from one of three places: you sweat a lot and actually need some sodium back, you are tired or stressed and want crunchy comfort, or you have built a habit of chips with lunch or in front of the TV. All three are normal.",
+      "If you train hard or sweat a lot, especially in the heat, a salt craving can be real need. Salt your food, have a pickle or some salted nuts, or an electrolyte drink after long sweaty sessions. For habit and comfort cravings, go for crunch with some protein or volume: popcorn, roasted chickpeas, pretzels with string cheese, jerky, salted edamame, or a handful of chips in a bowl instead of straight from the bag.",
+      "None of these foods are off limits. Portion them, enjoy them, and notice whether the craving was really about salt or about wanting a break."
+    ],
+    "more": {
+      "why": "You lose sodium in sweat, and your body nudges you to replace it. That is why a salty snack tastes amazing after a long, sweaty workout.",
+      "example": "Three cups of air popped popcorn is about 100 calories and very crunchy. A 1 ounce bag of chips is about 150. Both fit fine.",
+      "how": "Pour chips into a bowl, put the bag away and sit down to eat them. You enjoy them more and usually eat fewer.",
+      "mistake": "Cutting salt to nothing while training hard in hot weather. You may need more, not less. If you have high blood pressure or a heart or kidney condition, follow your doctor's guidance on salt."
+    },
+    "chips": [
+      "Do I need electrolytes?",
+      "How much sodium is okay?",
+      "Why do I get cravings?"
+    ],
+    "related": [
+      "nr-b-044",
+      "nr-b-026",
+      "nr-b-027"
+    ]
+  },
+  {
+    "id": "nr-b-046",
+    "topic": "cravings",
+    "title": "Eating because you are bored",
+    "keys": [
+      "how do i stop boredom eating",
+      "boredom eating",
+      "eating when bored",
+      "i eat because im bored",
+      "bored snacking",
+      "eating out of boredom",
+      "snacking when bored at home",
+      "bored at work snacking",
+      "eating for something to do",
+      "mindless snacking when bored"
+    ],
+    "match": "\\bbored(om)?\\b.{0,20}\\b(eat\\w*|snack\\w*|munch\\w*)\\b|\\b(eat\\w*|snack\\w*) (when|because|out of|from) (i'?m |im )?bored(om)?\\b",
+    "body": [
+      "Boredom eating is your brain looking for a little hit of something, and food is the easiest one in the house. It is not a character flaw. It just helps to give that urge somewhere else to go and make food a little less automatic.",
+      "Try a quick check before you open the cupboard: would I eat an apple or some chicken right now? If yes, you are probably hungry, so eat a real snack. If only the chips sound good, you are probably bored. Then do something with your hands for 10 minutes: walk around the block, text someone, tidy one drawer, make tea, stretch.",
+      "Set up your space to help too. Keep snacks out of sight and out of the room you hang out in, keep water and gum handy, and plan snacks at set times so you are not deciding every hour."
+    ],
+    "more": {
+      "why": "Food is quick, rewarding and always there. When you are bored, your brain goes for the easiest reward, and the kitchen is usually closest.",
+      "how": "Write a short list of five non food things you can do in 10 minutes and stick it on the fridge. When the bored urge hits, do one first.",
+      "example": "Working from home and snacking every hour? Set two snack times, 10:30 and 3:00, with real portions. In between, the kitchen is closed and the water bottle is open."
+    },
+    "chips": [
+      "Am I actually hungry?",
+      "I snack all day",
+      "Stress and emotional eating"
+    ],
+    "related": [
+      "nr-b-044"
+    ]
+  },
+  {
+    "id": "nr-b-047",
+    "topic": "emotional-eating",
+    "title": "Stress and emotional eating",
+    "keys": [
+      "stress and emotional eating",
+      "emotional eating",
+      "stress eating",
+      "eating when stressed",
+      "eating when sad",
+      "comfort eating",
+      "i eat my feelings",
+      "eating when anxious",
+      "eating when upset",
+      "how to stop emotional eating",
+      "eating when lonely",
+      "stress snacking",
+      "eating to cope"
+    ],
+    "match": "\\b(emotional|stress|comfort|anxiety) (eating|eater|snacking)\\b|\\beat(ing)? (my )?(feelings|emotions)\\b|\\beat(ing)? when (i'?m |im |i feel |feeling )?(stressed|sad|anxious|upset|lonely|angry|depressed)\\b|\\beating to cope\\b",
+    "body": [
+      "Almost everyone eats for comfort sometimes. Food has been how people celebrate, grieve and calm down forever. In the kitchen I grew up in, a bad day got answered with a bowl of something warm. So I am not going to tell you to never eat your feelings. I want you to have more than one option.",
+      "When you notice the urge, pause and name what you feel: stressed, lonely, angry, tired, sad. Then ask what would actually help. Sometimes it is the food, and that is okay, so have a real portion, sit down and enjoy it. Sometimes it is a walk, a shower, a call with someone, music or ten minutes alone. A short list ready to go makes the pause easier.",
+      "If eating to cope happens most days, or you feel out of control or ashamed afterward, please talk with your doctor or a counselor. That is not something to white knuckle through, and support really helps."
+    ],
+    "more": {
+      "why": "Eating calms the stress response for a little while. It works, which is exactly why it becomes a habit. Adding other things that also work gives you choices.",
+      "how": "Keep a note for a week: what you ate outside of meals and how you were feeling. Patterns show up fast, and patterns are fixable.",
+      "example": "Tough phone call, straight to the pantry. New plan: walk around the block first, then decide. Some days you still want the snack. Some days the walk was enough.",
+      "mistake": "Following an emotional eating moment with a strict day of restriction. That adds more stress and usually feeds the cycle."
+    },
+    "chips": [
+      "Eating feels out of control",
+      "How do I stop feeling guilty?",
+      "How do I stop boredom eating?"
+    ],
+    "related": [
+      "nr-b-046",
+      "nr-b-039"
+    ]
+  },
+  {
+    "id": "nr-b-048",
+    "topic": "emotional-eating",
+    "title": "When eating feels out of control",
+    "keys": [
+      "eating feels out of control",
+      "i cant stop eating",
+      "out of control eating",
+      "i binge",
+      "binge eating",
+      "binging every night",
+      "i ate everything in the house",
+      "eating until i feel sick",
+      "i feel like i cant control my eating",
+      "bingeing",
+      "i keep bingeing",
+      "i make myself throw up",
+      "purging",
+      "restricting food",
+      "i starve myself",
+      "i barely eat"
+    ],
+    "match": "\\b(binge\\w*|bingeing|binging|purg\\w*|throw(ing)? up after (eating|meals?)|make myself (throw up|sick)|starv(e|ing) myself|out of control (eating|with food)|eating disorder)\\b",
+    "body": [
+      "Thank you for telling me. Feeling like your eating is out of control, eating far past full and feeling awful after, cutting way back on food to make up for it, or making yourself sick is really hard, and it is not something you should have to handle alone. It is not a willpower problem, and it is not your fault.",
+      "This is bigger than what I can help with here. Please talk with your doctor, or someone you trust, about what has been going on. They can connect you with people who specialize in exactly this, and things can get better with the right support. You can also look up an eating disorder support line in your country.",
+      "In the meantime, be gentle with yourself. Keep eating regular meals rather than skipping to make up for anything, and it is okay to step away from tracking and the scale for now. I am still here for simple food ideas with no numbers whenever you want them."
+    ],
+    "more": {
+      "why": "Patterns like these usually involve much more than food: stress, emotions, past dieting and how you feel about your body. People trained in this can help with all of it, which a meal plan cannot.",
+      "how": "If saying it out loud feels hard, you can start with something like: I have been struggling with my eating and I would like some help. That is enough to open the door.",
+      "mistake": "Trying to fix it with a stricter plan or more tracking. Restriction tends to make these patterns stronger, not weaker."
+    },
+    "chips": [
+      "Stress and emotional eating",
+      "How do I stop feeling guilty?"
+    ],
+    "related": [
+      "nr-b-047"
+    ]
+  },
+  {
+    "id": "nr-b-049",
+    "topic": "weekends",
+    "title": "Why weekends undo your week",
+    "keys": [
+      "why do weekends undo my week",
+      "weekends ruin my progress",
+      "weekend eating",
+      "good all week then blow it on the weekend",
+      "weekend overeating",
+      "how to eat on weekends",
+      "weekends are my weakness",
+      "losing during the week gaining on weekends",
+      "weekend calories",
+      "friday to sunday eating",
+      "weekend drinking and eating",
+      "saturday and sunday ruin my diet"
+    ],
+    "match": "\\bweekends?\\b.{0,30}\\b(undo\\w*|ruin\\w*|wreck\\w*|blow|weakness|overeat\\w*|calories|eating)\\b|\\b(blow it|go off the rails|fall off) (on|at|over) the weekends?\\b",
+    "body": [
+      "This is one of the most common stalls I see, and the math explains it. Run a 500 calorie deficit Monday to Friday and that is 2,500 for the week. Two weekend days at 1,250 over maintenance each wipe out the whole thing, and that is just a brunch, a few drinks, a takeout dinner and some snacking. The scale stays flat and it feels like nothing works.",
+      "The fix is not a perfect weekend. It is a planned one. Keep the anchors: protein at breakfast, your water, your steps. Pick the one or two things you are really looking forward to, like Saturday dinner out or drinks with friends, and enjoy those fully. Skip the stuff you do not care about, like the gas station snack or the third beer that is just there.",
+      "Look at your weekdays too. If they are very strict, the weekend rebound is your body and brain pushing back. A slightly bigger weekday budget often makes weekends calmer."
+    ],
+    "more": {
+      "example": "Saturday brunch +700, Saturday drinks +600, Sunday pizza +500, snacks across both days +400. That is 2,200 over, nearly the whole week's deficit. Keep the two you love most and the week works again.",
+      "how": "Log your weekends as carefully as your weekdays for two weeks. Most people are surprised where the extra comes from.",
+      "why": "Routine protects weekdays: work, meal prep, schedules. Weekends remove the structure, add social food and drinks, and often cut sleep.",
+      "mistake": "Barely eating on Monday to make up for Sunday. It sets up the same cycle next weekend. Go straight back to your normal plan."
+    },
+    "reads": [
+      "weight",
+      "range"
+    ],
+    "chips": [
+      "The 80/20 approach",
+      "Alcohol and fat loss",
+      "How do I eat at parties?"
+    ],
+    "related": [
+      "nr-b-010",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-050",
+    "topic": "guilt",
+    "title": "Letting go of food guilt",
+    "keys": [
+      "how do i stop feeling guilty",
+      "food guilt",
+      "feel guilty after eating",
+      "guilty about what i ate",
+      "ashamed of eating",
+      "i feel bad after eating",
+      "guilt after a cheat meal",
+      "regret eating",
+      "feel guilty eating dessert",
+      "feeling guilty about food",
+      "why do i feel guilty when i eat",
+      "guilt and food"
+    ],
+    "match": "\\b(guilt|guilty|ashamed|shame|regret)\\b.{0,30}\\b(eat\\w*|food|ate|meal|dessert|snack\\w*)\\b|\\bfood guilt\\b",
+    "body": [
+      "Let's start here: food is not a moral test, and you did not do anything wrong by eating. You ate. That is it. Guilt turns eating into a trial, and the verdict usually becomes either restriction or more eating, and neither one helps your goals.",
+      "Try swapping the guilt question (was I good or bad?) for a coach's question: what did I learn, and what is my next meal? Maybe you were really hungry because lunch was small. Maybe that birthday cake was worth it. Maybe you were exhausted. All useful. None of it needs punishment.",
+      "Then do the next normal thing: log it if you track, drink some water, and eat your next planned meal like nothing happened. Because nothing much did. One meal does not undo a week, and a week does not undo a month."
+    ],
+    "more": {
+      "why": "Guilt feeds all or nothing thinking, which is what turns one slice into the whole pizza and one day into a whole week. Calm keeps the damage small.",
+      "how": "Notice your words. Swap I was bad for I had pizza. Swap I ruined it for I went over today. Plain facts keep the drama out of planning.",
+      "example": "Two slices of cake at a party. Guilt version: whatever, the day is ruined, and it becomes a 2,000 calorie evening. Calm version: enjoyed the cake, normal dinner, done.",
+      "mistake": "Skipping your next meal to make up for it. That sets up the next round of overeating. Eat normally."
+    },
+    "chips": [
+      "I blew it today, now what?",
+      "Is any food actually bad?",
+      "The 80/20 approach"
+    ],
+    "related": [
+      "nr-b-047",
+      "nr-b-048"
+    ]
+  },
+  {
+    "id": "nr-b-051",
+    "topic": "guilt",
+    "title": "Getting out of the all or nothing trap",
+    "keys": [
+      "i blew it today now what",
+      "i blew my diet",
+      "the day is ruined",
+      "already ruined today",
+      "all or nothing",
+      "start again monday",
+      "ill start monday",
+      "i messed up my diet",
+      "fell off the wagon",
+      "screwed up my diet today",
+      "one bad meal ruined my day",
+      "might as well keep eating"
+    ],
+    "match": "\\b(blew|blown|ruined|ruin|wrecked|messed up|screwed up) (it|my diet|my day|the day|today|everything)\\b|\\ball or nothing\\b|\\b(start|starting) (again |over )?(on )?monday\\b|\\bfell off (the wagon|track)\\b|\\bmight as well keep eating\\b",
+    "body": [
+      "You did not blow it. You had a meal or a day that went over. The only way it becomes a real problem is if I blew it turns into so I might as well keep going until Monday. That thinking does far more damage than the original meal ever could.",
+      "Picture a flat tire. You would not slash the other three. Same here: the moment you notice, the next choice is the normal one. Next meal, protein and vegetables. Next drink, water. Tonight, a decent bedtime. Tomorrow, your usual plan. No restart needed, because nothing actually stopped.",
+      "The people who do well long term are not the ones who never go over. They are the ones who go back to normal the very next meal, without drama. Practice that and you are pretty much unbeatable."
+    ],
+    "more": {
+      "why": "All or nothing thinking treats your goal like a streak that can be broken. Fat loss is an average, and averages forgive single days easily.",
+      "example": "Lunch was a 1,200 calorie burger and fries. All or nothing: snacks all afternoon, pizza at night, 4,000 for the day. Next meal normal: about 2,300 for the day, and the week barely notices.",
+      "how": "Save one line in your phone: next meal, normal meal. Read it the moment you think you blew it.",
+      "mistake": "Waiting for Monday, the first of the month, or after the trip. The best restart time is your next meal."
+    },
+    "chips": [
+      "How do I get back on track?",
+      "How do I stop feeling guilty?",
+      "Why do weekends undo my week?"
+    ],
+    "related": [
+      "nr-b-050",
+      "nr-b-049"
+    ]
+  },
+  {
+    "id": "nr-b-052",
+    "topic": "guilt",
+    "title": "How to get back on track",
+    "keys": [
+      "how do i get back on track",
+      "get back on track",
+      "back on track after a bad week",
+      "fell off for a month",
+      "restart my diet",
+      "how to start again",
+      "lost motivation to eat healthy",
+      "how to get back into healthy eating",
+      "been eating badly for weeks",
+      "coming back after a break from tracking",
+      "starting over with food",
+      "bad week of eating"
+    ],
+    "match": "\\b(get|getting|got|back) (back )?on track\\b|\\brestart(ing)? (my )?(diet|eating|tracking)\\b|\\b(start|starting) over with food\\b|\\bget back into (healthy )?eating\\b",
+    "body": [
+      "Easiest version first: you do not need to start over. You need to start with the next meal. No cleanse, no perfect Monday, no making up for the last few weeks. One normal, decent meal, then another.",
+      "Pick three anchors for this week and let everything else slide: protein at every meal, your water, and a daily walk. That is it. Log if you like, but do not overhaul your whole life on day one. Next week, add one thing, like prepping two lunches or getting to bed 30 minutes earlier.",
+      "Expect the scale to be up a bit if you have been off for a while, mostly water. Give it two weeks of the anchors before you read anything into the trend. Momentum comes from small wins stacked up, not from one heroic day."
+    ],
+    "more": {
+      "why": "Big restarts feel exciting for three days and then collapse under real life. Small anchors are boring enough to survive a busy week.",
+      "example": "Week one: eggs or yogurt at breakfast, chicken or tuna at lunch, a palm of protein at dinner, 2.5 liters of water, a 20 minute walk. Week two: add Sunday prep for three lunches.",
+      "beginner": "If three anchors feels like a lot, start with one: protein at breakfast. Get that every day for a week and the rest gets easier.",
+      "mistake": "Trying to undo the damage with a very low calorie week. It makes you hungrier and usually leads straight back to the same spot."
+    },
+    "reads": [
+      "protein",
+      "water"
+    ],
+    "chips": [
+      "I blew it today, now what?",
+      "Easy high protein breakfasts?",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-b-051",
+      "nr-b-050",
+      "nr-b-017"
+    ]
+  },
+  {
+    "id": "nr-b-053",
+    "topic": "guilt",
+    "title": "The 80/20 approach to eating",
+    "keys": [
+      "the 80/20 approach",
+      "80/20 rule",
+      "80 20 rule",
+      "eating 80 percent healthy",
+      "balance in my diet",
+      "can i eat what i want sometimes",
+      "flexible dieting",
+      "how to eat in moderation",
+      "allowing treats",
+      "treats on a diet",
+      "how often can i have treats",
+      "is it okay to have treats",
+      "treat foods in my week"
+    ],
+    "match": "\\b80 ?[/ -]? ?20\\b|\\bflexible dieting\\b|\\beat(ing)? in moderation\\b",
+    "body": [
+      "The 80/20 approach means most of your food, roughly 80 percent, is the stuff that fuels your goals: protein, fruit, vegetables, whole grains, potatoes, dairy, beans. The other 20 percent is food you eat because you love it. Cookies, chips, pizza, a drink with friends. Both count, and both belong.",
+      "On a 2,000 calorie day, that is around 400 calories for whatever you want, once your protein is covered. Some people spread it out, a little treat every evening. Others save it for the weekend. Either works if your weekly average lands in your range.",
+      "The exact percentages are not the point. The point is that you never have to be perfect to make progress, and you never have to choose between your goals and your life. That is the whole way I eat."
+    ],
+    "more": {
+      "why": "Strict plans that ban favorite foods usually break, and when they break they break big. Planned room for treats keeps the whole thing sustainable.",
+      "how": "Hit your protein and eat your fruit and vegetables first. Then fit your fun food into what is left. Log both the same way, no labels.",
+      "example": "Eggs and fruit for breakfast, a chicken rice bowl for lunch, salmon and potatoes for dinner, then a 250 calorie ice cream bar at night. That is an 80/20 day and a great one.",
+      "mistake": "Treating the 20 percent as a daily minimum. It is room, not a requirement. Some days you will use none of it."
+    },
+    "reads": [
+      "range",
+      "protein"
+    ],
+    "chips": [
+      "Can I have dessert?",
+      "Why do weekends undo my week?"
+    ],
+    "related": [
+      "nr-b-050",
+      "nr-b-049"
+    ]
+  },
+  {
+    "id": "nr-b-054",
+    "topic": "hunger",
+    "title": "Telling real hunger from everything else",
+    "keys": [
+      "am i actually hungry",
+      "real hunger vs cravings",
+      "how do i know if im hungry",
+      "physical hunger vs emotional hunger",
+      "hunger cues",
+      "hunger scale",
+      "am i hungry or bored",
+      "what does real hunger feel like",
+      "signs of hunger",
+      "hungry or just craving",
+      "how to tell if im really hungry",
+      "listen to my hunger"
+    ],
+    "match": "\\b(am i|i'?m|im) (actually |really |truly )hungry\\b|\\b(real|true|physical|emotional) hunger\\b|\\bhunger (cues|scale|signals)\\b|\\bhungry or (bored|thirsty|craving|just)\\b",
+    "body": [
+      "Real hunger builds slowly, shows up in your body (an empty or growling stomach, low energy, trouble focusing, getting short tempered) and is happy with lots of different foods. The other kind, the bored, tired, stressed or habit kind, tends to hit suddenly, wants one specific thing, and lives more in your head than your stomach.",
+      "A quick test: would a plate of chicken and rice, or an apple, sound good right now? If yes, you are probably hungry, so eat something real. If only the cookies will do, it is more likely a craving. That is okay too. It just helps to know which one you are dealing with.",
+      "A 1 to 10 hunger scale helps. Aim to eat around a 3 or 4 (hungry, not starving) and stop around a 6 or 7 (satisfied, not stuffed). Waiting until you are at a 1 is how meals turn into feasts."
+    ],
+    "more": {
+      "why": "Your body sends hunger signals when it needs energy, but your brain also learns to expect food at certain times, places and moods. Both feel like hunger at first.",
+      "how": "Before eating outside of meals, drink a glass of water and wait 10 minutes. Real hunger stays or grows. Cravings often fade or change.",
+      "example": "4 p.m., stomach growling, lunch was at 11:30: real hunger, have a snack with protein. 9 p.m., just ate dinner, scrolling, want chips: probably habit or boredom.",
+      "beginner": "Spend one week just noticing. Rate your hunger before each meal and snack, no changes yet. Awareness alone shifts a lot."
+    },
+    "chips": [
+      "How do I stop boredom eating?",
+      "High protein snacks?",
+      "Why do I get hangry?"
+    ],
+    "related": [
+      "nr-b-046",
+      "nr-b-044"
+    ]
+  },
+  {
+    "id": "nr-b-055",
+    "topic": "hunger",
+    "title": "Eating in front of a screen",
+    "keys": [
+      "what is mindful eating",
+      "mindful eating",
+      "mindless eating",
+      "eating while watching tv",
+      "eating in front of the tv",
+      "eating on my phone",
+      "eating while scrolling",
+      "distracted eating",
+      "dont remember eating",
+      "eating too much while watching tv",
+      "eating in front of screens",
+      "how to eat more mindfully",
+      "eating in front of a screen"
+    ],
+    "match": "\\bmindful(ly)? eat\\w*\\b|\\beat\\w* (more )?mindfully\\b|\\bmindless (eating|snacking)\\b|\\b(eat\\w*|snack\\w*) (while|in front of|watching|on my) (the )?(tv|phone|screens?|scrolling|computer)\\b|\\bdistracted eating\\b",
+    "body": [
+      "Mindful eating just means paying attention while you eat. Not meditating over every bite, just noticing the food and how full you are getting. The opposite is eating in front of a screen, where a whole bowl disappears and your brain barely registers it happened.",
+      "Research on distracted eating is pretty consistent: people tend to eat more during the meal and feel less satisfied after, so they snack more later too. The food was eaten, but it was not really experienced.",
+      "You do not have to give up TV dinners forever. Try one meal a day with the screen off, even for 10 minutes. Put food on a plate instead of eating from the package. Take a few bites, put the fork down and notice the taste. If you snack while watching, portion it into a bowl first and leave the bag in the kitchen."
+    ],
+    "more": {
+      "why": "Fullness signals take around 20 minutes to catch up, and they are easier to miss when your attention is somewhere else. Paying attention helps you notice them in time.",
+      "how": "Pick the meal that is easiest to protect, often breakfast or dinner, and make it your no screen meal for a week.",
+      "example": "Movie night: a big bowl of popcorn and a drink, poured before the movie starts. When the bowl is done, snack time is done. The bag never comes to the couch."
+    },
+    "chips": [
+      "How to eat slowly?",
+      "Late night snacking",
+      "Am I actually hungry?"
+    ],
+    "related": [
+      "nr-b-054",
+      "nr-b-042"
+    ]
+  },
+  {
+    "id": "nr-b-056",
+    "topic": "guilt",
+    "title": "Good food, bad food, and why I skip those labels",
+    "keys": [
+      "is any food actually bad",
+      "bad foods",
+      "good foods and bad foods",
+      "foods to avoid",
+      "what foods should i never eat",
+      "forbidden foods",
+      "off limits foods",
+      "unhealthy foods",
+      "is junk food bad",
+      "foods i should cut out",
+      "should i cut out junk food",
+      "what foods are bad for you"
+    ],
+    "match": "\\b(bad|forbidden|off limits|unhealthy|junk) foods?\\b|\\bfoods? (to avoid|i should (never eat|cut out|avoid))\\b|\\bis any food\\b",
+    "body": [
+      "No single food is bad. I mean that. A food is not good or bad, it is just more or less filling, more or less nutritious and more or less calorie dense. Labeling foods as bad tends to make them more tempting and turns eating them into guilt, which is the fastest road to the all or nothing cycle.",
+      "What actually matters is the pattern. Mostly protein, fruit, vegetables, whole grains, potatoes, beans and dairy, with room for the fun stuff, is a great pattern. A cookie inside that pattern does nothing to your health or your goals. A diet of mostly cookies is a different story, not because cookies are evil, but because there is no room left for the protein and fiber you need.",
+      "So instead of a list of foods to avoid, think of foods to eat more of, and foods to enjoy in portions that fit. Everything is allowed. Not everything is everyday."
+    ],
+    "more": {
+      "why": "When a food is forbidden, your brain treats it as scarce, and scarce things feel urgent. Allowed foods lose a lot of their pull.",
+      "example": "Chips are not bad. A family size bag is around 1,500 calories and not very filling, so it is easy to overshoot. A measured bowl next to a turkey sandwich fits any plan.",
+      "how": "Swap I can't have that for I am choosing this instead right now. Same choice, much less pressure."
+    },
+    "chips": [
+      "The 80/20 approach",
+      "How do I stop feeling guilty?",
+      "Can I have dessert?"
+    ],
+    "related": [
+      "nr-b-050",
+      "nr-b-053"
+    ]
+  },
+  {
+    "id": "nr-b-057",
+    "topic": "hunger",
+    "title": "Why you get hangry and how to stop it",
+    "keys": [
+      "why do i get hangry",
+      "hangry",
+      "irritable when hungry",
+      "angry when hungry",
+      "shaky when hungry",
+      "cranky before lunch",
+      "headache when i dont eat",
+      "low energy between meals",
+      "crash before dinner",
+      "get grumpy when hungry",
+      "lightheaded when hungry"
+    ],
+    "match": "\\bhangry\\b|\\b(irritable|angry|cranky|grumpy|shaky|lightheaded|light headed) (when|if|because) (i'?m |im |i get |i am )?hungry\\b",
+    "body": [
+      "Hangry is real, and it usually means you went too long without eating or your last meal had little staying power. A meal of mostly quick carbs, like a pastry or plain white toast, can leave you running on fumes a couple of hours later.",
+      "The fix is steadier meals. Build each one with protein plus some fiber (fruit, vegetables, beans or whole grains) and a little fat. Those digest slower and keep your energy even. Space meals around every three to five hours, and keep a protein snack ready for the long stretches, like between a noon lunch and a 7 p.m. dinner.",
+      "If you feel shaky, sweaty, confused or faint when you go without food, or it happens often even with regular meals, bring it up with your doctor."
+    ],
+    "more": {
+      "why": "When you have not eaten in a while, your energy dips and your stress response kicks in to help. That same response makes you irritable and impatient.",
+      "example": "Lunch at 12, dinner at 7:30, meltdown at 5? Add a 4 p.m. snack: Greek yogurt and an apple, or a protein bar and a banana. Calmer evening, smaller dinner.",
+      "how": "Pack the snack in the morning. Hangry you at 4 p.m. will not make good choices, so morning you makes them instead."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein snacks?",
+      "Am I actually hungry?"
+    ],
+    "related": [
+      "nr-b-054"
+    ]
+  },
+  {
+    "id": "nr-b-058",
+    "topic": "hunger",
+    "title": "When you snack all day",
+    "keys": [
+      "i snack all day",
+      "snacking all day",
+      "grazing all day",
+      "cant stop snacking",
+      "picking at food all day",
+      "constant snacking",
+      "always snacking",
+      "nibbling all day",
+      "how do i stop snacking",
+      "too many snacks",
+      "i snack too much",
+      "grazing vs meals"
+    ],
+    "match": "\\b(snack\\w*|graz\\w*|nibbl\\w*|pick(ing)? at food) all day\\b|\\b(constant|constantly|always) (snack\\w*|graz\\w*|nibbl\\w*)\\b|\\bstop snacking\\b|\\bsnack too much\\b",
+    "body": [
+      "Grazing is not wrong, but it makes it really hard to know how much you have eaten. A handful here, a bite there, and by dinner you have had a whole meal's worth of calories without ever feeling like you ate. It also tends to run light on protein.",
+      "Try giving your day some shape: three meals and one or two planned snacks at roughly set times. Make each meal satisfying with protein so you are not hunting for food an hour later. Outside those times the kitchen is closed, which honestly takes a lot of decisions off your plate.",
+      "If you love snacking, lean into it on purpose. Four or five smaller planned eats, each with some protein, works fine. The difference is that you planned them and put them on a plate."
+    ],
+    "more": {
+      "why": "Small bites do not feel like eating, so your brain does not count them as a meal. You end up hungry at dinner anyway, even though you ate plenty.",
+      "how": "For three days, log every bite, even single crackers. Most grazers find 300 to 600 calories they did not know about.",
+      "example": "Instead of picking from 9 to 5: breakfast at 7, yogurt at 10, lunch at 12:30, an apple and cheese stick at 3:30, dinner at 6:30.",
+      "mistake": "Leaving food out on the counter or desk. Out of sight really is out of mind for most people."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "High protein snacks?",
+      "How do I stop boredom eating?",
+      "Eating at your desk"
+    ],
+    "related": [
+      "nr-b-046",
+      "nr-b-054"
+    ]
+  },
+  {
+    "id": "nr-b-059",
+    "topic": "hunger",
+    "title": "Bites, licks and tastes add up",
+    "keys": [
+      "eating my kids leftovers",
+      "finishing my kids food",
+      "picking while cooking",
+      "tasting while cooking",
+      "do bites count",
+      "bites licks and tastes",
+      "eating off my kids plate",
+      "snacking while making dinner",
+      "do little bites add up",
+      "eating scraps",
+      "nibbling while cooking"
+    ],
+    "match": "\\bkids'? (leftovers|plates?|food|scraps)\\b|\\b(pick\\w*|tast\\w*|snack\\w*|nibbl\\w*|eat\\w*) while (cooking|making (dinner|lunch|food)|i cook)\\b|\\bdo (little )?bites (count|add up)\\b|\\bbites,? licks\\b",
+    "body": [
+      "They count, and they add up faster than people expect. A few chicken nuggets off the kids' plates, a spoon of peanut butter while making lunches, cheese while grating, the last of the mac and cheese so it does not go to waste. That can easily be 200 to 400 calories a day without a single real meal attached.",
+      "You do not have to stop tasting your cooking. Just make it intentional. Taste with a teaspoon, not a serving spoon. Chew gum or sip something while you cook. Eat your own snack before you make the kids' dinner so you are not cooking hungry. And give leftovers a home: the fridge for tomorrow's lunch or the compost, not your mouth at 7:45 p.m.",
+      "If you know you will finish their plates anyway, plan for it and serve yourself a little less."
+    ],
+    "more": {
+      "why": "Small bites rarely feel like eating, so they do not register as a meal in your head, but they still count toward your day.",
+      "example": "Three nuggets (about 150), a few grilled cheese crusts (about 100), two spoons of peanut butter (about 190). That is 440 calories, roughly a full lunch.",
+      "how": "Clear the kids' plates straight into a container or the trash. Do not stand at the counter and finish them."
+    },
+    "chips": [
+      "I snack all day",
+      "Ten minute dinners"
+    ],
+    "related": [
+      "nr-b-058"
+    ]
+  },
+  {
+    "id": "nr-b-060",
+    "topic": "emotional-eating",
+    "title": "Using food as a reward",
+    "keys": [
+      "i reward myself with food",
+      "food as a reward",
+      "treat myself after a workout",
+      "i deserve a treat",
+      "reward myself after the gym",
+      "rewarding myself with food",
+      "earned a treat",
+      "celebrate with food",
+      "treat after a hard day",
+      "reward food"
+    ],
+    "match": "\\breward(ing)? (myself|yourself)\\b.{0,20}\\b(food|treats?|snacks?|eat\\w*)\\b|\\bfood as a reward\\b|\\b(deserve|earned) (a |this )?treat\\b|\\btreat (myself|yourself) after\\b",
+    "body": [
+      "Enjoying a treat is great. Using food as the main way you reward yourself can get tricky, because then every good day, finished workout or rough afternoon ends with food, and those add up. It also quietly frames workouts as something you pay for with snacks.",
+      "Keep food rewards, just not as the only option. Build a short list of rewards that are not food: a new playlist, a long shower, a book, new gym socks, an episode of your show, a nicer water bottle, an hour alone. Save the food treats for things that really are worth it to you, and enjoy those without guilt.",
+      "When you do have the treat, make it the one you actually want, sit down with it and savor it. A treat eaten in the car in three bites does not feel like a reward at all."
+    ],
+    "more": {
+      "why": "When food is the main reward, your brain starts linking every win and every stress with eating. Spreading rewards around keeps food in its place: enjoyable, not automatic.",
+      "example": "Hit all your workouts this month? Reward yourself with the lifting shoes you have been eyeing, plus your favorite pizza on Friday, planned and enjoyed.",
+      "mistake": "Thinking a workout earns a huge treat. A one hour lift burns maybe 200 to 400 calories, and a large shake and fries can be 1,000 or more. Train because it makes you strong, eat for fuel and joy."
+    },
+    "chips": [
+      "The 80/20 approach",
+      "Stress and emotional eating"
+    ],
+    "related": [
+      "nr-b-047",
+      "nr-b-053"
+    ]
+  },
+  {
+    "id": "nr-b-061",
+    "topic": "hunger",
+    "title": "Starving when you get home from work",
+    "keys": [
+      "starving when i get home",
+      "hungry after work",
+      "snacking when i get home",
+      "raiding the pantry after work",
+      "5pm snack attack",
+      "eating everything after work",
+      "home from work and starving",
+      "after work hunger",
+      "snacking before dinner",
+      "overeating before dinner"
+    ],
+    "match": "\\b(starving|hungry|famished|snack\\w*|eat\\w*)\\b.{0,20}\\b(get home|after work|home from work)\\b|\\bafter (work|school) (hunger|snack\\w*)\\b|\\bsnack attack\\b",
+    "body": [
+      "If you walk in the door and eat half the pantry before dinner, your day was probably too light. Coffee for breakfast, a small lunch, nothing until 6 p.m., and your body shows up with the bill. This is a planning problem, not a willpower one.",
+      "Two easy fixes. First, eat a real lunch with protein, around 30 to 40 grams. Second, have a planned snack around 3 or 4 p.m. with protein and fiber: Greek yogurt and fruit, a protein bar and an apple, cheese and crackers, or a turkey wrap. You will walk in the door hungry for dinner, not starving.",
+      "If you still need something the moment you get home, make it part of dinner: a big salad or cut vegetables with hummus while dinner cooks, or eat the protein first."
+    ],
+    "more": {
+      "why": "Five or six hours without food after a light lunch leaves you genuinely depleted, and tired brains grab the fastest calories in reach.",
+      "how": "Put the afternoon snack in your bag in the morning, and have a dinner plan before you leave work. The worst time to decide dinner is when you are already starving.",
+      "example": "Old pattern: chips, crackers and cheese at 6:15 for about 700 calories, then dinner. New: yogurt and an apple at 3:30 for about 250, normal dinner at 6:45, no pantry stop."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "High protein snacks?",
+      "Ten minute dinners",
+      "Why do I get hangry?"
+    ],
+    "related": [
+      "nr-b-057",
+      "nr-b-058"
+    ]
+  },
+  {
+    "id": "nr-b-062",
+    "topic": "cravings",
+    "title": "Foods that are hard to stop eating",
+    "keys": [
+      "trigger foods",
+      "cant stop at one",
+      "cant have chips in the house",
+      "i eat the whole bag",
+      "i finish the whole box",
+      "one bite turns into the whole bag",
+      "foods i cant control",
+      "cant keep cookies in the house",
+      "ate the whole pint",
+      "how to deal with trigger foods",
+      "cant stop once i start"
+    ],
+    "match": "\\btrigger foods?\\b|\\bcan'?t stop (at one|once i start)\\b|\\b(eat|ate|finish(ed)?) the whole (bag|box|pint|sleeve|package|container|tub)\\b|\\bcan'?t (have|keep) .{0,15} in the house\\b",
+    "body": [
+      "Almost everyone has a food or two that is hard to stop once the package is open. For some it is chips, for others cookies, ice cream or peanut butter straight from the jar. That is not weakness. Those foods are made to be hard to stop eating.",
+      "You have a few good options, and you can pick per food. Buy single serving packs instead of family size. Portion it into a bowl and put the package away before you start. Eat it out of the house, like ice cream at the shop instead of a pint in the freezer. Or, for a stretch, simply do not keep it at home, while still enjoying it when you are out.",
+      "None of these mean the food is bad or banned forever. Many people find that once the food is allowed regularly in small amounts, it slowly loses its grip."
+    ],
+    "more": {
+      "why": "Very tasty foods with salt, sugar and fat together are easy to keep eating, and an open bag gives your brain no natural stopping point. Single portions create one.",
+      "example": "A pint of ice cream is often 1,000 calories or more. A single serving cup is about 250. Same joy, a quarter of the cost.",
+      "how": "Decide the portion before you open the package, put it in a bowl and close the package. That pause is the whole trick."
+    },
+    "chips": [
+      "Is any food actually bad?",
+      "The 80/20 approach"
+    ],
+    "related": [
+      "nr-b-056",
+      "nr-b-053",
+      "nr-b-043"
+    ]
+  }
+]

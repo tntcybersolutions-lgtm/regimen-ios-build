@@ -1,0 +1,790 @@
+[
+  {
+    "id": "nr-a-096",
+    "topic": "start",
+    "title": "Where to start if you want to eat better",
+    "keys": [
+      "where do i start with nutrition",
+      "how to start eating healthy",
+      "first steps to eating better",
+      "i eat terrible where do i start",
+      "beginner nutrition",
+      "change my diet",
+      "eat healthier",
+      "nutrition for beginners",
+      "fix my diet",
+      "start eating right",
+      "overwhelmed by nutrition"
+    ],
+    "match": "\\b(where (do i|to) start (with )?(nutrition|eating|my diet)|start(ing)? eating (healthy|healthier|better|right)|beginner nutrition|nutrition for beginners|fix my diet)\\b",
+    "body": [
+      "Start with one habit at a time, two weeks each. First: a palm or two of protein at every meal. Second: a fruit or vegetable with every meal. Third: swap most sugary drinks for water or zero calorie drinks. Fourth: plan tomorrow's food before bed.",
+      "That is it for the first two months. No counting, no cutting out foods you love. Most people see real change from those four habits alone, and every later step, like tracking or meal prep, gets easier once they are automatic."
+    ],
+    "more": {
+      "why": "Trying to change everything at once is why most diets fail by week three. One habit at a time sticks.",
+      "how": "Write the habit on a sticky note on the fridge. Check off each day you did it. Move on after two weeks of mostly checks.",
+      "example": "Week one breakfast: three eggs and an orange instead of a muffin. Same time, more protein, more fullness.",
+      "mistake": "Downloading three apps, buying a scale and a juicer, and burning out in ten days."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I build a plate?",
+      "Do I have to count calories?"
+    ],
+    "related": [
+      "nr-a-039",
+      "nr-a-035"
+    ]
+  },
+  {
+    "id": "nr-a-097",
+    "topic": "plans",
+    "title": "A sample day for fat loss",
+    "keys": [
+      "sample meal plan for fat loss",
+      "what should i eat in a day to lose weight",
+      "fat loss meal plan",
+      "meal plan to lose weight",
+      "example day of eating",
+      "full day of eating cutting",
+      "1800 calorie meal plan",
+      "what to eat to lose fat",
+      "diet plan example",
+      "cutting meal plan"
+    ],
+    "match": "\\b((sample|example) (meal plan|day)|meal plan (for|to) (fat loss|lose weight|cut)|full day of eating|(1,?[5-9]00|2,?000) calorie meal plan|cutting meal plan)\\b",
+    "body": [
+      "Here is a simple 1,800 calorie day with about 150 grams of protein. Breakfast: three eggs scrambled with spinach, one slice of toast, and an orange. Lunch: a big salad with 5 ounces of chicken, beans, salsa and a light vinaigrette. Snack: Greek yogurt with berries. Dinner: 5 ounces of salmon, a medium potato and roasted broccoli. Evening: a cheese stick and an apple.",
+      "Use it as a template, not a rulebook. Swap any protein for another protein and any carb for another carb, then adjust portions up or down to fit your own calorie target."
+    ],
+    "more": {
+      "how": "Scale it: add a cupped hand of carbs at lunch and dinner for about 2,100 calories. Remove the toast and potato for about 1,600.",
+      "why": "Protein and vegetables at every meal keep hunger manageable, which is what makes a deficit livable.",
+      "mistake": "Copying someone else's meal plan exactly even though you hate half the foods on it.",
+      "example": "Training day swap: move the potato to lunch and add a banana before the gym."
+    },
+    "reads": [
+      "calories",
+      "protein",
+      "range"
+    ],
+    "chips": [
+      "A sample day for muscle gain",
+      "How many calories should I eat?"
+    ],
+    "related": [
+      "nr-a-098",
+      "nr-a-026"
+    ]
+  },
+  {
+    "id": "nr-a-098",
+    "topic": "plans",
+    "title": "A sample day for muscle gain",
+    "keys": [
+      "sample meal plan for muscle gain",
+      "bulking meal plan",
+      "what to eat to build muscle",
+      "muscle building meal plan",
+      "full day of eating bulking",
+      "3000 calorie meal plan",
+      "meal plan to gain weight",
+      "example day for gaining",
+      "what should i eat to grow"
+    ],
+    "match": "\\b(meal plan (for|to) (muscle|gain|bulk)|bulking meal plan|muscle building meal plan|full day of eating (bulking|to gain)|(2,?[5-9]00|3,?[0-5]00) calorie meal plan)\\b",
+    "body": [
+      "A simple 2,900 calorie day with about 180 grams of protein. Breakfast: oatmeal made with milk, a scoop of protein powder, a banana and peanut butter. Lunch: a burrito bowl with rice, 6 ounces of chicken, black beans, cheese and salsa. Snack: a bagel with cream cheese and a glass of milk. Dinner: 6 ounces of lean ground beef pasta with marinara and a side salad. Evening: Greek yogurt with granola.",
+      "Make it fit your number: add or remove the bagel snack to move about 400 calories, and adjust the rice and pasta portions for finer changes."
+    ],
+    "more": {
+      "how": "Weigh in three or four mornings a week. If the weekly average is not moving up after two weeks, add 150 to 250 calories.",
+      "why": "Spreading protein across five eating times makes 180 grams feel easy instead of forced.",
+      "example": "Training day: move the bagel snack to an hour before the gym and have the yogurt after.",
+      "mistake": "Hitting big calories with fast food and sweets alone. You will gain, but much more of it will be fat."
+    },
+    "reads": [
+      "calories",
+      "protein",
+      "weight"
+    ],
+    "chips": [
+      "How to bulk without getting sloppy",
+      "Hard gainer: cannot gain weight"
+    ],
+    "related": [
+      "nr-a-061",
+      "nr-a-062"
+    ]
+  },
+  {
+    "id": "nr-a-099",
+    "topic": "plans",
+    "title": "A sample vegetarian day with enough protein",
+    "keys": [
+      "vegetarian meal plan",
+      "vegetarian high protein day",
+      "sample vegetarian day",
+      "meatless meal plan",
+      "vegetarian full day of eating",
+      "plant based meal plan high protein",
+      "vegetarian bodybuilding meal plan",
+      "no meat meal ideas"
+    ],
+    "match": "\\b(vegetarian (meal plan|full day|high protein day|bodybuilding)|meatless meal plan|plant based meal plan|sample vegetarian)\\b",
+    "body": [
+      "About 2,000 calories and 130 grams of protein. Breakfast: Greek yogurt with granola and berries, plus two eggs. Lunch: a lentil and quinoa bowl with feta, cucumber and tahini. Snack: cottage cheese with pineapple. Dinner: tofu stir fry with edamame, vegetables and rice. Evening: a protein shake with milk.",
+      "Dairy, eggs, tofu, tempeh, edamame, lentils and seitan carry the protein. Beans and grains add more on top. A protein shake makes the last 20 to 30 grams easy if you want it."
+    ],
+    "more": {
+      "how": "Build each meal around one concentrated source: Greek yogurt, cottage cheese, eggs, tofu, tempeh or seitan. Beans alone rarely get you there.",
+      "example": "Half a block of extra firm tofu is about 20 grams of protein. A cup of edamame is about 18.",
+      "mistake": "Swapping meat for pasta and cheese only. Calories climb and protein drops."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Hitting protein as a vegetarian",
+      "Plant proteins with real numbers"
+    ],
+    "related": [
+      "nr-a-010",
+      "nr-a-008"
+    ]
+  },
+  {
+    "id": "nr-a-100",
+    "topic": "micros",
+    "title": "Do you need a multivitamin",
+    "keys": [
+      "do i need a multivitamin",
+      "should i take vitamins",
+      "multivitamin",
+      "vitamins for lifters",
+      "best vitamins",
+      "vitamin d",
+      "do vitamins help",
+      "am i missing nutrients",
+      "vitamin supplements",
+      "micronutrients"
+    ],
+    "match": "\\b(multi ?vitamins?|vitamins?|micronutrients?)\\b",
+    "body": [
+      "Most people who eat a varied diet with protein, fruit, vegetables, whole grains and dairy or fortified alternatives get what they need from food. Food first is my rule. It covers vitamins, minerals and fiber together, which no pill can do.",
+      "If you think you might be low in something, like iron, vitamin D or B12, talk with your doctor. They can check with a simple blood test and tell you exactly what you need, instead of guessing. I stick to food in here."
+    ],
+    "more": {
+      "how": "Aim for at least five colors of fruits and vegetables a week, a protein at every meal, and some dairy or fortified milk most days.",
+      "why": "Foods bring vitamins and minerals packed together with fiber and other helpful parts of the plant that pills do not copy well.",
+      "example": "A week with berries, spinach, carrots, peppers, bananas, beans, eggs, fish and yogurt covers a huge range."
+    },
+    "chips": [
+      "Foods with iron",
+      "Calcium and vitamin D from food"
+    ],
+    "related": [
+      "nr-a-101",
+      "nr-a-102"
+    ]
+  },
+  {
+    "id": "nr-a-101",
+    "topic": "micros",
+    "title": "Foods with iron and why it matters for energy",
+    "keys": [
+      "foods with iron",
+      "iron rich foods",
+      "low iron foods",
+      "tired all the time iron",
+      "iron for women",
+      "iron from plants",
+      "how to get more iron",
+      "iron and energy",
+      "vegetarian iron"
+    ],
+    "match": "\\b(iron (rich|for|from|and)|foods? (with|high in) iron|low iron|more iron)\\b",
+    "body": [
+      "Iron helps carry oxygen in your blood, so running low can leave you tired and out of breath in training. Women who menstruate, vegetarians and endurance athletes are more likely to come up short.",
+      "Good sources: lean red meat, chicken thighs, tuna, eggs, lentils, beans, tofu, spinach, fortified cereals and pumpkin seeds. Pair plant iron with vitamin C, like peppers, tomatoes or citrus, to help you absorb it. If you are always tired, ask your doctor to check your iron rather than guessing."
+    ],
+    "more": {
+      "example": "A lentil salad with red peppers and a squeeze of lemon pairs plant iron with vitamin C nicely.",
+      "how": "Have coffee and tea between meals rather than with your iron rich meals; they can reduce how much you absorb.",
+      "why": "Iron carries oxygen to working muscles. Low iron makes the same workout feel much harder."
+    },
+    "chips": [
+      "Do I need a multivitamin?",
+      "Hitting protein as a vegetarian"
+    ],
+    "related": [
+      "nr-a-100"
+    ]
+  },
+  {
+    "id": "nr-a-102",
+    "topic": "micros",
+    "title": "Calcium and vitamin D from food",
+    "keys": [
+      "calcium foods",
+      "calcium without dairy",
+      "vitamin d foods",
+      "bone health diet",
+      "strong bones food",
+      "calcium for lifters",
+      "how much calcium",
+      "dairy free calcium",
+      "foods for strong bones"
+    ],
+    "match": "\\b(calcium|vitamin d|bone health|strong bones)\\b",
+    "body": [
+      "Calcium and vitamin D work together for strong bones, which matters more as you age and pairs perfectly with lifting. Dairy is the easiest calcium source: milk, yogurt and cheese. Without dairy, look to fortified soy milk, tofu made with calcium, canned salmon with bones, sardines, almonds, and leafy greens like kale and bok choy.",
+      "Vitamin D is harder from food. Fatty fish, eggs and fortified milk help, and sunshine does most of the work for many people. If you live somewhere dark or spend most days inside, ask your doctor whether you should be checked."
+    ],
+    "more": {
+      "example": "A cup of milk, a cup of Greek yogurt and an ounce of cheese gets most adults close to their daily calcium.",
+      "why": "Lifting puts healthy stress on bones, and calcium and vitamin D give them the material to respond and get stronger.",
+      "how": "Add one dairy or fortified serving to each meal: milk in oatmeal, yogurt at lunch, cheese at dinner."
+    },
+    "chips": [
+      "Dairy, lactose and protein",
+      "Do I need a multivitamin?"
+    ],
+    "related": [
+      "nr-a-086",
+      "nr-a-100"
+    ]
+  },
+  {
+    "id": "nr-a-103",
+    "topic": "energy",
+    "title": "Beating the afternoon energy crash",
+    "keys": [
+      "afternoon crash",
+      "tired after lunch",
+      "energy slump",
+      "3pm slump",
+      "sleepy after eating",
+      "food coma",
+      "low energy afternoon",
+      "foods for energy",
+      "why am i tired after lunch",
+      "energy crash after eating"
+    ],
+    "match": "\\b(afternoon (crash|slump)|(2|3) ?pm slump|energy (slump|crash)|tired after (lunch|eating)|sleepy after eating|food coma)\\b",
+    "body": [
+      "The usual culprits: a big lunch heavy on refined carbs with little protein, not drinking enough water, short sleep, and sitting for hours. Fix the lunch first. Build it around 30 to 40 grams of protein, a fist of carbs and a big pile of vegetables, and drink a glass of water with it.",
+      "Then take a 10 minute walk after lunch. It helps your blood sugar and wakes you up better than another coffee. If you still crash daily, look at your sleep; tired bodies crash no matter what you eat."
+    ],
+    "more": {
+      "example": "Swap a large pasta bowl lunch for a chicken and rice bowl with vegetables and half the rice. Most people notice the difference in two days.",
+      "why": "Large carb heavy meals with little protein or fiber digest fast, and the swing afterward can leave you sluggish.",
+      "how": "Set a reminder for a walk at 1 pm and fill a water bottle before lunch.",
+      "mistake": "Fixing the crash with a candy bar or energy drink, then crashing again at 5."
+    },
+    "reads": [
+      "water",
+      "steps"
+    ],
+    "chips": [
+      "Easy lunches that travel",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-a-043"
+    ]
+  },
+  {
+    "id": "nr-a-104",
+    "topic": "recipes",
+    "title": "Overnight oats with protein",
+    "keys": [
+      "overnight oats",
+      "protein oats",
+      "overnight oats recipe",
+      "proats",
+      "oatmeal with protein",
+      "high protein oatmeal",
+      "make ahead breakfast",
+      "oats for breakfast",
+      "oatmeal for muscle"
+    ],
+    "match": "\\b(overnight oats|proats|protein oat(s|meal)|high protein oat(s|meal))\\b",
+    "body": [
+      "My go-to breakfast for busy weeks. In a jar: half a cup of oats, half a cup of milk, half a cup of Greek yogurt, a scoop of protein powder, a spoon of chia seeds and some berries. Stir, lid, fridge. Ready in the morning.",
+      "That is about 450 calories and 40 grams of protein. Make five jars on Sunday and breakfast is done for the work week."
+    ],
+    "more": {
+      "how": "Mix the protein powder with the milk first so it does not clump, then add everything else.",
+      "example": "Flavor swaps: chocolate protein with banana and peanut butter, vanilla with blueberries and cinnamon, or apple pie with diced apple and nutmeg.",
+      "short_on_time": "Use a ready to drink protein shake as the liquid. One pour, no scooping.",
+      "beginner": "Start with one jar to test the texture. Some people like more milk, some like it thick."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Easy high protein breakfasts",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-a-041"
+    ]
+  },
+  {
+    "id": "nr-a-105",
+    "topic": "recipes",
+    "title": "Baking and cooking with protein powder",
+    "keys": [
+      "protein pancakes",
+      "baking with protein powder",
+      "protein powder recipes",
+      "protein muffins",
+      "protein mug cake",
+      "cooking with whey",
+      "protein powder in oatmeal",
+      "protein waffles",
+      "what to do with protein powder besides shakes"
+    ],
+    "match": "\\b(protein (pancakes?|muffins?|mug cake|waffles?|cookies?|brownies?)|baking with protein|protein powder (recipes|in))\\b",
+    "body": [
+      "Protein powder works in more than shakes. Stir it into oatmeal after cooking, mix it into Greek yogurt, or swap about a quarter to a third of the flour in pancakes, muffins and waffles with it.",
+      "Quick protein pancakes: one banana, two eggs, one scoop of protein powder and a quarter cup of oats, blended and cooked like normal pancakes. About 30 grams of protein. Whey can dry out baked goods, so add a little extra milk or applesauce."
+    ],
+    "more": {
+      "example": "Mug cake: one scoop protein powder, a tablespoon of cocoa, a tablespoon of flour, half a teaspoon of baking powder, an egg white and a splash of milk. Microwave 60 to 75 seconds.",
+      "how": "Stir powder into oatmeal after it cooks, not before. Heat can make it clumpy.",
+      "mistake": "Replacing all the flour with protein powder. It turns rubbery fast."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Fitting dessert into your day",
+      "Choosing a protein powder"
+    ],
+    "related": [
+      "nr-a-090",
+      "nr-a-014"
+    ]
+  },
+  {
+    "id": "nr-a-106",
+    "topic": "recipes",
+    "title": "Lighter pizza night at home",
+    "keys": [
+      "healthy pizza",
+      "high protein pizza",
+      "pizza on a diet",
+      "low calorie pizza",
+      "homemade pizza healthy",
+      "flatbread pizza",
+      "pizza and weight loss",
+      "can i eat pizza and lose weight"
+    ],
+    "match": "\\b((healthy|high protein|low calorie|homemade|lighter) pizza|pizza (on a diet|and weight loss)|flatbread pizza|eat pizza and lose)\\b",
+    "body": [
+      "Pizza fits. At home, use a whole wheat flatbread or naan, a thin layer of sauce, part skim mozzarella, and pile on protein like grilled chicken, turkey pepperoni or lean ground beef, plus vegetables. One flatbread pizza runs about 450 to 550 calories with 35 grams of protein.",
+      "Ordering out? Get a thin crust, choose a protein topping and vegetables, eat two slices with a big side salad, and enjoy every bite. Pizza night is not the problem; the half pizza standing at the counter afterward is."
+    ],
+    "more": {
+      "how": "Bake at 425 F for 8 to 10 minutes on a sheet pan until the cheese bubbles.",
+      "example": "Naan, marinara, 1 ounce of mozzarella, 3 ounces of chicken, peppers and onions: about 500 calories, 38 grams of protein.",
+      "mistake": "Skipping meals all day to save room for pizza, then eating far more than planned because you are starving."
+    },
+    "chips": [
+      "Fitting dessert into your day",
+      "Eating out without wrecking it"
+    ],
+    "related": [
+      "nr-a-107"
+    ]
+  },
+  {
+    "id": "nr-a-107",
+    "topic": "recipes",
+    "title": "Burgers and tacos that fit your goals",
+    "keys": [
+      "healthy burger",
+      "burger on a diet",
+      "taco night healthy",
+      "high protein tacos",
+      "lean burger recipe",
+      "turkey burgers",
+      "healthy taco recipe",
+      "burrito bowl recipe",
+      "lower calorie burger"
+    ],
+    "match": "\\b((healthy|lean|high protein|lower calorie) (burgers?|tacos?|burritos?)|(burgers?|tacos?) on a diet|turkey burgers?|taco night|burrito bowl recipe)\\b",
+    "body": [
+      "Burger night: 93 percent lean beef or ground turkey, a regular bun or a lettuce wrap, a slice of cheese, pickles, onions, mustard and ketchup. About 450 calories with 35 grams of protein. Add air fried potato wedges instead of fries.",
+      "Taco night: lean ground turkey or chicken with taco seasoning, corn or small flour tortillas, salsa, lettuce, a sprinkle of cheese, and plain Greek yogurt instead of sour cream. Three tacos land around 500 calories and 40 grams of protein."
+    ],
+    "more": {
+      "how": "Cook the meat in a pan with no added oil, drain any fat, then season.",
+      "example": "Burrito bowl: rice, black beans, 5 ounces of chicken, fajita peppers, salsa, a little cheese. About 600 calories and 50 grams of protein.",
+      "mistake": "Loading up on sour cream, extra cheese and chips on the side. Each one is fine; all three add 500 calories."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Lighter pizza night at home",
+      "Ten minute dinners"
+    ],
+    "related": [
+      "nr-a-106",
+      "nr-a-042"
+    ]
+  },
+  {
+    "id": "nr-a-108",
+    "topic": "recipes",
+    "title": "Pasta night with protein",
+    "keys": [
+      "high protein pasta",
+      "pasta for weight loss",
+      "healthy pasta recipe",
+      "chicken pasta",
+      "pasta and muscle",
+      "protein pasta brands",
+      "pasta portion",
+      "lighter pasta",
+      "pasta on a cut"
+    ],
+    "match": "\\b((high protein|healthy|lighter|protein) pasta|pasta (for weight loss|on a cut|portion|and muscle)|chicken pasta)\\b",
+    "body": [
+      "Pasta works on any goal when you portion the noodles and add protein. Start with about 2 ounces dry or 1 cup cooked per serving, add 4 to 6 ounces of chicken, shrimp or lean ground beef, a jar sauce like marinara, and a big handful of spinach or other vegetables.",
+      "Protein pasta made from chickpeas or lentils doubles the protein and fiber if you like the taste. A meat sauce with lean beef or turkey is the easiest high protein version for a family dinner."
+    ],
+    "more": {
+      "example": "One cup cooked pasta, 5 ounces of lean turkey in marinara, and roasted zucchini: about 520 calories and 45 grams of protein.",
+      "how": "Use a scale for the dry pasta once or twice to see what 2 ounces looks like. Most people pour double.",
+      "mistake": "Creamy Alfredo sauces poured freely. Tomato sauces are lighter; use cream sauces by the measured spoon."
+    },
+    "chips": [
+      "Burgers and tacos that fit",
+      "How to eyeball portions"
+    ],
+    "related": [
+      "nr-a-036"
+    ]
+  },
+  {
+    "id": "nr-a-109",
+    "topic": "recipes",
+    "title": "Slow cooker and Instant Pot meals for the week",
+    "keys": [
+      "slow cooker meals",
+      "crock pot recipes",
+      "instant pot recipes",
+      "pressure cooker meals",
+      "dump and go meals",
+      "slow cooker chicken",
+      "crockpot meal prep",
+      "set it and forget it meals",
+      "easy crock pot dinner"
+    ],
+    "match": "\\b(slow cooker|crock ?pot|instant pot|pressure cooker|dump and go)\\b",
+    "body": [
+      "Slow cookers are made for busy people. Put in a protein, a sauce and vegetables in the morning and dinner is waiting at night. Favorites: salsa chicken (chicken breasts plus a jar of salsa, shred after), chili with lean ground turkey and beans, pulled pork from pork loin with barbecue sauce, and chicken tortilla soup.",
+      "In an Instant Pot, most of these take 20 to 30 minutes instead of 8 hours. Either way, make a big batch and you have protein for three or four days."
+    ],
+    "more": {
+      "example": "Salsa chicken: 3 lb chicken breast and a 24 ounce jar of salsa on low for 6 hours. Shred. About 8 servings at 30 grams of protein each.",
+      "how": "Brown ground meat first for better flavor, then add everything else.",
+      "mistake": "Overfilling. Leave room at the top so it cooks evenly."
+    },
+    "chips": [
+      "Meal prep for beginners",
+      "How long does meal prep last?"
+    ],
+    "related": [
+      "nr-a-045",
+      "nr-a-046"
+    ]
+  },
+  {
+    "id": "nr-a-110",
+    "topic": "recipes",
+    "title": "Sheet pan dinners",
+    "keys": [
+      "sheet pan dinner",
+      "sheet pan meals",
+      "one pan dinners",
+      "sheet pan chicken",
+      "easy oven dinner",
+      "roasted vegetables and chicken",
+      "sheet pan salmon",
+      "one pan meal prep"
+    ],
+    "match": "\\b(sheet pan|one pan) (dinners?|meals?|chicken|salmon|meal prep)\\b",
+    "body": [
+      "One pan, one temperature, almost no dishes. Oven at 425 F. Chop a protein and vegetables into similar sizes, toss with a little oil and seasoning, spread out, and roast 20 to 25 minutes. Add quick cooking vegetables like asparagus or zucchini halfway through.",
+      "Combos I rotate: chicken thighs, potatoes and green beans with garlic; salmon, broccoli and sweet potato with lemon pepper; sausage, peppers and onions with Italian seasoning; shrimp, zucchini and cherry tomatoes with Cajun spice."
+    ],
+    "more": {
+      "how": "Line the pan with foil or parchment, do not crowd it, and flip once halfway for even browning.",
+      "example": "Chicken thighs, baby potatoes and broccoli with olive oil and garlic powder: four servings, about 35 grams of protein each.",
+      "mistake": "Cutting potatoes huge and chicken tiny. One burns while the other is raw."
+    },
+    "chips": [
+      "Cooking basics for people who never cook",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-a-071",
+      "nr-a-045"
+    ]
+  },
+  {
+    "id": "nr-a-111",
+    "topic": "recipes",
+    "title": "Stir fry in fifteen minutes",
+    "keys": [
+      "stir fry recipe",
+      "healthy stir fry",
+      "chicken stir fry",
+      "stir fry sauce",
+      "quick asian dinner",
+      "beef stir fry",
+      "shrimp stir fry",
+      "tofu stir fry",
+      "how to make stir fry"
+    ],
+    "match": "\\bstir ?fr(y|ies|ied)\\b",
+    "body": [
+      "Heat a pan very hot with a teaspoon of oil. Cook thin sliced chicken, beef, shrimp or tofu until done, then set it aside. Add frozen or fresh vegetables for three to four minutes. Toss the protein back in with a quick sauce and serve over rice.",
+      "Easy sauce: two tablespoons soy sauce, a teaspoon of honey, a teaspoon of rice vinegar, minced garlic and ginger, and a little cornstarch in water to thicken. About 50 calories for the whole pan."
+    ],
+    "more": {
+      "example": "6 ounces of chicken, a bag of frozen stir fry vegetables, the quick sauce and a cup of rice: about 550 calories, 50 grams of protein.",
+      "how": "Cut everything before you turn on the heat. Stir fry moves fast.",
+      "mistake": "Using bottled sauces freely. Some run 100 or more calories per two tablespoons; measure them."
+    },
+    "chips": [
+      "Sauces that save boring food",
+      "Ten minute dinners"
+    ],
+    "related": [
+      "nr-a-070"
+    ]
+  },
+  {
+    "id": "nr-a-112",
+    "topic": "recipes",
+    "title": "Breakfast for people who hate eggs",
+    "keys": [
+      "breakfast without eggs",
+      "i hate eggs",
+      "egg free breakfast",
+      "high protein breakfast no eggs",
+      "allergic to eggs breakfast",
+      "breakfast ideas no eggs",
+      "dont like eggs protein",
+      "cant stand eggs",
+      "breakfast besides eggs",
+      "non egg breakfast"
+    ],
+    "match": "\\b(hate eggs|breakfast without eggs|no eggs breakfast|egg free breakfast|(don'?t|do not) like eggs)\\b",
+    "body": [
+      "No eggs needed. Try Greek yogurt bowls with fruit and granola, cottage cheese with peaches or on toast, overnight oats with protein powder, a turkey sausage and cheese English muffin, smoked salmon on a bagel, a protein smoothie, or leftover dinner. Leftovers are a perfectly good breakfast.",
+      "Aim for 25 to 40 grams of protein in the morning. It sets up your whole day and makes lunch cravings much quieter."
+    ],
+    "more": {
+      "example": "Bagel thin with light cream cheese and 3 ounces of smoked salmon: about 300 calories and 22 grams of protein.",
+      "how": "Cook a double dinner the night before and eat the second portion at breakfast.",
+      "short_on_time": "A ready to drink protein shake and a banana on the way out."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Overnight oats with protein",
+      "Easy high protein breakfasts"
+    ],
+    "related": [
+      "nr-a-104",
+      "nr-a-041"
+    ]
+  },
+  {
+    "id": "nr-a-113",
+    "topic": "recipes",
+    "title": "Soups and chili that fill you up",
+    "keys": [
+      "high protein soup",
+      "healthy chili recipe",
+      "soup for weight loss",
+      "chicken soup recipe",
+      "turkey chili",
+      "filling soup",
+      "soup meal prep",
+      "low calorie soup",
+      "lentil soup"
+    ],
+    "match": "\\b((high protein|healthy|filling|low calorie|lentil|chicken) soup|soup (for weight loss|meal prep)|(turkey|healthy|lean) chili)\\b",
+    "body": [
+      "Soups and chili are some of the most filling foods for their calories, since they bring lots of water and volume. Build them with a lean protein, beans or lentils, and as many vegetables as you like.",
+      "Easy turkey chili: brown a pound of lean ground turkey with onion and garlic, add two cans of beans, a can of crushed tomatoes, chili powder, cumin and a cup of broth, and simmer 20 minutes. Four big bowls at about 400 calories and 35 grams of protein each."
+    ],
+    "more": {
+      "how": "Freeze soups in single portions. They reheat perfectly and make great work lunches.",
+      "example": "Chicken vegetable soup with shredded rotisserie chicken: a huge bowl for around 300 calories and 30 grams of protein.",
+      "why": "Bulk and water stretch your stomach, which sends fullness signals for very few calories."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "Slow cooker meals for the week"
+    ],
+    "related": [
+      "nr-a-040",
+      "nr-a-109"
+    ]
+  },
+  {
+    "id": "nr-a-114",
+    "topic": "kitchen",
+    "title": "Kitchen tools that make healthy eating easier",
+    "keys": [
+      "kitchen tools",
+      "what do i need to meal prep",
+      "meal prep containers",
+      "best kitchen gadgets",
+      "food scale recommendation",
+      "kitchen essentials",
+      "cooking equipment",
+      "what to buy for my kitchen"
+    ],
+    "match": "\\b(kitchen (tools|gadgets|essentials)|meal prep containers|cooking equipment|what (do i need|to buy) (to meal prep|for my kitchen))\\b",
+    "body": [
+      "You need less than you think. The core set: a digital food scale, a meat thermometer, two sheet pans, one large nonstick skillet, a big pot, a sharp chef's knife, a cutting board, and a stack of glass or sturdy plastic containers with lids.",
+      "Nice to have: an air fryer, a slow cooker or Instant Pot, and a blender for smoothies. Those three make busy weeks much easier, but you can eat very well without any of them."
+    ],
+    "more": {
+      "why": "A scale and thermometer remove guesswork, which is what keeps food tasty and your numbers honest.",
+      "how": "Buy containers in one size that stack. Mismatched lids are how meal prep falls apart.",
+      "beginner": "Start with the scale, a sheet pan and containers. Add the rest when you know you will use it."
+    },
+    "chips": [
+      "Should I weigh my food?",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-a-037",
+      "nr-a-045"
+    ]
+  },
+  {
+    "id": "nr-a-115",
+    "topic": "variety",
+    "title": "Eating the same meals every day",
+    "keys": [
+      "eating the same thing every day",
+      "same meals every day okay",
+      "food boredom",
+      "bored of my diet",
+      "chicken rice and broccoli every day",
+      "meal variety",
+      "is it okay to eat the same thing",
+      "tired of the same food",
+      "diet variety"
+    ],
+    "match": "\\b(same (thing|meals?|food) every day|bored of (my )?(diet|food|meals)|food boredom|chicken,? rice,? (and )?broccoli|tired of the same)\\b",
+    "body": [
+      "Repeating meals is one of the easiest ways to stay on track. Same breakfast and lunch on weekdays means fewer decisions and accurate numbers. Just rotate enough to get variety across the week, especially in fruits and vegetables.",
+      "If boredom sets in, change the flavor, not the structure: same chicken and rice, but swap in a new sauce, spice blend or vegetable each week. Keep dinner as your creative meal."
+    ],
+    "more": {
+      "how": "Pick two breakfasts, two lunches and five dinners. Rotate them for a month, then swap one out.",
+      "why": "Fewer food decisions means less willpower spent and fewer impulse choices.",
+      "mistake": "Eating plain chicken, rice and broccoli for months until you cannot face it and quit everything."
+    },
+    "chips": [
+      "Sauces that save boring food",
+      "Meal prep for beginners"
+    ],
+    "related": [
+      "nr-a-070"
+    ]
+  },
+  {
+    "id": "nr-a-116",
+    "topic": "aging",
+    "title": "Eating to stay strong after 40",
+    "keys": [
+      "nutrition after 40",
+      "protein for older adults",
+      "eating after 50",
+      "diet for aging",
+      "muscle loss with age",
+      "nutrition over 60",
+      "older adults protein",
+      "metabolism after 40 diet",
+      "staying strong as i age"
+    ],
+    "match": "\\b(nutrition|eating|protein|diet) (after|over) (40|50|60|forty|fifty|sixty)\\b|\\b(older adults?|aging) (protein|nutrition|diet)\\b",
+    "body": [
+      "As you get older, your muscles respond a little less to protein, so you need a bit more per meal to get the same effect. Aim for about 30 to 40 grams at each of three meals, plus lifting at least two or three days a week. That pairing is the best defense against losing muscle with age.",
+      "Calcium, vitamin D, fiber and fluids matter more too. Thirst can fade with age, so drink on a schedule rather than waiting to feel thirsty. Check with your doctor about anything specific to your health."
+    ],
+    "more": {
+      "why": "Muscle is what keeps you climbing stairs, carrying groceries and staying independent. Protein and lifting protect it.",
+      "example": "Breakfast of Greek yogurt and eggs, lunch of tuna salad on whole grain, dinner of chicken and vegetables: about 35 grams each.",
+      "how": "Lead every meal with the protein. Smaller appetites fill up fast, so eat it first."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much protein per meal?",
+      "Calcium and vitamin D from food"
+    ],
+    "related": [
+      "nr-a-004",
+      "nr-a-102"
+    ]
+  },
+  {
+    "id": "nr-a-117",
+    "topic": "tracking",
+    "title": "Logging food without losing your mind",
+    "keys": [
+      "how to log food",
+      "food logging tips",
+      "tracking food tips",
+      "log my meals",
+      "food diary",
+      "how to track macros",
+      "logging homemade meals",
+      "track a recipe",
+      "logging restaurant food",
+      "food tracking app tips"
+    ],
+    "match": "\\b(log(ging)? (food|my (meals|food))|food (diary|logging|journal)|track(ing)? (macros|a recipe|homemade))\\b",
+    "body": [
+      "Log as you go, not at the end of the day. Memory always rounds down. Save meals you eat often so logging them later takes one tap. For homemade recipes, log the whole batch once, then divide by servings.",
+      "Restaurant food is a best guess; pick the closest match and add a little for cooking oil. Perfect is not the goal. Consistent and roughly right is enough to see trends and make good decisions."
+    ],
+    "more": {
+      "how": "Log your next day's meals the night before. Then you are just checking them off instead of adding them up.",
+      "example": "A pot of chili logged as the full recipe, then split into six servings. Every bowl after that is one entry.",
+      "mistake": "Not logging the bad days. Those are the days that teach you the most."
+    },
+    "reads": [
+      "calories",
+      "protein"
+    ],
+    "chips": [
+      "Do I have to count calories?",
+      "Should I weigh my food?"
+    ],
+    "related": [
+      "nr-a-035",
+      "nr-a-037"
+    ]
+  }
+]

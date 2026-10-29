@@ -1,0 +1,884 @@
+[
+  {
+    "id": "nr-b-021",
+    "topic": "hydration",
+    "title": "How much water to drink in a day",
+    "keys": [
+      "how much water should i drink",
+      "how much water a day",
+      "water intake",
+      "daily water",
+      "how many liters of water",
+      "how many ounces of water",
+      "water goal",
+      "water target",
+      "how much water for my weight",
+      "gallon of water a day",
+      "should i drink a gallon of water",
+      "8 glasses of water",
+      "how much water do i need",
+      "water per day",
+      "how much water should i drink a day"
+    ],
+    "match": "\\bhow much (water|fluid)s? (should|do|a day|per day|each day)\\b|\\b(water|fluid) (intake|goal|target)\\b|\\b(gallon|liters?|ounces|oz|glasses|cups) of water (a|per|each) day\\b|\\b8 glasses\\b",
+    "body": [
+      "A solid starting point is about 30 to 35 milliliters per kilogram of body weight a day, plus roughly half a liter to a liter for every hour you train or sweat hard. For most people that lands between 2 and 3.5 liters, or about 70 to 120 ounces.",
+      "You do not need a gallon a day unless you are big, very active or out in the heat. Coffee, tea, milk, sparkling water and watery foods like fruit, soup and yogurt all count. Plain water is just the easiest way to fill the gap.",
+      "The simplest check is your pee. Pale yellow most of the day means you are in a good place. Dark yellow means drink up. Log it a bottle at a time and watch it add up."
+    ],
+    "more": {
+      "example": "At 170 pounds (77 kg): 77 times 30 to 35 is about 2.3 to 2.7 liters, roughly 80 to 90 ounces. Add about 0.75 liters on a one hour lifting day.",
+      "how": "Learn the size of a bottle you like. A 750 ml bottle three or four times a day covers most people: one before coffee, one by lunch, one by mid afternoon, one with dinner.",
+      "why": "Even mild dehydration can leave you tired, foggy and hungrier, and it makes training feel harder. Water is the cheapest performance boost there is.",
+      "mistake": "Chugging a liter right before bed to catch up. You will just be up at 3 a.m. Spread it across the day."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Does coffee count as water?",
+      "Am I drinking enough?",
+      "How much water when I train?"
+    ],
+    "related": [
+      "nr-b-009"
+    ]
+  },
+  {
+    "id": "nr-b-022",
+    "topic": "hydration",
+    "title": "What counts toward your water, coffee included",
+    "keys": [
+      "does coffee count as water",
+      "does coffee count toward water",
+      "does tea count as water",
+      "is coffee dehydrating",
+      "does caffeine dehydrate you",
+      "does coffee dehydrate you",
+      "do other drinks count as water",
+      "does milk count as water",
+      "does soda count as water",
+      "does sparkling water count",
+      "do protein shakes count as water",
+      "what counts toward my water",
+      "does food count as water"
+    ],
+    "match": "\\b(does|do|is|can) (coffee|tea|milk|soda|diet soda|sparkling water|seltzer|protein shakes?|juice|flavored water|food)\\b.{0,20}\\b(count|counts|dehydrat\\w*)\\b|\\bwhat counts (toward|as) (my )?water\\b|\\b(coffee|caffeine) dehydrat\\w*\\b",
+    "body": [
+      "Yes, mostly. Coffee and tea count toward your water. Caffeine has a mild effect on how much you pee, but if you drink coffee regularly your body adjusts and you still come out ahead on fluid. Two or three cups a day is not drying you out.",
+      "Milk, sparkling water, unsweetened flavored water, herbal tea, diet soda and protein shakes all count too. So does a lot of food: fruit, vegetables, soup, yogurt and oatmeal are mostly water. Juice, regular soda and sweet coffee drinks count for fluid, but they bring calories, so log those as food.",
+      "I still like plain water as the base. Make most of your target water or sparkling water, and let everything else fill in around it."
+    ],
+    "more": {
+      "why": "Studies comparing coffee with water in regular coffee drinkers found very little difference in hydration at moderate amounts. Huge amounts of caffeine are a different story, and they wreck sleep anyway.",
+      "how": "If you track water, count black coffee, tea and sparkling water. Drinks that already carry calories can go either way, as long as you count them the same way every day.",
+      "mistake": "Letting coffee replace water entirely. If your afternoon is three coffees and zero water, swap one for a big glass of water or something sparkling."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "How much caffeine is too much?"
+    ],
+    "related": [
+      "nr-b-021"
+    ]
+  },
+  {
+    "id": "nr-b-023",
+    "topic": "hydration",
+    "title": "How to tell if you are drinking enough",
+    "keys": [
+      "am i drinking enough",
+      "am i drinking enough water",
+      "am i dehydrated",
+      "signs of dehydration",
+      "dehydration symptoms",
+      "pee color",
+      "urine color",
+      "dark yellow pee",
+      "clear pee",
+      "how do i know if im hydrated",
+      "always thirsty",
+      "headache from not drinking water",
+      "dry mouth",
+      "how do i know if im dehydrated"
+    ],
+    "match": "\\b(am i|i'?m|im) (drinking enough|dehydrated|hydrated)\\b|\\b(signs?|symptoms?) of dehydration\\b|\\bdehydration symptoms\\b|\\b(pee|urine) color\\b|\\b(dark|clear|bright) (yellow )?(pee|urine)\\b",
+    "body": [
+      "Your pee is the easiest gauge. Pale yellow, like lemonade, most of the day means you are in good shape. Dark yellow, like apple juice, means you are behind. Totally clear on every trip can mean you are drinking more than you need, which mostly just means a lot of bathroom breaks.",
+      "Other signs you are running low: thirst, dry mouth, a dull headache, feeling tired or foggy in the afternoon, a head rush when you stand up fast, and workouts that feel harder than they should. Hunger can also show up when you are really just thirsty.",
+      "If you notice the signs, have a big glass of water now and spread the rest through the day. If you feel dizzy, confused or very unwell, especially in the heat, stop, cool down and get medical help."
+    ],
+    "more": {
+      "why": "Thirst lags a little behind what you need, especially when you are busy or training. Checking the color takes no effort and catches it early.",
+      "how": "Check at your mid morning and mid afternoon bathroom trips. If it is dark either time, drink about 500 ml over the next half hour.",
+      "example": "Coffee only, no water until lunch, headache by 2 p.m. Two big glasses and the headache is often gone within an hour."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "I hate drinking water"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-022"
+    ]
+  },
+  {
+    "id": "nr-b-024",
+    "topic": "hydration",
+    "title": "Drinking more water when you do not like water",
+    "keys": [
+      "i hate drinking water",
+      "i dont like water",
+      "water is boring",
+      "how to drink more water",
+      "tips to drink more water",
+      "i forget to drink water",
+      "how can i drink more water",
+      "make water taste better",
+      "flavored water ideas",
+      "struggle to drink water",
+      "cant drink enough water",
+      "help me drink more water"
+    ],
+    "match": "\\b(hate|dont like|don'?t like|can'?t stand) (drinking )?(plain )?water\\b|\\b(drink|get in|get) more water\\b|\\bforget to drink( water)?\\b|\\bwater (is )?boring\\b",
+    "body": [
+      "You are not alone, and you do not have to love it. You just need it to be easy. Make water the most convenient drink in your day and the amount takes care of itself.",
+      "What works for most people: a bottle you actually like, always within arm's reach. Cold water with ice. Sparkling water. A squeeze of lemon or lime, cucumber slices, frozen berries or mint. Zero sugar flavor drops if that is what gets you drinking. Herbal tea, hot or iced, counts too.",
+      "Then tie it to things you already do. A glass when you wake up, one with every meal, a bottle in the car, a refill every time you get up from your desk. Habits beat willpower here."
+    ],
+    "more": {
+      "how": "Use a bottle with time marks, or put three rubber bands around it and move one each time you finish it. Three bottles, three bands, done.",
+      "example": "Glass before coffee, bottle on the desk until lunch, sparkling water with lunch, refill at 3 p.m., glass with dinner. That is about 2.5 liters without trying hard.",
+      "mistake": "Trying to catch up at night. Front load your water so you are not up at 3 a.m.",
+      "beginner": "If you drink almost none now, add one extra glass a day this week and one more next week. Small steps stick."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Does coffee count as water?",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-022",
+      "nr-b-023"
+    ]
+  },
+  {
+    "id": "nr-b-025",
+    "topic": "hydration",
+    "title": "Water before, during and after training",
+    "keys": [
+      "how much water when i train",
+      "water during workout",
+      "should i drink water during my workout",
+      "how much water during exercise",
+      "hydration for training",
+      "drink water before a workout",
+      "water after a workout",
+      "sweat loss",
+      "how much do i sweat",
+      "weigh before and after a workout",
+      "water while lifting",
+      "how much water at the gym"
+    ],
+    "match": "\\b(water(?! retention| weight)|hydrat\\w*)\\b.{0,25}\\b(during|before|after|while|for|when i) (a |my |the )?(workout|training|train|lifting|exercise|session|run|gym)\\b|\\bsweat (loss|rate)\\b",
+    "body": [
+      "Start the session already hydrated, sip during it, and top up after. Have a glass or two in the hour or two before you train. During a typical lifting session, sip whenever you want, which usually adds up to roughly 0.5 to 1 liter an hour. After, keep drinking with your next meal.",
+      "If you sweat a lot or train long in the heat, check yourself once. Weigh before and after a session with no bathroom break in between. Every pound you lose is about 16 ounces (roughly half a liter) of fluid. Replace a little more than that over the next few hours.",
+      "For most gym sessions under an hour, plain water is all you need. Long, sweaty sessions are where electrolytes start to matter."
+    ],
+    "more": {
+      "example": "Down 1.5 pounds after a hot 75 minute session means you lost about 24 ounces. Drink around 30 to 36 ounces over the next couple of hours.",
+      "why": "Losing even a small share of your body weight in sweat can make strength and endurance work feel harder and push your heart rate up.",
+      "mistake": "Chugging a liter between sets. Your stomach will slosh. Steady sips work better.",
+      "how": "Bring a full bottle and aim to finish it by the end of the session. Refill it and finish another within an hour or two after."
+    },
+    "reads": [
+      "water",
+      "sessions"
+    ],
+    "chips": [
+      "Do I need electrolytes?",
+      "Training in the heat?"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-023"
+    ]
+  },
+  {
+    "id": "nr-b-026",
+    "topic": "electrolytes",
+    "title": "Do you need electrolytes",
+    "keys": [
+      "do i need electrolytes",
+      "electrolytes",
+      "should i take electrolytes",
+      "what are electrolytes",
+      "electrolyte drink",
+      "electrolyte powder",
+      "sports drinks",
+      "do i need a sports drink",
+      "sodium potassium magnesium",
+      "electrolytes for working out",
+      "are electrolytes worth it",
+      "salt in my water",
+      "electrolyte tablets",
+      "electrolyte packets"
+    ],
+    "match": "\\belectrolytes?\\b|\\bsports? drinks?\\b",
+    "body": [
+      "Most people do not need them for an average day or a typical one hour lifting session. Food already gives you sodium, potassium and magnesium, and plain water handles the rest. They earn their place on long or very sweaty sessions, training in the heat, anything past about 60 to 90 minutes, and days you sweat through your shirt.",
+      "If that is you, an electrolyte drink or powder with real sodium in it, during or after, helps you hold on to the water you drink. A salty snack plus water does a similar job. Sports drinks also bring sugar, which helps long endurance work and is just extra calories for a regular gym session.",
+      "If you have high blood pressure, a heart or kidney condition, or you are pregnant, check with your doctor before adding electrolyte products, since many are high in sodium."
+    ],
+    "more": {
+      "why": "Sweat is mostly water plus sodium, with smaller amounts of potassium and other minerals. Lose a lot and replace only water, and you can feel flat, crampy or headachy.",
+      "how": "Read the sodium line. Most products land somewhere between a quarter of a gram and a full gram of sodium per serving. The higher end is for heavy, salty sweaters on long, hot days.",
+      "example": "A 45 minute lift in an air conditioned gym: water. A two hour hike in July: water plus an electrolyte drink or salty snacks along the way.",
+      "mistake": "Sipping electrolyte mixes all day at a desk. You probably get plenty of sodium from food already, so save them for the sweaty days."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Training in the heat?",
+      "How much sodium is okay?"
+    ],
+    "related": [
+      "nr-b-025",
+      "nr-b-021"
+    ]
+  },
+  {
+    "id": "nr-b-027",
+    "topic": "electrolytes",
+    "title": "Hydration in the heat and for heavy sweaters",
+    "keys": [
+      "training in the heat",
+      "working out in the heat",
+      "hot weather hydration",
+      "summer hydration",
+      "heavy sweater",
+      "i sweat a lot",
+      "salty sweat",
+      "white crust on my shirt",
+      "cramping in the heat",
+      "staying hydrated in arizona",
+      "working outside in the heat",
+      "how to stay hydrated in summer",
+      "i sweat a ton",
+      "hiking in the heat"
+    ],
+    "match": "\\b(train(ing)?|work(ing)? ?out|working|lifting|running|hiking|outside) (in|during) (the )?(heat|summer|hot weather)\\b|\\b(hot weather|summer|heat) (hydration|training)\\b|\\b(heavy|salty) sweat\\w*\\b|\\bi sweat (a lot|a ton|so much)\\b",
+    "body": [
+      "Heat changes the math. You can sweat 1 to 2 liters an hour in hot weather, sometimes more, and a lot of sodium goes with it. If you train outdoors, work outside or just sweat buckets, water alone may not keep up.",
+      "Drink about 500 ml in the couple of hours before you head out. During, sip steadily, roughly 0.5 to 1 liter an hour, and add an electrolyte drink or salty snacks for anything over an hour. After, weigh yourself if you can and replace a little more than you lost. Salty sweaters (white streaks on your hat or shirt, stinging eyes) usually need more sodium than most.",
+      "Take heat seriously. Dizziness, confusion, nausea, a pounding headache or suddenly not sweating means stop, get into shade or air conditioning, cool down, and get medical help if it does not pass quickly."
+    ],
+    "more": {
+      "why": "Your body cools itself by sweating, and in the heat that cooling costs a lot of water and salt. Replace only water over many hours and your sodium can drift too low.",
+      "how": "Train early morning or evening in summer, freeze a bottle the night before, and keep an electrolyte packet in your bag for the days you go long.",
+      "example": "A 90 minute summer yard workday: two liters of water plus one electrolyte drink and a salty lunch. Far better than four liters of plain water.",
+      "beginner": "New to training in the heat? Give yourself one to two weeks of shorter, easier sessions. Your body adapts and gets better at handling it.",
+      "mistake": "Cutting salt to nothing in summer because you heard it is unhealthy. Active people in the heat often need more, not less. If you have a heart or kidney condition or high blood pressure, or are pregnant, ask your doctor what is right for you."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Do I need electrolytes?",
+      "Can I drink too much water?"
+    ],
+    "related": [
+      "nr-b-026",
+      "nr-b-025"
+    ]
+  },
+  {
+    "id": "nr-b-028",
+    "topic": "hydration",
+    "title": "Can you drink too much water",
+    "keys": [
+      "can i drink too much water",
+      "too much water",
+      "is it bad to drink a lot of water",
+      "overhydration",
+      "drinking a gallon a day",
+      "is drinking too much water dangerous",
+      "water intoxication",
+      "peeing all the time",
+      "is 4 liters of water too much",
+      "hyponatremia",
+      "how much water is too much"
+    ],
+    "match": "\\btoo much water\\b|\\bwater intoxication\\b|\\bover ?hydrat\\w*\\b|\\bhyponatremia\\b",
+    "body": [
+      "You can, but it takes a lot, usually huge amounts in a short window. Drinking several liters within a few hours, especially during long endurance events while sweating out salt, can drop your blood sodium too low. That is rare, but it is serious.",
+      "For everyday life, the guardrails are simple. Spread water across the day instead of chugging it. Do not force more than about a liter an hour. Drink to your target and to thirst, aim for pale yellow pee rather than crystal clear every time, and add sodium on long, sweaty days.",
+      "If you are hitting your target and running to the bathroom constantly, ease back a little. More is not always better. Enough is the goal."
+    ],
+    "more": {
+      "why": "Your kidneys can only clear so much water per hour. Go well past that, fast, and the extra dilutes the sodium in your blood.",
+      "example": "A gallon spread from 7 a.m. to 7 p.m. is about a third of a liter an hour, which is fine for most active adults. A gallon in two hours is not.",
+      "mistake": "Forcing huge amounts to flush out water weight. It does not burn fat, and it can make you feel awful.",
+      "how": "Headache, nausea, bloating or confusion after drinking a lot fast means stop drinking, and get medical help if it does not ease."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "Do I need electrolytes?"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-026",
+      "nr-b-023"
+    ]
+  },
+  {
+    "id": "nr-b-029",
+    "topic": "hydration",
+    "title": "Does water help you lose weight",
+    "keys": [
+      "does water help fat loss",
+      "does water help you lose weight",
+      "does drinking water burn fat",
+      "water for weight loss",
+      "drink water before meals",
+      "water before eating",
+      "does water speed up metabolism",
+      "water and fat loss",
+      "will drinking more water help me lose weight",
+      "water to curb hunger",
+      "is water good for weight loss",
+      "does cold water burn calories"
+    ],
+    "match": "\\bwater\\b(?! weight).{0,30}\\b(fat loss|lose weight|losing weight|weight loss|burns? fat|burns? calories|metabolism)\\b|\\bwater before (meals?|eating)\\b",
+    "body": [
+      "Water does not burn fat by itself, but it helps in a few real ways. It has zero calories, so swapping it for soda, juice or sweet coffee drinks can save hundreds of calories a day. A big glass before a meal can take the edge off hunger. And staying hydrated helps your energy, your training and your step count, which all matter for fat loss.",
+      "The swap is the big one. Two regular sodas a day is roughly 280 to 300 calories. Trade them for sparkling water or a diet soda and that is about a pound of fat every 12 to 14 days, with no other change.",
+      "So yes, drink your water. Just think of it as a helper, not a fat burner."
+    ],
+    "more": {
+      "why": "Thirst and hunger can feel alike, and a stomach with some water in it sends early fullness signals. Neither burns fat, but both help you eat a bit less without trying.",
+      "how": "Drink about 500 ml in the half hour before your two biggest meals. Keep a bottle on your desk so you are not mistaking thirst for snack time.",
+      "mistake": "Thinking ice water or a gallon a day melts fat. The calorie burn from drinking cold water is tiny. The real wins are the swaps and fewer thirsty snacks."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "Is water with meals okay?"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-022"
+    ]
+  },
+  {
+    "id": "nr-b-030",
+    "topic": "hydration",
+    "title": "Drinking water with meals",
+    "keys": [
+      "is water with meals okay",
+      "is it bad to drink water with meals",
+      "water with food",
+      "does water dilute stomach acid",
+      "drinking while eating",
+      "water during meals",
+      "should i drink with my meals",
+      "does water slow digestion",
+      "drink before or after eating",
+      "water with dinner"
+    ],
+    "match": "\\b(water|drink(ing)?) (with|during|while) (meals?|eating|food|dinner|lunch|breakfast)\\b|\\bdilutes? (my )?(stomach acid|digestion)\\b",
+    "body": [
+      "Totally fine, and usually helpful. The idea that water with meals dilutes your stomach acid and ruins digestion does not hold up. Your stomach adjusts to the meal, and water helps move food along and softens fiber.",
+      "Drinking with meals can also slow you down a little and help you feel full sooner, which is nice when you are trying to eat a bit less. If you are trying to eat more, on a bulk or a low appetite day, flip it: sip lightly during the meal and save the big glass for after.",
+      "The only people who might want to space it out are those who get heartburn or feel uncomfortably full with a lot of liquid at once. Sip during, drink more between meals."
+    ],
+    "more": {
+      "why": "Food needs water to be digested and moved through your gut. Fiber in particular works best with plenty of fluid.",
+      "example": "Cutting: a big glass of water before and during dinner. Bulking or low appetite: a few sips with the meal, a full glass 30 minutes later.",
+      "how": "Put a glass on the table at every meal. It is one of the easiest ways to stack up your water without thinking about it."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Does water help fat loss?",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-b-029",
+      "nr-b-021"
+    ]
+  },
+  {
+    "id": "nr-b-031",
+    "topic": "steps",
+    "title": "How many steps a day you should aim for",
+    "keys": [
+      "how many steps a day",
+      "how many steps should i get",
+      "daily steps and fat loss",
+      "10000 steps",
+      "10k steps",
+      "step goal",
+      "steps for weight loss",
+      "is 10000 steps necessary",
+      "steps per day",
+      "daily step count",
+      "how many steps to lose weight",
+      "step target",
+      "do steps help fat loss",
+      "walking for fat loss",
+      "is walking enough to lose weight"
+    ],
+    "match": "\\bhow many steps\\b|\\b(10,?000|10k|ten thousand) steps\\b|\\bstep (goal|target|count)\\b|\\bsteps?\\b.{0,20}\\b(fat loss|weight loss|lose weight)\\b|\\bwalking (for|enough to) (fat|weight|lose)\\b",
+    "body": [
+      "For most people, 7,000 to 10,000 steps a day is a great target. There is nothing magic about 10,000, but health benefits climb steadily up to around that range, and for fat loss, steps are one of the easiest ways to burn more without getting ravenous the way hard cardio can.",
+      "Start from where you are, not from a number on the internet. Take your average from the last week and add 1,000 to 2,000 a day. Hold that for two weeks, then add more if you want. Each 1,000 steps burns roughly 30 to 50 calories depending on your size, so going from 5,000 to 9,000 is about 120 to 200 extra calories a day.",
+      "On rest days, keep walking. Steps are easy on recovery, and they keep your daily burn steady when you are not training."
+    ],
+    "more": {
+      "why": "Walking is low stress, so it rarely hurts your lifting recovery or spikes your appetite, and over a week it adds up to a real chunk of your daily burn.",
+      "example": "Averaging 4,500 steps? Aim for 6,500 for two weeks, then 8,000. At a bigger body size that alone can be close to a pound of fat a month.",
+      "how": "A 10 minute walk is about 1,000 to 1,300 steps. Three short walks a day after meals gets most people an extra 3,000 to 4,000.",
+      "short_on_time": "Pace on phone calls, take the stairs, park at the back of the lot. Little bits add up to thousands by night."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "What is NEAT?",
+      "More steps with a desk job?",
+      "Is walking after meals worth it?"
+    ],
+    "related": [
+      "nr-b-012",
+      "nr-b-020"
+    ]
+  },
+  {
+    "id": "nr-b-032",
+    "topic": "steps",
+    "title": "What NEAT is and why it matters",
+    "keys": [
+      "what is neat",
+      "non exercise activity",
+      "non exercise activity thermogenesis",
+      "calories burned outside the gym",
+      "daily movement calories",
+      "fidgeting calories",
+      "does daily movement matter",
+      "how many calories do i burn moving around",
+      "why do some people burn more calories",
+      "moving more outside the gym",
+      "neat calories"
+    ],
+    "match": "\\bwhat is neat\\b|\\bneat (calories|movement|activity)\\b|\\bnon ?exercise activity\\b|\\bcalories burned outside (of )?the gym\\b|\\bfidget\\w* calories\\b",
+    "body": [
+      "NEAT stands for non exercise activity thermogenesis, which is a fancy way of saying all the calories you burn moving around outside your workouts. Walking, standing, cleaning, carrying groceries, chasing kids, pacing on calls, even fidgeting. Across a day it often burns more than your actual training.",
+      "NEAT can differ by several hundred calories a day between two people of the same size, and it quietly drops when you eat less. You sit a little more, take the elevator, skip the extra trip upstairs, and never notice. That is a big reason fat loss slows.",
+      "The fix is making it visible. Steps are the easiest way to track it. Keep your daily average steady through a cut, and nudge it up when progress slows."
+    ],
+    "more": {
+      "example": "A one hour lifting session burns maybe 200 to 400 calories. Going from 4,000 to 10,000 steps a day can add 200 to 300, and it happens every single day.",
+      "how": "Stand up every hour, take calls on your feet, walk after meals, and do chores in one active push instead of sitting through them.",
+      "why": "Your body saves energy when food is lower, and NEAT is the easiest place for it to save. Tracking steps keeps those savings from sneaking up on you."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "More steps with a desk job?"
+    ],
+    "related": [
+      "nr-b-031",
+      "nr-b-020"
+    ]
+  },
+  {
+    "id": "nr-b-033",
+    "topic": "steps",
+    "title": "Getting more steps with a desk job",
+    "keys": [
+      "more steps with a desk job",
+      "desk job steps",
+      "i sit all day",
+      "how to get more steps at work",
+      "sitting all day at work",
+      "office job steps",
+      "work from home steps",
+      "how to walk more",
+      "get my steps in",
+      "hard to get steps",
+      "walking pad",
+      "under desk treadmill",
+      "how to move more during the day"
+    ],
+    "match": "\\b(desk|office) job\\b|\\bsit(ting)? all day\\b|\\bsteps?\\b.{0,25}\\b(at work|work from home|wfh)\\b|\\b(walking pad|under ?desk treadmill)\\b|\\bget (my|more) steps\\b|\\bhow to (walk|move) more\\b",
+    "body": [
+      "A desk job can leave you at 3,000 steps by dinner without you noticing. The fix is not willpower. It is building walks into the day you already have.",
+      "Easy wins: a 10 minute walk after lunch (about 1,000 to 1,300 steps), every phone call standing or pacing, the farthest bathroom or the one on another floor, more trips to refill your water (bonus water), and a reminder to stand and walk for three minutes every hour. Working from home? Walk the block before your first call and after your last, like a fake commute.",
+      "If budget and space allow, a walking pad under a standing desk can add thousands of steps during easy work like email. The free options work just as well, though. Most people add 2,000 to 4,000 steps a day with the habits above."
+    ],
+    "more": {
+      "example": "Morning 10 minute walk, three minutes every hour for eight hours, 15 minutes after dinner: roughly 6,000 extra steps on top of normal moving around.",
+      "how": "Pick two habits this week: the after lunch walk and standing on calls. Add one more next week.",
+      "mistake": "Trying to make up 7,000 steps with one evening walk. Spreading it out is easier and breaks up long sitting."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "Eating at your desk",
+      "Is walking after meals worth it?"
+    ],
+    "related": [
+      "nr-b-031",
+      "nr-b-032"
+    ]
+  },
+  {
+    "id": "nr-b-034",
+    "topic": "steps",
+    "title": "Walking after meals",
+    "keys": [
+      "is walking after meals worth it",
+      "walk after eating",
+      "walking after dinner",
+      "post meal walk",
+      "walk after lunch",
+      "should i walk after eating",
+      "walking after meals blood sugar",
+      "walk to help digestion",
+      "10 minute walk after meals",
+      "after dinner walk",
+      "walking after food"
+    ],
+    "match": "\\bwalk(ing)? (after|post) (eating|meals?|dinner|lunch|breakfast|food)\\b|\\b(post ?meal|after dinner|after lunch) walks?\\b",
+    "body": [
+      "Yes, it is one of my favorite small habits. A 10 to 15 minute easy walk after a meal helps digestion, can ease that heavy, sleepy feeling, and helps your body handle the carbs from the meal more smoothly. It also stacks 1,000 to 2,000 steps with almost no effort.",
+      "It does not need to be fast or long. A slow lap around the block, walking the dog, or pacing while you tidy the kitchen all count. Within about 30 minutes of finishing is the sweet spot, but any time after still beats the couch.",
+      "If you can only do one, make it after dinner. That is usually the biggest meal and the longest sitting stretch of the day."
+    ],
+    "more": {
+      "why": "Working muscles pull sugar out of your blood to use as fuel, so moving after a meal smooths out the rise from it. Gentle movement also helps your gut keep things moving.",
+      "example": "Three 10 minute walks after breakfast, lunch and dinner is about 3,000 to 4,000 steps, done in pieces you barely notice.",
+      "mistake": "Going for a hard run right after a big meal. Keep it a stroll, not a workout."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "More steps with a desk job?"
+    ],
+    "related": [
+      "nr-b-031",
+      "nr-b-033"
+    ]
+  },
+  {
+    "id": "nr-b-035",
+    "topic": "steps",
+    "title": "Why your steps drop when you cut",
+    "keys": [
+      "why do my steps drop on a cut",
+      "steps dropping",
+      "moving less on a diet",
+      "tired and not moving on a cut",
+      "less active when dieting",
+      "feel lazy on a diet",
+      "no energy to walk",
+      "steps going down",
+      "keep steps up while cutting",
+      "steps while cutting",
+      "sitting more since dieting"
+    ],
+    "match": "\\bsteps?\\b.{0,25}\\b(drop\\w*|going down|went down|falling|fell)\\b|\\b(moving|move) less\\b.{0,25}\\b(diet\\w*|cut\\w*|deficit)\\b|\\bsteps? (while|on a|during a) (cut|diet)\\w*\\b",
+    "body": [
+      "Very normal. When you eat less, your body quietly saves energy by moving less. You sit a bit more, take fewer trips, fidget less, and your step count slides from 9,000 to 6,000 without a decision ever being made. That can eat a big chunk of your deficit.",
+      "The answer is a floor, not a fight. Pick a daily step number you will not go under, based on what you averaged before the cut, and check it in the early evening. If you are short, a 15 minute walk closes most of the gap.",
+      "Also look at why you are moving less. Short sleep, too big a deficit or too few carbs around training can all leave you drained. If you are dragging every day, eat a little more and sleep a little more, and the steps often come back on their own."
+    ],
+    "more": {
+      "example": "Before the cut: 9,200 a day. Three weeks in: 6,400. That is roughly 100 to 140 calories a day lost to sitting, close to a third of a typical deficit.",
+      "how": "Set your step floor in the morning, check at 6 p.m., and walk the difference before dinner. Keep it that simple.",
+      "why": "Less food and lower energy make your body economize on movement. It is not laziness, it is biology, and tracking it beats it."
+    },
+    "reads": [
+      "steps",
+      "range"
+    ],
+    "chips": [
+      "What is NEAT?",
+      "Why is weight loss slowing down?"
+    ],
+    "related": [
+      "nr-b-032",
+      "nr-b-031",
+      "nr-b-020"
+    ]
+  },
+  {
+    "id": "nr-b-036",
+    "topic": "steps",
+    "title": "Walk more or eat less for fat loss",
+    "keys": [
+      "walk more or eat less",
+      "should i do cardio or eat less",
+      "diet or exercise for weight loss",
+      "exercise vs diet",
+      "can i outwalk my diet",
+      "is it better to eat less or move more",
+      "burn it off",
+      "can i eat more if i walk more",
+      "earn my food",
+      "move more eat less",
+      "can you out exercise a bad diet"
+    ],
+    "match": "\\b(walk|move|exercise|cardio) more or eat less\\b|\\beat less or (walk|move|exercise) more\\b|\\b(diet|eating) (vs|versus|or) (exercise|cardio|walking)\\b|\\bout ?(walk|run|train|exercise) (a |my )?(bad )?diet\\b|\\bearn (my|your) food\\b",
+    "body": [
+      "A little of both is the easiest version. Food is the bigger lever because it is far easier to skip 300 calories than to walk them off, which takes roughly 6,000 to 9,000 steps. But steps keep your daily burn up, your appetite steadier and your health better, and they let the food side be less strict.",
+      "My usual setup: a moderate calorie deficit, a step floor you can hit most days, protein high, and lifting a few times a week. That combination loses fat, keeps muscle and does not leave you starving.",
+      "One thing I do not want: treating walks as a way to earn food or pay off a meal. Move because it makes you feel good and keeps the trend steady, and eat because you need fuel. They work together, not as a trade."
+    ],
+    "more": {
+      "why": "Calories eaten can climb fast with one snack. Calories burned walking climb slowly. That is why food sets the pace and movement fine tunes it.",
+      "example": "A 400 calorie deficit could be 250 less from food plus about 4,000 extra steps. Neither side feels extreme.",
+      "mistake": "Eating much less and adding hours of cardio at the same time. Hunger and fatigue climb, daily movement drops, and the plan rarely lasts."
+    },
+    "reads": [
+      "steps",
+      "range"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "How big a deficit?"
+    ],
+    "related": [
+      "nr-b-031",
+      "nr-b-032"
+    ]
+  },
+  {
+    "id": "nr-b-037",
+    "topic": "sleep",
+    "title": "How sleep changes your hunger",
+    "keys": [
+      "does sleep affect hunger",
+      "sleep and hunger",
+      "hungry when tired",
+      "hungrier after bad sleep",
+      "lack of sleep makes me hungry",
+      "sleep and weight loss",
+      "does sleep affect weight loss",
+      "tired and craving junk food",
+      "sleep deprived cravings",
+      "not sleeping enough and hungry",
+      "how much sleep for fat loss",
+      "sleep and cravings"
+    ],
+    "match": "\\bsleep\\b.{0,30}\\b(hunger|hungry|hungrier|cravings?|appetite|weight loss|fat loss)\\b|\\b(hunger|hungry|hungrier|cravings?|appetite)\\b.{0,30}\\b(sleep|tired)\\b",
+    "body": [
+      "Sleep is one of the biggest hunger dials you have. After short nights, your hunger signals shift: the one that says eat goes up, the one that says you are full goes down. Studies have found people eat a few hundred more calories after sleeping too little, and the extra tends to come from sweet, salty, quick food.",
+      "That is not a willpower problem. It is chemistry plus being tired, and tired brains want fast energy. Short sleep also makes training feel harder and your steps drop.",
+      "Aim for 7 to 9 hours. The basics do most of the work: a regular bedtime, a cool dark room, caffeine done by early afternoon, and a dinner with enough protein so you are not raiding the kitchen at 10 p.m. On nights sleep goes sideways, plan for the hunger instead of fighting it."
+    ],
+    "more": {
+      "why": "Short sleep raises ghrelin, which drives hunger, and lowers leptin, which signals fullness. It also nudges your brain toward high reward foods.",
+      "how": "Keep your bedtime and wake time within about an hour of each other every day, weekends included. Consistency helps sleep quality more than almost anything.",
+      "example": "A week of 5.5 hour nights and the snack drawer gets hit twice a day. Back to 7.5 hours and the drawer goes quiet. Same person, same willpower."
+    },
+    "chips": [
+      "Slept badly, how do I eat today?",
+      "Food for better sleep?",
+      "Late night snacking"
+    ],
+    "related": [
+      "nr-b-035",
+      "nr-b-038",
+      "nr-b-040"
+    ]
+  },
+  {
+    "id": "nr-b-038",
+    "topic": "sleep",
+    "title": "How to eat after a short night",
+    "keys": [
+      "slept badly how do i eat today",
+      "bad sleep what to eat",
+      "didnt sleep well",
+      "only slept 4 hours",
+      "tired all day what to eat",
+      "no sleep cravings",
+      "how to eat when exhausted",
+      "sleep deprived what should i eat",
+      "rough night of sleep",
+      "running on no sleep",
+      "tired and hungry"
+    ],
+    "match": "\\b(slept|sleep) (badly|bad|poorly|terribly|like crap)\\b|\\b(only|barely) slept\\b|\\b(didn'?t|didnt|did not|couldn'?t|couldnt) sleep\\b|\\b(no|little|zero) sleep\\b|\\brunning on (no|little) sleep\\b",
+    "body": [
+      "Expect to be hungrier today, and plan for it instead of white knuckling. A short night turns up cravings for quick sugar and salt, so the goal is to keep yourself fed and steady before the cravings take the wheel.",
+      "My short night game plan: a real breakfast with protein (eggs, Greek yogurt or a shake), water before your second coffee, a protein snack ready for mid afternoon, and a simple dinner you do not have to think about. Keep caffeine to the morning so tonight goes better. A 10 minute walk in daylight helps your energy more than a third coffee.",
+      "If you go over your calories a little, that is fine. One tired day is noise. What matters is getting to bed earlier tonight so it does not turn into a tired week."
+    ],
+    "more": {
+      "how": "Decide dinner at breakfast. A tired brain at 6 p.m. picks takeout. A plan made at 8 a.m. wins.",
+      "example": "Breakfast: three eggs, toast, fruit. Lunch: chicken wrap. 3 p.m.: Greek yogurt and berries. Dinner: rotisserie chicken, microwave rice, bagged salad. No willpower required.",
+      "mistake": "Skipping breakfast because you feel off, then eating everything in sight at 4 p.m. Feed yourself early on tired days."
+    },
+    "chips": [
+      "Does sleep affect hunger?",
+      "High protein snacks?"
+    ],
+    "related": [
+      "nr-b-037",
+      "nr-b-039"
+    ]
+  },
+  {
+    "id": "nr-b-039",
+    "topic": "stress",
+    "title": "How stress shows up in your hunger and your scale",
+    "keys": [
+      "stress and weight",
+      "does stress make you gain weight",
+      "stressed and gaining weight",
+      "stress and hunger",
+      "stress weight gain",
+      "cortisol weight gain",
+      "stressful week scale up",
+      "does stress affect weight loss",
+      "stressed and not hungry",
+      "stress belly",
+      "high stress week diet",
+      "stress and water retention"
+    ],
+    "match": "\\bstress(ed|ful)?\\b.{0,30}\\b(weight|scale|hunger|appetite|water retention|belly)\\b|\\bcortisol\\b",
+    "body": [
+      "Stress shows up in two places: your appetite and your water. Some people get hungrier and reach for comfort food when stressed. Others lose their appetite completely. And a stressful stretch, especially with short sleep on top, can make you hold extra water, so the scale stalls or bumps up even when you are eating well.",
+      "Neither one means you are failing. During a hard week, lower the bar on purpose: protein at every meal, easy food you do not have to think about, your water, a short walk outside, and as much sleep as you can protect. Do not start a new diet push in the middle of a crisis.",
+      "If your appetite vanishes, eat small and often so you do not crash later. If it climbs, keep satisfying, protein heavy food around so the hunger has somewhere good to land."
+    ],
+    "more": {
+      "why": "Stress hormones affect hunger, sleep and how much water you hold. That is normal biology, and it settles when the stress does.",
+      "example": "Deadline week: scale up 2 pounds on the same food. The next week, deadline done and two good nights of sleep, and it drops right back.",
+      "how": "On stressful days, pick a default meal for each slot and repeat it. Fewer food decisions means less stress and steadier eating.",
+      "mistake": "Dieting harder to make up for the bump. Stress plus a bigger deficit usually means worse sleep, more cravings and a rebound."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Stress and emotional eating",
+      "No appetite today?",
+      "Does sleep affect hunger?"
+    ],
+    "related": [
+      "nr-b-037",
+      "nr-b-009"
+    ]
+  },
+  {
+    "id": "nr-b-040",
+    "topic": "recovery",
+    "title": "What actually helps you recover",
+    "keys": [
+      "how do i recover faster",
+      "recovery tips",
+      "what helps recovery",
+      "recovery nutrition",
+      "how to recover from workouts",
+      "always sore",
+      "sore for days",
+      "best food for recovery",
+      "rest day recovery",
+      "how to reduce soreness",
+      "recover better",
+      "recovery basics"
+    ],
+    "match": "\\brecover(y)? (faster|better|tips|basics|nutrition)\\b|\\b(help|helps|improve) (my )?recovery\\b|\\b(reduce|less) soreness\\b|\\bsore for days\\b|\\balways sore\\b",
+    "body": [
+      "Recovery is mostly boring basics done most days: sleep, protein, enough food, water and easy movement. No single food or trick beats those five. When people feel beat up all the time, at least one of them is usually missing.",
+      "My checklist: sleep 7 to 9 hours. Hit your protein, spread over three or four meals. Do not run a huge deficit while training hard, and put some carbs around your sessions. Drink to your water target. Walk on rest days, because easy movement helps you feel less stiff.",
+      "Soreness for a day or two after a new or hard session is normal and fades as you adapt. If you are sore all week, every week, look at sleep and food before you blame the program. Sharp or worsening pain is a doctor or physical therapist question, not a food one."
+    ],
+    "more": {
+      "why": "Training is the signal, and recovery is where the change happens. Without enough sleep, protein and energy, your body cannot finish the repair job before the next session.",
+      "example": "Constantly sore and flat? A common fix: sleep from 6 hours to 7.5, protein from 90 to 140 grams, and a banana with yogurt before training. Within a couple of weeks most people feel the difference.",
+      "short_on_time": "If you can only fix one thing, fix sleep. It moves hunger, mood, training and recovery all at once.",
+      "mistake": "Spending money on recovery gadgets while sleeping six hours a night. Free basics first."
+    },
+    "reads": [
+      "protein",
+      "sessions"
+    ],
+    "chips": [
+      "Does sleep affect hunger?",
+      "How much protein do I need?",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-b-037",
+      "nr-b-021"
+    ]
+  },
+  {
+    "id": "nr-b-041",
+    "topic": "hydration",
+    "title": "Timing your water so you sleep through",
+    "keys": [
+      "how do i stop waking up to pee",
+      "waking up to pee",
+      "up at night to pee",
+      "when should i drink water",
+      "water timing",
+      "drink water at night",
+      "best time to drink water",
+      "stop drinking water before bed",
+      "peeing at night",
+      "water before bed",
+      "pee all night"
+    ],
+    "match": "\\b(wak(e|ing) up|up at night|up all night|getting up) to pee\\b|\\b(pee|peeing) (at|all) night\\b|\\bwater (before|at) (bed|night)\\b|\\b(best )?time to drink water\\b|\\bwhen should i drink water\\b",
+    "body": [
+      "Front load your water. Get most of it in before dinner, sip what you want in the evening, and stop the big glasses about two hours before bed. Most people sleep through once the bulk of their water moves earlier.",
+      "A simple rhythm: a big glass when you wake up, a bottle by lunch, another by mid afternoon, a glass with dinner, then small sips. If you train in the evening, drink during the session and right after, then taper off.",
+      "Watch the evening drinks that sneak up on you too: tea, sparkling water, a couple of beers. They all count. If you are still up several times a night even with less evening fluid, it is worth mentioning to your doctor."
+    ],
+    "more": {
+      "example": "Target of 3 liters: 0.5 by 9 a.m., 1.5 by noon, 2.5 by 5 p.m., the last half liter with dinner and after. Bedtime is just a few sips.",
+      "how": "Fill a bottle and put it on your desk first thing. The bottle being right there does most of the work.",
+      "why": "Your kidneys keep turning what you drink into urine for a few hours. Heavy drinking late means a full bladder at 3 a.m."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "I hate drinking water"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-024"
+    ]
+  }
+]

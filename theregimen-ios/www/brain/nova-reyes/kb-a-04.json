@@ -1,0 +1,830 @@
+[
+  {
+    "id": "nr-a-073",
+    "topic": "diets",
+    "title": "Keto and lifting",
+    "keys": [
+      "keto",
+      "keto diet",
+      "ketogenic diet",
+      "keto and lifting",
+      "keto for fat loss",
+      "does keto work",
+      "keto vs counting calories",
+      "keto muscle",
+      "low carb high fat",
+      "keto for weight loss",
+      "keto flu",
+      "can you build muscle on keto"
+    ],
+    "match": "\\b(keto(genic)?|low carb high fat|lchf|keto flu)\\b",
+    "body": [
+      "Keto works for fat loss mostly because cutting out carbs cuts out a lot of calories, and some people find it easier to manage hunger on it. It does not burn fat faster than any other diet with the same calories and protein.",
+      "For lifting, keto usually costs some performance on hard sets, sprints and high rep work, since carbs are your best fuel for those. You can still build and keep muscle on it with enough protein. If you love it and feel great, it can work. If you miss carbs and your training is flat, a regular diet with a calorie target will get you the same fat loss."
+    ],
+    "more": {
+      "why": "Fat loss comes from eating less than you burn. Keto is one way to get there, not a special shortcut.",
+      "mistake": "Eating keto but huge amounts of cheese, nuts and oils, then wondering why the scale is stuck. Calories still count.",
+      "example": "A lifter who switches to keto often loses 3 to 6 pounds in the first week. Most of that is water from lower stored carbs.",
+      "advanced": "If you do keto and lift, keep electrolytes and salt up, especially in the first two weeks, to avoid the tired, achy feeling."
+    },
+    "chips": [
+      "How many carbs should I eat?",
+      "Calories in and calories out"
+    ],
+    "related": [
+      "nr-a-032",
+      "nr-a-030"
+    ]
+  },
+  {
+    "id": "nr-a-074",
+    "topic": "diets",
+    "title": "Which diet is best for fat loss",
+    "keys": [
+      "best diet for fat loss",
+      "which diet is best",
+      "best diet to lose weight",
+      "what diet should i follow",
+      "best diet plan",
+      "diet that works",
+      "most effective diet",
+      "paleo vs keto",
+      "mediterranean diet",
+      "carnivore diet",
+      "vegan for weight loss",
+      "what diet works best"
+    ],
+    "match": "\\b(best diet|which diet|what diet|diet that works|paleo|mediterranean diet|carnivore( diet)?)\\b",
+    "body": [
+      "The best diet is the one you can stick to for a year. Keto, Mediterranean, paleo, vegan, intermittent fasting and plain calorie counting all work about equally when calories and protein match. They mostly differ in which foods they cut, which suits some people and not others.",
+      "Pick based on how you like to eat. Then make sure it gives you enough protein, plenty of plants, foods you enjoy, and room for a social life. If you find yourself white knuckling it every day, it is not the right diet for you."
+    ],
+    "more": {
+      "why": "Studies comparing diets head to head usually find similar fat loss when people stick to them. Sticking with it is the real difference.",
+      "how": "Ask three questions: Can I eat this way at a restaurant? With my family? On a busy Tuesday? If the answer is no, adjust it.",
+      "mistake": "Jumping to a new diet every month because the last one stopped working after three weeks.",
+      "beginner": "Start with no named diet at all: eat a protein at every meal, half a plate of vegetables, and fewer liquid calories. That is a great diet."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How many calories should I eat?",
+      "Do I have to count calories?"
+    ],
+    "related": [
+      "nr-a-073",
+      "nr-a-035"
+    ]
+  },
+  {
+    "id": "nr-a-075",
+    "topic": "myths",
+    "title": "Do carbs at night make you gain fat",
+    "keys": [
+      "carbs at night",
+      "eating late makes you fat",
+      "no carbs after 6",
+      "eating at night weight gain",
+      "late night eating fat",
+      "is it bad to eat late",
+      "carbs before bed",
+      "dont eat after 7pm",
+      "night time carbs",
+      "eating after 8pm"
+    ],
+    "match": "\\b(carbs? (at night|before bed|after \\d)|no carbs after|(eat|eating) (late|at night|after \\d))\\b",
+    "body": [
+      "No. Your body does not switch into fat storage mode at a certain time. Your total calories across the day and week decide whether you gain or lose. Carbs at dinner can even help some people sleep better.",
+      "Where night eating causes trouble is when it is extra eating: grazing in front of the TV after a full day of food. If you plan your dinner and an evening snack inside your calories, eat them whenever you like."
+    ],
+    "more": {
+      "why": "Calories are counted over days, not by the hour. A late dinner is the same food as an early dinner.",
+      "example": "Rice with dinner at 8 pm after training is perfect fuel for recovery and sleep.",
+      "how": "If you are always hungry at night, save 200 to 300 calories for an evening snack on purpose."
+    },
+    "chips": [
+      "Late night snacking",
+      "Late evening workout and eating"
+    ],
+    "related": [
+      "nr-a-054"
+    ]
+  },
+  {
+    "id": "nr-a-076",
+    "topic": "myths",
+    "title": "Metabolism myths and what really matters",
+    "keys": [
+      "slow metabolism",
+      "speed up metabolism",
+      "boost metabolism",
+      "my metabolism is broken",
+      "metabolism foods",
+      "starvation mode",
+      "damaged metabolism",
+      "does metabolism slow with age",
+      "fat burning foods",
+      "metabolic damage",
+      "metabolism myths"
+    ],
+    "match": "\\b(metabolism|starvation mode|metabolic damage|fat burning foods)\\b",
+    "body": [
+      "Your metabolism is not broken. It does slow a bit when you diet, because a smaller body burns less and you tend to move less without noticing. That is real but modest. Starvation mode, where you stop losing on low calories, is not how it works; people stall because intake creeps up or water hides fat loss.",
+      "What actually raises the calories you burn: more muscle, more daily steps, and more total activity. No food, tea or spice boosts it enough to matter. Walk more, lift weights, eat enough protein, and sleep well."
+    ],
+    "more": {
+      "why": "When you diet, you often fidget less, walk less and sit more. That drop in daily movement explains a lot of the slowdown.",
+      "how": "Keep your step count steady or rising while you diet. It is the biggest lever people forget.",
+      "example": "Daily steps falling from 9,000 to 5,000 during a cut can mean 150 to 250 fewer calories burned per day.",
+      "mistake": "Buying a fat burner. Save the money for groceries."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Daily steps and fat loss",
+      "Why is my weight not moving?"
+    ],
+    "related": [
+      "nr-a-077"
+    ]
+  },
+  {
+    "id": "nr-a-077",
+    "topic": "myths",
+    "title": "Spot reducing belly fat",
+    "keys": [
+      "lose belly fat",
+      "how to lose belly fat",
+      "spot reduce",
+      "lose stomach fat",
+      "burn belly fat",
+      "lower belly fat",
+      "love handles",
+      "lose fat in one area",
+      "flat stomach diet",
+      "stubborn fat",
+      "arm fat"
+    ],
+    "match": "\\b(belly fat|stomach fat|spot reduc(e|ing|tion)|love handles|stubborn fat|lower belly|arm fat|flat stomach)\\b",
+    "body": [
+      "You cannot pick where fat comes off. Crunches build your abs but do not burn the fat on top of them. Your body loses fat from everywhere in its own order, and for many people the belly and hips are last.",
+      "So the plan is the same as any fat loss: a steady calorie deficit, plenty of protein, lifting three or more days, and daily walking. Be patient with the last spots. Measure your waist every two weeks and you will see it shrink even before you see it in the mirror."
+    ],
+    "more": {
+      "why": "Fat is released into your blood and burned all over the body. Working one muscle does not send fat from that spot first.",
+      "how": "Measure at your belly button each morning every two weeks. Compare month to month.",
+      "mistake": "Doing 500 crunches a night instead of fixing the diet. Abs are made in the gym and revealed in the kitchen.",
+      "example": "Waist from 38 to 35.5 inches in three months while weight dropped 12 pounds. That is belly fat leaving."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How big should my deficit be?",
+      "Daily steps and fat loss"
+    ],
+    "related": [
+      "nr-a-028"
+    ]
+  },
+  {
+    "id": "nr-a-078",
+    "topic": "myths",
+    "title": "Detoxes, cleanses and juice diets",
+    "keys": [
+      "detox",
+      "cleanse",
+      "juice cleanse",
+      "detox tea",
+      "flush toxins",
+      "do detoxes work",
+      "liver cleanse",
+      "colon cleanse",
+      "juice diet",
+      "3 day cleanse",
+      "reset my body"
+    ],
+    "match": "\\b(detox(es|ing)?|cleanses?|juice (cleanse|diet|fast)|flush (out )?toxins)\\b",
+    "body": [
+      "Your liver and kidneys already detox you around the clock, and no tea or juice makes them work better. Cleanses mostly drop weight through water loss and very low calories, and it comes back as soon as you eat normally.",
+      "If you want a reset, do the boring version that actually works for a week: three meals with protein, a few servings of fruit and vegetables a day, water, less alcohol, and a good night's sleep. You will feel better than any cleanse makes you feel."
+    ],
+    "more": {
+      "why": "Juice cleanses are low in protein and fiber, so you often lose a bit of muscle and feel hungry and tired.",
+      "mistake": "Using detox teas with laxatives. They pull water and can leave you dehydrated.",
+      "how": "Want a fresh start? Clear out the snacks you overdo, stock the fridge with easy protein and produce, and plan the next five dinners."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "How do I build a plate?"
+    ],
+    "related": [
+      "nr-a-039"
+    ]
+  },
+  {
+    "id": "nr-a-079",
+    "topic": "myths",
+    "title": "Processed food and whether you have to eat clean",
+    "keys": [
+      "processed food",
+      "clean eating",
+      "do i have to eat clean",
+      "ultra processed foods",
+      "is processed food bad",
+      "eat clean",
+      "junk food",
+      "fast food on a diet",
+      "flexible dieting",
+      "can i eat junk food and lose weight",
+      "80 20 rule"
+    ],
+    "match": "\\b(processed foods?|ultra ?processed|clean eating|eat(ing)? clean|junk food|flexible diet(ing)?|80 ?/? ?20)\\b",
+    "body": [
+      "You do not have to eat perfectly clean. A good target is roughly 80 percent of your food from mostly whole, simple foods and 20 percent from whatever you enjoy. That keeps you full and healthy while leaving room for life.",
+      "Some processed foods are great: Greek yogurt, canned beans, frozen vegetables, protein powder, whole grain bread. The ones to keep an eye on are the very easy to overeat ones, like chips, pastries, candy and fried foods. They are not bad foods. They are just easy to eat a lot of without getting full."
+    ],
+    "more": {
+      "why": "Highly processed snack foods are built to be easy to eat fast. People tend to eat more calories when most of their diet is like that.",
+      "how": "Plan your treats instead of avoiding them. A planned dessert is a choice. Random snacking is a leak.",
+      "example": "Chicken, rice, vegetables all week, plus pizza Friday and ice cream twice. That is a great 80 and 20.",
+      "mistake": "Labeling foods as good or bad. One cookie is not failure, and one salad is not success."
+    },
+    "chips": [
+      "Cravings and sweet tooth",
+      "Do I have to count calories?"
+    ],
+    "related": [
+      "nr-a-074"
+    ]
+  },
+  {
+    "id": "nr-a-080",
+    "topic": "myths",
+    "title": "Sugar and whether you need to cut it out",
+    "keys": [
+      "is sugar bad",
+      "cut out sugar",
+      "sugar and fat loss",
+      "how much sugar a day",
+      "added sugar",
+      "sugar in fruit",
+      "quit sugar",
+      "no sugar diet",
+      "sugar addiction",
+      "natural sugar vs added sugar"
+    ],
+    "match": "\\b(is sugar bad|cut(ting)? (out )?sugar|quit(ting)? sugar|added sugars?|no sugar diet|sugar (addiction|and fat loss)|how much sugar)\\b",
+    "body": [
+      "Sugar is not poison, and you do not need to cut it out to lose fat. The issue is that added sugar shows up in foods and drinks that are easy to overeat, like soda, candy and pastries, without filling you up. Fruit sugar comes with fiber and water and is a different story.",
+      "A sensible goal is keeping added sugar around 10 percent of your calories or less. For a 2,000 calorie day, that is up to about 50 grams. Swap the drinks first, since liquid sugar adds up the fastest."
+    ],
+    "more": {
+      "example": "One 20 ounce soda has about 65 grams of sugar. Switching to diet soda or sparkling water saves about 240 calories.",
+      "how": "Check the added sugars line on the label. Under 10 grams per serving is a good rule of thumb for snacks and cereals.",
+      "mistake": "Cutting fruit because it has sugar. Fruit is one of the best foods for fat loss: filling, sweet and full of nutrients.",
+      "why": "Sugar itself does not make you fat. Calories above what you burn do, and sugary foods make that easy."
+    },
+    "chips": [
+      "Cravings and sweet tooth",
+      "Is fruit okay when cutting?"
+    ],
+    "related": [
+      "nr-a-081"
+    ]
+  },
+  {
+    "id": "nr-a-081",
+    "topic": "foods",
+    "title": "Fruit when you are losing weight",
+    "keys": [
+      "is fruit okay when cutting",
+      "fruit and weight loss",
+      "too much fruit",
+      "fruit sugar bad",
+      "best fruit for weight loss",
+      "bananas fattening",
+      "fruit at night",
+      "how much fruit a day",
+      "fruit on a diet",
+      "low sugar fruit"
+    ],
+    "match": "\\b(fruits?|bananas?|berries|apples?)\\b.*\\b(cut|cutting|diet|weight loss|fattening|too much|sugar|okay)\\b",
+    "body": [
+      "Fruit is one of the best foods you can eat while losing weight. It is sweet, filling, full of water and fiber, and low in calories for the volume. It is very hard to gain fat from eating fruit.",
+      "Two to four servings a day is a great target. Berries, apples, oranges and melon are the most filling per calorie. Bananas are great before workouts. Dried fruit and juice are the ones to portion, since they pack the sugar without the water."
+    ],
+    "more": {
+      "example": "A cup of strawberries is about 50 calories. A cup of raisins is about 430. Same fruit family, very different fullness.",
+      "how": "Put fruit with protein for snacks: apple and a cheese stick, berries and Greek yogurt.",
+      "why": "Fiber and water slow digestion and stretch your stomach, so fruit keeps you fuller than the same calories from candy."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "Snacks with protein"
+    ],
+    "related": [
+      "nr-a-040",
+      "nr-a-044"
+    ]
+  },
+  {
+    "id": "nr-a-082",
+    "topic": "foods",
+    "title": "White rice or brown rice, potatoes and other carbs",
+    "keys": [
+      "white rice or brown rice",
+      "brown rice vs white rice",
+      "best carbs for weight loss",
+      "are potatoes fattening",
+      "sweet potato vs white potato",
+      "is bread bad",
+      "pasta on a diet",
+      "best carbs",
+      "good carbs",
+      "rice for bodybuilding",
+      "oats"
+    ],
+    "match": "\\b(white (rice|potato(es)?) (or|vs)|brown rice|sweet potato(es)?|potatoes? fattening|is (bread|pasta) bad|best carbs|good carbs)\\b",
+    "body": [
+      "Both rice choices work. Brown rice has a bit more fiber; white rice is easier on the stomach before training. Pick the one you like and portion it. Same goes for white and sweet potatoes, which are both excellent. Potatoes are actually one of the most filling foods per calorie.",
+      "Bread and pasta fit too. Choose whole grain when you can for the fiber, and measure the portion, since pasta especially tends to get poured by the half box. A cupped hand or about one cup cooked is a good starting portion for most meals."
+    ],
+    "more": {
+      "example": "One cup cooked white rice is about 200 calories. A medium baked potato is about 160 and far more filling.",
+      "how": "Use the carb that fits the moment: white rice or a bagel before training, oats or potatoes for a filling breakfast or dinner.",
+      "mistake": "Cutting all carbs, then eating double the fat to compensate. Same calories, worse training.",
+      "why": "No single carb makes you gain fat. Portions and total calories do."
+    },
+    "chips": [
+      "How many carbs should I eat?",
+      "How to eyeball portions"
+    ],
+    "related": [
+      "nr-a-032",
+      "nr-a-036"
+    ]
+  },
+  {
+    "id": "nr-a-083",
+    "topic": "foods",
+    "title": "Eggs, cholesterol and how many is fine",
+    "keys": [
+      "are eggs healthy",
+      "eggs cholesterol",
+      "how many eggs is too many",
+      "eggs every day",
+      "egg yolks bad",
+      "eggs and heart health",
+      "eat eggs daily",
+      "dozen eggs a week"
+    ],
+    "match": "\\beggs?\\b.*\\b(cholesterol|healthy|too many|every day|daily|heart|yolks?)\\b",
+    "body": [
+      "For most healthy people, eggs are a great food. One to three whole eggs a day fits easily, and the yolk carries a lot of the nutrition. For most people, the cholesterol in food has a smaller effect on blood cholesterol than once thought.",
+      "If you have high cholesterol, heart disease or diabetes, ask your doctor what fits for you. Otherwise, mix whole eggs with egg whites if you want more protein for fewer calories."
+    ],
+    "more": {
+      "example": "Two whole eggs plus half a cup of egg whites: about 25 grams of protein for around 200 calories.",
+      "why": "Eggs are cheap, quick, high in protein and very filling. Few foods do all four.",
+      "how": "Hard boil a dozen on Sunday. Grab two with fruit for a fast breakfast all week."
+    },
+    "chips": [
+      "Easy high protein breakfasts",
+      "Whole eggs or egg whites?"
+    ],
+    "related": [
+      "nr-a-019",
+      "nr-a-041"
+    ]
+  },
+  {
+    "id": "nr-a-084",
+    "topic": "foods",
+    "title": "Red meat in a healthy diet",
+    "keys": [
+      "is red meat bad",
+      "red meat healthy",
+      "how much red meat",
+      "steak on a diet",
+      "beef for muscle",
+      "lean beef",
+      "ground beef 90 10",
+      "red meat every day",
+      "best beef cuts"
+    ],
+    "match": "\\b(is red meat|red meat (bad|healthy|every day)|how much red meat|lean beef|steak on a diet|beef for muscle|best beef)\\b",
+    "body": [
+      "Red meat is a strong source of protein, iron, zinc and B vitamins. Lean cuts like sirloin, flank steak, eye of round and 90 to 95 percent lean ground beef fit nicely into fat loss or muscle gain.",
+      "General health guidance leans toward having red meat a few times a week rather than every meal, and keeping processed meats like bacon and hot dogs as occasional. Mix it with chicken, fish, eggs, dairy and beans and you are in a great spot."
+    ],
+    "more": {
+      "example": "Four ounces of 93 percent lean ground beef: about 25 grams of protein and 170 calories cooked.",
+      "how": "Buy lean ground beef in bulk, brown it all at once, and freeze in portions for bowls and tacos.",
+      "mistake": "Choosing 70 or 80 percent ground beef while cutting. The fat difference adds up to around 100 extra calories per serving."
+    },
+    "chips": [
+      "The leanest proteins, ranked",
+      "Cheap high protein meals"
+    ],
+    "related": [
+      "nr-a-024"
+    ]
+  },
+  {
+    "id": "nr-a-085",
+    "topic": "foods",
+    "title": "Fish and healthy fats",
+    "keys": [
+      "fish for health",
+      "how often to eat fish",
+      "salmon benefits",
+      "omega 3",
+      "omega 3 foods",
+      "healthy fats",
+      "tuna mercury",
+      "canned salmon",
+      "fatty fish",
+      "should i eat fish"
+    ],
+    "match": "\\b(omega ?3s?|fatty fish|how often (should i )?eat fish|tuna mercury|healthy fats?|salmon benefits|should i eat fish)\\b",
+    "body": [
+      "Aim for fish about twice a week, with at least one fatty fish like salmon, sardines, trout or mackerel. They bring protein plus omega 3 fats that are good for your heart. Canned salmon and sardines count and are cheap.",
+      "Other healthy fats: olive oil, avocado, nuts, seeds and nut butters. They are calorie dense, so portion them, but do not avoid them. A thumb sized portion per meal is a good guide."
+    ],
+    "more": {
+      "example": "Four ounces of salmon has about 25 grams of protein and a solid amount of omega 3 fats.",
+      "how": "Canned tuna is great, but rotate in canned salmon or light tuna to keep mercury low if you eat it often.",
+      "mistake": "Avoiding all fat to cut calories. You lose flavor, fullness and important nutrients."
+    },
+    "chips": [
+      "How much fat do I need?",
+      "Air fryer meals with protein"
+    ],
+    "related": [
+      "nr-a-033",
+      "nr-a-072"
+    ]
+  },
+  {
+    "id": "nr-a-086",
+    "topic": "foods",
+    "title": "Dairy, lactose and protein from milk",
+    "keys": [
+      "is dairy bad",
+      "lactose intolerant protein",
+      "milk for muscle",
+      "dairy free protein",
+      "greek yogurt protein",
+      "cottage cheese benefits",
+      "lactose free milk",
+      "chocolate milk after workout",
+      "cheese on a diet",
+      "dairy and bloating"
+    ],
+    "match": "\\b(is dairy bad|lactose|dairy (free|and bloating)|milk for muscle|chocolate milk after|cottage cheese benefits)\\b",
+    "body": [
+      "Dairy is one of the easiest protein sources around. Greek yogurt has about 15 to 20 grams per cup serving, cottage cheese about 25 grams per cup, and milk about 8 grams per cup. Chocolate milk after training is a classic for good reason.",
+      "If dairy bothers your stomach, try lactose free milk, lactose free cottage cheese, Greek yogurt, which is often easier, or hard cheeses, which have very little lactose. If you skip dairy, pick soy milk for protein and lean on other foods for calcium."
+    ],
+    "more": {
+      "example": "One cup of nonfat Greek yogurt, berries and a little granola: about 22 grams of protein, around 250 calories.",
+      "how": "Swap sour cream for plain Greek yogurt on tacos and potatoes. Same feel, much more protein.",
+      "mistake": "Choosing flavored yogurts packed with added sugar. Plain with fruit and honey lets you control it."
+    },
+    "chips": [
+      "Snacks with protein",
+      "Hitting protein as a vegetarian"
+    ],
+    "related": [
+      "nr-a-044",
+      "nr-a-010"
+    ]
+  },
+  {
+    "id": "nr-a-087",
+    "topic": "foods",
+    "title": "Nuts and peanut butter on a diet",
+    "keys": [
+      "are nuts fattening",
+      "peanut butter on a diet",
+      "how much peanut butter",
+      "almonds calories",
+      "nuts for weight loss",
+      "peanut butter protein",
+      "nut butter",
+      "trail mix calories",
+      "peanut butter every day",
+      "powdered peanut butter"
+    ],
+    "match": "\\b(are nuts|nuts (fattening|for weight loss|on a diet)|peanut butter (on a diet|every day|protein|calories)|how much peanut butter|powdered peanut butter|trail mix calories|almonds? calories)\\b",
+    "body": [
+      "Nuts and peanut butter are healthy and delicious, and very easy to overeat. One serving of nuts is about a small handful, roughly 1 ounce, at around 160 to 200 calories. Two tablespoons of peanut butter is about 190 calories and only 7 to 8 grams of protein, so think of it as a fat, not a protein.",
+      "Measure the spoonful, keep nuts in single portion bags instead of a big jar, and pair them with something filling like fruit or yogurt. Powdered peanut butter gives the taste for about a third of the calories."
+    ],
+    "more": {
+      "example": "A heaping spoon of peanut butter straight from the jar can be 3 tablespoons, close to 300 calories.",
+      "how": "Pre-portion a week of nuts into small bags on Sunday.",
+      "mistake": "Counting peanut butter as your protein source for the meal. It is mostly fat."
+    },
+    "chips": [
+      "Hidden calories in oils and sauces",
+      "Snacks with protein"
+    ],
+    "related": [
+      "nr-a-038"
+    ]
+  },
+  {
+    "id": "nr-a-088",
+    "topic": "foods",
+    "title": "Frozen and canned food are not second best",
+    "keys": [
+      "are frozen vegetables healthy",
+      "frozen vs fresh vegetables",
+      "canned vegetables healthy",
+      "canned beans",
+      "frozen fruit",
+      "frozen meals on a diet",
+      "canned chicken",
+      "frozen food healthy",
+      "is canned food bad",
+      "rinse canned beans"
+    ],
+    "match": "\\b(frozen|canned) (vegetables?|veggies|fruit|beans|chicken|meals?|food|tuna)\\b|\\bfrozen vs fresh\\b",
+    "body": [
+      "Frozen vegetables and fruit are picked and frozen at peak ripeness, so they are just as nutritious as fresh, sometimes more. They are cheaper, last for months and are already chopped. Canned beans, tuna, chicken and tomatoes are just as useful.",
+      "Look for low sodium cans or rinse beans and vegetables to wash off a good chunk of the salt. For frozen meals, look for at least 20 grams of protein and add a bag of frozen vegetables to make it a full meal."
+    ],
+    "more": {
+      "example": "Frozen stir fry vegetables, precooked frozen shrimp and microwave rice: a high protein dinner in eight minutes.",
+      "how": "Keep three frozen vegetables, two frozen fruits and a few cans of beans and tuna at all times. You can always make a meal.",
+      "mistake": "Buying lots of fresh produce that rots before you get to it, then deciding healthy eating is too expensive."
+    },
+    "chips": [
+      "Eating well on a budget",
+      "Ten minute dinners"
+    ],
+    "related": [
+      "nr-a-048",
+      "nr-a-042"
+    ]
+  },
+  {
+    "id": "nr-a-089",
+    "topic": "foods",
+    "title": "Smoothies and shakes that fill you up",
+    "keys": [
+      "smoothie recipe",
+      "protein smoothie",
+      "healthy smoothie",
+      "smoothie for weight loss",
+      "smoothie for weight gain",
+      "breakfast smoothie",
+      "what to put in a smoothie",
+      "smoothie calories",
+      "meal replacement shake",
+      "green smoothie"
+    ],
+    "match": "\\b(smoothies?|meal replacement( shakes?)?)\\b",
+    "body": [
+      "Build smoothies like a meal: a protein (protein powder, Greek yogurt or milk), a fruit, a handful of greens if you like, and a liquid. Add oats or nut butter if you need more calories. Skip the juice base; it adds sugar without fullness.",
+      "For fat loss, keep it around 300 to 400 calories with 30 grams or more of protein. For gaining, go big with oats, peanut butter, whole milk and a banana."
+    ],
+    "more": {
+      "example": "Fat loss version: 1 scoop whey, 1 cup frozen berries, 1 cup unsweetened almond milk, handful of spinach, ice. About 230 calories and 28 grams of protein.",
+      "how": "Pack smoothie bags in the freezer: fruit, spinach and oats ready to dump in the blender.",
+      "mistake": "Store bought smoothies that run 600 to 900 calories with little protein. Check before you order."
+    },
+    "chips": [
+      "Hard gainer: cannot gain weight",
+      "Choosing a protein powder"
+    ],
+    "related": [
+      "nr-a-062",
+      "nr-a-014"
+    ]
+  },
+  {
+    "id": "nr-a-090",
+    "topic": "foods",
+    "title": "Fitting dessert into your day",
+    "keys": [
+      "can i have dessert",
+      "dessert on a diet",
+      "healthy dessert",
+      "low calorie dessert",
+      "ice cream on a diet",
+      "chocolate on a diet",
+      "sweet treat",
+      "protein dessert",
+      "dessert every night",
+      "treat meal"
+    ],
+    "match": "\\b(desserts?|ice cream|sweet treats?|treat meal|chocolate on a diet)\\b",
+    "body": [
+      "Yes, you can. Plan for it instead of fighting it. Leave 150 to 250 calories in your day for something sweet and enjoy it without guilt. That plan beats a week of willpower that ends in eating the whole sleeve of cookies.",
+      "Easy wins: a couple of squares of dark chocolate, a light ice cream bar, Greek yogurt with honey and berries, a protein mug cake, or frozen grapes. Or just have a smaller portion of the real thing you love."
+    ],
+    "more": {
+      "how": "Eat your dessert sitting down, on a plate, and slowly. You will enjoy it more and want less.",
+      "example": "Greek yogurt, cocoa powder, a little honey and a few chocolate chips: tastes like pudding, about 200 calories and 20 grams of protein.",
+      "mistake": "Banning sweets completely. Restriction usually builds cravings until they win."
+    },
+    "chips": [
+      "Cravings and sweet tooth",
+      "Late night snacking"
+    ],
+    "related": [
+      "nr-a-079"
+    ]
+  },
+  {
+    "id": "nr-a-091",
+    "topic": "drinks",
+    "title": "Diet soda and sweeteners",
+    "keys": [
+      "is diet soda bad",
+      "diet soda weight loss",
+      "artificial sweeteners",
+      "zero sugar drinks",
+      "sucralose",
+      "aspartame",
+      "stevia",
+      "diet coke",
+      "sweeteners and cravings",
+      "zero calorie drinks"
+    ],
+    "match": "\\b(diet (soda|coke|pepsi)|artificial sweeteners?|sweeteners?|sucralose|aspartame|stevia|zero (sugar|calorie) drinks?)\\b",
+    "body": [
+      "For fat loss, diet soda is a far better swap than regular soda, and research generally finds it helps people lose weight when it replaces sugary drinks. Sweeteners used in normal amounts are considered safe by food regulators for most people.",
+      "Water is still the best everyday drink, but if diet soda helps you skip 300 calories of regular soda a day, that is a real win. If it seems to make you crave sweets, notice that and cut back."
+    ],
+    "more": {
+      "example": "Swapping two regular sodas a day for diet saves about 300 calories daily, roughly 2 pounds a month.",
+      "how": "Try sparkling water with lime or a splash of juice as a middle ground.",
+      "mistake": "Thinking diet soda counts as water toward hydration goals. It mostly does, but do not let it replace plain water entirely."
+    },
+    "chips": [
+      "How much water should I drink?",
+      "Sugar and whether to cut it"
+    ],
+    "related": [
+      "nr-a-080"
+    ]
+  },
+  {
+    "id": "nr-a-092",
+    "topic": "drinks",
+    "title": "Coffee drinks and liquid calories",
+    "keys": [
+      "coffee calories",
+      "starbucks on a diet",
+      "latte calories",
+      "coffee creamer calories",
+      "liquid calories",
+      "frappuccino",
+      "iced coffee calories",
+      "healthy coffee order",
+      "creamer on a diet",
+      "black coffee for weight loss"
+    ],
+    "match": "\\b(latte|frappuccino|creamer|starbucks|iced coffee|coffee (calories|order)|liquid calories)\\b",
+    "body": [
+      "Coffee itself is nearly zero calories. The add-ons are where it climbs: a large flavored latte can be 300 to 450 calories, and a blended coffee drink 400 to 600. Creamer poured freely at home can add 100 to 200 a day without you noticing.",
+      "Better orders: a latte with nonfat or 2 percent milk and one pump of syrup, cold brew with a splash of milk, or an Americano with a little cream. At home, measure your creamer for a week. You might be surprised."
+    ],
+    "more": {
+      "example": "A large mocha with whole milk and whipped cream: about 450 calories. A large nonfat latte with one pump of vanilla: about 220, with 18 grams of protein.",
+      "how": "Ask for fewer pumps. Most drinks have three to six; one or two still tastes sweet.",
+      "mistake": "Not logging drinks at all. Liquid calories are the easiest to forget."
+    },
+    "chips": [
+      "Hidden calories in oils and sauces",
+      "How much caffeine is too much?"
+    ],
+    "related": [
+      "nr-a-038",
+      "nr-a-060"
+    ]
+  },
+  {
+    "id": "nr-a-093",
+    "topic": "women",
+    "title": "Nutrition for women who lift",
+    "keys": [
+      "nutrition for women who lift",
+      "protein for women",
+      "how much should a woman eat",
+      "women macros",
+      "female calories",
+      "women building muscle diet",
+      "will i get bulky",
+      "calories for women lifting",
+      "women strength training diet",
+      "how much protein should a woman eat"
+    ],
+    "match": "\\b(women|woman|female|girls?)\\b.*\\b(macros|protein|calories|eat|diet|nutrition|bulky)\\b",
+    "body": [
+      "The basics are the same as for men: protein around 0.7 to 1 gram per pound of goal weight, enough carbs to fuel training, and calories matched to your goal. Many women undereat protein badly, often getting half of what they need, which slows progress and leaves them hungry.",
+      "Eating more protein and lifting will not make you bulky. Building noticeable muscle takes years of hard, focused work. What you will see is shape, strength and a body that feels capable. Do not drop calories too low; under about 1,200 a day is hard to support training on."
+    ],
+    "more": {
+      "example": "At 140 lb with a goal of 130: about 95 to 130 grams of protein a day, roughly 30 grams per meal plus a snack.",
+      "why": "Protein helps you keep muscle while losing fat and keeps hunger down, which matters most when calories are lower.",
+      "mistake": "Eating salads with almost no protein for lunch, then raiding the pantry at 4 pm.",
+      "how": "Start each meal with the protein portion first. A palm or two of meat, a cup of Greek yogurt, or three eggs."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "How much protein do I need?",
+      "Will eating more protein make me bulky?"
+    ],
+    "related": [
+      "nr-a-001",
+      "nr-a-018"
+    ]
+  },
+  {
+    "id": "nr-a-094",
+    "topic": "women",
+    "title": "Hunger and cravings across your cycle",
+    "keys": [
+      "hungry before period",
+      "period cravings",
+      "cravings during period",
+      "menstrual cycle hunger",
+      "weight gain before period",
+      "eating more on my period",
+      "pms cravings",
+      "cycle and diet",
+      "bloating before period",
+      "chocolate cravings period"
+    ],
+    "match": "\\b(period|menstrual|pms|cycle)\\b.*\\b(crav(e|ing|ings)|hungry|hunger|weight|bloat(ing)?|eat(ing)?)\\b|\\b(crav(e|ing|ings)|hungry|hunger|weight|bloat(ing)?) (before|during) (my )?period\\b",
+    "body": [
+      "Many women feel hungrier and crave more in the week or so before their period, and the scale often goes up 1 to 4 pounds from water. That is normal and it is not fat. It usually drops back within a few days after your period starts.",
+      "Plan for it: add 100 to 200 calories that week, mostly from protein and carbs you enjoy, and keep some chocolate or a favorite treat portioned and ready. Compare your weight to the same point in your last cycle, not to last week."
+    ],
+    "more": {
+      "why": "Hormone shifts change water balance and can nudge appetite up a little. Your body may also burn slightly more in that phase.",
+      "how": "Note your cycle days in your weigh-in log for two months. You will see the pattern and stop worrying about it.",
+      "mistake": "Thinking a pre-period weight bump means the diet failed and quitting."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Why does my weight jump?",
+      "Cravings and sweet tooth"
+    ],
+    "related": [
+      "nr-a-093"
+    ]
+  },
+  {
+    "id": "nr-a-095",
+    "topic": "endurance",
+    "title": "Eating for running and endurance training",
+    "keys": [
+      "nutrition for runners",
+      "what should runners eat",
+      "eating for marathon training",
+      "carb loading",
+      "runners protein",
+      "running and weight loss",
+      "endurance athlete diet",
+      "how many carbs for running",
+      "carbo loading",
+      "fueling for running"
+    ],
+    "match": "\\b(runners?|marathon|half marathon|endurance|carb(o)? ?loading)\\b.*\\b(eat|diet|nutrition|carbs?|protein|food|fuel)\\b|\\bcarb(o)? ?loading\\b",
+    "body": [
+      "Endurance training runs on carbs. Runners and cyclists in serious training often need 2 to 3 grams of carbs per pound on big training days, and less on easy days. Protein still matters for recovery, about 0.6 to 0.8 grams per pound.",
+      "Carb loading is only useful before events longer than about 90 minutes. Two days out, shift more of your plate to carbs like rice, pasta, bread and potatoes while cutting back on fat and fiber. Shorter races just need a normal dinner and a familiar breakfast."
+    ],
+    "more": {
+      "example": "A 150 lb runner on a long run day: around 300 to 450 grams of carbs, spread over meals and the run itself.",
+      "why": "Long efforts burn through stored carbs. Topping them off delays fatigue.",
+      "mistake": "Running more to lose weight but eating too few carbs, then feeling heavy legged and burnt out.",
+      "how": "Eat a carb rich meal two to three hours before a long run and a protein and carb meal within two hours after."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "Fuel for long sessions",
+      "What to eat after a workout"
+    ],
+    "related": [
+      "nr-a-055",
+      "nr-a-052"
+    ]
+  }
+]

@@ -1,0 +1,861 @@
+[
+  {
+    "id": "nr-a-118",
+    "topic": "cycling",
+    "title": "Carb cycling and eating more on training days",
+    "keys": [
+      "carb cycling",
+      "high carb days",
+      "low carb days",
+      "eat more on training days",
+      "rest day calories",
+      "calorie cycling",
+      "should i eat less on rest days",
+      "rest day macros",
+      "training day vs rest day calories",
+      "carbs on rest days"
+    ],
+    "match": "\\b(carb cycling|calorie cycling|(high|low) carb days?|rest day (calories|macros|carbs)|carbs on rest days|eat (more|less) on (training|rest) days)\\b",
+    "body": [
+      "You can eat the same every day or eat a bit more on training days and a bit less on rest days. Both work if your weekly total is the same. Shifting carbs toward training days helps some people feel stronger in the gym and less hungry overall.",
+      "A simple version: on training days add about 50 grams of carbs, and on rest days remove about 50 grams. Keep protein the same every day, since your muscles are recovering on rest days too."
+    ],
+    "more": {
+      "example": "Target 2,200 a day average. Lifting four days at 2,350, rest three days at 2,000. Same weekly total.",
+      "why": "Carbs fuel hard training. Moving them toward those days puts the energy where you use it.",
+      "mistake": "Cutting protein on rest days. Recovery happens on rest days.",
+      "beginner": "Skip this at first. Same calories every day is simpler and works just as well."
+    },
+    "reads": [
+      "calories",
+      "sessions"
+    ],
+    "chips": [
+      "How many carbs should I eat?",
+      "Protein on rest days"
+    ],
+    "related": [
+      "nr-a-032",
+      "nr-a-022"
+    ]
+  },
+  {
+    "id": "nr-a-119",
+    "topic": "cycling",
+    "title": "Cheat meals and cheat days",
+    "keys": [
+      "cheat meal",
+      "cheat day",
+      "are cheat days okay",
+      "how often cheat meal",
+      "cheat day ruined my diet",
+      "free meal",
+      "can i have a cheat day",
+      "cheat meal fat loss",
+      "weekend cheat day",
+      "cheat meal every week"
+    ],
+    "match": "\\b(cheat (meals?|days?)|free meals?)\\b",
+    "body": [
+      "I like planned favorite meals more than cheat days. One relaxed meal a week, eaten slowly and enjoyed, fits easily into fat loss. A whole cheat day, on the other hand, can easily add 2,000 to 4,000 extra calories and erase most of a week's deficit.",
+      "Pick the meal, eat it guilt free, and go right back to normal at the next meal. No punishment workouts, no skipping meals the next day. The scale may jump 1 to 3 pounds from salt and carbs; it fades in a few days."
+    ],
+    "more": {
+      "why": "The word cheat makes eating feel like breaking rules, which feeds guilt and then more overeating. Planned meals are just part of the plan.",
+      "example": "Five days at a 500 calorie deficit equals 2,500 calories. One all-day binge of 3,000 extra wipes it out and then some.",
+      "how": "Put your favorite meal on the calendar. Eat a normal breakfast and lunch with protein so you do not arrive starving.",
+      "mistake": "Starving all day to save up for it. You end up eating far more than you planned."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Why does my weight jump?",
+      "Food guilt and all or nothing"
+    ],
+    "related": [
+      "nr-a-065"
+    ]
+  },
+  {
+    "id": "nr-a-120",
+    "topic": "deadline",
+    "title": "Getting lean for a date or event",
+    "keys": [
+      "lose weight for a wedding",
+      "get lean for summer",
+      "lose weight by a date",
+      "event in 8 weeks",
+      "photo shoot diet",
+      "beach body",
+      "lose weight fast for event",
+      "vacation in a month",
+      "how much can i lose in 6 weeks",
+      "deadline diet"
+    ],
+    "match": "\\b(lose weight (for|by|before) (a|my|the)|get(ting)? lean (for|by)|(wedding|vacation|event|photo shoot|reunion) in \\d+|beach body|how much (can i|weight can i) lose in)\\b",
+    "body": [
+      "Work back from the date. At a healthy pace of 0.5 to 1 percent of body weight per week, eight weeks can mean 8 to 15 pounds for many people. That is a real visible change, especially combined with lifting.",
+      "Start now, not two weeks before. Set a steady deficit, keep protein high, lift three or four days and walk daily. In the last few days, do not crash diet or cut water; just eat normal, lower salt meals, sleep well, and you will look your best."
+    ],
+    "more": {
+      "why": "Slow steady loss preserves muscle, which is what gives shape. Crash diets leave you flat, tired and smaller but softer.",
+      "example": "Wedding in 10 weeks at 190 lb: aim for about 1 to 1.5 lb a week, roughly 12 to 15 lb total.",
+      "mistake": "Cutting water or eating almost nothing the final week. You will feel awful and often look worse.",
+      "how": "Take a progress photo now and every two weeks in the same light. It keeps you motivated when the scale stalls."
+    },
+    "reads": [
+      "weight",
+      "range"
+    ],
+    "chips": [
+      "How fast should I lose weight?",
+      "How big should my deficit be?"
+    ],
+    "related": [
+      "nr-a-029",
+      "nr-a-028"
+    ]
+  },
+  {
+    "id": "nr-a-121",
+    "topic": "deadline",
+    "title": "Losing the last five pounds",
+    "keys": [
+      "last 5 pounds",
+      "last few pounds",
+      "cant lose the last 10 pounds",
+      "final pounds",
+      "stubborn last pounds",
+      "almost at goal weight",
+      "close to my goal",
+      "last bit of fat"
+    ],
+    "match": "\\b(last (5|five|few|10|ten) (lbs?|pounds)|last bit of fat|almost at (my )?goal|close to my goal)\\b",
+    "body": [
+      "The last few pounds are slowest because your deficit naturally shrinks as you get smaller and your body pushes back with more hunger and less daily movement. Expect half a pound a week or slower near the end, and that is fine.",
+      "Recheck your numbers: your maintenance is lower now, so the old target may be maintenance. Tighten your logging for two weeks, keep steps up, keep protein high, and be patient. Also ask whether you really need to lose them; sometimes building a bit more muscle changes your look more than another five pounds."
+    ],
+    "more": {
+      "how": "Recalculate: current weight in pounds times about 14 is a rough new maintenance. Subtract 300 to 400 for the deficit.",
+      "why": "A smaller body burns less, so the same intake gives a smaller deficit than when you started.",
+      "mistake": "Slashing calories to 1,000 for the final push. That costs muscle and usually ends in a rebound."
+    },
+    "reads": [
+      "weight",
+      "steps",
+      "calories"
+    ],
+    "chips": [
+      "Why is my weight not moving?",
+      "Body recomposition"
+    ],
+    "related": [
+      "nr-a-063"
+    ]
+  },
+  {
+    "id": "nr-a-122",
+    "topic": "safety",
+    "title": "Why you should not cut water to drop weight",
+    "keys": [
+      "water cutting",
+      "cut water before weigh in",
+      "water loading",
+      "peak week",
+      "drop water weight fast",
+      "sweat it out",
+      "sauna suit weight loss",
+      "cut water for photo",
+      "dehydrate to look lean",
+      "water manipulation"
+    ],
+    "match": "\\b(water (cutting|loading|manipulation)|cut(ting)? water|peak week|sauna suit|sweat(ing)? (it|weight) out|dehydrat\\w* to)\\b",
+    "body": [
+      "I do not coach water cutting. Dehydrating yourself to look leaner or hit a number is risky, can make you dizzy and weak, and usually makes you look flat rather than defined. The weight comes right back as soon as you drink.",
+      "If you want to look your sharpest for a day, keep drinking water normally, keep salt moderate and steady, eat your usual carbs, and sleep well. Consistency is what makes you look good, not a last minute trick. If a sport requires making weight, work with your doctor and a qualified coach on it."
+    ],
+    "more": {
+      "why": "Water is how your body moves blood, cools itself and fills your muscles. Pulling it away makes everything work worse.",
+      "mistake": "Sitting in a sauna suit the day before an event and showing up wiped out and cramping.",
+      "how": "Last two days before an event: normal meals, lower salty takeout, plenty of sleep. That is the whole plan."
+    },
+    "chips": [
+      "Why does my weight jump?",
+      "Getting lean for a date or event"
+    ],
+    "related": [
+      "nr-a-120"
+    ]
+  },
+  {
+    "id": "nr-a-123",
+    "topic": "digestion",
+    "title": "Bloating from protein shakes",
+    "keys": [
+      "protein shake bloating",
+      "whey makes me bloated",
+      "protein powder gas",
+      "stomach hurts after protein shake",
+      "protein farts",
+      "gassy from protein",
+      "protein powder upset stomach",
+      "whey isolate for bloating"
+    ],
+    "match": "\\b((protein|whey) (shakes?|powder)?.*(bloat\\w*|gas\\w*|farts?|upset|stomach)|protein farts|gassy from protein)\\b",
+    "body": [
+      "Bloating from whey usually comes from lactose. Try whey isolate, which has much less lactose, or a plant protein. Some powders also contain sugar alcohols or gums that bother some stomachs, so check the ingredient list.",
+      "Drink it slower, mix it with water instead of milk for a few days, and do not chug two scoops at once. If you still feel off, switch brands or lean on whole food protein instead. Persistent stomach issues are worth a conversation with your doctor."
+    ],
+    "more": {
+      "how": "Test one change at a time for a few days: isolate first, then water instead of milk, then a different brand.",
+      "why": "Whey concentrate keeps some lactose from the milk, which many adults digest poorly.",
+      "example": "Switching from a concentrate with milk to an isolate with water solves it for most people within a couple of days."
+    },
+    "chips": [
+      "Choosing a protein powder",
+      "Hitting protein without shakes"
+    ],
+    "related": [
+      "nr-a-014",
+      "nr-a-023"
+    ]
+  },
+  {
+    "id": "nr-a-124",
+    "topic": "digestion",
+    "title": "Gut friendly foods",
+    "keys": [
+      "gut health",
+      "foods for gut health",
+      "probiotic foods",
+      "fermented foods",
+      "kefir",
+      "kimchi",
+      "healthy gut diet",
+      "good bacteria foods",
+      "digestion foods",
+      "prebiotic foods"
+    ],
+    "match": "\\b(gut health|probiotic foods|fermented foods|kefir|kimchi|sauerkraut|prebiotic foods|good bacteria)\\b",
+    "body": [
+      "A happy gut likes variety and fiber. Fermented foods like yogurt, kefir, kimchi, sauerkraut and miso bring helpful bacteria. Fiber from beans, oats, whole grains, fruits, vegetables, onions, garlic and bananas feeds them.",
+      "Aim for a wide range of plants each week, add fiber gradually so your stomach adjusts, and drink enough water. Kefir and Greek yogurt are easy wins because they bring protein along too."
+    ],
+    "more": {
+      "example": "A cup of kefir has about 9 to 11 grams of protein and lots of live cultures. Great in smoothies.",
+      "how": "Try to eat 20 to 30 different plant foods in a week. Herbs, spices, nuts and seeds count.",
+      "mistake": "Adding a huge amount of fiber overnight. Your stomach will let you know. Go slowly over a couple of weeks."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "Dairy, lactose and protein"
+    ],
+    "related": [
+      "nr-a-086"
+    ]
+  },
+  {
+    "id": "nr-a-125",
+    "topic": "myths",
+    "title": "Organic, seed oils and other food debates",
+    "keys": [
+      "is organic worth it",
+      "organic vs conventional",
+      "seed oils",
+      "are seed oils bad",
+      "canola oil bad",
+      "gmo foods",
+      "grass fed beef worth it",
+      "should i buy organic",
+      "food debates",
+      "pesticides on produce"
+    ],
+    "match": "\\b(organic|seed oils?|canola oil|gmos?|grass ?fed|pesticides?)\\b",
+    "body": [
+      "For body composition and health, the big wins are eating enough protein, enough plants, the right calories and moving daily. Organic versus conventional, grass fed versus regular, and seed oil debates are small details by comparison. Buy what fits your budget.",
+      "Washed conventional produce is far better than skipping produce because organic costs too much. Olive oil is a great everyday oil; other common cooking oils are fine in normal amounts. What matters most with any oil is how much of it you use."
+    ],
+    "more": {
+      "why": "Spending energy on small details often distracts from the habits that move the needle.",
+      "how": "If you want to buy some organic, choose it for the produce you eat most often with thin skins, like berries, and save on the rest.",
+      "mistake": "Avoiding vegetables because you cannot afford organic. Any vegetables beat no vegetables."
+    },
+    "chips": [
+      "Eating well on a budget",
+      "How much fat do I need?"
+    ],
+    "related": [
+      "nr-a-048",
+      "nr-a-033"
+    ]
+  },
+  {
+    "id": "nr-a-126",
+    "topic": "myths",
+    "title": "Gluten free for weight loss",
+    "keys": [
+      "gluten free for weight loss",
+      "is gluten bad",
+      "should i go gluten free",
+      "gluten free diet",
+      "wheat belly",
+      "cutting out bread to lose weight",
+      "gluten bloating",
+      "is wheat bad"
+    ],
+    "match": "\\b(gluten|wheat belly|is wheat bad)\\b",
+    "body": [
+      "Going gluten free does not cause fat loss by itself. People often lose weight because they cut out pastries, pizza and snacks along with gluten, which means fewer calories. Gluten free versions of those foods can have just as many calories or more.",
+      "If you have celiac disease or a gluten sensitivity diagnosed by your doctor, avoiding gluten is essential. Otherwise, whole grain bread and pasta can be part of a great diet. If bread makes you feel off, check with your doctor before cutting it on your own."
+    ],
+    "more": {
+      "why": "Weight loss comes from total calories. Removing a food group just happens to remove calories for many people.",
+      "mistake": "Buying gluten free cookies and thinking they are a health food.",
+      "how": "If you want fewer refined carbs, cut back on pastries and white bread and add oats, potatoes, rice and fruit instead."
+    },
+    "chips": [
+      "Which diet is best for fat loss?",
+      "White rice or brown rice?"
+    ],
+    "related": [
+      "nr-a-074",
+      "nr-a-082"
+    ]
+  },
+  {
+    "id": "nr-a-127",
+    "topic": "life",
+    "title": "Eating well on night shifts",
+    "keys": [
+      "night shift diet",
+      "shift work eating",
+      "eating on night shift",
+      "when to eat on night shift",
+      "nurse diet",
+      "working nights nutrition",
+      "graveyard shift food",
+      "12 hour shift meals",
+      "eating schedule for shift workers"
+    ],
+    "match": "\\b(night shifts?|shift work(ers?)?|graveyard shift|working nights|12 hour shifts?)\\b",
+    "body": [
+      "Anchor your meals to your sleep, not the clock. Eat a full meal before your shift, a smaller protein meal around the middle, light snacks if needed, and a small meal before you sleep so hunger does not wake you. Avoid heavy, greasy meals late in the shift when your stomach is slowest.",
+      "Pack your food. Vending machines and break room donuts are what happen when you do not. Cut off caffeine about six hours before you plan to sleep so you can actually rest."
+    ],
+    "more": {
+      "example": "Shift 7 pm to 7 am: dinner at 5:30, chicken rice bowl at midnight, Greek yogurt and fruit at 3, light breakfast at 7:30, then sleep.",
+      "how": "Prep three containers before each block of shifts so every break has a real meal waiting.",
+      "mistake": "Grazing on snacks all night and getting home starving, then eating a giant meal right before bed."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How much caffeine is too much?",
+      "Easy lunches that travel"
+    ],
+    "related": [
+      "nr-a-060",
+      "nr-a-043"
+    ]
+  },
+  {
+    "id": "nr-a-128",
+    "topic": "life",
+    "title": "Cooking for one person",
+    "keys": [
+      "cooking for one",
+      "meals for one person",
+      "single serving recipes",
+      "cooking for myself",
+      "live alone meal ideas",
+      "food goes bad cooking for one",
+      "meal prep for one",
+      "small portions recipes"
+    ],
+    "match": "\\b(cooking for (one|myself)|meals? for one|single serving|live alone)\\b",
+    "body": [
+      "Cook once, eat three times. Make a normal recipe that serves four, eat one portion tonight, put one in the fridge for tomorrow's lunch, and freeze two. After a couple of weeks your freezer becomes your own menu.",
+      "Buy foods that last: eggs, frozen vegetables and fruit, frozen chicken and fish, canned beans and tuna, rice, oats, tortillas and potatoes. Buy fresh produce in small amounts twice a week instead of a big haul that goes bad."
+    ],
+    "more": {
+      "how": "Label freezer containers with the date and what it is. Masking tape and a marker work fine.",
+      "example": "Turkey chili Monday, lunch Tuesday, two portions frozen for next week. One pot, four meals.",
+      "mistake": "Buying family sized fresh produce and watching half of it rot."
+    },
+    "chips": [
+      "Soups and chili that fill you up",
+      "How long does meal prep last?"
+    ],
+    "related": [
+      "nr-a-113",
+      "nr-a-046"
+    ]
+  },
+  {
+    "id": "nr-a-129",
+    "topic": "life",
+    "title": "College dining hall and dorm eating",
+    "keys": [
+      "dining hall healthy",
+      "college diet",
+      "dorm room food",
+      "eating healthy in college",
+      "cafeteria food healthy",
+      "meal plan college protein",
+      "dorm meals",
+      "college student nutrition"
+    ],
+    "match": "\\b(dining hall|dorm (room )?(food|meals)|college (diet|student nutrition)|eating healthy in college|cafeteria food)\\b",
+    "body": [
+      "Use the dining hall like a buffet you control: start at the protein station, grab a vegetable or salad, then add a carb and a dessert only if you really want it. One plate, not three. The grill, the deli and the salad bar usually have the best protein options.",
+      "In the dorm, keep easy protein around: Greek yogurt in a mini fridge, protein shakes, tuna packets, jerky, peanut butter and microwave rice. That covers you when the dining hall is closed."
+    ],
+    "more": {
+      "how": "Walk the whole line before you take anything. Then pick on purpose instead of grabbing everything that looks good.",
+      "example": "Grilled chicken from the grill, a big salad bar plate, a scoop of rice and a piece of fruit: easily 40 grams of protein.",
+      "mistake": "Late night pizza and energy drinks most nights. Plan a dorm snack so you are not hunting for food at midnight."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Snacks with protein",
+      "Cheap high protein meals"
+    ],
+    "related": [
+      "nr-a-044",
+      "nr-a-049"
+    ]
+  },
+  {
+    "id": "nr-a-130",
+    "topic": "grocery",
+    "title": "Grocery shopping strategies that save money and time",
+    "keys": [
+      "grocery shopping tips",
+      "how to shop healthy",
+      "online grocery order",
+      "grocery pickup",
+      "save time grocery shopping",
+      "store brand food",
+      "grocery store layout",
+      "shopping on a schedule",
+      "costco for meal prep",
+      "bulk buying food"
+    ],
+    "match": "\\b(grocery (shopping|pickup|delivery|order)|shop(ping)? healthy|store brands?|costco|bulk buying)\\b",
+    "body": [
+      "Shop with a list built from your meal plan, and stick to it. Online pickup or delivery is a secret weapon: no impulse aisle, easy price comparison, and you can reorder last week's list in two minutes.",
+      "Buy proteins in bulk and freeze portions, choose store brands for staples, and shop seasonal produce. Warehouse stores are great for frozen chicken, eggs, Greek yogurt, rice and frozen vegetables if you have the freezer space."
+    ],
+    "more": {
+      "how": "Plan five dinners, two lunches and breakfasts, write the ingredients down, check your kitchen, then shop.",
+      "example": "A saved online cart of your 25 core items turns weekly shopping into a five minute job.",
+      "mistake": "Shopping hungry without a list. Snack aisle trips double."
+    },
+    "chips": [
+      "Grocery list for the week",
+      "Eating well on a budget"
+    ],
+    "related": [
+      "nr-a-047",
+      "nr-a-048"
+    ]
+  },
+  {
+    "id": "nr-a-131",
+    "topic": "labels",
+    "title": "Reading ingredient lists and front of box claims",
+    "keys": [
+      "ingredient list",
+      "reading ingredients",
+      "front of package claims",
+      "healthy label claims",
+      "what does natural mean on food",
+      "low fat label",
+      "keto friendly label",
+      "made with whole grains",
+      "marketing on food labels",
+      "healthy looking food"
+    ],
+    "match": "\\b(ingredient lists?|reading ingredients|(front of (box|package)|label) claims|natural on (food|label)|keto friendly label|made with whole grains)\\b",
+    "body": [
+      "Ingredients are listed from most to least by weight. If sugar or oil is in the first few, that is a big part of the food. Front of box words like natural, wholesome, made with whole grains, keto friendly and low fat are marketing, not a nutrition score.",
+      "Flip the box over and check the nutrition panel: calories, protein, fiber and serving size. That tells you what the front only hints at. A granola labeled natural can have the calories of a dessert."
+    ],
+    "more": {
+      "example": "Low fat cookies often have the same calories as regular ones, with more sugar to make up for the flavor.",
+      "how": "Make it a rule: never trust the front, always check the back.",
+      "mistake": "Buying snack foods because they say protein on the front when they have 5 grams and 250 calories."
+    },
+    "chips": [
+      "How to read a nutrition label",
+      "Are protein bars worth it?"
+    ],
+    "related": [
+      "nr-a-034",
+      "nr-a-020"
+    ]
+  },
+  {
+    "id": "nr-a-132",
+    "topic": "volume",
+    "title": "Volume eating: more food for fewer calories",
+    "keys": [
+      "volume eating",
+      "eat more for less calories",
+      "low calorie high volume foods",
+      "big meals on a diet",
+      "how to eat a lot and lose weight",
+      "low calorie density foods",
+      "filling low calorie meals",
+      "huge salads",
+      "zucchini noodles"
+    ],
+    "match": "\\b(volume eating|low calorie (density|high volume)|high volume (low calorie|foods)|eat (a lot|more) (and|for) (lose|less))\\b",
+    "body": [
+      "Volume eating means filling your plate with foods that are big and filling but low in calories: vegetables, salads, fruit, broth soups, potatoes, lean proteins, Greek yogurt and popcorn. You get big satisfying meals and still stay in a deficit.",
+      "Simple swaps: half your rice for cauliflower rice, half your pasta for zucchini noodles, add a big side salad to every dinner, and start meals with a broth soup or a bowl of vegetables."
+    ],
+    "more": {
+      "example": "Three cups of air popped popcorn is about 100 calories. The same calories of chips is a small handful.",
+      "how": "Before each meal, ask what you can add, not what you need to cut. Usually the answer is vegetables or fruit.",
+      "mistake": "Eating huge volume but skipping protein. You will feel full for an hour, then hungry again."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "Soups and chili that fill you up"
+    ],
+    "related": [
+      "nr-a-040",
+      "nr-a-113"
+    ]
+  },
+  {
+    "id": "nr-a-133",
+    "topic": "bodyweight",
+    "title": "Protein targets when you have a lot to lose",
+    "keys": [
+      "protein if overweight",
+      "protein for obese",
+      "protein goal weight or current",
+      "protein for big guys",
+      "how much protein if i weigh 300",
+      "protein target heavier",
+      "protein for bigger body",
+      "protein 250 pounds"
+    ],
+    "match": "\\b(protein (if|for) (overweight|obese|big|bigger|heavier)|how much protein if i weigh (2|3|4)\\d\\d|protein (2|3)\\d\\d (lbs?|pounds))\\b",
+    "body": [
+      "If you have a lot of weight to lose, base protein on your goal weight, or a middle point, rather than your current weight. Using 300 pounds would give a target that is very hard to eat and not necessary. Around 0.7 to 1 gram per pound of goal weight works well.",
+      "So at 300 pounds with a goal of 220, a target of about 160 to 200 grams a day is plenty. That keeps you full, protects muscle and is doable to eat across three or four meals."
+    ],
+    "more": {
+      "why": "Protein needs track your muscle, not your total weight. Extra body fat does not need extra protein.",
+      "example": "Goal 220: three meals with 45 grams each plus a 30 gram snack is 165 grams.",
+      "how": "Lead every meal with the protein, then build the rest of the plate around it."
+    },
+    "reads": [
+      "protein",
+      "weight"
+    ],
+    "chips": [
+      "Goal or current weight for protein?",
+      "How to hit your protein"
+    ],
+    "related": [
+      "nr-a-002",
+      "nr-a-003"
+    ]
+  },
+  {
+    "id": "nr-a-134",
+    "topic": "kids",
+    "title": "Feeding the family while you hit your goals",
+    "keys": [
+      "family meals and diet",
+      "cook for family and diet",
+      "kids and my diet",
+      "one meal for the whole family",
+      "family dinner healthy",
+      "my family eats junk",
+      "family friendly high protein meals",
+      "cooking for kids and me"
+    ],
+    "match": "\\b(family (meals?|dinners?|friendly)|cook(ing)? for (my )?(family|kids)|whole family|my family eats)\\b",
+    "body": [
+      "Cook one meal, then serve it differently. Make a family dinner with a protein, a carb and a vegetable. Kids and partners get the portions they need; you take a bigger protein portion, more vegetables and a measured carb. Nobody needs a separate diet meal.",
+      "Taco bars, burrito bowls, pasta with meat sauce, sheet pan chicken and stir fries all work great this way because everyone builds their own plate."
+    ],
+    "more": {
+      "example": "Taco night: everyone builds tacos. You make a taco salad bowl with extra meat and a couple of tortillas on the side.",
+      "how": "Plate your food first, before serving seconds to everyone else, so you are not eating off the pan.",
+      "mistake": "Cooking two separate dinners every night. That burns you out in a week."
+    },
+    "chips": [
+      "Burgers and tacos that fit",
+      "Sheet pan dinners"
+    ],
+    "related": [
+      "nr-a-107",
+      "nr-a-110"
+    ]
+  },
+  {
+    "id": "nr-a-135",
+    "topic": "fuel",
+    "title": "Two workouts in one day and how to eat",
+    "keys": [
+      "two workouts a day eating",
+      "double session nutrition",
+      "eating between two workouts",
+      "two a days food",
+      "fuel for morning and evening workout",
+      "lift and run same day food",
+      "double day nutrition",
+      "training twice a day food",
+      "eat between sessions"
+    ],
+    "match": "\\b(two (workouts|sessions) (a|in one|per) day|two a days|double (session|day)|between (two|2) (workouts|sessions))\\b",
+    "body": [
+      "When you train twice in a day, recovery between sessions is the priority. Right after the first session, eat a meal with 30 to 40 grams of protein and plenty of carbs. Then have a carb snack an hour or so before the second session.",
+      "You will need more total food on these days, often 300 to 600 more calories depending on the work. Drink well throughout the day and add electrolytes if you sweat heavily."
+    ],
+    "more": {
+      "example": "7 am run, 6 pm lift: big breakfast after the run with eggs, toast and fruit, a normal lunch, a banana and yogurt at 5, dinner after lifting.",
+      "why": "Carbs refill the fuel used in session one so session two does not feel empty.",
+      "mistake": "Eating like a normal day and feeling flat by the evening session."
+    },
+    "reads": [
+      "calories",
+      "water"
+    ],
+    "chips": [
+      "What to eat after a workout",
+      "What to eat before a workout"
+    ],
+    "related": [
+      "nr-a-052",
+      "nr-a-050"
+    ]
+  },
+  {
+    "id": "nr-a-136",
+    "topic": "sleep",
+    "title": "What to eat before bed for better sleep",
+    "keys": [
+      "food before bed",
+      "eating before sleep",
+      "snack before bed",
+      "foods that help sleep",
+      "best bedtime snack",
+      "eat before bed and lose weight",
+      "hungry at bedtime",
+      "food for better sleep"
+    ],
+    "match": "\\b((food|snack|eat|eating) before (bed|sleep)|bedtime snack|foods? (that help|for better) sleep|hungry at bedtime)\\b",
+    "body": [
+      "A small snack before bed is completely fine and can help if hunger keeps you up. Pick something light with protein: Greek yogurt, cottage cheese, a glass of milk, a banana with a little peanut butter, or a small bowl of cereal with milk.",
+      "What tends to hurt sleep: big heavy meals within two hours of bed, spicy or greasy food if you get heartburn, alcohol, and caffeine in the afternoon or evening. Keep the snack under about 250 calories if you are losing weight."
+    ],
+    "more": {
+      "example": "A cup of cottage cheese with a few berries: about 25 grams of protein, around 200 calories.",
+      "why": "Going to bed starving can make it hard to fall asleep and easy to wake up hungry.",
+      "mistake": "A nightcap to help you sleep. Alcohol makes you drowsy but breaks up sleep later in the night."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "Protein before bed",
+      "Carbs at night"
+    ],
+    "related": [
+      "nr-a-006",
+      "nr-a-075"
+    ]
+  },
+  {
+    "id": "nr-a-137",
+    "topic": "habits",
+    "title": "Eating slower and noticing when you are full",
+    "keys": [
+      "eat slower",
+      "how to eat slowly",
+      "eating too fast",
+      "dont know when im full",
+      "always overeat",
+      "fullness cues",
+      "eat until 80 percent full",
+      "stop eating when full",
+      "mindful eating tips"
+    ],
+    "match": "\\b(eat(ing)? (slower|slowly|too fast)|fullness cues|80 ?(%|percent) full|(stop|know) (eating )?when (i'?m |im )?full)\\b",
+    "body": [
+      "It takes about 15 to 20 minutes for your brain to catch up with your stomach. If you finish a meal in five minutes, you can easily overshoot. Slowing down is one of the simplest ways to eat less without trying.",
+      "Put your fork down between bites, take a sip of water halfway through, eat sitting down without your phone, and aim to stop when you feel satisfied, not stuffed. Check in at the halfway point: how hungry am I now?"
+    ],
+    "more": {
+      "how": "Set a timer for 20 minutes on your next dinner and try to make the meal last that long.",
+      "example": "Many people find they leave a quarter of their plate once they slow down, and feel just as satisfied.",
+      "mistake": "Eating standing at the counter or in the car. Those meals barely register."
+    },
+    "chips": [
+      "Foods that keep you full",
+      "Late night snacking"
+    ],
+    "related": [
+      "nr-a-040"
+    ]
+  },
+  {
+    "id": "nr-a-138",
+    "topic": "habits",
+    "title": "Planning tomorrow's food the night before",
+    "keys": [
+      "plan my meals",
+      "meal planning",
+      "how to plan meals",
+      "plan tomorrow food",
+      "weekly meal plan",
+      "meal planning for beginners",
+      "plan meals ahead",
+      "what to eat tomorrow",
+      "food plan for the week"
+    ],
+    "match": "\\b(meal planning|plan (my |your )?meals|plan tomorrow|weekly meal plan|plan(ning)? meals ahead)\\b",
+    "body": [
+      "Five minutes the night before beats an hour of willpower the next day. Before bed, decide breakfast, lunch, a snack and dinner, and check that each one has protein. If it needs packing, pack it now.",
+      "For the week, plan just dinners on Sunday: five dinners, with leftovers covering a couple of lunches. Breakfasts and snacks can repeat. That small plan is what keeps you away from the drive-thru on a hard Tuesday."
+    ],
+    "more": {
+      "how": "Use a note on your phone with seven lines, one per day. Fill in dinners on Sunday. Shop from it.",
+      "example": "Monday sheet pan chicken, Tuesday leftovers, Wednesday tacos, Thursday stir fry, Friday pizza night.",
+      "mistake": "Planning an ambitious new recipe every night of the week. Plan easy meals on busy nights."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Meal prep for beginners",
+      "Grocery list for the week"
+    ],
+    "related": [
+      "nr-a-045",
+      "nr-a-047"
+    ]
+  },
+  {
+    "id": "nr-a-139",
+    "topic": "progress",
+    "title": "Measuring progress beyond the scale",
+    "keys": [
+      "progress photos",
+      "measure progress",
+      "tape measure progress",
+      "how to track fat loss",
+      "body measurements",
+      "waist measurement",
+      "non scale victories",
+      "scale not moving but clothes fit",
+      "body fat percentage",
+      "how to know if im losing fat"
+    ],
+    "match": "\\b(progress (photos?|pictures?|pics)|non scale victor(y|ies)|waist measurement|body measurements|body fat percentage|clothes fit)\\b",
+    "body": [
+      "The scale is one tool. Add three more: a tape measure at your waist, hips and chest every two weeks; progress photos from the front, side and back every four weeks in the same spot and light; and your lift numbers.",
+      "If your waist is shrinking and your lifts are climbing, you are losing fat and keeping muscle, even if the scale is slow. Clothes fitting looser is real data too. Write it down."
+    ],
+    "more": {
+      "how": "Measure first thing in the morning, before eating, with the tape level and snug but not tight.",
+      "why": "Water, food and muscle all change the scale. Measurements and photos show shape changes the scale misses.",
+      "example": "Scale down 2 lb in a month, waist down 1.5 inches. That is great progress, mostly fat."
+    },
+    "reads": [
+      "weight",
+      "sessions"
+    ],
+    "chips": [
+      "How often should I weigh?",
+      "Body recomposition"
+    ],
+    "related": [
+      "nr-a-063"
+    ]
+  },
+  {
+    "id": "nr-a-140",
+    "topic": "about",
+    "title": "What Nova can and cannot help with",
+    "keys": [
+      "what can you help with",
+      "can you make me a meal plan",
+      "are you a dietitian",
+      "nutrition questions",
+      "what do you know",
+      "can you help me with my diet",
+      "what should i ask you",
+      "nova help"
+    ],
+    "match": "\\b(are you a (dietitian|nutritionist)|can you make me a meal plan|what can you help (me )?with)\\b",
+    "body": [
+      "I can help with the everyday side of eating for your training: protein, calories, macros, meal ideas, meal prep, groceries, eating out, cravings, and how to adjust when progress stalls. I can give you sample days and templates and help you tweak them to fit your life.",
+      "I am not a dietitian or a doctor. If you have a medical condition, food allergies you are managing, are pregnant, or have a complicated relationship with food, please work with a registered dietitian or your doctor too. I am happy to be the everyday sidekick."
+    ],
+    "more": {
+      "example": "Try asking: how much protein do I need, give me a sample day for fat loss, or what should I order at a Mexican restaurant.",
+      "how": "The more you log in the app, the more I can point to your actual numbers instead of general advice."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "A sample day for fat loss",
+      "How much protein do I need?"
+    ],
+    "related": [
+      "nr-a-097"
+    ]
+  },
+  {
+    "id": "nr-a-141",
+    "topic": "hunger",
+    "title": "Always hungry on a diet: what to change",
+    "keys": [
+      "always hungry on a diet",
+      "starving on my diet",
+      "hungry all the time cutting",
+      "how to stop being hungry",
+      "hunger on a deficit",
+      "diet hunger",
+      "too hungry to lose weight",
+      "hungry after eating"
+    ],
+    "match": "\\b(always hungry|starving on (my|a|this) diet|hungry all the time|hunger on a (deficit|cut|diet)|too hungry)\\b",
+    "body": [
+      "Some hunger is normal in a deficit, but constant gnawing hunger means something can be adjusted. First check protein, 30 or more grams per meal. Then fiber and volume: vegetables, fruit, potatoes, oats and beans. Then water and sleep, since both affect hunger hormones more than people expect.",
+      "If those are solid and you are still starving, your deficit may be too big. Add 150 to 200 calories, mostly from protein and high fiber carbs, and slow your pace a little. A slower diet you can stick to beats a faster one you quit."
+    ],
+    "more": {
+      "how": "Rate your hunger before each meal for a week on a 1 to 10 scale. If it is 8 or more most of the time, the deficit is too aggressive.",
+      "why": "Protein and fiber trigger fullness signals. Sleep loss raises hunger hormones the next day.",
+      "example": "Swapping a 400 calorie pastry breakfast for 400 calories of eggs, toast and fruit can keep someone full until lunch instead of 10 am.",
+      "mistake": "Trying to white knuckle through it with coffee and gum for weeks."
+    },
+    "reads": [
+      "protein",
+      "calories"
+    ],
+    "chips": [
+      "Foods that keep you full",
+      "How big should my deficit be?"
+    ],
+    "related": [
+      "nr-a-040",
+      "nr-a-028"
+    ]
+  }
+]

@@ -1,0 +1,916 @@
+[
+  {
+    "id": "nr-b-063",
+    "topic": "eating-out",
+    "title": "Eating out without wrecking the day",
+    "keys": [
+      "eating out without wrecking it",
+      "how do i order at a restaurant",
+      "eating out on a diet",
+      "restaurant tips",
+      "healthy restaurant choices",
+      "eating out and losing weight",
+      "how to eat out healthy",
+      "what to order at restaurants",
+      "going out to eat",
+      "dining out",
+      "restaurant meals calories",
+      "i eat out a lot for work",
+      "can i eat out and still lose weight",
+      "restaurant portions"
+    ],
+    "match": "\\b(eat(ing)?|dining|going) out\\b(?! of)|\\brestaurants?\\b",
+    "body": [
+      "Eating out fits any goal. Restaurant meals tend to run bigger, saltier and richer than home cooking, often 800 to 1,500 calories for an entree before drinks or dessert, so a little strategy goes a long way. You do not need the saddest salad on the menu.",
+      "My playbook: build the order around a protein (grilled chicken, steak, fish, shrimp, carnitas, a burger patty). Add a vegetable side or salad. Pick the one starch you really want, fries, rice, bread or pasta, rather than all of them. Ask for sauces and dressings on the side. Then decide the extras on purpose: the drink, the appetizer, the dessert. Choose one, enjoy it, and skip the ones you would not miss.",
+      "Eat slowly, stop when satisfied and box the rest, since restaurant portions are often two meals. Log it as best you can and move on. A rough estimate beats skipping the log every time."
+    ],
+    "more": {
+      "how": "Look at the menu before you go and decide your order at home, when you are not hungry and the bread basket is not on the table.",
+      "example": "Steakhouse: 8 ounce sirloin, baked potato with a little butter, side salad with dressing on the side, one glass of wine. Roughly 1,000 calories with 60 or more grams of protein. A great night out.",
+      "mistake": "Eating very little all day to save up for dinner. You show up starving, demolish the bread basket and order with your stomach. Eat normal meals with protein earlier instead.",
+      "why": "Restaurants cook with more butter, oil and salt than you would at home, and portions are built to impress. Knowing that lets you plan around it instead of guessing low."
+    },
+    "reads": [
+      "range"
+    ],
+    "chips": [
+      "Best fast food orders?",
+      "How do I log a restaurant meal?",
+      "What to order at Mexican?"
+    ],
+    "related": [
+      "nr-b-005",
+      "nr-b-049"
+    ]
+  },
+  {
+    "id": "nr-b-064",
+    "topic": "eating-out",
+    "title": "The best fast food orders",
+    "keys": [
+      "best fast food orders",
+      "fast food on a diet",
+      "healthy fast food",
+      "what to get at a drive thru",
+      "fast food for weight loss",
+      "fast food high protein",
+      "fast food when cutting",
+      "drive thru options",
+      "what to eat at fast food",
+      "low calorie fast food",
+      "fast food protein",
+      "fast food breakfast",
+      "can i eat fast food and lose weight",
+      "fast food lunch"
+    ],
+    "match": "\\bfast ?food\\b|\\bdrive ?(thru|through)\\b",
+    "body": [
+      "Fast food can absolutely fit. The trick is ordering for protein and keeping the extras in check. Most of the calories in a fast food meal hide in the large fries, the large soda and the sauces, not the sandwich itself.",
+      "Good bets at most chains: a grilled chicken sandwich, a single or double burger without the extra sauce, nuggets with a lighter sauce, a burrito bowl heavy on meat, beans and salsa, a turkey or chicken sub on a 6 inch roll, an egg and meat breakfast sandwich on an English muffin. Pair it with a small fries or a side salad, and diet soda, unsweetened iced tea or water.",
+      "Most of these land around 400 to 700 calories with 25 to 45 grams of protein. Swap the medium combo for a small, or skip the fries and double the protein, and you are in great shape."
+    ],
+    "more": {
+      "example": "Double cheeseburger, small fries and a diet soda is roughly 700 calories with about 25 to 30 grams of protein. The same burger with a large fries and a large regular soda can pass 1,200.",
+      "how": "Most chains post nutrition info online and in their apps. Check your two or three regular spots once, pick a go to order at each, and you never have to think about it again.",
+      "mistake": "Ordering a salad with crispy chicken, cheese, croutons and two packets of creamy dressing because it sounds lighter. That can top 800 calories. A grilled chicken sandwich is often the better pick.",
+      "short_on_time": "When in doubt: a grilled chicken sandwich or a double patty burger, small fries and a zero calorie drink. Works almost anywhere."
+    },
+    "reads": [
+      "protein",
+      "range"
+    ],
+    "chips": [
+      "Can I eat burgers on a cut?",
+      "Best sandwich shop order?",
+      "Gas station food that works?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-065",
+    "topic": "eating-out",
+    "title": "What to order at a Mexican restaurant",
+    "keys": [
+      "what to order at mexican",
+      "mexican food on a diet",
+      "mexican restaurant healthy",
+      "chips and salsa calories",
+      "burrito calories",
+      "tacos on a diet",
+      "are fajitas healthy",
+      "burrito bowl order",
+      "mexican food high protein",
+      "enchiladas calories",
+      "taco tuesday",
+      "how many chips and salsa",
+      "is mexican food healthy",
+      "burrito place order"
+    ],
+    "match": "\\bmexican (food|restaurant|place|night)\\b|\\b(burrito|fajita|enchilada|quesadilla|nacho)s?\\b|\\btacos? (tuesday|night|on a diet|truck)\\b|\\bchips and salsa\\b",
+    "body": [
+      "Mexican is one of the easiest cuisines to eat out for your goals. Lots of grilled meat, beans, salsa, vegetables and corn tortillas. Where it gets heavy is the bottomless chips, cheese sauce, sour cream and giant flour tortillas.",
+      "Great orders: fajitas (chicken, steak or shrimp) with corn tortillas, beans and pico; street tacos on corn tortillas; a burrito bowl with double meat, beans, fajita veggies, salsa and lettuce; carne asada or grilled fish plates with rice or beans rather than both. Salsa and pico are nearly free. Guacamole is great food, just budget it. Cheese and sour cream add up fast.",
+      "The chips are the big one. A basket can easily run 500 to 700 calories before your meal shows up. Have a measured handful, then push the basket away or ask them not to refill it."
+    ],
+    "more": {
+      "example": "Chicken burrito bowl with rice, black beans, fajita veggies, salsa and lettuce: about 550 to 650 calories and 40 or more grams of protein. Add cheese, sour cream and guac and it can climb past 1,000.",
+      "how": "Pick your one favorite add on, guac or cheese or sour cream, and skip the other two. You still get the flavor you love.",
+      "mistake": "A big flour tortilla burrito smothered in sauce and cheese, plus the chips. That combo can top 1,500 calories without much more protein than a bowl."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "How do I log a restaurant meal?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-073"
+    ]
+  },
+  {
+    "id": "nr-b-066",
+    "topic": "eating-out",
+    "title": "What to order at an Italian restaurant",
+    "keys": [
+      "what to order at italian",
+      "italian restaurant on a diet",
+      "pasta at a restaurant",
+      "breadsticks calories",
+      "is italian food healthy",
+      "restaurant pasta portion",
+      "chicken parm calories",
+      "lasagna calories",
+      "fettuccine alfredo calories",
+      "pasta night out",
+      "garlic bread calories",
+      "best italian order for weight loss"
+    ],
+    "match": "\\bitalian (food|restaurant|place|night)\\b|\\b(chicken parm\\w*|alfredo|lasagna|breadsticks?|garlic bread|carbonara)\\b|\\bpasta (at a|out|at the) restaurant\\b|\\brestaurant pasta\\b",
+    "body": [
+      "Pasta is not the problem. The portion is. A restaurant pasta plate is often 2 to 3 cups of pasta in a rich sauce, easily 1,000 to 1,500 calories, with less protein than you would think. Add breadsticks or garlic bread and you are well past a normal dinner.",
+      "Easy wins: choose tomato based sauces (marinara, arrabbiata, pomodoro) over cream sauces like alfredo or vodka sauce. Add a protein: grilled chicken, shrimp, meatballs or salmon. Look for a lunch portion or a half order, or box half the plate before you start. Grilled fish, chicken piccata, or a protein with roasted vegetables are great picks too.",
+      "Bread is fine. Decide how much you want, one breadstick or one slice of garlic bread, and enjoy it. Then ask for the basket to go away so it is not staring at you."
+    ],
+    "more": {
+      "example": "Spaghetti marinara with grilled chicken, half boxed for tomorrow, plus a side salad: about 600 to 700 calories tonight with 40 grams of protein. And lunch is already handled.",
+      "why": "Cream, butter and cheese sauces bring a lot of fat, and fat is calorie dense. Tomato sauces carry big flavor for a fraction of the calories.",
+      "mistake": "Sharing a fried appetizer, eating three breadsticks, ordering alfredo and finishing the plate. That can be a 2,500 calorie dinner. Keep two of the four and let the other two go."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "Is sushi good for fat loss?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-067",
+    "topic": "eating-out",
+    "title": "What to order for Chinese takeout",
+    "keys": [
+      "what to order at chinese",
+      "chinese food on a diet",
+      "chinese takeout healthy",
+      "general tso calories",
+      "orange chicken calories",
+      "fried rice calories",
+      "lo mein calories",
+      "healthy chinese food",
+      "chinese food high protein",
+      "best chinese takeout order",
+      "is chinese food healthy",
+      "chicken and broccoli",
+      "egg rolls calories",
+      "sesame chicken calories"
+    ],
+    "match": "\\bchinese (food|takeout|take out|restaurant|place)\\b|\\b(general tso'?s?|orange chicken|lo mein|fried rice|egg rolls?|sesame chicken|kung pao)\\b",
+    "body": [
+      "Chinese takeout can be a great high protein meal or a 2,000 calorie one, and the difference is mostly breading and sauce. Battered, fried dishes in sweet sauces, like General Tso's, orange or sesame chicken, can run 1,000 to 1,500 calories an order. Stir fried and steamed dishes are much lighter.",
+      "Great picks: chicken and broccoli, beef and broccoli, shrimp with vegetables, Szechuan or kung pao chicken, tofu with mixed vegetables, egg drop or hot and sour soup, steamed dumplings. Ask for sauce on the side, or steamed with sauce on the side, and add it yourself. Steamed rice over fried rice, about a cup.",
+      "If the fried favorite is what you are craving, have it. Share an order, pair it with a steamed protein dish, and let the vegetables fill the plate."
+    ],
+    "more": {
+      "example": "Chicken and broccoli with a cup of steamed rice: roughly 600 to 800 calories and 35 to 45 grams of protein. A full order of orange chicken with fried rice can be over 1,500.",
+      "how": "Plate your portion and put the rest away for tomorrow's lunch before you sit down. Most takeout orders are two meals.",
+      "mistake": "Forgetting the sauce. A few tablespoons of sweet stir fry sauce can add 100 to 200 calories and a lot of sodium. Sauce on the side lets you choose."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Weight up after a salty meal?",
+      "How do I log a restaurant meal?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-005"
+    ]
+  },
+  {
+    "id": "nr-b-068",
+    "topic": "eating-out",
+    "title": "Eating sushi for your goals",
+    "keys": [
+      "is sushi good for fat loss",
+      "sushi on a diet",
+      "sushi calories",
+      "best sushi for weight loss",
+      "sushi high protein",
+      "california roll calories",
+      "sashimi vs rolls",
+      "how much sushi should i eat",
+      "sushi rice calories",
+      "spicy tuna roll calories",
+      "tempura roll calories",
+      "poke bowl",
+      "what to order at sushi",
+      "japanese food on a diet"
+    ],
+    "match": "\\bsushi\\b|\\bsashimi\\b|\\bnigiri\\b|\\bpoke bowls?\\b|\\b(california|spicy tuna|tempura|dragon|rainbow) rolls?\\b",
+    "body": [
+      "Sushi can be a great choice with a few things to know. Fish is lean protein, but rolls are mostly rice, and the fancy ones add tempura, cream cheese and spicy mayo. A plain roll is around 200 to 300 calories with 10 to 15 grams of protein. A specialty roll can be 400 to 600.",
+      "Protein forward orders: sashimi (just the fish), nigiri (a little rice under each slice), a simple tuna, salmon or yellowtail roll, edamame, miso soup and seaweed salad. A poke bowl with double fish and half rice works too. Go easy on rolls labeled crunch, tempura or crazy, and ask for spicy mayo on the side.",
+      "One more thing: soy sauce is very salty, about a gram of sodium per tablespoon, so expect the scale to bump the next morning. That is water, not fat. Use low sodium soy if you like, and enjoy dinner."
+    ],
+    "more": {
+      "example": "Edamame, miso soup, six pieces of salmon and tuna nigiri and one spicy tuna roll: roughly 800 calories with 60 or more grams of protein.",
+      "how": "Start with edamame and miso soup. They take the edge off hunger so you are not ordering four rolls on an empty stomach.",
+      "mistake": "Thinking all sushi is light. Three tempura specialty rolls with spicy mayo can pass 1,500 calories."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Weight up after a salty meal?",
+      "How do I order at a restaurant?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-005"
+    ]
+  },
+  {
+    "id": "nr-b-069",
+    "topic": "eating-out",
+    "title": "Fitting pizza night into your week",
+    "keys": [
+      "how do i fit pizza night in",
+      "pizza night",
+      "ordering pizza on a diet",
+      "how many slices of pizza",
+      "pizza delivery on a diet",
+      "pizza calories per slice",
+      "thin crust or regular",
+      "best pizza toppings for weight loss",
+      "pizza with friends",
+      "can i have pizza on a cut",
+      "pizza friday",
+      "how many slices should i eat"
+    ],
+    "match": "\\bpizza (night|delivery|friday|party|place|out)\\b(?! at home)|\\bslices? of pizza\\b|\\b(order(ing)?|delivery) pizza\\b|\\bpizza slices?\\b|\\bthin crust\\b",
+    "body": [
+      "Pizza night stays. We just plan it. A slice of a large regular crust cheese or pepperoni pizza is about 280 to 350 calories. Thin crust is closer to 200 to 250. Deep dish and stuffed crust can be 400 to 500 or more. So two or three slices is a normal dinner, and the trouble starts with the fifth slice and the extras.",
+      "My setup: eat a quick protein starter or a big salad first, then have two or three slices of what you actually want. Chicken, ham or extra veggies on top add protein and volume. Skip the cheesy bread and dipping sauces unless those are your favorite part, and then skip something else.",
+      "Log it, enjoy it, and go back to normal the next meal. Pizza night once a week fits comfortably into almost any plan."
+    ],
+    "more": {
+      "example": "Big salad with grilled chicken first (about 300 calories and 35 grams of protein), then two slices of thin crust pepperoni (about 450 to 500). Full, happy, under 800.",
+      "how": "Decide your slice count before the box opens, put them on a plate and close the box. Eating straight from the box is how three turns into six.",
+      "mistake": "Skipping lunch to save up for pizza. You show up starving and the box does not stand a chance."
+    },
+    "reads": [
+      "range"
+    ],
+    "chips": [
+      "Healthy pizza at home?",
+      "Weight up after a big meal?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-006"
+    ]
+  },
+  {
+    "id": "nr-b-070",
+    "topic": "eating-out",
+    "title": "Ordering burgers on a cut",
+    "keys": [
+      "can i eat burgers on a cut",
+      "burgers on a cut",
+      "burger calories",
+      "restaurant burger calories",
+      "best burger order",
+      "lettuce wrap burger",
+      "burger and fries on a diet",
+      "double burger protein",
+      "cheeseburger calories",
+      "burger joint order",
+      "smash burger calories",
+      "is a burger healthy"
+    ],
+    "match": "\\b(cheese|smash|bacon|restaurant|double) ?burgers?\\b|\\bburgers?\\b.{0,20}\\b(cut|calories|fries|order|joint)\\b|\\blettuce wrap(ped)? burger\\b",
+    "body": [
+      "Yes. A burger is a solid protein meal. A plain single patty burger is often 350 to 550 calories with 20 to 30 grams of protein. Where it climbs is the extras: bacon, extra cheese, special sauce, onion rings on top, and the giant restaurant patty at 8 to 10 ounces.",
+      "Order it the way you love it, then trim the pieces you do not care about. A double patty without bacon gets you more protein per calorie. Keep one slice of cheese. Mustard, ketchup, pickles, onions, lettuce and tomato are basically free. Mayo and special sauces run about 90 to 100 calories a tablespoon. Go lettuce wrap or open face if you would rather spend the calories on fries.",
+      "Fries: get a small, share a basket, or swap for a side salad if you do not care much. If the fries are the best part for you, keep them and skip the soda and dessert instead."
+    ],
+    "more": {
+      "example": "Double cheeseburger with mustard, pickles and onions, small fries and a diet soda: roughly 750 to 850 calories and around 35 grams of protein. Add bacon, mayo, a large fries and a shake and it can pass 2,000.",
+      "how": "At sit down places, ask what size the patty is. A 4 ounce patty and a 10 ounce patty are very different meals, and both can work with the right sides.",
+      "mistake": "Getting the veggie or turkey burger because it sounds lighter, then adding crispy onions and aioli. Check the build, not the name."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Best fast food orders?",
+      "Weight up after a salty meal?"
+    ],
+    "related": [
+      "nr-b-064",
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-071",
+    "topic": "eating-out",
+    "title": "Brunch and diner breakfasts",
+    "keys": [
+      "what to order for brunch",
+      "brunch on a diet",
+      "diner breakfast",
+      "breakfast out healthy",
+      "pancakes on a diet",
+      "eggs benedict calories",
+      "french toast calories",
+      "what to order at a diner",
+      "brunch calories",
+      "high protein brunch",
+      "breakfast restaurant order",
+      "mimosas and brunch",
+      "waffles on a diet",
+      "omelet order"
+    ],
+    "match": "\\bbrunch\\b|\\bdiner\\b|\\b(eggs benedict|french toast|mimosas?)\\b|\\b(pancakes?|waffles?|omelets?) (out|at|on a diet|order|calories)\\b",
+    "body": [
+      "Brunch can be a protein jackpot or a sugar and butter festival, and you get to choose the mix. Eggs, omelets, Greek yogurt, smoked salmon, turkey sausage, ham and cottage cheese are on most menus. Pancakes, waffles, French toast and pastries are delicious, just light on protein and heavy on syrup and butter.",
+      "A great order: a veggie omelet or two to three eggs any style, with a lean meat, fruit and one piece of toast or a small side of potatoes. Want the pancakes? Get a short stack or one pancake on the side with your eggs, so you get both. Eggs benedict is about 700 to 900 calories with the hollandaise, so it is a treat order, not an everyday one.",
+      "Watch the drinks. A couple of mimosas, a sweet latte and a juice can add 400 to 600 calories before any food arrives. Pick one fun drink, then coffee or water."
+    ],
+    "more": {
+      "example": "Three egg veggie omelet, turkey sausage, a fruit cup and one slice of toast: about 550 to 650 calories and roughly 35 to 40 grams of protein.",
+      "how": "Share a sweet dish with the table and order a protein plate for yourself. Everyone gets a bite of French toast, and nobody is stuck with a 1,200 calorie plate.",
+      "mistake": "Skipping protein at brunch and then being starving by 3 p.m. Get eggs or yogurt in there somehow."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Easy high protein breakfasts?",
+      "What drinks are lowest calorie?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-072",
+    "topic": "eating-out",
+    "title": "Sandwich and sub shop orders",
+    "keys": [
+      "best sandwich shop order",
+      "sub shop on a diet",
+      "healthy sub order",
+      "6 inch or footlong",
+      "sandwich calories",
+      "deli sandwich on a diet",
+      "best sub for protein",
+      "wrap or sandwich",
+      "is a wrap healthier than bread",
+      "sandwich for weight loss",
+      "turkey sub calories",
+      "double meat sub"
+    ],
+    "match": "\\b(sub|sandwich|deli) (shop|place|order)\\b|\\b(6|six) inch\\b|\\bfoot ?long\\b|\\b(wrap|tortilla) (or|vs|versus) (bread|a sandwich|sub)\\b|\\bwrap healthier\\b|\\bdouble meat\\b",
+    "body": [
+      "Sandwich shops are one of the easiest places to eat for your goals, because you control every piece. The base, bread and meat, is fine. The calories climb with extra cheese, mayo, oil, creamy dressings, bacon, and footlongs when you meant to eat a regular lunch.",
+      "A strong order: a 6 inch or regular size on whatever bread you like, with turkey, chicken, ham, roast beef or tuna (ask for light mayo on the tuna), double meat if you want more protein, one slice of cheese, all the vegetables, and mustard, vinegar or a light sauce. Add fruit, a yogurt or baked chips on the side if you are hungry.",
+      "Wraps are not automatically lighter. A big flour wrap can carry as many calories as two slices of bread or more. Pick what you will enjoy and build it well."
+    ],
+    "more": {
+      "example": "6 inch turkey with double meat, provolone, all the veggies and mustard: about 400 to 450 calories with 30 to 35 grams of protein. A footlong Italian with extra cheese and mayo can run 1,100 or more.",
+      "how": "Order the regular size and add a high protein side, like a yogurt or a cheese stick, if you are hungry. That beats the footlong for most people.",
+      "mistake": "Loading on creamy chipotle sauce, ranch and extra oil. Those three alone can add 300 calories to a sandwich."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Best fast food orders?",
+      "Easy lunches that travel"
+    ],
+    "related": [
+      "nr-b-064",
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-073",
+    "topic": "eating-out",
+    "title": "Estimating a restaurant meal you cannot look up",
+    "keys": [
+      "how do i log a restaurant meal",
+      "how to log eating out",
+      "estimate restaurant calories",
+      "how many calories in my restaurant meal",
+      "restaurant without nutrition info",
+      "how to track eating out",
+      "log a meal i didnt cook",
+      "guess calories at a restaurant",
+      "how to estimate calories",
+      "log a meal at a friends house",
+      "local restaurant calories"
+    ],
+    "match": "\\b(log|logging|track|tracking|estimat\\w*|guess\\w*)\\b.{0,25}\\b(restaurant|eating out|ate out|takeout|someone else'?s|friends? house)\\b|\\bhow to estimate calories\\b",
+    "body": [
+      "Close enough is good enough. If the restaurant posts nutrition info, use it. If not, log a similar item from a chain restaurant and add about 20 percent, because restaurant kitchens use more oil and butter than any database expects.",
+      "No match at all? Break it into parts. Protein: a palm sized piece is roughly 4 to 6 ounces cooked. Carbs: a fist of rice or pasta is about a cup. Fats: assume a tablespoon or two of oil or butter in anything sauteed, about 120 calories each. Sauces and dressings: a couple of tablespoons, logged on their own. Then add your drinks.",
+      "Then let it go. Your estimate might be 15 percent off either way, and that is fine. What wrecks a trend is skipping the log entirely, not a rough number."
+    ],
+    "more": {
+      "why": "Logging a decent guess keeps your weekly average honest. Leaving the meal blank makes the week look better on paper than it was, and then the scale seems confusing.",
+      "example": "Grilled salmon, rice and vegetables at a local spot: log 6 ounces of salmon, 1 cup of rice, 1 cup of vegetables and 2 tablespoons of oil. About 850 to 900 calories. Close enough.",
+      "how": "Use the same chain stand in each time you eat at a local favorite. Consistency matters more than precision.",
+      "mistake": "Logging the restaurant salmon as plain salmon from your kitchen scale. The butter and oil are the whole difference."
+    },
+    "reads": [
+      "calories"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "Hidden calories in drinks?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-074",
+    "topic": "on-the-go",
+    "title": "Eating on a busy day",
+    "keys": [
+      "eating on a busy day",
+      "busy day eating",
+      "no time to eat",
+      "eating on the go",
+      "what to eat when busy",
+      "running around all day",
+      "back to back meetings food",
+      "eating in the car",
+      "grab and go food",
+      "too busy to eat",
+      "healthy food on the run",
+      "busy mom eating",
+      "quick food on the go",
+      "how to eat when im slammed"
+    ],
+    "match": "\\b(busy|hectic|crazy|slammed) (day|days|schedule)\\b|\\b(eat(ing)?|food) on the (go|run)\\b|\\b(no|zero) time to eat\\b|\\btoo busy to eat\\b|\\bgrab and go\\b|\\beating in the car\\b",
+    "body": [
+      "Busy days go better with a backup plan, because hungry plus rushed equals whatever is closest. The goal is not perfect meals. It is keeping some protein and water in you so you are not starving and grabbing anything at 4 p.m.",
+      "Keep a go bag of things that need no fridge or prep: protein bars, jerky, nuts, single serve peanut butter, rice cakes, apples and bananas, a shaker with protein powder, and a bottle of water. With a work fridge or a cooler in the car, add Greek yogurt cups, string cheese, hard boiled eggs, ready to drink protein shakes and deli turkey roll ups.",
+      "On the road, a grocery store beats a drive thru for speed and options: a rotisserie chicken, a salad kit, a yogurt and a banana make a great meal in five minutes. And if fast food is the only option, it can still work."
+    ],
+    "more": {
+      "example": "Back to back meetings until 2 p.m.: a protein shake at 10, a bar and a banana at noon, then a real meal at 2:30. No 3 p.m. vending machine crash.",
+      "how": "Restock your go bag every Sunday, and keep a spare bar in your car, your desk and your gym bag.",
+      "short_on_time": "Can only grab one thing? Make it protein: a shake, a yogurt or jerky. It holds you longer than a granola bar or a pastry.",
+      "mistake": "Not eating until dinner because the day got away from you, then eating everything in sight. A 200 calorie protein snack at 2 p.m. can save a 1,000 calorie evening."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Gas station food that works?",
+      "Best fast food orders?",
+      "High protein snacks?"
+    ],
+    "related": [
+      "nr-b-064",
+      "nr-b-061"
+    ]
+  },
+  {
+    "id": "nr-b-075",
+    "topic": "on-the-go",
+    "title": "Gas station food that actually works",
+    "keys": [
+      "gas station food that works",
+      "what to eat from a gas station",
+      "gas station snacks",
+      "healthy gas station food",
+      "convenience store food",
+      "gas station high protein",
+      "gas station on a diet",
+      "what to buy at a gas station",
+      "gas station breakfast",
+      "c store snacks",
+      "truck stop food"
+    ],
+    "match": "\\bgas station\\b|\\bconvenience store\\b|\\bc ?store\\b|\\btruck stop\\b",
+    "body": [
+      "Gas stations are better than their reputation. Most of them have real protein if you know where to look, usually in the cooler near the drinks.",
+      "My top picks: beef or turkey jerky (around 10 to 15 grams of protein per ounce), string cheese, hard boiled eggs, Greek yogurt cups, ready to drink protein shakes, milk or chocolate milk, protein bars, single packs of nuts or trail mix, bananas and apples, and sometimes a turkey sandwich or a fruit and cheese cup. For drinks: water, sparkling water, unsweetened tea or diet soda.",
+      "Put two or three of those together and you have a solid meal: jerky, a cheese stick and a banana, or a protein shake and a pack of almonds. The roller grill and the giant fountain drink are not off limits, they just should not be the base of the meal."
+    ],
+    "more": {
+      "example": "A protein shake (about 30 grams of protein, 160 calories), two string cheeses (14 grams, 160 calories) and an apple (95): about 415 calories and 44 grams of protein, eaten at the pump.",
+      "how": "Read the protein line on the label. Aim for at least 20 grams across your picks.",
+      "mistake": "Grabbing chips and a large soda because you are rushed. That is 500 or more calories that leaves you hungry again in an hour."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Road trip food ideas?",
+      "What to eat at the airport?"
+    ],
+    "related": [
+      "nr-b-074"
+    ]
+  },
+  {
+    "id": "nr-b-076",
+    "topic": "travel",
+    "title": "What to eat at the airport and on a flight",
+    "keys": [
+      "what to eat at the airport",
+      "airport food",
+      "healthy airport food",
+      "eating while flying",
+      "airport on a diet",
+      "airplane snacks",
+      "food for a flight",
+      "what to pack for a flight",
+      "long flight eating",
+      "layover food",
+      "airport breakfast",
+      "hydration on a plane"
+    ],
+    "match": "\\bairports?\\b|\\b(on a|long|during a|for a) (plane|flight)\\b|\\bairplane (food|snacks?)\\b|\\blayover\\b|\\bwhile flying\\b",
+    "body": [
+      "Pack first, buy second. You can bring solid food through security in most places, so a bag with protein bars, jerky, nuts, a sandwich, fruit and an empty water bottle saves you money and guesswork. Liquids like yogurt and shakes usually have to go, so buy those after security.",
+      "Inside the terminal, look for the grab and go fridges: yogurt parfaits, egg bites, protein boxes with eggs, cheese and nuts, wraps and salads with chicken. Most terminals have a coffee shop with egg sandwiches, a burrito or bowl spot, and a grill with burgers or grilled chicken. Fill your bottle at a fountain once you are through.",
+      "Planes are dry, so drink more than usual, roughly a cup of water for every hour in the air. Go easy on alcohol in flight, and expect the scale to be up the next morning from salt, sitting and travel. It drops in a few days."
+    ],
+    "more": {
+      "example": "Early flight: egg bites and a banana at the gate, jerky and a protein bar on the plane, a chicken wrap on the layover. About 1,000 to 1,100 calories with 70 to 80 grams of protein across the trip.",
+      "how": "Check the airport map ahead of time for a place with grilled options near your gate. Deciding while rushing is how you end up with a pretzel and a frozen drink.",
+      "mistake": "Not eating all day because of travel, then landing starving. Bring food, even if it is just two bars and some fruit."
+    },
+    "reads": [
+      "water",
+      "protein"
+    ],
+    "chips": [
+      "How do I eat on vacation?",
+      "Weight up after vacation?",
+      "Gas station food that works?"
+    ],
+    "related": [
+      "nr-b-074",
+      "nr-b-075",
+      "nr-b-017"
+    ]
+  },
+  {
+    "id": "nr-b-077",
+    "topic": "travel",
+    "title": "Road trip food that keeps you going",
+    "keys": [
+      "road trip food ideas",
+      "road trip snacks",
+      "healthy road trip food",
+      "what to pack for a road trip",
+      "long drive food",
+      "cooler food for a road trip",
+      "eating on a long drive",
+      "road trip on a diet",
+      "car snacks",
+      "driving all day food"
+    ],
+    "match": "\\broad ?trips?\\b|\\blong drives?\\b|\\bdriving all day\\b|\\bcar snacks\\b",
+    "body": [
+      "A cooler is your best friend. Pack it once and you will eat better, spend less and stop less. Rest stops and gas stations still work as backup, but you are not at their mercy.",
+      "Cooler ideas: sandwiches or wraps with turkey or chicken, hard boiled eggs, Greek yogurt cups, string cheese, cut vegetables with hummus, grapes, berries, ready to drink protein shakes and plenty of water. Dry bag: jerky, nuts, protein bars, popcorn, apples, bananas, whole grain crackers and peanut butter packets.",
+      "On a long drive, plan one real sit down meal a day, even if it is fast food done well. And stop to walk for five minutes every couple of hours. Your legs, your back and your digestion will thank you."
+    ],
+    "more": {
+      "example": "Six hour drive: eggs and yogurt before leaving, a turkey wrap and grapes at noon, jerky and a cheese stick at 3 p.m., then dinner at the destination.",
+      "how": "Keep single portions up front and the big bags in the trunk. Eating from a family size bag while driving is the easiest way to lose track.",
+      "mistake": "Living on candy and energy drinks to stay awake. The spikes and crashes make long drives harder. Protein, water and short walking breaks keep you sharper."
+    },
+    "reads": [
+      "water",
+      "steps"
+    ],
+    "chips": [
+      "Gas station food that works?",
+      "How do I eat on vacation?"
+    ],
+    "related": [
+      "nr-b-075",
+      "nr-b-076"
+    ]
+  },
+  {
+    "id": "nr-b-078",
+    "topic": "travel",
+    "title": "How to eat on vacation",
+    "keys": [
+      "how do i eat on vacation",
+      "eating on vacation",
+      "vacation diet",
+      "should i track on vacation",
+      "all inclusive resort eating",
+      "cruise food",
+      "how not to gain weight on vacation",
+      "vacation and fat loss",
+      "eat whatever i want on vacation",
+      "travel eating tips",
+      "maintaining weight on vacation",
+      "buffet on vacation",
+      "beach vacation food"
+    ],
+    "match": "\\b(vacation|cruise|all inclusive|resort)\\b.{0,30}\\b(eat\\w*|food|diet|track\\w*|buffets?)\\b|\\b(eat\\w*|food|diet|track\\w*) (on|during|while on) (a |my )?(vacation|cruise|trip)\\b|\\bnot (to )?gain weight on vacation\\b",
+    "body": [
+      "Vacation is not a test. Aim to maintain, not to lose, and enjoy the food that makes the trip special. Most people can travel for a week and come home within a pound or two of real change, as long as they keep a few anchors.",
+      "My vacation anchors: protein at breakfast (eggs, yogurt, whatever the hotel has), lots of walking, plenty of water, and choosing your splurges. Have the local specialty, the gelato, the fancy dinner. Skip the stuff you can get at home, like the airport muffin or the so so buffet dessert. At buffets, do one lap first, then fill a plate with protein and the two or three things you are most excited about.",
+      "You do not have to track on vacation unless you enjoy it. When you get back, expect the scale to be up from salt and travel. Go straight back to normal and give it a week."
+    ],
+    "more": {
+      "example": "Beach week: eggs and fruit every morning, 12,000 steps a day exploring, one big dinner out, drinks most nights. Home up 4 pounds, back to plus 0.8 by day nine.",
+      "how": "Walk everywhere you can. Sightseeing on foot can add 5,000 to 10,000 steps a day, which offsets a lot of extra food.",
+      "mistake": "Treating every single meal as a free for all, then crash dieting when you get home. Enjoy the special stuff, skip the boring stuff, and come home to normal."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Weight up after vacation?",
+      "Alcohol and fat loss",
+      "What to eat at the airport?"
+    ],
+    "related": [
+      "nr-b-017",
+      "nr-b-076"
+    ]
+  },
+  {
+    "id": "nr-b-079",
+    "topic": "travel",
+    "title": "Eating well on work trips",
+    "keys": [
+      "eating on a work trip",
+      "business travel eating",
+      "hotel food",
+      "hotel breakfast buffet",
+      "eating at conferences",
+      "client dinners",
+      "work dinner on a diet",
+      "traveling for work diet",
+      "hotel room snacks",
+      "per diem eating",
+      "expense account dinners",
+      "eating healthy while traveling for work"
+    ],
+    "match": "\\b(work|business) (trip|travel)s?\\b|\\btraveling for work\\b|\\bhotel (food|breakfast|room)\\b|\\b(conference|client) (dinners?|lunch(es)?|food)\\b|\\bwork dinners?\\b",
+    "body": [
+      "Work trips break every routine: long days, catered lunches, client dinners and hotel breakfasts. A little planning keeps you steady without being the difficult one at the table.",
+      "Breakfast: hit the hotel buffet for eggs, Greek yogurt, fruit and oatmeal, and pass on the pastries unless you really want one. Lunch: at catered events, build the plate around the protein and vegetables. Client dinners: order a protein and vegetable entree, have one drink or alternate with sparkling water, and share dessert if the table orders it. Nobody notices what you order. They notice if you make a thing of it.",
+      "Keep protein bars, jerky, nuts and a shaker in your bag for long days. Walk to dinner if you can, use the hotel gym or do a quick room workout, and get your water in."
+    ],
+    "more": {
+      "example": "Three day conference: yogurt and eggs each morning, the lunch protein plus salad, one drink with a steak or fish entree at dinner, walking to the venue. Home within a pound of where you left.",
+      "how": "When you check in, find the nearest grocery store and grab a few protein snacks, fruit and a big water. Ten minutes of setup saves three days of vending machines.",
+      "mistake": "Skipping meals all day to save room for the client dinner. You arrive starving, eat the bread basket and order the biggest thing on the menu."
+    },
+    "reads": [
+      "protein",
+      "steps"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "Alcohol and fat loss"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-078"
+    ]
+  },
+  {
+    "id": "nr-b-080",
+    "topic": "on-the-go",
+    "title": "Eating at your desk",
+    "keys": [
+      "eating at your desk",
+      "eating at my desk",
+      "lunch at my desk",
+      "working through lunch",
+      "desk lunch",
+      "eating while working",
+      "desk snacks",
+      "snacking at my desk",
+      "eating at the computer",
+      "work lunch at my desk",
+      "desk drawer snacks",
+      "office snacking"
+    ],
+    "match": "\\b(eat(ing)?|lunch|snack\\w*) (at|by) (my |your |the )?(desk|computer|workstation)\\b|\\bdesk (lunch|snacks?|drawer)\\b|\\bworking through lunch\\b|\\beating while working\\b",
+    "body": [
+      "Desk lunches are fast, but they are the classic mindless meal: one eye on email, and the food is gone before you notice. You end up less satisfied and snacking again by 3 p.m. Even ten minutes away from the screen makes a difference.",
+      "If you can, step away: eat in the break room, outside, or at least turn your chair from the monitor and close the laptop. If you truly cannot, plate the food rather than eating from the bag or container, and give yourself the first five minutes without email.",
+      "Set up your desk to help. Keep a water bottle on it, not a candy bowl. Stock your drawer with protein snacks you actually like: jerky, protein bars, single packs of nuts, rice cakes, a shaker with powder. Then the 3 p.m. slump has a good answer within reach."
+    ],
+    "more": {
+      "why": "When your attention is on work, your brain does a poor job of registering what you ate, so fullness feels weaker and cravings show up sooner.",
+      "example": "Old: crackers from the box while typing, then a vending machine run at 3. New: a chicken wrap and fruit eaten at the window for 10 minutes and a protein bar at 3:30. Fewer calories, more energy.",
+      "how": "Put a recurring 15 minute lunch block on your calendar. People respect meetings, even ones with yourself.",
+      "mistake": "Keeping a candy bowl on your desk for the team. You will eat from it all day, and so will everyone else."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Easy lunches that travel",
+      "More steps with a desk job?",
+      "Eating in front of a screen"
+    ],
+    "related": [
+      "nr-b-055",
+      "nr-b-033"
+    ]
+  },
+  {
+    "id": "nr-b-081",
+    "topic": "on-the-go",
+    "title": "When you forget to eat at work",
+    "keys": [
+      "i forget to eat at work",
+      "forget to eat",
+      "skipping lunch at work",
+      "too busy to eat lunch",
+      "i forget to eat lunch",
+      "not eating until dinner",
+      "skipping meals at work",
+      "forgetting meals",
+      "no lunch break",
+      "only eating once a day by accident",
+      "dont eat until i get home"
+    ],
+    "match": "\\bforg(e|o)t(ting)? to eat\\b|\\bskip(ping|ped)? (lunch|meals) at work\\b|\\bno lunch break\\b|\\bdon'?t eat until (i get home|dinner)\\b|\\bnot eating until dinner\\b",
+    "body": [
+      "Forgetting to eat sounds like a shortcut for fat loss, but it usually backfires. You get through the day on coffee, then hunger hits hard in the evening and you eat more than you would have with lunch. It also makes hitting your protein nearly impossible.",
+      "Make lunch something that does not depend on remembering. Set a phone alarm. Block 15 minutes on your calendar. Pack lunch the night before so it is sitting in the work fridge waiting for you. Keep a protein shake or bar at your desk as backup when the day really goes sideways.",
+      "If you honestly are not hungry midday, start small: a yogurt, a shake, a wrap. Appetite often adjusts within a week or two of regular meals."
+    ],
+    "more": {
+      "why": "Your body does not cancel hunger, it postpones it. Skip lunch and it shows up as a much bigger appetite at night, often aimed at quick, rich food.",
+      "example": "Forgotten lunch day: coffee only until 6:30, then 1,800 calories by bedtime. With a 500 calorie lunch at noon, dinner is calmer and the day often totals less.",
+      "how": "Pick one default lunch you can grab without thinking and prep five of them on Sunday. Decision free lunches are easy to remember."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "Meal prep for beginners",
+      "Starving when I get home?",
+      "Not hungry in the morning"
+    ],
+    "related": [
+      "nr-b-061",
+      "nr-b-080"
+    ]
+  },
+  {
+    "id": "nr-b-082",
+    "topic": "eating-out",
+    "title": "Steakhouse and barbecue orders",
+    "keys": [
+      "what to order at a steakhouse",
+      "steakhouse on a diet",
+      "steak dinner calories",
+      "best steak cut for fat loss",
+      "bbq on a diet",
+      "barbecue restaurant order",
+      "brisket calories",
+      "ribs calories",
+      "sides at a steakhouse",
+      "is steak good for fat loss",
+      "pulled pork calories",
+      "bbq sauce calories"
+    ],
+    "match": "\\bsteak ?house\\b|\\b(bbq|barbecue) (restaurant|joint|place|plate|sauce)\\b|\\b(brisket|ribs|pulled pork|burnt ends)\\b|\\bsteak (dinner|cuts?)\\b|\\bbbq on a diet\\b",
+    "body": [
+      "Steakhouses and barbecue joints are protein heaven, which makes them easier than you think. The meat is the star. The calories mostly come from the cut, the butter on top and the sides.",
+      "Leaner steak cuts like sirloin, filet, flank and strip run roughly 50 to 70 calories per cooked ounce. Ribeye and prime rib are richer, closer to 80 to 100, so go a size smaller if that is your love. At barbecue, smoked turkey, chicken and pulled pork are leaner picks. Brisket and ribs are richer, so have a smaller portion and enjoy every bite.",
+      "Sides decide the night. Pick one starch you love (baked potato, beans, cornbread, mac and cheese) and fill the rest with a vegetable or salad. Barbecue sauce runs about 50 to 70 calories for two tablespoons, mostly sugar, so use it like a dip, not a soup."
+    ],
+    "more": {
+      "example": "8 ounce sirloin (about 450 calories and 65 grams of protein), a baked potato with a pat of butter, and green beans: about 750 to 800 calories and a very full stomach.",
+      "how": "Order by appetite: 6 to 8 ounces of steak is plenty for most people. Box the rest if they bring a 16 ounce slab.",
+      "mistake": "Thinking the salad bar is the light option, then piling on creamy salads, croutons and dressing. The plain steak is often lighter."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "Weight up after a salty meal?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  },
+  {
+    "id": "nr-b-083",
+    "topic": "social",
+    "title": "Office treats and break room snacks",
+    "keys": [
+      "office snacks everywhere",
+      "break room treats",
+      "donuts at work",
+      "birthday cake at work",
+      "office candy",
+      "coworkers bring treats",
+      "food at work every day",
+      "how to say no to office treats",
+      "work potluck",
+      "treats in the office",
+      "bagels at work"
+    ],
+    "match": "\\b(office|break ?room|work|coworkers?)\\b.{0,20}\\b(treats?|donuts?|doughnuts?|cake|candy|snacks? everywhere|bagels?|cookies|potluck)\\b|\\b(donuts?|cake|candy|bagels?|treats?) (at|in the) (work|office|break ?room)\\b",
+    "body": [
+      "Office treats are tricky because they are constant. Donuts on Monday, someone's birthday cake on Wednesday, the candy jar every day. Any one of them is fine. All of them, every week, adds up to a lot of food you did not even plan to enjoy.",
+      "My rule: choose the ones that matter. Your favorite coworker's birthday cake? Have a slice and enjoy the moment. Store bought donuts you do not even like? Skip them without a speech. A simple no thanks, I just ate, is all anyone needs.",
+      "Make skipping easier by eating a real breakfast and having your own snack ready, so you are not hungry when the box opens. And if you love the treat, have half or a small piece, sit down with it and actually taste it."
+    ],
+    "more": {
+      "example": "A glazed donut is about 250 calories. Two or three a week plus cake and candy can easily be 1,000 or more extra calories a week, close to a third of a pound on paper.",
+      "how": "Keep a protein snack in your drawer for the moments treats show up, so you have something you actually planned to reach for.",
+      "mistake": "Grabbing something every time you walk past just because it is free. Free food still counts."
+    },
+    "chips": [
+      "How do I say no to food?",
+      "Eating at your desk"
+    ],
+    "related": [
+      "nr-b-080",
+      "nr-b-053"
+    ]
+  },
+  {
+    "id": "nr-b-084",
+    "topic": "social",
+    "title": "Ballgames, movies and event food",
+    "keys": [
+      "ballgame food",
+      "stadium food",
+      "movie theater snacks",
+      "movie popcorn calories",
+      "concession stand food",
+      "eating at a baseball game",
+      "football game food",
+      "fair food",
+      "concert food",
+      "what to eat at a game",
+      "hot dog at the ballpark"
+    ],
+    "match": "\\b(stadium|ballpark|ballgame|concession|movie theater|fair|concert) (food|snacks?|stand)\\b|\\bmovie popcorn\\b|\\b(at|to) (a|the) (ballgame|game|movies|fair|concert)\\b.{0,20}\\b(eat\\w*|food|snack\\w*)\\b",
+    "body": [
+      "Events are about the experience, and some food is part of it. A hot dog at the ballpark is a classic for a reason. The goal is to enjoy one or two things you love, not to graze on everything for four hours.",
+      "Eat a normal meal with protein before you go, so you are not starving when you walk past the nacho stand. Then pick your favorite: a hot dog (about 300 calories with the bun), a slice of pizza, a pretzel to share or a small popcorn. Pair it with water or a zero calorie drink, and if you are having beer, count those too.",
+      "Movie theater popcorn is the sneaky one. A large tub can be over 1,000 calories before the butter topping. Grab a small, or share a medium and skip the refill."
+    ],
+    "more": {
+      "example": "Ballgame plan: chicken and rice at home first, then one hot dog and one beer at the game, about 450 calories, plus all those stairs. Great day.",
+      "how": "Walk the concourse once before you buy. Plenty of stadiums have grilled chicken, burrito bowls or salads tucked away.",
+      "mistake": "Stopping at every stand because you are bored between innings. Pick your one or two favorites and let the rest go."
+    },
+    "chips": [
+      "Alcohol and fat loss",
+      "How do I eat at parties?"
+    ],
+    "related": [
+      "nr-b-063"
+    ]
+  }
+]

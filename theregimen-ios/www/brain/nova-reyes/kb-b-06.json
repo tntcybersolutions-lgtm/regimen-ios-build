@@ -1,0 +1,721 @@
+[
+  {
+    "id": "nr-b-105",
+    "topic": "fiber",
+    "title": "How much fiber you need and where to get it",
+    "keys": [
+      "how much fiber do i need",
+      "fiber per day",
+      "how much fiber a day",
+      "high fiber foods",
+      "best sources of fiber",
+      "why is fiber important",
+      "am i eating enough fiber",
+      "fiber for weight loss",
+      "fiber and fullness",
+      "foods with fiber",
+      "what is fiber",
+      "grams of fiber",
+      "daily fiber"
+    ],
+    "match": "\\b(how much|enough|high|daily|grams of|sources of|foods with) fiber\\b|\\bfiber (per|a) day\\b|\\bwhat is fiber\\b|\\bfiber (for|and) (weight loss|fullness|fat loss)\\b|\\bwhy is fiber\\b",
+    "body": [
+      "Aim for about 25 to 38 grams of fiber a day, or roughly 14 grams for every 1,000 calories you eat. Most people get around half that. Fiber keeps you full, keeps digestion regular and feeds the helpful bacteria in your gut, which is why it is one of my favorite levers for fat loss and for feeling good.",
+      "Easy sources: beans and lentils (about 7 to 8 grams per half cup), raspberries and blackberries (about 8 grams per cup), pears and apples with the skin (4 to 6 grams), oatmeal (about 4 grams per cooked cup), whole grain bread (2 to 4 grams a slice), chia seeds (about 10 grams per ounce), plus broccoli, Brussels sprouts, sweet potatoes, popcorn and avocado.",
+      "If you are low now, add it slowly, about 5 grams a week, and drink more water as you go. Jumping from 10 to 35 grams overnight is a fast track to gas and bloating."
+    ],
+    "more": {
+      "why": "Fiber slows digestion, adds bulk and helps you feel full on fewer calories. It also keeps things moving, which matters more when you are eating more protein.",
+      "example": "Oatmeal with raspberries (about 12 grams), a turkey sandwich on whole grain bread with an apple (about 9), and chili with beans plus a side of broccoli (about 13): roughly 34 grams for the day.",
+      "how": "Add one high fiber food to one meal each week: berries at breakfast, beans at lunch, a vegetable at dinner. In a month you are close to target.",
+      "mistake": "Relying on one giant bowl of bran cereal. Spread fiber across your meals and your gut will be much happier."
+    },
+    "chips": [
+      "Beans make me gassy",
+      "Why am I bloated?",
+      "How many vegetables a day?"
+    ],
+    "related": [
+      "nr-b-096",
+      "nr-b-095"
+    ]
+  },
+  {
+    "id": "nr-b-106",
+    "topic": "fiber",
+    "title": "Adding fiber without the gas",
+    "keys": [
+      "beans make me gassy",
+      "gas from fiber",
+      "too much fiber gas",
+      "fiber makes me bloated",
+      "how to add fiber without gas",
+      "beans and bloating",
+      "gassy from vegetables",
+      "broccoli gas",
+      "how to eat beans without gas",
+      "farting from fiber",
+      "fiber side effects",
+      "more fiber and more gas"
+    ],
+    "match": "\\b(beans?|lentils|fiber|broccoli|vegetables|veggies)\\b.{0,25}\\b(gas\\w*|bloat\\w*|fart\\w*)\\b|\\b(gas\\w*|bloat\\w*|fart\\w*)\\b.{0,15}\\bfrom (beans|fiber|vegetables|veggies|broccoli)\\b|\\bfiber side effects\\b",
+    "body": [
+      "Totally normal, and it usually settles. When you add beans, lentils, broccoli or other high fiber foods, the bacteria in your gut ferment some of that fiber and make gas. As your gut adjusts over a few weeks, most people get a lot less of it.",
+      "To make the switch easier, add fiber slowly, about 5 grams a week. Start with smaller portions of beans, a quarter to a half cup. Rinse canned beans well, or soak and cook dried beans thoroughly. Lentils and canned chickpeas tend to be gentler. Cook broccoli, cabbage and Brussels sprouts instead of eating them raw at first, and drink more water as fiber goes up.",
+      "If gas comes with real pain, ongoing diarrhea or constipation, blood, or weight loss you did not plan, see your doctor. Mild gas while your gut adapts is just your gut doing its job."
+    ],
+    "more": {
+      "why": "Some fibers and the natural sugars in beans are digested by your gut bacteria rather than by you. Their byproduct is gas. Eating them regularly helps your gut handle it better.",
+      "how": "Pick one high fiber food and eat a small portion most days for two weeks before adding the next. Steady exposure helps your gut adapt.",
+      "example": "Week one: a quarter cup of black beans at lunch. Week two: half a cup. Week three: add a cup of roasted broccoli at dinner. Slow and steady."
+    },
+    "chips": [
+      "How much fiber do I need?",
+      "Why am I bloated?"
+    ],
+    "related": [
+      "nr-b-105",
+      "nr-b-107"
+    ]
+  },
+  {
+    "id": "nr-b-107",
+    "topic": "digestion",
+    "title": "Why you feel bloated",
+    "keys": [
+      "why am i bloated",
+      "bloated all the time",
+      "bloated stomach",
+      "how to reduce bloating",
+      "bloated after eating",
+      "bloated after eating healthy",
+      "belly bloat",
+      "puffy stomach",
+      "bloated and gassy",
+      "bloated after a big meal",
+      "flat in the morning bloated at night",
+      "how to get rid of bloating"
+    ],
+    "match": "\\b(why am i|always|so|feel|feeling|get|getting) bloated\\b|\\bbloated (all the time|after (eating|meals?|dinner)|stomach|and gassy)\\b|\\b(reduce|stop|fix|get rid of) bloating\\b|\\bbelly bloat\\b",
+    "body": [
+      "Some bloating during the day is normal. Your stomach stretches, and after meals and drinks your belly naturally looks and feels bigger by evening than it did in the morning. It usually settles overnight.",
+      "Common causes when it feels like more than usual: a big jump in fiber, beans or raw vegetables, fizzy drinks, eating fast and swallowing air, chewing gum, sugar free sweets, a very salty meal, constipation, a large late meal, and for many women the days before a period. For people who do not digest lactose well, dairy can be the trigger too.",
+      "Change one thing at a time: slow down at meals, cut fizzy drinks and gum for a week, increase fiber gradually, drink enough water and walk after meals. If bloating is constant or painful, or comes with changes in bathroom habits, blood, or weight loss you did not plan, talk to your doctor."
+    ],
+    "more": {
+      "why": "Gas from fermentation, swallowed air, water held from salt and food that is moving slowly all take up space. Most of it is temporary and harmless.",
+      "how": "Keep a quick note for a week: what you ate and when you felt bloated. Patterns, like fizzy water every afternoon, often show up fast.",
+      "example": "Flat in the morning, bloated by 4 p.m. after two sparkling waters, a big raw salad and gum all afternoon. Swap the gum, cook the veggies, sip still water, and evenings often feel much better.",
+      "mistake": "Cutting out entire food groups at once. You lose good nutrition and still do not know the trigger. One change at a time."
+    },
+    "chips": [
+      "Beans make me gassy",
+      "Constipated since changing diet?",
+      "Protein shake bloating?"
+    ],
+    "related": [
+      "nr-b-106",
+      "nr-b-108",
+      "nr-b-005"
+    ]
+  },
+  {
+    "id": "nr-b-108",
+    "topic": "digestion",
+    "title": "Constipation after changing how you eat",
+    "keys": [
+      "constipated since changing diet",
+      "constipation on a diet",
+      "constipated from protein",
+      "high protein constipation",
+      "cant poop",
+      "not pooping since dieting",
+      "constipated after eating healthy",
+      "how to stay regular",
+      "constipation and weight",
+      "bathroom issues on a diet",
+      "constipated while traveling",
+      "how to fix constipation naturally"
+    ],
+    "match": "\\bconstipat\\w*\\b|\\b(can'?t|cant) poop\\b|\\bnot pooping\\b|\\bstay(ing)? regular\\b",
+    "body": [
+      "Very common when you change how you eat. More protein, fewer total calories, less fiber than before, or less water can all slow things down. So can travel, a new routine, stress and moving less.",
+      "The basics fix most of it. Bring fiber up gradually toward 25 to 38 grams a day with fruit, vegetables, beans, oats and whole grains (pears, berries, prunes and kiwi are classics). Drink to your water target, and a bit more as fiber climbs. Walk every day, especially after meals. And give yourself unhurried bathroom time, often after breakfast, when your gut is most active.",
+      "If you go several days without a bowel movement, it keeps happening, or it comes with significant pain, blood, vomiting or weight loss you did not plan, please see your doctor."
+    ],
+    "more": {
+      "example": "High protein cut: chicken, eggs, shakes and little else. Add a cup of berries at breakfast, a pear at lunch, a cup of vegetables at dinner and an extra liter of water. Most people feel back to normal within a week.",
+      "why": "Your gut moves things along partly in response to bulk (fiber), fluid and movement. A diet change that drops any of the three can slow it down.",
+      "how": "Two kiwis or a small handful of prunes a day are simple food based options that many people find helpful."
+    },
+    "reads": [
+      "water",
+      "steps"
+    ],
+    "chips": [
+      "How much fiber do I need?",
+      "Why am I bloated?",
+      "How much water should I drink?"
+    ],
+    "related": [
+      "nr-b-105",
+      "nr-b-107"
+    ]
+  },
+  {
+    "id": "nr-b-109",
+    "topic": "sodium",
+    "title": "How much sodium is okay",
+    "keys": [
+      "how much sodium is okay",
+      "how much sodium a day",
+      "sodium intake",
+      "is salt bad for you",
+      "how much salt should i eat",
+      "too much sodium",
+      "low sodium diet",
+      "should i cut salt",
+      "sodium and weight loss",
+      "salt and blood pressure",
+      "sodium limit",
+      "salty foods list",
+      "hidden sodium"
+    ],
+    "match": "\\bhow much (sodium|salt)\\b|\\bsodium (intake|limit|a day|per day)\\b|\\bis salt bad\\b|\\btoo much (sodium|salt)\\b|\\b(low|cut(ting)?|reduce) (sodium|salt)\\b|\\bhidden sodium\\b",
+    "body": [
+      "The usual guideline for most adults is to stay under about 2.3 grams of sodium a day, which is roughly one teaspoon of salt. Most people eat more than that, mostly from restaurant food, packaged food, bread, deli meat, cheese, soups and sauces, not from the salt shaker.",
+      "For fat loss, sodium does not change fat at all. It changes water, so a salty day can bump the scale 1 to 4 pounds for a day or two, and that is all. For health, sodium matters more if you have high blood pressure or heart or kidney issues, and in that case follow your doctor's numbers.",
+      "If you train hard or sweat a lot, especially in the heat, you need more than someone sitting at a desk, so do not fear salt on your food. The simple balance: cook more at home, salt to taste, check labels on soups, sauces and deli meats, and eat plenty of fruit, vegetables and potatoes for potassium."
+    ],
+    "more": {
+      "example": "A deli sandwich, a can of soup and a frozen dinner can easily total 4 to 5 grams of sodium in a day. A home cooked chicken, rice and vegetable dinner salted to taste is usually a fraction of that.",
+      "how": "Use the percent daily value on the label: 5 percent or less per serving is low, and 20 percent or more is high.",
+      "why": "Sodium helps your body hold water, which is useful when you sweat and is the reason the scale jumps after salty meals. Your kidneys balance it out over a day or two."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Weight up after a salty meal?",
+      "Do I need electrolytes?",
+      "Foods with potassium?"
+    ],
+    "related": [
+      "nr-b-005",
+      "nr-b-026",
+      "nr-b-110"
+    ]
+  },
+  {
+    "id": "nr-b-110",
+    "topic": "electrolytes",
+    "title": "Potassium and magnesium from food",
+    "keys": [
+      "foods with potassium",
+      "potassium foods",
+      "how much potassium",
+      "magnesium foods",
+      "foods high in magnesium",
+      "do i need potassium",
+      "potassium and water weight",
+      "muscle cramps food",
+      "cramping at night food",
+      "bananas for cramps",
+      "potassium sources besides bananas",
+      "electrolytes from food"
+    ],
+    "match": "\\b(potassium|magnesium)\\b|\\belectrolytes from food\\b|\\bbananas for cramps\\b",
+    "body": [
+      "Potassium and magnesium are minerals most people under eat, and the fix is food. Potassium helps balance sodium and fluid, and magnesium plays a role in muscle and nerve function. Both come mostly from plants, beans, dairy and nuts.",
+      "Potassium all stars: potatoes and sweet potatoes, beans and lentils, bananas, oranges, cantaloupe, spinach, avocado, tomatoes, yogurt, milk and salmon. Magnesium leaders: pumpkin seeds, almonds, cashews, peanuts, spinach, black beans, edamame, oats, whole grains and dark chocolate.",
+      "Fruit and vegetables at most meals, beans a few times a week and a handful of nuts most days cover a lot of ground. If you have kidney disease or another health condition, ask your doctor before changing your potassium intake."
+    ],
+    "more": {
+      "example": "A medium baked potato with the skin has roughly twice the potassium of a medium banana. Potatoes are quietly one of the best sources there is.",
+      "why": "Diets heavy in packaged food tend to run high in sodium and low in potassium. Shifting that balance with whole foods helps fluid balance and is good for your heart.",
+      "how": "Swap one packaged snack a day for fruit, yogurt or a handful of nuts. That one change raises both minerals.",
+      "mistake": "Assuming cramps always mean low potassium. Cramps often come from fatigue, new training or heat. Hydration, some sodium on sweaty days and gradual training increases matter just as much."
+    },
+    "chips": [
+      "How much sodium is okay?",
+      "Do I need electrolytes?"
+    ],
+    "related": [
+      "nr-b-109",
+      "nr-b-026"
+    ]
+  },
+  {
+    "id": "nr-b-111",
+    "topic": "eating-out",
+    "title": "How to handle a buffet",
+    "keys": [
+      "how do i handle a buffet",
+      "buffet on a diet",
+      "all you can eat",
+      "all you can eat buffet",
+      "buffet strategy",
+      "hotel buffet",
+      "chinese buffet",
+      "brunch buffet",
+      "how to not overeat at a buffet",
+      "buffet calories",
+      "getting my moneys worth at a buffet"
+    ],
+    "match": "\\bbuffets?\\b|\\ball you can eat\\b",
+    "body": [
+      "Buffets are built to make you eat more: endless choices, no set portions, and that feeling you have to get your money's worth. A little structure lets you enjoy it and still walk out comfortable.",
+      "Walk the whole line first without a plate and pick your favorites. Then go with one regular plate: half protein (carving station, grilled chicken, fish, shrimp, eggs), a quarter vegetables or salad, and a quarter for the things you are most excited about. Sit facing away from the food if you can, eat slowly, and wait 15 to 20 minutes before deciding on a second trip.",
+      "If you go back, make it a small plate of the one thing that was best, or dessert. Two plates and a dessert is a great buffet meal. Five plates is how people leave regretting it."
+    ],
+    "more": {
+      "example": "Brunch buffet: a veggie omelet, carved ham, fruit and one waffle on plate one, then a small dessert. About 900 to 1,000 calories, plenty of protein, nobody uncomfortable.",
+      "how": "Use the smaller salad plate for your second trip. Same experience, half the food.",
+      "mistake": "Skipping meals all day to get the most out of the buffet. You arrive starving and eat to the point of feeling sick."
+    },
+    "chips": [
+      "How do I order at a restaurant?",
+      "How do I eat on vacation?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-078"
+    ]
+  },
+  {
+    "id": "nr-b-112",
+    "topic": "travel",
+    "title": "Food and water for a long hike or camping trip",
+    "keys": [
+      "food for a long hike",
+      "hiking snacks",
+      "what to eat on a hike",
+      "camping food",
+      "backpacking food",
+      "trail snacks",
+      "how much water on a hike",
+      "hiking food ideas",
+      "high protein camping food",
+      "day hike food",
+      "eating while hiking",
+      "fuel for hiking"
+    ],
+    "match": "\\b(hik(e|es|ing)|camping|backpacking|trail)\\b.{0,25}\\b(food|snacks?|eat\\w*|fuel|water|meals?)\\b|\\b(food|snacks?|eat\\w*) (for|on|during) (a |the )?(hike|hiking|camping trip|trail)\\b",
+    "body": [
+      "A long hike is a real workout, so treat it like one: fuel before, snack during, refuel after. A few hours on the trail can burn several hundred to over a thousand calories, depending on distance, climbing and pack weight.",
+      "Before: a normal meal with carbs and some protein an hour or two before you start. During: easy carbs and some salt every hour or so on longer hikes, plus protein to hold you. Trail mix, jerky, nut butter packets, tortillas with peanut butter, dried fruit, pretzels, bars, cheese sticks, and a sandwich on longer days. Water: roughly half a liter to a liter an hour, more in heat or at altitude, with electrolytes or salty snacks on long, sweaty days.",
+      "Camping: tortillas, pouch tuna or chicken, instant rice or oats, peanut butter, jerky, hard cheese, apples and dried fruit travel well. Afterward, a solid meal with protein and carbs helps you recover for tomorrow."
+    ],
+    "more": {
+      "example": "Five hour hike: oatmeal and eggs before, then a handful of trail mix, a bar or a peanut butter tortilla every hour or so, plus 3 to 4 liters of water with one electrolyte packet. Big dinner after.",
+      "why": "Long efforts use up stored carbs and you lose salt in sweat. Small, regular snacks keep your energy even and help you avoid the late hike crash.",
+      "mistake": "Bringing one bottle of water and no food because it is just a hike. In the heat that can turn dangerous quickly. Pack more than you think you need."
+    },
+    "reads": [
+      "water",
+      "steps"
+    ],
+    "chips": [
+      "Training in the heat?",
+      "Do I need electrolytes?"
+    ],
+    "related": [
+      "nr-b-027",
+      "nr-b-026"
+    ]
+  },
+  {
+    "id": "nr-b-113",
+    "topic": "weigh-ins",
+    "title": "What the scale does when you are sick",
+    "keys": [
+      "weight down when i was sick",
+      "lost weight when sick",
+      "weight after being sick",
+      "gained weight after being sick",
+      "flu weight loss",
+      "weight while sick",
+      "should i diet when sick",
+      "eating when sick",
+      "sick and losing weight",
+      "stomach bug weight loss",
+      "weight after a cold"
+    ],
+    "match": "\\b(sick|ill|flu|stomach bug|a cold|covid)\\b.{0,30}\\b(weight|scale|pounds|lbs)\\b|\\b(weight|scale|lost|gained)\\b.{0,30}\\b(when|while|after being) (i was )?(sick|ill)\\b|\\b(diet|deficit) (when|while) sick\\b",
+    "body": [
+      "Being sick shakes the scale in both directions. A stomach bug or the flu can drop 2 to 5 pounds in a few days, mostly water and food that is not in your system, and a lot of it comes back once you are eating and drinking normally. Some people gain a bit instead, from resting more and comfort food. Neither is a real trend.",
+      "While you are sick, the job is recovery, not fat loss. Fluids first, then whatever food you can manage, with some protein when you are able. This is not the time for a deficit. Your body needs energy to get better.",
+      "Once you are back on your feet, return to your normal plan and give the scale a week or two to settle before you read the trend again. If you are losing weight without trying, or not getting better, check in with your doctor."
+    ],
+    "more": {
+      "why": "Fever, sweating, vomiting or simply eating less all lower body water and gut contents fast. Those come back once you are eating normally, so the quick drop is not fat.",
+      "example": "Down 4 pounds after a two day stomach bug, back up 3 within a week of normal eating. The real change was about a pound.",
+      "how": "Pause weigh-ins while you are sick if they stress you out, or keep logging them and simply leave those days out when you read your trend."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "No appetite today?",
+      "Why does my weight jump?"
+    ],
+    "related": [
+      "nr-b-099",
+      "nr-b-001"
+    ]
+  },
+  {
+    "id": "nr-b-114",
+    "topic": "water-weight",
+    "title": "Sweating out weight in the sauna or a hot workout",
+    "keys": [
+      "sweating out weight",
+      "sauna weight loss",
+      "does sweating burn fat",
+      "lost weight after sweating",
+      "sweat suit weight loss",
+      "weight after a hot workout",
+      "do i lose fat when i sweat",
+      "sauna for fat loss",
+      "does sweating more burn more fat",
+      "weigh after the sauna"
+    ],
+    "match": "\\bsauna\\b|\\bsweat(ing)? (out|off) (weight|pounds|fat)\\b|\\b(does|do) (sweat|sweating)( more)? (burn|lose|melt)\\b|\\bsweat ?suits?\\b|\\b(lose|losing) fat when i sweat\\b",
+    "body": [
+      "Sweat is water, not fat. You can step out of a sauna or a hot workout 1 to 3 pounds lighter, and every bit of that comes back the next time you drink. Sweating more does not mean you burned more fat. It mostly means it was hot or you sweat easily.",
+      "If you enjoy the sauna, enjoy it for relaxation, and drink water before and after. Just do not use it, sweat suits or skipping water to make the scale look lower. That can leave you dehydrated, dizzy and weaker in your next session, and the number will not last anyway.",
+      "Fat loss comes from eating a bit less than you burn over weeks, plus movement and lifting. The scale trend over a month tells you whether that is happening. A post sweat weigh-in never will."
+    ],
+    "more": {
+      "why": "Each pound lost in sweat is roughly 16 ounces of water. Your body is built to replace it as soon as you drink, so the drop is temporary by design.",
+      "mistake": "Weighing right after a sweaty session or the sauna and logging it. It throws off your trend. Stick to morning weigh-ins.",
+      "how": "Keep sauna sessions moderate, drink a big glass of water after, and skip it if you feel lightheaded or unwell. If you have a heart condition or are pregnant, check with your doctor first."
+    },
+    "reads": [
+      "water",
+      "weight"
+    ],
+    "chips": [
+      "What is water weight?",
+      "How should I weigh myself?"
+    ],
+    "related": [
+      "nr-b-009",
+      "nr-b-003"
+    ]
+  },
+  {
+    "id": "nr-b-115",
+    "topic": "eating-out",
+    "title": "Food courts, malls and theme parks",
+    "keys": [
+      "food court food",
+      "what to eat at the mall",
+      "food court on a diet",
+      "healthy food court options",
+      "mall food",
+      "shopping day food",
+      "food court high protein",
+      "pretzels and smoothies at the mall",
+      "theme park food",
+      "amusement park food"
+    ],
+    "match": "\\bfood courts?\\b|\\b(mall|theme park|amusement park|zoo) (food|snacks?|lunch)\\b|\\b(eat|eating) at the (mall|theme park|zoo)\\b",
+    "body": [
+      "Food courts look like a minefield, but most have at least one solid option. Look for places that grill or build to order: teriyaki or grilled chicken bowls, burrito bowls, Mediterranean plates with chicken or falafel, sandwich shops, poke, or a burger place with a single or double patty.",
+      "Build it like any meal: protein first, a vegetable or salad, and one starch. Ask for sauce on the side at bowl places, since teriyaki and creamy sauces can add 200 or more calories. Soft pretzels, cinnamon rolls and blended drinks are treats, often 400 to 1,000 calories each, so share one or pick one.",
+      "Theme parks and long shopping days work the same way, plus they come with tons of walking. Eat real meals, carry water and a protein bar, and you will not be at the mercy of a 4 p.m. funnel cake decision. Unless the funnel cake is the point. Then share it and enjoy it."
+    ],
+    "more": {
+      "example": "Grilled chicken teriyaki bowl with vegetables and half rice, sauce on the side: about 500 to 650 calories and 35 to 40 grams of protein.",
+      "how": "Do a full lap of the food court before you order. The best option is rarely the first counter you see.",
+      "mistake": "Grabbing a giant smoothie as a light lunch. Many are 500 to 900 calories, mostly sugar, with little protein. Add protein powder or pair it with a real meal."
+    },
+    "reads": [
+      "protein"
+    ],
+    "chips": [
+      "How do I order at a restaurant?",
+      "Eating on a busy day?"
+    ],
+    "related": [
+      "nr-b-063",
+      "nr-b-074"
+    ]
+  },
+  {
+    "id": "nr-b-116",
+    "topic": "weigh-ins",
+    "title": "How long until you see results on the scale",
+    "keys": [
+      "how long until i see results",
+      "when will i see results",
+      "how long does it take to lose weight",
+      "when will the scale move",
+      "how long before the scale changes",
+      "no results after two weeks",
+      "how long to see fat loss",
+      "first month results",
+      "how fast will i see progress",
+      "when do people notice weight loss"
+    ],
+    "match": "\\bhow long (until|till|before|does it take)\\b.{0,25}\\b(results|lose|scale|progress|notice)\\b|\\bwhen will (i see|the scale|people notice)\\b|\\bno results (after|yet)\\b",
+    "body": [
+      "On the scale, most people see a clear trend within two to four weeks of consistent eating, once the first week's water drop is out of the way. At a pace of 0.5 to 1 percent of body weight a week, that is often 1 to 2 pounds a week, which takes a few weeks to show clearly through the daily noise.",
+      "Your waist and how your clothes fit often change somewhere around four to eight weeks in. Strength and energy changes can show up even sooner. Other people noticing usually takes longer, and that is the least reliable signal of all.",
+      "Everyone moves at a different pace, so the best check is your own trend. If after three to four weeks of honest logging the average has not budged, that is when we look at food, steps and sleep."
+    ],
+    "more": {
+      "why": "Daily water swings of 1 to 4 pounds are bigger than a week of fat loss, so it takes a few weeks of averages for the real change to stand out.",
+      "example": "At 180 pounds, losing about 1 pound a week: week one down 3 (mostly water), weeks two through four down about 1 each. By week six the trend is clear even with noisy days.",
+      "how": "Commit to four weeks of consistent logging and weigh-ins before judging anything, and put a reminder on your calendar to review the trend then."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "How do I read my weekly average?",
+      "How fast should I lose weight?"
+    ],
+    "related": [
+      "nr-b-004",
+      "nr-b-019"
+    ]
+  },
+  {
+    "id": "nr-b-117",
+    "topic": "weigh-ins",
+    "title": "Smart scale body fat readings",
+    "keys": [
+      "smart scale body fat",
+      "is my smart scale accurate",
+      "body fat scale accurate",
+      "bioimpedance scale",
+      "smart scale says my body fat went up",
+      "muscle mass on my scale",
+      "body fat percentage changed overnight",
+      "should i trust my scale body fat",
+      "smart scale readings",
+      "visceral fat on my scale"
+    ],
+    "match": "\\bsmart scales?\\b|\\bbody fat scales?\\b|\\bbio ?impedance\\b|\\bscales? (says|said|shows?) (my )?(body fat|muscle)\\b|\\bbody fat (percentage )?changed overnight\\b",
+    "body": [
+      "Smart scale body fat numbers are rough estimates, and they swing with how much water you are holding. The scale sends a tiny current through your body and guesses body fat from how easily it passes, so being dehydrated, having just trained or eating a salty meal can shift the reading by several percent overnight.",
+      "That does not make the scale useless. The weight number is as good as any other scale. For the body fat number, use the same conditions every time (morning, after the bathroom, before food or drink) and only look at the trend over months, not days. Treat any single reading as a guess.",
+      "For a better sense of fat loss, pair the weight trend with a waist measurement and progress photos. Those are cheap, simple and more reliable for most people than a smart scale percentage."
+    ],
+    "more": {
+      "why": "Water conducts electricity well and fat does not. Change your water and the estimate changes, even though your fat did not.",
+      "example": "Monday 24.1 percent, Tuesday 25.6 percent after a salty dinner and leg day, Friday 23.8 percent. Your fat did not jump and drop in four days. Your water did.",
+      "mistake": "Changing your plan because the body fat number went up overnight. Wait for a month of readings and check your waist before reacting."
+    },
+    "reads": [
+      "weight"
+    ],
+    "chips": [
+      "Progress photos and measurements?",
+      "What is water weight?"
+    ],
+    "related": [
+      "nr-b-003",
+      "nr-b-009"
+    ]
+  },
+  {
+    "id": "nr-b-118",
+    "topic": "steps",
+    "title": "Can you trust your watch's calorie burn",
+    "keys": [
+      "can i trust my watch calories",
+      "fitness tracker calories accurate",
+      "smart watch calories",
+      "how accurate are calorie trackers",
+      "should i eat back exercise calories",
+      "eat back my workout calories",
+      "my watch says i burned",
+      "active calories",
+      "calories burned on my tracker",
+      "tracker overestimates calories",
+      "is my fitness watch right"
+    ],
+    "match": "\\b(watch|tracker|wearable)\\b.{0,30}\\b(calories|burn\\w*|accurate|accuracy)\\b|\\beat(ing)? back (my )?(exercise|workout|active) calories\\b|\\bactive calories\\b",
+    "body": [
+      "Use it as a rough guide, not a precise number. Wrist trackers are pretty good at counting steps and heart rate, but calorie burn estimates can be off by 20 to 40 percent or more, especially for lifting, where heart rate does not track effort very well. They tend to overestimate.",
+      "So I do not recommend eating back all your exercise calories. Your calorie range already accounts for a normal amount of activity. If you have a big activity day, like a long hike or a two hour bike ride, eating a bit more makes sense, maybe a third to half of what the watch says.",
+      "Where a tracker really shines is consistency. Use your step count to keep daily movement steady, and use your weight trend to tell you whether your calories are right. If you are losing at a good pace, your numbers are working, whatever the watch says."
+    ],
+    "more": {
+      "example": "Watch says a 60 minute lift burned 600 calories. A more likely number is around 200 to 400. Eating back 600 would wipe out a typical deficit.",
+      "why": "Calorie burn is estimated from heart rate, movement and your stats. Heart rate climbs with stress, heat, caffeine and heavy lifting without matching calorie burn exactly, so the estimate drifts.",
+      "how": "Keep your watch settings current, including your weight. Then compare its estimates with your weight trend for a month. If they disagree, trust the trend."
+    },
+    "reads": [
+      "steps",
+      "range"
+    ],
+    "chips": [
+      "How many steps a day?",
+      "What is NEAT?"
+    ],
+    "related": [
+      "nr-b-031",
+      "nr-b-032"
+    ]
+  },
+  {
+    "id": "nr-b-119",
+    "topic": "hydration",
+    "title": "Water first thing in the morning",
+    "keys": [
+      "water first thing in the morning",
+      "drink water when i wake up",
+      "morning water",
+      "water before coffee",
+      "should i drink water before coffee",
+      "glass of water in the morning",
+      "lemon water in the morning",
+      "morning hydration routine",
+      "warm water in the morning",
+      "is lemon water good for you"
+    ],
+    "match": "\\bwater (first thing|in the morning|when i wake up|before coffee)\\b|\\bmorning (water|hydration)\\b|\\blemon water\\b|\\bwater first\\b",
+    "body": [
+      "Water first is one of my favorite habits because it is tiny and it works. You wake up after seven or eight hours with no fluids, a little behind. A big glass of water before coffee gets you started, and it makes the rest of your water target much easier to hit.",
+      "Keep a glass or bottle by your bed or next to the coffee maker so it happens on autopilot. Lemon, cold, warm, sparkling, it does not matter. Lemon water is great if it helps you drink, though it does not detox anything or burn fat. It is just water that tastes nice.",
+      "Then let coffee be your second drink. Plenty of people find their mornings feel smoother with this one swap in order."
+    ],
+    "more": {
+      "how": "Fill a 500 ml bottle the night before and set it next to the coffee pot. Finish it before your first cup.",
+      "why": "Starting the day hydrated is easier than catching up later, and it keeps the evening from turning into a chugging session right before bed.",
+      "example": "500 ml before coffee and another 500 ml by 10 a.m. Two habits, and you are a third of the way to most daily targets before lunch."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "How much water should I drink?",
+      "I hate drinking water"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-024",
+      "nr-b-041"
+    ]
+  },
+  {
+    "id": "nr-b-120",
+    "topic": "digestion",
+    "title": "Sugar free sweets and an upset stomach",
+    "keys": [
+      "sugar free candy stomach ache",
+      "sugar alcohols",
+      "sugar free gummies diarrhea",
+      "protein bar upset stomach",
+      "erythritol stomach",
+      "sugar free gum bloating",
+      "keto snacks upset stomach",
+      "why do sugar free sweets make me gassy",
+      "sugar alcohol side effects",
+      "low sugar snacks bloating",
+      "maltitol"
+    ],
+    "match": "\\bsugar alcohols?\\b|\\b(erythritol|maltitol|sorbitol|xylitol)\\b|\\bsugar ?free\\b.{0,30}\\b(stomach|gas\\w*|bloat\\w*|diarrhea|cramp\\w*|upset)\\b|\\bprotein bars?\\b.{0,20}\\b(stomach|gas\\w*|bloat\\w*|upset)\\b",
+    "body": [
+      "That is often the sugar alcohols. Many sugar free candies, gums, protein bars and low sugar snacks are sweetened with sugar alcohols like maltitol, sorbitol, xylitol or erythritol. Your body only partly absorbs them, and the rest gets fermented in your gut, which can mean gas, bloating, cramps or a sudden bathroom trip.",
+      "Tolerance varies a lot. Some people are fine with a protein bar a day, others react to a few pieces of sugar free gum. Maltitol and sorbitol tend to cause the most trouble, and erythritol is usually gentler. Check the ingredient list and the sugar alcohol line on the label, and try smaller amounts.",
+      "If sugar free versions bother you, have a smaller portion of the regular version instead. A couple of squares of real chocolate often beats a bag of sugar free candy and a rough afternoon. And keep xylitol products away from dogs, since it is very dangerous for them."
+    ],
+    "more": {
+      "why": "Sugar alcohols pull water into the gut and feed gut bacteria, which make gas. That is the same reason large amounts can have a laxative effect.",
+      "how": "Note which bar or snack you ate on days your stomach is upset. A pattern usually shows up within a week.",
+      "example": "A bag of sugar free gummies at the movies, then cramps an hour later? Classic maltitol. Next time: a small regular candy, no cramps."
+    },
+    "chips": [
+      "Why am I bloated?",
+      "Can I have dessert?"
+    ],
+    "related": [
+      "nr-b-107",
+      "nr-b-043"
+    ]
+  },
+  {
+    "id": "nr-b-121",
+    "topic": "travel",
+    "title": "Eating with jet lag",
+    "keys": [
+      "eating with jet lag",
+      "jet lag food",
+      "what to eat with jet lag",
+      "time zone change eating",
+      "when to eat after a long flight",
+      "jet lag hunger",
+      "eating across time zones",
+      "hungry at weird times after travel",
+      "red eye flight eating",
+      "international travel eating"
+    ],
+    "match": "\\bjet ?lag(ged)?\\b|\\btime zones?\\b|\\bred ?eye\\b",
+    "body": [
+      "Eat on the local clock as soon as you land, even if your body disagrees. Meal times are one of the signals your body uses to reset its internal clock, along with daylight and sleep. Breakfast in the morning, lunch at midday, dinner in the evening, all local time.",
+      "Keep the first day or two simple and protein heavy: eggs, yogurt, lean meats, fruit, rice or potatoes. Drink plenty of water, since flights dry you out. Get outside in morning daylight and take a walk. Go easy on alcohol and keep caffeine to the morning, so your first nights of sleep are as good as they can be.",
+      "Expect your hunger to be weird for a couple of days: starving at 3 a.m., not hungry at dinner. A small snack when you need one is fine. Within a few days, appetite usually falls in line with the new schedule."
+    ],
+    "more": {
+      "example": "Land at 7 a.m. after a red eye: water, then eggs and toast at the airport, a walk in daylight, lunch at noon, an early dinner and bed around 10 p.m. local time.",
+      "why": "Your body clock pays attention to when you eat. Eating on the new schedule, plus daylight, helps it shift faster.",
+      "mistake": "Napping all afternoon and eating dinner at midnight on day one. It drags the jet lag out for days."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "What to eat at the airport?",
+      "How do I eat on vacation?"
+    ],
+    "related": [
+      "nr-b-076",
+      "nr-b-078"
+    ]
+  },
+  {
+    "id": "nr-b-122",
+    "topic": "hydration",
+    "title": "Drinking enough in cold weather",
+    "keys": [
+      "drinking enough in cold weather",
+      "hydration in winter",
+      "do i need less water in winter",
+      "not thirsty in the cold",
+      "winter water intake",
+      "dehydrated in winter",
+      "cold weather hydration",
+      "skiing water",
+      "do warm drinks count as water",
+      "dry skin and water"
+    ],
+    "match": "\\b(winter|cold weather|the cold|skiing|snowboarding)\\b.{0,30}\\b(water|hydrat\\w*|thirst\\w*|drink\\w*)\\b|\\b(water|hydrat\\w*|thirst\\w*)\\b.{0,30}\\b(winter|cold weather|in the cold)\\b|\\bwarm drinks count\\b",
+    "body": [
+      "You still need about the same amount of water in winter, but you feel less thirsty, so it is easy to fall behind. Cold air is dry, you lose water just breathing it, and heated indoor air dries you out too. Bundled up workouts and skiing still make you sweat.",
+      "Warm drinks are your friend here. Herbal tea, decaf coffee, broth, hot water with lemon and warm milk all count toward your water. Keep a bottle at your desk and in your car, and use the pee color check, since thirst is less reliable in the cold.",
+      "If you exercise outside in winter, drink before you go and after you come in, even if you do not feel thirsty. And soups and stews are a great way to add both fluid and vegetables on cold nights."
+    ],
+    "more": {
+      "why": "Cold weather dulls your thirst signal while dry air quietly increases water loss through your breath and skin. The result is mild dehydration you do not notice.",
+      "example": "Winter day: water before coffee, tea at 10, a bottle at your desk, broth based soup at lunch, warm milk at night. Target hit without forcing ice water.",
+      "how": "Set your water reminders a little more often in winter. Two quick nudges in the afternoon catch most of the slump."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Does coffee count as water?",
+      "Am I drinking enough?"
+    ],
+    "related": [
+      "nr-b-021",
+      "nr-b-022",
+      "nr-b-023"
+    ]
+  }
+]
