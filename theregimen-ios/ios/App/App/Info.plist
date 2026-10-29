@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>The Regimen</string>
+        <string>formed fit</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -50,7 +50,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>formed labs uses your location once, when you open the app, to work out which gym you are standing in so your equipment and plate maths are already right. It is never read in the background and no history of where you have been is kept.</string>
+	<string>formed fit uses your location only while the app is open: once, to work out which gym you are standing in so your equipment and plate math are already right, and, if you switch on the fast-food radar, to notice when you pull into a restaurant chain. It is never read in the background and no history of where you have been is kept.</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -70,15 +70,26 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>formed fit connects to your heart rate strap, watch or earbuds over Bluetooth to show your heart rate live during a session.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+	</array>
 	<key>NSHealthShareUsageDescription</key>
-	<string>The Regimen reads your weight, body fat, steps and workouts from Health so you do not have to type them twice. Health data stays on this phone.</string>
+	<string>formed fit reads your weight, body fat, steps, workouts and, during a session, your watch's heart rate from Health so you do not have to type them twice. Records you import can be included in your Formed account sync.</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>The Regimen writes each weigh-in and body-fat figure you log back to Health.</string>
+	<string>formed fit writes each weigh-in and body-fat figure you log back to Health.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>formed fit uses the microphone for the sound of a clip you film of your workout, and when you tap the microphone in a coach's chat to ask out loud (that is never recorded or kept).</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>formed fit turns what you say to a coach into text, only after you tap the microphone in their chat.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Photograph a lab report so The Regimen can read the markers off it.</string>
+	<string>formed fit uses the camera to scan a food's barcode, to photograph a meal or a lab report so it can read it, and to take the photos and clips you post from a workout.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Choose a lab report or progress photo from your library.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Save a progress photo to your library.</string>
 </dict>
 </plist>
+
