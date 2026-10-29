@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "sh-a-001",
+    "topic": "session",
+    "title": "What to do today when you have no plan",
+    "keys": [
+      "what should i do today",
+      "what workout should i do today",
+      "what do i train today",
+      "what should i train today",
+      "no plan for today",
+      "dont know what to do at the gym",
+      "what to do at the gym today",
+      "give me a workout for today",
+      "what should i work on today",
+      "pick my workout",
+      "what workout today",
+      "i have no plan",
+      "what should i do at the gym",
+      "todays workout"
+    ],
+    "match": "\\b(what (should|do|can) i (do|train|work on|hit)( at the gym)? today|what workout (should i do )?today|(no|without a) plan (for )?today|dont know what to do at the gym)\\b",
+    "body": [
+      "Look at what you did last, then do the opposite. Legs yesterday means upper today, and hard intervals yesterday means easy cardio or a full-body lift today. Nothing for three days? Full body, you lucky thing, everything is fresh.",
+      "If your Train screen has today's session on it, that's the answer, go do it. If it's blank, run my default: one squat or hinge, one push, one pull, one carry or core move, then 8 to 10 minutes of conditioning. Three sets each, leaving a rep or two in the tank.",
+      "Feeling flat? Shorten it, don't skip it. A 20-minute session you finish beats a 60-minute plan you never start."
+    ],
+    "more": {
+      "why": "Alternating what you hit gives each muscle about 48 hours before it works hard again, and it stops you from doing chest four days running just because chest is fun.",
+      "how": "Check your last two sessions. Pick the pattern you haven't done lately (squat or hinge, push, pull). Warm up 5 minutes, do 3 sets of 3 or 4 moves, then finish with 8 minutes of intervals or an incline walk.",
+      "beginner": "Full body three days a week with the same handful of moves is a great plan for your first months. Boring is fine. Boring builds.",
+      "example": "Goblet squat 3x10, push-ups 3x8 to 12, dumbbell row 3x10 each arm, farmer carry 3x40 steps, then 8 rounds of 20 seconds hard and 40 seconds easy on the bike."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I structure a session?",
+      "Give me a 20 minute workout",
+      "What if I only have 45 minutes?"
+    ],
+    "related": [
+      "sh-a-002",
+      "sh-a-009",
+      "sh-a-010"
+    ]
+  },
+  {
+    "id": "sh-a-002",
+    "topic": "session",
+    "title": "How to structure a session from warm-up to cooldown",
+    "keys": [
+      "how to structure a workout",
+      "how do i structure a session",
+      "workout structure",
+      "order of a workout",
+      "what order should my workout go in",
+      "how to plan a workout",
+      "how to build a workout",
+      "session structure",
+      "what goes in a workout",
+      "how should a workout be set up",
+      "workout template",
+      "how to lay out a gym session",
+      "structure my session",
+      "what order do i do things at the gym"
+    ],
+    "match": "\\b((structure|lay ?out|plan|build|set ?up) (a |my )?(workout|session|gym session|training session)|(workout|session) (structure|template|layout)|order of (a|my) (workout|session))\\b",
+    "body": [
+      "Every good session has the same skeleton: warm up, do the hardest and most skilled thing first, then the supporting work, then the sweaty stuff, then cool down. Fresh legs for jumps and heavy lifts, tired legs for the burn.",
+      "Here's the order I run on the floor: warm-up for 5 to 10 minutes; power or speed work if you do it (jumps, throws, sprints) for about 5; the main lift for 15 to 20; accessories, often as supersets, for 15; conditioning for 5 to 15; then a few minutes of easy movement and slow breathing to cool down.",
+      "Short on time? The skeleton stays and the pieces shrink. You never drop the warm-up, and you never put the max-effort sprint at the end of leg day."
+    ],
+    "more": {
+      "why": "Skill and power fall apart under fatigue. A sprint or a heavy squat done tired is slower, sloppier and riskier, while a set of curls barely cares how tired you are.",
+      "how": "Write the session top to bottom in that order before you walk in: warm-up, power, main lift, accessories, conditioning, cooldown. Cross off as you go.",
+      "mistake": "Starting with a brutal circuit to 'warm up', then trying to squat heavy on jelly legs. Burn last, not first.",
+      "example": "Warm-up 6 minutes, box jumps 3x3, trap bar deadlift 4x5, superset split squats and rows 3x10, 10-minute EMOM on the rower, 3 minutes of easy walking.",
+      "short_on_time": "Warm-up 4 minutes, main lift 3 sets, one superset for 3 rounds, 4 minutes of intervals. Done in 25."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is a superset?",
+      "Cardio before or after lifting?",
+      "What is an EMOM?"
+    ],
+    "related": [
+      "sh-a-001",
+      "sh-a-003",
+      "sh-a-011"
+    ]
+  },
+  {
+    "id": "sh-a-003",
+    "topic": "session-formats",
+    "title": "Supersets: what they are and how to pair them",
+    "keys": [
+      "superset",
+      "supersets",
+      "what is a superset",
+      "how do supersets work",
+      "how to superset",
+      "super set",
+      "superset exercises",
+      "what to superset",
+      "best supersets",
+      "antagonist superset",
+      "push pull superset",
+      "should i superset",
+      "are supersets good",
+      "supersetting"
+    ],
+    "match": "\\b(super ?sets?|super ?setting)\\b",
+    "body": [
+      "A superset is two exercises back to back with no rest between them, then you rest after the pair. That's it. It's the oldest time-saver on the floor and I love it like a good playlist.",
+      "The best pairs don't fight each other. Push with pull (bench press and rows), upper with lower (split squats and pull-ups), or a big lift with a core move. One muscle rests while the other works, so you keep your strength and cut the session nearly in half.",
+      "Rest 60 to 90 seconds after each pair, a bit longer if the first move is heavy. Set up both stations before you start so you're not wandering the gym between them."
+    ],
+    "more": {
+      "why": "Pairing opposite muscles lets one recover while the other works, so you keep most of your reps and save a lot of time. Same-muscle pairs burn more but cost you reps on the second move.",
+      "how": "Pick two moves at stations close together. Do a set of A, walk straight to B, do a set of B, rest 60 to 90 seconds, repeat for 3 or 4 rounds.",
+      "mistake": "Pairing two moves that use the same grip, like deadlifts and heavy rows. Your grip quits and both lifts suffer.",
+      "example": "A1 dumbbell bench press 3x10, A2 chest-supported row 3x10, rest 75 seconds. B1 goblet squat 3x12, B2 plank 3x30 seconds."
+    },
+    "chips": [
+      "What is a giant set?",
+      "How long should I rest in a circuit?",
+      "Gym is packed, what do I do?"
+    ],
+    "related": [
+      "sh-a-004",
+      "sh-a-015",
+      "sh-a-012"
+    ]
+  },
+  {
+    "id": "sh-a-004",
+    "topic": "session-formats",
+    "title": "Giant sets for three or more moves in a row",
+    "keys": [
+      "giant set",
+      "giant sets",
+      "what is a giant set",
+      "tri set",
+      "triset",
+      "tri sets",
+      "three exercises in a row",
+      "giant set workout",
+      "how to do giant sets",
+      "are giant sets good",
+      "four exercises back to back",
+      "tri set workout"
+    ],
+    "match": "\\b(giant ?sets?|tri ?sets?)\\b",
+    "body": [
+      "A giant set is a superset that got ambitious: three or more exercises back to back, then rest. A tri-set is the three-move version. They pack a lot of work into very little time and they'll make you sweat on a lifting day.",
+      "Build one around a body part or a movement pattern and keep loads moderate: 8 to 15 reps per move, 2 to 4 rounds, 90 seconds to 2 minutes of rest after each round. Put the hardest, heaviest move first and the easiest last, because by move four you're not lifting heavy, you're surviving.",
+      "Great for accessories and short sessions. Not where your heavy squat or deadlift lives."
+    ],
+    "more": {
+      "why": "Heavy lifts need full rest to stay strong and safe. Giant sets trade a little load for a lot of density, which is perfect for the back half of a session.",
+      "how": "Set up every station in one spot (dumbbells and a bench is ideal). Go A, B, C, D with only the step between them, rest, repeat.",
+      "example": "Shoulder giant set: dumbbell press 10, lateral raise 12, band face pull 15, rear delt fly 12. Rest 2 minutes, 3 rounds.",
+      "mistake": "Spreading the stations across the whole gym at peak hours. You'll lose your stuff and your friends."
+    },
+    "chips": [
+      "What is a superset?",
+      "What is a circuit workout?",
+      "What are drop sets?"
+    ],
+    "related": [
+      "sh-a-003",
+      "sh-a-005",
+      "sh-a-008"
+    ]
+  },
+  {
+    "id": "sh-a-005",
+    "topic": "session-formats",
+    "title": "Circuit training: how to build one that works",
+    "keys": [
+      "circuit training",
+      "circuit workout",
+      "what is a circuit",
+      "how to make a circuit",
+      "build a circuit",
+      "full body circuit",
+      "circuit training for fat loss",
+      "stations workout",
+      "how many rounds in a circuit",
+      "circuit vs weights",
+      "is circuit training good",
+      "circuit workout ideas"
+    ],
+    "match": "\\b(circuit (training|workouts?|ideas)|what is a circuit|(build|make|design) (a|my) circuit|rounds in a circuit)\\b",
+    "body": [
+      "A circuit is a loop of 5 to 10 exercises done one after another with little rest, repeated for rounds. It's strength and conditioning at the same time, which is why so many group classes are built on them.",
+      "Here's how I build one. Cover the patterns: a squat, a hinge, a push, a pull, a carry or core move, and one cardio station. Work 30 to 45 seconds per station (or a set rep count), take 15 seconds to switch, rest 1 to 2 minutes after the loop, and do 3 to 5 rounds.",
+      "Pick weights you could lift 15 or more times, because you'll be tired by round three. Put upper and lower moves next to each other so something always gets a breather."
+    ],
+    "more": {
+      "why": "Alternating body parts keeps your heart rate up while each muscle rests, so you get conditioning without the quality of each move falling apart.",
+      "beginner": "Start with 5 stations, 30 seconds on and 30 seconds off, 3 rounds. With a warm-up that's about 25 minutes, and you'll feel like a champion.",
+      "example": "Goblet squat, push-ups, kettlebell deadlift, band row, mountain climbers, farmer carry. 40 seconds on, 20 off, 4 rounds.",
+      "mistake": "Putting three leg moves in a row. Your legs give out, your heart rate drops and the circuit turns into a sad leg day."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I pace a circuit?",
+      "How long should I rest in a circuit?",
+      "What is an AMRAP?"
+    ],
+    "related": [
+      "sh-a-021",
+      "sh-a-015",
+      "sh-a-007"
+    ]
+  },
+  {
+    "id": "sh-a-006",
+    "topic": "session-formats",
+    "title": "EMOM workouts: every minute on the minute",
+    "keys": [
+      "emom",
+      "what is an emom",
+      "every minute on the minute",
+      "emom workout",
+      "how do emoms work",
+      "e m o m",
+      "emom ideas",
+      "emom for beginners",
+      "how many reps in an emom",
+      "emom cardio",
+      "every minute workout",
+      "alternating emom"
+    ],
+    "match": "\\b(emoms?|e m o m|every minute on the minute)\\b",
+    "body": [
+      "EMOM means every minute on the minute. Start a clock, do a set number of reps at the top of each minute, and whatever is left of that minute is your rest. Finish fast, rest longer. Dawdle, and the clock eats your break.",
+      "The sweet spot is work that takes 20 to 40 seconds, leaving 20 to 40 seconds to breathe. If you need 50 seconds to finish the reps, the number is too big, so cut it. Alternating EMOMs are my favorite: odd minutes one move, even minutes another, 10 to 20 minutes total.",
+      "EMOMs are honest. The clock doesn't care how you feel, and that's exactly why they teach pacing."
+    ],
+    "more": {
+      "why": "The fixed clock forces consistent rest and makes it obvious when you're fading, which teaches pacing better than any speech from me.",
+      "how": "Pick 1 to 3 moves and set a 12-minute timer. Minute 1 is 12 kettlebell swings, minute 2 is 10 push-ups, minute 3 is 12 calories on the bike. Repeat that cycle 4 times.",
+      "beginner": "Start with 10 minutes and reps you could finish in about 20 seconds fresh. Next time add one rep or one minute, not both.",
+      "advanced": "Use EMOMs for technique practice on a lift: 1 to 3 crisp reps at about 70 to 80 percent of your max every minute for 8 to 10 minutes."
+    },
+    "chips": [
+      "What is an AMRAP?",
+      "What is a Tabata workout?",
+      "Give me a 20 minute workout"
+    ],
+    "related": [
+      "sh-a-007",
+      "sh-a-016",
+      "sh-a-009"
+    ]
+  },
+  {
+    "id": "sh-a-007",
+    "topic": "session-formats",
+    "title": "AMRAP workouts and how not to blow up early",
+    "keys": [
+      "amrap",
+      "what is an amrap",
+      "as many rounds as possible",
+      "as many reps as possible",
+      "amrap workout",
+      "how do amraps work",
+      "amrap meaning",
+      "amrap ideas",
+      "how to pace an amrap",
+      "a m r a p",
+      "amrap score"
+    ],
+    "match": "\\b(amraps?|a m r a p|as many (rounds|reps) as possible)\\b",
+    "body": [
+      "AMRAP means as many rounds (or reps) as possible in a set time. Say 12 minutes of 10 squats, 8 push-ups and 6 rows: you loop it until the clock hits zero and count your rounds. That's your score, and next time you try to beat it.",
+      "The trick is pace. Go out at a speed you could hold the whole time, around 7 out of 10 effort, and only push in the last 2 or 3 minutes. Break sets before you hit failure, because failure in an AMRAP means a long, sad rest while the clock keeps running.",
+      "Write your score down. Same AMRAP in four weeks, more rounds: that's conditioning you can actually see."
+    ],
+    "more": {
+      "why": "AMRAPs are self-paced, so they scale to anyone, and the score gives you a real number to beat later.",
+      "mistake": "Sprinting round one like it's the 400. I know that event. The last 100 meters hurt because of the first 100. Even pacing wins.",
+      "example": "12-minute AMRAP: 10 goblet squats, 10 push-ups, 10 kettlebell swings, 200 meter row. A solid first score is 4 to 5 rounds.",
+      "beginner": "Use an 8-minute clock and moves you know well. Rest whenever you need to, just keep the rests short and count every round."
+    },
+    "chips": [
+      "How do I pace a circuit?",
+      "What is an EMOM?",
+      "What is a for time workout?"
+    ],
+    "related": [
+      "sh-a-021",
+      "sh-a-006",
+      "sh-a-019"
+    ]
+  },
+  {
+    "id": "sh-a-008",
+    "topic": "session-formats",
+    "title": "Drop sets: when to use them and when to skip them",
+    "keys": [
+      "drop set",
+      "drop sets",
+      "what is a drop set",
+      "how to do drop sets",
+      "are drop sets good",
+      "strip set",
+      "strip sets",
+      "running the rack",
+      "drop sets for growth",
+      "how much weight to drop",
+      "should i do drop sets",
+      "dropset"
+    ],
+    "match": "\\b(drop ?sets?|strip ?sets?|run(ning)? the rack)\\b",
+    "body": [
+      "A drop set is one set taken close to failure, then you immediately cut the weight by about 20 to 30 percent and keep going, usually for 1 or 2 drops. It squeezes a lot of hard reps into a minute or two, which makes it a great time-saver.",
+      "Use them on the last set of an exercise, and on machines, cables or dumbbells where changing the weight takes seconds. Leg extensions, curls, lateral raises, pulldowns: perfect. Barbell squats and deadlifts: no thank you, tired reps on those are where form leaks.",
+      "One or two drop sets per muscle in a session is plenty. They're a spice, not the meal."
+    ],
+    "more": {
+      "why": "Pushing past the first point of fatigue adds hard reps without extra rest time, which is why drop sets can build muscle about as well as regular sets in less time.",
+      "how": "Do your set to about 1 rep short of failure. Drop the weight 20 to 30 percent within 10 seconds. Rep out again, leaving a rep in the tank, then take an optional second drop and you're done.",
+      "example": "Lateral raises: 20 lb for 12, drop to 15 lb for 8, drop to 10 lb for 8. One set, about 90 seconds, shoulders on fire.",
+      "mistake": "Drop sets on every exercise, every day. You'll be wrecked for days and your next sessions get worse, not better."
+    },
+    "chips": [
+      "What is a superset?",
+      "What are finishers?",
+      "Give me a 20 minute workout"
+    ],
+    "related": [
+      "sh-a-003",
+      "sh-a-017",
+      "sh-a-009"
+    ]
+  },
+  {
+    "id": "sh-a-009",
+    "topic": "short-sessions",
+    "title": "A real workout in 20 to 30 minutes",
+    "keys": [
+      "20 minute workout",
+      "30 minute workout",
+      "quick workout",
+      "short workout",
+      "fast workout",
+      "workout in 20 minutes",
+      "i only have 20 minutes",
+      "i only have 30 minutes",
+      "25 minute workout",
+      "is 20 minutes enough",
+      "is a 30 minute workout enough",
+      "quick gym session",
+      "twenty minute workout",
+      "thirty minute workout",
+      "express workout",
+      "half hour workout"
+    ],
+    "match": "\\b((20|25|30|twenty|thirty)[ -]?(min|mins|minute|minutes)( workout| session| gym session)?|half (an )?hour (workout|session)|quick (workout|gym session|session)|short (workout|session)|express workout)\\b",
+    "body": [
+      "Twenty minutes is plenty if you stop wasting it. The secret is pairing moves so you're never just standing there, and keeping rest short but honest.",
+      "My go-to: a 4-minute warm-up, then two supersets of 3 rounds each (8 to 12 reps per move, 60 seconds rest between rounds), then a 4-minute finisher. Superset one is a lower body move plus a pull, and superset two is a push plus core. Got 30 minutes? Add a third superset or stretch the finisher to 8 minutes.",
+      "Do that 3 times a week and you're hitting every major muscle with real sets. Short sessions add up when they actually happen."
+    ],
+    "more": {
+      "why": "Strength and muscle respond to hard sets, not hours. Two or three hard sets per move, three times a week, is enough for most people to keep progressing.",
+      "example": "Warm-up 4 minutes. A1 goblet squat 10, A2 dumbbell row 10 each arm, 3 rounds. B1 push-ups 10, B2 dead bug 10 each side, 3 rounds. Finisher: 4 minutes of 20 seconds hard and 40 seconds easy on the bike.",
+      "home": "No gym? Swap goblet squats for split squats, rows for backpack rows, and the bike for fast step-ups on the stairs.",
+      "mistake": "Spending 8 of your 20 minutes deciding what to do. Pick the session before you walk in."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What if I only have 45 minutes?",
+      "What do I cut when short on time?",
+      "What are finishers?"
+    ],
+    "related": [
+      "sh-a-010",
+      "sh-a-011",
+      "sh-a-017"
+    ]
+  },
+  {
+    "id": "sh-a-010",
+    "topic": "short-sessions",
+    "title": "A 45 minute session that covers everything",
+    "keys": [
+      "45 minute workout",
+      "forty five minute workout",
+      "45 min session",
+      "i have 45 minutes",
+      "workout in 45 minutes",
+      "is 45 minutes enough",
+      "45 minute gym session",
+      "45 mins workout",
+      "how to use 45 minutes at the gym",
+      "45 minute full body",
+      "45 minute lifting and cardio",
+      "only have 45 minutes"
+    ],
+    "match": "\\b(45|forty[ -]?five)[ -]?(min|mins|minute|minutes)\\b",
+    "body": [
+      "Forty-five minutes is the sweet spot. Enough for a proper main lift, real accessories and some conditioning, and short enough to fit before work. Here's how I'd spend it.",
+      "Minutes 0 to 7: warm-up and ramp-up sets. Minutes 7 to 22: main lift, 3 or 4 working sets with 2 to 3 minutes of rest. Minutes 22 to 37: two accessory supersets, 3 rounds each. Minutes 37 to 45: conditioning (intervals on the bike or rower), then walk it off and breathe.",
+      "Keep your phone in your pocket between sets and this plan runs on time. Scroll between sets and it quietly turns into a 70-minute plan."
+    ],
+    "more": {
+      "why": "The main lift gets your best energy, the accessories fill in what it missed, and a short conditioning piece keeps your engine growing without stealing from the lifting.",
+      "example": "Squat 4x5 after warm-up sets. Superset Romanian deadlifts and pull-ups 3x8. Superset split squats and push-ups 3x10. Then 6 rounds of 20 seconds hard and 40 seconds easy on the bike.",
+      "short_on_time": "Lost 15 minutes? Drop the second superset and keep everything else.",
+      "beginner": "Use the same 45-minute layout with lighter loads and longer rests. The structure is the lesson; the weights will come."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What do I cut when short on time?",
+      "Cardio before or after lifting?",
+      "What is a superset?"
+    ],
+    "related": [
+      "sh-a-009",
+      "sh-a-011",
+      "sh-a-002"
+    ]
+  },
+  {
+    "id": "sh-a-011",
+    "topic": "short-sessions",
+    "title": "What to cut when you are short on time",
+    "keys": [
+      "what to cut when short on time",
+      "short on time",
+      "running late for my workout",
+      "not enough time to finish my workout",
+      "what can i skip in my workout",
+      "what should i skip",
+      "only have half the time",
+      "cut my workout short",
+      "can i skip the warm up",
+      "what to drop from my workout",
+      "no time to finish",
+      "should i skip accessories",
+      "rushed workout",
+      "late to the gym"
+    ],
+    "match": "\\b(short on time|what (should|can|do) i (cut|skip|drop)|cut (my|the) (workout|session) short|(not enough|no) time to finish|skip the warm ?up)\\b",
+    "body": [
+      "Cut from the back, never the front. The order I drop things: the finisher first, then isolation work, then the third set of accessories, then extra warm-up sets beyond what you need. What stays: a short warm-up and your main lift or main conditioning piece.",
+      "Then compress what's left. Turn straight sets into supersets, trim accessory rest to 60 to 90 seconds, and do 2 hard sets instead of 3 or 4. Two sets close to failure still do most of the job.",
+      "And the warm-up? Shrink it to 3 or 4 minutes, but don't skip it. Ten minutes saved is not worth three weeks nursing a tweaked hamstring."
+    ],
+    "more": {
+      "why": "The main lift and its first hard sets drive most of your progress. Extra sets add a little more, so when time is short you keep the big rocks and drop the small ones.",
+      "how": "Look at the plan, cross off the last block, then the isolation moves, then pair whatever is left into supersets.",
+      "example": "Planned 60 minutes, have 30: warm-up 4 minutes, squat 3 sets, superset rows and push-ups for 2 rounds, skip the curls and the finisher.",
+      "mistake": "Skipping the main lift to 'just do some cardio' because it feels quicker. Do the important thing first, even if it's shorter."
+    },
+    "chips": [
+      "Give me a 20 minute workout",
+      "What is a superset?",
+      "How do I warm up for intervals?"
+    ],
+    "related": [
+      "sh-a-009",
+      "sh-a-010",
+      "sh-a-003"
+    ]
+  },
+  {
+    "id": "sh-a-012",
+    "topic": "busy-gym",
+    "title": "How to train when the gym is packed",
+    "keys": [
+      "gym is packed",
+      "gym is crowded",
+      "busy gym",
+      "crowded gym workout",
+      "gym too busy",
+      "gym is full",
+      "peak hours gym",
+      "everything is taken",
+      "packed gym",
+      "gym rush hour",
+      "how to work out in a busy gym",
+      "january gym crowds",
+      "gym is so busy",
+      "too many people at the gym"
+    ],
+    "match": "\\b(gym (is |was |gets |too )?(so )?(packed|crowded|busy|full|slammed)|(packed|crowded|busy|full) gym|too many people (at|in) the gym|everything (is|was) taken)\\b",
+    "body": [
+      "Packed gym? Welcome to 5:30 pm on a Monday. The trick is to stop needing one specific machine and start owning a little corner.",
+      "Grab a pair of dumbbells and a bench, or one kettlebell and a patch of floor, and run your session as supersets or a circuit right there. You can hit squats, presses, rows, hinges and core without moving ten feet. Need a rack? Ask how many sets they have left, or if you can work in.",
+      "Got some flexibility? The quietest times are usually mid-morning, early afternoon and the last hour before close. Weekend afternoons are often a ghost town."
+    ],
+    "more": {
+      "how": "Before you go, write a plan B for your main lift. Squat rack taken means goblet squats or split squats. Bench taken means dumbbell floor press or push-ups. Then you never stand around waiting.",
+      "mistake": "Hovering silently behind someone's rack for 10 minutes. Ask. The worst answer is 'two more sets', and that's useful information.",
+      "example": "Corner workout with dumbbells and a bench: goblet squat, incline press, single-arm row, Romanian deadlift, split squat, plank. 3 rounds of 10 reps each, 90 seconds rest."
+    },
+    "chips": [
+      "The squat rack is taken",
+      "Equipment is taken, what do I swap?",
+      "What is a giant set?"
+    ],
+    "related": [
+      "sh-a-013",
+      "sh-a-014",
+      "sh-a-004"
+    ]
+  },
+  {
+    "id": "sh-a-013",
+    "topic": "busy-gym",
+    "title": "Equipment taken? Swaps that keep the session on track",
+    "keys": [
+      "equipment is taken",
+      "machine is taken",
+      "someone is on the machine",
+      "bench is taken",
+      "cable is taken",
+      "lat pulldown taken",
+      "leg press taken",
+      "exercise swap",
+      "substitute exercise",
+      "alternative exercise",
+      "what can i do instead",
+      "replacement exercise",
+      "swap an exercise",
+      "machine is broken",
+      "no cable machine"
+    ],
+    "match": "\\b((machine|bench|cable|equipment|station|pulldown|leg press|dumbbells?)( is| are)? (taken|busy|occupied|broken|out of order)|(swap|substitute|alternative|replacement) (for )?(an |this |that )?exercise|what can i do instead)\\b",
+    "body": [
+      "Nothing on the floor is irreplaceable. If you know what a move is for, you can swap it in ten seconds. Match the pattern and the muscle, then match the rep range.",
+      "My swap sheet: flat bench taken, do a dumbbell floor press or push-ups with feet raised; cable row taken, do a chest-supported dumbbell row; lat pulldown taken, do assisted pull-ups or a band pulldown. Leg press taken, do goblet squats or split squats; leg curl taken, do Romanian deadlifts or slider hamstring curls; cable fly taken, do a dumbbell fly or a band press.",
+      "Keep the sets and reps the same and log the swap so your numbers stay honest."
+    ],
+    "more": {
+      "why": "Muscles respond to tension and effort, not to the name on the machine. A row is a row whether it's a cable or a dumbbell, as long as you pull hard through the same range.",
+      "how": "Ask two questions: what pattern is this (push, pull, squat, hinge, carry), and what muscle should be burning? Grab any free tool that does the same job.",
+      "example": "Planned cable row 3x12 at 100 lb. Cable taken, so: chest-supported dumbbell row 3x12 with 35 to 45 lb dumbbells, logged as the swap."
+    },
+    "chips": [
+      "The squat rack is taken",
+      "Gym is packed, what do I do?",
+      "Dumbbell only full body workout"
+    ],
+    "related": [
+      "sh-a-014",
+      "sh-a-012"
+    ]
+  },
+  {
+    "id": "sh-a-014",
+    "topic": "busy-gym",
+    "title": "The squat rack is taken: what to do instead",
+    "keys": [
+      "squat rack taken",
+      "squat rack is taken",
+      "no squat rack",
+      "rack is taken",
+      "someone is curling in the squat rack",
+      "squat without a rack",
+      "squat alternative",
+      "no rack squat",
+      "power rack taken",
+      "all racks taken",
+      "cant get a squat rack",
+      "racks are full"
+    ],
+    "match": "\\b((squat |power )?racks? (is |are )?(taken|full|busy|occupied)|(no|without a) (squat |power )?rack|curling in the (squat )?rack|cant get a (squat )?rack)\\b",
+    "body": [
+      "Every rack taken, and one has someone doing curls in it? Deep breath. You can still train legs hard today.",
+      "Swap the barbell squat for something you load from the floor. Goblet squats with a heavy dumbbell or kettlebell, Bulgarian split squats holding dumbbells, or a leg press if one's open. A heavy dumbbell split squat at 8 to 10 reps per leg humbles most barbell squatters, I promise.",
+      "Running a strength block and really need the barbell? Flip your order: do accessories first in a corner and keep an eye on the racks. They open up fast once the after-work crowd heads to the cardio deck."
+    ],
+    "more": {
+      "why": "Split squats and goblet squats train the same muscles through a similar range, so for a session or two they keep you progressing just fine.",
+      "how": "Pick a single-leg move, match the number of sets, aim for the same effort (1 to 3 reps left in the tank) and log it as the swap.",
+      "mistake": "Leaving without training legs because the rack was busy. Your legs don't care what the weight is attached to.",
+      "example": "Planned squat 4x6. Rack taken: Bulgarian split squat 4x8 each leg with 30 to 40 lb dumbbells, then check the rack again."
+    },
+    "chips": [
+      "Equipment is taken, what do I swap?",
+      "Gym is packed, what do I do?",
+      "What is a giant set?"
+    ],
+    "related": [
+      "sh-a-013",
+      "sh-a-012"
+    ]
+  },
+  {
+    "id": "sh-a-015",
+    "topic": "session-formats",
+    "title": "How long to rest in supersets, circuits and intervals",
+    "keys": [
+      "how long to rest in a circuit",
+      "rest between rounds",
+      "rest between supersets",
+      "rest time circuit",
+      "how much rest between rounds",
+      "rest between intervals",
+      "how long should i rest in a circuit",
+      "rest periods for conditioning",
+      "rest between stations",
+      "how long to rest between sprints",
+      "work to rest ratio",
+      "rest in a superset"
+    ],
+    "match": "\\b(rest (time |periods? )?(between|in|for) (a |my |the )?(rounds?|supersets?|circuits?|stations?|intervals?|sprints?|giant sets?)|work[ -]to[ -]rest( ratio)?)\\b",
+    "body": [
+      "Rest depends on what you're training. Rule of thumb: the harder and faster the work, the longer the rest.",
+      "Supersets: 60 to 90 seconds after the pair, up to 2 minutes if the first move is heavy. Circuits: 10 to 20 seconds to switch stations, 1 to 2 minutes after each full round. Conditioning intervals: 1:1 to 1:2 work to rest, like 30 seconds hard and 30 to 60 seconds easy. Pure sprints for speed: 1:10 or more, so a 10-second sprint gets close to 2 minutes.",
+      "Short rest is a tool, not a virtue. If your form falls apart or your sprints slow down, you need more rest, not more grit."
+    ],
+    "more": {
+      "why": "Your fastest energy system mostly refills within a couple of minutes. Cut the rest too short and true sprints turn into slow conditioning.",
+      "how": "Use a timer, not vibes. Start the rest the moment the last rep ends.",
+      "example": "Bike intervals: 8 rounds of 20 seconds hard and 40 seconds easy is a 1:2 ratio. Sprints: 6 x 40 meters with a slow walk back plus a minute is about right."
+    },
+    "chips": [
+      "How do I do intervals?",
+      "How do I start sprinting?",
+      "How do I pace a circuit?"
+    ],
+    "related": [
+      "sh-a-003",
+      "sh-a-005",
+      "sh-a-021"
+    ]
+  },
+  {
+    "id": "sh-a-016",
+    "topic": "session-formats",
+    "title": "Tabata: the real one and the class version",
+    "keys": [
+      "tabata",
+      "what is tabata",
+      "tabata workout",
+      "20 seconds on 10 seconds off",
+      "20 on 10 off",
+      "tabata timer",
+      "is tabata good",
+      "tabata for fat loss",
+      "tabata intervals",
+      "how to do tabata",
+      "4 minute workout",
+      "four minute workout"
+    ],
+    "match": "\\b(tabatas?|20 (seconds? )?on,? ?10 (seconds? )?off|(4|four)[ -]minute workout)\\b",
+    "body": [
+      "Tabata is 20 seconds of work and 10 seconds of rest, 8 rounds. Four minutes total. The original research used an all-out effort on a bike, and those four minutes were miserable in the best way.",
+      "Most 'Tabata' classes are really interval circuits with a Tabata timer, and that's fine, just know the difference. If you truly go all out, pick something simple and safe to do exhausted: bike, rower, air bike, fast step-ups. Not box jumps, not heavy snatches.",
+      "One or two Tabata blocks in a session is plenty. If you can do six in a row, they weren't Tabatas, they were warm-ups with a fancy name."
+    ],
+    "more": {
+      "why": "The short rest never lets you fully recover, so your heart and lungs work near their ceiling. It's a big push in very little time, which is the whole charm.",
+      "how": "Warm up 5 to 8 minutes. Then 20 seconds max effort, 10 seconds easy, 8 times. Write down your lowest round and try to keep it close to your first.",
+      "beginner": "Start with 20 seconds hard and 40 seconds easy for 6 rounds. Earn the 10-second rest version after a few weeks of intervals.",
+      "mistake": "Tricky movements in a Tabata. When you're that tired, technique goes first, so keep the move simple."
+    },
+    "chips": [
+      "How often should I do HIIT?",
+      "How do I warm up for intervals?",
+      "What is an EMOM?"
+    ],
+    "related": [
+      "sh-a-006",
+      "sh-a-017"
+    ]
+  },
+  {
+    "id": "sh-a-017",
+    "topic": "session-formats",
+    "title": "Finishers: the short burn at the end of a session",
+    "keys": [
+      "finisher",
+      "finishers",
+      "workout finisher",
+      "what is a finisher",
+      "end of workout burnout",
+      "burnout set",
+      "should i do a finisher",
+      "finisher ideas",
+      "conditioning finisher",
+      "metcon finisher",
+      "burn out at the end",
+      "end of workout cardio"
+    ],
+    "match": "\\b(finishers?|burn ?out sets?|end of (my |the )?workout (burnout|cardio))\\b",
+    "body": [
+      "A finisher is a 3 to 8 minute burst of conditioning at the end of a lifting session. It's dessert. Optional, delicious and not a replacement for the meal.",
+      "Good finishers are simple and hard to mess up when tired: bike or rower intervals, sled pushes, farmer carries, or kettlebell swings paired with push-ups. Try 5 rounds of 20 seconds hard and 40 seconds easy on the bike, or 4 sled pushes of 20 meters with a walk back.",
+      "Skip it on days your main work was brutal, or when it leaves you dragging into your next session. A finisher should make you feel like a champion, not like you got hit by a bus."
+    ],
+    "more": {
+      "why": "Finishers add conditioning without a separate cardio day. Short and intense at the end means they don't steal energy from your lifting.",
+      "mistake": "Heavy, technical lifts as finishers. Burpees are fine. Max-effort deadlifts for reps when you're cooked are not.",
+      "example": "After upper body day: 5 rounds of 10 kettlebell swings and 8 push-ups, 30 seconds rest between rounds.",
+      "short_on_time": "The finisher is the first thing to cut when you're running late. No guilt."
+    },
+    "chips": [
+      "How do I push a sled?",
+      "What is a Tabata workout?",
+      "How do I use an assault bike?"
+    ],
+    "related": [
+      "sh-a-016",
+      "sh-a-011"
+    ]
+  },
+  {
+    "id": "sh-a-018",
+    "topic": "session-formats",
+    "title": "Ladder workouts: climbing reps up and down",
+    "keys": [
+      "ladder workout",
+      "rep ladder",
+      "rep ladders",
+      "ascending ladder",
+      "descending ladder",
+      "what is a ladder workout",
+      "1 to 10 ladder",
+      "10 to 1 workout",
+      "pyramid workout",
+      "pyramid circuit",
+      "ladder sets",
+      "up and down ladder workout"
+    ],
+    "match": "\\b(?<!agility )(ladder (workouts?|sets?)|(ascending|descending|rep) ladders?|pyramid (workouts?|circuits?)|10 to 1 workout)\\b",
+    "body": [
+      "A ladder changes the reps each round. Climb up (1, 2, 3, 4, 5), climb down (10, 9, 8), or both. It's sneaky volume: a 1 to 10 ladder of push-ups is 55 reps and you barely noticed. Okay, you noticed.",
+      "Two-move ladders are my favorite. Kettlebell swings going 10, 9, 8 down to 1 while push-ups climb 1, 2, 3 up to 10. Rest only as long as you need. Or try a timed ladder: add one rep each minute until you can't finish inside the minute.",
+      "Pick moves you can do with decent form for 10 reps fresh, because the middle of a ladder is where it bites."
+    ],
+    "more": {
+      "why": "Changing the reps keeps sets short at one end, so quality stays high while total volume climbs. It's also a great mental game.",
+      "example": "Descending ladder 10 to 1: goblet squats and push-ups. Do 10 of each, then 9 of each, all the way to 1. That's 55 of each.",
+      "beginner": "Try 1 to 5 and back down to 1, resting as needed. That's 25 reps of each move.",
+      "home": "Ladders are perfect with no equipment: squats and push-ups, or lunges and sit-ups, anywhere you have a few square feet."
+    },
+    "chips": [
+      "What is an AMRAP?",
+      "What is a for time workout?",
+      "How do I make bodyweight harder?"
+    ],
+    "related": [
+      "sh-a-007",
+      "sh-a-019"
+    ]
+  },
+  {
+    "id": "sh-a-019",
+    "topic": "session-formats",
+    "title": "For time workouts, chippers and metcons explained",
+    "keys": [
+      "for time workout",
+      "what does for time mean",
+      "chipper workout",
+      "what is a chipper",
+      "workout for time",
+      "rounds for time",
+      "metcon",
+      "what is a metcon",
+      "how to do a metcon",
+      "time cap",
+      "metabolic conditioning"
+    ],
+    "match": "\\b(for time workouts?|workouts? for time|rounds for time|for time mean|chippers?|metcons?|time cap|metabolic conditioning)\\b",
+    "body": [
+      "For time means you finish a set amount of work as fast as you can with good reps, and your time is the score. A chipper is a long list of moves, each done once, and you chip away top to bottom. Metcon is just gym slang for a conditioning workout.",
+      "Pacing matters even more here than in an AMRAP, because nothing stops you from overcooking the start. Break big sets into small chunks early (20 wall balls becomes 8, 7, 5) and keep moving between moves. The fastest people rarely sprint; they just never stop.",
+      "Use a time cap, like 15 or 20 minutes, so a tough day doesn't turn into a 45-minute crawl."
+    ],
+    "more": {
+      "example": "For time: 30 kettlebell swings, 25 goblet squats, 20 push-ups, 15 step-ups each leg, 400 meter row, 10 burpees. Time cap 18 minutes.",
+      "mistake": "Chasing a fast time with ugly reps. Bad reps don't count on my floor, and they don't count for your body either.",
+      "beginner": "Halve the reps and take the time cap seriously. Finishing a smaller workout well beats crawling through a big one.",
+      "why": "A fixed amount of work and a clock make progress easy to measure. Repeat the same workout in a month and your time tells the story."
+    },
+    "chips": [
+      "How do I pace a circuit?",
+      "What is an AMRAP?",
+      "How do I do a burpee?"
+    ],
+    "related": [
+      "sh-a-007",
+      "sh-a-021",
+      "sh-a-018"
+    ]
+  },
+  {
+    "id": "sh-a-020",
+    "topic": "session-formats",
+    "title": "Partner workouts: you go, I go",
+    "keys": [
+      "partner workout",
+      "workout with a friend",
+      "workout with my partner",
+      "couples workout",
+      "you go i go",
+      "buddy workout",
+      "workout with my boyfriend",
+      "workout with my girlfriend",
+      "workout with my husband",
+      "workout with my wife",
+      "training with a friend",
+      "two person workout"
+    ],
+    "match": "\\b(partner (workouts?|training)|you go,? i go|(couples?|buddy|two person) workouts?|work ?out with (a|my) (friend|partner|buddy|husband|wife|boyfriend|girlfriend|spouse))\\b",
+    "body": [
+      "Partner workouts are pure joy on my floor. The classic is you go, I go: one person works while the other rests, then switch. Built-in rest, built-in hype, and nobody quits while someone's watching.",
+      "Try 10 rounds each of 10 kettlebell swings and 10 air squats, switching every round. Or split the work: 100 calories on the rower between you, any splits you like, while the resting partner holds a plank. Different fitness levels? Use reps or calories, not distance, and each person picks their own weight.",
+      "Ground rule: compete on effort, not on the number. The slower partner working at a 9 out of 10 is doing exactly what the faster one is."
+    ],
+    "more": {
+      "why": "Training with someone tends to raise effort and makes sessions harder to skip. The rest while your partner works also gives you a natural work-to-rest ratio.",
+      "example": "20-minute partner AMRAP: one rows 250 meters while the other does burpees until the row is done, then switch. Count total burpees as a team.",
+      "mistake": "Sharing one set of dumbbells with someone much stronger or weaker than you. Two sets of weights, always."
+    },
+    "chips": [
+      "What is an AMRAP?",
+      "What is a circuit workout?",
+      "Workouts with kids around"
+    ],
+    "related": [
+      "sh-a-007",
+      "sh-a-005"
+    ]
+  },
+  {
+    "id": "sh-a-021",
+    "topic": "pacing",
+    "title": "How to pace a circuit so you don't die in round one",
+    "keys": [
+      "how to pace a workout",
+      "pacing a circuit",
+      "how do i pace myself",
+      "i die in the first round",
+      "gassed after the first round",
+      "how fast should i go in a circuit",
+      "pace myself in hiit",
+      "burn out too fast in workouts",
+      "how to not gas out",
+      "start too fast",
+      "pace a circuit"
+    ],
+    "match": "\\b(pac(e|ing) (a |my |the |an )?(circuit|workout|amrap|metcon|class|myself)|(gassed|dead|done|cooked) after (the )?(first|1st) round|start(ed|ing)? (out )?too fast)\\b",
+    "body": [
+      "Here's what the 400 taught me: the last 100 meters are decided in the first 100. Go out too hot and you pay it back with interest. Circuits are exactly the same.",
+      "Aim for round one to feel like a 6 or 7 out of 10, a pace you could hold for every round. Break sets before your form breaks, take three deep breaths at each transition, and save the real push for the final round. If your last round is your fastest, you paced it like a pro.",
+      "Check the clock after each round. If round two is way slower than round one, you went out too hot. Adjust next time and write it down."
+    ],
+    "more": {
+      "why": "Going too hard early piles up fatigue that takes minutes to clear. Even pacing keeps you working longer at a higher average effort.",
+      "how": "Use split times. If a 5-round circuit should take 20 minutes, aim for 4 minutes per round. Faster than that in round one is a warning, not a win.",
+      "beginner": "Use the talk test in round one. If you can't say a short sentence between moves, ease off a notch."
+    },
+    "chips": [
+      "What is an AMRAP?",
+      "Why do I get winded so fast?",
+      "How hard should a workout feel?"
+    ],
+    "related": [
+      "sh-a-007",
+      "sh-a-019",
+      "sh-a-025"
+    ]
+  },
+  {
+    "id": "sh-a-022",
+    "topic": "session-formats",
+    "title": "The deck of cards workout for when you're bored",
+    "keys": [
+      "deck of cards workout",
+      "card workout",
+      "playing cards workout",
+      "fun workout",
+      "workout game",
+      "bored of my workout",
+      "make workouts fun",
+      "random workout",
+      "dice workout",
+      "game workout ideas",
+      "fun workout ideas"
+    ],
+    "match": "\\b(deck of cards|(playing )?cards? workout|dice workout|workout game|fun workout)\\b",
+    "body": [
+      "Bored? Grab a deck of cards and let it boss you around. Each suit is a move and the number is the reps. Face cards are 10, aces are 11 or a 30-second plank (your call), and jokers are a minute of jumping jacks, because the joke's on you.",
+      "Try hearts for squats, diamonds for push-ups, clubs for lunges (each leg) and spades for sit-ups. Flip, do, flip, do, until the deck is gone or 25 minutes pass. A full deck is roughly 340 to 380 reps, so beginners can play half a deck.",
+      "It works at home, in a hotel room or at a park, and kids love being the card flipper."
+    ],
+    "more": {
+      "why": "Randomness makes the time fly and stops you from negotiating with yourself about the next set. The deck decides, you just move.",
+      "beginner": "Use half the deck, or count face cards as 5. Push-ups can be on a counter or a wall.",
+      "home": "Apartment rules: swap jumping jacks for marching in place and keep the squats slow and quiet.",
+      "example": "Pull a 7 of hearts: 7 squats. Queen of diamonds: 10 push-ups. Ace of spades: 11 sit-ups. Keep flipping."
+    },
+    "chips": [
+      "Workouts with kids around",
+      "No equipment home workout",
+      "What is a ladder workout?"
+    ],
+    "related": [
+      "sh-a-018"
+    ]
+  },
+  {
+    "id": "sh-a-023",
+    "topic": "recovery-session",
+    "title": "Active recovery days that actually help",
+    "keys": [
+      "active recovery",
+      "active recovery day",
+      "what to do on an off day",
+      "light day workout",
+      "recovery workout",
+      "easy day",
+      "what is active recovery",
+      "recovery session",
+      "off day workout",
+      "something light on my day off",
+      "recovery cardio",
+      "light cardio day"
+    ],
+    "match": "\\b(active recovery|recovery (day|workout|session|cardio)|light (day|cardio day)|easy day workout|off day workout)\\b",
+    "body": [
+      "Active recovery is easy movement on a day off from hard training. Think 20 to 40 minutes at a pace where you could chat the whole time: a walk, an easy bike, a swim, some mobility work. You should finish feeling better than when you started, not tired.",
+      "Keep your heart rate low, roughly 50 to 65 percent of your max. If you're breathing hard, you're doing a workout, not recovery. A brisk walk outside plus 10 minutes of stretching is a perfect recovery day.",
+      "It's optional, and full rest is fine too. But plenty of people feel less stiff and sleep better when they move a little on their off days."
+    ],
+    "more": {
+      "why": "Light movement gets blood flowing and loosens stiff joints without adding fatigue. It also builds your aerobic base for free.",
+      "example": "30-minute walk, then 10 minutes of hip and shoulder mobility. Or 25 minutes on the bike at a pace where you could read a magazine.",
+      "mistake": "Turning recovery day into a secret HIIT day. If it feels like training, it is training."
+    },
+    "reads": [
+      "steps",
+      "sessions"
+    ],
+    "chips": [
+      "What is zone 2 cardio?",
+      "Is walking enough cardio?",
+      "How much cardio per week?"
+    ],
+    "related": [
+      "sh-a-025"
+    ]
+  },
+  {
+    "id": "sh-a-024",
+    "topic": "scheduling-sessions",
+    "title": "Training twice a day: when it makes sense",
+    "keys": [
+      "two a days",
+      "train twice a day",
+      "workout twice a day",
+      "two workouts a day",
+      "double session",
+      "lift in the morning and cardio at night",
+      "is it bad to work out twice a day",
+      "twice a day training",
+      "split cardio and weights",
+      "am and pm workouts",
+      "two sessions in one day"
+    ],
+    "match": "\\b(two[ -]a[ -]days?|(train|training|work ?out|workouts?|lift|exercise) twice (a|per) day|two (workouts|sessions) (a|per|in one) day|double sessions?|am and pm workouts?)\\b",
+    "body": [
+      "Twice a day can work, and it's a smart way to split lifting and cardio. Lift in the morning, do easy cardio in the evening (or flip it), and keep them 6 or more hours apart if you can.",
+      "The rule: only one of the two is hard. A heavy lift plus an evening walk or easy bike ride is great. Heavy legs in the morning and hill sprints at night is a recipe for being sore, slow and grumpy for three days.",
+      "For most people, one good session a day is plenty. Twice makes sense when your schedule only gives you two short windows, or when you're adding conditioning without making sessions long. Eat and sleep like it counts, because it does."
+    ],
+    "more": {
+      "why": "Separating lifting and cardio by several hours reduces how much they get in each other's way, and two short sessions are often easier to fit than one long one.",
+      "example": "7 am: 35-minute upper body lift. 6 pm: 30-minute zone 2 ride on the bike.",
+      "mistake": "Doing two hard sessions a day every day because more must be better. More is only better if you recover from it."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Cardio before or after lifting?",
+      "What is zone 2 cardio?",
+      "Will cardio kill my gains?"
+    ],
+    "related": [
+      "sh-a-023"
+    ]
+  },
+  {
+    "id": "sh-a-025",
+    "topic": "effort",
+    "title": "How hard should a workout feel",
+    "keys": [
+      "how hard should i work out",
+      "how hard should a workout feel",
+      "am i working hard enough",
+      "did i push hard enough",
+      "how intense should my workout be",
+      "rpe for cardio",
+      "effort scale",
+      "rate of perceived exertion",
+      "should i be exhausted after a workout",
+      "workout too easy",
+      "workout too hard",
+      "how tired should i be after a workout"
+    ],
+    "match": "\\b(how hard should (i|a workout|my workout|cardio)|(am i|was i) (working|pushing|training) hard enough|how (tired|exhausted) should i (be|feel)|perceived exertion|workout (feel|felt) too (easy|hard))\\b",
+    "body": [
+      "Not every session should leave you on the floor. Most good weeks look like this: most of your cardio easy (you can talk), one or two sessions hard (a few words between breaths), and lifting sets that end with 1 to 3 good reps still in the tank.",
+      "Use a 1 to 10 scale. Easy cardio is a 3 or 4 (full sentences), moderate is a 5 or 6 (short sentences), and hard intervals are a 7 to 9 (a word or two). A 10 is a true all-out sprint, and you only visit there for a few seconds at a time.",
+      "How you feel afterward matters too. Good tired is spent but could've done a bit more, and back to normal by tomorrow. Wrecked for days means you overcooked it."
+    ],
+    "more": {
+      "why": "Going hard all the time piles up fatigue faster than you recover. A mix of easy and hard lets you hit the hard days harder.",
+      "mistake": "Judging a session by how much you sweat or how sore you get. Sweat is weather. Soreness is novelty. Neither one is proof.",
+      "beginner": "Spend your first month mostly at a 5 to 7. Learn the moves and the feeling first; the 9s will come."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is zone 2 cardio?",
+      "How often should I do HIIT?",
+      "How do I pace a circuit?"
+    ],
+    "related": [
+      "sh-a-021",
+      "sh-a-023"
+    ]
+  }
+]

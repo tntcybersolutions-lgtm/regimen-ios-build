@@ -1,0 +1,965 @@
+[
+  {
+    "id": "sh-a-099",
+    "topic": "weekly-schedule",
+    "title": "A 3-day week that mixes lifting and conditioning",
+    "keys": [
+      "what is a 3 day week",
+      "3 day workout plan",
+      "3 day a week workout",
+      "three days a week training",
+      "3 day split",
+      "workout 3 times a week",
+      "3 day full body",
+      "only 3 days to train",
+      "best 3 day routine",
+      "3 day gym schedule",
+      "three day plan",
+      "lifting and cardio 3 days"
+    ],
+    "match": "\\b((3|three)[ -]days? (a |per )?week|(3|three)[ -]day (split|plan|routine|program|schedule|full body|week|workout)|(?<!run(ning)? )(3|three) times a week|only (3|three) days|lifting and cardio (3|three) days)\\b",
+    "body": [
+      "Three days a week is my favorite starting point, and honestly a great long-term plan for busy people. Do full body every session with a little conditioning attached, and walk on the days in between.",
+      "Day 1, strength focus: a squat, a push, a pull and a hinge, 3 sets each, plus a 5 minute finisher. Day 2, conditioning focus: a shorter strength circuit, then 15 to 20 minutes of intervals on the bike, rower or a run. Day 3, strength again with different variations, like lunges instead of squats and rows instead of pulldowns, plus 10 to 15 minutes of easy zone 2. Space them out, like Monday, Wednesday and Friday.",
+      "On the off days, walk. Twenty to forty minutes, easy, outside if you can. That's a complete week."
+    ],
+    "more": {
+      "why": "Full body three times a week hits every muscle often enough to grow and get stronger, and the conditioning pieces keep your engine improving without extra days.",
+      "how": "Keep each session to 45 to 60 minutes: 8 minute warm-up, 30 to 40 minutes of strength, 5 to 15 minutes of conditioning, then a short cool down.",
+      "example": "Monday: goblet squat, push-ups, rows, Romanian deadlift, then 5 minutes of bike sprints. Wednesday: a circuit plus 6 rounds of 1 minute hard rowing. Friday: lunges, overhead press, pulldowns, hip thrusts, then 15 minutes of easy incline walking.",
+      "beginner": "Start with 2 sets per exercise and the easiest conditioning option. Add the third set after 3 to 4 weeks.",
+      "mistake": "Doing all three sessions back to back on the weekend. Spread them out so you recover between them."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is a 4-day week?",
+      "What do I cut on a busy week?",
+      "How should I order my week?"
+    ],
+    "related": [
+      "sh-a-100",
+      "sh-a-104",
+      "sh-about-07"
+    ]
+  },
+  {
+    "id": "sh-a-100",
+    "topic": "weekly-schedule",
+    "title": "A 4-day week: upper, lower and conditioning",
+    "keys": [
+      "what is a 4 day week",
+      "4 day workout plan",
+      "4 day split",
+      "four days a week training",
+      "4 days a week",
+      "workout 4 times a week",
+      "upper lower split with cardio",
+      "4 day gym schedule",
+      "best 4 day routine",
+      "four day plan",
+      "lifting 4 days a week"
+    ],
+    "match": "\\b((4|four)[ -]days? (a |per )?week|(4|four)[ -]day (split|plan|routine|program|schedule|week|workout)|(?<!run(ning)? )(4|four) times a week|upper lower split with cardio)\\b",
+    "body": [
+      "Four days is the sweet spot for a lot of people who want strength and real conditioning. You get two upper and two lower sessions with conditioning tucked onto the end, and you still have three days to recover and live your life.",
+      "Here's how I'd run it. Monday lower: squats or leg press, Romanian deadlifts, lunges and core, then 10 minutes of easy bike. Tuesday upper: a press, a row, an overhead press and a pulldown, then 8 rounds of 20 seconds hard and 40 easy. Thursday lower: hip thrusts or deadlifts, split squats, leg curls and calves, then 10 minutes of zone 2. Friday upper: different press and row variations, then a 10 minute circuit or sled finisher.",
+      "Wednesday and the weekend: walk, play, recover. Or swap one weekend day for a longer easy cardio session if you want more engine."
+    ],
+    "more": {
+      "why": "Upper and lower splits give each muscle group two hard sessions a week with time to recover, and the short conditioning pieces keep your heart and lungs in the game.",
+      "how": "Keep the hard conditioning on upper days and the easy conditioning after lower days, so your legs don't get wrecked twice.",
+      "example": "Mon lower, Tue upper, Wed walk, Thu lower, Fri upper, Sat long walk or hike, Sun rest.",
+      "mistake": "Putting both lower days back to back. Space them so your legs get at least 48 hours.",
+      "short_on_time": "Tight week? Cut the conditioning to 5 minutes on two of the days, but keep the strength work."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is a 5-day week?",
+      "What is a 3-day week?",
+      "How should I order my week?"
+    ],
+    "related": [
+      "sh-a-099",
+      "sh-a-101",
+      "sh-a-104"
+    ]
+  },
+  {
+    "id": "sh-a-101",
+    "topic": "weekly-schedule",
+    "title": "A 5-day week without burning out",
+    "keys": [
+      "what is a 5 day week",
+      "5 day workout plan",
+      "5 day split",
+      "five days a week training",
+      "5 days a week",
+      "workout 5 times a week",
+      "5 day gym schedule",
+      "best 5 day routine",
+      "five day plan",
+      "training 5 days a week",
+      "is 5 days a week too much"
+    ],
+    "match": "\\b((5|five)[ -]days? (a |per )?week|(5|five)[ -]day (split|plan|routine|program|schedule|week|workout)|(?<!run(ning)? )(5|five) times a week)\\b",
+    "body": [
+      "Five days works great if you love training and your life has room for it. The secret is that not all five days are hard. Three or four are real training days, and one or two are lighter conditioning days.",
+      "My template: Monday, lower body strength. Tuesday, upper body strength plus 10 minutes of easy cardio. Wednesday, zone 2 for 30 to 45 minutes, nothing fancy. Thursday, lower body with different variations. Friday, upper body plus an interval finisher. Weekend: one day of walking or play, one full rest day.",
+      "If you start dragging, your sleep slips, or your lifts stall for a few weeks, five may be too many for this season of life. Drop to four and watch what happens."
+    ],
+    "more": {
+      "why": "More days lets each session be shorter and more focused, but only if recovery keeps up. The easy days protect the hard ones.",
+      "how": "Rate every session's effort from 1 to 10. Most weeks you want two or three days at 7 or 8 and the rest around 4 to 6.",
+      "example": "Mon lower 50 minutes, Tue upper 45 plus 10 minutes easy bike, Wed 40 minutes zone 2 rowing, Thu lower 50, Fri upper 40 plus 6 rounds of 30 second sprints.",
+      "mistake": "Turning all five into max effort days because you feel amazing in week one. That feeling runs out around week four.",
+      "beginner": "New to training? Start with three. Earn five by staying consistent for a few months first."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is a 4-day week?",
+      "When should I take rest days?",
+      "Is training 6 days a week too much?"
+    ],
+    "related": [
+      "sh-a-100",
+      "sh-a-102",
+      "sh-a-110"
+    ]
+  },
+  {
+    "id": "sh-a-102",
+    "topic": "weekly-schedule",
+    "title": "Training 6 or 7 days a week: too much?",
+    "keys": [
+      "is training 6 days a week too much",
+      "6 days a week",
+      "working out every day",
+      "can i work out every day",
+      "7 days a week training",
+      "train every day",
+      "is it bad to work out every day",
+      "gym every day",
+      "6 day split",
+      "do i need rest days",
+      "no rest days",
+      "workout daily"
+    ],
+    "match": "\\b((6|7|six|seven)[ -]days? (a |per )?week|(6|six)[ -]day split|work(ing)? ?out every ?day|train(ing)? every ?day(?! for)|gym every ?day|no rest days|do i need rest days|workout daily)\\b",
+    "body": [
+      "Moving every day? Great. Training hard every day? That's where people get into trouble. Your body gets fitter during the recovery after the work, so seven hard days in a row usually means seven medium sessions and one tired person.",
+      "If you love daily movement, make it a mix: 3 to 4 harder strength or interval days, 1 to 2 easy days like zone 2, walking, mobility or a light swim, and at least one day that's truly easy or off. Hitting the same muscle group hard? Give it about 48 hours before you hit it hard again.",
+      "Signs you need more rest: sleep getting worse, resting heart rate creeping up, lifts going backward for a couple of weeks, soreness that never leaves, and dreading every session. Those mean take two easy days, then come back."
+    ],
+    "more": {
+      "why": "Training is the stress, recovery is the adaptation. Without enough of the second, the first stops paying off.",
+      "how": "Label each day hard, easy or off before the week starts. Never put three hard days in a row.",
+      "example": "Mon hard lower, Tue easy walk and mobility, Wed hard upper, Thu zone 2, Fri hard full body, Sat a fun hike or class, Sun off.",
+      "mistake": "Treating rest days like failures. They're part of the plan, not a break from it.",
+      "advanced": "Experienced lifters can train 6 days with a split, but even then the effort is spread out and at least one day stays light."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "When should I take rest days?",
+      "Active recovery days?",
+      "What is a 5-day week?"
+    ],
+    "related": [
+      "sh-a-110",
+      "sh-a-023",
+      "sh-a-101"
+    ]
+  },
+  {
+    "id": "sh-a-103",
+    "topic": "weekly-schedule",
+    "title": "Only 2 days a week: making them count",
+    "keys": [
+      "what is a 2 day week",
+      "only 2 days a week to train",
+      "2 day workout plan",
+      "two days a week",
+      "is 2 days a week enough",
+      "workout twice a week",
+      "2 day full body",
+      "minimum workouts per week",
+      "least amount of exercise",
+      "only have 2 days",
+      "two day plan"
+    ],
+    "match": "\\b((2|two)[ -]days? (a |per )?week|(2|two)[ -]day (plan|routine|program|full body|workout|split|week)|(work ?out|train(ing)?|lift(ing)?) twice a week|minimum (workouts?|sessions?) (a|per) week|least amount of exercise|only have (2|two) days)\\b",
+    "body": [
+      "Two days a week is absolutely enough to get stronger and fitter, especially when you're starting out or life is packed. It's not a lesser plan. It's a plan that fits.",
+      "Make both days full body and pair your moves. Each session: a squat or lunge, a hinge, a push, a pull, and a carry or core move, 3 sets of 6 to 12 reps with the last couple of reps tough. Then 8 to 10 minutes of conditioning, like intervals on a bike or a quick circuit. Put the days at least two days apart, like Tuesday and Saturday.",
+      "Then fill the gaps with walking. Daily steps plus two solid sessions covers strength, conditioning and general health better than five sessions you keep skipping."
+    ],
+    "more": {
+      "why": "Each muscle getting a few hard sets twice a week is enough for steady progress, especially in your first year.",
+      "how": "Keep each session under 60 minutes: warm-up 8, strength 40, conditioning 10, cool down 2.",
+      "example": "Tuesday: goblet squats, Romanian deadlifts, push-ups, rows, farmer's carry, then 8 rounds of 20 seconds hard and 40 easy on the bike. Saturday: split squats, hip thrusts, dumbbell press, pulldowns, plank, then a 10 minute row.",
+      "mistake": "Skipping the second session because one seems pointless. Two is where the magic starts.",
+      "beginner": "Two days is a perfect start. Once it feels automatic for a couple of months, add a short third day if you want one."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "What is a 3-day week?",
+      "Is walking enough cardio?"
+    ],
+    "related": [
+      "sh-a-099",
+      "sh-a-044",
+      "sh-b-028"
+    ]
+  },
+  {
+    "id": "sh-a-104",
+    "topic": "weekly-schedule",
+    "title": "How to order your week: hard days, easy days and cardio",
+    "keys": [
+      "how should i order my week",
+      "what order should my workouts be",
+      "where do i put cardio in my week",
+      "how to arrange my training week",
+      "weekly workout schedule",
+      "how to schedule workouts in a week",
+      "hard and easy days",
+      "which days should i lift",
+      "which days should i do cardio",
+      "structure my week",
+      "weekly training plan",
+      "how to arrange workouts across the week"
+    ],
+    "match": "\\b(order (of )?my (week|workouts)|what order should my workouts|where (do|should) i put (cardio|conditioning|intervals)|weekly (workout|training) (schedule|plan)|schedule (my )?workouts in a week|hard (and )?easy days|which days should i (lift|do cardio|run|rest)|structure my week|arrange (my )?(workouts|training) (across the|my) week)\\b",
+    "body": [
+      "Here's my rule for building any week: hard days hard, easy days easy, and never three hard days in a row. Plan the important stuff first, then fill in around it.",
+      "Step one: place your strength sessions, with at least a day between sessions that hit the same muscles. Step two: place your hardest conditioning, like intervals or sprints, anywhere except the day before heavy legs. Step three: put easy cardio like zone 2 or walking after hard days, since it helps you recover. Step four: put your rest day after your hardest day, or on your busiest day, or both.",
+      "And plan around your real calendar. If Wednesday is always chaos, Wednesday is a walk day. A week that fits your life beats a perfect week on paper."
+    ],
+    "more": {
+      "why": "Fatigue from one session carries into the next. Ordering hard and easy days lets every hard session be a quality one.",
+      "how": "On Sunday, look at your calendar, mark your busiest day as rest or walk, then slot the hardest sessions where you have the most time and energy.",
+      "example": "Mon lower, Tue easy zone 2, Wed upper plus intervals, Thu rest, Fri full body, Sat long walk or hike, Sun easy mobility.",
+      "mistake": "Intervals the day before a heavy leg session. Your legs won't have anything left for squats.",
+      "beginner": "Start simple: strength, off, strength, off, strength, off, walk. Adjust from there."
+    },
+    "chips": [
+      "What is a 3-day week?",
+      "Cardio before or after lifting?",
+      "How do I plan my week on Sunday?"
+    ],
+    "related": [
+      "sh-a-099",
+      "sh-a-100",
+      "sh-a-111",
+      "sh-a-042"
+    ]
+  },
+  {
+    "id": "sh-a-105",
+    "topic": "training-time",
+    "title": "Morning or evening workouts: which is better",
+    "keys": [
+      "morning or evening workouts",
+      "best time to work out",
+      "should i work out in the morning",
+      "morning workout vs evening",
+      "is it better to train at night",
+      "best time of day to exercise",
+      "working out at night",
+      "morning workouts",
+      "evening workouts",
+      "does time of day matter for working out",
+      "late night gym",
+      "is 5am better than 6pm"
+    ],
+    "match": "\\b((morning|evening|night|am|pm) (workouts? )?(or|vs|versus) (evening|morning|night|am|pm)|best time (of day )?to (work ?out|exercise|train|lift|run)|work(ing)? ?out (in the morning|at night|late at night)|train at night|(?<!for )(morning|evening) workouts|late night gym|does time of day matter)\\b",
+    "body": [
+      "The best time to train is the time you'll actually show up for. That's not a cop-out, it's the biggest factor there is. A workout at 6 p.m. beats a perfect 5 a.m. plan you snooze through.",
+      "That said, there are small differences. Many people feel a little stronger and looser later in the day, when body temperature is higher. Mornings win for consistency, because meetings, kids and fatigue haven't hijacked the day yet. Training early? Give yourself a longer warm-up. Training at night? Try to finish hard sessions a couple of hours before bed, since late intense work keeps some people wired.",
+      "Pick one time slot and stick with it for a month. Your body adapts to a routine, and so does your brain."
+    ],
+    "more": {
+      "why": "Consistency drives results far more than timing does. Training at a regular time also builds the habit faster.",
+      "how": "Look at the last two weeks: which sessions actually happened? Whatever time those were, that's your slot.",
+      "example": "Morning person: alarm, water, out the door by 5:45, train at 6, done by 7. Evening person: gym bag in the car, straight from work at 5:30, home by 7.",
+      "mistake": "Switching times every week depending on mood. Let the time be a decision you already made.",
+      "beginner": "New to this? Mornings remove the excuses that pile up during the day. Try it for two weeks and see how it feels."
+    },
+    "chips": [
+      "Lunch break workouts?",
+      "Waking up early for the gym?",
+      "Heading to the gym after work?"
+    ],
+    "related": [
+      "sh-b-098",
+      "sh-b-100",
+      "sh-a-106"
+    ]
+  },
+  {
+    "id": "sh-a-106",
+    "topic": "training-time",
+    "title": "Lunch break workouts that fit in 45 minutes",
+    "keys": [
+      "lunch break workouts",
+      "lunch workout",
+      "workout on my lunch break",
+      "gym at lunch",
+      "30 minute lunch workout",
+      "midday workout",
+      "workout during the work day",
+      "quick lunch gym session",
+      "lunch hour workout",
+      "workout at lunch without sweating",
+      "office workout",
+      "exercise during lunch"
+    ],
+    "match": "\\b(lunch (break |hour |time )?(workouts?|gym|session|run)|work ?out (on|during|at) (my )?lunch( break)?|gym at lunch|midday workouts?|exercise during lunch|(workout|exercise|train) during (the |my )?work ?day|office workouts?)\\b",
+    "body": [
+      "Lunch workouts are sneaky powerful. You skip the evening crowd, break up a long day of sitting, and come back to your desk sharper. You just need a plan, because 45 minutes goes fast once you count changing and cleaning up.",
+      "Budget it: 5 minutes to get there and change, 25 to 30 minutes of training, 10 minutes to cool off, clean up and grab food. For the training, use supersets or a circuit with a 4 minute warm-up. Don't want to get too sweaty? Make it a strength day with longer rests, or an incline walk, and save hard intervals for after work.",
+      "Pack lunch the night before so you're not choosing between food and fitness. Eat at your desk after, and you've turned one hour into a workout and a meal."
+    ],
+    "more": {
+      "why": "A midday session breaks up sitting time and can lift your energy for the afternoon. It also protects your evenings for family and rest.",
+      "how": "Keep a gym bag at work with a towel, deodorant, wipes and a spare shirt. Fewer barriers, more sessions.",
+      "example": "A1 goblet squat 10, A2 row 10, B1 push-ups 12, B2 Romanian deadlift 10, 3 rounds each with 60 seconds rest. Then 5 minutes of easy bike to cool down.",
+      "short_on_time": "Only 20 minutes? A brisk outdoor walk with a few faster stretches mixed in. That counts as a session.",
+      "mistake": "An all-out HIIT session followed by an afternoon of sweating through meetings. Save the big sweat for after work."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Give me a 20 minute workout",
+      "Morning or evening workouts?"
+    ],
+    "related": [
+      "sh-a-009",
+      "sh-a-105",
+      "sh-a-003"
+    ]
+  },
+  {
+    "id": "sh-a-107",
+    "topic": "life-schedule",
+    "title": "Training around kids, family and a full house",
+    "keys": [
+      "training around kids and family",
+      "no time to work out with kids",
+      "busy parent workout schedule",
+      "how do parents find time to work out",
+      "working out as a parent",
+      "new parent workout",
+      "family schedule workouts",
+      "mom with no time to exercise",
+      "dad with no time for the gym",
+      "single parent workout time",
+      "fit training into family life"
+    ],
+    "match": "\\b(training around (kids|family)|no time (to work ?out|for the gym|to exercise) with (kids|a baby|a family)|busy (parents?|moms?|dads?)|(new|single|working) (parents?|moms?|dads?)|(how do|as a) parents? (find time|work ?out)|working out as a (parent|mom|dad)|(moms?|dads?) with no time|family (schedule|life))\\b",
+    "body": [
+      "Parenting is a full-time job with overtime, so your training has to fit in the cracks. And it can. The goal isn't the plan you had before kids, it's a plan that respects the life you have now.",
+      "What works for busy parents: two or three sessions of 20 to 30 minutes at the same times each week. Early mornings before the house wakes up, nap time, lunch break or after bedtime. Trade off with a partner, so one trains while the other has the kids, then swap. Bring the kids along for walks, bike rides and playground sessions. And count active family time, because chasing a toddler around a park absolutely counts.",
+      "Some weeks will be messy. Never miss twice, keep the minimum small, and give yourself grace. You're modeling a healthy habit for little people who are watching."
+    ],
+    "more": {
+      "why": "Short, scheduled sessions survive chaos better than long someday sessions. Regular beats long when time is tight.",
+      "how": "Sit down with your partner or your calendar on Sunday and claim two or three 30 minute slots. Write them down like appointments.",
+      "example": "Mon 5:45 a.m. 25 minute circuit, Wed lunch break gym session, Sat morning family hike plus a 20 minute bodyweight workout while the kids play.",
+      "mistake": "Waiting for the kids to get older. Ten minutes now beats a perfect hour that never comes.",
+      "home": "Keep a pair of dumbbells or a kettlebell at home. A 20 minute session after bedtime needs zero commute."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Workouts with kids around",
+      "What is never miss twice?",
+      "Busy week, what do I cut first?"
+    ],
+    "related": [
+      "sh-a-098",
+      "sh-b-027",
+      "sh-a-112",
+      "sh-b-044"
+    ]
+  },
+  {
+    "id": "sh-a-108",
+    "topic": "life-schedule",
+    "title": "Training when you work shifts or nights",
+    "keys": [
+      "shift work workout schedule",
+      "night shift workout",
+      "working nights and the gym",
+      "when to work out on night shift",
+      "nurse shift workout",
+      "12 hour shifts workout",
+      "rotating shifts training",
+      "work out after night shift",
+      "training on night shift",
+      "swing shift gym",
+      "overnight shift exercise"
+    ],
+    "match": "\\b((night|swing|rotating|overnight|graveyard) shifts?|shift work|(12|twelve)[ -]hour shifts?|after (a |my )?(night )?shift|working nights|nurse shift)\\b",
+    "body": [
+      "Shift work is tough on routines, so we anchor training to your shifts, not the clock. Whether your morning is 6 a.m. or 6 p.m., the idea is the same: train after you've woken up and eaten something, not right before you're desperate for sleep.",
+      "During long stretches, like three 12 hour shifts in a row, keep training light or skip it and focus on sleep and walking. Put your main sessions on your days off: two or three full body sessions of 30 to 45 minutes with a little conditioning. On rotating schedules, plan the week once you see the roster, and accept that the days will move.",
+      "Sleep is your number one recovery tool, and shift work steals it. Protect your sleep window with a dark, cool room, and never let a hard session eat into it. Shorter training beats shorter sleep."
+    ],
+    "more": {
+      "why": "Hard training right before you need to sleep can leave you wired, and training hard while sleep deprived feels awful and recovers poorly.",
+      "how": "Write out your shift calendar first, then mark training on days off and on the first day of a stretch when you're freshest.",
+      "example": "Three nights on, four off: day off 1 sleep and walk, day off 2 full body strength, day off 3 intervals plus mobility, day off 4 full body strength.",
+      "mistake": "Forcing a heavy session after a brutal overnight shift. Walk, eat, sleep. Train tomorrow.",
+      "short_on_time": "On shift days, 10 minutes of bodyweight moves or a brisk walk before work keeps the habit alive."
+    },
+    "chips": [
+      "What is a 2-day week?",
+      "What counts as a session?",
+      "Too tired to train today?"
+    ],
+    "related": [
+      "sh-a-103",
+      "sh-b-028",
+      "sh-b-002"
+    ]
+  },
+  {
+    "id": "sh-a-109",
+    "topic": "life-schedule",
+    "title": "Only free on weekends: the weekend warrior plan",
+    "keys": [
+      "only free on weekends",
+      "weekend warrior",
+      "weekend only workouts",
+      "can i only work out on weekends",
+      "saturday and sunday workouts",
+      "work out on weekends only",
+      "weekend gym plan",
+      "busy weekdays no time",
+      "train only on the weekend",
+      "two days in a row on the weekend"
+    ],
+    "match": "\\b(weekend (warriors?|only|gym plan|workouts?)|only (free|train|work ?out) on (the )?weekends?|(work ?out|train(ing)?) (on )?weekends only|saturday and sunday (workouts?|training)|busy weekdays)\\b",
+    "body": [
+      "Weekends only? You can still make real progress. Research on weekend warriors suggests that fitting your activity into one or two days a week can bring many of the same health benefits as spreading it out, as long as the total is there. We just need to set it up so you recover between back to back days.",
+      "Saturday is the big session: full body strength for 45 to 60 minutes plus a short interval finisher. Sunday is a different stress: lighter full body or upper body, then 30 to 45 minutes of zone 2 like a hike, bike ride or long walk. During the week, sneak in what you can: walks, stairs, and a 10 minute bodyweight circuit once or twice.",
+      "Warm up longer on Saturdays since you've probably been sitting all week, and don't try to cram a whole week of intensity into two days."
+    ],
+    "more": {
+      "why": "Total weekly activity matters most for health and fitness. Two well planned days plus daily movement covers a lot of ground.",
+      "how": "Make Saturday hard and Sunday easier, so you start Monday feeling good instead of limping.",
+      "example": "Saturday: squats, push-ups, rows, Romanian deadlifts and lunges, then 6 rounds of 30 second bike sprints. Sunday: dumbbell press, pulldowns and core, then a 45 minute hike.",
+      "mistake": "Max effort both days after five days of sitting. That's how weekend warriors become weekday limpers.",
+      "short_on_time": "Weeknights, 10 minutes: 3 rounds of 10 squats, 10 push-ups and a 30 second plank. Keeps the habit alive between weekends."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "What is a 2-day week?",
+      "Is walking enough cardio?"
+    ],
+    "related": [
+      "sh-a-103",
+      "sh-a-044"
+    ]
+  },
+  {
+    "id": "sh-a-110",
+    "topic": "rest-days",
+    "title": "When to schedule rest days in your week",
+    "keys": [
+      "when should i take rest days",
+      "how many rest days a week",
+      "rest day schedule",
+      "where to put rest days",
+      "how often should i rest",
+      "rest days per week",
+      "should i rest after leg day",
+      "best day for a rest day",
+      "when to rest from working out",
+      "rest day placement",
+      "how many days off from the gym"
+    ],
+    "match": "\\b(when (should|do) i (take|have) (a )?rest days?|how many rest days|rest days? (schedule|placement|per week)|where (to|do i|should i) put (my )?rest days?|how often should i rest|best day for (a )?rest day|how many days off|should i rest after leg day|when to rest from)\\b",
+    "body": [
+      "Most people do best with one or two full rest days a week, plus a couple of easy days. Beginners usually want two or three days off from hard training, since everything is new and soreness hits harder.",
+      "Where to put them: right after your hardest session, on your busiest day of the week, or both. A common pattern is strength, strength, rest, strength, strength, easy cardio, rest. If you train three days a week, every day between sessions is a rest or walk day, which is perfect.",
+      "Rest doesn't mean the couch all day. Walks, easy stretching, a light bike ride or playing with your kids all count as rest from training. The rule is simple: nothing that leaves you more tired tomorrow."
+    ],
+    "more": {
+      "why": "Your muscles, joints and nervous system rebuild between sessions. Planned rest keeps you training well for months instead of grinding down in weeks.",
+      "how": "Before the week starts, mark the rest days first, then place hard sessions around them.",
+      "example": "Four-day lifter: Mon lower, Tue upper, Wed rest or walk, Thu lower, Fri upper, Sat easy hike, Sun rest.",
+      "mistake": "Skipping rest days because you feel guilty. Rest is part of the plan, not a day off from it.",
+      "beginner": "Start with a day off between every training day. Your body will thank you by day four."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Active recovery days?",
+      "Is training 6 days a week too much?",
+      "What is a 4-day week?"
+    ],
+    "related": [
+      "sh-a-023",
+      "sh-a-102",
+      "sh-about-08"
+    ]
+  },
+  {
+    "id": "sh-a-111",
+    "topic": "weekly-planning",
+    "title": "Planning your training week on Sunday",
+    "keys": [
+      "how do i plan my week on sunday",
+      "plan my week",
+      "weekly planning",
+      "sunday planning",
+      "plan my workouts for the week",
+      "how to plan workouts ahead",
+      "weekly workout planning",
+      "schedule next week",
+      "plan the week ahead",
+      "how to plan my training"
+    ],
+    "match": "\\b(plan (my|the|your|next) week|plan the week ahead|weekly (workout )?planning|sunday planning|plan (my|your) workouts (for the week|ahead)|how (do i|to) plan (my )?(week|workouts|training)|plan workouts ahead|schedule next week|plan(ning)? on sunday)\\b",
+    "body": [
+      "Ten minutes on Sunday saves you seven days of what am I doing today. This is the habit that makes everything else easier, and I'm a little obsessed with it.",
+      "My Sunday routine. One: open your calendar and look at the week's real life, like work, kids, events and travel. Two: pick your training days and times and put them in like appointments. Three: decide what each session is, even just upper, lower, intervals or walk. Four: choose your minimum for the busy days, like a 15 minute circuit. Five: prep the stuff: gym bag packed, shoes by the door, playlist ready.",
+      "Then glance back at last week before you plan the next one: what happened, what didn't, and one thing to do better. Plan from what's true, not from what you wish was true."
+    ],
+    "more": {
+      "why": "Decisions made ahead remove friction. When the plan already exists, showing up is just following instructions you wrote yourself.",
+      "how": "Same time every Sunday, like with your coffee or right after dinner. Pair it with something you already do.",
+      "example": "Sunday 7 p.m.: Monday 6 a.m. lower body, Tuesday lunch walk, Wednesday 6 a.m. upper plus intervals, Thursday off for a work dinner, Friday 5:30 p.m. full body, Saturday hike with friends.",
+      "mistake": "Planning six perfect sessions in a week with three free evenings. Plan the week you actually have.",
+      "short_on_time": "Two minute version: three training days in the calendar and one backup slot. Done."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "How do I review my week?",
+      "How should I order my week?",
+      "Set one goal for next week"
+    ],
+    "related": [
+      "sh-a-121",
+      "sh-a-104",
+      "sh-b-030",
+      "sh-b-029"
+    ]
+  },
+  {
+    "id": "sh-a-112",
+    "topic": "busy-weeks",
+    "title": "Busy week: what to cut first and what to keep",
+    "keys": [
+      "busy week what do i cut first",
+      "what do i cut on a busy week",
+      "busy week workout plan",
+      "no time this week",
+      "crazy week at work",
+      "how to train on a busy week",
+      "too busy to work out",
+      "hectic week",
+      "busy week training",
+      "short on time all week",
+      "minimum workout week",
+      "slammed at work"
+    ],
+    "match": "\\b(busy week|(what|which) (do i|should i|to) cut (first )?(on|during|this) (a )?busy|no time this week|crazy (week|month)|hectic (week|schedule)|too busy to (work ?out|train|exercise|go to the gym)|slammed (at|with) work|short on time all week|minimum (workout )?week)\\b",
+    "body": [
+      "Busy week? We don't quit, we shrink. Cut the extras first and protect the core. The goal this week is keeping the habit alive, not setting records.",
+      "Cut in this order: first the extras, like arm work, long warm-up add-ons and bonus cardio. Then shorten sessions to 20 to 30 minutes with supersets. Then drop to two sessions. What I protect no matter what: two short strength sessions that hit the whole body, daily walking, and sleep. Sleep is the last thing you cut, because everything else gets worse without it.",
+      "If even that is too much, do the minimum: 10 to 15 minutes, a few hard sets, done. Log it and give yourself full credit. Next week, you rebuild."
+    ],
+    "more": {
+      "why": "Strength and fitness hold up well through short, lighter weeks as long as some hard sets stay in. The habit is harder to rebuild than the muscle.",
+      "how": "Pick your two most important moves and do just those, 3 hard sets each, plus a walk.",
+      "example": "Busy week plan: Tuesday a 25 minute full body superset session, Friday a 20 minute circuit, and a walk every day you can. Done.",
+      "mistake": "Skipping everything because you can't do the full plan. Something small beats nothing every single time.",
+      "short_on_time": "The 12 minute rescue: 4 rounds of 8 goblet squats, 8 push-ups and 8 rows, with 30 seconds of rest between rounds."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "What is never miss twice?",
+      "Give me a 20 minute workout"
+    ],
+    "related": [
+      "sh-a-011",
+      "sh-b-028",
+      "sh-b-049",
+      "sh-a-113"
+    ]
+  },
+  {
+    "id": "sh-a-113",
+    "topic": "busy-weeks",
+    "title": "Staying consistent when life gets loud",
+    "keys": [
+      "how to stay consistent when life is busy",
+      "staying consistent on busy weeks",
+      "how to be consistent when life is chaos",
+      "consistency on busy weeks",
+      "i cant stay consistent",
+      "i always fall off",
+      "i keep falling off when life gets busy",
+      "inconsistent with the gym",
+      "keep falling off track",
+      "life gets in the way",
+      "how to stick with working out",
+      "stay on track when life is busy"
+    ],
+    "match": "\\b((stay|staying|be|being) consistent (when|on|during) (life|busy|a busy)|consistency (on|during|when)|(cant|can't|cannot) stay consistent|always falling off|(always )?fall(ing)? off (track|the wagon)|i always fall off(?! after)|inconsistent with|life gets in the way|stick with (working out|the gym|training)|stay on track when)\\b",
+    "body": [
+      "Consistency isn't never missing. It's coming back fast. Everybody falls off sometimes: work blows up, kids get sick, life gets loud. The people who make progress are the ones who shrink the plan instead of dropping it.",
+      "Set three levels for your week. Full week: your normal plan. Busy week: two sessions of 20 to 30 minutes plus walking. Survival week: one 15 minute session and daily walks. Decide ahead of time which level fits the week, and hitting that level counts as a win. That's the trick: you're never failing, you're choosing the version that fits.",
+      "Then track it. A simple calendar with a mark for every session shows you the pattern over months, and the pattern is where results come from. One messy week inside a year of showing up is nothing."
+    ],
+    "more": {
+      "why": "Results come from the total of months, not the perfection of a single week. A smaller plan you keep beats a bigger plan you abandon.",
+      "how": "Write your full, busy and survival plans in your phone notes today. When life hits, you just pick a level.",
+      "example": "Over 12 weeks: 7 full weeks, 4 busy weeks, 1 survival week. That's a great quarter, and nobody would call it perfect.",
+      "mistake": "Treating one missed session like the whole plan is ruined. Never miss twice, and keep going.",
+      "beginner": "In your first months, make the busy week level your normal. Build up once it feels automatic."
+    },
+    "reads": [
+      "streak",
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "Busy week, what do I cut first?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-a-112",
+      "sh-b-027",
+      "sh-b-024"
+    ]
+  },
+  {
+    "id": "sh-a-114",
+    "topic": "busy-weeks",
+    "title": "Staying on track through the end of year rush",
+    "keys": [
+      "workouts in december",
+      "staying fit in december",
+      "end of year training",
+      "thanksgiving to new year workouts",
+      "christmas workouts",
+      "family visiting no time to work out",
+      "party season",
+      "how to keep training in december",
+      "winter break workouts",
+      "december gym plan",
+      "new year reset"
+    ],
+    "match": "\\b((work ?outs?|training|gym|fit) (in|during|through) december|december (gym|training|workouts?)|end of (the )?year (rush|training)|thanksgiving to new year|(christmas|thanksgiving) workouts?|party season|winter break workouts?|family (is )?visiting|new year reset)\\b",
+    "body": [
+      "The end of the year is loud: parties, travel, family in town, kids out of school, and a calendar that looks like a game of Tetris. This isn't the season for PRs. It's the season for keeping the lights on.",
+      "My plan: decide right now what your minimum looks like for those weeks, like two 25 minute sessions plus a daily walk. Train early in the day before the plans start. Invite family on a walk or a hike, or turn the morning into a group workout in the living room. Traveling? Use a hotel room workout. And keep going on the quiet days in between, when gyms are empty and you can actually get a squat rack.",
+      "Then on January 1, you're not starting over. You're just turning the dial back up. That's a huge head start."
+    ],
+    "more": {
+      "why": "People who keep a minimum through busy seasons skip the painful restart. Coming back from two lighter weeks is easy, coming back from six weeks off is not.",
+      "how": "Put your minimum sessions in the calendar before the invitations arrive. First come, first served.",
+      "example": "December plan: Monday and Thursday 25 minute full body sessions, a walk after every big meal, and one family hike on the weekend.",
+      "mistake": "Writing off the whole month because one week was chaotic. Every week is its own fresh start.",
+      "home": "Visiting family? Ten minutes of squats, push-ups and lunges in the guest room before breakfast counts."
+    },
+    "chips": [
+      "Hotel room workout?",
+      "Busy week, what do I cut first?",
+      "What counts as a session?"
+    ],
+    "related": [
+      "sh-a-112",
+      "sh-a-094",
+      "sh-b-018"
+    ]
+  },
+  {
+    "id": "sh-a-115",
+    "topic": "life-schedule",
+    "title": "Fitting gym training around a sport or rec league",
+    "keys": [
+      "rec league and the gym",
+      "how to train around a sport",
+      "playing sports and lifting",
+      "pickleball and gym",
+      "soccer and lifting",
+      "basketball and working out",
+      "training during the season",
+      "lifting in season",
+      "gym schedule around games",
+      "softball league training",
+      "sports and weight training schedule"
+    ],
+    "match": "\\b(rec league and|(around|during) (a |my )?rec league|(train|training|lift(ing)?|gym( schedule)?) (around|during) (a |my |the )?(sport|season|games?)|lifting in season|in[ -]season (training|lifting)|playing sports and (lifting|the gym|working out)|(pickleball|soccer|basketball|tennis|softball|hockey) and (the )?(gym|lifting|working out)|softball league|sports and weight training)\\b",
+    "body": [
+      "Love that you play. Sports are conditioning with a scoreboard. During the season, the gym's job is to keep you strong, fresh and hard to injure, not to wear you out before game day.",
+      "In season: two short strength sessions a week, 30 to 45 minutes, full body, moderate weights, leaving 2 to 3 reps in the tank. Put the harder one at least 48 hours before a game, and the lighter one a day or two after. Skip extra hard conditioning, since games and practices cover it. Add some jumping, landing and single leg work to keep your joints ready for cutting and jumping.",
+      "The off season is when you build: three to four sessions, more strength, more conditioning, a little speed and agility. Then you show up to the first game ready instead of getting ready during it."
+    ],
+    "more": {
+      "why": "Strength training helps keep you healthy and keeps your speed and power up through a long season, as long as it doesn't leave you sore on game day.",
+      "how": "Count games and practices as your conditioning days. Lift on days with no game or the day after a game, never the day before.",
+      "example": "Thursday league night: Monday full body strength, Wednesday easy mobility and a walk, Thursday game, Saturday lighter full body plus a few jumps.",
+      "mistake": "Leg day the morning before a game. Your first sprint will feel like running in sand.",
+      "beginner": "New to lifting during a sport? Start with one session a week and keep everything at a moderate effort."
+    },
+    "chips": [
+      "How do I land a jump safely?",
+      "How do I train like an athlete?"
+    ],
+    "related": [
+      "sh-a-085",
+      "sh-a-078",
+      "sh-a-104"
+    ]
+  },
+  {
+    "id": "sh-a-116",
+    "topic": "weekly-schedule",
+    "title": "Fitting group classes into your training week",
+    "keys": [
+      "group classes and lifting",
+      "how many classes a week",
+      "can i do classes and lift",
+      "spin class and weights",
+      "how to combine classes with the gym",
+      "bootcamp and lifting",
+      "too many classes",
+      "should i do classes every day",
+      "hiit classes and lifting",
+      "yoga and lifting schedule",
+      "group fitness and weight training"
+    ],
+    "match": "\\b(classes (and|with) (lifting|weights|weight training|the gym|my training)|classes and lift|class and (weights|lifting)|how many classes (a|per) week|(spin|hiit|bootcamp|yoga|pilates|barre|group fitness) (class(es)? )?and (lifting|weights|weight training)|combine classes|too many classes|classes every day)\\b",
+    "body": [
+      "Classes are my roots, so I'm all for them. The trick is knowing what each class does to your week. A spin or HIIT class is a hard conditioning day. A bootcamp is usually a hard full body day. Yoga or a mobility class is an easy day. Plan them like any other session.",
+      "A great mix: 2 to 3 strength sessions of your own, 1 to 2 hard classes, and 1 easy class or walk. Keep hard classes off the day before your heavy leg session, and don't stack a HIIT class on a lifting day unless the lifting was upper body or light. If you love classes and go five days a week, make sure at least two of them are the easier kind.",
+      "And bring the class energy into your solo sessions too. Same playlist, same timer, same yell at the end."
+    ],
+    "more": {
+      "why": "Hard classes and hard lifting draw from the same recovery budget. Treating classes as real sessions keeps the week balanced.",
+      "how": "Write your class schedule into your week first, label each class hard or easy, then fill strength days around it.",
+      "example": "Mon lower body strength, Tue spin class, Wed upper body strength, Thu yoga, Fri full body strength, Sat bootcamp, Sun rest.",
+      "mistake": "Five HIIT classes a week plus lifting, then wondering why everything feels heavy. Hard needs easy beside it.",
+      "beginner": "New to classes? Start with two a week, stand wherever you feel comfortable, and take every modification offered. Corrected, not embarrassed."
+    },
+    "chips": [
+      "Group class etiquette?",
+      "How often should I do HIIT?",
+      "What is a 4-day week?"
+    ],
+    "related": [
+      "sh-b-073",
+      "sh-a-030",
+      "sh-a-104"
+    ]
+  },
+  {
+    "id": "sh-a-117",
+    "topic": "conditioning-progression",
+    "title": "Progressing your conditioning week to week",
+    "keys": [
+      "how to progress cardio",
+      "progress my conditioning",
+      "cardio progression",
+      "how to improve my cardio over time",
+      "make cardio harder each week",
+      "conditioning plan",
+      "how do i improve my endurance",
+      "build my endurance week by week",
+      "increase my stamina",
+      "get better cardio",
+      "cardio getting easy",
+      "improve my stamina"
+    ],
+    "match": "\\b(progress(ing)? (my )?(cardio|conditioning)|cardio progression|improve my (cardio|endurance|stamina)( over time)?|(build|increase) my (endurance|stamina)|cardio (is )?getting easy|conditioning plan|make cardio harder)\\b",
+    "body": [
+      "Conditioning is a skill, and skills progress in small steps. Change one thing at a time, every week or two: a little more time, a little more work, or a little less rest. Not all three at once.",
+      "For steady cardio like zone 2: add 5 minutes per session each week until you reach your target, like 30 to 45 minutes. For intervals: start with 6 rounds of 30 seconds hard and 90 seconds easy. Then add rounds, up to 10. Then cut the rest from 90 to 60 seconds. Then lengthen the work, like 45 seconds. For circuits: add a round, then add reps, then trim the rest.",
+      "Every fourth week, ease off a little, then retest a benchmark like a 2,000 meter row or a timed mile. Watching that number move is pure fuel."
+    ],
+    "more": {
+      "why": "Your heart, lungs and muscles adapt to what you ask of them. Small, steady increases keep the challenge fresh without swamping your recovery.",
+      "how": "Log every conditioning session with time, rounds and effort from 1 to 10. Next week, change one number.",
+      "example": "Week 1: 6 rounds of 30 seconds hard, 90 easy. Week 2: 8 rounds. Week 3: 10 rounds. Week 4: back to 6. Week 5: 8 rounds of 30 seconds hard, 60 easy.",
+      "mistake": "Going all out every session and calling it progress. Effort should climb on purpose, not by accident.",
+      "beginner": "First month, just add time. Walk-jog or easy bike for 20 minutes, then 25, then 30."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I test my fitness?",
+      "How do I do intervals?",
+      "What is zone 2 cardio?"
+    ],
+    "related": [
+      "sh-a-029",
+      "sh-a-026",
+      "sh-a-052"
+    ]
+  },
+  {
+    "id": "sh-a-118",
+    "topic": "conditioning-progression",
+    "title": "Taking an easy week so you come back stronger",
+    "keys": [
+      "easy week",
+      "should i take an easy week",
+      "recovery week",
+      "deload week for cardio",
+      "back off week",
+      "when to take a week off",
+      "too tired from training every week",
+      "feeling run down",
+      "take a week off from the gym",
+      "lighter week",
+      "overtraining signs",
+      "rest week"
+    ],
+    "match": "\\b(easy week|recovery week|back ?off week|deload week|lighter week|rest week|week off (from )?(the gym|training|working out)|when (to|should i) take a week off|feeling run ?down|overtraining)\\b",
+    "body": [
+      "Every few weeks, an easy week is like charging your phone. You don't lose fitness, you let it catch up. Most people do well with one lighter week every 4 to 8 weeks, or whenever the warning lights come on.",
+      "Warning lights: sleep getting worse, sessions that used to feel fine now feel brutal, effort going up while your numbers go down, aches that won't quit, or dreading training. An easy week looks like your normal schedule at about half the volume: fewer sets, shorter intervals, more easy cardio and walking. Keep moving, just turn the dial down.",
+      "If you've felt run down for weeks, not days, or something feels off health-wise, check in with a doctor. Training fatigue fixes itself with rest. Other things need a professional."
+    ],
+    "more": {
+      "why": "Hard training creates fatigue that builds up over weeks. A lighter week clears it so your fitness can actually show up.",
+      "how": "Same days, same times, half the sets, no all-out efforts. Finish every session feeling like you could do more.",
+      "example": "Normal week: 3 strength days with about 16 hard sets each plus 2 interval days. Easy week: 3 strength days with 8 sets each, intervals swapped for 30 minutes of zone 2.",
+      "mistake": "Using the easy week to test a max because you feel fresh by Wednesday. Save that energy for next week.",
+      "beginner": "In your first few months, you may not need planned easy weeks. Just watch for the warning lights."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "Active recovery days?",
+      "When should I take rest days?",
+      "Too tired to train today?"
+    ],
+    "related": [
+      "sh-a-023",
+      "sh-a-110",
+      "sh-b-002"
+    ]
+  },
+  {
+    "id": "sh-a-119",
+    "topic": "weekly-schedule",
+    "title": "How much exercise you need in a week",
+    "keys": [
+      "how much exercise do i need",
+      "how many minutes of exercise a week",
+      "150 minutes of exercise guideline",
+      "how much should i work out",
+      "how many hours a week should i work out",
+      "minimum exercise per week",
+      "exercise guidelines",
+      "how much is enough exercise",
+      "how often should i work out",
+      "weekly exercise goal",
+      "is 3 hours a week enough"
+    ],
+    "match": "\\b(how much (exercise|working out|activity) (do i need|is enough)|how much is enough exercise|how many (minutes|hours) (of exercise |of working out )?(a|per) week|how many hours a week should i|(exercise|activity) guidelines|minimum exercise|how often should i (work ?out|exercise|train)|how much should i (work ?out|exercise)|weekly exercise goal|hours a week enough)\\b",
+    "body": [
+      "The big health guidelines land on a simple target: at least 150 minutes a week of moderate activity, like brisk walking, or about 75 minutes of vigorous activity, plus strength training for all the major muscle groups at least twice a week. That's the floor, not the ceiling.",
+      "In real life, that could be three 45 minute sessions of strength plus some conditioning, and a 20 minute walk on most days. Or two strength days and three runs. Spread it however your week allows. More is often better for fitness, up to a point, as long as you're recovering.",
+      "Nowhere near that yet? Don't panic. Any movement beats none, and going from zero to 60 minutes a week is a huge win. Build up 10 to 15 minutes at a time."
+    ],
+    "more": {
+      "why": "Those targets come from large studies linking regular activity with better heart health, mood, sleep and long-term health. Strength training adds muscle and bone benefits that cardio alone doesn't.",
+      "how": "Add up your week: every walk, class, run and lifting session. Count the minutes that had you breathing harder than normal.",
+      "example": "Mon 45 minute lift, Tue 30 minute walk, Wed 45 minute lift, Thu 30 minute bike, Fri 45 minute lift, Sat 60 minute hike. That's well over the target.",
+      "beginner": "Start with 10 minute walks after meals and two short strength sessions. That alone gets you most of the way there."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "How much cardio per week?",
+      "What is a 3-day week?",
+      "Is walking enough cardio?"
+    ],
+    "related": [
+      "sh-a-041",
+      "sh-a-044",
+      "sh-a-099"
+    ]
+  },
+  {
+    "id": "sh-a-120",
+    "topic": "session-length",
+    "title": "How long a workout should be",
+    "keys": [
+      "how long should a workout be",
+      "how long should i work out",
+      "is an hour workout too long",
+      "how long should i be at the gym",
+      "2 hour workout",
+      "how long should my workout last",
+      "are long workouts better",
+      "how many minutes per workout",
+      "workout length",
+      "is a 45 minute session long enough",
+      "how long in the gym"
+    ],
+    "match": "\\b(how long should (a|my) (workout|session)(?! playlist)( be| last)?|how long should i (work ?out|be at the gym|stay at the gym|train)|(an hour|1 hour|2 hour|two hour|90 minute) workout|workout (length|duration)|how many minutes (per|a) (workout|session)|how long in the gym|are long(er)? workouts better)\\b",
+    "body": [
+      "Most good workouts land between 30 and 60 minutes. That's enough time to warm up, do the important work with real effort, and get out while you're still sharp. Longer isn't better if the extra time is mostly scrolling between sets.",
+      "Quick guide: 20 to 30 minutes works great with supersets and circuits. 45 minutes covers a full strength session plus a short conditioning piece. 60 to 75 minutes makes sense for heavier strength work with longer rests, or strength plus a longer cardio block. Two hours is usually a sign of long chats, long rests or too many exercises.",
+      "Judge a session by what got done, not by how long it took. Hard sets, honest effort, and you leave wanting a little more."
+    ],
+    "more": {
+      "why": "Effort in the first 45 minutes does most of the work. After that, focus and quality often drop off.",
+      "how": "Time your sessions for two weeks. If they keep running long, pair exercises or cut the lowest value move.",
+      "example": "45 minute session: warm-up 7, main lift 15, two supersets 18, finisher 4, cool down 1.",
+      "mistake": "Thinking short sessions don't count. Thirty focused minutes beat ninety distracted ones.",
+      "short_on_time": "Twenty minutes, two supersets, three rounds each. That's a real session."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Give me a 20 minute workout",
+      "What if I only have 45 minutes?",
+      "What is a superset?"
+    ],
+    "related": [
+      "sh-a-009",
+      "sh-a-010",
+      "sh-a-011"
+    ]
+  }
+]

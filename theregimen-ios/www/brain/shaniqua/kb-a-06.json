@@ -1,0 +1,916 @@
+[
+  {
+    "id": "sh-a-121",
+    "topic": "weekly-review",
+    "title": "How to review your week in 10 minutes",
+    "keys": [
+      "how do i review my week",
+      "weekly review",
+      "week review",
+      "review my training week",
+      "how did my week go",
+      "look back at my week",
+      "weekly check in",
+      "end of week review",
+      "reflect on my week",
+      "what to look at each week",
+      "weekly reflection",
+      "sunday review"
+    ],
+    "match": "\\b(review (my|the|your) (training )?week|week(ly)? review|how did my week go|look back (at|on) my week|weekly (check ?in|reflection)|end of (the )?week review|reflect on my week|sunday review|what to look at each week)\\b",
+    "body": [
+      "A weekly review is my favorite ten minutes of the whole week. You look back, you count the wins, you find one thing to fix, and you walk into Monday with a plan instead of a vibe.",
+      "Three questions, every Sunday. One: what did I do? Count sessions, minutes, walks, and anything that went up, like reps, weight or rounds. Two: what got in the way? Be honest and specific, like late meetings on Tuesday or skipping breakfast before training. Three: what's my one change for next week? Just one. Then plan the week with that change built in.",
+      "Write it down or log it. After a month, you'll see patterns you'd never notice day to day, like always skipping Fridays or always crushing Mondays."
+    ],
+    "more": {
+      "why": "Reviewing turns training into feedback instead of guesswork. Small weekly corrections add up to big changes over months.",
+      "how": "Check your Progress screen and your log, jot three lines in your notes, then put next week's sessions in your calendar.",
+      "example": "Did: 3 sessions, 2 walks, one more rep on goblet squats. Got in the way: work dinner Thursday. One change: move Thursday's session to Wednesday morning.",
+      "mistake": "Turning the review into a guilt list. You're a scientist reading data, not a judge handing out sentences.",
+      "short_on_time": "Two minute version: number of sessions, one win, one change. Done."
+    },
+    "reads": [
+      "sessions",
+      "streak",
+      "checkins"
+    ],
+    "chips": [
+      "What are small wins?",
+      "Set one goal for next week",
+      "How do I plan my week on Sunday?"
+    ],
+    "related": [
+      "sh-a-111",
+      "sh-a-122",
+      "sh-a-127",
+      "sh-b-043"
+    ]
+  },
+  {
+    "id": "sh-a-122",
+    "topic": "small-wins",
+    "title": "Small wins: what counts and why they matter",
+    "keys": [
+      "what are small wins",
+      "small wins",
+      "small victories",
+      "celebrate small wins",
+      "little wins",
+      "does this count as progress",
+      "tiny progress",
+      "i didnt make much progress",
+      "wins this week",
+      "what counts as a win",
+      "progress feels small",
+      "baby steps"
+    ],
+    "match": "\\b(small (wins?|victories)|little wins?|tiny (wins?|progress)|what counts as a win|does (this|that|it) count as progress|baby steps|wins this week|progress feels small|didnt make much progress)\\b",
+    "body": [
+      "Small wins are the whole game. Nobody goes from zero to amazing in one jump. It's a staircase of tiny steps, and each one deserves a little celebration, because celebrating is what makes you want the next step.",
+      "What counts: showing up on a day you didn't want to. One more rep than last week. Same weight, better form. Two more minutes on the bike. Shorter rest. Walking up the stairs without stopping. Sleeping better. Training three weeks in a row. Finishing a session you almost skipped. All of it counts.",
+      "Pick one win after every session and say it out loud or log it. By the end of the month you'll have a list of 12 to 20 wins, and that list is the best answer to the voice that says nothing is changing."
+    ],
+    "more": {
+      "why": "Noticing progress builds momentum. People stick with things they feel good at, and small wins are proof you're getting better.",
+      "how": "After each session, write one line: today's win. Read the list every Sunday during your weekly review.",
+      "example": "Week 3 wins: hit all 3 sessions, goblet squat went from 25 to 30 pounds, jogged 3 minutes straight, didn't skip Friday even after a long day.",
+      "mistake": "Only counting a win when the scale moves or a big PR shows up. Those come from stacking the small ones.",
+      "beginner": "In your first month, every session you finish is a win. Seriously. Log it and take the credit."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "What are non-scale wins?",
+      "Do rep PRs count?",
+      "How do I celebrate a PR?"
+    ],
+    "related": [
+      "sh-a-123",
+      "sh-a-124",
+      "sh-b-035",
+      "sh-b-010"
+    ]
+  },
+  {
+    "id": "sh-a-123",
+    "topic": "small-wins",
+    "title": "Non-scale wins worth tracking",
+    "keys": [
+      "what are non scale wins",
+      "non scale victories",
+      "nsv",
+      "non scale wins",
+      "progress without the scale",
+      "other ways to measure progress",
+      "how else can i track progress",
+      "signs im getting fitter",
+      "progress besides weight",
+      "how do i know im improving",
+      "am i getting fitter"
+    ],
+    "match": "\\b(non[ -]?scale (wins?|victories)|nsvs?|progress (without|besides) (the )?(scale|weight)|other ways to (measure|track) progress|how else (can|do) i (track|measure) progress|signs (i'?m|im|i am) getting (fitter|stronger)|how do i know (i'?m|im) improving|am i getting fitter)\\b",
+    "body": [
+      "The scale is one number with a lot of noise in it. Your fitness is showing up in a dozen other places, and those are the wins I get loudest about.",
+      "Track these: strength going up on any lift. More reps at the same weight. Faster times or more rounds in the same workout. Heart rate lower at the same pace. Recovering faster between intervals. Climbing stairs without getting winded. Clothes fitting differently. Better sleep and steadier energy. Waist measured once a month. Photos every 4 weeks in the same light. More weeks in a row of showing up than ever before.",
+      "Pick three to watch this month and log them. For the scale side of things, like weekly averages and what normal swings look like, Nova is your coach."
+    ],
+    "more": {
+      "why": "Fitness changes long before the mirror does. Tracking performance and energy shows progress the scale can't see.",
+      "how": "Choose one strength number, one conditioning number and one life number, like stairs or sleep. Check them every 2 to 4 weeks.",
+      "example": "Month two: push-ups went from 6 to 11, a 1 mile walk-jog dropped from 15:40 to 14:20, and you carried every grocery bag in one trip.",
+      "mistake": "Letting one morning weigh-in cancel out a month of better workouts. Look at the whole picture.",
+      "beginner": "Write down your starting numbers this week: push-ups, a timed walk or jog, and how many flights of stairs feel comfortable. Future you will be so glad."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "What are small wins?",
+      "How do I test my fitness?",
+      "Do rep PRs count?"
+    ],
+    "related": [
+      "sh-a-122",
+      "sh-a-133",
+      "sh-b-021"
+    ]
+  },
+  {
+    "id": "sh-a-124",
+    "topic": "small-wins",
+    "title": "Rep PRs, time PRs and every other PR that counts",
+    "keys": [
+      "do rep prs count",
+      "rep pr",
+      "what is a rep pr",
+      "pr meaning",
+      "personal record",
+      "personal best",
+      "types of prs",
+      "time pr",
+      "volume pr",
+      "what counts as a pr",
+      "did i pr",
+      "new pr",
+      "how often should i pr"
+    ],
+    "match": "\\b(rep (prs?|records?)|(time|volume|distance) (prs?|personal bests?)|what (counts as|is) a pr|types of prs|pr meaning|did i (pr|hit a pr)|new pr|personal (record|best)s?(?! today)|how often (should|do) i pr)\\b",
+    "body": [
+      "Absolutely they count. A PR is a personal record, and a one rep max is just one kind. If you did more reps, more rounds, more distance or a faster time than ever before, that's a PR, and I want to hear about it.",
+      "The PR menu. Rep PR: more reps at a weight you've lifted before. Weight PR: heavier for any number of reps. Time PR: a faster mile, a faster 500 meter row, a faster circuit. Volume PR: more rounds in an AMRAP or more total work. Consistency PR: your longest streak of weeks trained. Even a form PR counts: same weight, way cleaner reps.",
+      "Rep PRs and time PRs are safer and come around more often than max attempts, so you get to celebrate more. Look for one PR of any kind every week or two."
+    ],
+    "more": {
+      "why": "Every PR is proof that training is working. Counting all kinds keeps you motivated between the big milestones.",
+      "how": "Log reps, weights and times every session. Your log is where PRs hide until you spot them.",
+      "example": "Goblet squat with 35 pounds: 8 reps last month, 12 reps today. That's a rep PR. Celebrate it like you mean it.",
+      "mistake": "Only chasing heavy singles. You'll go weeks without a win and beat up your joints. Rep PRs keep the fun coming.",
+      "advanced": "Use rep PRs to track strength without testing a max. If your reps at a given weight keep climbing, your max is climbing too."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I celebrate a PR?",
+      "How do I compete with myself?",
+      "What are small wins?"
+    ],
+    "related": [
+      "sh-a-125",
+      "sh-a-126",
+      "sh-a-122"
+    ]
+  },
+  {
+    "id": "sh-a-125",
+    "topic": "small-wins",
+    "title": "How to celebrate a PR the right way",
+    "keys": [
+      "how do i celebrate a pr",
+      "celebrate a pr",
+      "i hit a pr",
+      "just hit a pr",
+      "i got a pr today",
+      "new personal best today",
+      "celebrate progress",
+      "how to celebrate fitness wins",
+      "pr celebration",
+      "i beat my record",
+      "finally hit my goal"
+    ],
+    "match": "\\b(celebrat(e|ing) (a |my )?(pr|progress|personal best|fitness wins?)|(i|just) (hit|got) a pr|beat my (record|personal best|best time)|pr celebration|finally hit my goal|new personal best today)\\b",
+    "body": [
+      "First: YES. Look at you. That's not luck, that's weeks of showing up finally paying out. Take a second and let it land, because most people rush right past the moment they worked so hard for.",
+      "Celebrate in three steps. Log it with a note, so future you can find it. Tell someone, me included, because saying it out loud makes it real. Then mark it with something you enjoy that supports the next session, like your favorite breakfast, new running socks, a fresh playlist or a lazy afternoon. Keep the reward kind to your training, not something that knocks you off track.",
+      "Then go back to normal next session. One PR doesn't mean you should chase another tomorrow. Let the win settle, and build toward the next one."
+    ],
+    "more": {
+      "why": "Celebrating ties a good feeling to the work, which makes you more likely to repeat the habits that got you there.",
+      "how": "Keep a PR list in your notes or your log. Every time you add one, read the whole list. It's a highlight reel of your stubbornness.",
+      "example": "First unassisted pull-up: logged it, texted a friend, bought new gym socks, and did a normal session two days later.",
+      "mistake": "Celebrating by testing everything else the same day. Chasing a second PR on tired legs usually ends in a miss and a sore back.",
+      "beginner": "Your first few months are full of PRs. Enjoy every one of them, it's a special season."
+    },
+    "chips": [
+      "Rewards for training wins?",
+      "Do rep PRs count?",
+      "What are small wins?"
+    ],
+    "related": [
+      "sh-a-124",
+      "sh-b-035",
+      "sh-b-095"
+    ]
+  },
+  {
+    "id": "sh-a-126",
+    "topic": "small-wins",
+    "title": "Competing with yourself instead of everyone else",
+    "keys": [
+      "how do i compete with myself",
+      "compete with myself",
+      "beat my last workout",
+      "compete against yourself",
+      "only compare to myself",
+      "how to beat yesterday",
+      "be better than last week",
+      "race myself",
+      "beat my own times",
+      "try to beat last week",
+      "competing with myself"
+    ],
+    "match": "\\b(compet(e|ing) (with|against) (myself|yourself)|beat (my|your) (last workout|own times?|last week)|how to beat yesterday|better than last week|only compare (to|with) (myself|yourself)|race myself|try to beat last week)\\b",
+    "body": [
+      "The only person you have to beat is last week's you, and honestly, that person is very beatable. Competing with yourself gives you the fun of a race without the stress of comparing your chapter one to someone else's chapter twenty.",
+      "Set it up like a game. Pick a few benchmark numbers: a lift, a timed conditioning piece, and a consistency stat like sessions per week. Each week, try to win one of them by a little: one more rep, one more round, 10 seconds faster, one more session. Not all of them, just one. When you win, log it. When you don't, check what got in the way and try again.",
+      "Retest the bigger benchmarks every 4 to 6 weeks, like a 1 mile run, a 500 meter row or max push-ups. Those are your home meets."
+    ],
+    "more": {
+      "why": "Comparing yourself to yourself is fair, motivating and under your control. It keeps the focus on effort and progress instead of genetics, age or someone's highlight reel.",
+      "how": "Before each session, look at last week's numbers for the same workout and pick the one target you'll beat.",
+      "example": "Last Monday: 4 rounds of the circuit in 20 minutes. This Monday's target: 4 rounds plus 5 reps. Win.",
+      "mistake": "Trying to beat every number every week. That's how you end up beating yourself up instead.",
+      "beginner": "Your first benchmark is just showing up. Beat last week's session count, then add other numbers later."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How do I test my fitness?",
+      "Do rep PRs count?",
+      "How do I stop comparing myself?"
+    ],
+    "related": [
+      "sh-a-124",
+      "sh-a-133",
+      "sh-b-008"
+    ]
+  },
+  {
+    "id": "sh-a-127",
+    "topic": "goals",
+    "title": "Setting one goal for next week",
+    "keys": [
+      "set one goal for next week",
+      "goal for next week",
+      "weekly goal",
+      "what should my goal be this week",
+      "one goal this week",
+      "small goal for the week",
+      "weekly fitness goal",
+      "this weeks goal",
+      "set a goal for the week",
+      "goal for the week"
+    ],
+    "match": "\\b((one |a |my )?goals? for (next |the |this )?week|weekly (fitness )?goals?|(this|next) weeks goal|set (one|a) goal for (the |next |this )?week|what should my goal be this week|one goal this week)\\b",
+    "body": [
+      "One goal. Not five. One clear, small, checkable thing that would make next week a win. When you only have one, you actually do it.",
+      "Make it an action you control, not a result. Good weekly goals: hit 3 sessions. Walk 20 minutes after dinner on 4 days. Add one rep to every set of squats. Get to bed by 10:30 on training nights. Pack the gym bag the night before every session. Not so good: lose 3 pounds, get abs, be perfect.",
+      "Write it where you'll see it, then check it off. At your next weekly review, you either nailed it, which is a win, or you learned what got in the way, which is information. Either way, you pick the next one."
+    ],
+    "more": {
+      "why": "One small goal keeps your attention focused, and hitting it builds confidence for the next. Stacked weekly goals turn into habits.",
+      "how": "During your Sunday review, ask: what's the one thing that would make next week better? Turn it into a yes or no action.",
+      "example": "This week's goal: train Monday, Wednesday and Saturday mornings before 8 a.m. Yes or no, no gray area.",
+      "mistake": "Picking a goal that depends on things you can't control. Pick the action and let the results follow.",
+      "beginner": "Start with this one: show up for every session you planned, even if some of them are short."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "Process or outcome goals?",
+      "How do I review my week?",
+      "What are small wins?"
+    ],
+    "related": [
+      "sh-a-121",
+      "sh-a-128",
+      "sh-a-111"
+    ]
+  },
+  {
+    "id": "sh-a-128",
+    "topic": "goals",
+    "title": "Process goals vs outcome goals",
+    "keys": [
+      "process or outcome goals",
+      "process goals",
+      "outcome goals",
+      "process vs outcome",
+      "difference between process and outcome goals",
+      "performance goals",
+      "behavior goals",
+      "what kind of goals should i set",
+      "results goals",
+      "action goals"
+    ],
+    "match": "\\b((process|outcome|performance|behavior|action|results?) goals?|process (vs|or|versus) outcome|outcome (vs|or|versus) process|what kind of goals)\\b",
+    "body": [
+      "Outcome goals are the destination: run a 5k, deadlift your bodyweight, fit back into your favorite jeans. Process goals are the daily driving: train three times a week, walk every day, sleep 7 hours. You need a destination, but you only control the driving.",
+      "Here's how I use them together. Pick one outcome goal for the next 8 to 12 weeks. Then pick 2 or 3 process goals that would make that outcome very likely. Put your daily attention on the process and check the outcome once a month. If the process is happening and the outcome isn't moving after a couple of months, adjust the process.",
+      "There's a middle category too: performance goals, like a mile under 10 minutes or 10 push-ups. They're great because they're measurable and mostly in your hands."
+    ],
+    "more": {
+      "why": "Process goals put you in charge every single day, which keeps motivation steady even while results take their time.",
+      "how": "Write it as: to reach my outcome, I will do this process, this many times per week.",
+      "example": "Outcome: finish a 5k in 10 weeks. Process: run 3 times a week, strength train twice, and take one long walk every Sunday.",
+      "mistake": "Having only an outcome goal and feeling like a failure every day you're not there yet. The process is where the wins live.",
+      "beginner": "Start with one process goal for a month, like three sessions a week. Add an outcome goal once that feels steady."
+    },
+    "chips": [
+      "Set one goal for next week",
+      "How do I set a fitness goal?",
+      "How do I find my why?"
+    ],
+    "related": [
+      "sh-a-127",
+      "sh-a-129",
+      "sh-a-130"
+    ]
+  },
+  {
+    "id": "sh-a-129",
+    "topic": "goals",
+    "title": "Setting a fitness goal that actually sticks",
+    "keys": [
+      "how do i set a fitness goal",
+      "how to set fitness goals",
+      "fitness goals",
+      "good fitness goals",
+      "smart goals fitness",
+      "goal setting",
+      "what should my fitness goal be",
+      "i dont know what my goal is",
+      "achievable goals",
+      "goal ideas",
+      "12 week goal",
+      "new year fitness goal"
+    ],
+    "match": "\\b((set|setting|pick|choose) (a |my )?(fitness )?goals?(?! for (the |next |this )?week)|(?<!(weekly|quarterly|multiple|several|competing|my|new year) )fitness goals?|smart goals?|goal setting|what should my (fitness )?goal be(?! this week)|(dont|don't) know what my goal|achievable goals?|goal ideas|(12|twelve)[ -]week goal|new year (fitness )?goals?)\\b",
+    "body": [
+      "A good goal is specific, measurable, a little exciting, and has a date on it. Get fit is a wish. Run a 5k without walking by June 1 is a goal. You can see it, you can test it, and you'll know the day you hit it.",
+      "My recipe: pick something that excites you, like a race, a lift, a hike, a number of push-ups or a streak. Give it 8 to 16 weeks so it's close enough to feel urgent. Make it a stretch but doable: if you're about 60 percent sure you can hit it, that's the sweet spot. Then write the 2 or 3 weekly habits that get you there and put them in your calendar.",
+      "Not sure what you want? Pick one of these: a consistency goal, like training 3 times a week for 12 weeks; a performance goal, like 10 push-ups from your toes; or an event, like a local 5k or a charity walk. All three work."
+    ],
+    "more": {
+      "why": "Clear, measurable goals with deadlines are easier to plan for and easier to stick with than vague ones. You always know what to do today.",
+      "how": "Write it like this: by this date, I will do this thing, measured this way. Then add: each week I will do these habits.",
+      "example": "By March 15, I'll row 2,000 meters in under 10 minutes. Each week: one interval row, one easy row and two strength sessions.",
+      "mistake": "Setting five big goals at once. Pick one main goal per season and let everything else support it.",
+      "beginner": "Your first goal can be pure consistency: 24 sessions in 8 weeks. Hit that and every other goal gets easier."
+    },
+    "chips": [
+      "Process or outcome goals?",
+      "How do I find my why?",
+      "Should I sign up for a race?"
+    ],
+    "related": [
+      "sh-a-128",
+      "sh-a-130",
+      "sh-a-061"
+    ]
+  },
+  {
+    "id": "sh-a-130",
+    "topic": "your-why",
+    "title": "Finding your why and making it real",
+    "keys": [
+      "how do i find my why",
+      "find my why",
+      "what is my why",
+      "why do i want to work out",
+      "my reason to work out",
+      "purpose for working out",
+      "what is your why",
+      "deeper reason for fitness",
+      "why should i exercise",
+      "why am i doing this",
+      "reason to get fit"
+    ],
+    "match": "\\b(find(ing)? (my|your) why|what('?s| is) (my|your) why|why (do i want to|should i) (work ?out|exercise|train|get fit)|(?<!lost )(my|a) reason to (work ?out|exercise|train|get fit)(?! is gone)|purpose (for|of) (working out|training|exercise)|why am i (even )?doing this|deeper reason)\\b",
+    "body": [
+      "Your why is the reason that still makes sense at 6 a.m. on a cold Tuesday. Look good for summer runs out of gas fast. Carry my kids on my shoulders without my back complaining keeps working for years.",
+      "Find it with the five whys. Start with what you want: I want to get fit. Why? So I have more energy. Why does that matter? Because I'm wiped out by 3 p.m. Why does that matter? Because I'm missing evenings with my family. Keep going until you hit something that makes you a little emotional. That's your why.",
+      "Then make it visible. Write it in one sentence, put it on your lock screen or the bathroom mirror, and read it before hard sessions. When motivation is low, the why does the lifting."
+    ],
+    "more": {
+      "why": "Reasons tied to your values and the people you love hold up longer than reasons tied to appearance or other people's opinions.",
+      "how": "Grab a note and ask yourself why five times in a row. Keep the last answer.",
+      "example": "I want to keep up with my kids, be strong for my parents as they get older, and prove to myself I can stick with something hard.",
+      "mistake": "Borrowing someone else's why. If it doesn't hit you in the chest, it won't get you out of bed.",
+      "beginner": "If nothing deep comes up yet, that's okay. I want to feel better than I do right now is a perfectly good start."
+    },
+    "chips": [
+      "What if my why stops working?",
+      "How do I set a fitness goal?",
+      "Process or outcome goals?"
+    ],
+    "related": [
+      "sh-a-131",
+      "sh-a-129",
+      "sh-b-011"
+    ]
+  },
+  {
+    "id": "sh-a-131",
+    "topic": "your-why",
+    "title": "When your why stops working",
+    "keys": [
+      "what if my why stops working",
+      "my why stopped working",
+      "my why isnt motivating me anymore",
+      "lost my reason to train",
+      "my goal doesnt excite me anymore",
+      "need a new why",
+      "my reason changed",
+      "my goals changed",
+      "my reason to work out is gone",
+      "need a new goal"
+    ],
+    "match": "\\b(my why (stopped|stops|isnt|isn't|is not|doesnt|doesn't)|why stops working|need a new (why|reason|goal)|lost my (reason|why) to (train|work ?out)|goals? (doesnt|doesn't|don't|dont) excite me|my (goals?|reason) changed|my reason to work out is gone)\\b",
+    "body": [
+      "Totally normal. Whys wear out, especially when yours was tied to one event, like a wedding, a race or a number. Once it's done or stops feeling urgent, the fire dims. That doesn't mean you lost your drive. It means you outgrew the reason.",
+      "Time for a refresh. Ask what training gives you now that you didn't have before: energy, confidence, a calm head, an hour to yourself, friends at the gym. Often the new why is already sitting there and you just haven't named it. Then pair it with a fresh goal for the next 8 to 12 weeks, something new enough to be fun, like a different event, a skill or a strength number.",
+      "On days when no why feels strong, lean on the habit. That's what it's there for. You don't need fireworks every session, you need to keep the light on until the next spark."
+    ],
+    "more": {
+      "why": "Motivation naturally rises and falls. Updating your reasons keeps training connected to the life you have now, not the one you had a year ago.",
+      "how": "Write three sentences: what I love about training now, what I want next, and who I'm doing it for.",
+      "example": "Old why: fit into a suit for a wedding. New why: I sleep better, I'm less stressed, and I want to run a 10k with my sister.",
+      "mistake": "Waiting to feel motivated again before training. Motivation usually comes back after a few sessions, not before.",
+      "beginner": "Early on and already feeling the why fade? Shrink the goal and make it fun. Fun is a perfectly good why."
+    },
+    "chips": [
+      "How do I find my why?",
+      "Lost my mojo, now what?",
+      "Motivation or discipline?"
+    ],
+    "related": [
+      "sh-a-130",
+      "sh-b-019",
+      "sh-b-007"
+    ]
+  },
+  {
+    "id": "sh-a-132",
+    "topic": "goals",
+    "title": "Planning a 12 week block around one goal",
+    "keys": [
+      "plan for the next 12 weeks",
+      "12 week plan",
+      "12 week program",
+      "12 week training block",
+      "quarterly fitness goal",
+      "plan the next 3 months",
+      "training block",
+      "how to plan a training cycle",
+      "3 month fitness plan",
+      "90 day plan",
+      "90 day challenge"
+    ],
+    "match": "\\b((12|twelve)[ -]week (plan|program|training block|block)|training (block|cycle)|quarterly (fitness )?goals?|(3|three)[ -]month (fitness )?plan|plan (for )?the next (3|three) months|90[ -]day (plan|challenge)|next (12|twelve) weeks)\\b",
+    "body": [
+      "Twelve weeks is my favorite planning window. It's long enough to see real change and short enough that the finish line stays in view. Think of it like a season: one main goal, a few supporting habits, and checkpoints along the way.",
+      "Build it like this. Weeks 1 to 4: build the base. Show up, learn the moves, add a little each week. Week 5: retest something small, then keep building. Weeks 6 to 10: push the main goal with a bit more challenge. Week 11: ease off a little. Week 12: test, race or celebrate. Plan easier weeks around anything you know will be busy, like work trips or family events.",
+      "At the end, review the whole block: what worked, what didn't, what you want next. Then take an easy week before the next season starts."
+    ],
+    "more": {
+      "why": "Blocks give your training a story with a beginning, middle and end. That structure helps you push when it matters and rest when it counts.",
+      "how": "Put all 12 weeks on one page: goal at the top, weekly sessions down the side, checkpoints at weeks 4, 8 and 12.",
+      "example": "Goal: 10 push-ups from the toes. Weeks 1 to 4, incline push-ups 3 times a week. Weeks 5 to 8, lower the incline. Weeks 9 to 11, floor push-ups plus slow lowering reps. Week 12, test.",
+      "mistake": "Changing the plan every week because something new showed up online. Commit to the block, then judge it at the end.",
+      "beginner": "Your first block can be simple: 3 full body sessions a week for 12 weeks, with one benchmark test at the start and one at the end."
+    },
+    "chips": [
+      "How do I set a fitness goal?",
+      "How do I test my fitness?",
+      "Should I take an easy week?"
+    ],
+    "related": [
+      "sh-a-129",
+      "sh-a-133",
+      "sh-a-118"
+    ]
+  },
+  {
+    "id": "sh-a-133",
+    "topic": "benchmarks",
+    "title": "How to test your fitness with simple benchmarks",
+    "keys": [
+      "how do i test my fitness",
+      "fitness test",
+      "benchmark workout",
+      "how fit am i",
+      "test my conditioning",
+      "fitness assessment",
+      "how to measure fitness",
+      "baseline test",
+      "max push ups test",
+      "500m row test",
+      "cooper test",
+      "retest my fitness"
+    ],
+    "match": "\\b(test (my|your) (fitness|conditioning|endurance)|fitness (tests?|assessment)|benchmark (workouts?|tests?)|how fit am i|measure (my )?fitness|baseline (test|workout)|max push ?ups? test|(500|2000|2k) ?m(eter)? row test|cooper test|retest my fitness)\\b",
+    "body": [
+      "Benchmarks turn I think I'm fitter into proof. Pick a few simple tests, do them now, log the numbers, and retest every 4 to 8 weeks under the same conditions so the comparison is fair.",
+      "My favorite starter set. Push-ups: max clean reps from your toes or knees, stopping when form breaks. Plank: max hold with a straight body. Cardio: a 1 mile walk or run for time, a 500 meter row, or 10 minutes on the bike for distance. Legs: max full-depth bodyweight squats in 60 seconds. Choose three or four, not all of them, and keep them the same every time.",
+      "Test on a fresh day after a good warm-up, not after a hard session. And if a test brings on chest pain, dizziness or unusual breathlessness, stop and get checked by a doctor before testing again."
+    ],
+    "more": {
+      "why": "Testing turns progress into numbers you can see. It shows what's working and keeps you motivated between the big goals.",
+      "how": "Same time of day, same warm-up, same equipment, same order. Write down how you felt too, like tired or great.",
+      "example": "Week 1: 8 push-ups, 45 second plank, 1 mile walk-jog in 14:30. Week 8: 14 push-ups, 75 second plank, 12:50. That's a great block.",
+      "mistake": "Testing every week. Fitness needs a few weeks to change, and constant testing just piles on fatigue.",
+      "beginner": "Start with two tests: push-ups and a timed 1 mile walk. Easy to set up and easy to repeat."
+    },
+    "reads": [
+      "sessions",
+      "checkins"
+    ],
+    "chips": [
+      "How do I compete with myself?",
+      "How do I improve my mile?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-a-126",
+      "sh-a-123",
+      "sh-a-068"
+    ]
+  },
+  {
+    "id": "sh-a-134",
+    "topic": "weekly-review",
+    "title": "When your week was a mess and the review looks bad",
+    "keys": [
+      "the review of my week looks bad",
+      "my week was a mess",
+      "terrible week of training",
+      "i missed every workout this week",
+      "my worst training week",
+      "week was a disaster",
+      "i failed this week",
+      "off week",
+      "bad training week",
+      "nothing went right this week",
+      "zero workouts this week"
+    ],
+    "match": "\\b(bad training week|review of my week looks bad|my week was (a mess|terrible|awful|a disaster)|terrible week of training|missed (every|all my) (workout|session)s?( this week)?|week was a disaster|i failed this week|(?<!back )off week|nothing went right this week|zero workouts this week)\\b",
+    "body": [
+      "Hey. One messy week doesn't erase anything. I mean it. Fitness is built over months, and a bad week inside a good month is weather, not climate. So let's review it like a coach, not a critic.",
+      "Three honest questions. What actually happened? Sick kid, crunch at work, bad sleep, low mood, travel. What one thing would have saved even one session? Maybe a 15 minute backup, training earlier, or a walk instead of nothing. And what's the smallest win you can grab this week to get the ball rolling? Make it almost silly easy, like a 10 minute walk tomorrow and one session by Wednesday.",
+      "Then plan next week at the busy level, not the full level. Get two wins and you're back. Never miss twice applies to weeks too."
+    ],
+    "more": {
+      "why": "How you respond to a bad week matters more than the week itself. A quick, kind restart keeps the habit alive.",
+      "how": "Write one sentence about what happened and one about what you'll try, then put the first session in your calendar right now.",
+      "example": "Last week: zero sessions, a sick kid and a deadline. This week: 15 minute circuit Tuesday, walk Thursday, full session Saturday.",
+      "mistake": "Trying to make up for it with a double week of brutal sessions. Just restart at normal size.",
+      "short_on_time": "Restart move: 10 minutes today, anything you like. The goal is ending the streak of zero."
+    },
+    "reads": [
+      "streak",
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "Showing up after a rough week",
+      "Busy week, what do I cut first?"
+    ],
+    "related": [
+      "sh-a-121",
+      "sh-b-027",
+      "sh-b-015",
+      "sh-a-113"
+    ]
+  },
+  {
+    "id": "sh-a-135",
+    "topic": "habits-tracking",
+    "title": "Tracking your habits with a simple checklist",
+    "keys": [
+      "habit tracker",
+      "how to track habits",
+      "habit tracking",
+      "fitness checklist",
+      "daily checklist",
+      "workout tracker",
+      "what should i track",
+      "habit chart",
+      "track habits for fitness",
+      "daily habits to track",
+      "weekly habit tracker"
+    ],
+    "match": "\\b(habit (tracker|tracking|chart)|track (my )?habits|(fitness|daily) checklist|weekly habit tracker|what should i track|daily habits to track|workout tracker)\\b",
+    "body": [
+      "A simple checklist is the most underrated tool in fitness. You don't need a fancy spreadsheet. You need four or five boxes a day and the satisfying click of checking them.",
+      "Pick habits that drive your goal, keep it to five, and make each one a clear yes or no. My favorite starter list: trained or walked today, had protein at most meals, drank water through the day, in bed on time, and one minute of something kind for your head, like stretching or slow breathing. Log training on your Train screen and use a simple list or calendar for the rest.",
+      "Aim for about 80 percent of the boxes over a week, not 100. Perfect weeks are rare. Mostly checked weeks, stacked for months, change everything."
+    ],
+    "more": {
+      "why": "Seeing your habits on paper turns vague intentions into clear actions, and a run of checkmarks becomes its own motivation.",
+      "how": "Fill it in at the same time each night, like when you plug in your phone. Thirty seconds, done.",
+      "example": "Monday: trained, protein, water, bed on time. Tuesday: walked, water. Wednesday: all five. Week total: 26 of 35 boxes, about 74 percent. Nice.",
+      "mistake": "Tracking 15 habits on day one. You'll quit by Thursday. Five, max.",
+      "beginner": "Start with two boxes: moved today and slept on time. Add more once those feel automatic."
+    },
+    "reads": [
+      "sessions",
+      "streak",
+      "water"
+    ],
+    "chips": [
+      "How do I review my week?",
+      "Why log every session?",
+      "What are small wins?"
+    ],
+    "related": [
+      "sh-b-043",
+      "sh-a-121",
+      "sh-b-039"
+    ]
+  },
+  {
+    "id": "sh-a-136",
+    "topic": "weekly-review",
+    "title": "A monthly check-in to see the bigger picture",
+    "keys": [
+      "monthly review",
+      "monthly check in",
+      "review my month",
+      "how did my month go",
+      "end of month review",
+      "look back at the month",
+      "monthly progress check",
+      "monthly fitness review",
+      "30 day review",
+      "month in review"
+    ],
+    "match": "\\b(monthly (review|check ?in|progress check|fitness review)|review (my|the) month|how did my month go|end of (the )?month review|look back (at|on) (my |the )?month|(30|thirty)[ -]day review|month in review)\\b",
+    "body": [
+      "Weekly reviews keep you steering. Monthly reviews show you the road. Once a month, zoom out for 15 minutes, because some progress only shows up at that zoom level.",
+      "Look at four things. Consistency: how many sessions did you do, and what were your best and worst weeks? Numbers: did your benchmark lifts, times or reps move? Body and energy: sleep, mood, energy, how clothes fit, measurements if you take them. And fun: what did you love, and what did you dread? Then decide one thing to keep, one thing to change and one thing to try next month.",
+      "If the month looks flat, check the inputs before blaming yourself: sessions per week, sleep, food and stress. Usually one of them is the story."
+    ],
+    "more": {
+      "why": "Real progress moves slowly enough that you can't see it day to day. A monthly view catches trends that weekly reviews miss.",
+      "how": "Pick the first Sunday of each month. Open your Progress screen, your log and your notes, and write five lines.",
+      "example": "October: 13 sessions, best streak 4 weeks, goblet squat up 10 pounds, mile time down 40 seconds. Keep: morning sessions. Change: more sleep. Try: a Saturday trail run.",
+      "mistake": "Only reviewing when things go badly. Review the good months too, so you know what to repeat.",
+      "beginner": "First month? Just count your sessions and write down one thing you're proud of. That's a great review."
+    },
+    "reads": [
+      "sessions",
+      "streak",
+      "checkins"
+    ],
+    "chips": [
+      "How do I review my week?",
+      "How do I test my fitness?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-a-121",
+      "sh-a-133",
+      "sh-a-123"
+    ]
+  },
+  {
+    "id": "sh-a-137",
+    "topic": "goals",
+    "title": "Too many goals at once and how to pick one",
+    "keys": [
+      "too many goals",
+      "i want to do everything",
+      "multiple fitness goals",
+      "how to prioritize goals",
+      "which goal first",
+      "competing goals",
+      "lose weight and get stronger at the same time",
+      "i want to run and lift and lose weight",
+      "one goal at a time",
+      "focus on one goal"
+    ],
+    "match": "\\b(too many goals|(multiple|several|competing) (fitness )?goals|want to do everything|which goal (first|should i (pick|choose))|one goal at a time|focus on one goal|how (to|do i) (prioritize|pick between) (my )?goals|run and lift and lose weight)\\b",
+    "body": [
+      "I love the ambition. Truly. But trying to run your fastest 5k, lift your heaviest, lose fat and learn a handstand all at once usually means none of them move much. Pick a main goal for this season, and let the others ride along at maintenance.",
+      "How to choose: which goal would make you proudest in 12 weeks? Which one has a date attached, like a race or an event? Which one makes the others easier? Pick that one as your main focus and give it your freshest sessions. The others get just enough to hold steady, like one session a week.",
+      "Next season, rotate. Twelve weeks of running focus, then twelve of strength, with the other always maintained. Over a year you'll make more progress on everything than you would by chasing it all at once."
+    ],
+    "more": {
+      "why": "Your recovery is a limited budget. Spending most of it on one goal lets that goal actually improve.",
+      "how": "Write your goals down, star one, and plan the week around the starred goal first.",
+      "example": "Main goal: first 5k in 10 weeks, 3 runs a week. Riding along: 2 short strength sessions to keep strength steady.",
+      "mistake": "Switching the main goal every two weeks. Give one goal a full season before you judge it.",
+      "beginner": "If you're new, almost everything improves at once for a while. Still, one main goal keeps your plan simple."
+    },
+    "chips": [
+      "How do I set a fitness goal?",
+      "Can I run and lift in the same week?",
+      "Plan for the next 12 weeks?"
+    ],
+    "related": [
+      "sh-a-129",
+      "sh-a-132",
+      "sh-a-065"
+    ]
+  },
+  {
+    "id": "sh-a-138",
+    "topic": "consistency",
+    "title": "Getting past the week 3 to week 6 slump",
+    "keys": [
+      "week 3 slump",
+      "lost motivation after a few weeks",
+      "first month of working out",
+      "how to stick with it past the first month",
+      "motivation fades after 2 weeks",
+      "why do i quit after a few weeks",
+      "month 2 slump",
+      "new routine getting boring",
+      "honeymoon phase is over",
+      "excitement wore off",
+      "stuck at week 4"
+    ],
+    "match": "\\b(week (3|4|5|6|three|four) (slump|dip|wall)|month (2|two) slump|(lost|losing) motivation after (a few|2|3|two|three) weeks|motivation fades after|quit after a few weeks|past the first month|honeymoon (phase|period)|excitement wore off|stuck at week (3|4|5|6)|first month of working out)\\b",
+    "body": [
+      "Ah, the week 3 slump. The new routine sparkle wears off, the soreness is old news, the results aren't loud yet, and suddenly the couch is making very good arguments. Totally normal. This is exactly where most people quit, which is exactly why getting through it matters.",
+      "How to get through: lower the bar for two weeks, so sessions are about 70 percent of what you planned, and focus only on showing up. Add one fun thing, like a new playlist, a class, a new route or a training partner. Look back at your week 1 numbers to see how far you've already come. And book a small event 4 to 6 weeks out, like a 5k or a benchmark retest, so there's something to aim at.",
+      "Somewhere around weeks 6 to 10, training starts to feel like part of your week instead of a project. That's the habit clicking in. Keep going until it does."
+    ],
+    "more": {
+      "why": "Early motivation runs on novelty. Once the novelty fades, small wins and routine carry you until the habit takes over.",
+      "how": "Write down three wins from your first weeks. Read them whenever the couch starts talking.",
+      "example": "Week 1: jogged 1 minute at a time. Week 4: jogged 3 minutes straight. You tripled your running in a month and almost quit because it felt slow.",
+      "mistake": "Changing your entire plan because you're bored. Change one small thing, like the music or the finisher, and keep the plan.",
+      "beginner": "If week 3 hits hard, that's proof you're doing it. Pushing through this stretch builds the hardest part of the habit."
+    },
+    "reads": [
+      "streak",
+      "sessions"
+    ],
+    "chips": [
+      "What are small wins?",
+      "Bored of my program?",
+      "Should I sign up for a race?"
+    ],
+    "related": [
+      "sh-a-122",
+      "sh-b-006",
+      "sh-a-061"
+    ]
+  },
+  {
+    "id": "sh-a-139",
+    "topic": "consistency",
+    "title": "The 80 percent week: good enough is great",
+    "keys": [
+      "perfect week",
+      "i need to be perfect",
+      "80 percent rule",
+      "good enough week",
+      "perfectionism and fitness",
+      "do i have to hit every workout",
+      "missed one workout this week",
+      "is 80 percent enough",
+      "perfectionist about training",
+      "not perfect but consistent",
+      "every workout has to be perfect"
+    ],
+    "match": "\\b(perfect week(?! or nothing)|(need|have) to be perfect|80 ?(percent|%) (rule|week)|is 80 ?(percent|%) enough|good enough week|perfectionis(m|t) (and|about) (fitness|training)|hit every (single )?workout|every workout has to be perfect|missed one workout this week|not perfect but consistent)\\b",
+    "body": [
+      "Here's a secret from years on the floor: the people who make the most progress aren't perfect. They hit about 80 percent of their plan, week after week, for a really long time. Perfect weeks are nice. Good weeks, stacked, are what work.",
+      "Planned 4 sessions and did 3? That's a great week. Planned 5 walks and did 4? Great. Missing one session isn't failure, it's normal life. What matters is that the miss stays a miss and doesn't turn into a slide. Never miss twice, and keep moving.",
+      "Perfectionism is sneaky, though. It says if I can't do the whole thing, why bother. That's the voice to ignore. A 20 minute session on a bad day is worth way more than a perfect one you never start."
+    ],
+    "more": {
+      "why": "Plans that need perfection break the first time life happens. Aiming for about 80 percent leaves room for real life and keeps you going.",
+      "how": "Score your week as a percent of planned sessions. Anything 75 percent or higher is a win. Two weeks in a row below 60 percent? Simplify the plan.",
+      "example": "Planned 12 sessions in a month, did 10. That's 83 percent, and over a year it adds up to about 120 sessions. Huge.",
+      "mistake": "Throwing away the rest of the week after one missed Monday. Tuesday is still right there.",
+      "beginner": "Plan fewer sessions than you think you can handle. It's easier to hit 3 of 3 than 4 of 6, and finishing feels amazing."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "How do I stop being all or nothing?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-024",
+      "sh-b-027",
+      "sh-a-113"
+    ]
+  },
+  {
+    "id": "sh-a-140",
+    "topic": "goals",
+    "title": "Picking an event to train for",
+    "keys": [
+      "event to train for",
+      "what event should i train for",
+      "obstacle course race",
+      "training for a hike",
+      "charity walk",
+      "sign up for a fitness event",
+      "mud run",
+      "goal event",
+      "train for a big hike",
+      "charity bike ride",
+      "something to train for"
+    ],
+    "match": "\\b(event to train for|what event should i|obstacle (course )?race|mud run|(train|training) for a (big )?(hike|trek|charity walk|walk|ride|obstacle race)|charity (walk|run|ride|bike ride)|goal event|fitness event|something to train for)\\b",
+    "body": [
+      "An event is a goal with a date and a crowd, and that's a powerful combo. It gives every session a reason and gives you a finish line to cross with your arms up. You don't have to be fast. You just have to be there.",
+      "Pick based on what sounds fun. Love being outside? A big day hike or a trail race. Like variety? An obstacle course race or a mud run. Want something social and easy to start? A charity walk or a local 5k. Love the bike? A charity ride. Choose one 8 to 16 weeks away, sign up so it's real, and build your weekly plan around it.",
+      "Then train for what the event asks of you. Hikes need long walks with hills and step-ups. Obstacle races need grip, carries and running. Rides need time in the saddle. Do a dress rehearsal two to three weeks out."
+    ],
+    "more": {
+      "why": "Deadlines create focus. People tend to train more consistently with an event on the calendar than with a vague goal.",
+      "how": "Look up local events, pick one that excites you a little, register today, and put the date at the top of your training notes.",
+      "example": "Obstacle race in 12 weeks: 2 strength days with farmer's carries and pulling work, 2 runs a week building to 45 minutes, and hill sprints every other week.",
+      "mistake": "Picking an event so far beyond your current fitness that training feels miserable. Excited and a little nervous is perfect. Terrified is too much.",
+      "beginner": "Start with a local 5k walk or run, or a 3 to 5 mile hike. Finish it, celebrate, then pick the next one."
+    },
+    "chips": [
+      "Should I sign up for a race?",
+      "How do I set a fitness goal?",
+      "Plan for the next 12 weeks?"
+    ],
+    "related": [
+      "sh-a-061",
+      "sh-a-129",
+      "sh-a-132"
+    ]
+  },
+  {
+    "id": "sh-a-141",
+    "topic": "motivation",
+    "title": "Bringing group class energy to a solo workout",
+    "keys": [
+      "how do i bring class energy solo",
+      "class energy alone",
+      "miss group classes",
+      "working out alone is boring",
+      "solo workout motivation",
+      "train alone like a class",
+      "no class energy at home",
+      "hard to push myself alone",
+      "how to push yourself without a coach",
+      "workout alone hype"
+    ],
+    "match": "\\b(class energy|(miss|missing) (my )?(group )?class(es)?|push (myself|yourself) (alone|without a coach)|(working|work) out alone is boring)\\b",
+    "body": [
+      "Class energy comes from three things: a clock somebody else controls, music that tells you when to go, and people watching. You can fake all three alone. Use a timer app with intervals so the clock decides when you start and stop, not your mood.",
+      "Build a playlist where the hard songs line up with your work blocks. Then add an audience: tell a friend your workout before you start and send a sweaty picture when you finish, or log the session in the app right away so it counts. Call out your own rounds out loud. It feels silly for about one round, then it works."
+    ],
+    "more": {
+      "how": "Set an interval timer for 40 seconds on, 20 off. Pick 5 moves. Go 4 rounds. Shout the round number when it starts.",
+      "example": "Squat jumps, push-ups, reverse lunges, mountain climbers, plank. 4 rounds on a 40 and 20 timer is 20 minutes of class.",
+      "mistake": "Training with no timer and resting until you feel ready. That is how 30 minutes turns into 12 minutes of work.",
+      "home": "Put the timer and music on a speaker, not your phone in your pocket. Loud makes it a class."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "EMOM workouts explained",
+      "Building a training playlist"
+    ],
+    "related": [
+      "sh-b-014",
+      "sh-b-073"
+    ]
+  }
+]

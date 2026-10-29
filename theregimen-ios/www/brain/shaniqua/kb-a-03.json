@@ -1,0 +1,924 @@
+[
+  {
+    "id": "sh-a-053",
+    "topic": "running-start",
+    "title": "Couch to 5k: starting running from zero",
+    "keys": [
+      "how do i start running",
+      "couch to 5k",
+      "c25k",
+      "start running",
+      "beginner running plan",
+      "running for beginners",
+      "how to start jogging",
+      "new to running",
+      "run walk method",
+      "first time running",
+      "learn to run",
+      "how do i get into running",
+      "running plan for beginners",
+      "i want to start running"
+    ],
+    "match": "\\b(couch (to|2) ?5k|c25k|(start|starting|begin|get into) (running|jogging)|running (plan )?for beginners|beginner running( plan)?|new to running|run[ -]walk|learn to run|first time running)\\b",
+    "body": [
+      "Start with run-walk, not running. Almost everyone who says they can't run is trying to run too fast for too long on day one. Mixing short jogs with walking breaks lets your heart, lungs, legs and tendons catch up together, and it feels doable, which means you'll actually come back.",
+      "Here's my plan: 3 days a week, never two days in a row. Week 1: walk 5 minutes to warm up, then jog 60 seconds and walk 90 seconds, 8 times. Each week, nudge the jog up and the walk down, like 90 seconds jog with 2 minutes walk in week 2, then 3 minutes jog with 90 seconds walk by week 4. Around week 8 to 10, most people can jog 25 to 30 minutes, which is a 5k for a lot of beginners.",
+      "Jog slow enough to talk in short sentences. If a week felt rough, repeat it. Repeating a week is not failing, it is coaching."
+    ],
+    "more": {
+      "why": "Heart and lungs adapt fast, but tendons and bones take longer. Walk breaks let you train often without loading your legs more than they are ready for.",
+      "how": "Use a timer app or set your watch for intervals so you're not counting in your head. Same route or same treadmill each time makes progress easy to see.",
+      "beginner": "If 60 seconds of jogging is too much, start with 30 seconds jog and 90 seconds walk. Your starting line is wherever you are today.",
+      "example": "Week 1: 8 rounds of 60 seconds jog, 90 seconds walk. Week 4: 5 rounds of 3 minutes jog, 90 seconds walk. Week 7: 2 rounds of 10 minutes jog, 2 minutes walk. Week 9: 30 minutes easy.",
+      "mistake": "Skipping the walk breaks because you feel amazing in week one. Your shins send the bill in week three."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "How fast should I run?",
+      "How do I breathe when running?",
+      "How do I stop a side stitch?"
+    ],
+    "related": [
+      "sh-a-062",
+      "sh-a-056",
+      "sh-a-066",
+      "sh-a-069"
+    ]
+  },
+  {
+    "id": "sh-a-054",
+    "topic": "running-form",
+    "title": "Running form basics without overthinking it",
+    "keys": [
+      "running form",
+      "how to run properly",
+      "proper running technique",
+      "running technique",
+      "how should i run",
+      "heel strike",
+      "should i land on my toes",
+      "forefoot vs heel",
+      "running posture",
+      "how to hold my arms when running",
+      "arm swing running",
+      "am i running wrong",
+      "foot strike",
+      "how do i fix my running form"
+    ],
+    "match": "\\b((?<!hill )running (form|technique|posture)|how (to|should i) run (properly|correctly|right|better)|how should i run|heel strik(e|ing)|fore ?foot (strike|vs|or)|foot ?strike|arms? (swing )?(when|while) running|arm swing running|land on my (toes|heels)|running wrong)\\b",
+    "body": [
+      "Good running form is mostly about staying relaxed and landing under yourself. One cue at a time, so here are the big three: run tall, like a string is pulling the top of your head up. Land with your foot under your hips, not way out in front. And swing your arms front to back, hands loose, elbows bent around 90 degrees.",
+      "Heel, midfoot or forefoot? Don't force it. Most easy runners land somewhere near the heel or midfoot, and that is fine. The problem isn't the heel, it's reaching your foot way out in front of your body, which acts like a brake every step. Shorter, quicker steps fix most of that on their own.",
+      "Pick one cue per run. Today, tall. Next run, quiet feet. Corrected, not overwhelmed."
+    ],
+    "more": {
+      "why": "Overstriding and tension waste energy and pile extra load on your shins and knees. Relaxed runners last longer and feel better doing it.",
+      "how": "Every few minutes, do a quick body check: shoulders down, hands soft like you're holding a potato chip without crushing it, jaw loose, eyes on the horizon.",
+      "mistake": "Copying sprinters and bouncing on your toes during an easy jog. Sprinting lives on the balls of the feet, easy running does not have to.",
+      "example": "During a 10 minute easy run, spend 20 seconds thinking only about quick, quiet feet, then 20 seconds on relaxed shoulders, and keep alternating."
+    },
+    "chips": [
+      "What cadence should I run at?",
+      "What running shoes should I get?",
+      "How do I breathe when running?"
+    ],
+    "related": [
+      "sh-a-055",
+      "sh-a-059",
+      "sh-a-056"
+    ]
+  },
+  {
+    "id": "sh-a-055",
+    "topic": "running-form",
+    "title": "Running cadence: steps per minute and shorter strides",
+    "keys": [
+      "running cadence",
+      "what cadence should i run at",
+      "steps per minute running",
+      "180 steps per minute",
+      "how many steps per minute",
+      "stride length",
+      "am i overstriding",
+      "overstriding",
+      "shorter strides",
+      "increase cadence",
+      "spm running",
+      "is 180 cadence a myth"
+    ],
+    "match": "\\b(running cadence|cadence (for|when|while) running|what cadence (should|do) i run|(increase|raise|improve) (my )?cadence|180 cadence|steps per minute|spm running|over ?strid(e|ing)|stride (length|rate)|shorter strides|180 steps)\\b",
+    "body": [
+      "Cadence is how many steps you take per minute. You've probably heard 180 is the magic number. It isn't. Plenty of good runners sit anywhere from about 160 to 185 at easy pace, and taller people often run a bit lower. What matters is nudging your own number up a little if you're overstriding.",
+      "Find yours: run at an easy pace, count your right foot strikes for 30 seconds, then multiply by 4. If you land heavy with your foot way in front of you, try bumping cadence about 5 percent, so 150 becomes roughly 158. Don't jump straight to 180. That just turns you into a frantic sewing machine.",
+      "A slightly quicker step usually shortens your stride, puts your foot closer under your hips, and makes running feel lighter on your knees and shins."
+    ],
+    "more": {
+      "why": "Small cadence increases tend to reduce overstriding and the braking force on each step, which can ease the load on knees and shins.",
+      "how": "Use a metronome app or a playlist at your target beat. Match your feet to it for 1 to 2 minutes at a time inside an easy run.",
+      "example": "You counted 37 right foot strikes in 30 seconds: 37 times 4 is 148. Target about 155. Practice it in 2 minute blocks twice per run for two weeks.",
+      "mistake": "Forcing a fast cadence while keeping the same long stride. Quicker steps should feel lighter and shorter, not frantic."
+    },
+    "chips": [
+      "How do I fix my running form?",
+      "How fast should I run?"
+    ],
+    "related": [
+      "sh-a-054",
+      "sh-b-077"
+    ]
+  },
+  {
+    "id": "sh-a-056",
+    "topic": "running-breathing",
+    "title": "How to breathe while running",
+    "keys": [
+      "how do i breathe when running",
+      "breathing while running",
+      "breathing when jogging",
+      "nose or mouth breathing running",
+      "i get out of breath running",
+      "how to breathe running",
+      "breathing pattern running",
+      "cant catch my breath running",
+      "breathing technique for running",
+      "should i breathe through my nose when running",
+      "out of breath when i run",
+      "gasping when running"
+    ],
+    "match": "\\b(breath(e|ing) (while|when) (i )?(run|running|jog|jogging)|how (do i|to|should i) breathe (when |while )?(i )?(run|running|jogging)|breathe through my nose when (running|i run)|out of breath (when |while )?(i )?(run|running|jog|jogging)|(nose|mouth) breathing (while |when )?(running|jogging)|(nose or mouth|mouth or nose) breathing|breathing (pattern|technique) (for |while |when )?running|catch my breath (when |while )?running|gasping when (running|i run))\\b",
+    "body": [
+      "Breathe through your mouth and nose, whatever gets the air in. When you're running, you need that air, so let your mouth help. Nose-only breathing is a nice check for very easy runs, but it is not a rule.",
+      "If you're gasping in the first five minutes, the problem usually isn't your breathing, it's your pace. Slow down until you can say a short sentence out loud. Then try a rhythm: breathe in for 3 steps and out for 2, or in for 2 and out for 2 when it gets harder. Deep belly breaths beat quick, shallow chest breaths every time.",
+      "Exhale all the way out. A lot of new runners hold tension in the chest and never empty their lungs, so the next breath feels short. And if breathing comes with chest pain, wheezing that won't settle or dizziness, stop and get checked by a doctor."
+    ],
+    "more": {
+      "why": "Running at a pace you can talk at lets your breathing settle into a rhythm. Most breathlessness on early runs comes from starting too fast, not from breathing the wrong way.",
+      "how": "Practice belly breathing while walking first: hand on your stomach, breathe so it rises before your chest does. Then carry that into the first minutes of your jog.",
+      "beginner": "Use run-walk. When breathing gets ragged, walk until you can talk comfortably, then jog again. That is the plan working, not you failing.",
+      "mistake": "Forcing nose breathing on a hard interval. Hard efforts need your mouth open, no shame in it."
+    },
+    "chips": [
+      "How do I stop a side stitch?",
+      "How fast should I run?",
+      "Why do I get winded so fast?"
+    ],
+    "related": [
+      "sh-a-057",
+      "sh-a-062",
+      "sh-a-045"
+    ]
+  },
+  {
+    "id": "sh-a-057",
+    "topic": "running-side-stitch",
+    "title": "Side stitches: why they happen and how to stop one",
+    "keys": [
+      "side stitch",
+      "how do i stop a side stitch",
+      "side cramp when running",
+      "stitch in my side",
+      "pain in my side when running",
+      "cramp under ribs running",
+      "side ache running",
+      "why do i get side stitches",
+      "side stitch fix",
+      "stitch while running",
+      "get rid of a side stitch"
+    ],
+    "match": "\\b(side (stitch(es)?|cramps?|aches?)|stitch (in my side|while running|when running)|(pain|cramp|ache) (in|under) my (side|ribs) (when|while) (running|jogging|i run))\\b",
+    "body": [
+      "A side stitch is that sharp grab under your ribs, usually on one side, and almost every runner gets them. Nobody knows the exact cause for sure, but they show up more when you start too fast, breathe shallow, or run soon after a big meal or a lot of fluid.",
+      "To stop one: slow to a walk or a very easy jog, press your fingers into the spot, and take slow, deep breaths, exhaling fully. Some people find it helps to breathe out as the foot on the opposite side lands. Leaning slightly forward or lifting the arm on the stitch side overhead can help too. Most ease within a few minutes.",
+      "To prevent them, eat larger meals 2 to 3 hours before running, sip instead of chugging, and ease into your pace over the first 10 minutes. If a pain in your side is severe, doesn't go away when you stop, or shows up when you're not exercising, see a doctor."
+    ],
+    "more": {
+      "why": "Stitches show up most when the pace jumps before your breathing has settled. A gradual warm-up gives your breathing and your midsection time to get used to the bouncing.",
+      "how": "Stop, breathe in deep through your nose, then blow out long through pursed lips while pressing into the stitch. Do 5 or 6 breaths, then jog easy again.",
+      "mistake": "Chugging a big bottle of water right before the run. Small sips, and save the big drink for after.",
+      "beginner": "Stitches are more common when running is new. Most people get them less often as their fitness builds over a few weeks."
+    },
+    "chips": [
+      "How do I breathe when running?",
+      "How do I warm up for a run?"
+    ],
+    "related": [
+      "sh-a-056",
+      "sh-a-071"
+    ]
+  },
+  {
+    "id": "sh-a-058",
+    "topic": "running-shins",
+    "title": "Shin pain from running and how to avoid it",
+    "keys": [
+      "shin splints",
+      "my shins hurt when i run",
+      "shin pain running",
+      "shins hurt after running",
+      "how to prevent shin splints",
+      "sore shins",
+      "shin splints from running",
+      "front of my shin hurts",
+      "shins hurt on treadmill",
+      "can i run with shin splints",
+      "how to avoid shin pain",
+      "shin pain from running"
+    ],
+    "match": "\\b(shin ?splints?|shins? (hurt|hurts|pain|sore|ache|aching)|(sore|aching|painful) shins?|front of my shin)\\b",
+    "body": [
+      "Sore shins are one of the most common complaints from new runners, and they usually come from doing too much too soon: more running, faster running or harder surfaces than your legs are ready for. Your heart and lungs adapt quickly, but bones and tendons need weeks of gradual loading.",
+      "Prevention basics: use run-walk at first, add running time slowly, and keep a day between runs early on. Mix in softer surfaces like trails, a track or a treadmill. Shorter, quicker steps help. Shoes that feel comfortable and aren't worn flat matter, and calf raises a few times a week build strength in your lower legs.",
+      "If the pain is sharp, sits in one spot you can press on, hurts while walking or at rest, or gets worse from run to run, stop running and see a doctor or physical therapist. Mild, dull soreness that fades as you warm up is different, but even then, back off the running for a week."
+    ],
+    "more": {
+      "why": "Running loads your lower legs with every single step. Ramping up slowly gives those tissues time to get stronger before the load gets bigger.",
+      "how": "Build lower leg strength 2 to 3 times a week: 3 sets of 15 slow calf raises, 3 sets of 15 toe raises with your back against a wall, and 30 seconds of single leg balance each side.",
+      "mistake": "Pushing through shin pain to keep a streak alive. A missed week now beats a missed two months later.",
+      "home": "Calf raises on a stair edge and walking on your heels for 30 seconds are easy to do while you brush your teeth."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "How do I start running?",
+      "What running shoes should I get?",
+      "What cadence should I run at?"
+    ],
+    "related": [
+      "sh-a-053",
+      "sh-a-059",
+      "sh-a-055"
+    ]
+  },
+  {
+    "id": "sh-a-059",
+    "topic": "running-gear",
+    "title": "Choosing running shoes without the hype",
+    "keys": [
+      "running shoes",
+      "what running shoes should i get",
+      "best running shoes",
+      "do i need running shoes",
+      "best shoes for running",
+      "how often should i replace running shoes",
+      "running shoes for beginners",
+      "can i run in gym shoes",
+      "are my shoes bad for running",
+      "cushioned or minimalist shoes",
+      "which sneakers for running",
+      "how many miles do running shoes last"
+    ],
+    "match": "\\b(running (shoes|sneakers)|shoes for running|(best|which|what) (shoes|sneakers) (to|for) run(ning)?|which sneakers for running|replace (my )?(running )?shoes|minimalist shoes|barefoot shoes|run in (my )?(gym|lifting) shoes)\\b",
+    "body": [
+      "Get the pair that feels comfortable the moment you put it on and jog a few steps. That's honestly the best guide there is. Comfort beats brand, color and whatever the internet says this month.",
+      "Go to a running store if you can and try several pairs, ideally later in the day when your feet are a little bigger. Leave about a thumb's width of space past your longest toe. Cushioned shoes are a friendly start for most new runners. Very minimal or barefoot styles need a slow, careful transition, so they are not where I'd begin.",
+      "Replace them every 300 to 500 miles, or sooner if the foam feels flat or the tread is worn smooth. Can you run in your gym shoes? For a few short runs, sure. Flat lifting shoes aren't built for miles, though, so once you're running 2 to 3 times a week, get a real pair."
+    ],
+    "more": {
+      "why": "Comfort is a decent signal that a shoe suits your foot and your stride. The fanciest shoe is useless if it rubs or pinches.",
+      "how": "Bring the socks you run in. Jog in the store or on their treadmill. Check for heel slip, toe pinch and any rubbing spots before you buy.",
+      "mistake": "Buying the size you wear in dress shoes. Many runners need a half size up for running.",
+      "example": "Running 3 times a week for 3 miles each is about 40 miles a month, so one pair lasts roughly 8 to 12 months."
+    },
+    "chips": [
+      "Shin pain from running?",
+      "Treadmill or running outside?"
+    ],
+    "related": [
+      "sh-a-058",
+      "sh-a-054"
+    ]
+  },
+  {
+    "id": "sh-a-060",
+    "topic": "running-surfaces",
+    "title": "Treadmill or running outside: which is better",
+    "keys": [
+      "treadmill vs running outside",
+      "treadmill or outside",
+      "treadmill or running outside",
+      "is treadmill running easier",
+      "treadmill vs road",
+      "should i run on a treadmill",
+      "treadmill incline 1 percent",
+      "treadmill running tips",
+      "is the treadmill cheating",
+      "outdoor running vs treadmill",
+      "running on a treadmill",
+      "treadmill pace vs outside"
+    ],
+    "match": "\\b(treadmill (running |pace )?(vs|or|versus) (running )?(outside|outdoors?|road|track)|(outside|outdoor|road) (running )?(vs|or|versus) (the )?treadmill|is (the )?treadmill (running )?(easier|cheating|bad)|treadmill running|run(ning)? on (a|the) treadmill|treadmill incline 1)\\b",
+    "body": [
+      "Both count, and both are great. The best surface is the one you'll actually run on this week. Treadmills are perfect for bad weather, early mornings, exact pacing and learning run-walk intervals. Outside wins for fresh air, real terrain and getting ready for a race on the road.",
+      "Treadmill running can feel a little easier because there's no wind and the belt keeps you moving. Setting the incline to 1 percent is a common way to make it feel closer to outdoor effort. Outside, your pace swings with hills and wind, so run by effort and breathing instead of chasing the exact treadmill number.",
+      "Training for an outdoor race? Do at least one run a week outside so your legs learn to push the ground instead of riding the belt."
+    ],
+    "more": {
+      "why": "Outdoor running adds small changes in surface, turns and wind that your legs and ankles adapt to. Treadmills remove those variables, which makes them great for controlled workouts.",
+      "how": "Treadmill: 1 percent incline, a pace you can talk at, hands off the rails. Outside: pick a loop, note your time, and let effort guide the pace.",
+      "mistake": "Holding the handrails at a steep incline. If you need the rails, lower the speed or the incline instead.",
+      "example": "Weekday intervals on the treadmill where you can set exact speeds, then a weekend easy run outside on a park loop."
+    },
+    "chips": [
+      "How fast should I run?",
+      "Running in the heat?",
+      "Running in the cold?"
+    ],
+    "related": [
+      "sh-a-062",
+      "sh-a-040",
+      "sh-a-063",
+      "sh-a-064"
+    ]
+  },
+  {
+    "id": "sh-a-061",
+    "topic": "running-race",
+    "title": "Your first 5k race: how to get ready",
+    "keys": [
+      "first 5k",
+      "my first 5k race",
+      "should i sign up for an event",
+      "should i sign up for a race",
+      "how to prepare for a 5k",
+      "training for a 5k",
+      "5k race tips",
+      "how to train for a 5k",
+      "running my first race",
+      "fun run",
+      "what to do before a 5k",
+      "sign up for a 5k",
+      "race day tips"
+    ],
+    "match": "\\b((first|1st) (5k|race|fun run)|my first race|sign (up )?for (a|an) (5k|race|event|fun run)|(train|training|prepare|preparing|ready) for (a|my|the) 5k|5k (race )?(tips|training|plan)|race day tips|before a 5k)\\b",
+    "body": [
+      "Yes, sign up. A date on the calendar turns someday I'll run into I run on Tuesdays. A local 5k is perfect: it's short, it's friendly, and walkers are welcome at most of them. Give yourself 8 to 10 weeks if you're starting from zero, or 4 to 6 if you can already jog 20 minutes.",
+      "Train 3 days a week: two easy runs and one slightly harder day with short pickups, plus your strength work. Each week add a few minutes to your longest run until you can cover 30 to 35 minutes, or the full distance with walk breaks. In the final week, cut your running about in half and keep it easy.",
+      "Race day: nothing new. Same shoes, same breakfast, same socks you trained in. Arrive early, walk and jog 10 minutes to warm up, and start slower than you think you should. Finish strong, then go collect your snack and your bragging rights."
+    ],
+    "more": {
+      "why": "An event gives your training a deadline and a reason. Most people train more consistently with a date circled.",
+      "how": "Pick a race 8 to 10 weeks away, put it in your calendar, then plan backward: build weeks first, one easy week right before the race.",
+      "beginner": "Run-walk the race if that is how you trained. Plenty of people do, and finishing is finishing.",
+      "example": "Race week: Monday easy 20 minutes, Wednesday 15 minutes with 4 short pickups, Friday off or a walk, Saturday race.",
+      "mistake": "Trying new shoes, new clothes or a new breakfast on race morning. Test everything in training first."
+    },
+    "chips": [
+      "How do I pace a 5k?",
+      "How do I warm up for a run?",
+      "Running and lifting in one week?"
+    ],
+    "related": [
+      "sh-a-062",
+      "sh-a-071",
+      "sh-a-053"
+    ]
+  },
+  {
+    "id": "sh-a-062",
+    "topic": "running-pace",
+    "title": "How fast to run: easy pace and race pacing",
+    "keys": [
+      "how fast should i run",
+      "how do i pace a 5k",
+      "running pace",
+      "what pace should i run",
+      "easy pace",
+      "conversational pace",
+      "am i running too fast",
+      "pacing a race",
+      "5k pace",
+      "how to pace yourself running",
+      "my pace is slow",
+      "good 5k time",
+      "minutes per mile"
+    ],
+    "match": "\\b(how fast should i (run|jog)|pac(e|ing) (a|my|for a|for my) (5k|10k|race|run)|running pace|easy pace|conversational pace|running too fast|what pace (should|do) i|good 5k (time|pace)|minutes? per mile|my pace is (slow|so slow)|5k pace|pace yourself running)\\b",
+    "body": [
+      "Slower than you think. Most of your running, around 75 to 80 percent of it, should be at an easy pace where you could talk in full sentences. It feels almost too slow. That's the point. Easy runs build the engine, and a few harder sessions sharpen it.",
+      "Pacing a 5k: run the first mile a touch slower than you hope to average, settle in for the second, and spend whatever's left on the last mile. If you go out hot, the last mile collects interest. A pace you can hold for 20 minutes of hard but controlled running in training is close to your 5k effort.",
+      "What's a good time? Yours. A first 5k somewhere between 30 and 45 minutes is very common, and walkers often finish closer to an hour. The only time that matters is the one you beat next."
+    ],
+    "more": {
+      "why": "Easy running builds aerobic fitness with less fatigue, so you can run more often. Racing well depends on even effort, not a heroic start.",
+      "how": "Use the talk test on easy days. On race day, check your first mile split, and if it's faster than planned, ease off right away.",
+      "example": "Hoping for 33 minutes? That's about 10:40 per mile. Aim for about 10:50 in mile one, about 10:40 in mile two, then empty the tank.",
+      "mistake": "Running every run at a medium-hard pace. It feels productive but leaves you too tired to go hard and too fast to recover.",
+      "beginner": "Ignore pace for the first month. Run by breathing and only look at your watch at the end."
+    },
+    "chips": [
+      "What is a tempo run?",
+      "How do I improve my mile?",
+      "How do I get faster?"
+    ],
+    "related": [
+      "sh-a-073",
+      "sh-a-027",
+      "sh-a-061",
+      "sh-about-04"
+    ]
+  },
+  {
+    "id": "sh-a-063",
+    "topic": "running-weather",
+    "title": "Running in the heat without wrecking yourself",
+    "keys": [
+      "running in the heat",
+      "running in hot weather",
+      "how to run in the heat",
+      "summer running",
+      "is it safe to run in the heat",
+      "running when its hot",
+      "running in humidity",
+      "heat running tips",
+      "too hot to run",
+      "running in summer",
+      "desert running",
+      "working out in the heat"
+    ],
+    "match": "\\b(run(ning)? (in|when) (the )?(heat|hot weather|humidity|summer|its hot|it'?s hot)|(hot|summer|humid|desert) (weather )?running|too hot to (run|train|work ?out)|heat (running|training) tips|work(ing)? out in the heat)\\b",
+    "body": [
+      "Heat makes every run harder, so slow down and stop judging your pace. On a hot day your heart rate climbs faster at the same speed, so run by effort and expect to be noticeably slower, often 30 seconds to a minute or more per mile. That isn't lost fitness, that's sweat and physics.",
+      "Go early or late, when it's coolest. Wear light, loose, light-colored clothes, a hat or visor, and sunscreen. Drink water through the day, not just right before, and carry water for anything over about 30 minutes. For long or very sweaty runs, electrolytes can help replace the salt you lose. Check with your doctor first if you have a medical condition, are pregnant, or take anything your doctor gave you.",
+      "Give yourself 1 to 2 weeks of shorter, easier runs to adapt. Stop right away and get into shade if you feel dizzy, confused or sick to your stomach, stop sweating, or get chills. Cool off, sip water, and get medical help if it doesn't pass quickly."
+    ],
+    "more": {
+      "why": "In the heat your body sends more blood to your skin to cool you, which leaves less for your muscles. Effort goes up even when pace doesn't.",
+      "how": "Run loops past your house or a water fountain so you can refill. Freeze a water bottle the night before so it stays cold longer.",
+      "mistake": "Chasing your cool weather pace in July. Hit the effort, not the number.",
+      "example": "Hot morning plan: 6 a.m. start, 25 minutes easy on a shaded route, water bottle in hand, then a cool shower and a tall glass of water."
+    },
+    "reads": [
+      "water"
+    ],
+    "chips": [
+      "Running in the cold?",
+      "How fast should I run?"
+    ],
+    "related": [
+      "sh-a-064",
+      "sh-a-062"
+    ]
+  },
+  {
+    "id": "sh-a-064",
+    "topic": "running-weather",
+    "title": "Running in the cold, the rain and the dark",
+    "keys": [
+      "running in the cold",
+      "cold weather running",
+      "winter running",
+      "how to dress for running in the cold",
+      "running in winter",
+      "is it bad to run in the cold",
+      "running in snow",
+      "running when its freezing",
+      "what to wear running in winter",
+      "cold air hurts my lungs running",
+      "running in the rain",
+      "running in the dark"
+    ],
+    "match": "\\b(run(ning)? (in|when) (the )?(cold|winter|snow|rain|dark|freezing|its freezing)|(cold|winter|snow|rain|freezing) (weather )?running|dress (for|to) run(ning)? in (the )?(cold|winter)|wear running in (the )?winter|cold air hurts)\\b",
+    "body": [
+      "Cold runs are some of my favorites. Dress like it's about 15 to 20 degrees Fahrenheit warmer than it is, because you'll heat up fast. If you're a little chilly in the first 5 minutes, you dressed right.",
+      "Layer it: a sweat-wicking base layer, a light warm layer, and a wind or rain shell when you need it. Cover your hands and ears, since that's where comfort goes first. Warm up indoors for 5 minutes with leg swings, skips and marching so you start the run already moving well. In snow or ice, shorten your stride, slow down and pick cleared routes. In the dark, wear something reflective and a light so drivers see you.",
+      "Cold air can make your throat or chest feel raw. A light neck gaiter over your mouth warms the air a little. If you have asthma, or breathing feels tight, wheezy or painful, talk to your doctor before running in the cold."
+    ],
+    "more": {
+      "why": "Muscles are stiffer in the cold, so an indoor warm-up helps you start smoothly. Dressing too warm makes you sweat a lot, then chill once you slow down.",
+      "how": "Run into the wind on the way out and with it on the way home, so you're not facing it while you're sweaty.",
+      "mistake": "Wearing a heavy cotton hoodie. It soaks up sweat and stays cold and wet against your skin.",
+      "example": "Around 30 degrees Fahrenheit: long sleeve base layer, light jacket, running tights, gloves, a hat and your normal running shoes."
+    },
+    "chips": [
+      "Running in the heat?",
+      "How do I warm up for a run?"
+    ],
+    "related": [
+      "sh-a-063",
+      "sh-a-071",
+      "sh-b-018"
+    ]
+  },
+  {
+    "id": "sh-a-065",
+    "topic": "running-and-lifting",
+    "title": "Running and lifting in the same week",
+    "keys": [
+      "running and lifting",
+      "can i run and lift in the same week",
+      "running and lifting in one week",
+      "run and lift same day",
+      "will running kill my gains",
+      "lifting and running schedule",
+      "running and weight training",
+      "can i lift and run",
+      "running on leg day",
+      "run after leg day",
+      "strength and running plan",
+      "running and lifting schedule",
+      "run the day after leg day"
+    ],
+    "match": "\\b(run(ning)? and (lift(ing)?|weights|weight training|strength)(?! and lose)|lift(ing)? and run(ning)?|running (on|after) leg day|running kill my gains)\\b",
+    "body": [
+      "You can absolutely do both, and lots of people do. The trick is keeping your hard days hard and your easy days easy, so your legs aren't asked to do two big jobs on the same day.",
+      "A simple split: lift 2 to 3 days a week, run 2 to 3 days. Put your hardest run and your heavy leg day at least a day apart, ideally 48 hours. Easy runs can go almost anywhere, including after an upper body day. If you have to do both on the same day, do the one you care about most first, or split them morning and evening with 6 or more hours between.",
+      "Running won't erase your strength if you eat enough, sleep, and build up gradually. Most of the trouble comes from stacking hard runs on top of hard leg sessions with no recovery in between."
+    ],
+    "more": {
+      "why": "Hard running and heavy leg training tax the same muscles. Spacing them out lets each session be good instead of both being mediocre.",
+      "how": "Plan the week like this: mark the heavy leg day, mark the hard run, put them on opposite ends of the week, then fill in easy runs and upper body work.",
+      "example": "Monday lower body, Tuesday easy run, Wednesday upper body, Thursday intervals, Friday rest, Saturday full body, Sunday longer easy run.",
+      "mistake": "Hill sprints the day after heavy squats. Your hamstrings will file a formal complaint.",
+      "beginner": "Start with 2 lifting days and 2 run-walk days. Add a third of either once the week has felt easy for a month."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Will cardio kill my gains?",
+      "What is a 4-day week?",
+      "Cardio before or after lifting?"
+    ],
+    "related": [
+      "sh-a-042",
+      "sh-a-043",
+      "sh-a-066"
+    ]
+  },
+  {
+    "id": "sh-a-066",
+    "topic": "running-frequency",
+    "title": "How many days a week to run as a beginner",
+    "keys": [
+      "how many days a week should i run",
+      "how often should i run",
+      "can i run every day",
+      "running every day",
+      "how many times a week should i run",
+      "is running every day bad",
+      "how much should i run",
+      "run daily",
+      "running 3 times a week",
+      "how many miles a week should i run",
+      "weekly mileage",
+      "how many runs a week"
+    ],
+    "match": "\\b(how (many (days|times) a week|often) should i (run|jog)|run(ning)? every (day|single day)|run daily|how much should i run|how many (miles|runs) (a|per) week|weekly mileage|running (3|three) times a week)\\b",
+    "body": [
+      "Three days a week is the sweet spot for most new runners. It's enough to build fitness and lock in the habit, with a recovery day between runs so your legs can adapt.",
+      "Once three days has felt comfortable for a month or two, you can add a fourth, usually a short, very easy run. Build your total running time slowly: add a small amount each week, and every third or fourth week hold steady or go a little lower so your body can catch up.",
+      "Can you run every day? Experienced runners do, often with very easy days mixed in. For beginners it usually leads to sore shins and burnout. Walk on the off days instead. Walking counts, and it keeps you moving without the pounding."
+    ],
+    "more": {
+      "why": "Bones, tendons and joints adapt more slowly than your heart and lungs. Rest days between runs let the slower tissues catch up.",
+      "how": "Pick three days with a gap between them, like Monday, Wednesday and Saturday. Make one a little longer and keep the other two easy.",
+      "example": "Month 1: three runs of 20 to 25 minutes. Month 3: three runs of 30 minutes plus one 15 minute easy jog. Month 6: four runs, one of them around 45 minutes.",
+      "mistake": "Jumping from 3 runs to 6 because you're excited. Add one run at a time and give it a month before the next."
+    },
+    "reads": [
+      "sessions",
+      "steps"
+    ],
+    "chips": [
+      "How fast should I run?",
+      "Can I run and lift in the same week?",
+      "What is a 3-day week?"
+    ],
+    "related": [
+      "sh-a-053",
+      "sh-a-072",
+      "sh-a-065"
+    ]
+  },
+  {
+    "id": "sh-a-067",
+    "topic": "speed",
+    "title": "How to get faster at running",
+    "keys": [
+      "how do i get faster",
+      "how to run faster",
+      "get faster at running",
+      "improve my speed",
+      "run faster",
+      "how do i get quicker",
+      "faster 5k",
+      "speed work for runners",
+      "what are strides",
+      "how to increase running speed",
+      "i want to be faster",
+      "get faster sprinting"
+    ],
+    "match": "\\b(get (faster|quicker)(?! feet)|run faster|(improve|increase|build) (my )?(running )?speed|speed work|what are strides|running strides|faster 5k|want to be faster)\\b",
+    "body": [
+      "To get faster, you need two things: a bigger engine and practice running fast. Most people only do the in-between thing, the medium-hard run every single time, and then wonder why they're stuck.",
+      "Keep most runs easy, then add one speed session a week. Start with strides: after an easy run, do 4 to 6 relaxed 20 second pickups to about 85 percent effort, walking back between each. After a few weeks, add an interval day, like 6 x 400 meters a bit faster than your 5k effort with 90 seconds to 2 minutes of rest, or a 15 to 20 minute tempo run at comfortably hard.",
+      "Strength training helps too, since strong legs push the ground harder. For pure sprint speed, short all-out efforts of 10 to 40 meters with full rest are the move, a couple of times a week at most."
+    ],
+    "more": {
+      "why": "Easy miles build your aerobic base, and short fast work trains your legs and nervous system to move quickly. You need both to race faster.",
+      "how": "Pick one day for speed. Warm up 10 minutes, do the speed work, cool down 5 to 10 minutes. Everything else stays easy.",
+      "example": "Weeks 1 to 3: strides twice a week. Weeks 4 to 8: one day of 6 x 400 meters, one easy day with strides, one longer easy run.",
+      "mistake": "Turning every run into a race against your last run. Fast days work because the easy days are truly easy.",
+      "advanced": "Rotate three workouts over three weeks: short reps like 8 x 200 meters, longer reps like 4 x 800 meters, and a 20 minute tempo. Change one thing at a time."
+    },
+    "chips": [
+      "What is a tempo run?",
+      "How do I improve my mile?",
+      "How do I start sprinting?"
+    ],
+    "related": [
+      "sh-a-073",
+      "sh-a-068",
+      "sh-a-032"
+    ]
+  },
+  {
+    "id": "sh-a-068",
+    "topic": "running-mile",
+    "title": "How to improve your mile time",
+    "keys": [
+      "how do i improve my mile",
+      "faster mile",
+      "mile time",
+      "how to run a faster mile",
+      "run a mile without stopping",
+      "mile run test",
+      "improve my mile time",
+      "sub 10 mile",
+      "sub 8 mile",
+      "good mile time",
+      "how to run a mile",
+      "timed mile"
+    ],
+    "match": "\\b((faster|timed|better) mile|mile (time|run test|test)|sub ?\\d{1,2}( minute)? mile|run a (faster )?mile|improve my mile)\\b",
+    "body": [
+      "The mile is my kind of race: short enough to go hard, long enough to punish a bad start. To improve it, you need a little speed, a lot of easy aerobic running, and some practice at the pace you want.",
+      "Test first. Warm up 10 minutes, run one mile as evenly hard as you can, and log the time. Then train 3 days a week for 6 weeks: one easy run of 20 to 30 minutes, one day of 6 to 8 x 200 meters at goal mile pace with equal walking rest, and one day of 4 x 400 meters a little slower than goal pace with 2 minutes of rest. Retest in week 6.",
+      "Can't run a mile without stopping yet? Start with run-walk and build toward 12 to 15 minutes of steady jogging first. The fast stuff comes after."
+    ],
+    "more": {
+      "why": "Short reps at goal pace teach your legs what that pace feels like, while easy runs build the fitness to hold it for four laps.",
+      "how": "On test day, aim for even laps. The first lap should feel controlled, not like a sprint.",
+      "example": "A 10:00 mile is about 2:30 per lap. Chasing 9:20? Your 200 meter reps sit right around 70 seconds each.",
+      "mistake": "Testing every week. Give the training 4 to 6 weeks before you check the clock again."
+    },
+    "chips": [
+      "How do I get faster?",
+      "How fast should I run?"
+    ],
+    "related": [
+      "sh-a-067",
+      "sh-a-062"
+    ]
+  },
+  {
+    "id": "sh-a-069",
+    "topic": "running-start",
+    "title": "Why running feels so hard and you keep stopping",
+    "keys": [
+      "why is running so hard",
+      "i cant run without stopping",
+      "why do i get tired running",
+      "running is hard",
+      "i get tired after 2 minutes of running",
+      "why cant i run long",
+      "i hate running",
+      "running feels awful",
+      "legs feel heavy running",
+      "how to run longer without stopping",
+      "i have to stop running",
+      "running makes me exhausted"
+    ],
+    "match": "\\b(why is running so hard|running is (so )?hard|(cant|can't|cannot|can not) run (without stopping|for long|long|very far)|running feels (awful|terrible|so hard)|run longer without stopping|have to stop running|tired (after .{1,20} of )?running|heavy (when|while)? ?running|i hate running)\\b",
+    "body": [
+      "Almost always, it's pace. You're running too fast for your current fitness, so your breathing spikes, your legs fill up, and you stop at two minutes feeling like running hates you. It doesn't. It just wants you to slow down.",
+      "Try this: slow to a jog so easy you could chat, even if it's barely faster than a walk. Use run-walk intervals, like 2 minutes jog and 1 minute walk, and stretch the jog by 30 to 60 seconds each week. Most people are shocked how much longer they can go at a slower pace.",
+      "Heavy legs can also come from running the day after hard leg training, sleeping badly, or running on an empty tank. Give it three weeks of slow, steady runs before you decide running isn't for you. And if you truly hate it, that's okay. Rowing, biking and incline walking build the same engine."
+    ],
+    "more": {
+      "why": "Running fast pushes you above the effort you can sustain, so fatigue piles up quickly. Slower running keeps you in a zone your body can hold for much longer.",
+      "how": "Run by the talk test. If you can't say a short sentence, slow down or walk until you can, then jog again.",
+      "beginner": "Start with 1 minute jog and 2 minutes walk, 8 rounds, three times a week. That is a real session, and it counts.",
+      "mistake": "Trying to match the speed of your friend or the person on the next treadmill. Your easy pace belongs to you."
+    },
+    "chips": [
+      "How do I start running?",
+      "Which cardio machine is best?",
+      "How do I breathe when running?"
+    ],
+    "related": [
+      "sh-a-053",
+      "sh-a-056",
+      "sh-a-045",
+      "sh-a-050"
+    ]
+  },
+  {
+    "id": "sh-a-070",
+    "topic": "running-aches",
+    "title": "Sore knees after running: what to change",
+    "keys": [
+      "knees hurt after running",
+      "knee pain running",
+      "my knees hurt when i run",
+      "is running bad for your knees",
+      "running bad for knees",
+      "sore knees from running",
+      "knee ache after jogging",
+      "does running ruin your knees",
+      "knee pain on treadmill",
+      "knees hurt running downhill",
+      "will running wreck my knees"
+    ],
+    "match": "\\b(knees? (hurt|hurts|pain|ache|aches|sore)( after| when| from| on| running)? ?(i )?(run|running|jog|jogging|treadmill)?|(sore|achy|aching) knees? (after|from) (run|running|jog|jogging)|running (is )?bad for (your |my )?knees|(ruin|ruins|wreck) (your|my) knees)\\b",
+    "body": [
+      "For most people, running at sensible amounts isn't bad for healthy knees, and plenty of lifelong runners have knees that are doing just fine. When knees ache, it's usually a sign the load jumped too fast: more miles, more hills, faster pace or a new surface all at once.",
+      "Things to change first: cut your running back for a week or two, keep it easy and flat, shorten your stride with a slightly quicker cadence, and check that your shoes aren't worn out. Add strength work twice a week with squats, step-ups, split squats and glute bridges. Stronger legs and hips share the load.",
+      "If the knee is swollen, locks or gives way, the pain is sharp, or it keeps getting worse, stop running and see a doctor or physical therapist. Dull, mild soreness that fades within a day is the kind you can usually train around by backing off."
+    ],
+    "more": {
+      "why": "The muscles around your hips and thighs help control every landing. When they're stronger, your knees take less of the shock.",
+      "how": "Twice a week after an easy run: 3 sets of 10 step-ups each leg, 3 sets of 10 split squats each leg, and 3 sets of 15 glute bridges.",
+      "mistake": "Running through worsening pain because you're scared to lose fitness. A short break costs far less than a long one.",
+      "home": "No gym? Step-ups on a sturdy stair, split squats and bridges on the floor work just as well."
+    },
+    "reads": [
+      "injury"
+    ],
+    "chips": [
+      "What cadence should I run at?",
+      "What running shoes should I get?"
+    ],
+    "related": [
+      "sh-a-055",
+      "sh-a-059",
+      "sh-a-058"
+    ]
+  },
+  {
+    "id": "sh-a-071",
+    "topic": "running-warmup",
+    "title": "How to warm up and cool down for a run",
+    "keys": [
+      "how do i warm up for a run",
+      "warm up before running",
+      "running warm up",
+      "should i stretch before running",
+      "cool down after running",
+      "stretching after a run",
+      "dynamic warm up running",
+      "warm up for a 5k",
+      "what to do before a run",
+      "how to cool down after a run",
+      "pre run warm up"
+    ],
+    "match": "\\b(warm(ing)? ?up (before|for) (a |my )?(run|running|jog|5k|race)|(running|pre[ -]?run|pre[ -]?race) warm ?up|warm ?up running|stretch(ing)? (before|after) (a |my )?(run|running|jog)|cool(ing)? ?down after (a |my )?(run|running|jog)|before a run)\\b",
+    "body": [
+      "For an easy run, the first 5 to 10 minutes are the warm-up. Start with a brisk walk for 2 to 3 minutes, then jog very slowly and let the pace come to you. Most runs feel clunky for the first 10 minutes. That's normal, not a sign you should quit.",
+      "Before a race or a harder session, do more: 5 to 10 minutes of easy jogging, then about 5 minutes of drills like leg swings, high knees, butt kicks and skips, then 3 or 4 short strides building toward race effort. Save long, held stretches for after. Holding a big stretch right before running doesn't do much and can leave you feeling flat.",
+      "Cool down with 3 to 5 minutes of walking so your breathing and heart rate settle. Then stretch your calves, hamstrings, quads and hips gently if it feels good."
+    ],
+    "more": {
+      "why": "Warming up raises muscle temperature and gets your breathing ready, so the first fast minutes feel smoother and safer.",
+      "how": "Drill set: 10 leg swings front to back and 10 side to side on each leg, then 20 meters each of high knees, butt kicks and skips, then 2 to 4 strides.",
+      "short_on_time": "Make the first 5 minutes of your run a slow jog and the last 3 minutes a walk. That's a warm-up and a cool down built right in.",
+      "mistake": "Sprinting out the door straight from the car. Your legs need a few minutes to get the memo."
+    },
+    "chips": [
+      "How do I warm up for intervals?",
+      "How do I stop a side stitch?"
+    ],
+    "related": [
+      "sh-a-031",
+      "sh-a-057",
+      "sh-a-061"
+    ]
+  },
+  {
+    "id": "sh-a-072",
+    "topic": "running-distance",
+    "title": "Building distance safely and your long run",
+    "keys": [
+      "how to increase running distance",
+      "long run",
+      "how long should my long run be",
+      "10 percent rule",
+      "how fast can i increase mileage",
+      "building mileage",
+      "how to run further",
+      "going from 5k to 10k",
+      "training for a 10k",
+      "add miles running",
+      "run longer distances",
+      "how do i build up distance"
+    ],
+    "match": "\\b(long run|increase (my )?(running )?(distance|mileage|miles)|(10|ten) ?(percent|%) rule|build(ing)? (up )?(mileage|distance)|run (further|farther|longer distances)|5k to (a )?10k|(train|training) for (a|my) 10k|add miles)\\b",
+    "body": [
+      "Go slowly and keep it easy. The long run is the slowest run of your week, not the hardest. Its job is time on your feet, so the pace should feel conversational the whole way.",
+      "You'll hear about the 10 percent rule, raising your weekly running by about 10 percent at a time. Treat that as a ceiling, not a target. A safer way to think about it: add 5 to 10 minutes to your long run every week or two, keep your other runs about the same, and every third or fourth week pull back a little to recover. Your long run usually sits around a quarter to a third of your weekly running time.",
+      "Going from 5k to 10k? Most people need about 8 to 12 weeks of building, with the long run gradually reaching 60 to 70 minutes."
+    ],
+    "more": {
+      "why": "Gradual increases give your legs time to adapt. Big jumps in distance are one of the most common reasons runners end up sore and sidelined.",
+      "how": "Track total running minutes per week. Add a little, hold a week, add a little, ease back. Then repeat the cycle.",
+      "example": "Long runs for weeks 1 to 4: 30, 35, 40, then 30 minutes. Weeks 5 to 8: 40, 45, 50, then 40 minutes.",
+      "mistake": "Running your long run at your normal pace. Slow it down by a minute or more per mile.",
+      "beginner": "Can't run the whole long run yet? Use walk breaks. Time on your feet counts, running or walking."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How fast should I run?",
+      "Shin pain from running?"
+    ],
+    "related": [
+      "sh-a-066",
+      "sh-a-062",
+      "sh-a-058"
+    ]
+  },
+  {
+    "id": "sh-a-073",
+    "topic": "running-types",
+    "title": "Easy runs, tempo runs, intervals and long runs explained",
+    "keys": [
+      "what is a tempo run",
+      "tempo run",
+      "types of runs",
+      "easy run",
+      "recovery run",
+      "threshold run",
+      "fartlek",
+      "what is fartlek",
+      "different kinds of runs",
+      "what runs should i do",
+      "progression run",
+      "what is an easy run"
+    ],
+    "match": "\\b(tempo runs?|types of runs|kinds of runs|easy runs?|recovery runs?|threshold runs?|fartlek|progression runs?|what runs should i do)\\b",
+    "body": [
+      "Think of runs like tools in a gym bag. Easy runs are conversational and make up most of your week. They build the engine. Long runs are easy runs that go longer, for endurance. Recovery runs are shorter and even slower, usually the day after something hard.",
+      "Tempo runs are comfortably hard: you can say a few words but not chat, for about 15 to 25 minutes after a warm-up. Intervals are short, faster repeats with rest, like 6 x 400 meters. Fartlek is Swedish for speed play: mixing fast and easy bursts by feel, like running hard to the next light pole and easy to the one after. Progression runs start easy and finish a little faster.",
+      "Most beginners only need easy runs plus one fun, faster session a week. Add tools as you go."
+    ],
+    "more": {
+      "why": "Different efforts train different systems. Easy runs build your base, tempo runs raise the pace you can hold, and intervals sharpen your top speed.",
+      "how": "Tempo: 10 minutes easy, 20 minutes comfortably hard, 10 minutes easy. Fartlek: 20 minutes easy jogging with 6 to 8 pickups of 20 to 60 seconds.",
+      "example": "A balanced week: easy run Tuesday, fartlek Thursday, long easy run Saturday. Three different tools and plenty of recovery between them.",
+      "mistake": "Making every run a tempo run. Comfortably hard every day turns into uncomfortably tired by week three."
+    },
+    "chips": [
+      "How fast should I run?",
+      "How do I do intervals?",
+      "How do I get faster?"
+    ],
+    "related": [
+      "sh-a-062",
+      "sh-a-067",
+      "sh-a-029"
+    ]
+  },
+  {
+    "id": "sh-a-074",
+    "topic": "running-hills",
+    "title": "Running up and down hills without dying",
+    "keys": [
+      "how to run up hills",
+      "running uphill",
+      "running downhill",
+      "hill running technique",
+      "hills are killing me",
+      "how do i run hills",
+      "uphill running form",
+      "downhill running knees",
+      "hilly route",
+      "how to get better at hills",
+      "hills on my run"
+    ],
+    "match": "\\b(run(ning)? (up|down) ?hills?|(up|down)hill running|running (up|down)hill|hill running|how (do i|to) run hills|hills (are killing|kill) me|better at hills|hilly (route|run)|hills on my run)\\b",
+    "body": [
+      "Hills are just strength training wearing running clothes. Going up: shorten your stride, lean slightly forward from the ankles, drive your arms a little harder and keep your effort steady, not your pace. Slowing down on the climb is fine, and smart. Look a few steps up the road, not at your feet.",
+      "Going down: stay tall, let gravity help, and take quick, light steps that land under your hips. Don't lean way back and brake with your heels, because that's what makes your quads and knees scream. On steep downhills, slow down and shorten your steps even more.",
+      "Want to get better at hills? Run them. Pick a route with a couple of gentle hills once a week, and every so often add hill repeats: 30 to 60 seconds up at a strong effort, walk or jog down, 4 to 8 times."
+    ],
+    "more": {
+      "why": "Uphill running builds leg power and fitness with less impact, since you land on a slope. Controlled downhills teach your legs to absorb force.",
+      "how": "Uphill cue: short and quick, arms drive. Downhill cue: tall and light, quick feet.",
+      "mistake": "Attacking the bottom of the hill and crawling the top half. Go steady, then run right through the top instead of stopping at it.",
+      "home": "On a treadmill, a few minutes at 3 to 6 percent incline mixed into an easy run does the same job."
+    },
+    "chips": [
+      "How do I run hill sprints?",
+      "How do I get faster?"
+    ],
+    "related": [
+      "sh-a-033",
+      "sh-a-067"
+    ]
+  }
+]

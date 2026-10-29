@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "sh-a-026",
+    "topic": "zone-2",
+    "title": "Zone 2 cardio: what it is and why everyone talks about it",
+    "keys": [
+      "zone 2",
+      "zone 2 cardio",
+      "what is zone 2",
+      "zone two",
+      "zone 2 training",
+      "zone2",
+      "is zone 2 worth it",
+      "why zone 2",
+      "zone 2 benefits",
+      "low intensity cardio",
+      "easy cardio",
+      "aerobic base",
+      "base building cardio",
+      "steady state cardio",
+      "liss",
+      "liss cardio"
+    ],
+    "match": "\\b(zone ?(2|two)(?! (heart rate|hr|range|number))|liss( cardio)?|aerobic base|steady state cardio|low intensity (steady state|cardio))\\b",
+    "body": [
+      "Zone 2 is easy, steady cardio: hard enough that you're breathing a little deeper, easy enough that you could chat in full sentences the whole time. Think brisk walk uphill, an easy bike ride, a relaxed jog if you're fit. It feels almost too easy, and that's the point.",
+      "It builds your aerobic base, the engine underneath everything else. A bigger base means you recover faster between sets and intervals, you get winded less in classes and on stairs, and your heart works less hard at everyday paces.",
+      "Most people do well with 2 to 4 sessions a week of 30 to 60 minutes. Can't sing, but can talk? You're in it."
+    ],
+    "more": {
+      "why": "Easy aerobic work builds the systems that deliver and use oxygen, without the fatigue of hard training. That's why it stacks well on top of lifting.",
+      "how": "Pick a low-impact option (incline walk, bike, rower, elliptical). Settle into a pace where you breathe through your nose most of the time or could hold a conversation. Hold it 30 minutes or more.",
+      "beginner": "For many beginners a brisk walk is zone 2. Walk 20 to 30 minutes, 3 times a week, and build from there.",
+      "mistake": "Drifting harder every week because easy feels lazy. Easy days easy, hard days hard. The middle is where people get tired and stuck."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "How do I find my zone 2?",
+      "How much cardio per week?",
+      "What are heart rate zones?"
+    ],
+    "related": [
+      "sh-a-027",
+      "sh-a-028",
+      "sh-a-041"
+    ]
+  },
+  {
+    "id": "sh-a-027",
+    "topic": "zone-2",
+    "title": "How to find your zone 2: the talk test and heart rate",
+    "keys": [
+      "how do i find my zone 2",
+      "find my zone 2",
+      "zone 2 heart rate",
+      "what heart rate is zone 2",
+      "talk test",
+      "talk test cardio",
+      "zone 2 hr",
+      "zone 2 range",
+      "how to know if im in zone 2",
+      "zone 2 number",
+      "calculate zone 2",
+      "nose breathing cardio",
+      "maf heart rate",
+      "180 minus age"
+    ],
+    "match": "\\b(find (my )?zone ?(2|two)|zone ?(2|two) (heart rate|hr|range|number|bpm)|talk test|(in|am i in) zone ?(2|two)|calculate (my )?zone|180 minus (my )?age|maf (heart rate|method))\\b",
+    "body": [
+      "The simplest test is free and needs no watch: the talk test. In zone 2 you can speak in full sentences but couldn't sing a song. If you can only get out a few words, you're above it. If you could belt out a ballad, nudge the pace up.",
+      "With a heart rate monitor, zone 2 is roughly 60 to 70 percent of your max heart rate. Estimate max as 220 minus your age. At 40, that's about 180, so zone 2 lands around 108 to 126 beats per minute. Those formulas can be 10 to 15 beats off for any one person, so let the talk test break the tie.",
+      "Chest straps read more accurately than wrist watches during cardio. Whatever you use, the feeling matters more than the number."
+    ],
+    "more": {
+      "why": "Your true max varies a lot from person to person, so a formula is a starting guess. Breathing and the ability to talk track your real effort directly.",
+      "how": "Warm up 5 minutes, settle into a steady pace, then try reciting a few sentences out loud. If that's comfortable, you're there, and if you're gasping between words, slow down.",
+      "example": "At 30, estimated max is about 190, so zone 2 is around 114 to 133 bpm. If you're chatting easily at 140, trust the chat and your real numbers are probably higher than the formula.",
+      "mistake": "Walking at a snail's pace to force a watch number that doesn't fit you. If you feel like you're barely moving and can sing, you're under it."
+    },
+    "chips": [
+      "What are heart rate zones?",
+      "What is zone 2 cardio?",
+      "Why is my heart rate so high?"
+    ],
+    "related": [
+      "sh-a-026",
+      "sh-a-028"
+    ]
+  },
+  {
+    "id": "sh-a-028",
+    "topic": "heart-rate",
+    "title": "Heart rate zones made simple",
+    "keys": [
+      "heart rate zones",
+      "what are heart rate zones",
+      "hr zones",
+      "training zones",
+      "zone 3",
+      "zone 4",
+      "zone 5",
+      "max heart rate",
+      "how to find max heart rate",
+      "220 minus age",
+      "what heart rate should i train at",
+      "fat burning zone",
+      "cardio zone",
+      "heart rate training",
+      "target heart rate"
+    ],
+    "match": "\\b(heart rate zones?|hr zones?|training zones?|zone ?(1|3|4|5|three|four|five)|max(imum)? heart rate|220 minus|fat burning zone|target heart rate|heart rate training)\\b",
+    "body": [
+      "Most watches use five zones, based on a percent of your max heart rate. Zone 1 is 50 to 60 percent (very easy, warm-ups and walks), zone 2 is 60 to 70 (easy and conversational), and zone 3 is 70 to 80 (steady and comfortably hard). Zone 4 is 80 to 90 (hard, a few words at a time), and zone 5 is 90 to 100 (all out, only for short bursts).",
+      "Estimate your max with 220 minus your age, and treat it as a rough guess. A good week for most people is mostly zones 1 and 2, with a small slice of 4 and 5 from intervals.",
+      "And the 'fat burning zone'? Easy cardio uses a higher share of fat for fuel, but harder cardio burns more total energy per minute. For fat loss, what you'll do consistently plus your food matters more than the zone."
+    ],
+    "more": {
+      "why": "Zones are just a shared language for effort. Knowing roughly where you are helps you keep easy days easy and hard days actually hard.",
+      "example": "Age 35: max about 185. Zone 2 is about 111 to 130, zone 4 about 148 to 167.",
+      "mistake": "Living in zone 3 every session. It's hard enough to tire you but not hard enough to build top-end fitness. Pick a lane: easy or hard.",
+      "beginner": "Ignore the zones for your first month. Use the talk test: easy days you can chat, hard intervals you can't."
+    },
+    "chips": [
+      "How do I find my zone 2?",
+      "How do I do intervals?",
+      "Why is my heart rate so high?"
+    ],
+    "related": [
+      "sh-a-027",
+      "sh-a-026",
+      "sh-a-052"
+    ]
+  },
+  {
+    "id": "sh-a-029",
+    "topic": "intervals",
+    "title": "How to do intervals the right way",
+    "keys": [
+      "intervals",
+      "interval training",
+      "how do i do intervals",
+      "how to do intervals",
+      "interval workout",
+      "cardio intervals",
+      "treadmill intervals",
+      "bike intervals",
+      "rower intervals",
+      "what are intervals",
+      "interval running",
+      "how long should intervals be",
+      "best interval workout"
+    ],
+    "match": "\\b((interval|intervals) (training|workouts?|running|session)|(treadmill|bike|rower|rowing|cardio|running) intervals|how (do i|to) do intervals|what are intervals|how long should intervals be)\\b",
+    "body": [
+      "Intervals are hard efforts broken up with easy recovery, so you can spend more total time working hard than you could in one go. Pick your flavor by how long the hard part is.",
+      "Short and spicy: 15 to 30 seconds hard, 30 to 90 seconds easy, 6 to 10 rounds. Middle: 1 to 2 minutes hard, equal time easy, 5 to 8 rounds. Long: 3 to 4 minutes at a hard but steady pace, 2 to 3 minutes easy, 3 to 5 rounds. Every hard rep should feel like a 7 to 9 out of 10, and your last one should look about like your first.",
+      "Always warm up 8 to 10 minutes first, and cool down 5. Bike, rower and incline treadmill are the kindest on your joints."
+    ],
+    "more": {
+      "why": "Hard efforts push your heart and muscles to adapt, and the recovery lets you do more of them. That's how you raise your ceiling, not just your base.",
+      "beginner": "Start with 6 rounds of 20 seconds hard and 70 seconds easy on a bike, once a week. Add a round each week until you hit 10.",
+      "example": "Rower: 6 x 1 minute hard, 1 minute easy. Note your distance on each hard minute and keep them within about 10 meters of each other.",
+      "mistake": "Making the 'easy' part a hard-ish part. Recovery means truly easy, or the next rep falls apart."
+    },
+    "chips": [
+      "How often should I do HIIT?",
+      "How do I warm up for intervals?",
+      "How do I start sprinting?"
+    ],
+    "related": [
+      "sh-a-030",
+      "sh-a-031",
+      "sh-a-015"
+    ]
+  },
+  {
+    "id": "sh-a-030",
+    "topic": "hiit",
+    "title": "HIIT: how often, how long and how hard",
+    "keys": [
+      "hiit",
+      "how often should i do hiit",
+      "hiit workout",
+      "how much hiit",
+      "hiit every day",
+      "is hiit good",
+      "hiit vs steady state",
+      "high intensity interval training",
+      "hiit for beginners",
+      "hiit too much",
+      "can i do hiit daily",
+      "hiit classes how often",
+      "is hiit better than cardio"
+    ],
+    "match": "\\b(hiit|high intensity interval training)\\b",
+    "body": [
+      "HIIT is high intensity interval training: short, hard efforts with recovery in between. It's powerful, which is exactly why you don't need much. Two sessions a week is the sweet spot for most people, three at most, with at least a day between them.",
+      "Keep the hard work itself short. Somewhere around 10 to 20 minutes of total hard effort a week is plenty for most people. A 20-minute HIIT session might only hold 5 to 8 minutes of truly hard work, and that's normal.",
+      "HIIT versus steady cardio isn't a fight. Do a little hard work and a lot of easy work. If you're HIIT-ing every day, your 'hard' sessions are probably medium, and you're tired all the time."
+    ],
+    "more": {
+      "why": "Hard intervals take real recovery, like a heavy leg day does. Stack them too closely and every session gets a little worse instead of better.",
+      "beginner": "Start with one interval day a week for 3 or 4 weeks, built on a few easy cardio sessions. Then add a second.",
+      "mistake": "Doing HIIT the day before a heavy leg day, then wondering why squats felt like wet cement. Plan them away from your hardest lifts.",
+      "example": "Tuesday: 8 x 20 seconds hard on the bike, 70 seconds easy. Friday: 5 x 2 minutes hard on the rower, 2 minutes easy. Easy walks or rides on other days."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I do intervals?",
+      "What is zone 2 cardio?",
+      "How much cardio per week?"
+    ],
+    "related": [
+      "sh-a-029",
+      "sh-a-041",
+      "sh-a-016"
+    ]
+  },
+  {
+    "id": "sh-a-031",
+    "topic": "intervals",
+    "title": "How to warm up for intervals and sprints",
+    "keys": [
+      "how do i warm up for intervals",
+      "warm up for sprints",
+      "warm up before hiit",
+      "sprint warm up",
+      "how to warm up for cardio",
+      "warm up for running",
+      "dynamic warm up",
+      "warm up before intervals",
+      "pre run warm up",
+      "warm up drills",
+      "a skips",
+      "build ups",
+      "strides"
+    ],
+    "match": "\\b(warm(ing)?[ -]?up (for|before) (intervals?|sprints?|sprinting|hiit|cardio|running|a run|my run)|(sprint|running|pre[ -]?run|dynamic) warm[ -]?ups?|a skips?|build ?ups|strides)\\b",
+    "body": [
+      "Never go from zero to sprint. Cold legs and an all-out effort is how hamstrings get grumpy. Give it 10 minutes, and do it in three steps.",
+      "First, 5 minutes easy on whatever you're about to use: jog, bike, row. Second, 3 to 4 minutes of dynamic moves: leg swings, walking lunges, high knees, butt kicks, A-skips. Third, 2 to 4 build-ups: 15 to 20 seconds starting easy and finishing at about 80 to 90 percent, with a full walk back between them.",
+      "If your first interval feels like your best one, you warmed up right. If it feels like your worst, add 5 more easy minutes next time."
+    ],
+    "more": {
+      "why": "Warm muscles are more elastic, your heart rate rises gradually, and the build-ups rehearse fast movement before you ask for it all out.",
+      "how": "Easy 5, drills 3 to 4, build-ups 2 to 4. That's it. Keep the build-ups smooth and relaxed, not a race.",
+      "short_on_time": "Even 5 minutes beats nothing: 3 minutes easy, a minute of drills, two short build-ups.",
+      "mistake": "Static stretching for 10 minutes and calling it a warm-up. Save long holds for after."
+    },
+    "chips": [
+      "How do I start sprinting?",
+      "How do I do intervals?",
+      "How do I run hill sprints?"
+    ],
+    "related": [
+      "sh-a-032",
+      "sh-a-029"
+    ]
+  },
+  {
+    "id": "sh-a-032",
+    "topic": "sprints",
+    "title": "Starting sprint training without pulling a hamstring",
+    "keys": [
+      "how do i start sprinting",
+      "sprinting",
+      "sprint training",
+      "sprint workout",
+      "how to sprint",
+      "start sprinting",
+      "sprints for fat loss",
+      "are sprints good",
+      "how many sprints",
+      "sprint for beginners",
+      "flat sprints",
+      "track sprints",
+      "40 yard dash",
+      "100 meter sprint"
+    ],
+    "match": "\\b((start|starting|begin|beginner) (to )?sprint(ing)?|sprint(ing)? (training|workouts?|for beginners|for fat loss)|how (do i|to) sprint|how many sprints|(40|forty)[ -]?(yard|yd) dash|100 ?(m|meter) (sprint|dash))\\b",
+    "body": [
+      "Sprinting is my first love, so welcome. The rule for starting: ease in. Your muscles may be fit, but your hamstrings haven't moved that fast since gym class, and they need a few weeks to catch up.",
+      "Weeks 1 to 2: after a full warm-up, run 4 to 6 strides of 60 to 80 meters at about 70 to 80 percent, walking back. Weeks 3 to 4: 6 sprints of 20 to 40 meters at about 90 percent. After that, go faster, not longer: 6 to 8 sprints of 20 to 60 meters, with 90 seconds to 2 minutes or more of rest.",
+      "Once or twice a week is plenty. Stop the session the moment you slow down noticeably or feel any tightness grabbing at the back of a leg."
+    ],
+    "more": {
+      "why": "Most sprint injuries come from doing too much, too fast, too soon. Building speed gradually gives tendons and hamstrings time to toughen up.",
+      "how": "Run tall, drive your arms front to back (cheek to pocket), land under your hips, and stay relaxed in the face and shoulders. Relaxed is fast.",
+      "mistake": "Going all out on the first rep after a long drive to the track. Warm up 10 minutes, do build-ups, then sprint.",
+      "home": "No track? A flat, quiet road, a grass field or a long parking lot works. Uphill sprints are even safer to start with."
+    },
+    "chips": [
+      "How do I run hill sprints?",
+      "How do I warm up for intervals?",
+      "How do I get faster?"
+    ],
+    "related": [
+      "sh-a-033",
+      "sh-a-031"
+    ]
+  },
+  {
+    "id": "sh-a-033",
+    "topic": "sprints",
+    "title": "Hill sprints: the safest way to sprint hard",
+    "keys": [
+      "hill sprints",
+      "how do i run hill sprints",
+      "hill sprint workout",
+      "hill repeats",
+      "uphill sprints",
+      "running hills",
+      "hill running",
+      "incline sprints",
+      "treadmill hill sprints",
+      "are hill sprints good",
+      "how steep for hill sprints",
+      "how many hill sprints"
+    ],
+    "match": "\\b(hill (sprints?|repeats?|running|intervals?)|uphill (sprints?|running|repeats?)|running (up )?hills|incline sprints?)\\b",
+    "body": [
+      "Hill sprints are my favorite way to sprint. The hill slows your top speed and shortens your stride, so your hamstrings get less of a beating, and gravity makes you work like crazy. Big effort, lower risk.",
+      "Find a moderate hill, around a 5 to 10 percent grade, about 30 to 60 meters long. After a full warm-up, sprint up for 8 to 15 seconds at about 90 percent, then walk all the way down slowly. Start with 4 to 6 reps, and build to 8 to 10 over a few weeks.",
+      "Drive your knees, pump your arms, lean slightly into the hill from your ankles, not your waist. Walking down is your rest, so take it."
+    ],
+    "more": {
+      "why": "The incline forces powerful hip extension and a shorter ground contact, which builds speed and leg drive with less strain than flat sprinting.",
+      "example": "Warm up 10 minutes. Then 6 x 10-second hill sprints, walking down plus 30 seconds standing between reps. About 20 minutes total.",
+      "home": "No hills? Use a treadmill at 6 to 8 percent incline for 10 to 15 seconds, stepping onto the side rails to rest. Or sprint up a few flights of stairs and walk down.",
+      "mistake": "Picking a mountain. If you're crawling up a steep hill, it's a strength grind, not a sprint."
+    },
+    "chips": [
+      "How do I start sprinting?",
+      "How do I get faster?",
+      "Treadmill vs running outside?"
+    ],
+    "related": [
+      "sh-a-032"
+    ]
+  },
+  {
+    "id": "sh-a-034",
+    "topic": "rowing",
+    "title": "Rowing machine technique: legs, body, arms",
+    "keys": [
+      "rowing technique",
+      "rowing form",
+      "how to row",
+      "how to use a rowing machine",
+      "rower form",
+      "rowing machine form",
+      "erg technique",
+      "concept 2 form",
+      "am i rowing right",
+      "rowing machine tips",
+      "rowing hurts my back",
+      "rowing sequence",
+      "row machine"
+    ],
+    "match": "\\b(rowing (technique|form|machine|tips|sequence)|rower (form|technique|tips)|how (do i|to) row\\b|erg (technique|form)|row machine)\\b",
+    "body": [
+      "Rowing is a leg exercise that people try to do with their arms. Here's the order: on the way out, legs push, then the body swings back slightly, then the arms pull to your lower ribs. On the way back, reverse it: arms extend, body leans forward from the hips, then the knees bend and you slide in.",
+      "Legs, body, arms. Arms, body, legs. Say it out loud, I'll wait. The push should feel like a powerful leg press, about 60 percent of the work.",
+      "Take your time on the way back in. A good rhythm is about one count out and two counts in. Keep your shoulders down, wrists flat and handle path level."
+    ],
+    "more": {
+      "why": "Your legs are your strongest engine. Pulling with your arms first wastes power, tires your back and turns a full-body machine into a weak row.",
+      "how": "Drill it in pieces: 10 strokes arms only, 10 strokes arms and body, 10 strokes with half a leg slide, then full strokes.",
+      "mistake": "Bending the knees before the handle passes them on the way back in. You'll have to lift the handle over your knees, which wrecks your rhythm.",
+      "beginner": "Row 10 minutes easy at about 20 strokes a minute with perfect order before you try any intervals."
+    },
+    "chips": [
+      "What damper setting on the rower?",
+      "Rower workouts for beginners",
+      "How do I do intervals?"
+    ],
+    "related": [
+      "sh-a-035",
+      "sh-a-036"
+    ]
+  },
+  {
+    "id": "sh-a-035",
+    "topic": "rowing",
+    "title": "Rower damper setting, stroke rate and your split",
+    "keys": [
+      "what damper setting on the rower",
+      "damper setting",
+      "rower damper",
+      "what number on the rower",
+      "stroke rate",
+      "strokes per minute",
+      "rowing split",
+      "500m split",
+      "what is a good 500m split",
+      "rowing pace",
+      "spm rowing",
+      "rower settings",
+      "rower fan setting"
+    ],
+    "match": "\\b(damper( setting)?|stroke rate|strokes per minute|(500 ?m|500 meter) split|rowing (split|pace)|rower (settings?|fan))\\b",
+    "body": [
+      "Set the damper between 3 and 5. I know 10 feels like more workout, but it's like riding a bike in its hardest gear: slow, heavy and rough on your back. Your effort sets the resistance, not the lever.",
+      "Watch two numbers. Stroke rate (strokes per minute): 18 to 24 for steady rowing, 26 to 32 for hard intervals. And your split, the time it would take to row 500 meters at that pace. Lower is faster.",
+      "A good split depends on you. Plenty of new rowers sit around 2:15 to 2:45 per 500 meters for steady work. Don't chase someone else's number. Hold your split steady at a lower stroke rate, and that's power."
+    ],
+    "more": {
+      "why": "A lower stroke rate with the same split means each stroke is more powerful. That's the skill. Spinning fast with short strokes looks busy and goes nowhere.",
+      "how": "Pick a stroke rate (say 22). Row 5 minutes trying to keep your split steady. Next time, same rate, try to shave a couple of seconds.",
+      "example": "Steady row: 20 minutes at 20 to 22 strokes a minute. Interval: 8 x 250 meters at 28 to 30 strokes a minute, 1 minute easy between.",
+      "mistake": "Damper on 10 and stroke rate at 40. All flail, no row."
+    },
+    "chips": [
+      "How do I row properly?",
+      "Rower workouts for beginners",
+      "How do I do intervals?"
+    ],
+    "related": [
+      "sh-a-034",
+      "sh-a-036"
+    ]
+  },
+  {
+    "id": "sh-a-036",
+    "topic": "rowing",
+    "title": "Rower workouts for beginners",
+    "keys": [
+      "rower workouts for beginners",
+      "rowing workout",
+      "rower workout",
+      "beginner rowing workout",
+      "rowing for cardio",
+      "is rowing good cardio",
+      "rowing machine workout",
+      "how long should i row",
+      "rowing for fat loss",
+      "row workout ideas",
+      "erg workout",
+      "2k row"
+    ],
+    "match": "\\b(row(ing|er)? workouts?|beginner rowing|rowing (for|as) (cardio|fat loss|beginners)|is rowing good|how long should i row|erg workouts?|2 ?k row)\\b",
+    "body": [
+      "Rowing is one of the best bang-for-buck machines on the floor: legs, back, arms and your lungs, with very little pounding on your joints. Learn the stroke order first, then pick one of these.",
+      "Steady: 15 to 30 minutes at 20 to 22 strokes a minute, at a pace where you could talk. Pyramid: row 1, 2, 3, 2, 1 minutes a bit harder than steady, with 1 minute easy between. Short intervals: 8 rounds of 20 seconds hard and 40 seconds easy. Distance: 500 meters easy, 500 moderate, 500 strong, repeat once.",
+      "Start with two rowing sessions a week. Once 30 steady minutes feels easy, add an interval day."
+    ],
+    "more": {
+      "why": "Rowing works most of your body at once, so you get a lot of conditioning per minute, and the seated, gliding stroke spares your knees and shins.",
+      "beginner": "Begin with 10 minutes total, broken into 2-minute rows with 1 minute of rest. Smooth strokes beat fast ones.",
+      "advanced": "Test your 2,000 meter time every 6 to 8 weeks. Pace it evenly; the classic mistake is a fast first 500 and a miserable third.",
+      "mistake": "Rowing with your arms and back while your legs barely move. If your arms burn first, check your order: legs, body, arms."
+    },
+    "chips": [
+      "How do I row properly?",
+      "What damper setting on the rower?",
+      "What is zone 2 cardio?"
+    ],
+    "related": [
+      "sh-a-034",
+      "sh-a-035"
+    ]
+  },
+  {
+    "id": "sh-a-037",
+    "topic": "bike",
+    "title": "Stationary bike setup and workouts",
+    "keys": [
+      "stationary bike",
+      "exercise bike",
+      "spin bike",
+      "bike workout",
+      "spin class",
+      "bike seat height",
+      "how high should my bike seat be",
+      "cycling for cardio",
+      "is the bike good cardio",
+      "indoor cycling",
+      "bike resistance",
+      "recumbent bike",
+      "upright bike",
+      "peloton workout",
+      "cycling workout"
+    ],
+    "match": "\\b((stationary|exercise|spin|upright|recumbent|indoor) (bike|cycling)|spin class|bike (workouts?|seat|resistance|setup)|seat height|cycling (workouts?|for cardio)|is the bike good)\\b",
+    "body": [
+      "The bike is the most joint-friendly cardio on the floor, and it plays nicely with leg training. Set it up right first. Seat height: at the bottom of the pedal stroke, your knee should still be slightly bent, about 25 to 35 degrees. A quick check is setting the seat around hip height while you stand beside it.",
+      "Handlebars at seat height or a bit higher for comfort. Feet in the straps or clipped in, pushing through the ball of your foot.",
+      "Workouts: 30 to 45 minutes steady in zone 2, 8 rounds of 20 seconds hard and 40 seconds easy, or 4 rounds of 4 minutes hard with 3 minutes easy. Add resistance before you add speed. Spinning wildly with no resistance is mostly just exciting your legs."
+    ],
+    "more": {
+      "why": "Cycling is low impact and mostly works muscles concentrically, which tends to cause less soreness. That makes it the easiest cardio to add without hurting your lifting.",
+      "mistake": "Seat too low. Knees go sore, hips rock, and you can't push properly. Raise it until your knee is just shy of straight at the bottom.",
+      "beginner": "Start with 20 minutes at an easy, chatty pace, 2 or 3 times a week. Add 5 minutes a week until 40 feels comfortable.",
+      "example": "Spin-style ride: 5 minutes easy, then 5 rounds of 1 minute standing climb on heavy resistance and 2 minutes seated easy, then 5 minutes easy."
+    },
+    "chips": [
+      "How do I use an assault bike?",
+      "What is zone 2 cardio?",
+      "Will cardio kill my gains?"
+    ],
+    "related": [
+      "sh-a-038",
+      "sh-a-026",
+      "sh-a-043"
+    ]
+  },
+  {
+    "id": "sh-a-038",
+    "topic": "bike",
+    "title": "The assault bike: the friendliest enemy on the floor",
+    "keys": [
+      "assault bike",
+      "how do i use an assault bike",
+      "air bike",
+      "fan bike",
+      "echo bike",
+      "airdyne",
+      "assault bike workout",
+      "air bike intervals",
+      "assault bike calories",
+      "why is the assault bike so hard",
+      "assault bike for beginners"
+    ],
+    "match": "\\b(assault ?bike|air ?bike|fan bike|echo bike|airdyne)\\b",
+    "body": [
+      "The air bike has a fan for resistance, so the harder you push and pull, the harder it pushes back. There's no hiding, which is why it's hated and loved in equal amounts. I adore it, obviously.",
+      "Use your arms and legs together: push and pull the handles while you pedal, stay seated, brace your core. Short intervals are where it shines: 10 rounds of 10 seconds all out and 50 seconds easy, or 6 rounds of 20 seconds hard and 1 minute easy. Calorie targets work well too: 10 calories hard, rest 1 minute, repeat 5 times.",
+      "Go easy on long efforts at first. Thirty seconds of true max effort on that thing feels like a whole season of track."
+    ],
+    "more": {
+      "why": "Using arms and legs at once means more muscle working, so your heart rate jumps fast. That makes it great for short, intense intervals with almost no impact.",
+      "beginner": "First session: 6 rounds of 15 seconds at about 80 percent with 45 seconds of slow spinning. Notice how you feel and build from there.",
+      "mistake": "Starting at 100 percent and trying to hold it for a minute. The fan wins that fight every time. Short bursts, real rest.",
+      "short_on_time": "Ten minutes on the air bike (10 x 10 seconds hard, 50 seconds easy) is a full conditioning session. Warm up 3 minutes first."
+    },
+    "chips": [
+      "What is a Tabata workout?",
+      "How often should I do HIIT?",
+      "What are finishers?"
+    ],
+    "related": [
+      "sh-a-037",
+      "sh-a-030",
+      "sh-a-016"
+    ]
+  },
+  {
+    "id": "sh-a-039",
+    "topic": "stairs",
+    "title": "Stair climber: how to use it without leaning on the rails",
+    "keys": [
+      "stair climber",
+      "stairmaster",
+      "stair master",
+      "stair stepper",
+      "stairmill",
+      "stair climber workout",
+      "is the stair climber good",
+      "stairmaster for glutes",
+      "stairmaster workout",
+      "how long on the stairmaster",
+      "leaning on the stair climber",
+      "stairmaster tips"
+    ],
+    "match": "\\b(stair ?(climber|master|stepper|mill)s?)\\b",
+    "body": [
+      "The stair climber is honest cardio, and your legs will tell you all about it. The one big rule: don't hang on the rails. Rest your fingertips there for balance if you need to, stand tall with a slight forward lean from the hips, and let your legs do the climbing.",
+      "Pick a speed you can hold with good posture. If you have to grip the rails to keep up, slow it down. Push through your whole foot, heel included, and you'll feel your glutes and quads working.",
+      "Start with 10 to 15 minutes at a steady pace, then build to 20 to 30. For intervals, try 1 minute at a faster level and 1 minute easier, 8 to 10 rounds."
+    ],
+    "more": {
+      "why": "Leaning on the rails takes your bodyweight off your legs, which cuts the work you're doing a lot, and hunching strains your back and shoulders.",
+      "mistake": "Bouncing on your toes at full speed while hanging on for dear life. Slower, upright and full-foot is the real workout.",
+      "beginner": "Five to 10 minutes on a low level is a great start. Your legs and lungs adapt quickly if you come back two or three times a week.",
+      "example": "20 minutes: 5 minutes easy, then 5 rounds of 1 minute at 2 levels higher and 1 minute back down, then 5 minutes easy."
+    },
+    "chips": [
+      "Incline treadmill walking",
+      "What is zone 2 cardio?",
+      "How much cardio per week?"
+    ],
+    "related": [
+      "sh-a-040",
+      "sh-a-026"
+    ]
+  },
+  {
+    "id": "sh-a-040",
+    "topic": "incline-walk",
+    "title": "Incline treadmill walking and the 12-3-30",
+    "keys": [
+      "incline treadmill walking",
+      "incline walk",
+      "incline walking",
+      "12 3 30",
+      "12 3 30 workout",
+      "treadmill incline",
+      "walking on incline",
+      "is incline walking good",
+      "incline walking for fat loss",
+      "hot girl walk",
+      "uphill walking treadmill",
+      "how steep should i walk on the treadmill",
+      "treadmill walking workout"
+    ],
+    "match": "\\b(incline (treadmill )?walk(ing)?|12[ -]3[ -]30|treadmill incline|walking on (an )?incline|uphill walking|treadmill walking)\\b",
+    "body": [
+      "Incline walking is sneaky good cardio. It gets your heart rate up into that easy-to-moderate range with way less pounding than running, and your glutes and calves get a bonus workout.",
+      "The famous 12-3-30 is 12 percent incline, 3 miles per hour, for 30 minutes. It's a great goal, not a starting point. Begin around 5 to 8 percent incline at 2.5 to 3.2 mph for 15 to 20 minutes, then add incline or time each week.",
+      "Hands off the rails. Holding on (or leaning back on them) cuts the work and loads your back and shoulders. If you can't let go, the incline is too steep for now."
+    ],
+    "more": {
+      "why": "Walking uphill raises effort without raising speed, so you get real cardio while keeping impact low. That's a great match for heavier folks, beginners and anyone lifting hard.",
+      "beginner": "Week 1: 6 percent at 2.8 mph for 15 minutes. Add 1 percent or 5 minutes each week until you reach 12 percent and 30 minutes.",
+      "mistake": "Jumping straight to 15 percent and gripping the console. Your lower back and calves will file a complaint.",
+      "example": "30-minute ladder: 5 minutes at 4 percent, then raise 2 percent every 5 minutes up to 12, then 5 minutes back at 4."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Is walking enough cardio?",
+      "What is zone 2 cardio?",
+      "Which cardio machine is best?"
+    ],
+    "related": [
+      "sh-a-039",
+      "sh-a-041",
+      "sh-a-026"
+    ]
+  },
+  {
+    "id": "sh-a-041",
+    "topic": "cardio-volume",
+    "title": "How much cardio per week",
+    "keys": [
+      "how much cardio per week",
+      "how much cardio should i do",
+      "how many days of cardio",
+      "how often should i do cardio",
+      "cardio per week",
+      "minutes of cardio per week",
+      "is 30 minutes of cardio enough",
+      "cardio every day",
+      "how much cardio is too much",
+      "can i do cardio every day",
+      "recommended cardio",
+      "150 minutes"
+    ],
+    "match": "\\b(how (much|many( days of)?|often( should i do)?) cardio|cardio (per|a|each) week|minutes of cardio|cardio every day|too much cardio|150 minutes)\\b",
+    "body": [
+      "The general health target is 150 to 300 minutes a week of moderate cardio (brisk walking counts), or 75 to 150 minutes of vigorous cardio, or a mix. Add two or more days of strength training and you've covered the big stuff.",
+      "In real life that looks like 3 to 5 cardio sessions of 30 to 45 minutes: mostly easy, with one or two harder interval sessions. Daily walking counts toward it too, so a 30-minute walk each day gets you most of the way.",
+      "Can you do cardio every day? Easy cardio, yes, a daily walk is wonderful. Hard cardio every day, no, keep that to 2 or 3 days."
+    ],
+    "more": {
+      "why": "Those ranges come from large public health guidelines, and they're tied to big benefits for heart health and energy. More is fine as long as you're recovering.",
+      "beginner": "Start with 3 sessions of 20 minutes at a chatty pace. Add 5 minutes per session each week.",
+      "example": "A balanced week: Monday 30-minute incline walk, Wednesday bike intervals, Thursday 40-minute easy row, Saturday long walk or hike. Lift on 3 days alongside.",
+      "mistake": "Doing an hour of hard cardio every day and lifting on top of it. Your legs never recover, and nothing gets better."
+    },
+    "reads": [
+      "steps",
+      "sessions"
+    ],
+    "chips": [
+      "Will cardio kill my gains?",
+      "Cardio before or after lifting?",
+      "Is walking enough cardio?"
+    ],
+    "related": [
+      "sh-a-043",
+      "sh-a-042",
+      "sh-a-044"
+    ]
+  },
+  {
+    "id": "sh-a-042",
+    "topic": "cardio-and-lifting",
+    "title": "Cardio before or after lifting",
+    "keys": [
+      "cardio before or after lifting",
+      "cardio before or after weights",
+      "should i do cardio first",
+      "cardio after weights",
+      "cardio before weights",
+      "lift first or cardio first",
+      "order of cardio and weights",
+      "cardio and weights same day",
+      "should i run before lifting",
+      "cardio after workout",
+      "cardio before workout"
+    ],
+    "match": "\\b(cardio (before|after|first)|(before|after) (lifting|weights|my lift)|(lift|lifting|weights) (first|or cardio)|cardio and (weights|lifting) (on the )?same day|run(ning)? before (lifting|weights))\\b",
+    "body": [
+      "Do first what matters most to you today. Most people with strength or muscle goals should lift first and do cardio after. Hard cardio before lifting leaves your legs tired, and tired squats are slower, weaker and sloppier.",
+      "A 5 to 10 minute easy cardio warm-up before lifting is great, that's not what I mean. The thing to avoid is hard intervals or a long run right before a heavy leg session.",
+      "Training for a race or a sport? Flip it on those days and do the conditioning first. Best of all, if your schedule allows, split them: lift in the morning and do cardio in the evening, or put them on different days."
+    ],
+    "more": {
+      "why": "Fatigue carries over. Whatever you do second, you do a bit worse. So the priority goes first.",
+      "example": "Strength focus: 5 minutes easy bike, lift for 40 minutes, 15 minutes of zone 2 after. Running focus: run first, then a short upper-body lift.",
+      "mistake": "A 30-minute HIIT class right before heavy squats. Save the sweat for after or for another day.",
+      "short_on_time": "Lift first, then do 6 to 8 minutes of intervals on the bike. That covers both in a 45-minute session."
+    },
+    "chips": [
+      "Will cardio kill my gains?",
+      "How much cardio per week?",
+      "Can I train twice a day?"
+    ],
+    "related": [
+      "sh-a-043",
+      "sh-a-024",
+      "sh-a-041"
+    ]
+  },
+  {
+    "id": "sh-a-043",
+    "topic": "cardio-and-lifting",
+    "title": "Will cardio kill my gains",
+    "keys": [
+      "will cardio kill my gains",
+      "does cardio kill gains",
+      "cardio and muscle gain",
+      "cardio while bulking",
+      "cardio burns muscle",
+      "does cardio make you lose muscle",
+      "can i build muscle and do cardio",
+      "interference effect",
+      "cardio ruins gains",
+      "cardio on a bulk",
+      "cardio and building muscle",
+      "concurrent training",
+      "hybrid training"
+    ],
+    "match": "\\b(cardio (kill|ruin|eat|burn|destroy)s? (my )?(gains|muscle)|(kill|ruin)s? (my )?gains|cardio (while|on a) bulk(ing)?|interference effect|concurrent training|hybrid training|(build|gain|keep) muscle (and|while doing|with) cardio)\\b",
+    "body": [
+      "No. A sensible amount of cardio won't kill your gains, and it usually helps: better recovery between sets, more work capacity, and a heart that's happy to keep up with you. The 'interference' people worry about mostly shows up with lots of running on top of heavy leg training.",
+      "Keep it friendly. Two to four cardio sessions a week, mostly easy, 20 to 45 minutes. Prefer the bike, rower or incline walk over long runs if size and strength are your top goals. Keep hard intervals away from your heaviest leg day, and eat enough to support both.",
+      "Plenty of strong people do conditioning every week. Conditioning is a skill, and so is building muscle. You can practice both."
+    ],
+    "more": {
+      "why": "Interference grows with the amount, intensity and impact of the cardio. Low-impact, moderate amounts barely touch muscle growth for most people.",
+      "how": "Separate hard cardio and leg lifting by 6 or more hours or a day. Put easy cardio anywhere. Prioritize the bike and rower.",
+      "example": "Lifting 4 days a week with 2 zone 2 bike rides of 30 minutes and one short interval session is a very safe mix for building muscle.",
+      "mistake": "Skipping all cardio while building muscle, then getting winded on two flights of stairs. Your engine is part of your fitness too."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Cardio before or after lifting?",
+      "How much cardio per week?",
+      "What is zone 2 cardio?"
+    ],
+    "related": [
+      "sh-a-042",
+      "sh-a-041",
+      "sh-a-037"
+    ]
+  },
+  {
+    "id": "sh-a-044",
+    "topic": "walking",
+    "title": "Is walking enough cardio",
+    "keys": [
+      "is walking enough cardio",
+      "is walking good exercise",
+      "does walking count as cardio",
+      "walking for cardio",
+      "walking for fat loss",
+      "walking vs running",
+      "is walking enough",
+      "daily walk",
+      "how much should i walk",
+      "power walking",
+      "brisk walking",
+      "walking workout",
+      "walk instead of run"
+    ],
+    "match": "\\b(is walking (enough|good|cardio)|walking (count|counts) as cardio|walking (for|as) (cardio|exercise|fat loss)|walking vs running|power walking|brisk walk(ing)?|walking workout)\\b",
+    "body": [
+      "Yes, walking counts. A brisk walk where you're breathing a bit harder but can still talk is moderate cardio for most people, and it sits right in the health guidelines. It's also the easiest cardio to recover from, so it never steals from your lifting.",
+      "To make walks do more: go brisk (around 3 to 4 mph), add hills or stairs, and stretch the time to 30 to 60 minutes. A weighted backpack, carried with good posture, ramps it up too.",
+      "Walking alone won't build a big top end. If you want to get better at hard stuff (classes, sprints, sports), add one or two short interval sessions a week. But as a foundation? Walking is gold."
+    ],
+    "more": {
+      "why": "Walking adds up to a lot of movement with almost no recovery cost, and it supports everything from heart health to daily energy.",
+      "how": "Pick a pace where talking takes a little effort. Swing your arms, stand tall, and aim for 30 minutes most days, split into two or three walks if that's easier.",
+      "beginner": "Start with 10-minute walks after meals. Three of those a day is 30 minutes, and nobody needs a gym bag.",
+      "example": "A week: five 30-minute brisk walks, one hilly 45-minute walk on the weekend, plus your lifting. That's plenty of cardio for health."
+    },
+    "reads": [
+      "steps"
+    ],
+    "chips": [
+      "Incline treadmill walking",
+      "How much cardio per week?",
+      "How do I do intervals?"
+    ],
+    "related": [
+      "sh-a-040",
+      "sh-a-041",
+      "sh-a-026"
+    ]
+  },
+  {
+    "id": "sh-a-045",
+    "topic": "conditioning",
+    "title": "Why do I get winded so fast",
+    "keys": [
+      "why do i get winded so fast",
+      "out of breath quickly",
+      "get out of breath easily",
+      "how to improve cardio",
+      "how to improve stamina",
+      "how to build endurance",
+      "bad cardio",
+      "my cardio sucks",
+      "how to get better cardio",
+      "improve my conditioning",
+      "gassed easily",
+      "how to get in shape",
+      "build stamina",
+      "improve endurance"
+    ],
+    "match": "\\b((get|getting) (winded|out of breath|gassed)|out of breath (so )?(fast|quickly|easily)|(improve|build|better|increase) (my )?(cardio|stamina|endurance|conditioning)|my cardio (sucks|is bad|is terrible))\\b",
+    "body": [
+      "Getting winded quickly usually means one of two things: your aerobic base is still small, or you're starting too fast. Both are very fixable, and faster than you think. Most people feel a real difference in 4 to 6 weeks.",
+      "Here's the plan: two or three easy sessions a week of 20 to 40 minutes where you can talk (walks, bike, rower), plus one interval session a week (like 6 to 8 rounds of 30 seconds hard and 90 seconds easy). Pace your classes and circuits so round one feels like a 6 out of 10. Breathe out fully between efforts.",
+      "One serious note: chest pain, dizziness, fainting, or shortness of breath that's way out of proportion to the effort is not a fitness problem. Stop and see a doctor."
+    ],
+    "more": {
+      "why": "Your aerobic system supplies most of the energy even in hard workouts. Build it and everything feels easier, including recovering between sets.",
+      "beginner": "Walk 20 minutes three times a week for two weeks, then add a short hill or a few minutes of faster walking. Conditioning is a skill. You practice it.",
+      "mistake": "Only doing max-effort classes. You're always gassed because there's no base under the intensity.",
+      "example": "Week plan: Monday 30-minute incline walk, Wednesday 8 x 30 seconds hard on the bike, Friday 25-minute easy row, plus your lifting."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is zone 2 cardio?",
+      "How do I pace a circuit?",
+      "How much cardio per week?"
+    ],
+    "related": [
+      "sh-a-026",
+      "sh-a-021",
+      "sh-a-052"
+    ]
+  },
+  {
+    "id": "sh-a-046",
+    "topic": "jump-rope",
+    "title": "Jump rope basics: length, form and a starter plan",
+    "keys": [
+      "jump rope",
+      "skipping rope",
+      "how to jump rope",
+      "jump rope workout",
+      "jump rope for beginners",
+      "jump rope length",
+      "how long should my jump rope be",
+      "is jump rope good cardio",
+      "double unders",
+      "jumping rope tips",
+      "i keep tripping on the jump rope",
+      "jump rope calves"
+    ],
+    "match": "\\b(jump(ing)? ?rope|skipping rope|double ?unders?)\\b",
+    "body": [
+      "Jump rope is cheap, portable and fantastic for footwork and your engine. First, sizing: stand on the middle of the rope, and the handles should reach about your armpits. Shorter once you get good.",
+      "Form: small hops, about an inch off the ground, landing softly on the balls of your feet. Elbows close to your sides, and the turn comes from your wrists, not big arm circles. Eyes forward, not at your feet.",
+      "Start with 10 rounds of 30 seconds jumping and 30 seconds resting. Tripping is part of it; reset and keep going. Add 10 seconds of work each week. Your calves will have opinions for the first few sessions, so go easy on volume early."
+    ],
+    "more": {
+      "why": "Quick, light contacts build calf and ankle springiness, rhythm and coordination, and the steady effort is great cardio in a tiny space.",
+      "beginner": "Can't link jumps yet? Hold both handles in one hand and swing the rope at your side while you hop. Same rhythm, no tripping.",
+      "advanced": "Double unders: jump slightly higher and flick the wrists faster. Practice singles, single, single, double, before trying them back to back.",
+      "mistake": "Jumping too high and turning with your whole arms. Low hops, fast wrists."
+    },
+    "chips": [
+      "How do I land a jump safely?",
+      "No equipment home workout",
+      "How do I do intervals?"
+    ],
+    "related": [
+      "sh-a-029"
+    ]
+  },
+  {
+    "id": "sh-a-047",
+    "topic": "sled",
+    "title": "Sled pushes and pulls: how to load and drive",
+    "keys": [
+      "how do i push a sled",
+      "sled push",
+      "sled pushes",
+      "prowler",
+      "prowler push",
+      "sled pull",
+      "sled drag",
+      "sled workout",
+      "how heavy should the sled be",
+      "sled push form",
+      "sled for conditioning",
+      "backward sled drag",
+      "is the sled good for legs"
+    ],
+    "match": "\\b(sled (push|pushes|pull|pulls|drag|drags|workouts?|form)|prowler|push(ing)? (a|the) sled|drag(ging)? (a|the) sled)\\b",
+    "body": [
+      "The sled is my favorite finisher because it's brutal for your lungs and legs but kind to your joints. There's no lowering phase, so you get a big effort without much soreness the next day.",
+      "Push form: hands on the posts (arms straight for speed, bent for heavy), body leaning at about 45 degrees, back flat. Drive with short, powerful steps through the balls of your feet, like you're pushing a stalled car. Keep your hips low and eyes a few feet ahead.",
+      "For conditioning, load it so you can push steadily without grinding to a stop: 4 to 8 pushes of 15 to 25 meters, resting 60 to 90 seconds. For leg strength, go heavier and shorter, 10 to 15 meters."
+    ],
+    "more": {
+      "why": "Pushing has no lowering phase, so muscles do mostly concentric work. That means lots of effort, low impact, and less soreness, which makes it great near heavy lifting days.",
+      "how": "Backward drags with a strap are amazing for your quads and kind to cranky knees. Walk backward taking small steps, staying on your toes, 20 to 30 meters.",
+      "mistake": "Loading so heavy you inch forward with a rounded back. Speed and posture first.",
+      "example": "Finisher: 6 pushes of 20 meters at a weight you can move at a steady jog, walk back, rest 60 seconds."
+    },
+    "chips": [
+      "What are finishers?",
+      "How do I use battle ropes?",
+      "How do I do intervals?"
+    ],
+    "related": [
+      "sh-a-017",
+      "sh-a-048"
+    ]
+  },
+  {
+    "id": "sh-a-048",
+    "topic": "battle-ropes",
+    "title": "Battle ropes: waves, slams and a starter workout",
+    "keys": [
+      "how do i use battle ropes",
+      "battle ropes",
+      "battle rope workout",
+      "battle rope exercises",
+      "rope waves",
+      "rope slams",
+      "battling ropes",
+      "heavy ropes",
+      "are battle ropes good",
+      "battle rope form",
+      "battle rope intervals"
+    ],
+    "match": "\\b(battl(e|ing) ropes?|rope (waves|slams)|heavy ropes?)\\b",
+    "body": [
+      "Battle ropes look simple and feel unbelievable. They're great conditioning for your shoulders, arms, core and lungs, and they don't beat up your knees.",
+      "Set up in an athletic stance: feet shoulder width, knees soft, hips back, chest up, core braced. Hold the ends with your thumbs on top and make the waves from your shoulders and arms, keeping them steady and even all the way to the anchor. Alternating waves, double waves, and slams (lift both ends overhead and slam them down) are the big three.",
+      "Work 20 to 30 seconds, rest 30 to 40, for 6 to 10 rounds. Mix the waves each round. If your waves die halfway down the rope, step a little closer to the anchor."
+    ],
+    "more": {
+      "why": "Short, fast efforts with your upper body drive your heart rate up while your legs get a break, which makes ropes a great conditioning tool on leg-recovery days.",
+      "mistake": "Standing straight up and flailing with just your hands. Get your hips back and let the whole body stay braced.",
+      "example": "8 rounds: 20 seconds alternating waves, 40 seconds rest, then 20 seconds slams, 40 seconds rest. Repeat 4 times.",
+      "beginner": "Start with 15 seconds on and 45 off for 6 rounds. Smooth, even waves first; speed later."
+    },
+    "chips": [
+      "How do I push a sled?",
+      "What are finishers?",
+      "How often should I do HIIT?"
+    ],
+    "related": [
+      "sh-a-047",
+      "sh-a-017"
+    ]
+  },
+  {
+    "id": "sh-a-049",
+    "topic": "conditioning-moves",
+    "title": "How to do a burpee you can repeat",
+    "keys": [
+      "how do i do a burpee",
+      "burpee",
+      "burpees",
+      "burpee form",
+      "how to do burpees",
+      "burpees for beginners",
+      "are burpees good",
+      "burpee modifications",
+      "step back burpee",
+      "no jump burpee",
+      "burpees hurt my wrists",
+      "i hate burpees"
+    ],
+    "match": "\\bburpees?\\b",
+    "body": [
+      "The burpee is everyone's favorite to hate, and honestly it's a great full-body conditioning move. Here's the version you can keep doing when you're tired.",
+      "From standing, squat down, put your hands on the floor and jump or step your feet back into a plank. Lower your chest to the floor (or do a push-up). Push up, jump or step your feet back toward your hands, stand up, and add a little hop with your hands overhead. That's one.",
+      "Can't jump, or the floor bothers your joints? Step back, step in, and skip the hop; it's still a burpee. Start with 5 to 10 at a time and focus on smooth, not fast. A pace you can hold beats ten speedy reps and a two-minute rest."
+    ],
+    "more": {
+      "beginner": "Use a bench or a sturdy box for your hands so you don't have to go all the way down. Lower it as you get stronger.",
+      "mistake": "Landing the jump-back with your hips sagging toward the floor. Brace your core like a plank every time your feet land.",
+      "example": "Burpee EMOM: 5 burpees at the top of every minute for 10 minutes. Next week, 6.",
+      "why": "Squatting, planking, pushing and jumping in one rep gets a lot of muscles involved, so your heart rate climbs fast with no equipment at all."
+    },
+    "chips": [
+      "No equipment home workout",
+      "What is an EMOM?",
+      "Quiet workout for an apartment"
+    ],
+    "related": [
+      "sh-a-006"
+    ]
+  },
+  {
+    "id": "sh-a-050",
+    "topic": "cardio-machines",
+    "title": "Which cardio machine is best",
+    "keys": [
+      "best cardio machine",
+      "which cardio machine is best",
+      "elliptical",
+      "is the elliptical good",
+      "elliptical vs treadmill",
+      "treadmill vs bike",
+      "rower vs bike",
+      "best machine for fat loss",
+      "best cardio for bad knees",
+      "what cardio machine should i use",
+      "elliptical workout",
+      "low impact cardio"
+    ],
+    "match": "\\b(best cardio (machine|equipment)|which cardio machine|ellipticals?|(treadmill|rower|bike) vs (bike|treadmill|rower|elliptical)|low[ -]impact cardio|cardio for bad knees)\\b",
+    "body": [
+      "The best machine is the one you'll actually use, and I mean that. They all train your heart. The differences are impact, which muscles join in, and how much you enjoy them.",
+      "Quick guide: the bike is lowest impact, easy on the knees and plays nicely with leg day; the rower is full body and great for intervals but needs a little technique; the elliptical is smooth and good for longer steady sessions. Incline walking is low impact, hits glutes and calves and makes zone 2 easy. Treadmill running has the most impact and is the best if you want to run better, and the air bike and sled give you hard, short, joint-friendly bursts.",
+      "Rotate two or three. Variety keeps you fresh and spreads the work across different muscles."
+    ],
+    "more": {
+      "why": "Your heart doesn't know which machine you're on, it only knows effort. Match the machine to your joints and your goals.",
+      "example": "Bad knees: bike and elliptical. Building muscle: bike and incline walk. Getting better at running: run, plus the bike for extra easy volume.",
+      "mistake": "Leaning on the elliptical handles and coasting. Use enough resistance that your legs are working and keep your posture tall.",
+      "beginner": "Start on the bike or an incline walk. They're the easiest to learn and the easiest to recover from."
+    },
+    "chips": [
+      "Incline treadmill walking",
+      "How do I row properly?",
+      "What is zone 2 cardio?"
+    ],
+    "related": [
+      "sh-a-037",
+      "sh-a-040",
+      "sh-a-034"
+    ]
+  },
+  {
+    "id": "sh-a-051",
+    "topic": "cardio-and-fat-loss",
+    "title": "Cardio for fat loss: HIIT or steady state",
+    "keys": [
+      "best cardio for fat loss",
+      "cardio for weight loss",
+      "hiit or steady state for fat loss",
+      "cardio to lose fat",
+      "cardio to lose weight",
+      "how much cardio to lose weight",
+      "does cardio burn fat",
+      "cardio for belly fat",
+      "fat burning cardio",
+      "lose fat with cardio",
+      "should i do more cardio to lose weight"
+    ],
+    "match": "\\b(cardio (for|to) (fat loss|weight loss|lose (fat|weight)|burn fat|belly fat)|(best|fat burning) cardio( for fat loss)?|does cardio burn fat|cardio to lose)\\b",
+    "body": [
+      "Cardio helps with fat loss, but it's the sidekick, not the hero. Your food sets the direction, lifting protects your muscle, and cardio adds a bit more energy burned plus a much healthier heart.",
+      "HIIT versus steady? Both work. HIIT packs more effort into less time but needs more recovery, so keep it to 2 sessions a week, while steady cardio and walking are easy to recover from, so you can do more. A great mix: 2 to 4 easy sessions or daily walks, plus 1 or 2 short interval sessions.",
+      "And you can't spot-reduce. Crunches and cardio won't pick where the fat comes off. Consistency over weeks does that."
+    ],
+    "more": {
+      "why": "Your body burns energy all day. Cardio adds some, and steady habits like walking add up to more than most people expect. Recovery decides how much you can sustainably do.",
+      "mistake": "Treating cardio as a punishment for something you ate. Cardio is for your heart and your engine, not a payback plan. Food questions are Nova's area, and she's great at them.",
+      "example": "Daily 30 to 45 minute walk, two 15-minute bike interval sessions after lifting, and three lifting days. Sustainable and effective."
+    },
+    "reads": [
+      "steps",
+      "weight"
+    ],
+    "chips": [
+      "Is walking enough cardio?",
+      "How often should I do HIIT?",
+      "How much cardio per week?"
+    ],
+    "related": [
+      "sh-a-044",
+      "sh-a-030",
+      "sh-a-041"
+    ]
+  },
+  {
+    "id": "sh-a-052",
+    "topic": "conditioning",
+    "title": "Raising your VO2 max and top-end fitness",
+    "keys": [
+      "vo2 max",
+      "vo2max",
+      "how to improve vo2 max",
+      "raise my vo2 max",
+      "4x4 intervals",
+      "norwegian 4x4",
+      "top end fitness",
+      "cardio ceiling",
+      "my watch says my vo2 max is low",
+      "vo2 max training",
+      "improve my fitness age",
+      "cardio fitness score"
+    ],
+    "match": "\\b(vo2 ?max|(4x4|4 x 4) intervals|norwegian 4 ?x ?4|cardio fitness (score|level)|fitness age)\\b",
+    "body": [
+      "VO2 max is how much oxygen your body can use at full effort. Higher generally means a bigger engine. Your watch estimates it (estimates, not lab numbers), and the trend over months matters more than any one reading.",
+      "To raise it, do two things. Keep a base of easy cardio, 2 to 3 sessions a week. Then add one hard interval session, and the classic is 4 rounds of 4 minutes at a hard but sustainable effort (roughly 85 to 95 percent of max heart rate, a few words at a time) with 3 minutes of easy movement between.",
+      "Use a bike, rower or uphill walk or run. Warm up 10 minutes. Do this for 8 to 12 weeks and check the trend."
+    ],
+    "more": {
+      "why": "Long, hard intervals keep your heart working near its ceiling for minutes at a time, which is a strong signal to raise that ceiling. The easy base supports the recovery.",
+      "beginner": "Start with 3 rounds of 3 minutes hard and 3 minutes easy, once a week. Build to 4 x 4 over a month.",
+      "mistake": "Doing the 4-minute efforts so hard you can't finish the third one. Hard but even. Your last one should be about as good as your first.",
+      "example": "Incline treadmill 4 x 4: 4 minutes at 10 percent and a pace where you can only say a few words, 3 minutes at 3 percent walking easy."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What are heart rate zones?",
+      "How do I do intervals?",
+      "What is zone 2 cardio?"
+    ],
+    "related": [
+      "sh-a-028",
+      "sh-a-029",
+      "sh-a-026"
+    ]
+  }
+]
