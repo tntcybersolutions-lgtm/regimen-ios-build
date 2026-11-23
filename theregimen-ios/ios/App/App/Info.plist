@@ -72,10 +72,6 @@
 	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>formed fit connects to your heart rate strap, watch or earbuds over Bluetooth to show your heart rate live during a session.</string>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>bluetooth-central</string>
-	</array>
 	<key>NSHealthShareUsageDescription</key>
 	<string>formed fit reads your weight, body fat, steps, workouts and, during a session, your watch's heart rate from Health so you do not have to type them twice. Records you import can be included in your Formed account sync.</string>
 	<key>NSHealthUpdateUsageDescription</key>

@@ -1,0 +1,976 @@
+[
+  {
+    "id": "sh-b-051",
+    "topic": "etiquette",
+    "title": "Gym etiquette basics: the unwritten rules",
+    "keys": [
+      "gym etiquette",
+      "gym rules",
+      "unwritten gym rules",
+      "gym etiquette for beginners",
+      "what not to do at the gym",
+      "gym manners",
+      "how to behave at the gym",
+      "gym dos and donts",
+      "basic gym etiquette",
+      "rules of the weight room",
+      "how not to be annoying at the gym",
+      "gym culture rules",
+      "gym ettiquette"
+    ],
+    "match": "\\bgym (etiquette|ettiquette|ettiquete|manners|rules|dos and don'?ts)\\b|\\bunwritten (gym )?rules\\b|\\bwhat not to do (at|in) the gym\\b|\\brules of the weight room\\b|\\bhow (not )?to (behave|be annoying) (at|in) the gym\\b",
+    "body": [
+      "Welcome to the house rules! Gym etiquette is really just one idea: leave every space better than you found it, and remember other people are training too. Nail these and you will be everyone's favorite floor neighbor.",
+      "The big ones. Re-rack your weights and unload your bar. Wipe down benches and handles after you use them. Share equipment and let people work in between your sets. Keep phone calls and videos with sound off the floor. Do not stand right in front of the dumbbell rack while you lift, step back so people can grab weights. Give lifters space, especially someone mid set. Do not hog a station scrolling for ten minutes between sets.",
+      "And the soft rules: no unsolicited coaching of strangers unless something is genuinely dangerous, headphones mean focus mode, and a quick 'are you using this?' solves most confusion before it starts. Simple, kind, and everybody trains better."
+    ],
+    "more": {
+      "why": "A gym is shared space with limited equipment. Small courtesies keep it safe, keep things moving, and make it a place people actually want to come back to, including you.",
+      "how": "Before you leave a station, run a 10 second check: weights back where they live, bar empty, bench wiped, bottle and towel with you. That is ninety percent of etiquette.",
+      "beginner": "If you are unsure about anything, from whether a bench is free to where the plates go, just ask a staff member or the person nearby. Regulars generally like helping a polite newbie.",
+      "mistake": "Leaving your plates on the leg press or bar 'because someone else will use it'. They might be warming up with an empty bar. Always strip it."
+    },
+    "chips": [
+      "Do I have to re-rack my weights?",
+      "How do I ask to work in?",
+      "Someone was rude to me at the gym"
+    ],
+    "related": [
+      "sh-b-052",
+      "sh-b-054"
+    ]
+  },
+  {
+    "id": "sh-b-052",
+    "topic": "etiquette",
+    "title": "Re-racking weights and unloading your bar",
+    "keys": [
+      "do i have to re-rack my weights",
+      "re rack weights",
+      "rerack",
+      "put weights back",
+      "should i unload the bar",
+      "who leaves plates on the bar",
+      "leave plates on the leg press",
+      "people dont rerack",
+      "dumbbells in the wrong place",
+      "putting dumbbells back",
+      "strip the bar",
+      "clean up after yourself at the gym",
+      "do you have to put weights away"
+    ],
+    "match": "\\bre.?rack\\w*\\b|\\b(put|putting) (the |my |your )?(weights|dumbbells|plates) (back|away)\\b|\\b(unload|strip) (the |my |your )?bar\\b|\\b(leave|leaving|left) (the )?plates on\\b|\\bdumbbells? in the wrong (place|spot)\\b",
+    "body": [
+      "Yes, always, every time. Re-racking is the number one gym rule. Dumbbells go back in their numbered spot, plates go back on the right tree or rack, and the bar gets stripped when you finish. Same for the leg press, the hip thrust station, the cable stack pins. If you loaded it, you unload it.",
+      "Here is why it matters beyond being polite. Plates left on a bar mean the next person has to strip your 225 lb before they warm up with the empty bar. Dumbbells in the wrong spot mean someone hunting for the 30s while you are already home. And loose plates on the floor are a trip hazard.",
+      "Pro tip: unload a barbell evenly, one plate off each side at a time, so it does not tip off the hooks. Yes, I have seen it happen. Loud, embarrassing, and totally avoidable."
+    ],
+    "more": {
+      "why": "Loaded bars and misplaced weights slow everyone down and can be dangerous. Re-racking is how a shared gym stays usable and safe.",
+      "how": "When you finish a station: plates off evenly, back on the trees by size, collars back on their pegs, dumbbells in their pairs in the right spot, pin back to the top on the cable stack if your gym does that.",
+      "beginner": "If you cannot find where something lives, look for the labels on racks and trees or ask staff. Putting it in the closest matching spot is better than leaving it on the floor.",
+      "mistake": "Stripping only one side of a barbell. The heavy side wins, the bar flips off the rack, and everyone in the building looks at you."
+    },
+    "chips": [
+      "Do I need to wipe down equipment?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-053",
+    "topic": "etiquette",
+    "title": "Wiping down equipment and gym hygiene",
+    "keys": [
+      "do i need to wipe down equipment",
+      "wipe down machines",
+      "wipe down bench",
+      "gym hygiene",
+      "sweaty bench",
+      "should i bring a towel to the gym",
+      "gym towel",
+      "people who dont wipe down",
+      "clean equipment before using",
+      "spray and wipe gym",
+      "is the gym dirty",
+      "gym germs",
+      "how to clean gym equipment"
+    ],
+    "match": "\\bwip(e|ing) (down|off)?\\s?(the |your |my )?(equipment|machines?|benches?|bench|mats?|handles?)?\\b|\\bgym (hygiene|germs|towel)\\b|\\bsweaty (bench|seat|machine)\\b|\\bclean(ing)? (the |gym )?equipment\\b",
+    "body": [
+      "Yes, wipe it down. Every bench, seat, pad and handle you sweated on, when you are done. Most gyms have spray bottles or wipes around the floor. Spray the towel or wipe, not the machine, and wipe where your body and hands touched.",
+      "Bring a small towel to sit or lie on. It keeps your sweat off the bench and keeps the last person's sweat off you. Win win. Some people also give the bench a quick wipe before they use it, which is totally fair.",
+      "Basic personal hygiene is part of etiquette too: clean gym clothes every session, deodorant, shoes on at all times on the floor, and wash your hands or use sanitizer after your session before you touch your face or eat. You will get sick less often, and your neighbors will love you."
+    ],
+    "more": {
+      "why": "Shared surfaces collect sweat and germs. Wiping and using a towel keep equipment pleasant and cut down on germs spreading between members.",
+      "how": "Grab a wipe or spray towel when you start. Lay your own towel on the bench. When you finish, wipe seat, back pad and handles. Toss the wipe. Wash hands after.",
+      "example": "Bench press done: wipe the bench where your back was, wipe the bar where your hands were if your gym asks for it, re-rack the plates, move on.",
+      "mistake": "Spraying cleaner straight onto upholstered pads or electronics. Spray the towel instead; it is easier on the equipment and the person next to you."
+    },
+    "chips": [
+      "Do I have to re-rack my weights?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-054",
+    "topic": "etiquette",
+    "title": "How to ask to work in on equipment",
+    "keys": [
+      "how do i ask to work in",
+      "work in",
+      "working in",
+      "can i work in",
+      "what does work in mean",
+      "how to share equipment at the gym",
+      "sharing a machine",
+      "someone is using the machine i need",
+      "asking to share the squat rack",
+      "how to ask if someone is using a machine",
+      "are you using this",
+      "how long should i wait for a machine",
+      "alternate sets with someone"
+    ],
+    "match": "\\bwork(ing)? in\\b|\\b(share|sharing) (a |the )?(machine|equipment|rack|bench|station)\\b|\\bare you using (this|that|the)\\b|\\b(someone|somebody) is using the (machine|rack|bench)\\b|\\bwait for a (machine|rack|bench)\\b|\\balternate sets\\b",
+    "body": [
+      "Working in means you take turns on a machine or station: they do a set, you do a set while they rest, repeat. It is totally normal and one of the best ways to keep a busy gym moving. Here is how to ask without being awkward.",
+      "Wait until they finish a set and are resting, not mid rep. Make eye contact, smile, and ask: 'Hey, mind if I work in?' or 'How many sets do you have left?' If they say they are almost done, wait nearby but not hovering. If you share, adjust the seat or weight quickly, do your set, and put their settings back if they were different.",
+      "Some stations are harder to share, like a squat rack with very different bar heights or heavy loads, so 'how many sets left?' is the polite question there. And when someone asks to work in with you, say yes when you reasonably can. Karma at the gym is real."
+    ],
+    "more": {
+      "why": "Most gyms have limited stations at peak times. Sharing rest periods means two people get their work done instead of one person waiting the whole time.",
+      "how": "Ask between sets. Agree on turns. Keep your rest similar to theirs. Reset the weight or pin for them if you changed it. Thank them when you are done.",
+      "beginner": "Machines with a pin stack are the easiest to share: you just move the pin. Start there to get comfortable with working in before trying a shared barbell.",
+      "mistake": "Asking someone mid set or mid rep. Wait for the rest. Someone holding a heavy weight is not in a chatting mood."
+    },
+    "chips": [
+      "Someone is hogging the rack",
+      "Gym is too crowded, what do I do?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051",
+      "sh-b-055"
+    ]
+  },
+  {
+    "id": "sh-b-055",
+    "topic": "etiquette",
+    "title": "When someone is hogging a station or resting forever",
+    "keys": [
+      "someone is hogging the rack",
+      "hogging equipment",
+      "rest time hogging",
+      "someone on their phone on the machine",
+      "people sitting on machines on their phone",
+      "texting on the bench",
+      "someone curling in the squat rack",
+      "curls in the squat rack",
+      "how to deal with equipment hogs",
+      "person resting too long",
+      "someone is using two machines",
+      "saving equipment with a towel",
+      "how long can i use a machine"
+    ],
+    "match": "\\bhog(s|ging)?\\b|\\b(sitting|resting|scrolling|texting) (on|in) (the )?(machine|bench|rack|station)\\b|\\bcurl(s|ing)? in the squat rack\\b|\\bsaving (equipment|a machine|the bench) with (a )?towel\\b|\\b(using|on) two (machines|stations)\\b|\\bresting (too|so) long\\b",
+    "body": [
+      "Ah, the bench texter. A classic. Most station hogs are not being rude on purpose, they are just in their own world. So start with the friendly move: wait for a pause and ask, 'Hey, how many sets do you have left?' or 'Mind if I work in?' That usually snaps them back to reality fast.",
+      "If they say they will be a while, ask to alternate, or plan around them: do another exercise and come back. If someone is truly camping on a station for a long time and you cannot work in, mention it to staff. That is literally their job, and you do not need a showdown.",
+      "And check your own habits too, with love. Rest periods of 1 to 3 minutes are normal, and longer for very heavy sets is fine. But if you are scrolling for five minutes between sets at peak hours, take the phone break off the bench."
+    ],
+    "more": {
+      "why": "Long phone breaks and saved stations block others during busy times. A polite question usually fixes it; staff are there for the rare cases where it does not.",
+      "how": "Wait for a pause. Ask how many sets are left. Offer to work in. If no luck, swap the order of your session. If it is ongoing, tell staff without naming or shaming.",
+      "example": "Someone is curling in the only squat rack. You ask how many sets they have left, they say two. You do your lunges first, then the rack is free. Zero drama.",
+      "mistake": "Hovering silently and glaring. It feels like communication but it is not. A friendly question works way better."
+    },
+    "chips": [
+      "How do I ask to work in?",
+      "Gym is too crowded, what do I do?",
+      "Someone was rude to me at the gym"
+    ],
+    "related": [
+      "sh-b-054"
+    ]
+  },
+  {
+    "id": "sh-b-056",
+    "topic": "etiquette",
+    "title": "Phone use in the gym",
+    "keys": [
+      "phone use at the gym",
+      "is it rude to be on your phone at the gym",
+      "can i take calls at the gym",
+      "using phone between sets",
+      "phone in the gym",
+      "should i leave my phone in the locker",
+      "facetime at the gym",
+      "people on speakerphone at the gym",
+      "scrolling between sets",
+      "texting at the gym",
+      "phone distraction workout",
+      "loud phone calls gym"
+    ],
+    "match": "\\bphones? (use|in the gym|at the gym|between sets|distraction)\\b|\\b(on (my|your|their) phone|scrolling|texting|facetim\\w*|speaker ?phone|phone calls?) (at|in|between)( the)? (gym|sets)\\b|\\b(take|taking) (a )?calls? (at|in) the gym\\b|\\bphone in the locker\\b",
+    "body": [
+      "Your phone is a great training tool and a terrible training partner. Use it for your plan, your music, logging sets and a rest timer. Those are all gym approved. The problems start when the phone becomes the session.",
+      "The courtesy rules: no speakerphone calls or video sound on the floor, ever. If you need to take a call, step off the floor to the lobby or locker room. Scroll somewhere that is not a shared bench or machine at busy times. And keep your phone off the floor in walkways where someone could step on it or trip.",
+      "For your own training, set a rest timer and when it beeps, you lift. If you notice your sessions dragging past 90 minutes and you are not sure why, check your screen time. Airplane mode with downloaded music is a power move."
+    ],
+    "more": {
+      "why": "Phones easily stretch rest periods and take up stations. Keeping use focused on training tools keeps your session sharp and keeps equipment available.",
+      "how": "Before the session: download the playlist, open your plan, set a rest timer. Silence notifications. Calls happen off the floor. Messages wait until the session ends.",
+      "short_on_time": "Short on time? Phone on airplane mode and a 90 second rest timer. You will be amazed how much faster a 45 minute plan finishes.",
+      "mistake": "Scrolling 'just one thing' between sets, then realizing ten minutes are gone and your muscles have cooled down."
+    },
+    "chips": [
+      "Can I film in the gym?",
+      "What should I listen to?",
+      "Someone is hogging the rack"
+    ],
+    "related": [
+      "sh-b-057"
+    ]
+  },
+  {
+    "id": "sh-b-057",
+    "topic": "etiquette",
+    "title": "Filming yourself in the gym without being a jerk",
+    "keys": [
+      "can i film in the gym",
+      "filming at the gym",
+      "is it ok to record at the gym",
+      "filming my lifts",
+      "record my form",
+      "tripod at the gym",
+      "someone filmed me at the gym",
+      "people filming in the gym",
+      "can i film other people at the gym",
+      "gym filming rules",
+      "film my workout",
+      "camera at the gym",
+      "content creators at the gym"
+    ],
+    "match": "\\b(film|filming|filmed|record|recording|recorded|video|tripod|camera)\\b.*\\b(gym|lifts?|form|workout|set)\\b|\\b(gym|lifts?|form|workout)\\b.*\\b(film|filming|filmed|recording|tripod)\\b",
+    "body": [
+      "Filming your own lifts is one of the best form tools there is, so yes, film. Just film politely. First, check your gym's rules; some gyms limit filming or ban it in certain areas, and locker rooms are always a hard no.",
+      "Polite filming means: set your phone or tripod where nobody trips over it, frame the shot so other people are not in it, and never block a walkway or the dumbbell rack. If someone ends up in the background, ask them or crop them out before you post. Keep it quick, film the set, check it, move on.",
+      "If someone films you without permission and you are not okay with it, you can ask them to delete it or tell staff. You have every right to train without being content."
+    ],
+    "more": {
+      "why": "Video shows you what you cannot feel, like depth on a squat or a rounded back on a deadlift. Filming respectfully keeps that benefit without making others uncomfortable.",
+      "how": "Phone about hip height, side angle for squats and deadlifts, 45 degrees for bench. About 6 to 10 feet away. Record one working set, then watch it during your rest.",
+      "beginner": "Film one set of each main lift every week or two. Compare the clips over time. You will see your form improve, which is a fantastic non-scale win.",
+      "mistake": "Posting a clip with someone in the background who did not agree to be filmed. Always ask, crop, or blur."
+    },
+    "chips": [
+      "Should I post my workouts?",
+      "Gym etiquette basics?",
+      "Someone corrected my form"
+    ],
+    "related": [
+      "sh-b-056"
+    ]
+  },
+  {
+    "id": "sh-b-058",
+    "topic": "etiquette",
+    "title": "Headphones at the gym and how to talk to someone wearing them",
+    "keys": [
+      "headphones at the gym",
+      "can i wear headphones at the gym",
+      "how to talk to someone with headphones",
+      "earbuds at the gym",
+      "is it rude to wear headphones at the gym",
+      "best headphones for working out",
+      "do headphones mean dont talk to me",
+      "playing music out loud at the gym",
+      "speaker at the gym",
+      "music without headphones gym",
+      "airpods at the gym",
+      "noise canceling headphones gym"
+    ],
+    "match": "\\b(head ?phones|ear ?buds|airpods|ear ?pods)\\b|\\b(music|speaker) (out loud|without headphones)\\b|\\bspeakers? (at|in) the gym\\b",
+    "body": [
+      "Headphones at the gym? Absolutely. They are basically the universal 'focus mode' sign. Most people wearing them are not being antisocial, they are in the zone, and that is allowed. Over-ear or earbuds, whatever stays put when you move. Just keep the volume where you can still hear a fire alarm or someone yelling 'watch out'.",
+      "If you need to ask a headphone wearer something, wait until they finish their set, step into their line of sight from the front (not a shoulder tap from behind), give a little wave, and keep it short. 'Sorry to interrupt, are you using this bench?' Done.",
+      "The flip side: no music out loud from a speaker or phone, unless it is a private space or class. Your playlist is amazing, I am sure, but the person next to you has their own."
+    ],
+    "more": {
+      "why": "Music helps a lot of people focus and push harder. Headphones keep that benefit personal so everyone can train to their own soundtrack.",
+      "how": "Approach from the front, wait for a rest, wave, ask a short question. Most people pop out one earbud and answer right away.",
+      "example": "You need the 25 lb dumbbells that someone has near their bench. Wait for their set to finish, step into view, point and say 'mind if I grab these?' Thumbs up. Done.",
+      "mistake": "Blasting music so loud you cannot hear your spotter, a staff member or a warning. Keep one ear's worth of awareness."
+    },
+    "chips": [
+      "What should I listen to?",
+      "What BPM is good for lifting?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-059",
+    "topic": "etiquette",
+    "title": "Grunting, noise and dropping weights",
+    "keys": [
+      "is grunting at the gym okay",
+      "grunting at the gym",
+      "loud breathing gym",
+      "why do people grunt when lifting",
+      "can i drop weights",
+      "dropping weights at the gym",
+      "dropping dumbbells",
+      "slamming weights",
+      "is it rude to drop the deadlift",
+      "lunk alarm",
+      "screaming at the gym",
+      "loud lifter at the gym",
+      "noise at the gym",
+      "bumper plates drop"
+    ],
+    "match": "\\bgrunt(ing|s)?\\b|\\b(drop|dropping|slam|slamming) (the |my )?(weights?|dumbbells?|deadlift|bar|barbell)\\b|\\blunk alarm\\b|\\b(scream|yell)(ing)? (at|in) the gym\\b|\\bloud (lifter|breathing|exhale)\\b|\\bnoise (at|in) the gym\\b|\\bbumper plates?\\b",
+    "body": [
+      "Some noise on a heavy set is normal. A big exhale or a short grunt when you are pushing hard is part of bracing and effort, and nobody reasonable minds. Constant roaring on every warm-up set is a different story. Rule of thumb: the noise should match the effort, and it should be over when the rep is.",
+      "Dropping weights depends on the gym and the equipment. Many gyms are fine with lowering a heavy deadlift quickly with bumper plates on a platform. Throwing dumbbells from overhead or slamming iron plates on a regular floor is a no, because it damages equipment, bounces dangerously and scares people. Lower dumbbells with control, or set them on your thighs and sit up first.",
+      "If your gym has posted rules about noise or dropping, those win. Check them, or ask staff on day one."
+    ],
+    "more": {
+      "why": "A forceful exhale helps you keep pressure in your trunk on hard reps. Controlled lowering protects the equipment, the floor and everyone's toes.",
+      "how": "On heavy sets: big breath in, brace, push, exhale hard near the top. With dumbbells after a heavy press: bring them to your chest, sit up, rest them on your thighs, then lower to the floor.",
+      "beginner": "No need to be silent, but you also do not need theatrics. Focus on breathing and bracing; the right amount of noise takes care of itself.",
+      "mistake": "Dropping dumbbells off a bench press from full arm extension. They can bounce, roll and hit someone's ankle. Bring them in first."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "Can I use chalk at my gym?",
+      "Someone was rude to me at the gym"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-060",
+    "topic": "etiquette",
+    "title": "Using chalk at the gym",
+    "keys": [
+      "can i use chalk at my gym",
+      "chalk at the gym",
+      "is chalk allowed",
+      "gym doesnt allow chalk",
+      "liquid chalk",
+      "chalk ball",
+      "chalk etiquette",
+      "chalk mess",
+      "do i need chalk",
+      "chalk for pull ups",
+      "chalk for deadlifts",
+      "chalk alternatives"
+    ],
+    "match": "\\bchalk\\b",
+    "body": [
+      "Chalk is great for grip on deadlifts, rows, pull-ups and anything where sweaty hands make the bar slip. Whether you can use it depends on your gym. Some love it, some allow only liquid chalk or a chalk ball, and some ban it because of the mess. Check the posted rules or ask the front desk before your first chalky session.",
+      "If chalk is allowed, use it like a good neighbor. Apply it over a bin or bucket, not in the middle of the floor. Use a little, not a snowstorm. Wipe off big chalk marks you leave on the bar or handles. Liquid chalk is the tidiest option and usually wins in gyms that are strict about mess.",
+      "If chalk is banned, try a small towel to dry your hands between sets, keep the bar knurling clean, and build your grip with holds and carries."
+    ],
+    "more": {
+      "why": "Chalk absorbs sweat and improves friction between your hands and the bar. That can help you hold heavier weights longer without the bar slipping.",
+      "how": "Rub a small amount on palms and fingers before the set. Over a bucket. Clap off the excess there too. After your set, give the bar a quick wipe if you left white patches.",
+      "beginner": "You probably do not need chalk until your grip starts limiting your pulls. Learn the lifts first, then add chalk when the bar starts slipping.",
+      "mistake": "Clapping chalk into a giant cloud next to someone's water bottle. Small amount, over the bucket, no applause needed."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "Do I need to wipe down equipment?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-061",
+    "topic": "etiquette",
+    "title": "Someone was rude to you at the gym",
+    "keys": [
+      "someone was rude to me at the gym",
+      "rude person at the gym",
+      "someone yelled at me at the gym",
+      "gym bully",
+      "someone laughed at me at the gym",
+      "people laughed at me",
+      "someone told me to get off the machine",
+      "argument at the gym",
+      "how to handle rude people at the gym",
+      "confrontation at the gym",
+      "mean person at the gym",
+      "someone stole my bench",
+      "someone took my weights"
+    ],
+    "match": "\\b(someone|somebody|a (guy|girl|man|woman|lady|person|lifter|member)|people|he|she|they) (was|were|is|are|got|has been|keeps being) (so |really )?(rude|mean|nasty|aggressive|hostile)\\b|\\b(yelled|laughed|snapped|cursed) at me\\b|\\bgym bull(y|ies)\\b|\\b(confrontation|argument|fight) (at|in) the gym\\b|\\brude (person|people|guy|member)s? (at|in) the gym\\b|\\b(stole|took|grabbed) my (bench|weights?|dumbbells?|machine|spot|station)\\b",
+    "body": [
+      "I'm sorry, that stinks. Somebody being rude can make a place you love feel uncomfortable fast. First thing: you did not deserve it, even if you made an honest etiquette mistake. Mistakes get a polite heads up, not attitude.",
+      "In the moment, keep it calm and short. If it was a misunderstanding, like they thought you were done with a bench, a simple 'Oh, I am still using this, I have two sets left' usually settles it. If they are being aggressive, do not escalate. Step away, finish your session somewhere else in the gym, and tell staff what happened. Staff deal with this stuff, and they want to know.",
+      "If someone ever makes you feel unsafe, harasses you, or follows you around, go straight to staff or management, every time. That is never something you should just tolerate. And then come back to the floor next session, head up. You belong here."
+    ],
+    "more": {
+      "why": "Escalating in the moment rarely helps and can turn unsafe. Staff have the authority to handle conflicts and keep the space safe for everyone.",
+      "how": "Pause. One calm sentence. Step away if needed. Report to staff with time, place and what happened. Write it down if it happens again.",
+      "example": "Someone snaps at you for using the rack they 'were about to use'. You say: 'I have three sets left, you are welcome to work in.' They grumble and leave. You finish your squats. Win.",
+      "mistake": "Quitting the gym or changing your schedule forever because of one rude person. Report it and keep showing up; the gym belongs to all of you."
+    },
+    "chips": [
+      "Someone is staring at me at the gym",
+      "How do I ask to work in?",
+      "I feel like I don't belong"
+    ],
+    "related": [
+      "sh-b-062",
+      "sh-b-055"
+    ]
+  },
+  {
+    "id": "sh-b-062",
+    "topic": "etiquette",
+    "title": "Someone keeps staring at you or making you uncomfortable",
+    "keys": [
+      "someone is staring at me at the gym",
+      "people stare at me at the gym",
+      "creep at the gym",
+      "guy keeps staring at me",
+      "someone keeps watching me work out",
+      "feel uncomfortable at the gym",
+      "harassment at the gym",
+      "someone keeps hitting on me at the gym",
+      "someone follows me around the gym",
+      "unwanted attention at the gym",
+      "how to deal with gym creeps",
+      "someone keeps talking to me"
+    ],
+    "match": "\\bstar(e|es|ed|ing) at me\\b|\\bcreeps?\\b|\\bharass\\w*\\b|\\bunwanted attention\\b|\\b(keeps|kept) (staring|watching|following|hitting on|talking to) me\\b|\\bfollow(s|ed|ing)? me around\\b|\\buncomfortable at the gym\\b",
+    "body": [
+      "Okay, let's make sure you feel safe on the floor. Quick, neutral glances happen in a room full of mirrors and moving people. Most of it is people zoning out, checking form in the mirror, or waiting for your equipment. Repeated staring, comments about your body, following you, or not taking a polite no for an answer is different, and it is not okay.",
+      "Simple tools: move to another area, train closer to staff or busier spots, and keep headphones in as a shield. If someone approaches you and you are not interested, a short, firm 'I'm in the middle of my workout' is enough. No explanation needed.",
+      "If it keeps happening, or you feel unsafe at any point, tell staff or management right away, with details if you can. A good gym takes it seriously. Bring a friend for a few sessions if that helps, and if your gym will not deal with it, that is a gym problem, not you."
+    ],
+    "more": {
+      "why": "Everyone deserves to train without feeling watched or pressured. Staff can address behavior that crosses a line and can make it stop.",
+      "how": "Note the time and what happened. Move away. Report to staff on the spot or right after. If it repeats, report again and ask management what they will do.",
+      "beginner": "If you are new and nervous, training at quieter times near the front desk or in group classes can feel much safer while you settle in.",
+      "mistake": "Thinking you are overreacting and staying quiet. If it made you uncomfortable, it is worth reporting. Staff would rather hear it early."
+    },
+    "chips": [
+      "Someone was rude to me at the gym",
+      "Group class or train solo?",
+      "I feel like I don't belong"
+    ],
+    "related": [
+      "sh-b-061"
+    ]
+  },
+  {
+    "id": "sh-b-063",
+    "topic": "etiquette",
+    "title": "When someone gives you unsolicited form advice",
+    "keys": [
+      "someone corrected my form",
+      "unsolicited advice at the gym",
+      "random guy gave me advice",
+      "stranger corrected my form",
+      "someone told me my form is bad",
+      "people giving advice at the gym",
+      "gym bro advice",
+      "how to respond to unsolicited advice",
+      "should i correct someone's form",
+      "should i tell someone their form is wrong",
+      "someone critiqued my squat",
+      "a stranger told me i was doing it wrong"
+    ],
+    "match": "\\b(someone|somebody|stranger|random (guy|person|girl|lady|dude)|guy|lady) (corrected|critiqued|commented on|told me) (my )?(form|technique|squat|deadlift|bench|i was doing it wrong)\\b|\\bunsolicited (form )?advice\\b|\\b(should i )?(correct|fix) (someone|a stranger|somebody)'?s? form\\b|\\btell someone their form\\b",
+    "body": [
+      "Ah, the surprise coach. It happens to everybody. Some unsolicited advice is genuinely kind, some is just wrong, and some is someone wanting to chat. You do not have to take it or argue it. A friendly 'thanks, I'll think about it' ends the conversation either way.",
+      "Then actually think about it for a second. If it was about safety, like your lower back rounding on a deadlift or the bar drifting way off on a bench, it is worth checking. Film your next set and look. If it was about a style choice, like a narrower squat stance that works fine for you, you can ignore it. Corrected, not embarrassed, and you get to decide which corrections you keep.",
+      "Thinking of correcting someone else? Unless you see something that looks genuinely dangerous right now, let them be. If you do say something, wait until they finish the set, and keep it short and kind."
+    ],
+    "more": {
+      "why": "Advice from strangers is a mixed bag. Filming lets you check it against what is actually happening instead of guessing.",
+      "how": "Say thanks. Film the next set from the side. Compare against a trusted source or your coach. Keep what helps, drop what does not.",
+      "example": "Someone says your squat is too shallow. You film it and see your hips stop well above your knees. Fair point. Next session you lighten the bar and work on depth.",
+      "mistake": "Arguing mid session or changing your whole technique on the spot because a stranger said so. Check first, then decide."
+    },
+    "chips": [
+      "Can I film in the gym?",
+      "How do I stop comparing myself?",
+      "Someone was rude to me at the gym"
+    ],
+    "related": [
+      "sh-b-057"
+    ]
+  },
+  {
+    "id": "sh-b-064",
+    "topic": "etiquette",
+    "title": "Asking for a spot and spotting someone else",
+    "keys": [
+      "how do i ask for a spot",
+      "asking for a spot",
+      "can you spot me",
+      "how to spot someone",
+      "how to spot bench press",
+      "is it ok to ask a stranger to spot me",
+      "spotter",
+      "spotting etiquette",
+      "someone asked me to spot them",
+      "how many reps are you going for",
+      "do i need a spotter",
+      "lifting without a spotter"
+    ],
+    "match": "\\b(spotter|spotting)\\b|\\bspot (me|someone|bench|for)\\b|\\b(ask(ing)? (someone )?for|give me|need|get) a spot\\b",
+    "body": [
+      "Asking a stranger for a spot is completely normal gym culture, and most lifters are happy to help. Pick someone resting between sets, ask 'Could you give me a quick spot?' and then give them the details: how many reps you are going for, whether you want a lift-off, and when you want help ('only if it stops moving').",
+      "If you are the spotter on a bench press, stand at the head of the bench, hands close to the bar but not touching it, and follow it down and up. If the bar stalls or starts going down, grab it with both hands and help just enough to rack it. Stay focused and silent unless you are cueing them. No phone, no chatting.",
+      "No spotter? Bench inside a rack or with safety arms set just below your chest at the bottom, or use dumbbells. And do not take a set to failure with heavy weight without one of those safety options."
+    ],
+    "more": {
+      "why": "A spotter or safety pins make it safe to push hard sets. Clear communication before the set means the spotter knows exactly when and how to help.",
+      "how": "Before the set, agree on: number of reps, lift-off or not, when to help, and who racks it. Spotter stands close, hands ready, eyes on the bar the whole time.",
+      "beginner": "Early on, you rarely need a spotter if you stop sets with two or three reps left. Set up safety arms in the rack and you can train alone with confidence.",
+      "mistake": "The spotter who 'helps' on every rep by lifting half the bar. Only help when the bar stops moving, unless the lifter asked for something different."
+    },
+    "chips": [
+      "How do I ask to work in?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-065",
+    "topic": "etiquette",
+    "title": "A crowded gym at peak hours",
+    "keys": [
+      "gym is too crowded what do i do",
+      "gym is packed",
+      "crowded gym",
+      "busy gym",
+      "peak hours at the gym",
+      "best time to go to the gym",
+      "when is the gym least busy",
+      "gym too busy after work",
+      "january gym crowd",
+      "new years crowd at the gym",
+      "all the machines are taken",
+      "no equipment free",
+      "how to work out in a busy gym"
+    ],
+    "match": "\\b(crowded|packed|busy|full|slammed) gym\\b|\\bgym (is |was |gets )?(too |so |really )?(crowded|packed|busy|full|slammed)\\b|\\bpeak (hours|times?)\\b|\\b(least|less) (busy|crowded)\\b|\\bwork ?out in a busy gym\\b|\\b(all the|every) (machines?|racks?|benches?) (is |are )?taken\\b|\\bbest time to go to the gym\\b",
+    "body": [
+      "Packed gym? Time to play it smart. Most gyms are busiest on weekday evenings, roughly 5 to 7 pm, and especially Mondays and in January. Early mornings, late mornings, mid afternoon and later evenings are usually calmer. Check if your gym shows a live crowd meter, or ask the front desk.",
+      "When you cannot avoid peak time, plan a flexible session. Write a backup for each main exercise: barbell bench taken? Dumbbell bench. Squat rack full? Goblet squats or the leg press. Keep your setup compact, one or two stations at a time, so you are not stuck waiting.",
+      "Be ready to share. Ask to work in, keep rest reasonable, and do your stretching away from equipment. Mondays especially: everyone trains chest. Go legs, and enjoy the empty rack."
+    ],
+    "more": {
+      "why": "Most people train before or after work, which piles everyone into the same couple of hours. Shifting your time or having backup exercises keeps your session on track.",
+      "how": "List each exercise with one backup that uses different equipment. Start with whatever is free, not necessarily what is first on the list, as long as the hardest lift still comes early.",
+      "example": "Squat rack full at 6 pm? Do Bulgarian split squats with dumbbells first, then grab the rack when it opens for your squats. Same session, no waiting.",
+      "mistake": "Standing around for 15 minutes waiting for one bench while your warm-up wears off. Swap the order or use the backup."
+    },
+    "chips": [
+      "Morning or evening workouts?",
+      "How do I ask to work in?",
+      "Lunch break workouts?"
+    ],
+    "related": [
+      "sh-b-054"
+    ]
+  },
+  {
+    "id": "sh-b-066",
+    "topic": "etiquette",
+    "title": "Personal space, mirrors and walking paths",
+    "keys": [
+      "standing in front of the dumbbell rack",
+      "walking in front of someone lifting",
+      "blocking the mirror",
+      "personal space at the gym",
+      "how close is too close at the gym",
+      "lifting right next to someone",
+      "where should i stand at the gym",
+      "dumbbell rack etiquette",
+      "walking between someone and the mirror",
+      "taking up too much space at the gym",
+      "crowding someone at the gym"
+    ],
+    "match": "\\b(stand(ing)?|lift(ing)?|curl(ing)?) (right )?in front of (the )?(dumbbell rack|rack|mirror)\\b|\\bwalk(ing)? (in front of|between) (someone|the mirror|a lifter|people)\\b|\\bpersonal space\\b|\\b(dumbbell )?rack etiquette\\b|\\b(taking up|crowd\\w*) (too much )?(space|someone)\\b|\\bblock(ing)? the mirror\\b",
+    "body": [
+      "Quick floor geometry lesson. When you grab dumbbells, take them a few steps back from the rack so other people can reach theirs. Lifting right in front of the rack is one of the most common gym annoyances, and an easy one to avoid.",
+      "Give people space. Do not set up right next to someone when the floor has room. Walk behind people who are lifting, not between them and the mirror they are using to check form, and never across someone's lane during a heavy squat or deadlift. Keep your bag, bottle and phone in a neat little zone, not spread across three benches.",
+      "If the gym is tight and you need to squeeze in, a quick 'mind if I set up here?' goes a long way. Little courtesies keep the whole floor flowing, and they make you the person everyone is happy to see."
+    ],
+    "more": {
+      "why": "Lifters use the mirror and the space around them for balance and form. Interrupting their view or crowding them can make a set awkward or unsafe.",
+      "how": "Grab, step back two or three big steps, lift. Walk the long way around active lifters. Keep your stuff together under your bench.",
+      "beginner": "Scan before you set up: is anyone mid set nearby, are you blocking a rack or a walkway? Pick a spot with a little breathing room around it.",
+      "mistake": "Doing lunges across the whole dumbbell area at peak time. Find an open lane or a side room."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "Gym is too crowded, what do I do?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-067",
+    "topic": "etiquette",
+    "title": "Locker room etiquette",
+    "keys": [
+      "locker room etiquette",
+      "locker room rules",
+      "changing at the gym",
+      "uncomfortable in the locker room",
+      "phones in the locker room",
+      "gym showers",
+      "should i shower at the gym",
+      "locker room awkward",
+      "nudity in the locker room",
+      "where to change at the gym",
+      "how long to use the locker",
+      "taking up the bench in the locker room"
+    ],
+    "match": "\\blocker ?rooms?\\b|\\bchanging (room|at the gym)\\b|\\bgym showers?\\b|\\bshower at the gym\\b",
+    "body": [
+      "Locker rooms run on a few simple rules. Number one, no phones out for photos or video, ever. Most gyms ban it, and it is about everyone's privacy. If you need your phone, keep it in your bag or use it with the screen pointed down and away from people.",
+      "Number two, take only the space you need: one locker, a small spot on the bench, and pack up when you are done. Number three, keep showers quick at busy times, wear flip flops in wet areas, and leave the stall the way you found it. Number four, be respectful of different comfort levels. Some people change openly, some use a towel or a private stall. Both are fine, and nobody needs commentary.",
+      "If the locker room makes you anxious, arrive dressed for training, use a private stall or bathroom to change, or shower at home. Totally normal."
+    ],
+    "more": {
+      "why": "Locker rooms are about privacy and shared space. Simple habits protect everyone's comfort and keep things moving at busy times.",
+      "how": "Bag in, change, bag out. Phone away. Flip flops in the shower. Quick tidy before you leave.",
+      "beginner": "Arriving already in training clothes saves time and skips most of the locker room awkwardness while you get used to the gym.",
+      "mistake": "Taking a selfie in the locker room mirror. Even if nobody seems to be behind you, someone often is, and it can get you banned."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "I feel like I don't belong"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-068",
+    "topic": "etiquette",
+    "title": "What to wear to the gym and how not to smell",
+    "keys": [
+      "what should i wear to the gym",
+      "gym clothes",
+      "what to wear for lifting",
+      "gym outfit",
+      "can i wear jeans to the gym",
+      "shoes for the gym",
+      "can i lift barefoot",
+      "gym body odor",
+      "how not to smell at the gym",
+      "do my gym clothes matter",
+      "self conscious about gym clothes",
+      "gym dress code",
+      "can i wear sandals to the gym"
+    ],
+    "match": "\\b(what (should i|to) wear|(?<!in )gym (clothes|outfit|dress code)|wear (jeans|sandals|flip flops) to the gym)\\b|\\blift(ing)? barefoot\\b|\\b(body odor|smell(y)?) (at|in) the gym\\b|\\bhow not to smell\\b|\\bshoes for (the gym|lifting)\\b",
+    "body": [
+      "Here's the good news: you do not need fancy gear. Wear clothes you can move in, that do not ride up or fall down when you squat, and that you feel good in. Shorts or leggings, a t-shirt or tank, socks, and closed toe shoes. Stuff from your closet works great.",
+      "Shoes: for lifting, flat and firm soles are best, like simple flat sneakers or lifting shoes. Very squishy running shoes can feel wobbly on squats and deadlifts. Some gyms allow socks only or barefoot for deadlifts, but many require shoes on the floor, so check. Sandals and flip flops are a no for safety.",
+      "Smell check: fresh clothes every session, deodorant, and wash gym gear soon after, not three days later in the car. Jeans or anything stiff limits your range of motion, so save those for after."
+    ],
+    "more": {
+      "why": "Comfortable, movable clothes let you use full range of motion. Firm shoes give you a stable base for lifts. Fresh gear keeps the shared space pleasant.",
+      "how": "Pack: shoes, socks, shorts or leggings, a top, a hair tie if needed, deodorant, a towel. Wash gym clothes after each use. Air out shoes between sessions.",
+      "beginner": "Do not buy anything until you have trained a few weeks. You will learn what you actually need, maybe a pair of flat shoes and that is it.",
+      "mistake": "Thinking you need to look the part before you start. Old t-shirts lift exactly the same amount of weight as expensive ones."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "I feel like I don't belong"
+    ],
+    "related": [
+      "sh-b-051",
+      "sh-b-012"
+    ]
+  },
+  {
+    "id": "sh-b-069",
+    "topic": "etiquette",
+    "title": "Talking to people at the gym: when it is welcome",
+    "keys": [
+      "is it okay to talk to people at the gym",
+      "how to start a conversation at the gym",
+      "should i talk to people at the gym",
+      "can i compliment someone at the gym",
+      "complimenting strangers at the gym",
+      "chatting at the gym",
+      "people who talk too much at the gym",
+      "how to end a conversation at the gym",
+      "someone talks to me during my workout",
+      "gym small talk",
+      "is it weird to say nice set"
+    ],
+    "match": "\\b(talk|chat|talking|chatting) (to|with) (people|strangers|someone) (at|in) the gym\\b|\\b(start|end) a conversation (at|in) the gym\\b|\\bcompliment(ing)? (someone|strangers|people) (at|in) the gym\\b|\\bgym small talk\\b|\\bnice set\\b|\\b(people|someone|a guy|a lady) (who )?talks? (to me )?too much (at|during)\\b",
+    "body": [
+      "Gyms can be really social, and friendly is good! The trick is timing and reading the room. Best moments to chat: between sets when someone is clearly resting, at the water fountain, or when you are both packing up. Worst moments: mid set, right before a heavy lift, or when someone has headphones in and is locked in.",
+      "Compliments about effort and performance are almost always welcome: 'Nice set!', 'That was a strong pull.' Comments about bodies, especially from strangers, are usually not. Keep it about the lifting.",
+      "If someone talks your ear off when you need to train, you can be friendly and firm: 'Love chatting, but I have to get my sets in! Catch you later.' Then put one earbud back in. Easy. Nobody needs to feel bad."
+    ],
+    "more": {
+      "why": "Good timing makes conversation welcome rather than disruptive. Keeping comments about effort keeps the vibe positive and respectful.",
+      "how": "Wait for rest. Short opener about the lift. Read their response: short answer and earbud back in means they are training. Longer chat means they are open to it.",
+      "example": "Someone hits a big deadlift. You wait until they rack it and say 'That moved fast, nice work.' They smile. That is how floor friendships start.",
+      "mistake": "Starting a long conversation while someone is chalking up for a heavy set. Wait. Their focus is part of their lift."
+    },
+    "chips": [
+      "How do I find a gym buddy?",
+      "Headphones at the gym?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-032"
+    ]
+  },
+  {
+    "id": "sh-b-070",
+    "topic": "etiquette",
+    "title": "Using several stations at once in a shared gym",
+    "keys": [
+      "can i use two machines at once",
+      "using multiple machines at once",
+      "claiming several stations",
+      "is it rude to use two benches",
+      "taking up multiple stations",
+      "circuit in a busy gym",
+      "holding equipment for my next exercise",
+      "reserving equipment",
+      "can i save a machine",
+      "saving my spot at the gym",
+      "leaving my towel on the bench"
+    ],
+    "match": "\\b(can i use|is it (rude|ok|okay) to use|claim\\w*|taking up|hold\\w*|reserv\\w*) (two|2|multiple|several|three|a few) (machines|stations|benches|pieces)\\b|\\busing multiple machines\\b|\\b(save|saving|reserve|reserving) (my |a )?(spot|machine|bench|station)\\b|\\bleaving my towel on\\b|\\bcircuit in a busy gym\\b",
+    "body": [
+      "Linking exercises together is a great way to train efficiently, but in a shared gym the rule is: you can only claim what you can actively use and share. During quiet hours, two stations side by side is usually no problem. At peak hours, claiming three machines and a bench while you rotate is a fast way to make enemies.",
+      "If you are pairing two exercises at a busy time, pick ones that use the same piece of equipment or a small footprint, like a pair of dumbbells and the floor next to your bench. And if someone asks to use a station you are holding, let them work in or give it up. A towel on a bench is not a reservation if you are across the room.",
+      "Rule of thumb: if you have been away from it for more than a set, it is fair game for someone else. Be the person who shares first."
+    ],
+    "more": {
+      "why": "Holding several stations means other people wait. Keeping your setup compact at busy times keeps the whole floor moving.",
+      "how": "Busy gym: build pairs around one station plus dumbbells or bodyweight. Quiet gym: spread out a little more. Always say yes to working in when you are holding something.",
+      "example": "Instead of claiming the cable machine, the bench and the leg press at 6 pm, pair dumbbell bench presses with dumbbell rows from the same bench. One station, same workout.",
+      "mistake": "Leaving a towel and a phone on a bench to 'save' it while you do two other exercises across the gym."
+    },
+    "chips": [
+      "How do I ask to work in?",
+      "Gym is too crowded, what do I do?",
+      "Someone is hogging the rack"
+    ],
+    "related": [
+      "sh-b-055",
+      "sh-b-065"
+    ]
+  },
+  {
+    "id": "sh-b-071",
+    "topic": "etiquette",
+    "title": "Using the squat rack as a beginner",
+    "keys": [
+      "am i allowed to use the squat rack",
+      "scared to use the squat rack",
+      "nervous to use the squat rack",
+      "can beginners use the power rack",
+      "using the squat rack for the first time",
+      "intimidated by the squat rack",
+      "free weight area intimidating",
+      "scared of the free weights section",
+      "is the squat rack only for squats",
+      "afraid of the weight room",
+      "too nervous to lift free weights"
+    ],
+    "match": "\\b(scared|nervous|afraid|intimidated|allowed)\\b.*\\b(squat rack|power rack|free weights?|weight room|barbell area)\\b|\\b(squat|power) rack for the first time\\b|\\bcan beginners use\\b|\\bis the squat rack only for\\b",
+    "body": [
+      "Yes, you are allowed in the squat rack. It is not a VIP section, it is a piece of equipment, and you are a member. Everybody in that area started with an empty bar and a little nervousness, I promise.",
+      "Make it easier on day one. Go at a quieter time. Have your plan written down so you are not wandering. Set the bar hooks around mid chest height and the safety arms just below the lowest point of your squat. Start with the empty bar, which is usually 45 lb, or goblet squats with a dumbbell nearby if the bar feels like too much. Nobody is grading you.",
+      "The rack's main job is squats, presses and anything that needs the safety arms. Using it for curls when the gym is busy will get you some looks, but learning to squat in it never will."
+    ],
+    "more": {
+      "why": "The rack exists to make heavy barbell work safer. Learning to set it up properly gives you confidence and protects you if a rep does not go up.",
+      "how": "Hooks at mid chest, safeties just below your bottom position, empty bar, 2 or 3 practice sets of 5 to learn the movement. Add small amounts only once it feels smooth.",
+      "beginner": "Your first few rack sessions are practice, not tests. Five easy sets of five with the empty bar is a perfectly respectable day one.",
+      "mistake": "Skipping the safety arms because you feel silly adjusting them. Everyone experienced sets them. That is how they got experienced."
+    },
+    "chips": [
+      "I feel like I don't belong",
+      "Gym is too crowded, what do I do?"
+    ],
+    "related": [
+      "sh-b-012"
+    ]
+  },
+  {
+    "id": "sh-b-072",
+    "topic": "etiquette",
+    "title": "When you break a gym rule by accident",
+    "keys": [
+      "i made an etiquette mistake at the gym",
+      "embarrassing moment at the gym",
+      "i did something embarrassing at the gym",
+      "i used the machine wrong",
+      "dropped the weight by accident",
+      "someone told me i was doing something wrong",
+      "i didnt know the rule",
+      "gym fail",
+      "embarrassed at the gym",
+      "i messed up at the gym",
+      "everyone saw me fail a lift"
+    ],
+    "match": "\\b(embarrass\\w*|messed up|made a mistake|etiquette mistake|gym fail)\\b.*\\b(gym|machine|lift|everyone)\\b|\\b(dropped|used) (the|a) (weight|machine|bar) (by accident|wrong)\\b|\\b(everyone|people) saw me (fail|drop|fall)\\b",
+    "body": [
+      "Welcome to the club! Literally every lifter has done something embarrassing in the gym. I once tripped over a jump rope in front of a whole class I was teaching. I got up, said 'and that is what we call an unplanned burpee', and we moved on.",
+      "If you made an etiquette mistake, like leaving weights out, using a machine backwards or grabbing someone's dumbbells, a quick 'Oh, my bad!' fixes it. Fix the thing if you can, then keep training. People forget it in about 30 seconds because they are busy thinking about their own sets.",
+      "If you missed a lift in front of people, that is not a mistake, that is lifting. Missing reps is part of training hard. Rack it, rest, adjust the weight if needed, and get back under it. Corrected, not embarrassed."
+    ],
+    "more": {
+      "why": "People notice far less than you think, and they forget even faster. Owning it lightly lets you move on without carrying it into the rest of your session.",
+      "how": "Say sorry if it affected someone, fix it, then do your next set. If you are not sure how a machine works, check the instructions sticker or ask staff.",
+      "beginner": "New members mess up machines all the time. Most have a diagram on the side. Look before you sit, and ask if you are unsure.",
+      "mistake": "Leaving the gym halfway through because you felt embarrassed. Stay and finish one more exercise. The next visit will feel much easier."
+    },
+    "chips": [
+      "I feel like I don't belong",
+      "Negative self-talk mid set"
+    ],
+    "related": [
+      "sh-b-012",
+      "sh-b-061"
+    ]
+  },
+  {
+    "id": "sh-b-073",
+    "topic": "etiquette",
+    "title": "Group class etiquette",
+    "keys": [
+      "group class etiquette",
+      "first group fitness class",
+      "fitness class rules",
+      "can i leave a class early",
+      "late to a fitness class",
+      "where to stand in a group class",
+      "front row of class",
+      "can i modify in a class",
+      "class instructor etiquette",
+      "spin class etiquette",
+      "bootcamp class rules",
+      "nervous about my first class"
+    ],
+    "match": "\\b(group|fitness|spin|cycle|bootcamp|hiit|yoga|pilates|barre|dance|step) class(es)?\\b.*\\b(etiquette|rules|first|late|leave|early|front|modify|nervous|where)\\b|\\bclass etiquette\\b|\\bfirst (group )?(fitness )?class\\b",
+    "body": [
+      "Oh, group classes are my home turf, I ran them for years! Here is the insider guide. Arrive 5 to 10 minutes early, especially the first time, so the instructor can show you the setup. Tell them if you are new or have anything to work around. We love knowing.",
+      "Where to stand: middle or back for your first couple of classes so you can watch others. Grab your gear before class, set it up neatly, and put it back after. Phones on silent. If you need to leave early, set up near the door and slip out quietly. If you arrive late, slide in without crossing in front of everyone.",
+      "Modifying is always allowed. Take the lower impact option, lighter weights or a break whenever you need it. That is not quitting, that is smart. And make some noise when the instructor asks for it; we can tell when you are holding back your hype."
+    ],
+    "more": {
+      "why": "Classes run on timing and shared space. Arriving early and setting up neatly help everyone start together and help the instructor coach you.",
+      "how": "Book ahead if needed. Arrive early. Introduce yourself to the instructor. Middle or back spot. Modify freely. Wipe and return equipment after.",
+      "beginner": "Pick a class labeled beginner or all levels for your first one. Then try two more before deciding if you like that style.",
+      "mistake": "Trying to keep up with the front row regulars in your first class. They have been coming for a year. Go at your pace and come back."
+    },
+    "chips": [
+      "Group class or train solo?",
+      "How do I bring class energy solo?",
+      "Gym etiquette basics?"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-074",
+    "topic": "etiquette",
+    "title": "Respecting staff, equipment and the space itself",
+    "keys": [
+      "something is broken at the gym",
+      "broken machine at the gym",
+      "how to report broken equipment",
+      "gym equipment out of order",
+      "should i tell staff something is broken",
+      "gym is dirty",
+      "complain to the gym",
+      "how to give feedback to my gym",
+      "missing equipment at the gym",
+      "gym staff not helpful",
+      "my gym is badly run"
+    ],
+    "match": "\\b(broken|out of order|damaged|missing)\\b.*\\b(machine|equipment|cable|bench|gym)\\b|\\breport (broken|a problem|equipment)\\b|\\b(complain|feedback) (to|for) (my |the )?gym\\b|\\bgym (is (dirty|badly run))\\b|\\bgym staff\\b",
+    "body": [
+      "See something broken, frayed, wobbly or missing? Tell staff right away and do not use it. A frayed cable or a loose pin is a real safety risk, and staff often do not know until someone tells them. Some gyms have an out of order sign or a feedback form; use it.",
+      "If it is a bigger issue, like the gym being consistently dirty, equipment staying broken for weeks, or a rule never being enforced, give calm, specific feedback to management: what, where, how long. 'The cable on the left lat pulldown has been frayed for two weeks' gets fixed faster than 'this place is a mess'.",
+      "And be kind to the front desk folks. They are usually the ones cleaning up after the people who did not re-rack. A thank you goes a long way."
+    ],
+    "more": {
+      "why": "Staff cannot fix what they do not know about. Specific reports get prioritized and make the gym safer for everyone.",
+      "how": "Stop using it. Tell staff the exact machine and problem. Snap a quick photo of the equipment only, no people, if they ask for details. Follow up if it is not fixed in a reasonable time.",
+      "example": "The pin on a leg extension does not lock in. You tell the desk, they put a sign on it, and you use the leg press instead today.",
+      "mistake": "Using equipment you know is damaged because you only have a few sets. A failing cable does not care how many sets you had left."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "Someone was rude to me at the gym"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  },
+  {
+    "id": "sh-b-075",
+    "topic": "etiquette",
+    "title": "Bringing a guest or a kid to the gym",
+    "keys": [
+      "can i bring a friend to the gym",
+      "bringing a guest to the gym",
+      "guest pass",
+      "can i bring my kid to the gym",
+      "kids at the gym",
+      "teen at the gym",
+      "how old to use the gym",
+      "bring my partner to the gym",
+      "train my friend at the gym",
+      "can i coach my friend at the gym",
+      "bringing my child to work out"
+    ],
+    "match": "\\bbring(ing)? (a |my )?(friend|guest|kid|kids|child|children|son|daughter|teen|partner|spouse) to the gym\\b|\\bguest pass(es)?\\b|\\b(kids|teens?|children) (at|in) the gym\\b|\\b(coach|train) my (friend|partner|kid|son|daughter) at the gym\\b",
+    "body": [
+      "Love that you want to bring someone! First step is always your gym's rules: most have guest passes or guest fees, and many have age limits for the weight floor or require a parent to be right there with a teen. Check at the front desk before you show up with your crew.",
+      "If you bring a friend, you are their host. Show them the etiquette basics, keep the session simple, and do not monopolize three stations for two people at peak time. Coaching a friend through a few moves is usually fine; running paid sessions as an outside trainer usually is not, so check that rule too.",
+      "Kids and teens: if your gym allows them, stay close, keep them away from heavy barbells and moving machines, and teach them to re-rack from day one. Great habits start early."
+    ],
+    "more": {
+      "why": "Guest and age rules exist for safety and insurance. Knowing them avoids an awkward moment at the front desk and keeps everyone safe on the floor.",
+      "how": "Call or ask the desk about guest passes and age policies. Pick a quieter time. Plan a short, simple session. Walk your guest through re-racking and wiping down.",
+      "beginner": "For a first-timer guest, pick five easy moves: a machine press, a machine row, a goblet squat, a plank and the bike. Fun, safe, not overwhelming.",
+      "mistake": "Bringing a guest at peak hours and trying to show them every machine in the building. Keep it short and fun so they want to come back."
+    },
+    "chips": [
+      "Gym etiquette basics?",
+      "Training around kids and family"
+    ],
+    "related": [
+      "sh-b-051"
+    ]
+  }
+]

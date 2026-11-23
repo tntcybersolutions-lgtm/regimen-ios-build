@@ -53,7 +53,9 @@
         const CdvPurchase = window.CdvPurchase;
         if (!CdvPurchase) return resolve(false);
         const { store: s, ProductType, Platform } = CdvPurchase;
-        s.register([{ id: productId, type: ProductType.PAID_SUBSCRIPTION, platform: Platform.APPLE_APPSTORE }]);
+        /* v377: both Pro products, monthly and yearly; the app picks one per buy(). */
+        const IDS = [productId, 'ai.saltiq.theregimen.pro.yearly', 'ai.saltiq.theregimen.pro.monthly'];
+        s.register([...new Set(IDS)].map((id) => ({ id, type: ProductType.PAID_SUBSCRIPTION, platform: Platform.APPLE_APPSTORE })));
         s.when().approved((tx) => tx.verify()).verified((r) => r.finish());
         s.initialize([Platform.APPLE_APPSTORE]).then(() => resolve(true)).catch(() => resolve(false));
       });
@@ -70,6 +72,10 @@
       try {
         const err = await offer.order();
         if (err) return { ok: false, reason: err.isError ? 'canceled' : String(err.message || 'failed') };
+        /* v377: ownership lands when the verified event fires, a beat after the sheet closes;
+           wait for it so the app hears the real answer */
+        const until = Date.now() + 10000;
+        while (!product.owned && Date.now() < until) { await new Promise((r) => setTimeout(r, 500)); }
         return { ok: !!(product.owned), reason: product.owned ? undefined : 'pending' };
       } catch (e) { return { ok: false, reason: 'failed' }; }
     },
@@ -415,5 +421,4 @@ if (window.RUN && window.RUN.strip) {
     }, 100);
   }, 50);
 }
-
 

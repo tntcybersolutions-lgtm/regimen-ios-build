@@ -8,15 +8,15 @@ const config: CapacitorConfig = {
   appId: 'ai.saltiq.theregimen',
   appName: 'formed fit',
   webDir: 'www',
-  backgroundColor: '#0F1013',       /* v360: the near-black ground; v299: the C3 ground (was the v129 light #F3F4F6, a white flash before the first paint) */
+  backgroundColor: '#EEF2F7',       /* v370: the soft glass ground (--ground in zz-glass.css); the shell is light now */
   ios: {
     contentInset: 'never',           /* v129: the page runs under the status bar and the home indicator and pads the safe areas itself (viewport-fit=cover in build.mjs); 'automatic' left it floating inside dark bars */
-    backgroundColor: '#0F1013',
+    backgroundColor: '#EEF2F7',
     preferredContentMode: 'mobile',
     limitsNavigationsToAppBoundDomains: false,
   },
   plugins: {
-    SplashScreen: { launchShowDuration: 0, backgroundColor: '#050a12', launchAutoHide: true },
+    SplashScreen: { launchShowDuration: 0, backgroundColor: '#EEF2F7', launchAutoHide: true },   /* v370: the glass ground, not the old near-black */
     LocalNotifications: { smallIcon: 'ic_stat_icon', iconColor: '#2e86f5' },
   },
 };

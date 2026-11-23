@@ -14,7 +14,10 @@ const fake = (name) => new Proxy({}, { get: (_, m) => (...a) => { calls.push(nam
 const doc = { readyState: 'complete', addEventListener(){}, dispatchEvent(e){ calls.push('event:' + e.type); return true; } };
 const window = { document: doc, navigator: {}, Event: class { constructor(t){ this.type = t; } } };
 window.window = window;
-const ctx = vm.createContext({ window, document: doc, navigator: window.navigator, Event: window.Event, console });
+const unref = (t) => { if (t && t.unref) t.unref(); return t; };
+const ctx = vm.createContext({ window, document: doc, navigator: window.navigator, Event: window.Event, console,
+  setInterval: (f, ms, ...a) => unref(setInterval(f, ms, ...a)), clearInterval,
+  setTimeout: (f, ms, ...a) => unref(setTimeout(f, ms, ...a)), clearTimeout });
 vm.runInContext(readFileSync('www/native.js', 'utf8'), ctx);
 const RUN = window.RUN;
 let fails = 0; const ok = (n, c, d='') => { console.log(`  ${c ? 'PASS' : 'FAIL'}  ${n}${d ? ' -- ' + d : ''}`); if (!c) fails++; };
@@ -42,3 +45,4 @@ await RUN.share({ text: 'x', title: 'y' }); ok('share -> Share.share', calls.inc
 ok('labs is null so the app keeps its own photo path', RUN.labs === null);
 console.log(fails ? `\n${fails} FAILED` : '\nALL PASS');
 process.exit(fails ? 1 : 0);
+

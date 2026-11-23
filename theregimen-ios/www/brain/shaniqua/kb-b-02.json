@@ -1,0 +1,1053 @@
+[
+  {
+    "id": "sh-b-026",
+    "topic": "showing-up",
+    "title": "The just do the warm-up rule",
+    "keys": [
+      "what is the warm-up rule",
+      "warm up rule",
+      "just do the warm up",
+      "the warmup rule",
+      "just start with the warm up",
+      "trick to get to the gym",
+      "how to get started when i dont want to",
+      "five minute rule",
+      "10 minute rule",
+      "just start",
+      "how do i make myself start",
+      "start small workout trick",
+      "two minute rule gym"
+    ],
+    "match": "\\b(warm.?up|five.?minute|5.?minute|10.?minute|ten.?minute|two.?minute|2.?minute) rule\\b|\\bjust (do|start with) the warm.?up\\b|\\bhow (do i|to|can i) make myself start\\b",
+    "body": [
+      "My favorite little trick, and it works embarrassingly well. On a day you do not want to train, you make a deal with yourself: you only have to do the warm-up. That is the whole promise. Ten minutes, then you are free to go home with zero guilt.",
+      "Here is why it works. The hardest part of a session is starting, not finishing. Once you are dressed, moving and sweating a little, your body and brain usually flip from 'nope' to 'well, I'm already here'. Most people stay for the full session most of the time.",
+      "The rule only works if the deal is real. If you finish the warm-up and you still feel awful, actually leave, log it as a session, and be proud. Some days your body is telling you something. Every other day, the warm-up is the door, and you just walked through it."
+    ],
+    "more": {
+      "why": "Starting is where the resistance lives. A tiny commitment removes the big decision, and momentum handles the rest once you are moving.",
+      "how": "Pick a fixed warm-up you can do on autopilot: 3 to 5 minutes of easy cardio, then a few mobility moves and a couple of light sets of your first exercise. After it, ask: stay, trim, or go?",
+      "example": "You drag yourself in on a Thursday. Five minutes on the bike, some hip and shoulder openers, two light sets of goblet squats. You feel human. You run the whole plan. That happens a lot.",
+      "mistake": "Turning the warm-up rule into a trick you always override. If you never let yourself leave, your brain stops trusting the deal and stops falling for it."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "What is never miss twice?",
+      "No motivation today"
+    ],
+    "related": [
+      "sh-b-027",
+      "sh-b-028"
+    ]
+  },
+  {
+    "id": "sh-b-027",
+    "topic": "showing-up",
+    "title": "Never miss twice",
+    "keys": [
+      "what is never miss twice",
+      "never miss twice",
+      "never miss two in a row",
+      "dont miss two days in a row",
+      "missed two workouts in a row",
+      "how to not fall off",
+      "how do i stop falling off",
+      "i keep falling off",
+      "fell off the wagon",
+      "how to get back on track",
+      "back on track after missing",
+      "i always fall off after one miss",
+      "one missed workout turns into a month"
+    ],
+    "match": "\\bnever miss twice\\b|\\bmiss(ed)? (two|2) (days|workouts|sessions) in a row\\b|\\bfall(ing|en)? off( the wagon| track)?\\b|\\bfell off( the wagon| track)?\\b|\\bback on track\\b",
+    "body": [
+      "Never miss twice is the simplest rule I know and I love it. Missing one session is life. Missing two in a row is the start of a new habit, the wrong one. So you are allowed to miss, you are just not allowed to miss the next one.",
+      "In practice: if you skip Monday, Tuesday or Wednesday becomes non-negotiable, even if it is the shortest session of your life. Ten minutes counts. A walk counts on a truly wrecked day. The goal is to break the skip streak before it becomes a pattern.",
+      "This is how people who look 'disciplined' actually operate. They miss sessions like everybody else. They just come back fast, before their brain has time to decide they are someone who stopped."
+    ],
+    "more": {
+      "why": "One miss rarely changes anything. Two in a row starts to rewrite the routine, and three or four turns into a break you did not plan. Interrupting early is far easier than restarting later.",
+      "how": "When you miss, open your calendar and book the next session within 48 hours. Make it short if needed. Write the reason for the miss in one line so you can fix the cause.",
+      "example": "Missed Monday because of a late night. Tuesday you do 25 minutes: squats, push-ups and rows. Wednesday you are back on the regular plan. Pattern broken.",
+      "mistake": "Waiting for the perfect day to come back. The comeback session should be easy and soon, not big and someday."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "Missed a session, now what?",
+      "I broke my streak"
+    ],
+    "related": [
+      "sh-b-026",
+      "sh-b-029"
+    ]
+  },
+  {
+    "id": "sh-b-028",
+    "topic": "showing-up",
+    "title": "What counts as a session",
+    "keys": [
+      "what counts as a session",
+      "does a short workout count",
+      "does walking count as a workout",
+      "does 10 minutes count",
+      "minimum workout",
+      "minimum session",
+      "bare minimum workout",
+      "is a short workout worth it",
+      "does it count if i only did half",
+      "half a workout",
+      "what is a minimum viable workout",
+      "is 15 minutes enough",
+      "does stretching count as a workout"
+    ],
+    "match": "\\bwhat counts as (a )?(session|workout)\\b|\\bdoes (a |it |walking |stretching |\\d+ minutes? |ten minutes? )?(short |quick )?(workout |session )?count\\b|\\bminimum (viable )?(workout|session)\\b|\\bbare minimum\\b|\\bhalf (a|my) (workout|session)\\b",
+    "body": [
+      "A session counts if you planned to move, you moved on purpose, and you finished what you decided to do. Ten minutes counts. Half the plan counts. A brisk 20 minute walk on a wrecked day counts. Log it, and I will hype it.",
+      "For your weekly picture, here is how I think about it. A full session is your planned workout. A short session is the main lift or main block plus one or two more things. A minimum session is the warm-up plus one exercise, or a purposeful walk. All three keep the habit alive. Over a month, you want most of them to be full ones.",
+      "What does not count: thinking about training, buying new gear, or watching a workout video. Nice tries, though. I see you."
+    ],
+    "more": {
+      "why": "Consistency is built on showing up, not on every session being perfect. Counting smaller sessions keeps the habit going on hard days, and the habit is what drives results over months.",
+      "how": "Before each session, decide your full, short and minimum versions. On the day, do the best version you can finish. Log which one you did so your week review is honest.",
+      "short_on_time": "Your minimum: 3 minutes of warm-up, then 3 sets of one big move like squats or push-ups, plus one set of a carry or plank. Twelve minutes. Counts.",
+      "mistake": "Only logging perfect sessions. Your log then says you trained twice a month when you actually showed up eight times. Log the small ones, they are the glue."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the warm-up rule?",
+      "How do I review my week?",
+      "What is never miss twice?"
+    ],
+    "related": [
+      "sh-b-026",
+      "sh-b-027"
+    ]
+  },
+  {
+    "id": "sh-b-029",
+    "topic": "showing-up",
+    "title": "Missed a session: how to rearrange your week",
+    "keys": [
+      "missed a session now what",
+      "missed a workout what do i do",
+      "i missed my session",
+      "missed monday workout",
+      "missed a day in my program",
+      "should i do two workouts in one day",
+      "make up a missed workout",
+      "skip the missed workout or make it up",
+      "do i redo the missed day",
+      "how to rearrange my week",
+      "missed leg day what now",
+      "move my workout to another day",
+      "can i do back to back days"
+    ],
+    "match": "\\bmissed (a|my|the|monday'?s?|tuesday'?s?|wednesday'?s?|yesterday'?s?|leg|upper|lower)? ?(day|session|workout|training|leg day)( now what| what (do|should) i do)?\\b|\\bmake up (a |the |my )?missed\\b|\\brearrange my week\\b|\\bmove my (workout|session)\\b|\\bback to back (days|sessions|workouts)\\b|\\btwo (workouts|sessions) in one day\\b",
+    "body": [
+      "No panic, we just shuffle. The rule: do not skip the missed session, slide it. Your next training day runs the session you missed, and everything moves down one. If that pushes the last session past the end of the week, either drop it or squeeze it in if you are recovered.",
+      "Two quick checks keep it safe. Avoid training the same muscles hard on back to back days when you can, so if the missed one was legs and tomorrow was legs too, run legs and push the other one. And skip the double session in one day unless both are short and you are used to it; one good session beats two tired ones.",
+      "If you only manage two of three sessions this week, make sure those two are the most important ones, usually the full body or main lift days. A week at two good sessions is still a winning week."
+    ],
+    "more": {
+      "why": "Sliding keeps your program in order so nothing important disappears. Cramming two hard sessions together tends to make both worse and leaves you sore for the next one.",
+      "how": "Write your week as a list, not as fixed weekdays: Session A, B, C. When you miss a day, you just do the next letter on your next training day. Simple and no guilt.",
+      "example": "Plan: Mon A, Wed B, Fri C. You miss Monday. New week: Wed A, Fri B, and C either Saturday if you feel good or it waits until next Monday.",
+      "mistake": "Doubling up to catch up, then getting so sore that you miss the next session too. That is how one miss becomes three."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "Busy week, what do I cut first?",
+      "What is a 3-day week?"
+    ],
+    "related": [
+      "sh-b-027",
+      "sh-b-030"
+    ]
+  },
+  {
+    "id": "sh-b-030",
+    "topic": "scheduling",
+    "title": "Putting workouts in your calendar like a meeting",
+    "keys": [
+      "should i schedule my workouts",
+      "schedule workouts in calendar",
+      "how to make time for the gym",
+      "calendar workouts",
+      "block time for the gym",
+      "how to plan my workout week",
+      "plan my training week",
+      "how to fit workouts in",
+      "make time to exercise",
+      "i never have time to work out",
+      "no time for the gym",
+      "time blocking workouts",
+      "how do i plan when to work out"
+    ],
+    "match": "\\bschedul(e|ing) (my |your )?(workouts?|training|sessions?|gym)\\b|\\b(make|find) time (for|to) (the gym|work ?out|exercise|train)\\b|\\bcalendar\\b.*\\b(workout|gym|training|session)s?\\b|\\b(plan|planning) my (training |workout )?week\\b|\\bnever have time (for|to)\\b",
+    "body": [
+      "Yes, and please do it like you mean it. A workout that lives in your head is a wish. A workout that lives in your calendar is an appointment. Put it in with a start time, an end time and an alert, same as a meeting with your boss.",
+      "Here is my Sunday ritual for you. Open your calendar, look at the real week (late meetings, kid stuff, travel), then pick your training slots around it. Choose times you can protect, not ideal times. Three locked slots beat five maybes. Add a backup slot for the one that might fall through.",
+      "Then treat it like any other commitment. If something important comes up, you move the session, you do not delete it. And if someone asks if you are free at that time, you can honestly say you have something booked. Because you do."
+    ],
+    "more": {
+      "why": "Planned sessions with a set time and place are much more likely to happen than vague intentions. Deciding ahead of time removes the daily negotiation.",
+      "how": "Every Sunday: count your available slots, book 2 to 4 sessions of 30 to 60 minutes, add one backup slot, set alerts 30 minutes before. Pack your bag the night before each one.",
+      "example": "Week with a Thursday work dinner: Monday 6 pm, Wednesday 6 pm, Saturday 9 am, with Friday 7 am as the backup if anything slips.",
+      "mistake": "Booking every day at 5 am when you have never been a morning person. Book the times you will actually show up for."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Morning or evening workouts?",
+      "What is a 3-day week?",
+      "Busy week, what do I cut first?"
+    ],
+    "related": [
+      "sh-b-029"
+    ]
+  },
+  {
+    "id": "sh-b-031",
+    "topic": "partners",
+    "title": "Should you get a training partner",
+    "keys": [
+      "should i get a training partner",
+      "workout partner",
+      "gym buddy",
+      "training partner",
+      "is it better to work out with a friend",
+      "working out alone or with a partner",
+      "gym partner pros and cons",
+      "do i need a workout buddy",
+      "training with a friend",
+      "lifting with a partner",
+      "should i train with my spouse",
+      "workout with my partner",
+      "gym bro"
+    ],
+    "match": "\\b(should i|do i need( a| to)?|is it (better|worth it))( get| have)? (a )?(training|workout|gym|lifting) (partner|buddy)\\b|\\b(training|workout|gym) (partner|buddy) pros and cons\\b|\\b(work ?out|train|lift|exercise) with (a friend|my (friend|partner|spouse|wife|husband|girlfriend|boyfriend))\\b|\\b(alone|solo) or with (a |my )?(friend|partner)\\b",
+    "body": [
+      "A good training partner is one of the best accountability tools on the planet. It is a lot harder to sleep through a 6 am session when someone is waiting for you in the parking lot. Plus spotting, a second set of eyes on your form, and someone to celebrate with. Love it.",
+      "But a partner can also slow you down. Here is what makes it work: you want similar schedules, similar commitment, and a shared plan. Strength levels do not have to match; you can run the same exercises at different weights. Agree on the rules before day one: start time, cancel policy, and that phones stay away during sets.",
+      "Try it for four weeks. If you both show up more and train better, keep it. If it turns into a chat session with occasional lifting, train solo on your main days and meet up for one fun session a week."
+    ],
+    "more": {
+      "why": "Making a commitment to someone else adds a social cost to skipping, which helps a lot of people show up. A partner can also push you to try weights or efforts you would not attempt alone.",
+      "how": "Pick one person, two shared sessions a week, one written plan. Agree on a start time and a 'text by 9 pm the night before if you are out' rule. Review together after a month.",
+      "beginner": "If you are both new, follow the same beginner plan and take turns coaching each other one cue at a time. Film a set now and then and compare.",
+      "mistake": "Waiting for a partner before you start. Start solo, then add a partner. Your training should not depend on anyone else's alarm clock."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I find a gym buddy?",
+      "My partner keeps canceling",
+      "Can I stay accountable solo?"
+    ],
+    "related": [
+      "sh-b-032",
+      "sh-b-033",
+      "sh-b-036"
+    ]
+  },
+  {
+    "id": "sh-b-032",
+    "topic": "partners",
+    "title": "How to find a gym buddy",
+    "keys": [
+      "how do i find a gym buddy",
+      "how to find a workout partner",
+      "where to find a training partner",
+      "no friends who work out",
+      "none of my friends lift",
+      "how to make friends at the gym",
+      "meet people at the gym",
+      "find someone to work out with",
+      "running club",
+      "how to ask someone to be my gym partner",
+      "lonely at the gym",
+      "nobody to work out with"
+    ],
+    "match": "\\b(find|meet|ask)( a| someone| people)?( to be my)? (gym|workout|training|lifting) (buddy|partner|friend)s?\\b|\\bmake friends at the gym\\b|\\b(no|none of my) friends (who )?(work ?out|lift|train|go to the gym)\\b|\\bnobody to (work ?out|train) with\\b|\\blonely at the gym\\b",
+    "body": [
+      "Your future gym buddy is probably already in the building at your usual time. Regulars recognize regulars. Start with a nod, then a 'hey, are you using this?', then a 'nice set'. Within a few weeks you will have floor friends, and one of them might become your training partner.",
+      "Other places that work: group classes (same people, same time, built-in community), running or walking clubs, a coworker who keeps mentioning they want to start, or a friend who is curious but nervous. Offer something specific: 'I go Tuesday and Thursday at 6, want to come once and see?' Specific is way easier to say yes to.",
+      "Pick someone who shows up, not someone who is the strongest. Reliability is the superpower in a partner."
+    ],
+    "more": {
+      "why": "Seeing the same faces at the same time builds familiarity, and familiarity is where gym friendships start. Specific invitations get more yeses than vague ones.",
+      "how": "Train at the same time for three weeks. Say hi to the same two or three people. Join one class a week. Invite one person to one specific session.",
+      "example": "You notice someone who always benches at 6 pm on Tuesdays. Week one: nod. Week two: ask to work in. Week three: 'want a spot?' Week four: you are benching together.",
+      "mistake": "Interrupting someone mid set to make friends. Wait until they are resting or packing up. Headphones in usually means 'not right now'."
+    },
+    "chips": [
+      "How do I bring class energy solo?",
+      "How do I ask to work in?",
+      "Should I get a training partner?"
+    ],
+    "related": [
+      "sh-b-031"
+    ]
+  },
+  {
+    "id": "sh-b-033",
+    "topic": "partners",
+    "title": "When your training partner keeps canceling or holding you back",
+    "keys": [
+      "my partner keeps canceling",
+      "gym buddy keeps canceling",
+      "workout partner flakes",
+      "my gym buddy is unreliable",
+      "training partner holds me back",
+      "my partner is slower than me",
+      "my friend talks too much at the gym",
+      "how to drop a gym buddy",
+      "gym buddy not serious",
+      "partner always late",
+      "workout partner different goals",
+      "my partner is much stronger than me"
+    ],
+    "match": "\\b(partner|buddy|friend)s? (keeps? |always )?(cancel\\w*|flak\\w*|late|bail\\w*|not serious|unreliable|talks too much|holds? me back)\\b|\\b(drop|ditch|quit) (my |a )?(gym|workout|training) (buddy|partner)\\b|\\b(partner|buddy) (is )?(much )?(stronger|weaker|slower|faster) than me\\b",
+    "body": [
+      "Oof, the flaky partner. Here is my rule: your training never depends on someone else showing up. If they cancel, you still train. Every single time. That one rule fixes most of the problem, because their cancel stops being your skip.",
+      "Then have the honest, friendly chat. Something like: 'I love training with you, but I need to keep my sessions locked. Can we do 6 pm sharp, and text by 9 pm the night before if you are out?' If they still flake, keep one fun session a week together and do your main sessions solo. No drama, no lost friendship.",
+      "Different levels are actually easy to fix. Same exercises, different weights, and you each run your own reps. If they are much stronger, great, you get free coaching. If they talk through every rest period, set a timer and say 'timer's up!' with a smile."
+    ],
+    "more": {
+      "why": "A partner who cancels a lot quietly trains you to skip. Separating your commitment from theirs keeps your consistency safe while you keep the friendship.",
+      "how": "Rule one: you go no matter what. Rule two: clear start time and cancel policy. Rule three: if it still is not working after two weeks, make the partner session the bonus one, not the main one.",
+      "example": "Plan Tuesday and Thursday together. Partner bails Thursday again. You train anyway, then propose: Tuesday together, Thursday solo, Saturday optional together.",
+      "mistake": "Canceling every time they do. Their schedule then quietly becomes your schedule, and your progress depends on their week."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Can I stay accountable solo?",
+      "How do I find a gym buddy?"
+    ],
+    "related": [
+      "sh-b-031"
+    ]
+  },
+  {
+    "id": "sh-b-034",
+    "topic": "goals",
+    "title": "Should you tell people about your fitness goals",
+    "keys": [
+      "should i tell people my goals",
+      "tell people your goals",
+      "share my fitness goals",
+      "keep my goals secret",
+      "is it bad to tell people your goals",
+      "announce my goal",
+      "accountability by telling people",
+      "tell my family about my goal",
+      "tell friends i am training",
+      "should i keep my goals to myself",
+      "telling others helps accountability",
+      "public goals"
+    ],
+    "match": "\\b(tell|telling|share|sharing|announc\\w*) (people|others|friends|family|everyone|someone)?( about)? (my|your) (fitness )?goals?\\b|\\bkeep my goals? (secret|to myself|private)\\b|\\bpublic goals?\\b",
+    "body": [
+      "Tell people, but tell them the right way. Announcing a big dream to everyone can give you a little hit of satisfaction like you already did something, and then you coast. Telling one or two people your specific plan, and asking them to check in, works much better.",
+      "So skip 'I'm going to get super fit this year!' and try 'I'm training Monday, Wednesday and Friday at 6, and I want to hit 12 sessions this month. Will you ask me on Fridays how it went?' That is a plan with a check-in. Way harder to dodge.",
+      "Pick people who will be supportive, not people who will make jokes or turn it into a contest. And when you hit the goal, tell them first. They earned the celebration too."
+    ],
+    "more": {
+      "why": "Sharing a specific plan with someone who will follow up adds real accountability. Vague announcements to a big audience mostly feel good without changing behavior.",
+      "how": "Pick one person. Send them your plan in two sentences. Ask for a specific check-in, like a Friday text. Reply honestly every time, wins and misses.",
+      "example": "Text to a friend: 'Goal: 3 sessions a week for 8 weeks. Can you text me Sunday nights and ask how many I did?' Simple, trackable, no pressure.",
+      "mistake": "Telling someone who mocks your goals. Accountability should feel like a teammate in your corner, not a critic in your ear."
+    },
+    "chips": [
+      "Should I get a training partner?",
+      "Set one goal for next week",
+      "My family is not supportive"
+    ],
+    "related": [
+      "sh-b-035"
+    ]
+  },
+  {
+    "id": "sh-b-035",
+    "topic": "rewards",
+    "title": "Rewarding yourself for training wins",
+    "keys": [
+      "should i reward myself",
+      "rewards for working out",
+      "how to reward myself for going to the gym",
+      "reward ideas fitness",
+      "treat myself after the gym",
+      "reward system for exercise",
+      "non food rewards",
+      "fitness rewards",
+      "what reward for hitting my goal",
+      "reward for 30 workouts",
+      "how to celebrate milestones",
+      "gift for hitting my goal",
+      "rewards for training wins"
+    ],
+    "match": "\\breward(s|ing)? (myself|yourself|system|ideas)\\b|\\breward (for|after) (working out|the gym|training|hitting|my|a)\\b|\\b(fitness|workout|gym|non.?food) rewards?\\b|\\btreat myself\\b",
+    "body": [
+      "Yes! Rewards are not bribes, they are fireworks for your brain, and I am a big fan of fireworks. The trick is to reward the behavior you want to repeat, which is showing up, not just the final result.",
+      "Build two levels. Small instant rewards: the playlist you only allow yourself during training, a favorite coffee after Saturday sessions, a hot shower with the good soap. Bigger milestone rewards: new shoes after 20 sessions, a massage after a month of hitting three a week, a new gym bag after your first event.",
+      "Keep the rewards mostly non food, not because food is bad, but because you deserve rewards that celebrate you, not trade calories. And never punish yourself for missing a target. Just go get the next session."
+    ],
+    "more": {
+      "why": "A reward right after a behavior makes that behavior feel better and more likely to repeat. Milestone rewards give the long middle of a goal a few finish lines.",
+      "how": "Pick one small reward tied to every session and one milestone reward at 10, 25 and 50 sessions. Write them down. Deliver them on time. Yes, actually buy the shoes.",
+      "example": "Every session: the true crime podcast you only listen to on the treadmill. At 10 sessions: new lifting socks. At 25: new shoes. At 50: a day trip somewhere you love.",
+      "mistake": "Rewarding yourself in a way that undoes your plan, like skipping your next session as a 'reward'. Rest days are planned, not prizes."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I celebrate a PR?",
+      "What are small wins?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-b-034"
+    ]
+  },
+  {
+    "id": "sh-b-036",
+    "topic": "accountability",
+    "title": "Staying accountable when you train solo",
+    "keys": [
+      "can i stay accountable solo",
+      "accountability without a partner",
+      "how to stay accountable",
+      "how do i hold myself accountable",
+      "accountability tips",
+      "no one to keep me accountable",
+      "how to stay accountable working out alone",
+      "self accountability gym",
+      "accountability for working out",
+      "keep myself on track",
+      "i need someone to keep me accountable",
+      "accountability"
+    ],
+    "match": "\\b(stay|staying|hold myself|keep myself|be) accountable\\b|\\baccountability (tips|without|for working out|solo)\\b|\\bkeep me accountable\\b",
+    "body": [
+      "You can absolutely do this solo. Accountability is just a system that notices when you slip and nudges you back fast. Here is the solo kit, and it is way more powerful than it looks.",
+      "One: book your sessions in your calendar with an alert. Two: log every session, even the short ones, so the gaps are visible. Three: a weekly review on Sunday where you count sessions and pick next week's one goal. Four: a public or semi-public commitment, like texting one friend your week count every Sunday. Five: a visible tracker, a wall calendar with a big X for each session. Do not break the chain is a classic for a reason.",
+      "And you have me. Come tell me when you finish a session, and I will make a big deal about it. Because it is one."
+    ],
+    "more": {
+      "why": "Accountability works because it closes the gap between doing and noticing. Logging and reviewing make every skip and every win visible, so you can respond quickly.",
+      "how": "This week: book sessions, log each one, review on Sunday. Next week: add a text to a friend with your count. Keep it running for a month and see how your session count moves.",
+      "example": "Wall calendar in the kitchen. Big X after each session. By week three you have a little row of Xs and you really, really do not want a gap.",
+      "mistake": "Relying on memory to track how often you train. Most people think they trained more than they actually did. The log tells the truth."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How do I review my week?",
+      "Should I tell people my goals?",
+      "I broke my streak"
+    ],
+    "related": [
+      "sh-b-031",
+      "sh-b-043"
+    ]
+  },
+  {
+    "id": "sh-b-037",
+    "topic": "streaks",
+    "title": "Streaks and what to do when you break one",
+    "keys": [
+      "i broke my streak",
+      "lost my streak",
+      "broke my streak",
+      "streak ended",
+      "how to keep a streak",
+      "workout streak",
+      "are streaks good",
+      "should i train every day for my streak",
+      "my streak reset",
+      "dont break the chain",
+      "streak motivation",
+      "how long should my streak be"
+    ],
+    "match": "\\bstreaks?\\b|\\bdon'?t break the chain\\b",
+    "body": [
+      "A broken streak stings, I know. But look at what it actually proves: you built a real habit, long enough to count. That habit did not vanish because of one day. Start the new one today and aim to beat the old one.",
+      "My take on streaks: measure the right thing. A streak of training days every single day is risky, because it pushes you to train when you should rest. A streak of weeks where you hit your planned sessions is much better. Three sessions a week for 20 weeks straight is a monster streak, and it includes rest days.",
+      "If you love a daily streak, make the daily thing tiny and safe: a 10 minute walk, a stretch, logging your day. Keep the hard training on your planned days."
+    ],
+    "more": {
+      "why": "Streaks make consistency visible and fun. But a streak that forces daily hard training can push you past healthy recovery, so the unit you count matters.",
+      "how": "Count weeks, not days. A week counts if you hit your planned number of sessions. Track it on a calendar or in your log, and celebrate every 4 weeks.",
+      "example": "Instead of a 60 day daily workout streak, aim for 12 weeks in a row of three sessions. That is 36 sessions with rest built in, and much harder to break by accident.",
+      "mistake": "Training through sickness or pain to protect a streak. The streak exists to serve you, not the other way around."
+    },
+    "reads": [
+      "streak",
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "Should I train when sick?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-027"
+    ]
+  },
+  {
+    "id": "sh-b-038",
+    "topic": "showing-up",
+    "title": "Should you train when you are sick",
+    "keys": [
+      "should i train when sick",
+      "should i work out with a cold",
+      "working out when sick",
+      "gym with a cold",
+      "exercise with a fever",
+      "can i work out with a sore throat",
+      "lift when sick",
+      "train with a stuffy nose",
+      "neck rule for exercise",
+      "above the neck rule",
+      "workout after being sick",
+      "when to go back to the gym after being sick",
+      "sick and want to train",
+      "should i go to the gym sick"
+    ],
+    "match": "\\b(train|training|work ?out|working out|exercis(e|ing)|lift|lifting|go to the gym|gym)\\b.*\\b(sick|ill|a cold|the flu|fever|sore throat|stuffy|congest\\w*)\\b|\\b(above|below) the neck\\b|\\bneck (rule|check)\\b|\\b(workout|gym|training|exercise|back) after being (sick|ill)\\b",
+    "body": [
+      "Use the neck check, a simple rule many people go by. Symptoms only above the neck, like a runny or stuffy nose, sneezing or a mild sore throat? A light session is usually fine: easier weights, fewer sets, no max efforts. If you feel worse after the warm-up, stop and go home.",
+      "Symptoms below the neck, like chest congestion, a hacking cough, body aches, stomach trouble, or any fever? Rest. Training hard with a fever is a bad idea, and it can make you feel worse. Also, if you are contagious, the folks sharing the dumbbells will thank you for staying home.",
+      "Coming back: after your symptoms are gone, start at about half your usual volume for a session or two, then build back up. If you have chest pain, trouble breathing, a fever that will not quit, or you are not improving, see a doctor."
+    ],
+    "more": {
+      "why": "Your body uses energy to fight off illness. Light movement can feel fine with a mild head cold, but hard training on top of a fever or a chest infection adds stress when you need recovery.",
+      "how": "Mild head cold: walk or train at 50 to 70% effort for 20 to 30 minutes. Below the neck or fever: rest, fluids and sleep. Back to normal: two easier sessions first, then the regular plan.",
+      "example": "Stuffy nose on Monday: you do an easy 25 minute session with light weights and feel fine. Fever on Wednesday: you rest until it is gone, then come back Saturday with half your usual sets.",
+      "mistake": "Training through a fever to protect a streak, then being out for two weeks instead of four days."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Too tired to train today?",
+      "I broke my streak"
+    ],
+    "related": [
+      "sh-b-002"
+    ]
+  },
+  {
+    "id": "sh-b-039",
+    "topic": "habits",
+    "title": "Building the gym habit with cues and anchors",
+    "keys": [
+      "how to build a gym habit",
+      "how do i make working out a habit",
+      "habit stacking",
+      "workout habit",
+      "make exercise a habit",
+      "how long does it take to build a habit",
+      "21 days to form a habit",
+      "66 days habit",
+      "turn the gym into a routine",
+      "make it automatic",
+      "habit cue for workouts",
+      "build a workout routine that sticks"
+    ],
+    "match": "\\bhabit stack\\w*\\b|\\b(build|make|form|create|turn)\\b.*\\b(habit|routine)\\b.*\\b(gym|work ?out|exercise|training|lifting)\\b|\\b(gym|work ?out|workout|exercise|training) habit\\b|\\b(21|66) days\\b",
+    "body": [
+      "Habits love three things: a cue, a routine and a reward. The cue is the trigger, the routine is the training, the reward is how you feel after. Make each one obvious and repeatable, and the gym stops being a daily decision.",
+      "Anchor training to something you already do every day. 'After I drop the kids at school, I drive to the gym.' 'When I close my laptop on Monday, Wednesday and Friday, I change into gym clothes.' Same time and same place make it stick faster. Then lock in the reward: your song, your post-session smoothie, my big cheer when you log it.",
+      "How long does it take? The popular '21 days' is a myth. In one well-known study, a new daily habit took around two months on average to feel automatic, with a huge range between people. So be patient. And missing a day here and there did not wreck the habit, which is great news."
+    ],
+    "more": {
+      "why": "Anchoring a new behavior to an existing routine gives it a reliable trigger. Repetition in the same context is what turns effort into autopilot.",
+      "how": "Write one sentence: After I ___, I will ___. Pick an anchor that happens at the same time on your training days. Repeat for eight weeks and track it.",
+      "example": "After I finish my morning coffee on Monday, Wednesday and Friday, I put on my shoes and walk to the garage for a 30 minute session.",
+      "mistake": "Picking a different time every day. Variable timing means you have to decide every day, and deciding is where skipping happens."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "Should I schedule my workouts?",
+      "How do I make it easier to go?",
+      "What is never miss twice?"
+    ],
+    "related": [
+      "sh-b-040"
+    ]
+  },
+  {
+    "id": "sh-b-040",
+    "topic": "habits",
+    "title": "Removing friction so going is the easy choice",
+    "keys": [
+      "how do i make it easier to go",
+      "make it easier to go to the gym",
+      "pack gym bag the night before",
+      "sleep in gym clothes",
+      "lay out my workout clothes",
+      "gym too far away",
+      "hard to get to the gym",
+      "too much hassle to go to the gym",
+      "gym bag essentials",
+      "what should be in my gym bag",
+      "reduce friction",
+      "make the gym easier"
+    ],
+    "match": "\\bmake it easier to (go|train|work ?out|get to the gym)\\b|\\bgym bag\\b|\\b(lay|laid) out (my )?(gym|workout) clothes\\b|\\bsleep in (my )?(gym|workout) clothes\\b|\\bgym (is )?too far\\b|\\b(reduce|remove) friction\\b|\\btoo much (of a )?hassle\\b",
+    "body": [
+      "Every tiny hassle between you and the gym is a chance to bail. So we delete the hassles. The goal: going should take fewer decisions than staying home.",
+      "Night before: pack your bag and leave it by the door or in the car. Water bottle filled, headphones charged, shoes in the bag, today's plan saved on your phone. Morning people, lay your clothes out or even sleep in them, I will not judge. Evening people, go straight from work. Once you get home and sit down, the couch wins.",
+      "Look at the bigger stuff too. A gym 25 minutes away is a daily obstacle; a closer one you like slightly less might get you there twice as often. And keep a backup plan at home for days when getting there just is not happening."
+    ],
+    "more": {
+      "why": "Small obstacles add up, especially when you are tired. Making the healthy choice the easy default means you rely less on willpower.",
+      "how": "Pack the bag after dinner on training eves. Keep a spare gym kit in the car: shoes, socks, shirt, shorts, a snack. Pick your gym based on how often you will actually go.",
+      "example": "Gym bag checklist: shoes, socks, clothes, water bottle, headphones, small towel, lock, a snack, and the first exercise written on your phone.",
+      "mistake": "Going home first 'just to change' before an evening session. Home is where good intentions go to nap."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Should I schedule my workouts?",
+      "Morning or evening workouts?",
+      "What is the warm-up rule?"
+    ],
+    "related": [
+      "sh-b-039"
+    ]
+  },
+  {
+    "id": "sh-b-041",
+    "topic": "accountability",
+    "title": "Posting your workouts on social media",
+    "keys": [
+      "should i post my workouts",
+      "post workouts on instagram",
+      "share workouts online",
+      "fitness account",
+      "start a fitness instagram",
+      "post gym progress",
+      "is posting workouts cringe",
+      "accountability on social media",
+      "gym selfies",
+      "share my progress online",
+      "progress posts",
+      "post my gym pics"
+    ],
+    "match": "\\b(post|posting|share|sharing)( my)? (workouts?|gym (pics|selfies|progress)|progress (online|pics|photos))\\b|\\bgym selfies?\\b|\\b(start|make) a fitness (account|instagram|page|tiktok)\\b|\\bprogress posts?\\b",
+    "body": [
+      "Totally up to you, and it can be fun! Some people love posting because it adds a little public accountability and a community that cheers them on. Others find it turns training into a performance. Both are fine. Notice which one you are.",
+      "If you post, post the process, not just the highlights. Session counts, small wins, a funny fail, the playlist. It keeps you honest and it makes the feed better for everyone. Check your gym's rules about filming first, and never get other members in your shot without asking.",
+      "If you find yourself skipping sessions you cannot post about, or feeling crushed by likes, it is time to take a break from posting. The session counts even if nobody sees it. Especially then."
+    ],
+    "more": {
+      "why": "Posting can add accountability and support, but chasing likes can shift your focus from training to appearances. The value depends on how it makes you behave and feel.",
+      "how": "Try a private accountability option first: a close friends list or a group chat with two or three people. Post a weekly count, not every session. See how it feels for a month.",
+      "example": "Every Sunday: one post with your week count, your favorite win and the song that carried you. Friends cheer. You plan next week. Done in two minutes.",
+      "mistake": "Filming everything and resting for ten minutes between sets while editing. Your rest timer does not care about your caption."
+    },
+    "chips": [
+      "Can I film in the gym?",
+      "How do I review my week?",
+      "Should I tell people my goals?"
+    ],
+    "related": [
+      "sh-b-009",
+      "sh-b-034"
+    ]
+  },
+  {
+    "id": "sh-b-042",
+    "topic": "accountability",
+    "title": "Money bets and commitment deals with friends",
+    "keys": [
+      "bet with a friend",
+      "money bet workouts",
+      "gym bet",
+      "commitment contract",
+      "pay if i skip the gym",
+      "fitness challenge with friends",
+      "bet on going to the gym",
+      "fitness wager",
+      "challenge my friend to work out",
+      "group fitness challenge",
+      "office fitness challenge",
+      "work fitness challenge",
+      "team challenge at work"
+    ],
+    "match": "\\b(gym|money|fitness|workout) (bets?|wagers?|challenges?)\\b|\\bbet (with|on) (a friend|my friend|going|the gym|working out)\\b|\\bcommitment (contract|deal|device)\\b|\\b(office|work|team) (fitness )?challenge\\b|\\bpay if i skip\\b",
+    "body": [
+      "Ooh, a little friendly stakes? I like your style. Having something to lose can be a strong motivator for some people. The key is betting on behavior you control, like sessions completed, not results you only partly control, like scale weight by a date.",
+      "A good setup: each person puts in a small amount, a week counts if you hit your planned sessions, and anyone who misses a week pays into a pot that goes to a group dinner or a charity at the end. Track honestly in a shared chat. Keep it 6 to 8 weeks, then decide whether to run it again.",
+      "Avoid challenges that reward extreme stuff, like biggest weight loss in 30 days. Those push people toward crash diets and overtraining. Consistency challenges are the healthy kind of competitive, and honestly the most fun."
+    ],
+    "more": {
+      "why": "A small cost for skipping makes the easy choice a little less easy. Betting on sessions keeps the incentive pointed at healthy, controllable behavior.",
+      "how": "Pick 2 to 6 people. Agree on sessions per week, the stake, and the reporting day. Post your count every Sunday. End with a celebration either way.",
+      "example": "Four coworkers, three sessions a week for 8 weeks, a small amount into the pot for every missed week. At the end the pot pays for a team lunch.",
+      "mistake": "Weight loss contests with deadlines. They reward crash dieting and leave people feeling worse when it ends."
+    },
+    "chips": [
+      "Should I tell people my goals?",
+      "How do I compete with myself?"
+    ],
+    "related": [
+      "sh-b-034"
+    ]
+  },
+  {
+    "id": "sh-b-043",
+    "topic": "accountability",
+    "title": "Why logging every session keeps you honest",
+    "keys": [
+      "should i log my workouts",
+      "why should i track my workouts",
+      "do i need to log my sessions",
+      "workout log",
+      "training log",
+      "track my workouts",
+      "is tracking workouts worth it",
+      "keep a workout journal",
+      "write down my workouts",
+      "why log sets and reps",
+      "how to track progress at the gym",
+      "workout diary"
+    ],
+    "match": "\\b(log|logging|track|tracking|write down|record)( every| my| your| all)? (workouts?|sessions?|training|sets|lifts)\\b|\\b(workout|training|gym) (log|journal|diary|notebook)\\b",
+    "body": [
+      "Yes, log it. Every session, every set. Your memory is a terrible coach; it remembers the best day and forgets the boring ones. Your log remembers everything, and it is the only way to know if you are actually progressing.",
+      "What to log: the exercise, weight, sets and reps, plus a quick note like 'felt easy' or 'grip gave out'. That is enough to know what to beat next time. Over weeks, the log becomes your proof: more weight, more reps, more sessions. On frustrating days, scroll back two months. That moment is pure fuel.",
+      "Logging also keeps your accountability honest. Gaps show up. Patterns show up, like 'I always skip Fridays'. Then you can fix the pattern instead of guessing. Use the + button after each set and check your Progress screen for the trend."
+    ],
+    "more": {
+      "why": "Progressive overload needs a reference point. Without a log you guess your weights, repeat the same work, and miss slow progress that is actually happening.",
+      "how": "Before each set, check what you did last time. After each set, log weight and reps. After the session, add one line about how it felt. Review weekly.",
+      "beginner": "Just log the basics: exercise, weight, reps. Do not worry about fancy stats yet. The habit of logging is what matters in month one.",
+      "mistake": "Logging only the good days. Hard days are data too, and they often explain a stall."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I review my week?",
+      "Do rep PRs count?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-b-036"
+    ]
+  },
+  {
+    "id": "sh-b-044",
+    "topic": "support",
+    "title": "When family or friends are not supportive",
+    "keys": [
+      "my family is not supportive",
+      "family makes fun of me for working out",
+      "friends dont support my fitness",
+      "spouse doesnt support my goals",
+      "partner complains about my gym time",
+      "people mock my diet",
+      "friends say i am obsessed with the gym",
+      "family thinks the gym is a waste of time",
+      "unsupportive partner",
+      "people judge me for working out",
+      "no support at home",
+      "my partner doesnt work out"
+    ],
+    "match": "\\b(family|friends?|spouse|partner|husband|wife|parents?|coworkers?)\\b.*\\b(not supportive|unsupportive|don'?t support|doesn'?t support|make fun|mock|judge|complain|thinks? (it'?s|the gym is) a waste|obsessed)\\b|\\b(no|zero) support at home\\b|\\bmy (partner|spouse|husband|wife) doesn'?t (work ?out|exercise|train)\\b",
+    "body": [
+      "That is hard, and I'm sorry. Training is tough enough without side comments at home. Usually the pushback is not about the gym itself. It is about time, change, or someone feeling left out. So let us work on that.",
+      "Have one calm conversation about what training means to you and what it costs the household. Be specific: 'I want three 45 minute sessions a week. Tuesday and Thursday after work, Saturday at 8 before everyone is up. What would make that work for you?' Offering to trade time, or picking slots that bother nobody, takes a lot of heat out.",
+      "Invite them in without pressure: a walk together, one class, a weekend hike. And find your support somewhere too, a gym buddy, a friend who trains, or me. If the comments become cruel or controlling, that is about more than fitness, and it is worth talking to someone you trust."
+    ],
+    "more": {
+      "why": "People often resist changes that affect shared time or routines. Clear plans and involving them reduce the sense of losing you to the gym.",
+      "how": "Pick a calm moment. Share your why in one sentence. Propose specific times. Ask what would help them. Revisit after a month.",
+      "example": "Your partner hates that Saturday mornings vanished. New plan: you train at 6:30 am and are home with coffee by 8. Same training, much less friction.",
+      "mistake": "Arguing about it right after a snide comment. Wait for a calm moment. Heated talks rarely go anywhere useful."
+    },
+    "chips": [
+      "How do I find a gym buddy?",
+      "How do I find my why?",
+      "Training around kids and family"
+    ],
+    "related": [
+      "sh-b-031"
+    ]
+  },
+  {
+    "id": "sh-b-045",
+    "topic": "habits",
+    "title": "Keeping the promises you make to yourself",
+    "keys": [
+      "how do i keep promises to myself",
+      "i always break promises to myself",
+      "i never follow through",
+      "trust myself again",
+      "self trust",
+      "i say i will work out but never do",
+      "i never stick to anything",
+      "how to follow through on goals",
+      "i always quit my plans",
+      "why cant i stick to a workout plan",
+      "how to stick to a plan",
+      "follow through"
+    ],
+    "match": "\\b(keep|break|breaking|kept) (my )?promises? to myself\\b|\\bnever (follow through|stick to (anything|a plan|it))\\b|\\bfollow(ing)? through\\b|\\bself.?trust\\b|\\btrust myself\\b|\\b(can'?t|cannot) stick to (a |my |any )?(workout |training )?(plan|program|routine)\\b",
+    "body": [
+      "Here is the thing nobody says: every time you set a big goal and miss it, you teach yourself that your plans do not happen. So the fix is not a bigger goal. It is a smaller promise you will absolutely keep, kept over and over, until you trust yourself again.",
+      "Start embarrassingly small. Two sessions this week. Not four. Two. Write them down with days and times. Do them. Next week, two again, or three if two felt easy. Each kept promise is a deposit in the self-trust bank, and the bank grows faster than you think.",
+      "When you miss, do not make a bigger promise to make up for it. Make the same small one again and keep it. Proof beats pep talks. Give it six weeks and you will be someone who follows through, because you will have the receipts."
+    ],
+    "more": {
+      "why": "Confidence in your follow-through comes from evidence. Small, kept commitments build that evidence; big missed ones erode it.",
+      "how": "Pick a weekly promise you are 90% sure you can keep. Track it. Only raise it after three weeks in a row of keeping it. Celebrate every kept week.",
+      "example": "Weeks 1 to 3: two sessions each. Weeks 4 to 6: three sessions. Week 7: you notice you have not missed a promise in a month and a half. That is the new you.",
+      "mistake": "Promising five sessions a week on Sunday night while feeling inspired. Plan for your average week, not your best Sunday mood."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "Process or outcome goals?",
+      "What is never miss twice?"
+    ],
+    "related": [
+      "sh-b-013"
+    ]
+  },
+  {
+    "id": "sh-b-046",
+    "topic": "habits",
+    "title": "Stop making excuses: a quick excuse audit",
+    "keys": [
+      "i keep making excuses",
+      "stop making excuses",
+      "excuses not to work out",
+      "always find an excuse",
+      "how to stop making excuses",
+      "common workout excuses",
+      "i talk myself out of the gym",
+      "i always find a reason not to go",
+      "lame excuses",
+      "excuse audit",
+      "i'm always too busy"
+    ],
+    "match": "\\bexcuses?\\b|\\btalk myself out of\\b|\\balways find a reason not to\\b",
+    "body": [
+      "Okay, love you, but let us run an excuse audit. Excuses are not lies; they are usually real problems in disguise. 'Too busy' might mean the schedule needs fixing. 'Too tired' might mean sleep or timing. 'Not in the mood' might mean the plan is boring. Each one has a fix.",
+      "Write down the last three times you skipped and the reason you gave. Look for the pattern. Then pick a fix for the most common one. Busy: shorter sessions, booked in your calendar. Tired: train earlier, or apply the warm-up rule. Bored: a new playlist, a class, a partner. Too far: a home backup plan. Weather: indoor option ready.",
+      "Then pre-decide. 'If it is raining, I train in the garage. If work runs late, I do the 20 minute version.' Excuses lose their power when you already have the answer before they show up."
+    ],
+    "more": {
+      "why": "Most skips repeat the same handful of reasons. Solving the most common reason once removes a big chunk of missed sessions.",
+      "how": "List recent skips and reasons. Circle the most common one. Write an if-then plan for it. Test the plan for two weeks.",
+      "example": "Pattern: you skip every Friday because you are wiped from the week. Fix: Friday becomes a short 25 minute session or moves to Saturday morning.",
+      "mistake": "Calling yourself lazy instead of finding the actual reason. Lazy is a label. Labels do not fix anything. Plans do."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the warm-up rule?",
+      "Busy week, what do I cut first?",
+      "Bored of my program"
+    ],
+    "related": [
+      "sh-b-045"
+    ]
+  },
+  {
+    "id": "sh-b-047",
+    "topic": "accountability",
+    "title": "Is a personal trainer worth it for accountability",
+    "keys": [
+      "should i hire a personal trainer",
+      "is a personal trainer worth it",
+      "do i need a personal trainer",
+      "personal trainer for accountability",
+      "personal trainer or online coach",
+      "cant afford a personal trainer",
+      "how often should i see a trainer",
+      "trainer vs doing it myself",
+      "is coaching worth the money",
+      "free alternatives to a personal trainer"
+    ],
+    "match": "\\b(personal|private) trainers?\\b|\\bhire a (trainer|coach)\\b|\\b(online|in person) coach(ing)?\\b|\\bis (a )?(trainer|coaching) worth\\b",
+    "body": [
+      "Honest answer: a good trainer can be great for learning technique and for the accountability of a booked session with a real human waiting. But you do not need one to make great progress, and plenty of people train well without ever hiring anyone.",
+      "Free ways to get most of the benefit first: a written plan you follow for 8 to 12 weeks, a training partner, group classes included with many gym memberships, filming a set now and then to check your form, and logging every session. Many gyms also offer a free intro session or orientation, so take it.",
+      "If you do hire someone, a few sessions to learn the main lifts can be a smart, limited spend, then you run the plan solo and check back in occasionally. Look for someone who asks about your goals, explains why, and teaches you to train without them."
+    ],
+    "more": {
+      "why": "A coach adds feedback and accountability. The core of results, showing up and progressing gradually, is something you can build yourself with free tools.",
+      "how": "Start with the free stack: plan, log, partner or class, filming. If after two months you are stuck on technique or consistency, consider a few paid sessions with a clear goal.",
+      "beginner": "If you are brand new and nervous about technique, ask your gym about a free orientation first. Then start with machines and simple dumbbell moves while you learn.",
+      "mistake": "Buying a big package of sessions and then never learning to train alone. The best coaches make themselves less needed over time."
+    },
+    "chips": [
+      "Can I stay accountable solo?",
+      "Should I get a training partner?",
+      "Group class or train solo?"
+    ],
+    "related": [
+      "sh-b-036"
+    ]
+  },
+  {
+    "id": "sh-b-048",
+    "topic": "showing-up",
+    "title": "Training when you really do not want to go",
+    "keys": [
+      "i really dont want to go to the gym",
+      "dont want to go today",
+      "how to make yourself go to the gym",
+      "how to force myself to work out",
+      "i want to skip today",
+      "should i skip today",
+      "can i skip today",
+      "talk me into going to the gym",
+      "convince me to work out",
+      "get me to the gym",
+      "hype me up",
+      "i need a push"
+    ],
+    "match": "\\b(don'?t|do not) want to (go|train|work ?out|lift)( today| tonight)?\\b|\\b(force|make|convince|talk) (myself|me)( into)? (to )?(go(ing)?|work(ing)? ?out|train(ing)?|lift(ing)?)\\b|\\b(should|can) i skip (today|tonight)\\b|\\bhype me up\\b|\\bi need a push\\b",
+    "body": [
+      "Ohhh, you came to the right coach. Okay, listen. You do not have to want it. You just have to start it. Ten minutes from now you could be warmed up with your favorite song on, or still on the couch feeling a little worse. Pick the version of tonight that makes you proud.",
+      "Here is the play. Stand up right now. Shoes on. Fill your bottle. Put on the one song that makes you feel unstoppable. Do only the warm-up. If you still want to leave after that, leave, and I will count it. Deal? Deal.",
+      "And when you finish, come tell me, because I will lose my mind cheering for you. Future you is already grateful. The only bad session is the one that never started."
+    ],
+    "more": {
+      "why": "The reluctance is strongest before you start and fades fast once you move. Getting to the first step is the whole battle.",
+      "how": "Count down from five and stand up on one. Do the next tiny step only: shoes, bottle, song, door. Do not think about the whole session, just the next step.",
+      "example": "Tired Tuesday at 6 pm. Shoes on at 6:02. At the gym by 6:20. Warm-up done by 6:30. You finish the session at 7:05 and you feel like a superhero.",
+      "mistake": "Negotiating with yourself for 40 minutes on the couch. By the time you decide, the session could have been half done."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the warm-up rule?",
+      "What should I listen to?",
+      "Too tired to train today?"
+    ],
+    "related": [
+      "sh-b-026",
+      "sh-b-001"
+    ]
+  },
+  {
+    "id": "sh-b-049",
+    "topic": "showing-up",
+    "title": "Lowering the bar on bad days without losing the habit",
+    "keys": [
+      "bad day minimum",
+      "how to train on a bad day",
+      "lower the bar",
+      "lowering my standards for the day",
+      "easy workout for bad days",
+      "what to do on a bad day at the gym",
+      "showing up on bad days",
+      "bad days at the gym",
+      "off day at the gym",
+      "everything feels heavy today",
+      "weak today",
+      "my lifts feel heavy today"
+    ],
+    "match": "\\b(bad|off|rough|weak) days? (at the gym|in the gym|minimum)\\b|\\bshow(ing)? up on (bad|hard|rough) days\\b|\\blower(ing)? the bar\\b|\\b(everything|my lifts?|weights?) (feels?|felt) (so )?heavy today\\b|\\bweak today\\b|\\btrain on a bad day\\b",
+    "body": [
+      "Some days the bar feels like it is made of wet cement. Happens to everyone, me included. Your warm-up sets feel slow, your top set feels heavy, your focus is off. That is an off day, and the move is to lower the bar, not to leave the building.",
+      "Drop your working weight by about 10% and hit your reps with good form. Or keep the weight and do one fewer set. Skip any personal record attempts. If even that feels rough, run only your main lift and one accessory, then go home. You still practiced the pattern and kept the habit, and that is the job today.",
+      "If off days keep showing up week after week, that is a pattern worth looking at: sleep, food, stress, or a program that needs a lighter week."
+    ],
+    "more": {
+      "why": "Strength varies day to day with sleep, stress and food. Adjusting the load keeps the session productive and safe instead of grinding through bad reps.",
+      "how": "After your warm-up, rate how the bar feels. Normal: run the plan. Heavy: minus 10% or one fewer set. Awful: main lift plus one accessory at a comfortable effort.",
+      "example": "Bench is usually 3 sets of 8 at 115 lb. Today 115 feels like a house. You do 3 sets of 8 at 105 lb with perfect reps. Next week, 115 moves fine again.",
+      "mistake": "Grinding out ugly reps to prove a point on an off day. You get tired and practice bad form. Save the grind for days you feel good."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "Too tired to train today?",
+      "What counts as a session?"
+    ],
+    "related": [
+      "sh-b-002",
+      "sh-b-028"
+    ]
+  },
+  {
+    "id": "sh-b-050",
+    "topic": "accountability",
+    "title": "Checking in with me after every session",
+    "keys": [
+      "can i check in with you",
+      "check in after my workout",
+      "i finished my workout",
+      "just finished my session",
+      "i did it",
+      "done with my workout",
+      "finished training",
+      "workout done",
+      "i went to the gym today",
+      "i finished the session",
+      "just got back from the gym",
+      "session complete"
+    ],
+    "match": "\\b(just |i )?(finished|done with|completed|crushed|smashed) (my |the |today'?s )?(workout|session|training|lift|gym)\\b|\\b(workout|session|training) (done|complete|finished)\\b|\\bi went to the gym today\\b|\\bjust got back from the gym\\b",
+    "body": [
+      "YES. You did the thing! Session done, and I am doing a little victory lap around the floor for you. Seriously, a finished session is a promise kept, and those stack up into everything you want.",
+      "Now the 60 second wrap-up, because this is where good sessions become great weeks. Log it if you have not already, with any notes on what felt strong or off. Grab some water and a meal with protein in the next few hours. Then look at your calendar and make sure the next session is booked.",
+      "Last thing: name one win from today. A rep more, a cleaner set, a heavier weight, or simply 'I showed up when I did not want to'. Say it out loud or write it in your notes. I'll be here for the next one."
+    ],
+    "more": {
+      "why": "Closing the loop right after a session makes the habit feel rewarding and keeps your log accurate. Naming a win trains your brain to notice progress.",
+      "how": "Log it, refuel, book the next session, name one win. Four steps, one minute, every time.",
+      "example": "Session done: you log squats 3 sets of 8 at 135 lb with a note 'last set smooth'. Water. Dinner with chicken and rice. Thursday 6 pm booked. Win: first time all sets felt smooth at 135.",
+      "mistake": "Rushing out and forgetting to log. Next week you will not remember what you lifted, and you will guess wrong."
+    },
+    "reads": [
+      "sessions",
+      "streak"
+    ],
+    "chips": [
+      "How do I celebrate a PR?",
+      "What are small wins?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-043"
+    ]
+  }
+]

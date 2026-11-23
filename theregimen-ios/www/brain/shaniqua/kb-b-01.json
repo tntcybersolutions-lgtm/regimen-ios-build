@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "sh-b-001",
+    "topic": "motivation",
+    "title": "No motivation today and what to do about it",
+    "keys": [
+      "no motivation",
+      "no motivation today",
+      "i have no motivation",
+      "not motivated",
+      "unmotivated",
+      "i dont feel like working out",
+      "i don't feel like training",
+      "dont feel like going to the gym",
+      "cant get motivated",
+      "how do i get motivated",
+      "how to get motivated to work out",
+      "zero motivation",
+      "feeling lazy today",
+      "no motivation to work out",
+      "how to motivate myself to exercise",
+      "motivation to go to the gym"
+    ],
+    "match": "\\b(no|zero|lack of) motivation\\b(?! (when|after|in winter))|\\b(un|not )motivated\\b|\\bdon'?t feel like (working out|training|lifting|going to the gym|going today|the gym)\\b|\\bfeel(ing)? (so )?lazy( today)?\\b|\\bhow (do i|to|can i) (get|stay) motivated\\b",
+    "body": [
+      "Plot twist: you do not need motivation to train today. You need a start. Motivation is a mood, moods are flaky, and it usually shows up about ten minutes after you begin, not before. So we stop waiting for it and go get it.",
+      "Here is the deal. Shoes on, bottle filled, playlist going, and you do only the warm-up. Five to ten minutes. If you still feel flat after that, you are allowed to leave and I will still count it as showing up. Most days you will not leave, because the hardest rep of the whole session is walking through the door.",
+      "If it really is one of those days, trim it: the main lift plus two more exercises, then call it. A short session you finished beats a perfect one you skipped, every single time."
+    ],
+    "more": {
+      "why": "Action usually comes before motivation, not after it. Once your heart rate is up and the first set is done, your brain stops arguing, because now you are someone who is already training.",
+      "how": "Give yourself a two-minute launch: shoes, bottle, music, walk to the first station. Do the warm-up. Then make the call. Stay and run the plan, or trim it to the top three exercises and leave proud.",
+      "beginner": "Motivation is loud in week one and tends to vanish around week three. Totally normal. Lock in set days and times now, so the routine carries you when the hype fades.",
+      "mistake": "Waiting until you feel like it. Some of your best sessions will start on days you wanted to cancel. A feeling is not a forecast."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the warm-up rule?",
+      "Too tired to train today?",
+      "Motivation or discipline?"
+    ],
+    "related": [
+      "sh-b-002",
+      "sh-b-013"
+    ]
+  },
+  {
+    "id": "sh-b-002",
+    "topic": "motivation",
+    "title": "Too tired to train: when to push and when to rest",
+    "keys": [
+      "too tired to train",
+      "too tired to train today",
+      "too tired to work out",
+      "im so tired",
+      "i'm exhausted",
+      "exhausted should i still work out",
+      "should i work out if im tired",
+      "should i train tired",
+      "tired after work",
+      "too tired to go to the gym",
+      "no energy to work out",
+      "low energy today",
+      "drained after work",
+      "should i skip the gym if im tired",
+      "tired but should i lift"
+    ],
+    "match": "\\b(too|so|really) (tired|exhausted|drained) (to|for) (train|work ?out|lift|the gym|go)\\b|\\bshould i (train|work ?out|lift|go to the gym|skip the gym|skip training)( if| when)? (i'?m |im )?(tired|exhausted)\\b|\\bno energy (to|for) (train|work ?out|lift)\\b",
+    "body": [
+      "First question: what kind of tired? Desk tired, meeting tired, staring-at-a-screen tired is usually a brain that wants a break, and training is that break. Body tired is different: you slept under about five hours, you feel feverish or achy, or you have been wiped out for days in a row. That one gets rest or something light.",
+      "For desk tired, do the warm-up and check in with yourself after ten minutes. Most people feel better once the blood is moving. For body tired, run a lighter version: keep the main lift, drop a set off everything, and stop each set with two or three good reps still in the tank. Or swap the session for a 20 to 30 minute walk.",
+      "If you have been exhausted for a couple of weeks no matter how much you sleep, that is not a motivation problem. Please get it checked by a doctor."
+    ],
+    "more": {
+      "why": "Mental fatigue and physical fatigue feel similar from the couch but act very differently under a bar. Moving usually lifts mental fatigue, while pushing hard on a truly run down body raises your risk of a bad session or getting sick.",
+      "how": "Rate your tiredness 1 to 10. Under 6: train as planned. 6 to 8: warm up, then run the lighter version. 9 or 10, sick, or under five hours of sleep: rest or walk, and go to bed early.",
+      "short_on_time": "Tired and short on time? Ten minutes of warm-up plus your main lift for three sets. Done. You kept the promise and kept your energy.",
+      "mistake": "Turning a tired day into a test day. Tired is not the day to chase a personal record. Bank the session, save the hero stuff for a fresh day."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Should I train when sick?",
+      "What counts as a session?",
+      "How do I train when stressed?"
+    ],
+    "related": [
+      "sh-b-001",
+      "sh-b-003"
+    ]
+  },
+  {
+    "id": "sh-b-003",
+    "topic": "motivation",
+    "title": "Training when you are stressed out",
+    "keys": [
+      "stressed",
+      "so stressed",
+      "stressed out",
+      "stressed should i work out",
+      "how do i train when stressed",
+      "working out when stressed",
+      "exercise for stress",
+      "does exercise help stress",
+      "lift when stressed",
+      "stressful day",
+      "stress and training",
+      "work stress gym",
+      "life is stressful",
+      "too stressed to work out",
+      "overwhelmed and stressed"
+    ],
+    "match": "\\b(stress(ed|ful)?)\\b.*\\b(train|training|work ?out|lift|lifting|gym|exercise)\\b|\\b(train|training|work ?out|lift|lifting|gym|exercise)\\b.*\\bstress(ed|ful)?\\b",
+    "body": [
+      "Stressed? Good news, the gym is one of the best places to put it. Regular exercise is one of the most reliable ways people manage stress, and a solid session gives your brain a full hour where the only job is the next set.",
+      "Keep it familiar on stressful days. Run a session you know, at a steady effort, with moves you could do half asleep. Rhythmic stuff helps a lot: a brisk incline walk, easy rowing, a few clean sets of your main lift. Phone in the locker, music on, one cue at a time.",
+      "One catch: training is also a stress on your body. If life is truly on fire for weeks (no sleep, huge deadlines, family stuff), cut your sets by about a third and stop each set a couple of reps short of failure. You keep the habit and the calm without digging a deeper hole."
+    ],
+    "more": {
+      "why": "Stress from work and stress from training draw on the same recovery budget. Moderate sessions tend to help you feel better, while very hard sessions on top of big life stress can leave you more drained.",
+      "how": "Pick three exercises you love, three sets each, steady effort. Breathe out slowly between sets. Finish with five minutes of easy walking and a few slow breaths before you grab your phone.",
+      "example": "Brutal week at work: Monday you run 3 sets of squats, 3 of rows and 3 of push-ups at a comfortable effort, 35 minutes total. You walk out lighter than you walked in. That is the whole point.",
+      "mistake": "Using a max attempt to blow off steam. Angry heavy singles feel great for one rep and terrible for your back. Channel it into clean sets instead."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I calm my nerves?",
+      "Busy week, what do I cut first?",
+      "I feel really low lately"
+    ],
+    "related": [
+      "sh-b-002",
+      "sh-b-004"
+    ]
+  },
+  {
+    "id": "sh-b-004",
+    "topic": "mood",
+    "title": "Training on a sad or heavy day",
+    "keys": [
+      "feeling sad",
+      "i feel sad",
+      "sad today",
+      "bad day",
+      "having a bad day",
+      "rough day",
+      "feeling down",
+      "feeling down today",
+      "should i work out when sad",
+      "upset today",
+      "crying",
+      "heartbroken",
+      "bad news today",
+      "grief and working out",
+      "i feel awful today",
+      "training on a sad day"
+    ],
+    "match": "\\b(feel(ing)?|i'?m|so) (sad|down|upset|heartbroken|awful)( today)?\\b|\\b(having a|had a|such a) (bad|rough|terrible|awful) day\\b(?! at the gym)|\\bgriev(e|ing)\\b|\\bgrief\\b",
+    "body": [
+      "Hey. Sad days are real, and you do not have to pretend to be my loud little ray of sunshine today. I've got enough noise for both of us. You came here, and that counts.",
+      "Movement can take the edge off a heavy mood for a lot of people, but today is not about numbers. Pick the gentlest win: a 20 minute walk outside, a few easy sets of something you like, or just the warm-up and some stretching. No personal records, no punishing pace, no comparing. If you cry in the car after, that is allowed too.",
+      "If the sadness has been sitting on you for two weeks or more, or it feels heavier than you can carry, please talk to someone you trust or a mental health professional. And if you ever have thoughts of hurting yourself, call or text 988 in the US, any time, or your local emergency number."
+    ],
+    "more": {
+      "why": "On a heavy day your body is already carrying a lot. Gentle movement gives you something easy to succeed at, which is exactly what a hard day needs.",
+      "how": "Shrink the plan to one thing you can say yes to: a walk around the block, three easy sets, ten minutes on the bike. Then go home and be kind to yourself for the rest of the night.",
+      "home": "No gym needed. Put on one song you love and walk while it plays, inside or out. Then one more if you feel like it. That is a whole win today.",
+      "mistake": "Punishing yourself with a brutal session to feel something. On sad days, gentle is the strong choice."
+    },
+    "chips": [
+      "I feel really low lately",
+      "What counts as a session?"
+    ],
+    "related": [
+      "sh-b-005",
+      "sh-b-003"
+    ]
+  },
+  {
+    "id": "sh-b-005",
+    "topic": "mood",
+    "title": "When you have felt low for weeks, not just today",
+    "keys": [
+      "i feel really low lately",
+      "feeling low for weeks",
+      "depressed",
+      "i think im depressed",
+      "depression and working out",
+      "feel hopeless",
+      "feeling empty",
+      "nothing feels good",
+      "cant get out of bed",
+      "mental health",
+      "struggling mentally",
+      "my mental health is bad",
+      "does exercise help depression",
+      "i feel numb",
+      "no point anymore",
+      "i dont want to be here"
+    ],
+    "match": "\\b(depress(ed|ion)|hopeless|feel(ing)? (empty|numb|worthless)|mental health|struggling mentally|can'?t get out of bed|no point (anymore|in anything)|don'?t want to (be here|live)|feel(ing)? (really )?low (lately|for weeks|all the time))\\b",
+    "body": [
+      "Thank you for telling me. Feeling low for weeks is heavy, and it is not a willpower problem or something a better playlist can fix. I'm an AI coach, so I can help with the training side, but you deserve real support too.",
+      "Please talk to someone you trust this week, and reach out to a doctor or a mental health professional; they help people with exactly this every day. If you ever have thoughts of hurting yourself or feel you are not safe, call or text 988 in the US right now, any hour, or call your local emergency number.",
+      "Training can be a small support alongside that, not a cure. Keep it tiny so it never becomes one more thing to fail at: a 10 minute walk in daylight, or one set of something you enjoy. Three small sessions in a week is a win I will cheer for out loud."
+    ],
+    "more": {
+      "why": "Regular movement is linked with better mood for many people, but when low mood sticks around for weeks it needs more than exercise. Getting help early is a strong move, not a weak one.",
+      "how": "Today: send one message to someone you trust, even just 'rough few weeks, can we talk'. This week: book time with a doctor or counselor. Training: two or three tiny sessions, ten minutes each, no targets.",
+      "example": "A tiny week can look like this: a walk on Monday, three easy sets of squats and rows on Wednesday, a walk on Saturday. That is plenty while you get support in place.",
+      "mistake": "Trying to out-train it alone. Lifting is great, and it works best alongside real people and real help."
+    },
+    "chips": [
+      "What counts as a session?",
+      "Training on a sad day?"
+    ],
+    "related": [
+      "sh-b-004"
+    ]
+  },
+  {
+    "id": "sh-b-006",
+    "topic": "boredom",
+    "title": "Bored of your program",
+    "keys": [
+      "bored of my program",
+      "bored of my workout",
+      "workouts are boring",
+      "gym is boring",
+      "bored at the gym",
+      "same workout every week",
+      "bored of lifting",
+      "how to make workouts fun",
+      "my routine is boring",
+      "need something new",
+      "sick of my workouts",
+      "bored of training",
+      "workout feels stale",
+      "same old routine",
+      "change up my routine"
+    ],
+    "match": "\\bbor(ed|ing)\\b.*\\b(program|workout|routine|lifting|training|gym|exercise)s?\\b|\\b(program|workout|routine|lifting|training|gym)s? (is|are|feels?) (so )?(boring|stale)\\b|\\b(sick|tired) of my (workout|routine|program)s?\\b",
+    "body": [
+      "Bored usually shows up around week four to eight, right when the program starts working. Rude timing, I know. Before you torch the whole plan, figure out if you are bored or stalled. Bored means the numbers still move but your brain is yawning. Stalled means the numbers stopped.",
+      "If you are bored, keep the main lifts and change the wrapping. Swap one or two accessory moves for a cousin (dumbbells for barbell, a new row variation), switch a rep range, train at a different time, or build a brand new playlist. Chase a rep record on something you already do. Novelty in small bites, structure stays.",
+      "If the plan has already run 8 to 12 weeks, it is fair to start a new block. Just do not program hop every week; constant switching is the fastest way to never find out what works."
+    ],
+    "more": {
+      "why": "Your body improves by repeating similar work long enough to adapt. Your brain wants new shiny things. Swapping the small stuff feeds your brain while the big lifts keep feeding your body.",
+      "how": "Keep the first one or two exercises of each session. Swap one accessory. Pick one new challenge for the month, like beating your reps at a set weight. Refresh your music. Done.",
+      "example": "Bored of 3 sets of 10 dumbbell rows? Keep the row, switch to a chest supported version for 4 sets of 8, and try to add a rep each week. Same muscles, fresh game.",
+      "mistake": "Starting a new program every Monday. You never get past the learning phase, so you never get to the good part."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I compete with myself?",
+      "Set one goal for next week",
+      "What should I listen to?"
+    ],
+    "related": [
+      "sh-b-007"
+    ]
+  },
+  {
+    "id": "sh-b-007",
+    "topic": "motivation",
+    "title": "Lost your mojo for training",
+    "keys": [
+      "lost my mojo",
+      "lost my motivation",
+      "lost all motivation",
+      "lost my drive",
+      "i used to love the gym",
+      "dont enjoy training anymore",
+      "burnt out on the gym",
+      "burned out from working out",
+      "training burnout",
+      "gym burnout",
+      "fell out of love with lifting",
+      "the spark is gone",
+      "lost interest in the gym",
+      "dread going to the gym",
+      "lost my passion for fitness"
+    ],
+    "match": "\\blost (my |all )?(mojo|motivation|drive|passion|interest|spark)\\b|\\b(burn(ed|t)? ?out|burnout)\\b|\\bdread (going to )?(the gym|training|working out)\\b|\\bfell out of love\\b|\\bdon'?t enjoy (training|lifting|the gym|working out) anymore\\b",
+    "body": [
+      "Lost the mojo? It happens to everybody who trains long enough, me included. After years of track I once went a whole month dreading the starting blocks. The mojo is not gone. It is buried under routine, fatigue or a goal that stopped meaning anything.",
+      "Run a quick check. Are you sleeping badly, cranky, and getting weaker for a few weeks straight? That smells like too much work, so take an easier week: cut your sets roughly in half and leave plenty in the tank. If you feel fine physically but flat mentally, you need a fresh reason, not a rest.",
+      "Fresh reasons that work: sign up for an event, drop into a class, train with a friend for a month, try a new time of day, or chase a goal that has nothing to do with the mirror, like your first pull-up. And if everything feels flat, not just training, talk to someone you trust or a doctor."
+    ],
+    "more": {
+      "why": "Long stretches of the same goal and the same effort wear down anybody. Either the body needs recovery or the brain needs a new target, and the fix is different for each.",
+      "how": "Week one: lighter week, half the sets, more fun. Week two: pick one new target and write it down. Week three: add one new thing, a class, a partner or an event date. Then reassess.",
+      "advanced": "Experienced lifters often lose the mojo when progress gets slow. Shift to goals with faster feedback for a block: rep records, skill work, a conditioning benchmark, or a new movement you are bad at.",
+      "mistake": "Quitting completely to 'find it again'. It rarely comes back on the couch. Keep two easy sessions a week while you hunt for the spark."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Should I sign up for an event?",
+      "Should I get a training partner?",
+      "How do I find my why?"
+    ],
+    "related": [
+      "sh-b-006",
+      "sh-b-011"
+    ]
+  },
+  {
+    "id": "sh-b-008",
+    "topic": "comparison",
+    "title": "Comparing yourself to others in the gym",
+    "keys": [
+      "comparing myself to others",
+      "how do i stop comparing myself",
+      "everyone is stronger than me",
+      "everyone at the gym is fitter",
+      "i feel weak compared to others",
+      "comparison in the gym",
+      "why am i weaker than everyone",
+      "other people lift more than me",
+      "jealous of people at the gym",
+      "i'm the weakest in the gym",
+      "everyone is in better shape",
+      "comparing my progress",
+      "stop comparing",
+      "feel small at the gym"
+    ],
+    "match": "\\bcompar(e|ing|ison)\\b.*\\b(myself|me|others|other people|everyone)\\b|\\beveryone (is|at the gym is|else is) (stronger|fitter|bigger|faster|in better shape)\\b|\\b(weakest|slowest) (one )?(in|at) the gym\\b|\\bjealous of\\b",
+    "body": [
+      "Comparison is sneaky. You are looking at somebody's chapter twenty while you are on chapter two. They have different history, different height, different limb lengths, different years under the bar. That match was never fair, so stop scoring it.",
+      "There is only one comparison I care about: you versus you a month ago. Did you lift a little more, do one more rep, finish the session faster, show up one more day? That is the scoreboard. Open your log and look back four weeks; that is where the real story lives.",
+      "Use the strong people around you as information, not a measuring stick. Notice how they set up, how they rest, how consistent they are. Then go back to your own lane and run your own race. The 400 taught me that: the moment you stare at the next lane, you slow down."
+    ],
+    "more": {
+      "why": "Other people's numbers tell you nothing about your progress. Your own log does. Comparing against yourself gives you a fair fight you can actually win.",
+      "how": "Pick three numbers you track: a main lift, a rep count at a fixed weight, and sessions per week. Compare each month to the last. Write the wins down where you can see them.",
+      "beginner": "In your first months you are the person improving fastest in the whole building, even if you lift the least. Enjoy that. It is a superpower.",
+      "mistake": "Comparing your worst day to someone else's best set. You see their PR, not their missed reps, their sore knees or their ten years."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I compete with myself?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-b-009",
+      "sh-b-012"
+    ]
+  },
+  {
+    "id": "sh-b-009",
+    "topic": "comparison",
+    "title": "When fitness social media makes you feel worse",
+    "keys": [
+      "fitness social media",
+      "instagram makes me feel bad",
+      "tiktok fitness",
+      "fitness influencers",
+      "social media makes me feel bad about my body",
+      "everyone online looks perfect",
+      "fitspo",
+      "comparing to influencers",
+      "influencer workouts",
+      "should i follow fitness influencers",
+      "social media fitness advice",
+      "gym tiktok",
+      "fitness accounts make me feel worse",
+      "online fitness is fake"
+    ],
+    "match": "\\b(instagram|insta|tiktok|social media|influencers?|fitspo|youtube)\\b.*\\b(fitness|gym|body|workout|feel|bad|worse|perfect|compare)\\b|\\bgym ?tok\\b|\\bfitness influencers?\\b",
+    "body": [
+      "Let me pull back the curtain. Most fitness posts are the best angle, best lighting, best pump, best day of the year, sometimes with filters or editing on top. You are comparing your Tuesday under fluorescent lights to someone's highlight reel. No wonder it stings.",
+      "Curate your feed like a playlist. Here is my rule: if a post makes you want to train, keep it. If it makes you want to hide, mute it. Follow accounts that teach you something, show real progress over years, or make you laugh. Unfollowing is not rude, it is maintenance.",
+      "Also, do not take your programming from 30-second clips. A plan you can run for months beats a viral workout you try once. Put a time limit on scrolling and spend the saved minutes actually training. Your log is the only feed that tracks your progress."
+    ],
+    "more": {
+      "why": "Constant comparison to edited, best-moment images tends to make people feel worse about their own bodies and progress. Cutting the exposure is one of the simplest fixes there is.",
+      "how": "Scroll your follows for five minutes. Mute anything that leaves you feeling smaller. Keep the teachers and the funny ones. Set a daily screen time limit for the app you scroll most.",
+      "example": "Before: 40 minutes of scrolling, feeling worse, skipping the gym. After: 10 minutes of scrolling, a muted list of 15 accounts, and a 30 minute session with the time you got back.",
+      "mistake": "Following accounts to 'stay motivated' that actually make you feel like garbage. If motivation feels like shame, it is not motivation."
+    },
+    "chips": [
+      "How do I stop comparing myself?",
+      "What are non-scale wins?"
+    ],
+    "related": [
+      "sh-b-008"
+    ]
+  },
+  {
+    "id": "sh-b-010",
+    "topic": "progress",
+    "title": "Frustrated that progress is so slow",
+    "keys": [
+      "progress is so slow",
+      "slow progress",
+      "not seeing results",
+      "why am i not seeing results",
+      "no results",
+      "when will i see results",
+      "how long until i see results",
+      "frustrated with my progress",
+      "not making progress",
+      "is it working",
+      "am i making progress",
+      "how long does it take to see progress",
+      "results take forever",
+      "nothing is changing",
+      "why am i not progressing"
+    ],
+    "match": "\\b(slow|no) (progress|results)\\b|\\bnot (seeing|getting|making) (any )?(results|progress|gains)\\b|\\b(when|how long)( will i| until i| does it take to| before i)? see (results|progress|changes)\\b|\\bnothing is changing\\b|\\bwhy am i not progressing\\b",
+    "body": [
+      "I hear you, and I get it. Slow progress is still progress, but it is invisible day to day, which makes it maddening. So let us zoom out. Strength often moves within the first few weeks, because your body learns the movements fast. Visible changes in the mirror take longer, usually months, and fat loss at a healthy pace is about 0.5 to 1% of your body weight a week.",
+      "Now go hunting for proof. Open your log and compare this month to last month: the weight on your main lifts, the reps at the same weight, how many sessions you showed up for. If those are creeping up, it is working, even when the mirror is being stubborn.",
+      "If everything has been flat for four weeks or more, the plan needs a tweak, not a funeral. Check three things: are you adding a little weight or a rep over time, are you showing up most planned days, and are you sleeping and eating enough to recover? Fix the weakest one first."
+    ],
+    "more": {
+      "why": "Day to day changes are smaller than normal day to day noise, so you cannot see them. Comparing four week blocks shows the real trend.",
+      "how": "Pick your benchmark lifts. Write down weight and reps from four weeks ago and today. Count sessions in each block. If any line went up, celebrate it. If none did, adjust one thing for the next four weeks.",
+      "beginner": "Your first six months are usually the fastest you will ever progress. If it feels slow, check that you are actually adding weight or reps, not repeating the same easy sets.",
+      "mistake": "Judging the whole plan on one week, one weigh-in or one mirror check. Give any change at least four weeks before you decide."
+    },
+    "reads": [
+      "sessions",
+      "stalls"
+    ],
+    "chips": [
+      "What are non-scale wins?",
+      "How do I review my week?",
+      "Do rep PRs count?"
+    ],
+    "related": [
+      "sh-b-008",
+      "sh-b-011"
+    ]
+  },
+  {
+    "id": "sh-b-011",
+    "topic": "quitting",
+    "title": "Feeling like quitting altogether",
+    "keys": [
+      "i want to quit",
+      "feel like quitting",
+      "should i quit the gym",
+      "thinking about quitting",
+      "giving up on fitness",
+      "i give up",
+      "i want to give up",
+      "whats the point of working out",
+      "why bother working out",
+      "ready to quit",
+      "about to quit",
+      "close to giving up",
+      "should i just stop working out",
+      "quit working out",
+      "i keep quitting"
+    ],
+    "match": "\\b(want to|wanna|thinking (about|of)|feel like|ready to|about to|should i( just)?) (quit|give up|stop working out)\\b|\\bi give up\\b|\\b(what'?s|what is) the point of (working out|training|the gym|exercise)\\b|\\bwhy (even )?bother (working out|training|going)\\b|\\bgiving up on (fitness|the gym|working out)\\b",
+    "body": [
+      "Before you quit, let's shrink it instead. Most people do not need to quit training, they need to quit the version that is not working. So tell me what is actually making you want out: no time, no results, boredom, pain, the gym itself, or just being tired of everything?",
+      "Each one has a fix that is smaller than quitting. No time: two 30 minute sessions a week still keep most of your strength. No results: check that you are progressing weight or reps and sleeping enough. Bored: change the wrapping, keep the core. The gym itself: try a class, a different time, or training at home. Pain that is sharp or getting worse: see a doctor or physical therapist, then train around it.",
+      "And if you truly need a break, take it on purpose. Pick the date you come back and write it down. A planned pause is a strategy. Disappearing is just disappearing, and I would miss you on the floor."
+    ],
+    "more": {
+      "why": "Quitting usually comes from one specific friction point that grew big. Name it and you can usually fix it with a smaller change than walking away.",
+      "how": "Write the reason in one sentence. Pick the smallest change that addresses it. Commit to two weeks of the smaller version, then decide again with fresh eyes.",
+      "short_on_time": "Your floor plan: two sessions a week, 30 minutes, three exercises each. That is enough to keep the habit and most of your progress while life calms down.",
+      "mistake": "Making the decision on your worst day. Never quit on a bad day. Decide on a normal day, after a decent night of sleep."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "Lost my mojo, now what?",
+      "How do I find my why?"
+    ],
+    "related": [
+      "sh-b-007",
+      "sh-b-024"
+    ]
+  },
+  {
+    "id": "sh-b-012",
+    "topic": "confidence",
+    "title": "Feeling like you do not belong in the gym",
+    "keys": [
+      "i dont belong in the gym",
+      "i feel like a fraud at the gym",
+      "imposter syndrome gym",
+      "i dont look like i lift",
+      "feel out of place at the gym",
+      "everyone knows what theyre doing but me",
+      "i look stupid at the gym",
+      "feel like a fake",
+      "people will think im a beginner",
+      "i dont look fit enough for the gym",
+      "afraid people will judge me",
+      "i feel like an imposter",
+      "do i belong here",
+      "feel like a poser"
+    ],
+    "match": "\\b(don'?t|do i) belong\\b|\\bimposter|impostor\\b|\\b(fraud|fake|poser) (at|in) the gym\\b|\\bout of place\\b|\\bdon'?t look (like i lift|fit enough)\\b|\\blook (stupid|dumb|silly) (at|in) the gym\\b",
+    "body": [
+      "Here is the secret nobody tells you: almost everyone in that gym has felt this. The big guy at the squat rack, the woman crushing the rower, me on my first day running a class. Belonging is not something you have to earn first. You belong because you showed up, full stop.",
+      "Also, people are watching you way less than you think. Most are counting reps, fixing their hair or picking the next song. The one or two who notice you are usually thinking 'good for them'.",
+      "Make it easier on yourself: walk in with a written plan so you always know your next move, wear what you feel good in, and pick a couple of stations you get comfortable with first. If you mess something up, you get corrected, not embarrassed. Everybody started with an empty bar."
+    ],
+    "more": {
+      "why": "People tend to overestimate how much others notice them; researchers call it the spotlight effect. Knowing that takes a lot of the pressure off.",
+      "how": "Plan the session before you arrive. Start at quieter times for the first couple of weeks. Learn three or four machines or stations well, then add more. Headphones in, one cue at a time.",
+      "beginner": "Your first ten sessions are the hardest socially. After that, the place starts to feel like yours. Give it ten before you decide anything.",
+      "mistake": "Waiting to 'get in shape first' before going to the gym. The gym is where you get in shape. That is the whole point of the building."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I stop comparing myself?",
+      "Someone corrected my form",
+      "What should I listen to?"
+    ],
+    "related": [
+      "sh-b-008"
+    ]
+  },
+  {
+    "id": "sh-b-013",
+    "topic": "motivation",
+    "title": "Motivation or discipline: which one you actually need",
+    "keys": [
+      "motivation or discipline",
+      "motivation vs discipline",
+      "discipline vs motivation",
+      "how do i become disciplined",
+      "how to be more disciplined",
+      "i have no discipline",
+      "no willpower",
+      "how to build discipline",
+      "is discipline better than motivation",
+      "how do i stay consistent",
+      "lack of discipline",
+      "how to stay disciplined with working out",
+      "self discipline gym"
+    ],
+    "match": "\\bmotivation (or|vs\\.?|versus) discipline\\b|\\bdiscipline (or|vs\\.?|versus) motivation\\b|\\b(no|lack of|more|build|become|be) (self ?)?discipline(d)?\\b|\\bno willpower\\b",
+    "body": [
+      "Honestly? Neither one on its own. Motivation is the spark, discipline is what people call it when the routine does the heavy lifting. And discipline is not some rare personality trait. It is mostly decisions you made ahead of time so you do not have to argue with yourself at 6 pm.",
+      "So build the system. Same days, same time, in your calendar like a meeting. Bag packed the night before. A written plan for the session. A minimum version for bad days, like just the warm-up and the main lift. When the decision is already made, you only have to follow it.",
+      "Motivation still matters, so feed it on purpose: a goal you care about, music you love, a friend who expects you. But build the routine so it works on the days motivation does not show up, because some days it won't."
+    ],
+    "more": {
+      "why": "Willpower runs low when you are tired or stressed. Routines and pre-made decisions do not. That is why people with 'discipline' often just have better systems.",
+      "how": "Put three sessions in your calendar for next week. Pack your bag tonight. Write the first exercise of each session on your phone. Decide your bad day minimum now, while you are calm.",
+      "beginner": "Start with fewer sessions than you think you can do. Two or three a week you never miss builds more discipline than five you keep canceling.",
+      "mistake": "Thinking disciplined people never skip. They skip sometimes too. They just do not skip twice, and they come back fast."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is the warm-up rule?",
+      "What is never miss twice?",
+      "Should I schedule my workouts?"
+    ],
+    "related": [
+      "sh-b-001"
+    ]
+  },
+  {
+    "id": "sh-b-014",
+    "topic": "enjoyment",
+    "title": "When you hate working out",
+    "keys": [
+      "i hate working out",
+      "i hate exercise",
+      "i hate the gym",
+      "hate lifting",
+      "exercise is miserable",
+      "i dont enjoy exercise",
+      "how to enjoy working out",
+      "how to make exercise fun",
+      "how to like exercise",
+      "i hate cardio and lifting",
+      "exercise for people who hate exercise",
+      "working out is torture",
+      "how do i start liking the gym",
+      "find a workout i like"
+    ],
+    "match": "\\bhate (working out|exercis(e|ing)|the gym|lifting|training|workouts)\\b|\\b(don'?t|do not) (enjoy|like) (exercis(e|ing)|working out|the gym|workouts)\\b|\\bhow (do i|to|can i) (enjoy|like|start liking) (exercis(e|ing)|working out|the gym|workouts)\\b",
+    "body": [
+      "Okay, I respect the honesty. But here is my bet: you do not hate movement. You hate the specific kind you tried, the place you tried it, or the way it made you feel. That is fixable.",
+      "Run some experiments. Try a group class, a dance session, a hike, a sport, a rowing machine with a podcast, or lifting with a friend and a loud playlist. Give each one two or three tries before you judge it, because the first go at anything is awkward. Keep whatever you would actually repeat, even if it is not what the internet says is best.",
+      "For general health, the common target is about 150 minutes of moderate activity a week plus muscle strengthening on at least two days. That can be brisk walks and two short strength sessions. It does not have to be suffering to count."
+    ],
+    "more": {
+      "why": "The best training plan is the one you keep doing. Enjoyment is not a bonus, it is what makes consistency possible for most people.",
+      "how": "List five activities you have never really tried. Try two this month, twice each. Rate each one: would I do this again next week? Keep the yes answers.",
+      "example": "Hate the treadmill? Walk outside with a friend twice a week and do two 25 minute strength sessions with music you love. That covers the basics and nobody suffered.",
+      "mistake": "Picking the hardest workout you can find because you think you have to suffer for it to work. Hard and miserable is not the same as effective."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "How do I bring class energy solo?",
+      "What should I listen to?",
+      "Should I get a training partner?"
+    ],
+    "related": [
+      "sh-b-006"
+    ]
+  },
+  {
+    "id": "sh-b-015",
+    "topic": "comeback",
+    "title": "Showing up after a rough week",
+    "keys": [
+      "rough week",
+      "had a rough week",
+      "bad week",
+      "terrible week",
+      "i had a bad week",
+      "back after a bad week",
+      "missed the whole week",
+      "week was a mess",
+      "first session after a rough week",
+      "back after a rough few days",
+      "i fell off this week",
+      "worst week ever",
+      "i'm back after a bad week",
+      "showing up after a bad week"
+    ],
+    "match": "\\b(rough|bad|terrible|awful|messy|crazy|hard|horrible|worst) (week|few days|couple of weeks)\\b|\\bfell off (this|last) week\\b|\\bmissed (the|my) whole week\\b",
+    "body": [
+      "You're here. After the week you had, that is the headline, and I want you to hear it before anything else. Showing up after a rough week is harder than showing up after a great one, and you did it.",
+      "Now the work, and we keep it kind. Today is a re-entry session, not a make-up session. Run your planned session at about 80%: same exercises, a little less weight or one set fewer on each. Do not try to cram in the sessions you missed. They are gone, and that is fine.",
+      "Before you leave, put your next session in your calendar. The goal this week is simple: two or three sessions, finished, logged. Momentum comes back fast once you string two good days together."
+    ],
+    "more": {
+      "why": "After a rough week your sleep and stress are usually off, so a slightly lighter session gets you moving without digging a hole. Cramming missed sessions just makes the next week rough too.",
+      "how": "Warm up longer than usual. Take 10 to 20% off your usual weights or drop a set. Finish feeling like you had more in the tank. Log it, then book the next one.",
+      "example": "Your usual squat is 4 sets of 6 at 135 lb. Today you do 3 sets of 6 at 115 lb, smooth and fast. Next session you are back at 135 and feeling fresh.",
+      "mistake": "Doing a punishment session to make up for the week. Training is not a debt you pay back. It is a habit you pick back up."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "Missed a session, now what?",
+      "What counts as a session?"
+    ],
+    "related": [
+      "sh-b-025",
+      "sh-b-024"
+    ]
+  },
+  {
+    "id": "sh-b-016",
+    "topic": "confidence",
+    "title": "Thinking you are too weak or out of shape to start",
+    "keys": [
+      "too weak to start",
+      "im too weak",
+      "i'm so weak",
+      "too out of shape to work out",
+      "too fat for the gym",
+      "i cant even do one push up",
+      "cant do a single pull up",
+      "i'm too unfit",
+      "too out of shape for the gym",
+      "how do i start when im weak",
+      "i'm embarrassingly weak",
+      "out of shape and embarrassed",
+      "get in shape before the gym",
+      "not strong enough to lift"
+    ],
+    "match": "\\btoo (weak|out of shape|unfit|heavy|big|fat) (to|for) (start|work ?out|the gym|lift|exercise)\\b|\\bi'?m (too |so )?(weak|unfit|out of shape)\\b|\\bcan'?t (even )?do (one|a single) (push ?up|pull ?up|chin ?up)\\b|\\bnot strong enough to\\b",
+    "body": [
+      "Strength is the result, not the entry ticket. Nobody walks in strong; they walk in and get strong. So we start exactly where you are, and where you are is a great place to start because you have the most room to grow.",
+      "Every exercise has an easier version. Can't do a push-up? Push-ups against a wall or a bench. Squats feel shaky? Sit down to a box and stand back up. Pull-ups out of reach? A lat pulldown or a band. Pick weights that let you do 8 to 12 smooth reps with two or three left in the tank.",
+      "Then write down your numbers today. In four to six weeks most beginners can do noticeably more, partly because your nervous system gets better at the movements fast. That before and after in your own log will feel amazing. And if you have a heart condition or have not been active for a long time, check with your doctor before you start."
+    ],
+    "more": {
+      "why": "Your body adapts to what you ask it to do, at any starting point. Easier versions let you practice the pattern and build the strength for the harder version.",
+      "how": "Pick five moves: a squat, a push, a pull, a hinge and a carry. Find the version you can do for 8 to 12 reps. Do 2 to 3 sets twice a week. Add a rep or a little weight when it gets easy.",
+      "beginner": "Your goal for month one is showing up and learning the moves, not crushing yourself. Eight sessions in a month is a fantastic first month.",
+      "home": "Wall push-ups, chair squats, glute bridges and a backpack row. Start there, two sets each, and you are training today."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Do rep PRs count?",
+      "What are non-scale wins?",
+      "Am I too old to start?"
+    ],
+    "related": [
+      "sh-b-012",
+      "sh-b-022"
+    ]
+  },
+  {
+    "id": "sh-b-017",
+    "topic": "self-talk",
+    "title": "Negative self-talk during a session",
+    "keys": [
+      "negative self talk",
+      "i talk down to myself",
+      "i tell myself i cant",
+      "mean to myself at the gym",
+      "how to stop negative thoughts while working out",
+      "my head tells me to quit mid set",
+      "i doubt myself mid set",
+      "positive self talk",
+      "mental toughness",
+      "how to be mentally tough",
+      "i get in my own head",
+      "i psych myself out",
+      "inner critic gym",
+      "i think i cant do it"
+    ],
+    "match": "\\b(negative|positive) self.?talk\\b|\\b(talk down to|mean to|hard on) myself\\b|\\bget in my (own )?head\\b|\\bpsych(ed)? myself out\\b|\\bmental(ly)? tough(ness)?\\b|\\binner critic\\b",
+    "body": [
+      "Your brain is a loud little narrator, and mid set it loves to yell 'you can't'. You do not have to argue with it or believe it. Just swap the line. Insults out, cues in.",
+      "Try this. When you notice the negative thought, name it in your head ('there's the quitter voice'), then replace it with one short instruction for the very next rep: 'drive the floor', 'chest up', 'breathe and push', 'one more clean one'. A cue gives your brain a job, and a busy brain has less time to trash talk you.",
+      "Outside the set, talk to yourself the way I talk to you at the rack: specific, warm, a little cheeky. Would you call your friend weak for missing a rep? Nope. So stop doing it to yourself. Corrected, not embarrassed, and that includes by you."
+    ],
+    "more": {
+      "why": "Instructional self-talk, a short cue about what to do, gives your attention a target. Many athletes use it because it keeps focus on the task instead of the doubt.",
+      "how": "Pick two cues for each main lift and write them in your plan. Say one before each set and one at the hardest rep. Keep them under four words.",
+      "example": "Squat: 'big breath' before, 'drive up' at the sticking point. Push-up: 'tight body' before, 'push the floor away' when it gets hard.",
+      "mistake": "Trying to force fake hype like 'I am a beast' when you do not believe it. Simple instructions work better than slogans for most people."
+    },
+    "chips": [
+      "Best mantras for hard sets?",
+      "How do I get in the zone?",
+      "How do I calm my nerves?"
+    ],
+    "related": [
+      "sh-b-012"
+    ]
+  },
+  {
+    "id": "sh-b-018",
+    "topic": "seasons",
+    "title": "Staying motivated through winter and dark months",
+    "keys": [
+      "motivation in winter",
+      "winter motivation",
+      "too cold to work out",
+      "dark mornings",
+      "dark evenings",
+      "hard to work out in winter",
+      "winter blues",
+      "no motivation when its dark",
+      "cold weather workouts motivation",
+      "short days no energy",
+      "how to stay active in winter",
+      "dont want to leave the house in winter",
+      "seasonal slump",
+      "winter slump"
+    ],
+    "match": "\\b(winter|dark (mornings|evenings|outside)|cold weather|too cold|short days|seasonal)\\b.*\\b(motivat\\w*|work ?out|train\\w*|gym|slump|blues|energy|active)\\b|\\bwinter (blues|slump|motivation)\\b",
+    "body": [
+      "Winter is sneaky. It is dark when you wake up, dark when you leave work, and your couch suddenly looks like a five star resort. Totally normal to feel the pull. We just plan around it instead of hoping.",
+      "Make the start ridiculously easy: clothes laid out the night before, gym bag by the door, lights on the second you get up. Warm up a few minutes longer when it is cold. If dark evenings kill your vibe, train right after work before you go home, because once you sit down it is over.",
+      "Give winter its own goal. A spring event, a rep record by March, or a simple 'three sessions a week until it is light out'. And get some daylight when you can, even a walk at lunch. If your mood drops hard every winter, mention it to a doctor; that is common, and there is real help for it."
+    ],
+    "more": {
+      "why": "Less daylight and colder weather make most people want to stay in. Removing small hurdles and giving the season a target keeps you moving when the weather is not on your side.",
+      "how": "Pick your winter training time and lock it into your calendar. Prep gear the night before. Set one winter goal with a date. Add a daylight walk at lunch twice a week.",
+      "home": "When it is icy or pitch black, a 25 minute home session counts. Keep a mat and something heavy by the door so the backup plan is always ready.",
+      "mistake": "Waiting for spring to restart. You lose months, then have to rebuild. Keep the floor at two sessions a week and spring feels amazing."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Morning or evening workouts?",
+      "Should I sign up for an event?",
+      "What counts as a session?"
+    ],
+    "related": [
+      "sh-b-001"
+    ]
+  },
+  {
+    "id": "sh-b-019",
+    "topic": "motivation",
+    "title": "Lost motivation right after hitting a goal",
+    "keys": [
+      "lost motivation after reaching my goal",
+      "hit my goal now what",
+      "reached my goal now unmotivated",
+      "what now after my goal",
+      "post goal slump",
+      "after the race motivation",
+      "finished my program now what",
+      "after my event i stopped",
+      "goal achieved now what",
+      "no motivation after competition",
+      "empty after reaching goal",
+      "what next after my goal"
+    ],
+    "match": "\\b(hit|reached|achieved|smashed|crushed|finished) my (goal|target|race|event|program)\\b.*\\b(now what|what next|unmotivated|motivation|slump|empty|stopped)\\b|\\b(now what|what next) after (my|the) (goal|race|event|program|competition)\\b|\\bpost.?(goal|race|event) (slump|blues)\\b",
+    "body": [
+      "First, a victory lap. You hit the thing! I want the full story, the numbers, the moment. Okay, now the slump: it is super common. The chase gave every session a purpose, and when it ends the purpose goes with it. Your brain is not broken, it is just looking for the next finish line.",
+      "Give yourself one or two weeks of 'fun mode'. Train the stuff you enjoy, try something new, keep it lighter. Then ask a better question than 'what number next': what did you love about the chase? The structure, the competition, learning a skill, feeling strong?",
+      "Build the next goal around that answer. If you loved the deadline, pick another event. If you loved getting stronger, pick a new lift to build. If you loved the routine, make the goal a process goal like 12 sessions a month. The next goal does not need to be bigger, just yours."
+    ],
+    "more": {
+      "why": "A finished goal removes the structure you were leaning on. Replacing it quickly with something that matters to you keeps the habit from slipping away.",
+      "how": "Week 1 and 2: fun mode, two or three sessions, anything you like. End of week 2: write what you loved about the last goal and pick a new one that gives you more of that.",
+      "example": "You ran your first 5K. Fun mode: two weeks of lifting and a hike. Then a new goal: a faster 5K in ten weeks, or your first 10K, or 'run twice a week all winter'.",
+      "mistake": "Stopping completely 'just for a while'. A while turns into months. Keep two sessions a week in fun mode and you keep the engine warm."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "Process or outcome goals?",
+      "Should I sign up for an event?",
+      "How do I celebrate a PR?"
+    ],
+    "related": [
+      "sh-b-007"
+    ]
+  },
+  {
+    "id": "sh-b-020",
+    "topic": "comeback",
+    "title": "Frustrated after a setback ruined your momentum",
+    "keys": [
+      "setback",
+      "i had a setback",
+      "lost all my progress",
+      "back to square one",
+      "i was doing so well and then",
+      "ruined my progress",
+      "lost my gains",
+      "had to stop training for weeks",
+      "frustrated after being sick",
+      "starting over again",
+      "lost my momentum",
+      "feel like im starting from zero",
+      "all my progress is gone"
+    ],
+    "match": "\\bsetbacks?\\b|\\b(lost|ruined) (all )?my (progress|gains|momentum)\\b|\\bback to (square one|zero|the start)\\b|\\bstarting (over|from zero|from scratch) again\\b|\\bprogress is gone\\b",
+    "body": [
+      "Ugh, setbacks are the worst. You were rolling, then life, a cold, a work crisis or a tweak knocked you off. It feels like you are back at zero. You are not. Your skills, your habits and a good chunk of your strength are still in there.",
+      "Strength and muscle you built before usually come back faster than they took to build the first time. So restart around 70 to 80% of your old weights and build back up over two to four weeks. If the setback was an injury, follow your doctor or physical therapist on what is cleared, and train around the rest.",
+      "Then change the scoreboard for a month. Stop comparing to your old best and start counting sessions completed and small weekly wins. Rebuilding is its own kind of progress, and it is way more fun when you are winning every week instead of losing to your past self."
+    ],
+    "more": {
+      "why": "Previously trained muscle and the skill of lifting tend to return faster than the first time around. Starting a bit lighter avoids soreness and frustration while that happens.",
+      "how": "Week 1: about 70% of old weights, fewer sets. Week 2: about 80%. Week 3 and 4: close in on your old numbers if the reps are moving well. Log every session.",
+      "example": "Your bench was 135 lb for 5 before three weeks off. Week 1: 95 lb for 3 sets of 5. Week 2: 110 lb. Week 3: 125 lb. Week 4: back at 135, and it moves.",
+      "mistake": "Jumping straight back to your old best to prove nothing changed. That is how a two week setback turns into a two month one."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "What are small wins?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-015"
+    ]
+  },
+  {
+    "id": "sh-b-021",
+    "topic": "body-image",
+    "title": "When you hate how your body looks",
+    "keys": [
+      "i hate my body",
+      "i hate how i look",
+      "hate the way i look",
+      "disgusted with my body",
+      "ashamed of my body",
+      "body image issues",
+      "i look gross",
+      "i feel ugly at the gym",
+      "hate looking in the mirror",
+      "i hate seeing myself in gym mirrors",
+      "body confidence",
+      "how to love my body",
+      "insecure about my body",
+      "embarrassed about my body"
+    ],
+    "match": "\\bhate (my body|how i look|the way i look|looking in the mirror|seeing myself)\\b|\\b(ashamed|disgusted|embarrassed|insecure) (of|with|about) my body\\b|\\bbody (image|confidence)\\b|\\bi look (gross|disgusting|ugly)\\b",
+    "body": [
+      "I'm really glad you said it out loud, and I want to be gentle here. Your body is not a project you have to hate into shape. It is the thing that carried you into the gym today. That deserves a little respect, even on the days the mirror feels mean.",
+      "Try shifting the spotlight from how your body looks to what it can do. Pick performance goals: carry heavier groceries, your first full push-up, a faster walk up the stairs, a squat with good depth. Those wins show up fast, and they are yours no matter what the mirror says. Face away from mirrors if they get in your head; nobody needs a mirror for most exercises.",
+      "If thoughts about your body or food are taking up most of your day, or eating feels out of control, please talk to a doctor or someone you trust. You deserve support with that, and it is nothing to be ashamed of."
+    ],
+    "more": {
+      "why": "Goals about performance give you regular, visible wins and a reason to treat your body as a teammate. Appearance goals alone tend to keep your attention on what you do not like.",
+      "how": "Write three things your body did this week. Pick one performance goal for the month. Choose a spot in the gym facing away from the mirror. Log your wins, not your flaws.",
+      "example": "Instead of 'look better by summer', try 'five full push-ups by August' and 'carry my kid up the stairs without stopping'. Concrete, kind and trackable.",
+      "mistake": "Using training as punishment for how you look or what you ate. Training is something you do for your body, never to it."
+    },
+    "chips": [
+      "What are non-scale wins?",
+      "Process or outcome goals?",
+      "How do I find my why?"
+    ],
+    "related": [
+      "sh-b-009"
+    ]
+  },
+  {
+    "id": "sh-b-022",
+    "topic": "confidence",
+    "title": "Too old or too late to start training",
+    "keys": [
+      "am i too old to start",
+      "too old to work out",
+      "too old for the gym",
+      "is it too late to get fit",
+      "starting fitness at 50",
+      "starting the gym at 40",
+      "starting to lift at 60",
+      "too late to start lifting",
+      "never exercised before and im older",
+      "can older people get stronger",
+      "too old to get in shape",
+      "is 50 too old to start working out",
+      "starting over in my 40s"
+    ],
+    "match": "\\btoo (old|late) (to|for) (start|get|work ?out|lift|the gym|exercise|train)\\b|\\b(is it|am i) too (old|late)\\b|\\bstart(ing)? (lifting|the gym|to lift|working out|fitness) (at|in my) (\\d\\d|forties|fifties|sixties|seventies)\\b",
+    "body": [
+      "Too old? Nope. Not a chance. People in their 60s, 70s and even 90s have gotten measurably stronger with regular strength training. Your age changes the starting point and the pace, not whether it works. Honestly, the older you are, the more training pays you back in everyday life.",
+      "Here is how we start smart. If you have a heart condition, have not been active in a long time, or have any health concerns, check in with your doctor first. Then two or three sessions a week of full body strength work, plus walking on other days. Start light enough to finish every rep with control and leave two or three in the tank. Take a little longer to warm up, and give yourself a rest day between harder sessions.",
+      "Track your wins from day one. Getting up from the floor easier, carrying the groceries in one trip, sleeping better. Those count big."
+    ],
+    "more": {
+      "why": "Muscle and strength respond to training at every age. Strength also supports balance and daily independence, which matters more every year.",
+      "how": "Pick five moves: a sit to stand squat, a push, a row, a hip hinge and a carry. Two to three sets of 8 to 12, twice a week. Add reps first, then a little weight.",
+      "beginner": "Your first month is about learning movements and building the habit. Soreness should be mild. If anything is sharp or painful, stop that exercise and get it checked.",
+      "mistake": "Starting with someone else's program that was built for a 25 year old athlete. Start easier than you think, then build. Slow is still forward."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What are non-scale wins?",
+      "Do rep PRs count?"
+    ],
+    "related": [
+      "sh-b-016"
+    ]
+  },
+  {
+    "id": "sh-b-023",
+    "topic": "overwhelm",
+    "title": "Overwhelmed by all the fitness advice out there",
+    "keys": [
+      "too much fitness information",
+      "overwhelmed by fitness advice",
+      "conflicting fitness advice",
+      "dont know who to believe",
+      "too many workout programs",
+      "information overload fitness",
+      "which program should i follow",
+      "everyone says something different",
+      "confused about working out",
+      "so much advice online",
+      "where do i even start",
+      "dont know where to start",
+      "overwhelmed starting the gym"
+    ],
+    "match": "\\b(conflicting|too much|so much|contradicting) (fitness |workout |gym )?(advice|information|info)\\b|\\binformation overload\\b|\\boverwhelm(ed|ing)? (by|with) (fitness|the gym|advice|information|everything)\\b|\\bdon'?t know (where to start|who to believe|what to believe)\\b",
+    "body": [
+      "Deep breath. The internet is very loud and very sure of itself, and it argues about the last 5% of results. The first 95% comes from a short list of boring basics that almost everyone agrees on.",
+      "Here is the list. Strength train two to four times a week, hitting your whole body. Add a little weight or a rep over time. Move daily, aiming for regular walking. Eat enough protein, roughly 0.7 to 1 gram per pound of goal body weight. Sleep 7 to 9 hours. Repeat for months. That is it. That is the secret.",
+      "Then pick one sensible plan and run it for 8 to 12 weeks before judging it. No switching because a video said so. One cue at a time, one plan at a time, and you will be miles ahead of the people who are still researching."
+    ],
+    "more": {
+      "why": "Most fitness arguments are about small details. Consistency on the basics beats perfect details that you never stick with.",
+      "how": "Choose a plan with your sessions per week. Write it down. Mute fitness content for a month if it is making you second guess. Review at week 8.",
+      "beginner": "If you are brand new, any reasonable full body plan done three times a week with gradual progress will work. Your job is showing up, not finding the perfect plan.",
+      "mistake": "Spending more time researching than training. The best plan is the one you are actually doing."
+    },
+    "chips": [
+      "What is a 3-day week?",
+      "Process or outcome goals?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-009"
+    ]
+  },
+  {
+    "id": "sh-b-024",
+    "topic": "mindset",
+    "title": "Breaking the all-or-nothing mindset",
+    "keys": [
+      "all or nothing",
+      "all or nothing mindset",
+      "if i cant do the full workout i skip it",
+      "i either go hard or not at all",
+      "perfectionism working out",
+      "ruined my week so why bother",
+      "already missed monday so the week is ruined",
+      "start again monday",
+      "ill start again monday",
+      "perfect week or nothing",
+      "i always start over on monday",
+      "why do i always quit after one bad day"
+    ],
+    "match": "\\ball.or.nothing\\b|\\bperfectionis(m|t)\\b|\\b(start|starting) (again|over) (on )?monday\\b|\\b(week|day) is (ruined|wasted)\\b|\\bruined (my|the) (week|day)\\b",
+    "body": [
+      "All or nothing usually ends up as nothing, my friend. One missed Monday turns into 'the week is ruined, start again next Monday', and suddenly it is March. Let's kill that loop for good.",
+      "The fix is having options between all and nothing. Plan A is your full session. Plan B is 30 minutes: the main lift and two accessories. Plan C is 10 minutes: the warm-up and one exercise, or a brisk walk. Any of them counts. On a hectic day you are not choosing between perfect and skipping, you are choosing between A, B and C.",
+      "Same for the week. Missed Monday? Tuesday is a perfectly good day to train. There is no restart button, because there is nothing to restart. You just keep going."
+    ],
+    "more": {
+      "why": "Perfection is fragile. One slip breaks it. A plan with backup levels survives real life, so you stay consistent even when things go sideways.",
+      "how": "Write your Plan A, B and C for each session this week. When the day goes sideways, pick the best one you can finish. Log whichever one you did.",
+      "example": "Planned: a 60 minute lower body day. Reality: late meeting. Plan B: squats and lunges for 30 minutes. Week saved, streak alive.",
+      "mistake": "Thinking a short session is pointless. A 10 minute session keeps the habit alive, and the habit is what gets you results over a year."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What counts as a session?",
+      "What is never miss twice?",
+      "Missed a session, now what?"
+    ],
+    "related": [
+      "sh-b-025",
+      "sh-b-015"
+    ]
+  },
+  {
+    "id": "sh-b-025",
+    "topic": "mindset",
+    "title": "Guilt after skipping a workout",
+    "keys": [
+      "guilty for skipping the gym",
+      "i feel guilty for missing a workout",
+      "skipped the gym and feel bad",
+      "guilt after skipping",
+      "i skipped my workout",
+      "i missed my workout and feel terrible",
+      "feel bad about skipping",
+      "punish myself for skipping",
+      "skipped leg day",
+      "bailed on the gym",
+      "skipped training today"
+    ],
+    "match": "\\b(guilt|guilty|feel (bad|terrible|awful))\\b.*\\b(skip\\w*|miss\\w*|bail\\w*)\\b|\\b(skipped|bailed on) (my |the |a )?(workout|session|gym|training|leg day)\\b",
+    "body": [
+      "Okay, feel bad for exactly one sentence. Done? Great, because guilt does not lift anything. It just makes the next session feel heavier. A skipped workout is a data point, not a character flaw.",
+      "Ask one useful question: why did I skip? Too tired, ran out of time, forgot, did not want to? Each answer has a fix. Tired: shorter session or earlier bedtime. Time: train earlier or use your 30 minute version. Forgot: put it in your calendar with an alert. Did not want to: use the warm-up rule next time.",
+      "Then get the next session on the calendar, ideally within a day or two. And please do not punish yourself with a double session or extra cardio to make up for it. You do not owe the gym anything. You just show up next time."
+    ],
+    "more": {
+      "why": "Guilt makes training feel like a debt, which makes you avoid it more. Treating a skip as information keeps training something you want to come back to.",
+      "how": "Write the reason in your log or notes in one line. Pick the fix. Schedule the next session within 48 hours. Move on.",
+      "example": "Skipped Tuesday because work ran late. Fix: Thursday session moves to 6:30 am before work, 30 minutes. Next week Tuesday becomes a morning session too.",
+      "mistake": "Doubling up the next day to 'make it count'. It tends to leave you sore and more likely to skip again."
+    },
+    "reads": [
+      "sessions"
+    ],
+    "chips": [
+      "What is never miss twice?",
+      "What is the warm-up rule?",
+      "Motivation or discipline?"
+    ],
+    "related": [
+      "sh-b-024"
+    ]
+  }
+]

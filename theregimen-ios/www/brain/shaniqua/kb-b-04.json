@@ -1,0 +1,943 @@
+[
+  {
+    "id": "sh-b-076",
+    "topic": "music",
+    "title": "What to listen to while you train",
+    "keys": [
+      "what should i listen to",
+      "music for working out",
+      "workout music",
+      "gym music",
+      "best workout music",
+      "music for lifting",
+      "what music do you listen to at the gym",
+      "gym playlist ideas",
+      "best songs to work out to",
+      "lifting music",
+      "training music",
+      "workout songs",
+      "what to listen to at the gym"
+    ],
+    "match": "\\bwhat (should i|to|do you) listen to\\b|\\b(workout|gym|lifting|training|exercise) (music|songs|playlists?)\\b|\\bmusic for (working out|lifting|the gym|training|exercise)\\b|\\bbest (songs|music) (to|for) (work ?out|lift|train)\\b",
+    "body": [
+      "Oh, now we're talking. Music is my favorite piece of gym equipment. Upbeat music you enjoy can make hard work feel a bit easier and help you push longer, especially for steady effort like cardio and higher rep sets. The best genre is honestly the one that makes you want to move.",
+      "Build it around the session. For warm-ups, something mid tempo that wakes you up. For main lifts, songs with a big build and a heavy beat, the ones that make you stand up taller. For conditioning, a steady fast beat you can match. For the cool down, slow it all the way down so your heart rate follows.",
+      "Personal favorite trick: pick one 'power song' you only play for your hardest set of the day. Over time it becomes a signal to your brain that it is go time. Save it, protect it, do not waste it in the car."
+    ],
+    "more": {
+      "why": "Music you like can lift your mood, distract from discomfort, and help you keep a rhythm. The effect is strongest for moderate, repetitive work, and it is personal: your favorites beat any list.",
+      "how": "Make three short playlists: warm-up, main work, cool down. 10, 30 and 10 minutes. Update one song a week so they never get stale.",
+      "example": "Warm-up: feel good songs around 100 to 120 BPM. Main lifts: heavy, dramatic tracks. Finisher: fast and relentless. Cool down: chill and slow. Power song saved for the top set.",
+      "mistake": "Spending five minutes between every set skipping songs. Build the playlist before you arrive and let it run."
+    },
+    "chips": [
+      "What BPM is good for lifting?",
+      "How do I build a playlist?",
+      "Podcasts or music at the gym?"
+    ],
+    "related": [
+      "sh-b-077",
+      "sh-b-078"
+    ]
+  },
+  {
+    "id": "sh-b-077",
+    "topic": "music",
+    "title": "BPM for lifting, cardio and warm-ups",
+    "keys": [
+      "what bpm is good for lifting",
+      "bpm for running",
+      "best bpm for workouts",
+      "bpm for cardio",
+      "tempo music for running",
+      "beats per minute workout",
+      "what tempo music for exercise",
+      "bpm for spin",
+      "running cadence music",
+      "music tempo for hiit",
+      "bpm for walking",
+      "fast songs for running"
+    ],
+    "match": "\\bbpm\\b|\\bbeats per minute\\b|\\b(tempo|cadence) music\\b|\\bmusic (tempo|cadence)\\b",
+    "body": [
+      "BPM, beats per minute, is the speed of a song. You do not need to obsess, but matching tempo to effort is a fun trick. A rough guide: warm-ups and walking feel good around 100 to 120 BPM. Steady cardio and brisk work around 120 to 140. Hard intervals and running often feel great around 140 to 170, and many runners like songs that match their step rate.",
+      "For lifting, the beat matters less than the vibe. You are not moving to the rhythm on a heavy squat, so pick songs that make you feel strong and focused. Many people like heavier, slower tracks for big lifts and faster ones for circuits.",
+      "Want to sync your steps? Count your steps for 30 seconds while running and double it. That is your cadence. Find songs near that number, or at half of it, and your feet will lock in."
+    ],
+    "more": {
+      "why": "Moving in time with a beat can make rhythmic exercise feel smoother and a little easier for some people. For strength work, the emotional boost of the song matters more than the tempo.",
+      "how": "Search for playlists by BPM range, or use a music app that shows tempo. Sort your training playlists from slow to fast so the session builds naturally.",
+      "example": "Incline walk at 120 BPM, intervals at 160 BPM, cool down at 90 BPM. Heavy deadlifts with whatever slow, dramatic track makes you feel ten feet tall.",
+      "mistake": "Picking a song so fast that you try to lift to it. Heavy lifts need control on the way down, not a rush to keep up with the drummer."
+    },
+    "chips": [
+      "How do I build a playlist?",
+      "What should I listen to?"
+    ],
+    "related": [
+      "sh-b-076"
+    ]
+  },
+  {
+    "id": "sh-b-078",
+    "topic": "music",
+    "title": "Building a training playlist that actually works",
+    "keys": [
+      "how do i build a playlist",
+      "how to make a workout playlist",
+      "workout playlist",
+      "build a gym playlist",
+      "playlist for leg day",
+      "playlist order",
+      "how long should a workout playlist be",
+      "my playlist is boring",
+      "same songs every workout",
+      "playlist for heavy lifting",
+      "make a playlist for training",
+      "playlist tips"
+    ],
+    "match": "\\b(build|make|create|order|structure)( a| my)? (workout |gym |training |lifting )?playlists?\\b|\\bplaylist (for|order|tips|ideas)\\b|\\bmy playlist is (boring|stale|old)\\b|\\bsame songs every\\b",
+    "body": [
+      "Let's DJ your session! A great training playlist follows the shape of the workout: build, peak, release. About 60 minutes of music covers most sessions, and you can always shuffle the middle.",
+      "The recipe. First 10 minutes: feel good songs that make you want to move but do not burn you out. Next 30 to 40 minutes: your heavy hitters, songs with big energy and a drop, for the main lifts. Put your power song where your hardest set usually lands. Last 10 minutes: chill tracks for stretching and walking it out.",
+      "Keep it fresh by swapping two or three songs a week and retiring anything you skip twice. And have a backup playlist for those days when nothing sounds right. Songs that remind you of a win, a race, a big day, are gold. Put them in."
+    ],
+    "more": {
+      "why": "Music that rises with the session supports your effort level. Familiar songs with good memories can lift your mood and confidence before a hard set.",
+      "how": "Open a new playlist. Add 3 warm-up songs, 8 to 10 main work songs, 1 power song, 3 cool down songs. Download it so it works without signal. Update weekly.",
+      "example": "Leg day playlist: three upbeat warm-up songs, ten heavy ones for squats and lunges, a power song for the last squat set, then three slow ones for the cool down walk.",
+      "mistake": "Using the same playlist for a year. Songs lose their kick when you know every beat. Rotate a few in and out."
+    },
+    "chips": [
+      "What BPM is good for lifting?",
+      "Should I have a power song?",
+      "Podcasts or music at the gym?"
+    ],
+    "related": [
+      "sh-b-076",
+      "sh-b-079"
+    ]
+  },
+  {
+    "id": "sh-b-079",
+    "topic": "music",
+    "title": "Having a power song for your hardest set",
+    "keys": [
+      "should i have a power song",
+      "power song",
+      "pump up song",
+      "hype song",
+      "best pump up songs",
+      "song for my heaviest set",
+      "song before a max",
+      "walkout song",
+      "song to get hyped",
+      "anthem song for lifting",
+      "go to gym song"
+    ],
+    "match": "\\b(power|pump ?up|hype|walk ?out|anthem|go.?to) songs?\\b|\\bsongs? (for|before) (my |a )?(heaviest|hardest|top|max|big) (set|lift)\\b|\\bsong to get hyped\\b",
+    "body": [
+      "Yes, and I insist. A power song is one track you save only for the hardest moment of your session: the top set, the last interval, the test day. Because you only hear it when it is go time, your brain starts to link it with effort and focus. It becomes a switch.",
+      "Pick something that gives you goosebumps or makes you grin before the first beat drops. Lyrics that make you feel unstoppable help. Then protect it: no playing it in the car, while cooking, or in the background at work. It is a tool, not a background track.",
+      "Use it with a routine. Chalk or grip, cue word, power song starts, deep breath, go. Same order every time. After a few weeks the routine plus the song will flip you into game mode almost instantly."
+    ],
+    "more": {
+      "why": "Pairing a specific song with high effort builds a strong association over time. Keeping it rare keeps it potent.",
+      "how": "Choose one song. Use it only for your top set or hardest finisher, once per session. Put it at the right spot in the playlist, or line it up right before that set.",
+      "example": "Your power song kicks in as you walk up to your last set of squats. Hands on the bar, big breath, cue word, unrack. By the second rep you are flying.",
+      "mistake": "Playing it ten times a day until it is just a song again. Keep it locked in the vault."
+    },
+    "chips": [
+      "How do I get in the zone?",
+      "Best mantras for hard sets?"
+    ],
+    "related": [
+      "sh-b-078",
+      "sh-b-082"
+    ]
+  },
+  {
+    "id": "sh-b-080",
+    "topic": "music",
+    "title": "Podcasts, audiobooks or music during training",
+    "keys": [
+      "podcasts or music at the gym",
+      "podcast while working out",
+      "audiobook at the gym",
+      "should i listen to podcasts while lifting",
+      "podcasts for cardio",
+      "music vs podcast workout",
+      "listen to a book while working out",
+      "is it bad to listen to podcasts at the gym",
+      "podcast during treadmill",
+      "what to listen to on long cardio"
+    ],
+    "match": "\\b(podcasts?|audiobooks?|audio ?books?)\\b",
+    "body": [
+      "Both have a place, and it depends on the job. Music is better for intensity: heavy sets, intervals, anything where you need fire. Podcasts and audiobooks shine for long, steady stuff like incline walking, easy bike rides and zone 2 cardio, where time can drag and a good story keeps you going.",
+      "For lifting, many people find talk audio makes them rest too long and lose focus. If you love podcasts, try a split: music for the main lifts, podcast for the accessories or the cardio at the end. Or save a podcast episode you really want to hear only for the treadmill, so you look forward to it.",
+      "That last trick has a name: temptation bundling. Pair something you love with something you should do, and keep the fun thing exclusive to training. Suddenly the treadmill is where the cliffhanger lives."
+    ],
+    "more": {
+      "why": "Talk audio holds attention well during easy, long efforts but can pull focus from hard sets. Music tends to support higher intensity work better.",
+      "how": "Pick one show or book you only allow during cardio. Use music for lifting. If you notice your rest periods creeping up with talk audio, switch to music for that part.",
+      "example": "Lift with your heavy playlist for 35 minutes, then 25 minutes of incline walking with the next episode of the show you are hooked on.",
+      "mistake": "Rewinding the same podcast segment five times because you missed it during a set. Save talk for the steady stuff."
+    },
+    "chips": [
+      "What should I listen to?",
+      "Rewards for training wins?"
+    ],
+    "related": [
+      "sh-b-076"
+    ]
+  },
+  {
+    "id": "sh-b-081",
+    "topic": "music",
+    "title": "Forgot your headphones or training without music",
+    "keys": [
+      "forgot my headphones",
+      "headphones died",
+      "no music at the gym",
+      "training without music",
+      "can i work out without music",
+      "lifting without music",
+      "working out in silence",
+      "earbuds died mid workout",
+      "gym music is terrible",
+      "the gym music sucks",
+      "forgot earbuds"
+    ],
+    "match": "\\b(forgot|left|lost) (my )?(head ?phones|ear ?buds|airpods)\\b|\\b(head ?phones|ear ?buds|airpods) (died|are dead|broke)\\b|\\b(training|lifting|working out|work ?out) (without music|in silence)\\b|\\bno music at the gym\\b|\\bgym music (is terrible|sucks|is bad)\\b",
+    "body": [
+      "Disaster! Okay, not really. Training without music is a great reminder that the work is the work. Your legs do not know there is no soundtrack. Some of my best track sessions were silent ones where all I could hear was my own breathing and my spikes on the ground.",
+      "Make it work for you. Use the quiet to really feel each rep: where the weight is in your feet, how your breath sits before each lift, your bracing. Count your reps out loud in your head. Use short cue words to stay locked in. Keep rests honest with a timer since there is no playlist marking time.",
+      "And for next time: stash a cheap pair of backup earbuds in your gym bag or car, and charge your headphones the night before along with packing your bag."
+    ],
+    "more": {
+      "why": "Silence takes away a distraction and can sharpen your focus on technique and breathing. It is also good practice for days when conditions are not perfect.",
+      "how": "Pick one cue per exercise. Breathe in for a count of four before each rep on heavy sets. Use a rest timer. Treat it like a technique session.",
+      "example": "Headphones died mid session. You finish your rows counting reps out loud in your head and noticing your elbows. Your form actually looks better on video.",
+      "mistake": "Going home because of no music. The music was always a bonus, never the reason."
+    },
+    "chips": [
+      "How do I get in the zone?",
+      "Best mantras for hard sets?"
+    ],
+    "related": [
+      "sh-b-076"
+    ]
+  },
+  {
+    "id": "sh-b-082",
+    "topic": "mindset",
+    "title": "Getting in the zone before you train",
+    "keys": [
+      "how do i get in the zone",
+      "get in the zone",
+      "how to focus at the gym",
+      "cant focus during workout",
+      "distracted at the gym",
+      "mind wanders during workouts",
+      "how to get focused before lifting",
+      "flow state workout",
+      "how to lock in at the gym",
+      "how to get in the mood to work out",
+      "concentration while lifting",
+      "mentally prepare for a workout"
+    ],
+    "match": "\\b(in|into) the zone\\b|\\b(can'?t|cannot|how to|how do i) (focus|concentrate|lock in)\\b|\\b(distracted|unfocused) (at|in|during) (the gym|my workout|training)\\b|\\bflow state\\b|\\bmentally prepare\\b|\\bmind wanders\\b",
+    "body": [
+      "Getting in the zone is a skill, and like every skill, you can practice it. The zone is just full attention on the task in front of you, and the fastest way there is a short, repeatable routine that tells your brain 'we are training now'.",
+      "Try a three step switch. One: transition. In the car or the locker room, phone on do not disturb, plan open, headphones in. Two: warm-up with intent. Pay attention to how each warm-up set feels instead of zoning out. Three: a pre-set ritual before every work set, the same every time, like grip, breath, cue word, go.",
+      "Between sets, keep your attention close. Check your last set in your log, think about the one cue for the next one, breathe. Do not open your email between sets. Your brain cannot be in the inbox and on the platform at the same time."
+    ],
+    "more": {
+      "why": "A consistent routine reduces distractions and gives your attention a clear target. Over time the routine itself triggers focus.",
+      "how": "Write your 3 step switch on a note. Do it the same way every session for two weeks. Add a power song or cue word as your final trigger before the top set.",
+      "example": "Park the car, do not disturb on, playlist starts. Walk in, 5 minutes on the bike, then warm-up sets where you notice every rep. Before each work set: grip, breath, 'drive', go.",
+      "mistake": "Trying to force focus by staring at the wall for two minutes. Focus comes from doing a routine, not from willing it."
+    },
+    "chips": [
+      "Should I have a power song?",
+      "Best mantras for hard sets?",
+      "How do I calm my nerves?"
+    ],
+    "related": [
+      "sh-b-083",
+      "sh-b-084"
+    ]
+  },
+  {
+    "id": "sh-b-083",
+    "topic": "nerves",
+    "title": "Nerves before a hard session",
+    "keys": [
+      "how do i calm my nerves",
+      "nervous before a workout",
+      "nervous before training",
+      "anxious before a hard workout",
+      "nerves before lifting heavy",
+      "butterflies before working out",
+      "scared of a hard workout",
+      "dread hard sessions",
+      "nervous about leg day",
+      "anxiety before training",
+      "pre workout nerves",
+      "scared of heavy weights"
+    ],
+    "match": "\\b(nervous|anxious|anxiety|nerves|butterflies|scared|dread\\w*)\\b.*\\b(workout|training|session|lift\\w*|leg day|heavy|hard)\\b|\\bcalm my nerves\\b",
+    "body": [
+      "Nerves before a hard session mean you care about it. That's not a bad sign, it's fuel that has not found a job yet. The racing heart and the jitters are the same body response as excitement. Lots of athletes literally tell themselves 'I'm excited' instead of 'I'm nervous', and it helps them use the energy instead of fighting it.",
+      "Give the nerves a plan. Know exactly what the session is before you start, write it down, and focus only on the next set, not the whole mountain. A longer warm-up helps a lot: each warm-up set is proof that you can do this.",
+      "If the jitters are big, slow your breathing: in through your nose for about four counts, out through your mouth for about six, for a minute or two. Longer exhales help many people feel calmer. Then go do the first set. Nerves usually shrink the moment you start moving."
+    ],
+    "more": {
+      "why": "Nervous energy and excitement share the same physical signs. Reframing and breathing help you use that energy instead of letting it spiral.",
+      "how": "Before the session: write the plan. In the warm-up: one extra set on the main lift. Before the hardest set: 5 slow breaths with long exhales, cue word, go.",
+      "beginner": "If you get nervous before every session, start with sessions you know you can finish. Confidence comes from a long list of finished sessions.",
+      "mistake": "Waiting until the nerves are gone to start. They usually leave after the first set, not before it."
+    },
+    "chips": [
+      "How do I get in the zone?",
+      "Nervous before testing a max",
+      "Breathing to calm down"
+    ],
+    "related": [
+      "sh-b-082",
+      "sh-b-087"
+    ]
+  },
+  {
+    "id": "sh-b-084",
+    "topic": "self-talk",
+    "title": "Mantras and cue words for hard sets",
+    "keys": [
+      "best mantras for hard sets",
+      "workout mantras",
+      "what to say to yourself during a hard set",
+      "cue words for lifting",
+      "lifting mantra",
+      "motivational phrases for the gym",
+      "what do you say to yourself mid set",
+      "words to push through",
+      "mantra for running",
+      "gym quotes",
+      "self talk cues"
+    ],
+    "match": "\\bmantras?\\b|\\bcue words?\\b|\\bwhat (do|should) (you|i) say to (yourself|myself)\\b|\\bmotivational (phrases|quotes)\\b|\\bgym quotes?\\b|\\bself.?talk cues?\\b",
+    "body": [
+      "Mantras work best when they are short, specific and something you actually believe. The two flavors I use: instruction cues that tell your body what to do, and fuel cues that tell your brain who you are. One of each per lift is plenty.",
+      "Instruction cues: 'Drive the floor' for squats and leg press. 'Push away' for presses and push-ups. 'Elbows back' for rows. 'Chest up' for deadlifts. 'Fast hands' for intervals. Fuel cues: 'one more clean one', 'strong and smooth', 'I've done this before', 'this is the work'. My favorite from my 400 days is 'hurt politely', the last 100 meters hurts, you accept it, and you keep your form.",
+      "Say the instruction cue right before you start and at the hardest rep. Save the fuel cue for the last few reps. Keep it to four words or fewer so it fits in one breath."
+    ],
+    "more": {
+      "why": "Short cues give your attention a target at the moment doubt shows up. Instruction cues keep technique together when you are tired.",
+      "how": "Write one instruction cue and one fuel cue for each main lift in your plan. Read them before your top set. Use the same words for weeks so they become automatic.",
+      "example": "Last set of push-ups: before you start, 'tight body'. Rep 8 when it gets hard, 'push the floor away'. Last two reps, 'one more clean one'.",
+      "mistake": "Using a long motivational speech in your head mid set. You will run out of air before you run out of words. Keep it tiny."
+    },
+    "chips": [
+      "Negative self-talk mid set",
+      "How do I get in the zone?",
+      "Should I have a power song?"
+    ],
+    "related": [
+      "sh-b-082"
+    ]
+  },
+  {
+    "id": "sh-b-085",
+    "topic": "pre-session",
+    "title": "Building a pre-session ritual",
+    "keys": [
+      "pre workout routine",
+      "pre-workout ritual",
+      "pre session routine",
+      "what to do before a workout",
+      "routine before the gym",
+      "before workout ritual",
+      "how to prepare for a workout",
+      "what do you do before training",
+      "gym ritual",
+      "pre lift routine",
+      "what should i do before i lift"
+    ],
+    "match": "\\bpre.?(workout|session|lift|training|gym) (routine|ritual)\\b|\\b(routine|ritual) before (the gym|a workout|training|lifting)\\b|\\bwhat (should i|to|do you) do before (a |my |the )?(workout|training|lift|session|gym)\\b|\\bgym ritual\\b|\\bprepare for a workout\\b",
+    "body": [
+      "Rituals are how athletes turn 'I guess I'll train' into 'let's go'. A good pre-session ritual is short, the same every time, and moves you from your day into training mode. Twenty minutes, start to finish, is plenty.",
+      "Here is a template. 60 to 90 minutes before: a normal meal or snack you know sits well, and water. 15 minutes before: change, bag check, phone to do not disturb, plan open. On arrival: playlist on, a few slow breaths, quick look at what you did last time so you know what to beat. Then a warm-up with your first exercise.",
+      "Make it yours. Same shoes, same water bottle, same first song, same handshake with the front desk. It sounds silly, but familiar routines calm nerves and signal focus. Just keep it flexible enough that a missing piece does not cancel the session."
+    ],
+    "more": {
+      "why": "A repeated routine reduces decisions, settles nerves, and becomes a trigger for focus. The familiarity is what makes it work.",
+      "how": "Write your ritual in five steps or fewer. Do it before every session for two weeks. Keep the steps that help, drop the rest.",
+      "example": "Your ritual: banana and water at 5 pm, change at work at 5:45, do not disturb on, playlist starts in the car, review last session in the parking lot, walk in ready.",
+      "mistake": "Making the ritual so long or specific that missing one step throws off the whole day. It is a launch sequence, not a superstition."
+    },
+    "chips": [
+      "How do I get in the zone?",
+      "Do I need pre-workout to train hard?",
+      "How do I calm my nerves?"
+    ],
+    "related": [
+      "sh-b-082",
+      "sh-b-086"
+    ]
+  },
+  {
+    "id": "sh-b-086",
+    "topic": "pre-session",
+    "title": "Getting energized without a pre-workout drink",
+    "keys": [
+      "do i need pre-workout to train hard",
+      "do i need pre workout",
+      "pre workout alternatives",
+      "natural pre workout",
+      "how to get energy before a workout",
+      "no energy before the gym",
+      "train without pre workout",
+      "how to get pumped up without pre workout",
+      "pre workout makes me jittery",
+      "energy boost before training",
+      "how to feel energized for the gym"
+    ],
+    "match": "\\b(need|without|instead of|alternatives? to|natural) (a )?pre.?workout\\b|\\bpre.?workout (alternatives?|drink|powder)\\b|\\b(get|feel) (energy|energized|pumped up) (before|for) (a |my |the )?(workout|gym|training|session)\\b|\\bno energy before\\b",
+    "body": [
+      "Nope, you do not need anything out of a tub to have a great session. Plenty of people train hard for years with nothing but good habits, and honestly, the habits are where most of the energy comes from anyway. Food and drink details are Nova's lane, so ask her about what to eat; I'll handle the rest.",
+      "My energy stack: sleep first, because 7 to 9 hours beats anything you can drink. A meal you usually eat that sits well, an hour or two before. Water through the day. A short walk or some daylight if you have been sitting all afternoon. Then the fun part: your playlist, your ritual, and a warm-up that builds from easy to sharp.",
+      "And the warm-up is the secret weapon. Ten minutes of easy cardio and ramping sets raises your body temperature and heart rate and gets your brain online. Most 'no energy' feelings are gone by the third warm-up set."
+    ],
+    "more": {
+      "why": "Energy for training comes mostly from sleep, food, hydration and a proper warm-up. Those basics work every day and do not wear off halfway through your session.",
+      "how": "Tonight: bed on time. Tomorrow: a familiar meal 1 to 2 hours before. Water. Walk for 5 minutes before you drive to the gym. Playlist on. Warm up in steps.",
+      "short_on_time": "Five minute wake-up: 2 minutes of easy cardio, 1 minute of arm circles and leg swings, 2 quick warm-up sets of your first exercise. Then go.",
+      "mistake": "Blaming low energy on a missing product when the real issue is a five hour night of sleep. Fix the sleep and see what happens."
+    },
+    "chips": [
+      "Too tired to train today?",
+      "Build a pre-session ritual",
+      "What should I listen to?"
+    ],
+    "related": [
+      "sh-b-085"
+    ]
+  },
+  {
+    "id": "sh-b-087",
+    "topic": "nerves",
+    "title": "Breathing to calm down or fire up",
+    "keys": [
+      "breathing to calm down",
+      "breathing before lifting",
+      "box breathing",
+      "breathing exercise before workout",
+      "how to breathe to calm nerves",
+      "breath work for athletes",
+      "calm breathing before a set",
+      "how to slow my heart rate before a lift",
+      "breathing to get pumped up",
+      "breathing techniques gym",
+      "how to relax before a big lift"
+    ],
+    "match": "\\bbox breath\\w*\\b|\\bbreath ?work\\b|\\bbreathing (to|before|techniques?|exercises?)\\b|\\b(calm|relax|slow) (down|my heart rate)? ?before (a |the |my )?(big |heavy )?(lift|set|session)\\b|\\bhow to breathe to\\b",
+    "body": [
+      "Your breath is the volume knob for your nervous system. Want to calm down? Make the exhale longer than the inhale. Want to fire up? A few quicker, sharper breaths. Same lungs, different settings.",
+      "To calm down before a big session or between nervous sets, try box breathing: in for four counts, hold for four, out for four, hold for four, for four to six rounds. Or simpler: in through the nose for four, out through the mouth for six to eight. Most people feel calmer within a minute or two.",
+      "To fire up right before a heavy set, take three or four quick, strong breaths, shake out your hands, then one big belly breath and brace. Note: the brace for a heavy lift is a different skill, a big breath held against a tight midsection, and Titan or Dakota can coach you through that one."
+    ],
+    "more": {
+      "why": "Slow breathing with longer exhales tends to calm the body down. Faster breathing raises alertness. Choosing on purpose helps you match your arousal level to the task.",
+      "how": "Calm: four rounds of box breathing, or 6 slow breaths with long exhales. Fire up: 3 or 4 quick breaths, a shake, then your normal set setup.",
+      "example": "Before testing a new squat weight, you sit on a bench and do four rounds of box breathing during your rest. Walk up, three sharp breaths, big belly breath, brace, go.",
+      "mistake": "Breathing fast and shallow for a long time before a set. It can make you feel lightheaded. Keep the hype breaths to just a few. If you feel dizzy, stop and sit."
+    },
+    "chips": [
+      "How do I calm my nerves?",
+      "How do I get in the zone?"
+    ],
+    "related": [
+      "sh-b-083"
+    ]
+  },
+  {
+    "id": "sh-b-088",
+    "topic": "nerves",
+    "title": "Nerves before testing a max or a big attempt",
+    "keys": [
+      "nervous before testing a max",
+      "nervous about a pr attempt",
+      "scared to test my max",
+      "nervous for my one rep max",
+      "test day nerves",
+      "anxious about max day",
+      "what if i fail my pr attempt",
+      "how to mentally prepare for a max",
+      "freeze up on heavy lifts",
+      "choke on heavy attempts",
+      "psych up for a pr"
+    ],
+    "match": "\\b(nervous|scared|anxious|afraid|psych(ed)? up|freeze|choke)\\b.*\\b(max|pr|personal record|one rep|1 ?rm|attempt|test day)\\b|\\b(max|test) day nerves\\b|\\bmentally prepare for a (max|pr)\\b",
+    "body": [
+      "Big attempt day! Love it. Nerves here are completely normal, they mean the number matters to you. Titan is your coach for how to pick the weights and run the warm-ups, so lean on him for the numbers. I'm here for the head game.",
+      "The head game in three parts. Before: decide your plan the night before, including what you will do if a lift goes slower than expected. No making it up under pressure. During warm-ups: treat each warm-up single like the real thing, same setup, same breath, same cue. By the time you get to the big one, it is just one more rep you have practiced fifty times.",
+      "At the bar: keep it simple. One cue, your power song, breathe, go. If it does not go up, that is information, not failure. You still learned exactly where you are, and that is a win."
+    ],
+    "more": {
+      "why": "Pre-deciding the plan removes stressful choices in the moment. Repeating the same routine on every warm-up makes the big attempt feel familiar.",
+      "how": "Night before: write the plan and backup. Day of: normal meal, ritual, warm-ups with full focus. Before the attempt: breath, cue, go. After: log it either way.",
+      "example": "Plan: if the 185 lb warm-up feels fast, try 205. If it feels slow, try 195. You get to 185, it is slow, you take 195 and nail it. A smart PR.",
+      "mistake": "Changing the plan on the fly because you feel amazing and jumping way past what you planned. That is how a good day ends in a miss."
+    },
+    "chips": [
+      "How do I celebrate a PR?",
+      "Breathing to calm down",
+      "Should I have a power song?"
+    ],
+    "related": [
+      "sh-b-083",
+      "sh-b-087"
+    ]
+  },
+  {
+    "id": "sh-b-089",
+    "topic": "mindset",
+    "title": "Visualization before a lift or a race",
+    "keys": [
+      "visualization",
+      "visualize before lifting",
+      "mental rehearsal",
+      "does visualization work",
+      "imagine the lift",
+      "picture myself lifting",
+      "visualize my run",
+      "mental imagery sports",
+      "how to visualize before a race",
+      "see the lift in my head"
+    ],
+    "match": "\\bvisuali[sz]\\w*\\b|\\bmental (rehearsal|imagery)\\b|\\b(imagine|picture) (the lift|myself (lifting|running|finishing))\\b|\\bsee the lift\\b",
+    "body": [
+      "Visualization is just practicing in your head, and plenty of athletes use it. It will not lift the weight for you, but it can help you feel more prepared and confident, especially for a big lift, a race or a skill you are still learning.",
+      "Make it vivid and specific. Sit for one or two minutes before the set or the night before. See the setup from your own eyes: your hands on the bar, your feet in place, the breath, the brace. Feel the first rep, the hard part, and the finish. Picture it going well, and also picture handling a tough moment calmly, like a slow rep you grind through with good form.",
+      "Then keep it short. One clean mental rep right before your set is enough. More than that and you are just standing around getting cold."
+    ],
+    "more": {
+      "why": "Mentally rehearsing a movement can support focus and confidence, and it helps you plan how you will respond under pressure. It works alongside real practice, never instead of it.",
+      "how": "Night before: 2 to 3 minutes picturing the full session going well. Right before a big set: one short, detailed mental rep. Then do it for real.",
+      "example": "Before your 5K, you picture the start, the urge to sprint, holding back, the tough middle, and the kick in the last 400 meters. On race day, it all feels familiar.",
+      "mistake": "Only picturing perfection. Rehearse handling the hard moment too, so you have a plan when it shows up."
+    },
+    "chips": [
+      "How do I get in the zone?",
+      "Nervous before testing a max"
+    ],
+    "related": [
+      "sh-b-082"
+    ]
+  },
+  {
+    "id": "sh-b-090",
+    "topic": "pre-session",
+    "title": "Hype or calm: matching your energy to the session",
+    "keys": [
+      "should i be hyped or calm before lifting",
+      "too hyped at the gym",
+      "too amped before training",
+      "how hyped should i be",
+      "calm or aggressive lifting",
+      "getting too psyched up",
+      "overexcited before a workout",
+      "energy level before training",
+      "do i need to be angry to lift heavy",
+      "how to dial down before a workout"
+    ],
+    "match": "\\b(hyped|amped|psyched|pumped) (up )?(or|vs) (calm|chill)\\b|\\btoo (hyped|amped|psyched|pumped|excited)\\b|\\bangry to lift\\b|\\bhow hyped\\b|\\bdial (it )?down\\b",
+    "body": [
+      "Great question, because more hype is not always better. Every type of work has a sweet spot. Heavy, short efforts like a big squat or a sprint like higher energy. Skill work, technique practice and long steady efforts go better with a calm, focused head. Too much hype on a technical lift and you rush the setup and miss the groove.",
+      "So match the dial. For your heaviest set: power song, a few sharp breaths, a fuel cue, go. For warm-ups, technique work and accessories: calm and focused, normal breathing, one instruction cue. For long cardio: relaxed, steady, maybe a podcast.",
+      "If you find yourself screaming before every set of curls, you are spending your energy on the wrong thing. Save the hype for the moment that needs it, and it will hit way harder."
+    ],
+    "more": {
+      "why": "Performance tends to be best at an energy level that fits the task. Very high arousal can help short, max efforts but can hurt precision and pacing.",
+      "how": "Label each part of your session: calm, focused or fired up. Pick music and breathing to match. Use your fired up switch only once or twice a session.",
+      "example": "Warm-ups calm. Main squat sets focused. Top set fired up with your power song. Accessories focused. Cool down calm. Hype where it counts.",
+      "mistake": "Getting fully amped in the car and burning out by the second exercise. Build energy through the warm-up instead."
+    },
+    "chips": [
+      "Should I have a power song?",
+      "Breathing to calm down"
+    ],
+    "related": [
+      "sh-b-087",
+      "sh-b-079"
+    ]
+  },
+  {
+    "id": "sh-b-091",
+    "topic": "music",
+    "title": "Music for cardio, intervals and long steady sessions",
+    "keys": [
+      "music for running",
+      "music for cardio",
+      "running playlist",
+      "playlist for intervals",
+      "music for hiit",
+      "songs for the treadmill",
+      "music for the stair climber",
+      "spin class music",
+      "music for zone 2",
+      "playlist for long runs",
+      "music for rowing",
+      "treadmill playlist"
+    ],
+    "match": "\\b(music|songs?|playlists?) (for|on) (running|runs|cardio|intervals|hiit|the treadmill|the stair ?(climber|master)|spin|zone 2|long runs|rowing|the bike)\\b|\\b(running|cardio|treadmill|interval|hiit|spin|rowing) (music|playlists?|songs)\\b",
+    "body": [
+      "Cardio is where music really earns its keep. For long steady work, choose a playlist that sits at a steady tempo so you settle into a rhythm, around 120 to 140 BPM for walking and easy cycling. For intervals, plan your hardest songs to land on the work periods and calmer songs on the recoveries.",
+      "Intervals trick: if your work periods are about the length of a chorus, the drop can be your start signal. Some people build playlists where every second song is the hard one, so the music runs the timer. For very long steady sessions, mix in a podcast or audiobook after the first 20 minutes to keep your head in it.",
+      "Safety first outdoors: keep the volume low enough or use one earbud so you can hear cars, bikes and people. Your best song is not worth missing a car horn."
+    ],
+    "more": {
+      "why": "Steady tempo music can help you hold an even pace, and high energy tracks can help on hard intervals. Pairing the music with the plan makes the session feel more organized.",
+      "how": "Steady session: one playlist with similar tempos. Intervals: alternate a hard song and an easy song. Long session: music to start, then talk audio once you settle in.",
+      "example": "Rowing intervals: 8 rounds of one fast song hard, one slow song easy. The playlist is literally your workout.",
+      "mistake": "Running outside with noise canceling on full blast. Keep awareness on, especially near traffic."
+    },
+    "chips": [
+      "What BPM is good for lifting?",
+      "Podcasts or music at the gym?"
+    ],
+    "related": [
+      "sh-b-077",
+      "sh-b-080"
+    ]
+  },
+  {
+    "id": "sh-b-092",
+    "topic": "mindset",
+    "title": "Staying focused between sets",
+    "keys": [
+      "what to do between sets",
+      "staying focused between sets",
+      "how to use rest periods",
+      "bored between sets",
+      "what do you think about between sets",
+      "how to stay locked in during rest",
+      "mind between sets",
+      "between sets routine",
+      "rest period focus",
+      "what should i do during rest"
+    ],
+    "match": "\\b(what (to|should i) do|focus(ed)?|bored|think about|routine|mind) (between|during) (sets|rest( periods?)?)\\b|\\brest periods? focus\\b|\\bhow to use (my )?rest periods?\\b",
+    "body": [
+      "Rest periods are part of the set, not a phone break. Use them like a pit crew. First 20 seconds: breathe, let your heart rate come down, sip water. Next bit: log what you just did and note one thing, like 'last rep slowed' or 'grip slipped'. Last 20 to 30 seconds: pick your cue for the next set and get set up.",
+      "Stay close to your station so you do not drift. Light movement helps, like walking a few steps or shaking out your arms, but skip anything that tires the muscles you are about to use. Keep a rest timer running so you do not accidentally rest for six minutes because of a funny video.",
+      "Typical rests: about 1 to 2 minutes for most accessory work, and 2 to 3 minutes or more for heavy main lifts. When the timer beeps, your next set starts. Easy rule, big difference."
+    ],
+    "more": {
+      "why": "Rest lets you recover enough to perform the next set well. Using it on purpose keeps your focus and keeps the session moving.",
+      "how": "Start a timer. Breathe and sip. Log the set. Choose one cue. Stand up and set up when the timer has about 15 seconds left.",
+      "example": "Bench set done. Timer at 2:30. Breathe for 20 seconds, log 8 reps at 115 lb, note 'bar drifted', cue 'elbows tucked', set up at 2:15, press at 2:30.",
+      "mistake": "Scrolling during rest and starting the next set distracted. Your brain needs a few seconds to get back to the bar."
+    },
+    "chips": [
+      "Phone use at the gym?",
+      "How do I get in the zone?"
+    ],
+    "related": [
+      "sh-b-082"
+    ]
+  },
+  {
+    "id": "sh-b-093",
+    "topic": "pre-session",
+    "title": "The hours before an evening session",
+    "keys": [
+      "what to do before an evening workout",
+      "day of a hard workout",
+      "how to prepare during the day for an evening workout",
+      "how to save energy for the gym",
+      "workday before the gym",
+      "prepare for a workout after work",
+      "what should i do before a hard training day",
+      "training day routine",
+      "game day routine for the gym",
+      "workout day prep"
+    ],
+    "match": "\\b(day of|before|prepare for) (a |an |my )?(hard |big |evening )?(workout|session|training day)\\b.*\\b(day|work|evening)\\b|\\b(training|workout|game) day (routine|prep)\\b|\\bsave energy for the gym\\b|\\bworkday before the gym\\b",
+    "body": [
+      "A great evening session starts at lunch. Here is how to set yourself up during the day without overthinking it. Eat normal meals, nothing heavy or brand new in the two hours before. Ask Nova if you want help with what to eat. Drink water across the day so you are not trying to catch up at 5 pm.",
+      "Protect your energy a little. Get up and walk every hour or so if you sit at a desk, because stiff hips at 6 pm are a real thing. If it is a big day, take a 10 minute walk outside at lunch to shake off the desk. Have your bag in the car and your plan open on your phone.",
+      "Last 20 minutes before you leave work: start your pre-session ritual. Change, music on, do not disturb. If work wants to grab you on the way out, that is what your calendar block is for."
+    ],
+    "more": {
+      "why": "Energy, hydration and stiffness in the evening depend on choices you make during the day. Small preparations make the session easier to start and better once you do.",
+      "how": "Morning: pack the bag. Midday: normal lunch, water. Afternoon: a couple of short walks. 20 minutes before: change and start the ritual. Leave on time.",
+      "example": "Lunch at noon, an apple at 3:30, two short walks around the office, change at 5:30, music on, at the gym by 5:50. Feels way better than rushing in starving and stiff.",
+      "mistake": "Skipping lunch on a busy day and showing up to train totally empty. Low fuel usually means a low quality session."
+    },
+    "chips": [
+      "Build a pre-session ritual",
+      "Morning or evening workouts?",
+      "Too tired to train today?"
+    ],
+    "related": [
+      "sh-b-085"
+    ]
+  },
+  {
+    "id": "sh-b-094",
+    "topic": "pre-session",
+    "title": "Lucky rituals and gym superstitions",
+    "keys": [
+      "lucky socks",
+      "gym superstitions",
+      "lucky shirt for lifting",
+      "superstitious about training",
+      "lucky rituals",
+      "are rituals silly",
+      "athlete superstitions",
+      "do you have a lucky charm",
+      "same shoes every workout",
+      "need my routine to lift well"
+    ],
+    "match": "\\blucky (socks|shirt|charm|rituals?|shoes)\\b|\\bsuperstiti\\w*\\b|\\bare rituals silly\\b",
+    "body": [
+      "Oh, I am deeply in favor of lucky socks. Athletes everywhere have little rituals, and they are not silly if they help you feel ready. A familiar ritual can settle nerves and tell your brain it's showtime. On the track I had a hair tie that went on my left wrist before every 400. Did it make me faster? Probably not. Did I run better feeling ready? Absolutely.",
+      "The one rule: your ritual should help you, never control you. If your lucky shirt is in the wash, you still train. If your favorite bench is taken, you still bench. Keep a backup version of the ritual that works anywhere: three breaths, your cue word, your power song.",
+      "So yes, wear the socks. Tap the bar twice. Just know the real luck is all the sessions you already put in."
+    ],
+    "more": {
+      "why": "Rituals give a sense of control and familiarity, which can calm nerves before effort. Problems start only when missing the ritual causes stress.",
+      "how": "Keep one portable piece: a breath pattern, a cue word or a song. Use the fun extras when you have them, and skip them without worry when you do not.",
+      "example": "Lucky shirt on testing day, but it is in the laundry. You do your three breaths and your cue word, and hit the lift anyway. Proof that the luck was you all along.",
+      "mistake": "Canceling or doubting a session because a lucky item is missing. Your training is not stored in a pair of socks."
+    },
+    "chips": [
+      "Build a pre-session ritual",
+      "Should I have a power song?"
+    ],
+    "related": [
+      "sh-b-085"
+    ]
+  },
+  {
+    "id": "sh-b-095",
+    "topic": "post-session",
+    "title": "A closing ritual after you train",
+    "keys": [
+      "what to do after a workout",
+      "post workout routine",
+      "after the gym routine",
+      "how to end a workout",
+      "cool down routine mentally",
+      "post session ritual",
+      "after training ritual",
+      "finish my session strong",
+      "what do you do after training",
+      "how to wrap up a workout"
+    ],
+    "match": "\\b(post|after)[ -]?(workout|session|training|gym) (routine|ritual)\\b|\\bwhat (to|should i|do you) do after (a |my |the )?(workout|training|session|gym)\\b|\\bhow to (end|wrap up|finish) (a |my )?(workout|session)\\b",
+    "body": [
+      "A closing ritual turns a good session into a habit you crave. Your brain remembers how things end, so end it well. Five minutes is all it takes.",
+      "Mine goes like this. Two to five minutes of easy walking or cycling to bring your heart rate down, plus a couple of stretches for whatever felt tight. Log the session with one note. Name one win, out loud or in your notes. Book your next session if it is not already in the calendar. Then refuel with a meal that has some protein in the next couple of hours; Nova can help you with the plate.",
+      "That is it. Cool down, log, win, book, refuel. Leave feeling like you finished something, because you did."
+    ],
+    "more": {
+      "why": "A short cool down helps you feel better leaving the gym. Logging and naming a win reinforce the habit and make progress visible.",
+      "how": "Set a 5 minute timer after your last set: 2 minutes easy cardio, 2 minutes stretching, 1 minute to log, name a win and check the calendar.",
+      "example": "Last set done. Easy bike for 2 minutes. Hip and chest stretch. Log it: 'squats felt fast'. Win: 'all sets at 135'. Next session: Thursday 6 pm, booked.",
+      "mistake": "Grabbing your phone the second the last rep ends and walking out without logging. Next week you will not remember what you did."
+    },
+    "chips": [
+      "What are small wins?",
+      "How do I celebrate a PR?",
+      "How do I review my week?"
+    ],
+    "related": [
+      "sh-b-050"
+    ]
+  },
+  {
+    "id": "sh-b-096",
+    "topic": "music",
+    "title": "Training to the gym's music or a class soundtrack",
+    "keys": [
+      "i hate the gym music",
+      "gym plays bad music",
+      "should i ask the gym to change the music",
+      "music too loud at the gym",
+      "gym music too loud",
+      "class music too loud",
+      "headphones over gym music",
+      "gym speakers too loud",
+      "can i request songs at the gym"
+    ],
+    "match": "\\b(hate|bad|annoying) (the )?gym music\\b|\\bgym plays bad music\\b|\\b(gym|class) music (is )?too loud\\b|\\bmusic too loud at the gym\\b|\\bgym speakers\\b|\\brequest songs\\b",
+    "body": [
+      "Ah, the gym's playlist. Sometimes it slaps, sometimes it is a mystery. If you do not love it, headphones solve it for most people. Over-ear or noise canceling ones can make a loud floor feel a lot calmer.",
+      "If the volume itself is a problem, like it is so loud you cannot hear a spotter or it gives you a headache, it is completely fair to ask the front desk politely if it can be turned down a bit. Many gyms also take song requests or feedback, especially for classes. Just do not touch the sound system yourself.",
+      "In classes, the instructor usually builds the music around the workout, so the loud bits are on purpose. If it is too loud for you, stand toward the back and away from the speakers, and some people use foam earplugs. Protect your ears; you need them for my cues."
+    ],
+    "more": {
+      "why": "Very loud music can be uncomfortable and make communication harder. A polite request or your own headphones fixes it for most people.",
+      "how": "Bring your own headphones. If the volume is a problem, ask staff kindly. In classes, choose a spot farther from the speakers.",
+      "example": "The 6 am crew blasts the speakers. You wear your over-ear headphones, play your own playlist at a moderate volume, and train in your own little world.",
+      "mistake": "Turning your own headphones up even louder to drown out the gym. Your ears take the hit. Lower both if you can."
+    },
+    "chips": [
+      "Headphones at the gym?",
+      "What should I listen to?"
+    ],
+    "related": [
+      "sh-b-058"
+    ]
+  },
+  {
+    "id": "sh-b-097",
+    "topic": "mindset",
+    "title": "Training in a bad mood or angry",
+    "keys": [
+      "working out when angry",
+      "lifting when angry",
+      "train when mad",
+      "gym when im angry",
+      "bad mood workout",
+      "should i work out when im in a bad mood",
+      "use anger to lift",
+      "rage workout",
+      "working out to blow off steam",
+      "angry workout",
+      "frustrated and want to lift"
+    ],
+    "match": "\\b(angry|mad|furious|pissed|bad mood|rage|blow off steam)\\b.*\\b(work ?out|lift\\w*|train\\w*|gym)\\b|\\b(work ?out|lift\\w*|train\\w*|gym)\\b.*\\b(angry|mad|furious|bad mood|rage|blow off steam)\\b",
+    "body": [
+      "Training in a bad mood can be one of the best moves you make all day. A solid session gives the frustration somewhere to go, and most people walk out calmer than they walked in. Just put a fence around it so the mood does not make your training decisions.",
+      "The fence: run your planned session, not a new one invented by anger. No surprise max attempts, no sloppy reps chasing a feeling, no slamming weights. Channel it into crisp, fast, controlled reps. Use a sharp fuel cue for the last reps of each set and leave the rest of the frustration on the floor.",
+      "Finish with a few minutes of easy walking and slow breathing before you check your phone. If anger or irritability has been sticking around for weeks, it is worth talking to someone you trust about what is underneath it."
+    ],
+    "more": {
+      "why": "Exercise can help you work through frustration, but strong emotions can push you toward risky choices like maxing out with bad form. Keeping the plan keeps you safe.",
+      "how": "Warm up fully. Run the plan as written. Push effort on the last reps with control. End with 3 to 5 minutes of easy movement and slow breathing.",
+      "example": "Bad day at work. You hit your planned rows and squats with a lot of intent, stick to the weights in your plan, and finish with a 5 minute walk. Mood: way better.",
+      "mistake": "Trying a new max because you feel like you could flip a car. Emotion is not a warm-up. Stick to the plan."
+    },
+    "chips": [
+      "How do I train when stressed?",
+      "Breathing to calm down"
+    ],
+    "related": [
+      "sh-b-003"
+    ]
+  },
+  {
+    "id": "sh-b-098",
+    "topic": "pre-session",
+    "title": "Waking up for an early morning session",
+    "keys": [
+      "how to wake up early to work out",
+      "how to get up for a 5am workout",
+      "waking up early for the gym",
+      "cant get out of bed for morning workouts",
+      "5am workout tips",
+      "morning workout motivation",
+      "how to become a morning workout person",
+      "early morning gym routine",
+      "hitting snooze instead of the gym",
+      "6am workout"
+    ],
+    "match": "\\b(wake|get|getting) up (early )?(for|to) (the gym|work ?out|train|a \\d ?am|morning)\\b|\\b\\d ?am (workout|gym|session|training)\\b|\\bmorning (workout|gym|training) (motivation|routine|tips)\\b|\\bsnooze\\b",
+    "body": [
+      "Early sessions are amazing once they are a habit, and brutal for the first week or two. The secret is that morning workouts start the night before. You cannot steal sleep from both ends of the night, so if you want to be up at 5, aim to be in bed early enough to still get 7 to 9 hours.",
+      "Night before: bag packed, clothes laid out, water bottle filled, plan on your phone. Alarm across the room so you have to stand up to stop it. Morning: lights on right away, a glass of water, clothes on before your brain can argue. Do not sit back down on the bed. Ever.",
+      "Give your body a longer warm-up in the morning, since you will often feel stiffer early. Your first few sessions might feel a bit flat. That's normal; many people adapt to training at a set time within a few weeks."
+    ],
+    "more": {
+      "why": "Consistent wake times and enough sleep make early training sustainable. A longer warm-up helps because your body tends to feel stiffer right after waking.",
+      "how": "Move your bedtime earlier by 15 minutes every few nights until you hit 7 to 9 hours. Prep everything the night before. Keep the same wake time on training days.",
+      "beginner": "Start with two early sessions a week, not five. Once those feel normal, add a third.",
+      "mistake": "Staying up late and then trying to train at 5 am on five hours of sleep. That is a plan for hating mornings forever."
+    },
+    "chips": [
+      "Morning or evening workouts?",
+      "How do I make it easier to go?"
+    ],
+    "related": [
+      "sh-b-040"
+    ]
+  },
+  {
+    "id": "sh-b-099",
+    "topic": "mindset",
+    "title": "Pushing through the hard part of a set or session",
+    "keys": [
+      "how do i push through",
+      "how to push harder in workouts",
+      "how to push through pain in a workout",
+      "mentally tough workouts",
+      "how to not quit mid set",
+      "how to dig deep",
+      "push through the burn",
+      "how do i stop giving up mid workout",
+      "how to train harder",
+      "the hard part of a workout",
+      "how to keep going when it burns"
+    ],
+    "match": "\\bpush (through|harder)\\b|\\bdig deep\\b|\\b(quit|stop|giving up) mid (set|workout|session|interval)\\b|\\bthrough the burn\\b|\\bkeep going when it (burns|hurts)\\b|\\bhow (do i|to) train harder\\b",
+    "body": [
+      "Let's separate two feelings first. Effort discomfort, the burn, heavy breathing, muscles getting tired, is normal and pushing through it is part of training. Pain that is sharp, in a joint, or comes with numbness, dizziness, chest pain or trouble breathing is a stop sign. Stop and get it checked. We push the first one, never the second.",
+      "For the good kind of hard, shrink the target. Do not think about the remaining eight reps; think about the next one. Count down instead of up. Use a short cue on each rep. On intervals, focus on just getting to the next minute. That's how I got through every 400: the last 100 meters, you only run the next 10.",
+      "And plan your effort. Most sets do not need to go to total failure; stopping with one to three good reps in the tank is plenty for most goals. Save the true all-out efforts for the last set of an exercise."
+    ],
+    "more": {
+      "why": "Chunking a hard effort into tiny pieces makes it feel more manageable. Knowing the difference between effort and pain keeps you pushing safely.",
+      "how": "Count down from your target reps. One cue per rep. Breathe on a rhythm. Remind yourself: hard is the point, sharp pain is the stop.",
+      "example": "Last set of 12 lunges per leg. At rep 6 it burns. You count 'six to go, five to go' and say 'drive' on each one. Done, form intact.",
+      "mistake": "Thinking the hardest session is always the best. Smart effort over weeks beats one heroic day that leaves you wrecked."
+    },
+    "chips": [
+      "Best mantras for hard sets?",
+      "Negative self-talk mid set"
+    ],
+    "related": [
+      "sh-b-084"
+    ]
+  },
+  {
+    "id": "sh-b-100",
+    "topic": "pre-session",
+    "title": "Heading to the gym straight from work",
+    "keys": [
+      "going to the gym straight from work",
+      "gym after work",
+      "training after work",
+      "how to go to the gym after work",
+      "after work workout tips",
+      "too tired after work for the gym",
+      "commute to the gym",
+      "workout after a long day",
+      "evening gym routine",
+      "how to not go home before the gym"
+    ],
+    "match": "\\b(gym|train(ing)?|work ?out|lift(ing)?) (straight )?(after|from) work\\b|\\bafter work (workout|gym|training)\\b|\\bcommute to the gym\\b|\\bnot go home (first|before the gym)\\b|\\bafter a long (work )?day\\b",
+    "body": [
+      "Straight from work is one of the most reliable training times around, as long as you never go home first. Home is where the couch lives. So the gym bag rides with you in the morning, and the session starts the moment you leave the office.",
+      "Make the transition easy. A small snack around mid afternoon so you are not running on empty. Change at work if you can, or in the gym locker room. In the car or on the train: water, your playlist, and a quick look at today's plan. If you are mentally fried, give yourself five minutes of easy cardio as a reset before your first set.",
+      "Long day and feeling crushed? Use the warm-up rule and your shorter plan. A 30 minute after-work session you actually do beats a 75 minute one you talked yourself out of on the drive."
+    ],
+    "more": {
+      "why": "Training before you get home removes the biggest decision point of the evening. A small afternoon snack and a set routine help you show up with energy.",
+      "how": "Bag in the car. Snack at 3 or 4 pm. Leave on time. Playlist on the commute. Five minutes easy cardio to transition. Run the plan or the short version.",
+      "short_on_time": "After-work express: 5 minute warm-up, two main lifts for 3 sets each, one finisher. Home in under 45 minutes including the drive for many people.",
+      "mistake": "Telling yourself you will 'just stop home and change'. Ninety minutes later you are on the couch with a snack, and the gym is closed in your head."
+    },
+    "chips": [
+      "Morning or evening workouts?",
+      "Too tired to train today?",
+      "How do I make it easier to go?"
+    ],
+    "related": [
+      "sh-b-093"
+    ]
+  }
+]
