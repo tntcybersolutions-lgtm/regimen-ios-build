@@ -1,0 +1,449 @@
+/* C3 screen: taper styles. The pane rules the taper module renders into, walked out of
+   the live CSSOM and re-scoped under .yd.tp, then the house flatten block: no cards, no
+   banded gradients, one mint action per page. */
+.yd.tp .tile{background: var(--cg-fill-2); box-shadow: none;}
+.yd.tp .tile::before,.yd.tp .tile::after{content: none;}
+.yd.tp .tile .k{color: var(--ink-1); opacity: 1; letter-spacing: 0.08em; font-size: 14px;}
+.yd.tp .tile .v{font-size: 25px; color: rgb(255, 255, 255);}
+.yd.tp .mini,.yd.tp .rdb{background: var(--cg-fill-2); border: 1px solid var(--cg-edge-2); box-shadow: none;}
+.yd.tp .mini::before,.yd.tp .mini::after{content: none;}
+.yd.tp .mini.go,.yd.tp .picker button.on,.yd.tp .pick button.on,.yd.tp .rdb.on,.yd.tp .setck.on,.yd.tp .mvsc.on,.yd.tp .mvchip.on,.yd.tp .fdtab.on,.yd.tp .shb.on,.yd.tp .selopt.on{background: linear-gradient(rgb(44, 46, 51), rgb(37, 39, 42)); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.tp .mini.go::before,.yd.tp .mini.go::after{content: none;}
+.yd.tp .mini.go:hover{background: linear-gradient(rgb(47, 49, 54), rgb(38, 40, 44)); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px; transform: none;}
+.yd.tp .mini{transition: border-color 0.15s, background 0.15s;}
+.yd.tp .sig .t{color: rgb(255, 255, 255);}
+.yd.tp .subnav button.on{color: var(--blue-t); border-color: rgba(201, 203, 207, 0.33); background: rgba(201, 203, 207, 0.047);}
+.yd.tp .eyebrow{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue-t); margin: 0px 0px 16px; padding-left: 14px;}
+.yd.tp .note{font-size: 17px; color: var(--ink-1); margin: 12px 0px 0px; line-height: 1.62;}
+.yd.tp .note b{color: var(--ink-0); font-weight: 600;}
+.yd.tp .tiles{display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);}
+.yd.tp .tile{min-width: 0px; padding: 16px 18px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);}
+.yd.tp .tile .v{overflow: hidden; text-overflow: ellipsis;}
+.yd.tp .tile .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue-t); opacity: 0.85;}
+.yd.tp .tile .v{font-family: var(--f-d); font-weight: 700; font-size: 20px; margin-top: 6px; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.tp .tile .v small{font-family: var(--f-m); font-size: 17px; font-weight: 400; color: var(--ink-2); margin-left: 4px; letter-spacing: 0.04em;}
+.yd.tp .sig{display: flex; gap: 14px; align-items: flex-start; padding: 15px 18px; margin-bottom: 10px; border-left: 3px solid var(--accent,var(--blue)); border-radius: 0px 12px 12px 0px; background: linear-gradient(90deg,var(--glass),transparent 85%);}
+.yd.tp .dot{flex: 0 0 auto; margin-top: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent,var(--blue)); box-shadow: 0 0 9px 1px var(--accent,var(--blue));}
+.yd.tp .sig .t{font-weight: 600; font-size: 17px; color: var(--ink-0);}
+.yd.tp .sig .d{font-size: 17px; color: var(--ink-1); line-height: 1.58; margin-top: 2px;}
+.yd.tp .sig .d code{font-family: var(--f-m); font-size: 17px; color: var(--ink-0); background: rgba(201, 203, 207, 0.06); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(201, 203, 207, 0.12);}
+.yd.tp .row2{display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); align-items: end;}
+.yd.tp .picker button.on{border-color: transparent; background: linear-gradient(180deg,#2E3035,var(--blue));}
+.yd.tp .picker button.on b,.yd.tp .picker button.on span{color: var(--blue-ink);}
+.yd.tp .simbar .dot{flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 10px 1px var(--blue);}
+.yd.tp #toast.on{opacity: 1; transform: translate(-50%, 0px); pointer-events: auto;}
+.yd.tp .simbar.sim .dot{background: var(--amber); box-shadow: 0 0 10px 1px var(--amber);}
+.yd.tp .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.tp .mini{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ctl-b2-ink); background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); border-radius: 8px; padding: 9px 13px; cursor: pointer; transition: 0.14s; min-height: 34px;}
+@media (pointer: coarse){.yd.tp .mini{min-height: 44px; padding: 11px 14px;}}
+.yd.tp .mini:hover{color: var(--ctl-b2-ink-h); border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h);}
+.yd.tp .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.tp .mini.go:hover{color: var(--blue-ink);}
+.yd.tp .selopt.on{background: var(--ctl-on); color: var(--ctl-on-ink); font-weight: 700;}
+.yd.tp .selopt.on small{color: rgba(255, 255, 255, 0.78);}
+.yd.tp .selopt.on::after{content: "\2713 "; margin-left: auto; font-weight: 700;}
+.yd.tp .dfield.on{border-color: var(--blue); background: rgba(201, 203, 207, 0.03);}
+.yd.tp .cal .go{display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px;}
+.yd.tp .tw{overflow-x: auto; margin-top: 16px; position: relative; scrollbar-width: thin;}
+.yd.tp .tw::after{content: "swipe \2192 "; position: sticky; left: 100%; bottom: 0px; float: right; font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); padding: 3px 0px 0px;}
+@media (min-width: 761px){.yd.tp .tw::after{display: none;}}
+.yd.tp td.num,.yd.tp th.num{text-align: right; padding-right: 16px;}
+.yd.tp .warnbox{border: 1px solid rgba(246, 183, 60, 0.32); background: rgba(246, 183, 60, 0.08); border-radius: 10px; padding: 14px 16px; font-size: 17px; color: var(--amber-soft); margin-top: 14px;}
+.yd.tp .card.procard > :not(h2):not(.eyebrow):not(.prostrip){display: none !important;}
+@media (max-width: 1040px){.yd.tp .tile{min-width: 104px; padding: 14px 15px;}}
+@media (max-width: 1040px){.yd.tp .tile .v{font-size: 20px;}}
+.yd.tp .pane.enter .sig{animation: 0.4s cubic-bezier(0.2, 0.72, 0.28, 1) 0s 1 normal backwards running rowIn;}
+.yd.tp .pane.enter .sig:nth-child(2){animation-delay: 0.06s;}
+.yd.tp .pane.enter .sig:nth-child(3){animation-delay: 0.12s;}
+.yd.tp .pane.enter .sig:nth-child(4){animation-delay: 0.18s;}
+.yd.tp .tile .v{transition: none;}
+.yd.tp .prcard .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber-soft); font-weight: 700;}
+.yd.tp .wday.on{border-color: var(--blue); background: linear-gradient(rgba(201, 203, 207, 0.12), rgba(201, 203, 207, 0.02)); box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 26px;}
+.yd.tp .wday.on .n{color: var(--ink-0);}
+.yd.tp .coachline .cacts .mini.go{border-color: var(--c-accent,var(--line)); color: var(--ink-0);}
+.yd.tp .coachline .cvote button.on{background: var(--c-accent,#9fabbb); border-color: transparent; color: rgb(255, 255, 255);}
+.yd.tp .onbdots i.on{background: var(--blue); box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 12px;}
+.yd.tp .pick button.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 30px;}
+.yd.tp .impbox{margin-top: 14px; padding: 16px; border-radius: 12px; border: 1px solid rgba(201, 203, 207, 0.18); background: rgba(201, 203, 207, 0.027);}
+.yd.tp .setck.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 18px;}
+.yd.tp .setrow.on .setin{border-color: rgba(201, 203, 207, 0.18);}
+.yd.tp .ex2f .mini[disabled]{opacity: 0.35; cursor: default;}
+.yd.tp .stdot.on i{background: var(--blue); box-shadow: 0 0 8px var(--blue);}
+.yd.tp .caledit .row3 label{margin-top: 0px;}
+@media (max-width: 620px){.yd.tp .calacts .mini{flex: 1 1 auto;}}
+.yd.tp .rdscale{display: grid; grid-template-columns: repeat(7, minmax(0px, 1fr)); gap: 6px;}
+.yd.tp .rdb{min-height: 46px; border-radius: 9px; cursor: pointer; padding: 0px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.03); color: var(--ink-2); font-family: var(--f-m); font-size: 17px; font-variant-numeric: tabular-nums; transition: color 0.14s, border-color 0.14s, background 0.14s;}
+.yd.tp .rdb:hover{border-color: var(--blue); color: var(--ink-0);}
+.yd.tp .rdb.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700; box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 16px;}
+@media (max-width: 620px){.yd.tp .rdscale{gap: 4px;}}
+@media (max-width: 620px){.yd.tp .rdb{min-height: 44px; font-size: 17px;}}
+.yd.tp .mvchip.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.tp .mvsrc{font-size: 17px; line-height: 1.6; color: var(--ink-2); margin: 16px 0px 0px; padding-top: 11px; border-top: 1px solid var(--line-soft); overflow-wrap: anywhere;}
+.yd.tp .note,.yd.tp .sig .d{overflow-wrap: anywhere;}
+.yd.tp .mvacts{display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 14px;}
+.yd.tp .mvuse{margin-left: auto; font-family: var(--f-m); font-size: 14px; color: var(--ink-2);}
+.yd.tp .row3{display: grid; grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 10px; margin-top: 12px;}
+@media (max-width: 620px){.yd.tp .row3{grid-template-columns: minmax(0px, 1fr);}}
+@media (max-width: 620px){.yd.tp .mvuse{margin-left: 0px; width: 100%;}}
+.yd.tp .apirow .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-0);}
+.yd.tp .shb.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 600;}
+.yd.tp .gbtn.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.tp .rbtn.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 600;}
+.yd.tp .lbtn.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.tp .brbtn.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.tp .fdtab.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 600;}
+.yd.tp body.terse .note:not(.keep):not(.warn),.yd.tp body.terse .mvsrc{max-height: calc(3.24em); overflow: hidden; cursor: pointer; position: relative; mask-image: linear-gradient(rgb(0, 0, 0) 58%, rgba(0, 0, 0, 0.25) 100%);}
+.yd.tp body.terse .note:not(.keep):not(.warn):hover,.yd.tp body.terse .mvsrc:hover{color: var(--ink-0);}
+.yd.tp .impbox{margin-top: 18px; padding: 15px 16px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02);}
+.yd.tp .impbox textarea{width: 100%; min-height: 96px; resize: vertical; font-family: var(--f-m); font-size: 17px; line-height: 1.5; padding: 11px 12px; border-radius: 9px;}
+.yd.tp .note.warn{color: var(--amber);}
+.yd.tp .setpart.on .setin{border-color: rgba(111, 220, 255, 0.55);}
+.yd.tp .tagb.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.tp .tagb.on span{color: rgba(0, 0, 0, 0.72);}
+.yd.tp .exaux .mini{margin-top: 10px;}
+.yd.tp #restBar .mini{min-height: 42px;}
+.yd.tp .logfold.on .foldc{color: var(--blue-t);}
+.yd.tp .chips .mini small{font-size: 14px; opacity: 0.7; margin-left: 3px;}
+.yd.tp .pbar{position: relative; height: 26px; border-radius: 100px; background: rgba(255, 255, 255, 0.06); margin-top: 14px; overflow: hidden; display: flex; align-items: center;}
+.yd.tp .pbar i{position: absolute; left: 0px; top: 0px; bottom: 0px; border-radius: 100px; background: linear-gradient(90deg,var(--blue-deep),var(--blue)); transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);}
+.yd.tp .pbar span{position: relative; padding: 0px 14px; font-family: var(--f-m); font-size: 17px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;}
+.yd.tp .fdgo .mini small{opacity: 0.72; font-size: 14px; margin-left: 3px;}
+.yd.tp .fdph .mini{margin-left: auto;}
+.yd.tp .fdserv .mini small,.yd.tp .fdport .mini small{opacity: 0.7; font-size: 14px;}
+@media (max-width: 620px){.yd.tp .fdrow .mini{grid-area: 3 / 2; justify-self: end;}}
+@media (pointer: coarse){.yd.tp .rdb{min-height: 44px;}}
+@media (pointer: coarse){.yd.tp .mini{min-height: 44px;}}
+.yd.tp .mini{background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 56%), rgba(0, 0, 0, 0.34); box-shadow: rgba(255, 255, 255, 0.11) 0px 1px 0px inset;}
+.yd.tp .mini:hover{background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(201, 203, 207, 0.06) 60%), rgba(0, 0, 0, 0.34);}
+.yd.tp .mini.go,.yd.tp .tagb.on,.yd.tp .mini.go:hover{background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.tp .mini:active{transform: translateY(1px);}
+.yd.tp .tile{background: linear-gradient(rgba(255, 255, 255, 0.024), transparent 60%);}
+.yd.tp .mini::after,.yd.tp .tile::after{content: ""; position: absolute; inset: 0px; border-radius: inherit; padding: 1px; pointer-events: none; background: var(--gl2-ring); mask: linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px) content-box exclude, linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px);}
+.yd.tp .mini,.yd.tp .tile{position: relative;}
+.yd.tp .mini::after,.yd.tp .tile::after{opacity: 0.55; z-index: 0;}
+.yd.tp .tile::after{border-radius: 0px; opacity: 0.22;}
+.yd.tp .subnav button.on{background: linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.02) 60%), rgba(201, 203, 207, 0.12); box-shadow: rgba(255, 255, 255, 0.34) 0px 1px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 22px -8px;}
+.yd.tp .mini.go{position: relative; overflow: hidden;}
+.yd.tp .mini.go{box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0px inset, rgba(255, 255, 255, 0.38) 0px 0px 0px 1px, rgba(96, 112, 134, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.95) 0px 8px 22px -10px;}
+.yd.tp .mini.go::before{content: ""; position: absolute; left: 4%; right: 4%; top: 2px; height: 46%; border-radius: 999px 999px 60% 60%; pointer-events: none; background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.02)); opacity: 0.75;}
+.yd.tp .mini.go::before{opacity: 0.6;}
+.yd.tp .wday.on{background: linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.02) 55%), rgba(201, 203, 207, 0.133); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 22px -8px;}
+@media (min-width: 1100px){.yd.tp .smgroup.on .smg{color: rgb(255, 255, 255);}}
+@media (min-width: 1100px){.yd.tp .smgroup .smp.on{color: var(--ink-0); background: linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.02) 60%), rgba(201, 203, 207, 0.133); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 22px -8px;}}
+@media (min-width: 1100px){.yd.tp .smgroup .smp.on::before{content: ""; position: absolute; left: -10px; top: 9px; bottom: 9px; width: 3px; border-radius: 3px; background: var(--blue);}}
+@media (min-width: 1100px){.yd.tp .pane > .eyebrow{column-span: all;}}
+.yd.tp .eyebrow{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); padding-left: 0px; margin: 0px 0px 12px; line-height: 1.45;}
+.yd.tp .eyebrow::first-letter{text-transform: uppercase;}
+.yd.tp .tile .k,.yd.tp .mvuse{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.tp .tile .k{font-size: 17px; color: var(--ink-2); opacity: 1;}
+.yd.tp .tile .k::first-letter{text-transform: uppercase;}
+.yd.tp .mini{font-family: var(--f-b); font-size: 17px; font-weight: 500; letter-spacing: 0px; text-transform: none;}
+.yd.tp .mini::first-letter{text-transform: uppercase;}
+.yd.tp .tile{border-radius: 12px; border: 0px !important; background: rgba(255, 255, 255, 0.03) !important;}
+.yd.tp .tiles{gap: 8px; border: 0px; background: none;}
+.yd.tp .tile .v{font-size: 25px; letter-spacing: -0.02em;}
+.yd.tp .card > .note.long,.yd.tp .card .mvsrc,.yd.tp .card > p.note.long{display: none;}
+.yd.tp .card.explain > .note.long,.yd.tp .card.explain .mvsrc,.yd.tp .card.explain > p.note.long{display: block;}
+.yd.tp .card .note.long{max-height: none !important; mask-image: none !important;}
+@media (min-width: 1100px){.yd.tp .pane > .eyebrow{grid-column: 1 / -1;}}
+.yd.tp .smcoach .cbtns .mini{flex: 1 1 auto; text-align: center;}
+.yd.tp .wkglance > div.on{border-color: rgba(201, 203, 207, 0.3);}
+.yd.tp .wkcard.on{border-color: var(--blue); box-shadow: 0 0 0 1px var(--blue),0 10px 30px -18px rgba(0,0,0,0.9);}
+.yd.tp .wkcard.today.on{box-shadow: inset 0 2px 0 var(--amber),0 0 0 1px var(--blue);}
+.yd.tp .lvtips .mini{margin-top: 8px;}
+.yd.tp .lvrpe .mini{min-width: 38px; text-align: center; padding: 7px 0px;}
+.yd.tp .brrow .mini{white-space: nowrap;}
+.yd.tp .dyacts .mini{padding: 6px 9px;}
+.yd.tp .blkwk.on{border-color: rgba(201, 203, 207, 0.33); background: linear-gradient(rgba(201, 203, 207, 0.082), rgba(201, 203, 207, 0.02) 60%), rgba(0, 0, 0, 0.42); box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 30px -14px;}
+.yd.tp .blkgrid .note{margin-top: 6px;}
+.yd.tp .mvsc.on{color: var(--blue-ink); border-color: transparent; font-weight: 700; background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.72) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.tp .mvsc.on i{background: rgba(0, 0, 0, 0.22); color: var(--blue-ink);}
+.yd.tp .mvsc.filt.on{background: linear-gradient(180deg,rgba(255,255,255,.3),rgba(255,255,255,0) 50%),linear-gradient(180deg,var(--vv-neon-soft),var(--vv-neon) 64%,#0E9A62); color: var(--blue-ink);}
+.yd.tp .mvsc.filt.on i{background: rgba(0, 0, 0, 0.2); color: var(--blue-ink);}
+.yd.tp .subnav button.on{color: var(--ink-0); border-color: rgba(201, 203, 207, 0.36); background: linear-gradient(rgba(201, 203, 207, 0.133), rgba(201, 203, 207, 0.035) 60%), rgba(0, 0, 0, 0.3); box-shadow: rgba(255, 255, 255, 0.18) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 24px -12px;}
+.yd.tp .sig .d code,.yd.tp .impbox textarea,.yd.tp .mini{font-size: 17px;}
+.yd.tp .tile .k,.yd.tp .tile .k,.yd.tp .tw::after,.yd.tp .prcard .k,.yd.tp .mvuse,.yd.tp .apirow .k,.yd.tp .chips .mini small,.yd.tp .fdgo .mini small,.yd.tp .fdserv .mini small,.yd.tp .fdport .mini small{font-size: 17px;}
+.yd.tp .eyebrow,.yd.tp .tile .v small,.yd.tp .mini,.yd.tp .mvsrc,.yd.tp .pbar span,.yd.tp .tile .k{font-size: 17px;}
+.yd.tp .eyebrow,.yd.tp summary .eyebrow{font-size: 17px; line-height: 1.45; color: var(--ink-1); margin: 0px 0px 14px;}
+.yd.tp .note{font-size: 17px; line-height: 1.55; color: var(--ink-1);}
+.yd.tp .note b{color: var(--ink-0);}
+.yd.tp .note.long{max-height: none; mask-image: none;}
+.yd.tp body:not(.terse) .note{display: block; -webkit-line-clamp: unset; overflow: visible;}
+.yd.tp .sig .t{font-size: 17px;}
+.yd.tp .sig .d{font-size: 17px; line-height: 1.5;}
+.yd.tp .tw::after{font-size: 17px;}
+.yd.tp .mini{font-size: 17px; font-weight: 500;}
+.yd.tp .tile .v small{font-variant-numeric: tabular-nums;}
+.yd.tp .tile .v{font-variant-numeric: tabular-nums;}
+.yd.tp .pbar span{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.tp .wday.on .n,.yd.tp .apirow .k,.yd.tp .sig .d code,.yd.tp .subnav button.on,.yd.tp .eyebrow,.yd.tp .tile .k{color: var(--ink-1);}
+.yd.tp .subnav button.on,.yd.tp .wday.on .n,.yd.tp .sig .d code{color: rgb(255, 255, 255);}
+.yd.tp .sig .d code{background: var(--hair); border-color: var(--hair);}
+.yd.tp .subnav button.on{color: var(--ink-0);}
+.yd.tp .sig{background: none; border-radius: 0px; padding: 12px 0px 12px 16px; margin-bottom: 6px;}
+.yd.tp .wkcard.on,.yd.tp .wkcard.today.on{box-shadow: inset 3px 0 0 var(--blue); border-color: var(--hair-soft);}
+.yd.tp .tiles{border: 0px; gap: 0px 24px;}
+.yd.tp .tile,.yd.tp .tile:hover{border-radius: 0px; padding: 14px 0px 12px; box-shadow: none; background: none !important; border: 0px !important;}
+.yd.tp .tile .k{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); opacity: 1;}
+.yd.tp .tile .v{font-size: 34px; line-height: 1.1; color: var(--ink-0); letter-spacing: -0.02em; margin-top: 4px;}
+.yd.tp .tile .v small{font-size: 17px; color: var(--ink-1);}
+.yd.tp #doseTiles .tile:nth-child(-n+3),.yd.tp #trainTiles .tile:nth-child(-n+3){border-bottom: 1px solid var(--hair) !important;}
+@media (max-width: 520px){.yd.tp #doseTiles .tile:nth-child(-n+3),.yd.tp #trainTiles .tile:nth-child(-n+3){border-bottom: 0px !important;}}
+@media (max-width: 520px){.yd.tp #doseTiles .tile:nth-child(-n+4),.yd.tp #trainTiles .tile:nth-child(-n+4){border-bottom: 1px solid var(--hair) !important;}}
+.yd.tp .card .tiles .tile{padding: 12px 0px 10px;}
+.yd.tp .sig .d code,.yd.tp .note code{background: none; border: 0px; padding: 0px; color: var(--ink-0); font-weight: 600; font-size: inherit; font-family: var(--f-m);}
+.yd.tp .mini,.yd.tp .rdb{background: none; border: 1px solid var(--cg-edge); box-shadow: none; color: var(--ink-0); text-shadow: none;}
+.yd.tp .mini:hover{background: var(--glass); border-color: var(--cg-edge); color: var(--ink-0); box-shadow: none; transform: none;}
+.yd.tp .mini{border-radius: 10px; padding: 10px 14px; min-height: 40px;}
+.yd.tp .mini.go,.yd.tp .picker button.on,.yd.tp .pick button.on,.yd.tp .rdb.on,.yd.tp .setck.on,.yd.tp .mvsc.on,.yd.tp .mvchip.on,.yd.tp .fdtab.on,.yd.tp .shb.on,.yd.tp .selopt.on,.yd.tp .subnav button.on,.yd.tp .wday.on,.yd.tp .smgroup .smp.on,.yd.tp .mini.go{background: rgb(40, 42, 46); border: 1px solid transparent; color: rgb(255, 255, 255); box-shadow: none; text-shadow: none;}
+.yd.tp .mini.go:hover{background: rgb(44, 46, 50); box-shadow: none; transform: none;}
+.yd.tp .mini.go::before{content: none;}
+.yd.tp .wday.on{box-shadow: none;}
+.yd.tp .wday.on .n,.yd.tp .wday.on .d{color: rgb(255, 255, 255);}
+.yd.tp .subnav button.on{border-color: transparent;}
+.yd.tp .smgroup .smp.on{box-shadow: none; background: rgba(201, 203, 207, 0.192);}
+@media (min-width: 1100px){.yd.tp .pane > .card > .eyebrow,.yd.tp .pane > .card > .note.long,.yd.tp .pane > .card > .mvsrc{column-span: all;}}
+@media (min-width: 1100px){.yd.tp .pane > .card > .eyebrow{margin-bottom: 12px;}}
+@media (min-width: 1100px){.yd.tp .sig,.yd.tp .tile,.yd.tp .tw,.yd.tp .row2,.yd.tp .mvacts,.yd.tp .warnbox,.yd.tp .tiles,.yd.tp .pbar{break-inside: avoid;}}
+@media (min-width: 1100px){.yd.tp .eyebrow{break-after: avoid;}}
+@media (min-width: 1380px){.yd.tp :has(.tw){columns: 2;}}
+.yd.tp #todayCard .note,.yd.tp .card:has(#hydRing) .note{font-size: 17px; margin-top: 14px;}
+.yd.tp .smgroup.on .smg{color: var(--ink-0);}
+@media (max-width: 720px){.yd.tp .tile .v{font-size: 25px;}}
+@media (max-width: 720px){.yd.tp .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.tp .dyacts .mini,.yd.tp .lvrpe .mini,.yd.tp .setrow .mini,.yd.tp .ex2f .mini,.yd.tp button.mini.sm,.yd.tp .lssets .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.tp .tile .k{font-size: 17px;}}
+@media (max-width: 430px){.yd.tp .tile .v{font-size: 25px;}}
+@media (min-width: 1100px){.yd.tp .railb.on{background: rgba(201, 203, 207, 0.192); color: rgb(255, 255, 255);}}
+@media (min-width: 1100px){.yd.tp .railb.on svg{color: rgb(255, 255, 255);}}
+@media (min-width: 1100px){.yd.tp .smcoach .cbtns .mini{padding: 8px 12px; min-height: 36px; font-size: 17px;}}
+.yd.tp .tile .v{font-family: var(--f-n); font-weight: 600; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;}
+.yd.tp .mini.go,.yd.tp .picker button.on,.yd.tp .pick button.on,.yd.tp .rdb.on,.yd.tp .setck.on,.yd.tp .mvsc.on,.yd.tp .mvchip.on,.yd.tp .fdtab.on,.yd.tp .shb.on,.yd.tp .selopt.on,.yd.tp .wday.on,.yd.tp .railb.on{background: rgb(40, 42, 46); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.tp .mini.go:hover,.yd.tp .railb.on:hover{background: rgb(44, 46, 50);}
+.yd.tp .mini{border-radius: 999px;}
+.yd.tp .mini{border: 1px solid var(--cg-edge); color: var(--ink-0);}
+.yd.tp .subnav button.on{background: var(--cg-fill-2); color: rgb(255, 255, 255); border-color: transparent;}
+@media (min-width: 1100px){.yd.tp .railb.on{background: rgb(40, 42, 46); color: rgb(255, 255, 255);}}
+@media (min-width: 1100px){.yd.tp .railb.on svg{color: rgb(255, 255, 255);}}
+.yd.tp .obt .k{font-family: var(--f-b); font-size: 17px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2);}
+.yd.tp .obt.late .k{color: var(--bad);}
+.yd.tp .mini{min-width: 44px;}
+@media (max-width: 620px){.yd.tp .rdscale{grid-template-columns: repeat(4, minmax(0px, 1fr));}}
+@media (max-width: 620px){.yd.tp .rdb{min-height: 44px;}}
+.yd.tp .obtc .mini{padding: 7px 12px; min-height: 34px; font-size: 17px;}
+.yd.tp html:not(#vv) body .quick.cnext .mini:not(.go){display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; min-height: 44px; font-family: var(--f-b, inherit); font-weight: 600; background: none !important; border-width: 0px 0px 1px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgba(255, 255, 255, 0.14) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 10px 2px !important; font-size: 16px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body .quick.cnext .mini:not(.go)::before{content: ""; flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+.yd.tp html:not(#vv) body .quick.cnext .mini:not(.go):hover,.yd.tp html:not(#vv) body .quick.cnext .mini:not(.go):focus-visible{background: rgba(255, 255, 255, 0.06) !important;}
+.yd.tp html:not(#vv) body #cChips .mini:not(.go){min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 2px; text-underline-offset: 6px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body #cChips .mini:not(.go):hover{text-decoration-thickness: 3px; background: none !important;}
+.yd.tp .quick.shaydial .note{font-size: 14px; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.08em; margin: 0px !important;}
+.yd.tp html:not(#vv) body .quick.shaydial .mini{min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgba(255, 255, 255, 0.78) !important;}
+.yd.tp html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]{text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 3px; text-underline-offset: 6px; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]::before{content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+@media (max-width: 720px){.yd.tp .obtc .mini{min-height: 44px;}}
+.yd.tp :root[data-theme="light"] body .sig .t{color: var(--ink-0);}
+.yd.tp .tile .v,.yd.tp .tile .v small{color: var(--ink-0);}
+.yd.tp .tile .v small{color: var(--ink-1);}
+.yd.tp .subnav button.on{color: var(--ink-0);}
+.yd.tp :root[data-theme="light"] .blkwk.on{background: var(--cg-fill-2);}
+.yd.tp :root[data-theme="light"] .sig .d code{color: var(--ink-0);}
+.yd.tp :root[data-theme="light"] .coachline .cacts .mini.go,.yd.tp :root[data-theme="light"] .coachline .cacts .mini.go:hover{color: rgb(255, 255, 255);}
+.yd.tp .labdoor .go{margin-left: auto; font-weight: 700; color: var(--ink-0); white-space: nowrap;}
+.yd.tp .labdoor:hover .go{text-decoration: underline;}
+@media (max-width: 560px){.yd.tp .labdoor .go{margin-left: 0px; width: 100%;}}
+.yd.tp .obt .k,.yd.tp .pane-obt .k,.yd.tp .wkdraft .k{color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.7) 0px 0px 12px;}
+.yd.tp .mini.go,.yd.tp .subnav button.on,.yd.tp .picker button.on,.yd.tp .pick button.on,.yd.tp .rdb.on,.yd.tp .setck.on,.yd.tp .mvsc.on,.yd.tp .mvchip.on,.yd.tp .fdtab.on,.yd.tp .shb.on,.yd.tp .selopt.on{background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 22px, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px;}
+.yd.tp .mini.go:hover{background: linear-gradient(rgb(51, 54, 59) 0%, rgb(46, 48, 52) 50%, rgb(40, 42, 46) 100%); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 30px, rgb(51, 53, 59) 0px 12px 30px -12px;}
+.yd.tp .railb.on{background: linear-gradient(rgba(201, 203, 207, 0.25), rgba(201, 203, 207, 0.12)); border: 1px solid rgba(201, 203, 207, 0.36); box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px 0px 20px; color: rgb(255, 255, 255);}
+.yd.tp .mini:not(.go),.yd.tp .subnav button:not(.on),.yd.tp .fdtab:not(.on),.yd.tp .shb:not(.on){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.tp .mini:not(.go):hover,.yd.tp .subnav button:not(.on):hover{background: rgba(255, 255, 255, 0.14); border-color: rgba(255, 255, 255, 0.34);}
+.yd.tp :root[data-theme="light"] .obt .k,.yd.tp :root[data-theme="light"] .pane-obt .k,.yd.tp :root[data-theme="light"] .wkdraft .k{color: rgb(46, 49, 53); text-shadow: none;}
+.yd.tp :root[data-theme="light"] body .mini:not(.go),.yd.tp :root[data-theme="light"] body .subnav button:not(.on),.yd.tp :root[data-theme="light"] body .fdtab:not(.on),.yd.tp :root[data-theme="light"] body .shb:not(.on){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.tp :root[data-theme="light"] body .railb.on{color: rgb(255, 255, 255); background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.2) 0px -2px 0px inset, rgba(0, 0, 0, 0.45) 0px 0px 22px;}
+.yd.tp .sch .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.6) 0px 0px 12px;}
+.yd.tp :root[data-theme="light"] .sch .k{color: rgb(39, 41, 44); text-shadow: none;}
+.yd.tp .sccell.on b{color: var(--ink-0);}
+.yd.tp :root[data-theme="light"] .sccell.on b{color: rgb(46, 49, 53);}
+.yd.tp #tDayCard .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.6) 0px 0px 12px;}
+.yd.tp :root[data-theme="light"] #tDayCard .k{color: rgb(46, 49, 53); text-shadow: none;}
+@media (max-width: 639px){.yd.tp .obt.has-art.portrait .obt-body > .k,.yd.tp .obt.has-art.square .obt-body > .k{grid-column: 1; min-width: 0px;}}
+.yd.tp .wkdraft .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue-t);}
+.yd.tp .askq .mini.sq{min-width: 38px; padding: 8px 0px; text-align: center;}
+.yd.tp .obt .k{color: var(--blue-t);}
+.yd.tp :root[data-theme="light"] .obt .k{color: rgb(39, 41, 44);}
+.yd.tp .obt .k{font-weight: 700;}
+.yd.tp .mini:active{transform: scale(0.97);}
+.yd.tp .tile{background: none; border: 0px; border-radius: 0px; box-shadow: none; backdrop-filter: none;}
+.yd.tp .warnbox{background: none; border: 0px; border-radius: 0px; box-shadow: none; padding-inline: 0px;}
+.yd.tp .warnbox{border-left: 3px solid var(--amber, #F6B73C); padding: 2px 0px 2px 14px;}
+.yd.tp :root[data-theme="light"] body .blkwk.on{background: none; border: 0px; border-radius: 0px; box-shadow: none;}
+.yd.tp :root[data-theme="light"] .obt .k,.yd.tp :root[data-theme="light"] .pane-obt .k,.yd.tp :root[data-theme="light"] .wkdraft .k{color: var(--ink-1);}
+.yd.tp :root[data-theme="light"] .sch .k{color: var(--ink-1);}
+.yd.tp :root[data-theme="light"] #tDayCard .k{color: var(--ink-1);}
+.yd.tp :root[data-theme="light"] .obt .k{color: var(--ink-0);}
+.yd.tp #tDayCard .k{color: var(--ink-0);}
+.yd.tp .flpromoacts .mini{text-decoration: none; display: inline-flex; align-items: center;}
+.yd.tp header.top #subnav button.on{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.tp .pane .k.islong,.yd.tp .pane .sub.islong,.yd.tp .pane .eyebrow.islong,.yd.tp .islong{max-width: 70ch; font-family: var(--f-b) !important; font-size: 17px !important; font-weight: 400 !important; letter-spacing: 0px !important; text-transform: none !important; color: var(--ink-2) !important; line-height: 1.5 !important;}
+.yd.tp .pane .eyebrow,.yd.tp .pane p.eyebrow{font-family: var(--f-b); font-size: 17px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: var(--ink-2); line-height: 1.5; max-width: 70ch; margin: 0px 0px 16px;}
+.yd.tp .pane .k{font-family: var(--f-m); font-size: 17px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2);}
+.yd.tp .mini{background: linear-gradient(rgba(201, 203, 207, 0.094), rgba(201, 203, 207, 0.06)); border: 1.5px solid rgba(201, 203, 207, 0.25); color: var(--ink-0); font-weight: 600;}
+.yd.tp .mini:hover{background: linear-gradient(rgba(201, 203, 207, 0.17), rgba(201, 203, 207, 0.11)); border-color: rgba(201, 203, 207, 0.42); color: var(--ink-0);}
+.yd.tp .mini.go{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); border: 0px; color: rgb(255, 255, 255); font-weight: 700;}
+.yd.tp .mini.go:hover{background: linear-gradient(rgb(49, 52, 57), rgb(39, 41, 45)); color: rgb(255, 255, 255);}
+.yd.tp .mini.alt{background: rgba(0, 0, 0, 0.04); border: 1.5px solid var(--line); color: var(--ink-1);}
+.yd.tp .pane .eyebrow,.yd.tp .pane .k{font-family: var(--f-m); font-size: 17px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); margin: 0px 0px 10px; padding-left: 0px;}
+.yd.tp .pane .note{max-width: 66ch; line-height: 1.6;}
+.yd.tp .pane .note{font-size: 17px; color: var(--ink-2);}
+.yd.tp .pane .tw,.yd.tp .pane .num{font-variant-numeric: tabular-nums;}
+.yd.tp .rdscale .rdb{font-family: var(--f-d); font-weight: 700; font-size: 17px; letter-spacing: 0px;}
+.yd.tp .mini{font-family: var(--f-m); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; min-height: 44px; border-radius: 999px; padding: 0px 16px;}
+.yd.tp #onb .note{color: rgb(159, 176, 196);}
+.yd.tp #onb .mini{color: rgb(240, 241, 242);}
+.yd.tp #onb .mini.go{color: rgb(255, 255, 255);}
+.yd.tp #onb .mini{border-color: rgba(255, 255, 255, 0.28); background: rgba(255, 255, 255, 0.06);}
+.yd.tp #onb .mini:hover{border-color: rgba(255, 255, 255, 0.5); background: rgba(255, 255, 255, 0.12); color: rgb(255, 255, 255);}
+.yd.tp #sidemap .smg.on{color: rgb(255, 255, 255); background: var(--blue); font-weight: 700;}
+.yd.tp #sidemap .smg.on svg{color: rgb(255, 255, 255);}
+.yd.tp .btn.go,.yd.tp .railb.on,.yd.tp .tab.on,.yd.tp .mini.go{border-radius: 8px; background-position-x:  !important; background-position-y:  !important; background-size:  !important; background-repeat:  !important; background-attachment:  !important; background-origin:  !important; background-clip:  !important; background-color:  !important; background-image: none !important; color: rgb(255, 255, 255) !important; border-color: transparent !important; box-shadow: none !important;}
+.yd.tp .mini:not(.go){border-radius: 8px; background: var(--bg-1) !important; color: var(--ink-1) !important; border: 1px solid var(--line) !important;}
+.yd.tp .k,.yd.tp .eyebrow{letter-spacing: 0.08em !important;}
+.yd.tp .blkwk.on{border-color: var(--ph) !important; background: color-mix(in srgb,var(--ph) 7%,#FFFFFF) !important; box-shadow: 0 0 0 2px color-mix(in srgb,var(--ph) 28%,transparent) !important;}
+.yd.tp .flpromoacts .mini{flex: 0 0 auto; width: auto !important;}
+.yd.tp .note{color: var(--ink-2);}
+.yd.tp .note,.yd.tp .k,.yd.tp .eyebrow{opacity: 1 !important;}
+.yd.tp .setrow.on,.yd.tp .set.on{box-shadow: 0 0 0 2px color-mix(in srgb,var(--blue) 26%,transparent); background: color-mix(in srgb,var(--blue) 10%,#FFFFFF) !important; border-color: var(--blue) !important;}
+.yd.tp #tDay > .k{border-left: 5px solid var(--blue); border-radius: 10px; margin-bottom: 12px; background: linear-gradient(90deg, rgb(244, 244, 245), rgb(247, 246, 243)) !important; padding: 10px 14px !important;}
+@media screen{.yd.tp html:not(#vv) body .railb.on,.yd.tp html:not(#vv) body #sidemap .smg.on{text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px; color: rgb(255, 255, 255) !important; background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border: 1px solid rgba(226, 227, 229, 0.54) !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.55) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 22px, rgba(0, 0, 0, 0.8) 0px 8px 18px -8px !important;}}
+@media screen{.yd.tp html:not(#vv) body .railb.on svg{color: rgb(255, 255, 255) !important; filter: drop-shadow(rgba(255, 255, 255, 0.7) 0px 0px 6px);}}
+@media screen{.yd.tp html:not(#vv) body header.top #subnav button.on,.yd.tp html:not(#vv) body header.top .subnav button.on,.yd.tp html:not(#vv) body nav[role="tablist"] .tab.on,.yd.tp html:not(#vv) body .tab.on{text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px; color: rgb(255, 255, 255) !important; background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border-color: rgba(226, 227, 229, 0.57) !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.55) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 20px !important;}}
+@media screen{.yd.tp html:not(#vv) body nav[role="tablist"] .tab.on svg{color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.tp html:not(#vv) body .k,.yd.tp html:not(#vv) body .eyebrow,.yd.tp html:not(#vv) body .obt .k,.yd.tp html:not(#vv) body .tile .k,.yd.tp html:not(#vv) body .herolabel .k,.yd.tp html:not(#vv) body .pane-what .k{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; font-weight: 700 !important; text-shadow: rgba(30, 216, 138, 0.35) 0px 0px 12px !important; opacity: 1 !important;}}
+@media screen{.yd.tp html:not(#vv) body .note,.yd.tp html:not(#vv) body .sig .d{color: rgb(237, 238, 239) !important; -webkit-text-fill-color: rgb(237, 238, 239) !important; opacity: 1 !important;}}
+@media screen{.yd.tp html:not(#vv) body .note b{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.tp html:not(#vv) body .sig code{border-radius: 6px; padding: 1px 5px; color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; background: rgba(0, 0, 0, 0.45) !important; border: 0px !important;}}
+@media screen{.yd.tp html:not(#vv) body .wrap a:not(.btn):not(.mini):not(.ghost){color: rgb(255, 255, 255) !important; text-decoration-color: var(--vv-neon) !important;}}
+@media screen{.yd.tp html:not(#vv) body .sig .t{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.tp html:not(#vv) body .tile .v,.yd.tp html:not(#vv) body .v,.yd.tp html:not(#vv) body .num{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; text-shadow: rgb(209, 211, 215) 0px 1px 0px, rgb(46, 49, 53) 0px 2px 0px, rgba(0, 0, 0, 0.6) 0px 0px 18px !important;}}
+@media screen{.yd.tp html:not(#vv) body .tile .v small,.yd.tp html:not(#vv) body .v small{color: rgb(229, 230, 232) !important; -webkit-text-fill-color: rgb(229, 230, 232) !important; text-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .tiles{border-color: rgba(207, 209, 213, 0.145) !important;}}
+@media screen{.yd.tp html:not(#vv) body .tile{background: transparent !important; border-color: rgba(207, 209, 213, 0.133) !important; box-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .btn.go,.yd.tp html:not(#vv) body .mini.go{min-height: 46px; transition: box-shadow 0.18s, filter 0.18s; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.95) !important; border-radius: 12px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 800 !important; letter-spacing: 0.01em !important; text-transform: none !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.5) 0px 0px 20px, rgba(0, 0, 0, 0.75) 0px 10px 20px -8px !important; text-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini.go:hover,.yd.tp html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) saturate(1.05); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.85) 0px 0px 30px, rgba(0, 0, 0, 0.8) 0px 12px 22px -8px !important; color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini:not(.go){transition: box-shadow 0.18s, background-color 0.18s, border-color 0.18s; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.396) 100%) !important; border: 1px solid rgba(210, 212, 215, 0.48) !important; border-radius: 12px !important; box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 0px 14px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 700 !important; text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 1px !important; opacity: 1 !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini:not(.go){min-height: 40px; font-size: 17px !important; letter-spacing: 0.05em !important; padding-left: 16px !important; padding-right: 16px !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini:not(.go):hover,.yd.tp html:not(#vv) body .mini:not(.go):focus-visible{background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.33) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 24px !important;}}
+@media screen{.yd.tp html:not(#vv) body .seg button.on,.yd.tp html:not(#vv) body .chip.on,.yd.tp html:not(#vv) body .pill.on,.yd.tp html:not(#vv) body .mini[aria-pressed="true"]{background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 0px 1px, rgba(0, 0, 0, 0.9) 0px 0px 20px !important;}}
+@media screen{.yd.tp html:not(#vv) body .mini:disabled{filter: saturate(0.55); opacity: 0.88 !important; box-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .gbtn.on,.yd.tp html:not(#vv) body .picker button.on,.yd.tp html:not(#vv) body .mvchip.on,.yd.tp html:not(#vv) body .lbtn.on,.yd.tp html:not(#vv) body .brbtn.on,.yd.tp html:not(#vv) body .tagb.on,.yd.tp html:not(#vv) body .rbtn.on,.yd.tp html:not(#vv) body .shb.on,.yd.tp html:not(#vv) body .fdtab.on,.yd.tp html:not(#vv) body .rdb.on,.yd.tp html:not(#vv) body .mvsc.on,.yd.tp html:not(#vv) body .selopt.on,.yd.tp html:not(#vv) body .wday.on,.yd.tp html:not(#vv) body .pick button.on,.yd.tp html:not(#vv) body .setck.on{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border-color: rgba(236, 237, 239, 0.57) !important; box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.6) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 18px !important; text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px !important;}}
+@media screen{.yd.tp html:not(#vv) body .gbtn.on *,.yd.tp html:not(#vv) body .picker button.on *,.yd.tp html:not(#vv) body .mvchip.on *,.yd.tp html:not(#vv) body .lbtn.on *,.yd.tp html:not(#vv) body .brbtn.on *,.yd.tp html:not(#vv) body .tagb.on *,.yd.tp html:not(#vv) body .rbtn.on *,.yd.tp html:not(#vv) body .shb.on *,.yd.tp html:not(#vv) body .fdtab.on *,.yd.tp html:not(#vv) body .rdb.on *,.yd.tp html:not(#vv) body .mvsc.on *,.yd.tp html:not(#vv) body .selopt.on *,.yd.tp html:not(#vv) body .wday.on *,.yd.tp html:not(#vv) body .pick button.on *,.yd.tp html:not(#vv) body .setck.on *{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.tp html:not(#vv) body .onbdots i.on,.yd.tp html:not(#vv) body .stdot.on i{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; box-shadow: rgba(30, 216, 138, 0.7) 0px 0px 12px !important;}}
+@media screen{.yd.tp html:not(#vv) body .pbar i{background: linear-gradient(90deg,var(--vv-neon-2),var(--vv-neon)) !important; box-shadow: rgba(30, 216, 138, 0.65) 0px 0px 12px !important;}}
+@media screen{.yd.tp html:not(#vv) body .sig{border-color: rgba(207, 209, 213, 0.145) !important; background: transparent !important;}}
+@media screen{.yd.tp html:not(#vv) body .sig .dot{background: var(--vv-neon) !important; box-shadow: 0 0 12px var(--vv-neon),0 0 24px rgba(30,216,138,.5) !important;}}
+@media screen{.yd.tp html:not(#vv) body .warnbox{border-left-color: rgb(255, 184, 92) !important; color: rgb(255, 233, 200) !important;}}
+@media screen{.yd.tp html:not(#vv) body #tDay > .k{background: transparent !important; border-top: 0px !important; border-right: 0px !important; border-image: none !important; border-radius: 0px !important; border-left: 4px solid var(--ph, #B3B6BB) !important; border-bottom: 1px solid rgba(207, 209, 213, 0.133) !important; box-shadow: -6px 0 18px -10px var(--ph, #B3B6BB) !important;}}
+@media screen{.yd.tp html:not(#vv) body .blkwk.on,.yd.tp html:not(#vv) body .setrow.on,.yd.tp html:not(#vv) body .set.on{--ph: var(--vv-neon) !important; border-left-color: var(--vv-neon) !important; background: linear-gradient(90deg, rgba(201, 203, 207, 0.192), rgba(201, 203, 207, 0) 85%) !important; box-shadow: rgba(30, 216, 138, 0.8) -8px 0px 22px -8px !important;}}
+@media screen{.yd.tp html:not(#vv) body #findList .on{background: rgba(201, 203, 207, 0.24) !important; box-shadow: inset 3px 0 0 var(--vv-neon) !important;}}
+@media screen{.yd.tp html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost){color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 0px 18px !important; text-shadow: none !important;}}
+@media screen{.yd.tp html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost):hover{background: var(--vv-neon) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.tp html:not(#vv) body .wrap .tiles{background-image: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 46%, rgba(0, 0, 0, 0.1)) !important; box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.42) 0px 10px 26px, rgba(0, 0, 0, 0.3) 0px 2px 6px !important;}}
+@media screen{.yd.tp html:not(#vv) body .wrap .tiles .v,.yd.tp html:not(#vv) body .wrap .readout .v{text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 0px, rgba(0, 0, 0, 0.35) 0px 2px 10px;}}
+.yd.tp html:not(#vv) body .wrap .eyebrow{text-shadow: rgba(30, 216, 138, 0.7) 0px 0px 8px, rgba(14, 154, 98, 0.4) 0px 0px 20px !important;}
+.yd.tp html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgb(185, 255, 224) 0px 0px 1px, rgba(30, 216, 138, 0.85) 0px 0px 10px, rgba(255, 160, 0, 0.5) 0px 0px 28px !important;}
+.yd.tp html:not(#vv) body .wrap .mini{min-height: 44px;}
+.yd.tp html:not(#vv) body .wrap .tile{backdrop-filter: none !important;}
+.yd.tp html:not(#vv) body .wrap .tile{background-image: linear-gradient(118deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.055) 16%, rgba(255, 255, 255, 0) 34%), linear-gradient(rgba(255, 255, 255, 0.157) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; border: 1px solid rgba(210, 212, 215, 0.204) !important; border-radius: 20px !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 26px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.46) 0px 22px 46px, rgba(255, 255, 255, 0.05) 0px 2px 0px !important;}
+.yd.tp html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgba(185, 255, 224, 0.9) 0px 1px 0px, rgba(8, 90, 56, 0.55) 0px 3px 0px, rgba(0, 0, 0, 0.5) 0px 14px 18px, rgba(92, 242, 176, 0.45) 0px 0px 24px !important;}
+.yd.tp html:not(#vv) body .wrap .tile{background-image: linear-gradient(rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.44) 0px 12px 26px !important;}
+.yd.tp html:not(#vv) body .wrap .tiles,.yd.tp html:not(#vv) body .wrap .tiles > *{min-width: 0px !important;}
+.yd.tp html:not(#vv) body .wrap .tiles{grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)) !important;}
+.yd.tp html:not(#vv) body header.top #navSegs #subnav button.on{-webkit-text-fill-color: rgb(255, 255, 255); color: rgb(255, 255, 255) !important; background: linear-gradient(rgb(160, 164, 171) 0%, rgb(46, 48, 53) 48%, rgb(39, 41, 44) 100%) !important; border-color: transparent !important; box-shadow: rgba(255, 255, 255, 0.42) 0px 1px 0px inset, rgba(0, 0, 0, 0.55) 0px -2px 0px inset, rgba(0, 0, 0, 0.85) 0px 2px 0px, rgba(0, 0, 0, 0.9) 0px 6px 14px -6px !important;}
+.yd.tp html:not(#vv) body header.top #navSegs #subnav button.on{text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 0px, rgba(0, 0, 0, 0.95) 0px 0px 12px, rgba(0, 0, 0, 0.75) 0px 0px 28px, rgba(0, 0, 0, 0.45) 0px 0px 52px;}
+.yd.tp html:not(#vv) body header.top #navSegs #subnav button.on::before{position: absolute; inset: 0px; z-index: 0; border-radius: inherit; pointer-events: none; background: none; border: 0px; box-shadow: rgba(0, 0, 0, 0.85) 0px 0px 0px 1.5px inset, rgba(0, 0, 0, 0.9) 0px 0px 12px -3px inset, rgba(0, 0, 0, 0.75) 0px 0px 22px -6px inset; opacity: 0.5; animation: 2.9s ease-in-out 0s infinite normal none running navBreathe; content: "" !important;}
+@media (prefers-reduced-motion: reduce){.yd.tp html:not(#vv):not(.motion) body header.top #navSegs #subnav button.on::before{animation: auto ease 0s 1 normal none running none !important;}}
+@media (prefers-reduced-motion: reduce){.yd.tp html:not(#vv):not(.motion) body header.top #navSegs #subnav button.on::before{opacity: 0.6 !important;}}
+.yd.tp html:not(#vv) body .ex2 .exrpe .rpeb .mini{min-width: 44px; min-height: 44px; padding: 0px; font-size: 18px; letter-spacing: 0px;}
+.yd.tp html:not(#vv) body .ex2 .exrpe.on{border-color: rgba(201, 203, 207, 0.204); background: rgba(201, 203, 207, 0.047);}
+.yd.tp html:not(#vv) body .ex2 .exrpe.on .rpeq{color: var(--ink-1);}
+@media (max-width: 480px){.yd.tp html:not(#vv) body .ex2 .exrpe .rpeb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.tp html:not(#vv) body #tDay .sessrec .srb .mini{min-height: 44px;}
+@media (max-width: 480px){.yd.tp html:not(#vv) body #tDay .sessrec .srb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.tp html:not(#vv) body .occ .acts .mini{flex: 1 1 auto; min-width: 0px !important;}
+.yd.tp html:not(#vv) body .ckacts > button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.tp html:not(#vv) body .ckacts > button.go:disabled{opacity: 0.55; cursor: default;}
+.yd.tp html:not(#vv) body .geoacts button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.tp html:not(#vv) body .btn.go,.yd.tp html:not(#vv) body .mini.go{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.9) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.45) 0px 0px 18px !important; text-shadow: none !important;}
+.yd.tp html:not(#vv) body .mini.go:hover,.yd.tp html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.8) 0px 0px 28px !important; color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.tp html:not(#vv) body .mini.go:focus-visible{outline: 3px solid var(--vv-neon-2) !important; outline-offset: 3px !important;}
+.yd.tp html:not(#vv) body .bookcard .go{display: inline-block; padding: 12px 18px; border-radius: 12px; font-weight: 800; font-size: 16px; background: var(--vv-neon); color: rgb(26, 27, 30);}
+.yd.tp html:not(#vv) body .bookcard:hover .go,.yd.tp html:not(#vv) body .bookcard:focus-visible .go{background: rgb(255, 255, 255);}
+.yd.tp #myplan .mpweb .acts .go{background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; border: 0px !important;}
+.yd.tp html:not(#vv) body nav button.on,.yd.tp html:not(#vv) body #sidemap button.on{opacity: 1;}
+.yd.tp html:not(#vv) body #sidemap .railb.on,.yd.tp html:not(#vv) body #sidemap .smg.on,.yd.tp html:not(#vv) body .railb.on{background: rgba(255, 255, 255, 0.09) !important; border: 1px solid transparent !important; box-shadow: inset 3px 0 0 var(--vv-neon) !important; text-shadow: none !important; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body .railb.on svg{color: var(--vv-neon) !important; filter: none !important;}
+.yd.tp html:not(#vv) body .railb.on:hover{background: rgba(255, 255, 255, 0.13) !important;}
+.yd.tp html:not(#vv) body .bookcard .go{text-decoration: none;}
+.yd.tp html:not(#vv) body .bookcard .go:hover{background: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body .bookcard:hover .go{background: var(--vv-neon);}
+.yd.tp html:not(#vv) body .geowrap .geoacts button.go{font-weight: 800; background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; text-shadow: none !important; border: 0px !important;}
+.yd.tp .lwk .lwdays button.on{background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; border-color: var(--vv-neon) !important;}
+.yd.tp html:not(#vv) body #fdPlan .lwk .lwdays button.on{background: var(--vv-neon) !important; border-color: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important;}
+.yd.tp html:not(#vv) body #p-train button.go{min-height: 44px;}
+@media (min-width: 1100px){.yd.tp :has(.tw){columns: auto !important; column-gap: normal !important;}}
+@media (min-width: 1100px){.yd.tp html:not(#vv) body .pane > .card > .eyebrow{max-width: 78ch;}}
+.yd.tp html:not(#vv) body #shRoute .mini{text-transform: uppercase !important; width: auto !important; min-width: 0px !important; max-width: none !important; white-space: normal !important; overflow-wrap: normal !important; word-break: normal !important; letter-spacing: 0.02em !important; font-size: 15px !important; line-height: 1.15 !important;}
+.yd.tp html:not(#vv) body #sheet .mini:not(.go){background: rgba(255, 255, 255, 0.06) !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv) body #sheet .btn:not(.alt):not(.mini){font-family: "Barlow Condensed", "Arial Narrow", sans-serif !important; font-weight: 900 !important; font-size: 22px !important; letter-spacing: 1px !important; text-transform: uppercase !important; border-top: 0px !important; border-right: 0px !important; border-left: 0px !important; border-image: none !important; border-bottom: 4px solid var(--vv-neon-soft) !important; border-radius: 8px 8px 0px 0px !important; min-height: 56px !important;}
+.yd.tp html:not(#vv) body #shBody .hrsh-dev i.on{background: rgb(92, 242, 176); box-shadow: rgb(92, 242, 176) 0px 0px 10px;}
+.yd.tp #bcScan .bc-torch.on{border-bottom-color: rgb(255, 79, 203);}
+.yd.tp html:not(#vv) body #sheet .mini:not(.go):not(#shRoute *){background: transparent !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 0px 2px !important; min-height: 44px !important; font-family: Barlow, system-ui, sans-serif !important; font-weight: 600 !important;}
+.yd.tp html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini{flex: 0 0 auto !important; width: auto !important; min-width: 0px !important; min-height: 44px !important; height: auto !important; margin: 0px !important; padding: 0px 18px !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; border-radius: 999px !important; background: transparent !important; box-shadow: none !important; font: 600 15px / 1 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini.go{background: rgb(92, 242, 176) !important; border-color: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .pick button.on,.yd.tp html:not(#vv):not(#v367x) body #sheet .picker button.on{border-color: rgb(92, 242, 176) !important; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .pick button.on,.yd.tp html:not(#vv):not(#v367x) body #sheet .picker button.on,.yd.tp html:not(#vv):not(#v367x) body #sheet .mini.go{-webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .pick button.on *,.yd.tp html:not(#vv):not(#v367x) body #sheet .picker button.on *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .mini.go{min-height: 44px !important; padding: 0px 18px !important; border: 0px !important; border-radius: 999px !important; background: rgb(92, 242, 176) !important; box-shadow: none !important; color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){outline: none; box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini):focus-visible{outline-offset: 3px; outline: rgb(255, 255, 255) solid 3px !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 64px !important; font-size: 26px !important;}
+@media (min-width: 700px){.yd.tp html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 68px !important; font-size: 28px !important;}}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .mini.go{border: 2px solid rgb(92, 242, 176) !important; background: transparent !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .picker.sev > button.on b{box-shadow: none; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .picker.sev > button.on span{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .pick button.on,.yd.tp html:not(#vv):not(#v367x) body #onb .picker button.on{border-color: rgb(92, 242, 176) !important; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .pick button.on *,.yd.tp html:not(#vv):not(#v367x) body #onb .picker button.on *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .pick.onbfocus button.on{background: transparent !important; box-shadow: rgb(92, 242, 176) 3px 0px 0px inset !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .pick.onbfocus button.on *{color: inherit !important; -webkit-text-fill-color: currentcolor !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .mini:not(.go):not(#onbSkip){text-decoration: underline 2px rgb(92, 242, 176); text-underline-offset: 6px; min-height: 44px !important; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; text-transform: none !important; letter-spacing: 0px !important; font: 600 15px / 1.2 Barlow, system-ui, sans-serif !important; color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #sheet .pick .mini.go,.yd.tp html:not(#vv):not(#v367x) body #sheet .pick button.go{border: 1px solid rgb(92, 242, 176) !important; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .row2:has([data-acct]){flex-direction: column; align-items: stretch; gap: 12px; display: flex !important;}
+.yd.tp html:not(#vv):not(#v367x) body #onb .row2 [data-acct="signin"]{align-self: flex-start; width: auto !important; padding: 0px 22px !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #toast.on,.yd.tp html.c3-deep:not(#vv):not(#c3x) body #toast.on{transform: none !important; pointer-events: none !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #toast.on .toastu,.yd.tp html.c3-deep:not(#vv):not(#c3x) body #toast.on .toastu{pointer-events: auto !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #toast.on:has(.toastu),.yd.tp html.c3-deep:not(#vv):not(#c3x) body #toast.on:has(.toastu){display: flex !important; align-items: center !important; gap: 12px !important; text-align: left !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #toast.on:has(.toastu) .toastu,.yd.tp html.c3-deep:not(#vv):not(#c3x) body #toast.on:has(.toastu) .toastu{flex: 0 0 auto !important; margin-left: 0px !important;}
+.yd.tp #flSavedEmails .mini{justify-self: start; min-height: 44px; max-width: 100%; white-space: normal;}
+.yd.tp html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button.on{background: var(--mint) !important; border-color: var(--mint) !important; color: var(--on-neon) !important;}
+.yd.tp html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button.on .flac-ic{color: var(--on-neon);}
+.yd.tp html:not(#vv):not(#c3x) body #acctCard > .card > .eyebrow,.yd.tp html:not(#vv):not(#c3x) body #acctCard > .card .note{max-width: 72ch; margin: 0px 0px 14px !important; font: 500 15px / 1.45 Barlow, system-ui, sans-serif !important; color: rgb(201, 205, 211) !important; letter-spacing: 0px !important; text-transform: none !important; text-shadow: none !important;}
+.yd.tp html:not(#vv):not(#c3x) body #acctCard > .card .note b{color: rgb(255, 255, 255) !important;}
+.yd.tp html:not(#vv):not(#c3x) body #acctCard > .card .mini{align-items: center; justify-content: center; display: inline-flex !important; width: auto !important; min-height: 48px !important; height: auto !important; margin: 0px !important; padding: 0px 20px !important; background: transparent !important; border: 1.5px solid rgb(92, 242, 176) !important; border-radius: 999px !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; font: 700 15px / 1.15 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go),.yd.tp html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go){border-bottom: 1px solid rgba(255, 255, 255, 0.24) !important; color: rgba(255, 255, 255, 0.72) !important; font-weight: 600 !important;}
+.yd.tp html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go),.yd.tp html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go){border-bottom: 3px solid rgb(92, 242, 176) !important; color: rgb(255, 255, 255) !important; font-weight: 800 !important;}
+.yd.tp html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-gi.on .gn{color: var(--ink2) !important; -webkit-text-fill-color: var(--ink2) !important; font-weight: 600 !important;}
+
+/* house flatten + shadow-scope accent fix: C3 redefines --blue as a dark slab; shell rules expect mint */
+.yd.tp{--blue:#5CF2B0;--blue-t:#5CF2B0;--blue-ink:#0B0C0E}
+.yd.tp [hidden]{display:none!important}
+.yd.tp input,.yd.tp select,.yd.tp textarea{background:var(--bg-1);border:1px solid var(--line);border-radius:9px;color:var(--ink-0);font:inherit;font-size:17px;padding:9px 12px;min-height:44px;color-scheme:dark;box-sizing:border-box;width:100%}
+.yd.tp label{display:block;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin:0 0 6px}
+.yd.tp .mini.go,.yd.tp .mini.go:hover{background-color:var(--blue)!important;background-image:none!important;color:#0B0C0E!important;border:0;box-shadow:none!important;text-shadow:none;font-weight:700}
+.yd.tp .eyebrow{font-size:17px;line-height:1.45;color:var(--ink-1);margin:0 0 14px}
+.yd.tp .eyebrow::first-letter{text-transform:uppercase}
+.yd.tp .tp-hero{margin:6px 0 4px}
+.yd.tp .tp-rows{font-size:34px;font-weight:600;color:var(--ink-0);letter-spacing:-.01em;line-height:1.1;margin:2px 0 10px}
+.yd.tp .tp-rows small{display:block;font-size:17px;font-weight:400;color:var(--ink-1);letter-spacing:0;margin-top:4px}
+.yd.tp .medfoot{font-size:14px;color:var(--ink-2);margin:26px 0 0;line-height:1.6}

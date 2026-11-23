@@ -1,0 +1,307 @@
+/* C3 train. The week on top, the selected day under it, depth at the bottom.
+   phone (< 700), tablet (700-1023, the same pieces with a two-column move list),
+   computer (>= 1024: seven lit columns with their moves, the hero row, the track). */
+
+.tr{ display:flex; flex-direction:column; gap:14px; padding-top:2px; }
+.tr > *{ min-width:0; }
+
+/* ---------- the week ---------- */
+.tr-week{ display:flex; flex-direction:column; }
+.tr-wk-head{ display:flex; align-items:center; justify-content:space-between; gap:8px; min-height:48px; }
+.tr-wk-head .c3-weekhead{ flex:1 1 0; min-width:0; flex-direction:column; flex-wrap:nowrap; align-items:flex-start; gap:2px; margin:0; }
+.tr-wk-head .c3-weekhead .vol{ max-width:100%; overflow:hidden; text-overflow:ellipsis; }
+.tr-nav{ display:flex; align-items:center; flex:none; }
+.tr-nav-b{ display:flex; align-items:center; justify-content:center; width:48px; height:48px; color:var(--mint); }
+.tr-nav-b.next .c3-ic{ transform:rotate(180deg); }
+.tr-nav-b:disabled{ color:var(--ink2); opacity:.4; }
+.tr-nav-w{ display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:76px; min-height:48px; padding:0 4px; text-align:center; white-space:nowrap; }
+.tr-nav-w b{ font-family:var(--f-body); font-weight:600; font-size:15px; line-height:1.1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.tr-nav-w span{ font-size:12.5px; line-height:1.2; font-weight:500; color:var(--ink2); }
+button.tr-nav-w span{ color:var(--ink); border-bottom:2px solid var(--mint); }
+.tr-dm{ display:none; }
+
+/* ---------- the selected day: the hero ---------- */
+.tr-day{ display:flex; flex-direction:column; gap:22px; }   /* v364: more room between sections and under the strip */
+.tr-hero{ display:grid; grid-template-columns:minmax(0, 1fr) auto; gap:10px 12px; align-items:end; }
+.tr-h-a{ grid-column:1; min-width:0; }
+.tr-h-b{ grid-column:2; display:flex; flex-direction:column; align-items:flex-end; padding-bottom:2px; }
+.tr-h-c{ grid-column:1 / -1; display:flex; flex-direction:column; gap:10px; min-width:0; }
+.tr-hero .c3-eyebrow{ font-size:13px; line-height:1.15; letter-spacing:0; }
+.tr-hero .c3-eyebrow > i{ width:22px; height:5px; }
+.tr-hero .c3-eyebrow.coral{ color:var(--ink); }
+.tr-hero .c3-eyebrow.coral > i{ background:var(--coral); box-shadow:0 0 10px var(--coral); }
+.tr-hero .c3-eyebrow.plain{ color:var(--ink2); }
+.tr-hero .c3-eyebrow.plain > i{ background:var(--ink2); box-shadow:none; }
+.tr-hero .c3-h1{ margin-top:4px; font-size:min(48px, 12.4vw); line-height:.95; }
+.tr-hero .c3-h1.len-m{ font-size:min(40px, 10.4vw); }
+.tr-hero .c3-h1.len-l{ font-size:36px; line-height:.95; white-space:normal; }
+.tr-hero .c3-h1.soft{ color:var(--ink2); }
+.tr-meta{ display:flex; flex-wrap:wrap; gap:2px 0; margin-top:10px; font-size:13px; line-height:1.3; text-transform:none; color:var(--ink); white-space:nowrap; }
+.tr-meta span:not(:last-child)::after{ content:'·'; margin:0 .7ch; color:var(--ink2); font-weight:500; }
+.tr-count{ display:flex; align-items:baseline; font-family:var(--f-num); font-weight:700; font-size:46px; line-height:.95; letter-spacing:0; color:var(--ink); text-shadow:none; white-space:nowrap; }
+.tr-count b{ font-weight:700; }
+.tr-count i{ font-style:normal; color:var(--mint-soft); margin:0 -2px; }
+.tr-count-l{ margin-top:4px; max-width:112px; font-family:var(--f-body); font-weight:600; font-size:13px; line-height:1.15; letter-spacing:0; text-transform:none; text-align:right; color:var(--mint-soft); }
+.tr-coach{ min-height:48px; }
+.tr-coach .c3-coach{ align-items:center; }
+.tr-coach .c3-coach-line{ -webkit-line-clamp:2; }
+.tr-coach.solo{ max-width:640px; }
+
+/* START / RESUME: the one primary control */
+.tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }
+.tr-start .r small{ font-size:13px; }
+.tr-start .r .c3-ic{ width:36px; height:36px; }
+.tr-quiet{ display:flex; flex-wrap:wrap; align-items:center; gap:0 22px; min-height:48px; }
+.tr-done{ display:flex; align-items:center; gap:14px; min-height:96px; border-bottom:3px solid var(--mint); }
+.tr-done .t{ font-family:var(--f-head); font-weight:900; font-size:40px; line-height:.9; letter-spacing:0; text-transform:none; color:var(--mint); text-shadow:0 1px 0 #1ED88A, 0 2px 0 #14A86B, 0 3px 0 #1F2023, 0 4px 0 #141517; }
+.tr-done .m{ margin-top:10px; font-size:14px; text-transform:none; color:var(--ink); white-space:nowrap; }
+.tr-catch{ min-height:64px; }
+.tr-undo{ display:flex; align-items:center; justify-content:space-between; gap:14px; min-height:64px; border-bottom:3px solid var(--mint); box-shadow:0 12px 20px -14px var(--mint); }
+.tr-undo .on{ display:flex; align-items:center; gap:8px; font-family:var(--f-body); font-weight:700; font-size:19px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+.tr-undo .on .c3-ic{ color:var(--mint); }
+.tr-note{ display:flex; align-items:center; gap:8px; min-height:48px; font-size:15px; line-height:1.3; font-weight:500; color:var(--ink2); }
+.tr-note.ok{ color:var(--ink); font-weight:600; }
+.tr-note.ok .c3-ic{ color:var(--mint); }
+
+/* a rest day: calm */
+.tr-hero.rest{ grid-template-columns:minmax(0, 1fr); align-items:start; }
+.tr-rest-line{ display:flex; align-items:center; gap:14px; color:var(--ink2); min-width:0; }
+.tr-rest-line > i{ flex:1 1 auto; height:2px; background:linear-gradient(90deg, rgba(237,238,239,0.468) 0%, rgba(237,238,239,0) 100%); }
+.tr-rest-line span{ font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; white-space:nowrap; }
+.tr-rest-line .c3-ic{ width:34px; height:34px; }
+.tr-stretch{ align-self:flex-start; min-height:52px; padding:0 18px; }
+
+/* ---------- the session track: a list on a phone ---------- */
+.tr-track{ border-bottom:1px solid var(--hair); --tone:#5CF2B0; --tint:rgba(92,242,176,.3); --e1:rgba(92,242,176,.8); --e2:rgba(92,242,176,.45); }
+.tr-track.coral{ --tone:#FF8A9A; --tint:rgba(255,138,154,.26); --e1:rgba(255,138,154,.75); --e2:rgba(255,138,154,.4); }
+.tr-track li{ display:grid; grid-template-columns:32px minmax(0, 1fr); column-gap:10px; align-items:start; padding:9px 0 10px; border-top:1px solid var(--hair); }
+.tr-track .top{ display:flex; padding-top:2px; }
+.tr-track .bar, .tr-track .flag{ display:none; }
+.tr-track .n{ width:30px; height:30px; flex:none; border-radius:50%; background:var(--mid); border:2px solid var(--tone); display:flex; align-items:center; justify-content:center; font-family:var(--f-num); font-weight:700; font-size:14px; color:var(--ink); }
+.tr-track li.w .n{ background:var(--mint); border:0; box-shadow:0 0 14px var(--mint); }
+.tr-track li.w .n i{ width:9px; height:9px; border-radius:50%; background:#FFFFFF; }
+.tr-track li.done .n{ background:var(--mint); border-color:var(--mint); color:var(--on-neon); }
+.tr-track .txt{ display:grid; grid-template-columns:minmax(0, 1fr) auto; column-gap:12px; align-items:center; min-width:0; }
+.tr-track .g{ grid-column:1; grid-row:1; font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--mint-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.tr-track .nm{ grid-column:1; grid-row:2 / 5; align-self:start; display:flex; align-items:flex-start; width:100%; min-height:48px; padding:3px 0 0; font-family:var(--f-body); font-weight:700; font-size:17px; line-height:1.04; letter-spacing:0; text-transform:none; text-align:left; color:var(--ink); overflow-wrap:break-word; }
+.tr-track span.nm{ min-height:0; }
+.tr-track .sx{ grid-column:2; grid-row:1; justify-self:end; font-family:var(--f-num); font-weight:700; font-size:17px; line-height:1.1; color:var(--ink); white-space:nowrap; }
+.tr-pips{ grid-column:2; grid-row:2; justify-self:end; display:flex; flex-wrap:wrap; justify-content:flex-end; gap:4px; margin-top:6px; }
+.tr-pips i{ width:18px; height:8px; border-radius:5px; border:2px solid var(--mint); }
+.tr-pips i.on{ background:var(--mint); box-shadow:0 0 8px var(--mint); }
+.tr-track .ld{ grid-column:2; grid-row:3; justify-self:end; margin-top:5px; font-family:var(--f-num); font-weight:700; font-size:14px; color:var(--ink); white-space:nowrap; }
+.tr-track .sub{ grid-column:2; grid-row:4; justify-self:end; font-family:var(--f-num); font-weight:500; font-size:12.5px; line-height:1.4; color:var(--ink2); white-space:nowrap; }
+.tr-track li.w .sub{ grid-row:2; }
+.tr-track li.w .sub.b{ grid-row:3; font-family:var(--f-body); font-size:13px; }
+
+/* ---------- depth: the picture, the quiet links ---------- */
+.tr-more{ display:grid; grid-template-columns:minmax(0, 132px) minmax(0, 1fr); gap:6px 18px; align-items:start; padding-top:12px; border-top:1px solid var(--hair); }
+.tr-pic{ grid-column:1; grid-row:1; padding-top:8px; }
+.tr-pic .c3-pic{ border-radius:12px; box-shadow:0 0 0 1px rgba(185,255,224,.6), 0 0 22px rgba(92,242,176,.4); }
+.tr-links{ grid-column:2; grid-row:1; display:flex; flex-direction:column; align-items:flex-start; }
+.tr-links .c3-link, .tr-quiet .c3-link{ font-size:15px; letter-spacing:0; min-height:0; margin:11px 0 12px; padding:3px 0 2px; white-space:nowrap; position:relative; }
+/* a quiet link is one line of type with a full 48 px to touch */
+.tr-links .c3-link::after, .tr-quiet .c3-link::after{ content:''; position:absolute; left:-6px; right:-6px; top:-12px; bottom:-13px; }
+.tr-tag{ grid-column:1 / -1; padding:6px 0 4px 4px; }
+
+/* ================= tablet, 700 and up ================= */
+@media (min-width:700px){
+  .tr{ gap:18px; }
+  .tr-hero{ gap:12px 28px; }
+  .tr-hero .c3-eyebrow{ font-size:15px; letter-spacing:0; }
+  .tr-hero .c3-eyebrow > i{ display:none; }
+  .tr-hero .c3-h1{ font-size:64px; } .tr-hero .c3-h1.len-m{ font-size:54px; } .tr-hero .c3-h1.len-l{ font-size:44px; }
+  .tr-meta{ font-size:16px; }
+  .tr-count{ font-size:84px; letter-spacing:0; text-shadow:none; }
+  .tr-count i{ margin:0 -4px; }
+  .tr-count-l{ max-width:none; font-size:17px; letter-spacing:0; white-space:nowrap; }
+  .tr-coach .c3-coach{ align-items:flex-start; }
+  .tr-coach .c3-coach-line{ -webkit-line-clamp:3; }
+  .tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }
+  .tr-start .r .c3-ic{ width:50px; height:50px; }
+  .tr-track{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:32px; }
+  .tr-more{ grid-template-columns:minmax(0, 180px) minmax(0, 1fr); gap:8px 28px; }
+  .tr-links{ flex-direction:row; flex-wrap:wrap; gap:0 28px; align-content:flex-start; }
+  .tr-rest-line span{ font-size:20px; letter-spacing:0; }
+}
+@media (min-width:700px) and (max-width:1023.98px){
+  .tr-h-c{ max-width:640px; }
+}
+/* the strip turns into columns at 860 (base.css): the head goes on one line */
+@media (min-width:860px){
+  .tr-wk-head{ gap:20px; }
+  .tr-wk-head .c3-weekhead{ flex-direction:row; flex-wrap:nowrap; align-items:center; gap:4px 24px; }
+  .tr-wk-head .c3-weekhead .c3-pills{ display:none; }
+  .tr-wk-head .c3-weekhead .prog{ display:none; }
+  .tr-wk-head .c3-weekhead .vol{ margin-left:auto; }
+  .tr-nav-b{ height:44px; width:44px; }
+  .tr-nav-w{ min-height:44px; }
+}
+
+/* ================= computer, 1024 and up ================= */
+@media (min-width:1024px){
+  .tr{ gap:20px; padding-top:12px; }
+  .tr-wk-head{ padding-bottom:4px; }
+  /* each column carries its first moves */
+  .tr-week .c3-day{ min-height:252px; }
+  .tr-dm{ display:flex; flex-direction:column; gap:6px; margin-top:8px; min-width:0; font-size:13px; font-weight:500; line-height:1.2; color:var(--ink2); text-transform:none; letter-spacing:0; }
+  .tr-dm .m{ display:flex; gap:8px; min-width:0; }
+  .tr-dm .m em{ display:block; min-width:0; font-style:normal; white-space:normal; overflow-wrap:anywhere; }   /* v367: the move's whole name, wrapped */
+  .tr-dm .m i{ flex:none; width:10px; font-style:normal; font-family:var(--f-num); font-weight:700; font-size:12px; line-height:16px; color:var(--ink); }   /* white: mint on today's mint glow measured 4.1:1 */
+  .tr-dm.num{ color:var(--ink); }
+  .tr-dm .more{ font-family:var(--f-num); font-weight:500; font-size:12px; color:var(--ink); }
+
+  .tr-day{ gap:20px; }
+  .tr-hero{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:18px 36px; }
+  .tr-h-a, .tr-h-b{ flex:0 1 auto; min-width:0; }
+  .tr-h-b{ align-items:flex-start; padding-bottom:0; }
+  .tr-count-l{ text-align:left; }
+  .tr-h-c{ flex:0 1 400px; min-width:300px; gap:14px; }
+  .tr-hero .c3-eyebrow{ font-size:16px; letter-spacing:0; }
+  .tr-hero .c3-h1{ margin-top:2px; font-size:96px; line-height:.92; } .tr-hero .c3-h1.len-m{ font-size:76px; } .tr-hero .c3-h1.len-l{ font-size:56px; max-width:520px; }
+  .tr-meta{ margin-top:14px; font-size:17px; }
+  .tr-count{ font-size:100px; letter-spacing:0; text-shadow:none; }
+  .tr-count i{ margin:0 -5px; }
+  .tr-count-l{ margin-top:8px; font-size:20px; letter-spacing:0; }
+  .tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }
+  .tr-start .r small{ font-size:14px; }
+  .tr-start .r .c3-ic{ width:54px; height:54px; }
+  .tr-quiet{ min-height:32px; margin-top:-6px; }
+  .tr-quiet .c3-link{ margin:4px 0; }
+  .tr-done{ min-height:114px; }
+  .tr-catch{ min-height:72px; font-size:30px; padding:0 22px; }
+  .tr-undo{ min-height:72px; }
+  .tr-hero.rest{ display:flex; align-items:flex-end; justify-content:flex-start; }
+  .tr-hero.rest .tr-rest-line{ flex:1 1 400px; padding-bottom:22px; gap:18px; }
+  .tr-hero.rest .tr-rest-line .c3-ic{ width:48px; height:48px; }
+  .tr-hero.rest .tr-rest-line span{ font-size:22px; }
+  .tr-hero.rest .tr-h-c{ flex:0 0 auto; min-width:0; padding-bottom:10px; }
+
+  /* the track: a lit line with a stop per move */
+  .tr-track{ display:flex; border-bottom:0; column-gap:0; }
+  .tr-track li{ flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:stretch; padding:0; border-top:0; }
+  .tr-track li.w{ flex-grow:.8; }
+  .tr-track .top{ display:flex; align-items:center; height:42px; padding:0; }
+  .tr-track .n{ width:40px; height:40px; border-width:2.5px; font-size:16px; }
+  .tr-track li.w .n{ box-shadow:0 0 18px var(--mint); }
+  .tr-track li.w .n i{ width:11px; height:11px; }
+  .tr-track .bar{ display:block; flex:1 1 auto; height:16px; background:linear-gradient(var(--tint), var(--tint)), var(--well); box-shadow:inset 0 1.5px 0 var(--e1), inset 0 -1.5px 0 var(--e2); }
+  .tr-track li.done .bar{ background:linear-gradient(rgba(92,242,176,.75), rgba(92,242,176,.75)), var(--well); }
+  .tr-track .bar.end{ border-radius:0 8px 8px 0; }
+  .tr-track .flag{ display:block; flex:none; margin:0 2px 0 10px; color:var(--mint); }
+  .tr-track.coral .flag{ color:var(--coral); }
+  .tr-track .txt{ display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:13px 14px 0 0; }
+  .tr-track .g{ font-size:14px; letter-spacing:0; max-width:100%; }
+  .tr-track .nm{ min-height:54px; padding:0; font-size:23px; }
+  .tr-track span.nm{ min-height:54px; }
+  .tr-track .sx{ justify-self:auto; margin-top:5px; font-size:24px; line-height:1; }
+  .tr-pips{ justify-self:auto; justify-content:flex-start; gap:5px; margin-top:6px; }
+  .tr-pips i{ width:22px; height:9px; }
+  .tr-track .ld{ justify-self:auto; margin-top:0; font-size:17px; }
+  .tr-track .sub{ justify-self:auto; font-size:14px; }
+  .tr-track li.w .sub{ margin-top:6px; }
+  .tr-track li.w .sub.b{ margin-top:0; font-size:14px; }
+
+  .tr-more{ grid-template-columns:150px minmax(0, 1fr) auto; gap:0 32px; align-items:center; padding-top:16px; margin-top:6px; }
+  .tr-pic{ padding-top:0; }
+  .tr-links{ gap:0 34px; }
+  .tr-links .c3-link{ font-size:16px; letter-spacing:0; }
+  .tr-tag{ grid-column:3; grid-row:1; padding:0 12px 0 0; }
+}
+@media (min-width:1024px) and (max-width:1319.98px){
+  .tr-hero{ gap:16px 28px; }
+  .tr-hero .c3-h1{ font-size:84px; } .tr-hero .c3-h1.len-m{ font-size:62px; } .tr-hero .c3-h1.len-l{ font-size:44px; max-width:340px; }
+  .tr-count{ font-size:84px; letter-spacing:0; }
+  .tr-count-l{ font-size:17px; letter-spacing:0; }
+  .tr-h-c{ flex:0 1 350px; min-width:310px; }
+  .tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }
+  .tr-start .r .c3-ic{ width:44px; height:44px; }
+}
+@media (min-width:1180px){
+  .tr-wk-head .c3-weekhead .prog{ display:inline; margin-right:0; margin-left:auto; }
+  .tr-wk-head .c3-weekhead .vol{ margin-left:0; }
+  .tr-track .nm{ font-size:26px; }
+  .tr-track .sx{ font-size:27px; }
+  .tr-pips i{ width:26px; }
+}
+@media (min-width:1320px){
+  .tr-wk-head .c3-weekhead .c3-pills{ display:flex; margin-right:0; }
+  .tr-week .c3-day{ min-height:258px; }
+  .tr-hero .c3-h1{ font-size:118px; } .tr-hero .c3-h1.len-m{ font-size:92px; } .tr-hero .c3-h1.len-l{ font-size:68px; }
+  .tr-meta{ font-size:18px; }
+  .tr-count{ font-size:124px; }
+  .tr-count i{ margin:0 -6px; }
+  .tr-count-l{ font-size:22px; letter-spacing:0; }
+  .tr-start{ font-size:var(--btn-fs); }
+}
+
+/* ================= v298: Watch beside every move ================= */
+/* the name and, right under it, the Watch control (the name used to be the hidden way in) */
+.tr-track .nw{ grid-column:1; grid-row:2 / 5; align-self:start; display:flex; flex-direction:column; align-items:flex-start; gap:6px; min-width:0; padding-bottom:2px; }
+.tr-track .nw .nm{ width:auto; }
+@media (min-width:1024px){
+  .tr-track .nw{ gap:8px; padding-bottom:0; }
+  .tr-track .nw .nm, .tr-track .nw span.nm{ min-height:54px; }
+}
+
+/* v309: "Do it today" on a rest day sits above the stretch link */
+.tr-day.rest .tr-h-c .tr-start{margin-bottom:10px}
+
+/* v315: on a phone the count and the week arrows share one row; the count wraps to a second line
+   instead of running under the arrow ("THIS WEEK" sat on top of the < at 390 px). */
+@media (max-width:460px){
+  .tr-wk-head .c3-weekhead .cnt{ white-space:normal; letter-spacing:0; line-height:1.25; }
+}
+/* v316: the deload link and the deload week, pink like the deload on its own screen */
+.tr-links .c3-link[data-hot]{ color:var(--pink-ink); border-bottom-color:var(--pink); }
+button.tr-nav-w.dl span{ color:var(--pink-ink); border-bottom-color:var(--pink); }
+/* v339: today's session leads; the week sits under it with a hairline */
+.tr.dayfirst > .tr-week{ padding-top:12px; border-top:1px solid var(--hair); }
+
+/* v345: Go live beside Edit this day (the dot is drawn in screen-today.css) */
+
+/* Long plan names and useful links keep their space at every viewport. */
+@media(max-width:699.98px){.tr-links{grid-template-columns:minmax(0,1fr)}.tr-links .c3-link{white-space:normal;max-width:100%;min-height:48px;margin:0;line-height:1.4}}
+@media(min-width:1024px){.tr-wk-head .c3-weekhead{flex-wrap:wrap}.tr-wk-head .c3-weekhead .prog{white-space:normal;flex:1 1 100%;margin:0;max-width:100%;font-size:14px;line-height:1.4;letter-spacing:0}.tr-wk-head .c3-weekhead .vol{white-space:normal;overflow:visible;min-width:0;flex:1 1 100%;margin:0}}
+.tr-start{min-width:0;max-width:100%}.tr-start .r{min-width:0;flex-shrink:1}.tr-start .r small{min-width:0;white-space:normal}.tr-start .r svg{flex-shrink:0}
+/* v360: the minutes stay on one line; the day's name may wrap, but never strands its number (LEG DAY / 2) */
+.tr-start .r small > span:last-child{ white-space:nowrap; }
+
+/* v362 (Chad, 26 Oct: "cluttered"): START is a slimmer slab (it was 104-114 px tall with the day's name inside) */
+.tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }
+.tr-start .r .c3-ic{ width:30px; height:30px; }
+@media (min-width:700px){ .tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); } .tr-start .r .c3-ic{ width:38px; height:38px; } }
+@media (min-width:1024px){ .tr-start{ min-height:var(--btn-h); font-size:var(--btn-fs); } }
+/* v362: the day's date line had about 3 px under the strip on a phone and at 700 */
+@media (max-width:1023.98px){ .tr-day{ padding-top:12px; } }
+
+/* v366: no glow under the control */
+.tr-undo{ box-shadow:none; }
+
+/* v367: one icon size in START with the one button size */
+.tr-start .r .c3-ic{ width:30px; height:30px; }
+/* v367: on a 320px phone the links sit under the picture with the full width, so no link wraps (they had 130px) */
+@media (max-width:359.98px){
+  .tr-more{ grid-template-columns:minmax(0, 1fr); }
+  .tr-pic{ max-width:132px; }
+  .tr-links{ grid-column:1; grid-row:auto; }
+}
+/* v367: on a phone a train link's line follows its words, so a link that wraps (a long translation) is underlined
+   under each line instead of a bar the width of the column */
+@media (max-width:699.98px){
+  .tr-links .c3-link{ border-bottom:0; text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:6px; }
+  .tr-links .c3-link[data-hot]{ text-decoration-color:var(--pink); }
+}
+/* v367: at 700px the hero's column (and Start) runs to the content edge (it stopped 12px short at 640px) */
+@media (min-width:700px) and (max-width:1023.98px){ .tr-h-c{ max-width:none; } }
+
+/* Compact orientation on the shared glass surface. */
+.tr-guide{margin:0;font-size:14px;line-height:1.45;color:var(--ink2);max-width:78ch;}
+
+.tr-guide{display:flex;flex-wrap:wrap;align-items:center;gap:0 14px;max-width:none;}
+.tr-guide .c3-link{font-size:14px;min-height:44px;}
+/* Counter slash must not overlap digits after global type-size overrides. */
+.tr .tr-count{gap:5px;}
+.tr .tr-count i{margin:0;font-size:.8em;}
+/* Muscle rows are real navigation targets, including on small phones. */
+.tr .c3-bm-list li,.tr .c3-bm-mu{min-height:44px;}

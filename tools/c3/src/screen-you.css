@@ -1,0 +1,254 @@
+/* C3 you. One set of pieces, three layouts:
+   phone (< 700), tablet (700-1023, one column centered at 720), computer (>= 1024, two columns).
+   Nothing boxed: hairlines, light and the picture. Every selector is under .yu. */
+
+.yu{ display:flex; flex-direction:column; gap:22px; padding-top:14px; }   /* v364: more room between sections and under the strip */
+.yu > *{ min-width:0; }
+.yu-team{ display:flex; flex-direction:column; gap:12px; min-width:0; }
+.yu .pk{ color:var(--pink-ink); }
+
+/* ---------- the picture: whole, nothing on it ---------- */
+.yu-pic .c3-pic{ border-radius:14px; box-shadow:0 0 0 1.5px rgba(92,242,176,.95), 0 0 20px rgba(92,242,176,.5), 0 10px 26px rgba(0,0,0,0.5); }
+
+/* ---------- small section label on a hairline ---------- */
+.yu-lbl{ display:flex; align-items:center; gap:12px; min-height:30px; border-bottom:0; font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.yu-lbl .c3-num{ font-size:15px; letter-spacing:0; color:var(--mint-soft); }
+
+/* ---------- the four coaches ---------- */
+.yu-coaches{ order:1; display:flex; flex-direction:column; gap:12px; }
+.yu-coaches .yu-lbl{ display:none; }
+.yu-cos{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:0 4px; }
+.yu-co{ display:flex; flex-direction:column; align-items:center; min-width:0; text-align:center; }
+.yu-face{ width:76px; height:76px; border-radius:50%; box-shadow:0 0 0 1.5px rgba(92,242,176,.9), 0 0 16px rgba(92,242,176,.45); }
+.yu-co-n{ margin-top:7px; max-width:100%; overflow:hidden; text-overflow:ellipsis; font-family:var(--f-body); font-weight:600; font-size:16px; line-height:1; letter-spacing:0; text-transform:none; white-space:nowrap; color:var(--ink); }
+.yu-co-r{ margin-top:3px; min-height:28px; max-width:100%; font-size:11.5px; line-height:14px; font-weight:600; color:var(--ink2); }
+.yu-co-n .x, .yu-co-r .x{ display:none; }
+.yu-talk{ margin-top:5px; width:100%; max-width:84px; min-width:0; padding:0; gap:6px; font-size:16px; letter-spacing:0; border-color:var(--mint); border-bottom-width:4px; border-radius:6px; background:rgba(255,255,255,.05); color:var(--mint); text-shadow:none; }
+.yu-talk.pink{ background:rgba(255,255,255,.05); border-color:var(--mint); }
+.yu-talk.pink .c3-ic{ color:var(--mint); }
+
+/* ---------- Meet the team ---------- */
+.yu-meet{ order:2; display:flex; align-items:center; gap:10px; width:100%; min-height:48px; padding:0 2px; border:0; border-bottom:2px solid var(--mint); border-radius:0; background:transparent;
+  font-family:var(--f-body); font-weight:700; font-size:15px; line-height:1; letter-spacing:0; text-transform:none; white-space:nowrap; color:var(--ink); text-shadow:none; }
+.yu-meet > .c3-ic{ width:22px; height:22px; color:var(--mint); }
+.yu-meet .n{ margin-left:auto; display:flex; align-items:center; gap:8px; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:none; }
+.yu-meet .n .c3-ic{ width:20px; height:20px; color:var(--mint); }
+
+/* ---------- who ---------- */
+.yu-me{ display:flex; flex-flow:row wrap; align-items:center; gap:6px 12px; padding-top:10px; border-top:0; }
+.yu-me > *{ flex:1 1 100%; min-width:0; }
+.yu-eye{ display:none; }
+.yu-name{ flex:0 1 auto; font-size:36px; line-height:.92; white-space:normal; overflow-wrap:anywhere; padding-bottom:8px; margin-bottom:-6px; text-shadow:var(--extrude-s); }
+.yu-name.len-m{ font-size:min(34px, 8.6vw); }
+.yu-name.len-l{ font-size:28px; line-height:1; white-space:normal; overflow-wrap:anywhere; text-shadow:var(--extrude-s); }
+.yu-who{ flex:1 1 150px; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; text-align:right; gap:2px 12px; font-size:14.5px; line-height:1.3; font-weight:600; color:var(--ink2); }
+.yu-who .s.on{ display:inline-flex; align-items:center; gap:8px; font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.yu-who .s.on > i{ width:10px; height:10px; border-radius:50%; background:var(--mint); box-shadow:0 0 10px var(--mint); }
+.yu-who .e{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-family:var(--f-num); font-weight:500; font-size:13.5px; color:var(--ink); }
+.yu-sync{ text-align:right; font-size:13.5px; line-height:1.3; font-weight:500; color:var(--ink2); }
+.yu-signin{ min-height:48px; padding:0 14px; font-size:min(22px, 5.4vw); letter-spacing:0; }
+.yu-signin > span{ min-width:0; overflow:hidden; text-overflow:ellipsis; }
+
+/* ---------- the plan ---------- */
+.yu-plan{ display:flex; flex-direction:column; gap:8px; padding-top:12px; border-top:0; }
+.yu-trial{ display:flex; align-items:baseline; gap:10px; font-family:var(--f-body); text-transform:none; color:var(--ink); white-space:nowrap; }
+.yu-tw{ display:contents; }
+.yu-tw .k{ order:1; display:flex; align-items:center; gap:10px; font-weight:900; font-size:30px; line-height:1; letter-spacing:0; text-shadow:var(--extrude-s); }
+.yu-tw .k > i{ order:2; width:7px; height:7px; border-radius:50%; background:var(--pink); box-shadow:0 0 8px var(--pink); flex:none; align-self:center; }
+.yu-n{ order:2; font-size:30px; line-height:1; color:var(--ink); text-shadow:0 3px 0 rgba(0,0,0,0.9); }
+.yu-tw .v{ order:3; font-weight:900; font-size:30px; line-height:1; letter-spacing:0; text-shadow:var(--extrude-s); }
+.yu-fact{ font-size:14px; line-height:1.3; font-weight:500; color:var(--ink); }
+.yu-plan.active .yu-fact{ display:none; }
+.yu-buy{ margin-top:4px; }
+.yu-go{ min-height:84px; font-size:44px; letter-spacing:0; }
+.yu-go .c3-ic{ width:38px; height:38px; }
+.yu-restore{ min-height:48px; border-bottom:0; font-family:var(--f-body); font-weight:700; font-size:14.5px; letter-spacing:0; text-transform:none; white-space:nowrap; text-decoration:underline; text-decoration-color:var(--pink); text-decoration-thickness:2px; text-underline-offset:4px; }
+
+/* ---------- the plan on the web: plans on hairlines, the consent box, one primary (v298) ---------- */
+.yu-plan.open .yu-fact, .yu-plan.paid .yu-fact, .yu-plan.web.active .yu-fact{ display:block; }
+.yu-opts{ display:flex; flex-direction:column; border-top:1px solid var(--hair); }
+.yu-opt{ display:grid; grid-template-columns:24px minmax(0, 1fr) auto; align-items:center; column-gap:12px; row-gap:0; width:100%; min-height:56px; padding:7px 2px; border-bottom:1px solid var(--hair); color:var(--ink); text-align:left; }
+.yu-opt .rd{ grid-column:1; grid-row:1 / span 2; width:22px; height:22px; border-radius:50%; border:2px solid var(--mint); background:rgba(255,255,255,.05); }
+.yu-opt.on .rd{ background:radial-gradient(circle, var(--mint) 0 42%, rgba(255,255,255,0.1) 48%); box-shadow:0 0 12px rgba(92,242,176,.8); }
+.yu-opt .nm{ grid-column:2; display:flex; flex-wrap:wrap; align-items:baseline; gap:0 10px; min-width:0; font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1.05; letter-spacing:0; text-transform:none; color:var(--ink); }
+.yu-opt.on .nm{ text-shadow:none; }
+.yu-opt .sv{ font-weight:800; font-size:15px; letter-spacing:0; color:var(--mint); white-space:nowrap; text-shadow:none; }
+.yu-opt .pr{ grid-column:3; grid-row:1 / span 2; display:flex; align-items:baseline; gap:2px; white-space:nowrap; font-size:14px; font-weight:600; color:var(--ink2); }
+.yu-opt .pr b{ font-size:20px; color:var(--ink); }
+.yu-opt .lf{ grid-column:2; font-size:13.5px; line-height:1.25; font-weight:600; color:var(--ink2); }
+.yu-opt .lf .c3-num{ color:var(--ink); }
+.yu-agree{ display:flex; align-items:center; gap:12px; min-height:48px; padding:4px 0; font-size:15px; line-height:1.3; font-weight:600; color:var(--ink); cursor:pointer; }
+.yu-agree input{ -webkit-appearance:none; appearance:none; flex:none; width:26px; height:26px; margin:0; border:2px solid var(--mint); border-radius:5px; background:rgba(255,255,255,.05); cursor:pointer; }
+.yu-agree input:checked{ background:var(--mint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23101113' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.500'/%3E%3C/svg%3E") center / 20px 20px no-repeat; box-shadow:0 0 12px rgba(92,242,176,.7); }
+.yu-agree a{ color:var(--ink); text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:4px; }
+.yu-go:disabled{ opacity:.5; filter:saturate(.35); animation:none; box-shadow:none; }
+/* Start Pro before the box is ticked: lit, and a tap rings the box it is waiting for */
+.yu-agree input{ transition:box-shadow .25s ease-out, transform .25s ease-out; }
+.yu-agree.yu-need input:not(:checked){ box-shadow:0 0 0 6px rgba(92,242,176,.55), 0 0 22px 6px rgba(92,242,176,.45); transform:scale(1.12); }
+.yu-agree.yu-need span{ text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:5px; }
+@media (prefers-reduced-motion: reduce){ .yu-agree input{ transition:none; } }
+.yu-go.long{ font-size:min(34px, 7.8vw); letter-spacing:0; }
+.yu-go.long .c3-ic{ width:30px; height:30px; }
+.yu-fine{ font-size:13.5px; line-height:1.35; font-weight:500; color:var(--ink2); }
+.yu-fine .c3-num{ color:var(--ink); }
+.yu-msg{ padding-left:10px; border-left:3px solid var(--coral); font-size:14.5px; line-height:1.3; font-weight:600; color:var(--ink); }
+.yu-ret{ padding-left:10px; border-left:3px solid var(--mint); font-size:15px; line-height:1.3; font-weight:600; color:var(--ink); }
+.yu-ret.canceled, .yu-ret.unconfirmed, .yu-ret.pending, .yu-ret.signin{ border-left-color:var(--amber); }
+.yu-manage{ width:100%; max-width:340px; padding:0 18px; }
+
+/* ---------- the quiet list ---------- */
+.yu-set{ display:flex; flex-direction:column; }
+.yu-list{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:0; }
+.yu-list > li{ min-width:0; border-bottom:1px solid var(--hair); }
+.yu-list > li:nth-child(odd){ padding-right:12px; }
+.yu-list > li:nth-child(even){ padding-left:12px; border-left:1px solid var(--hair); }
+.yu-list > li:last-child:nth-child(odd){ grid-column:1 / -1; padding-right:0; }
+.yu-row{ display:flex; align-items:center; gap:10px; width:100%; min-height:50px; font-family:var(--f-body); font-size:15.5px; font-weight:600; white-space:nowrap; color:var(--ink); }
+.yu-row > .c3-ic{ color:var(--ink2); }
+.yu-row > .c3-ic:first-child{ display:none; }
+.yu-row .l{ min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.yu-row .v{ margin-left:auto; font-family:var(--f-num); font-weight:500; font-size:13px; color:var(--ink2); }
+.yu-row > .c3-ic:last-child{ margin-left:auto; }
+.yu-row .v + .c3-ic:last-child{ margin-left:0; }
+
+.yu-tag{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:0 16px; padding:0 6px 0 0; }
+.yu-tag .c3-tag{ margin-left:auto; }
+.yu-build{ padding:6px 0 4px; font-size:12.5px; font-weight:500; color:var(--ink2); }
+.yu-build .c3-num{ font-weight:500; }
+
+/* ---------- tablet: one comfortable column ---------- */
+@media (min-width:700px){
+  .yu{ gap:18px; max-width:none; margin:0; padding-top:8px; }
+  .yu-team{ gap:16px; }
+  .yu-pic .c3-pic{ border-radius:16px; box-shadow:0 0 0 1.5px rgba(185,255,224,.75), 0 0 38px rgba(92,242,176,.5), 0 22px 44px -20px rgba(0,0,0,0.85); }
+  .yu-coaches .yu-lbl{ display:flex; }
+  .yu-cos{ gap:0 24px; }
+  .yu-co{ align-items:flex-start; text-align:left; }
+  .yu-face{ width:100%; max-width:150px; height:auto; aspect-ratio:1 / 1; box-shadow:0 0 26px rgba(92,242,176,.4); }
+  .yu-co-n{ margin-top:12px; font-weight:900; font-size:25px; letter-spacing:0; }
+  .yu-co-r{ margin-top:5px; min-height:36px; font-size:14.5px; line-height:18px; font-weight:500; }
+  .yu-co-n .x, .yu-co-r .x{ display:inline; }
+  .yu-talk, .yu-talk.pink{ margin-top:8px; max-width:150px; gap:8px; font-size:16px; letter-spacing:0; border:0; border-bottom:2px solid var(--mint); border-radius:0; background:transparent; color:var(--ink); text-shadow:none; }   /* v365: a word, mint */
+  .yu-talk.pink .c3-ic{ color:var(--mint); }
+  .yu-meet{ order:0; gap:14px; min-height:62px; padding:0 6px 0 2px; border:0; border-bottom:2px solid var(--mint); border-radius:0; background:none; box-shadow:none;
+    font-weight:900; font-size:34px; letter-spacing:0; color:var(--ink); text-shadow:none; }
+  .yu-meet > .c3-ic{ width:30px; height:30px; }
+  .yu-meet .n{ gap:12px; font-size:17px; }
+  .yu-meet .n .c3-ic{ width:28px; height:28px; }
+  .yu-me{ flex-flow:column nowrap; align-items:stretch; gap:8px; padding-top:14px; }
+  .yu-me > *{ flex:0 0 auto; }
+  .yu-who{ flex:0 0 auto; justify-content:flex-start; text-align:left; }
+  .yu-sync{ text-align:left; }
+  .yu-plan.active .yu-fact{ display:block; }
+  .yu-eye{ display:flex; }
+  .yu-name{ flex:0 0 auto; font-size:56px; padding-bottom:16px; margin-bottom:-10px; text-shadow:var(--extrude); }
+  .yu-name.len-m{ font-size:64px; } .yu-name.len-l{ font-size:44px; }
+  .yu-who{ font-size:15.5px; }
+  .yu-signin{ min-height:56px; max-width:460px; font-size:23px; }
+  .yu-plan{ gap:12px; padding-top:14px; }
+  .yu-trial{ align-items:center; gap:18px; }
+  .yu-tw{ display:flex; flex-direction:column; }
+  .yu-tw .k{ font-weight:800; font-size:23px; letter-spacing:0; text-shadow:none; }
+  .yu-tw .k > i{ order:2; width:7px; height:7px; border-radius:50%; box-shadow:none; }   /* v364: the small dot, no glowing dash */
+  .yu-n{ order:0; font-size:120px; text-shadow:0 5px 0 rgba(0,0,0,0.9), 0 0 46px rgba(255,79,203,.35); }
+  .yu-tw .v{ font-size:62px; line-height:.98; text-shadow:var(--extrude-s); }
+  .yu-fact{ font-size:16px; }
+  .yu-go{ min-height:104px; font-size:72px; letter-spacing:0; }
+  .yu-go .c3-ic{ width:54px; height:54px; }
+  .yu-go.long{ min-height:84px; font-size:46px; letter-spacing:0; }
+  .yu-go.long .c3-ic{ width:40px; height:40px; }
+  .yu-opt{ min-height:60px; }
+  .yu-opt .nm{ font-size:28px; }
+  .yu-opt .pr b{ font-size:22px; }
+  .yu-agree, .yu-fine{ font-size:15px; }
+  .yu-row{ font-size:16px; gap:12px; }
+  .yu-row > .c3-ic:first-child{ display:none; }   /* v365: no stock line icons on the rows, at any width */
+  .yu-list > li:nth-child(odd){ padding-right:16px; }
+  .yu-list > li:nth-child(even){ padding-left:16px; }
+}
+
+/* ---------- computer: the team on the left, you on the right ---------- */
+@media (min-width:1024px){
+  .yu{ display:grid; grid-template-columns:minmax(0, 1.5fr) minmax(0, 1fr); grid-template-rows:auto auto auto 1fr auto; column-gap:44px; row-gap:14px; max-width:none; margin:0; padding-top:20px; align-items:start; }
+  .yu-team{ grid-column:1; grid-row:1 / 6; gap:14px; }
+  .yu-me{ grid-column:2; grid-row:1; padding-top:0; border-top:0; gap:6px; }
+  .yu-plan{ grid-column:2; grid-row:2; }
+  .yu-tag{ grid-column:2; grid-row:3; padding:0 4px 0 0; }
+  .yu-tag .c3-tag{ font-size:26px; transform:rotate(-3deg); }
+  .yu-set{ grid-column:2; grid-row:4; }
+  .yu-build{ grid-column:2; grid-row:5; text-align:right; padding:0; }
+  .yu-cos{ gap:0 20px; }
+  .yu-face{ max-width:132px; }
+  .yu-co-n{ font-size:20px; letter-spacing:0; white-space:normal; }
+  .yu-co-r{ min-height:54px; }
+  .yu-name{ font-size:min(64px, 5vw); }
+  .yu-name.len-m{ font-size:min(64px, 4.4vw); } .yu-name.len-l{ font-size:min(48px, 3.4vw); }
+  .yu-n{ font-size:112px; }
+  .yu-tw .v{ font-size:58px; }
+  .yu-go{ min-height:96px; font-size:68px; }
+  .yu-go.long{ min-height:76px; font-size:min(40px, 2.9vw); }
+  .yu-opt{ min-height:54px; }
+  .yu-opt .nm{ font-size:24px; }
+  .yu-signin{ min-height:52px; max-width:none; font-size:min(23px, 1.75vw); }
+  .yu-row{ min-height:44px; font-size:15.5px; }
+  .yu-row > .c3-ic:first-child{ display:none; }
+  .yu-fact{ font-size:15px; }
+  .yu-plan{ gap:10px; }
+}
+@media (min-width:1280px){
+  .yu{ column-gap:48px; }
+  .yu-cos{ gap:0 40px; }
+  .yu-co-n{ font-size:27px; letter-spacing:0; white-space:nowrap; }
+  .yu-co-r{ min-height:36px; }
+  .yu-row > .c3-ic:first-child{ display:none; }   /* v365: no stock line icons on the rows, at any width */
+}
+/* a short computer window: the picture gives up height first so the coaches stay on the first screen */
+@media (min-width:1024px) and (max-height:940px){
+  .yu-face{ max-width:104px; }
+  .yu-meet{ min-height:54px; font-size:30px; }
+  .yu-co-n{ margin-top:10px; }
+  .yu-name{ font-size:min(60px, 5vw); }
+  .yu-n{ font-size:96px; }
+  .yu-tw .v{ font-size:52px; }
+  .yu-go{ min-height:88px; font-size:60px; }
+  .yu-go.long{ min-height:68px; font-size:min(36px, 2.9vw); }
+  .yu-plan.web{ gap:8px; }
+  .yu-opt{ min-height:48px; padding:4px 2px; }
+}
+/* v339: you and your settings first, then the plan; the team beside them on a computer, after them on a phone */
+@media (min-width:1024px){
+  .yu{ grid-template-columns:minmax(0, 1fr) minmax(0, 1.5fr); }   /* the team keeps the wide column it had, now on the right */
+  .yu-me{ grid-column:1; grid-row:1; }
+  .yu-set{ grid-column:1; grid-row:2; }
+  .yu-plan{ grid-column:1; grid-row:3; }
+  .yu-tag{ grid-column:1; grid-row:4; }
+  .yu-build{ grid-column:1; grid-row:5; }
+  .yu-team{ grid-column:2; grid-row:1 / 6; }
+}
+.yu > .yu-team{ padding-top:14px; border-top:0; }
+@media (min-width:1024px){ .yu > .yu-team{ padding-top:0; border-top:0; } }
+/* v358: a 320 px phone: Meet the team and its picture count pushed the page 4 px sideways */
+@media (max-width:379.98px){ .yu-meet{ gap:8px; padding:0 8px 0 10px; font-size:16px; letter-spacing:0; } }
+
+/* v363: the More under Settings opens the other rows in place, the same two columns, the full width */
+.yu-set .c3-more{ width:100%; }
+.yu-set .c3-more-p{ display:block; width:100%; }
+.yu-set .c3-more-p[hidden]{ display:none; }
+.yu-set .c3-more-t{ padding-top:4px; color:var(--ink); }
+
+/* v364: one color per title */
+.yu-name .pk, .yu .c3-h1 .pk{ color:inherit; }
+/* v367: a coach's Talk is a mint underlined word at every width (on a phone it was a dark tile with a rail) */
+.yu-talk, .yu-talk.pink{ min-height:44px; padding:0 2px; border:0; border-bottom:2px solid var(--mint); border-radius:0; background:transparent; color:var(--ink); text-shadow:none; }
+/* v367: Talk is a word whose line runs under it only (it was stretched to 150px) */
+.yu-talk, .yu-talk.pink{ width:auto; max-width:100%; align-self:flex-start; }
+/* v367: on a phone Talk is the word alone under each face (with the icon a translated word ran out of its column) */
+@media (max-width:699.98px){ .yu-talk .c3-ic{ display:none; } }
+.yu-talk, .yu-talk.pink{ min-width:44px; justify-content:center; }
+@media (max-width:359.98px){ .yu-talk, .yu-talk.pink{ font-size:14px; } }
+
+
+/* lane G polish: one plain guidance line under the name; plan radios stay round */
+.yu-guide{ margin:6px 0 0; font-size:13.5px; line-height:1.4; font-weight:600; color:var(--ink2); max-width:46ch; }
+.yu-opt .rd{ align-self:center; justify-self:center; flex:none; box-sizing:border-box; width:22px !important; height:22px !important; min-width:22px; min-height:22px; max-width:22px; max-height:22px; }
+.yu-opt.on .rd{ border-color:var(--mint); }

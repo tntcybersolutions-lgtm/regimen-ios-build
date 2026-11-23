@@ -1,0 +1,156 @@
+/* C3 chrome: the bar on top, the tabs at the bottom of a phone or tablet. */
+
+.c3-top{ width:100%; max-width:var(--maxw); margin:0 auto; padding:0 var(--gut); }
+/* Shared navigation stays reachable at the end of long pages. */
+.c3[data-mode="on"] .c3-top{position:sticky;top:0;z-index:130;background:#17191D;flex:none;}
+.c3-routebar{display:flex;align-items:center;gap:12px;min-height:48px;border-bottom:1px solid var(--hair);}
+.c3-route-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-transform:capitalize;color:var(--ink2);font-size:14px;}
+.c3-route-home{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;color:var(--ink);font-size:14px;text-decoration:underline;text-decoration-color:var(--mint);text-underline-offset:5px;}
+.c3:has(.c3-routebar) .c3-screen .yd-back{display:none;}
+/* iPhone shell: the bar starts below the notch and keeps clear of the rounded corners in landscape */
+.c3[data-mode="on"] .c3-top{ padding-top:env(safe-area-inset-top, 0px); padding-left:max(var(--gut), env(safe-area-inset-left, 0px)); padding-right:max(var(--gut), env(safe-area-inset-right, 0px)); }
+.c3.bare .c3-top, .c3.bare .c3-tabs-host{ display:none; }
+
+.c3-bar{ display:flex; align-items:center; justify-content:space-between; gap:0 12px; min-height:var(--bar-h); padding-top:4px; }
+.c3-bar-l{ display:flex; align-items:center; gap:10px; min-width:0; flex:1 1 0; }
+.c3-bar-r{ display:flex; align-items:center; justify-content:flex-end; gap:6px; min-width:0; flex:1 1 0; }
+.c3-logo{ display:flex; align-items:center; flex:none; min-height:48px; }
+.c3-logo svg{ width:104px; height:auto; aspect-ratio:104 / 34; overflow:visible; }
+/* v338: the app's name beside the mark: formed (the beads) + STACK */
+.c3-logo-w{ margin:6px 0 0 8px; font-family:var(--f-head); font-weight:900; font-size:27px; line-height:1; letter-spacing:0; text-transform:none; color:var(--pink); text-shadow:0 0 14px rgba(255,79,203,.5), var(--extrude-s); white-space:nowrap; }
+.c3-nav, .c3-log, .c3-you-t, .c3-trial .w{ display:none; }
+.c3-trial{ font-size:12.5px; font-weight:500; color:var(--ink2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
+@media (max-width:519.98px){ .c3-trial{ white-space:normal; max-width:52px; line-height:1.1; text-align:right; overflow:visible; margin-right:2px; } }   /* v342: a phone stacks the short word (Trial / ended) beside the icons, set apart from the logo and never cut */
+.c3-you{ display:flex; align-items:center; justify-content:center; gap:10px; min-width:48px; min-height:48px; flex:none; color:var(--ink); font-size:15px; font-weight:600; }
+.c3-you-ic{ display:flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:50%; border:2px solid var(--ink2); }
+.c3-you[aria-current="page"] .c3-you-ic{ border-color:var(--mint); box-shadow:none; }   /* v367: no glow */
+.c3-you-ic svg{ width:18px; height:18px; }
+
+/* Back, over a deep screen */
+.c3-back{ display:inline-flex; align-items:center; gap:4px; min-height:44px; padding:0 10px 0 0; border:0; border-radius:0; background:transparent;   /* v364: a back arrow and a word, no box */
+  font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; flex:none; }
+.c3-back .c3-ic{ color:var(--mint); }   /* v365: mint for actions */
+.c3-deep-name{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+
+/* over a deep screen the bar is fixed: the old screen scrolls under it */
+.c3[data-mode="deep"] .c3-top{ position:fixed; left:0; right:0; top:0; z-index:130; max-width:none; background:linear-gradient(180deg, #27292D 0%, #24262A 100%); border-bottom:1px solid var(--hair); box-shadow:0 8px 18px -12px rgba(0,0,0,0.8); padding-top:env(safe-area-inset-top, 0px); padding-left:max(var(--gut), env(safe-area-inset-left, 0px)); padding-right:max(var(--gut), env(safe-area-inset-right, 0px)); }
+.c3-bar.first{ justify-content:flex-start; }
+.c3-bar.first .c3-deep-name{ display:inline !important; }
+.c3[data-mode="deep"] .c3-bar{ max-width:var(--maxw); margin:0 auto; padding-top:0; }
+.c3[data-mode="deep"] .c3-logo{ display:none; }
+.c3[data-mode="deep"] .c3-trial{ display:none; }
+
+/* ---------- the bottom tabs (phone, tablet) ---------- */
+.c3-tabs{ position:fixed; left:0; right:0; bottom:0; z-index:130; display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); align-items:center;
+  min-height:var(--tabs-h); padding:0 max(6px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(6px, env(safe-area-inset-left, 0px)); border-top:1px solid var(--hair); background:#17181A; }
+.c3-tab{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; min-width:0; height:63px; border-top:3px solid transparent; color:var(--ink);
+  font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; }   /* v364: plain words */
+.c3-tab[aria-current="page"]{ border-top-color:var(--mint); color:var(--mint-soft); }
+.c3-tab > span{ max-width:100%; }
+@media (max-width:519.98px){ .c3-tab{ font-size:10.5px; letter-spacing:0; } }
+.c3-tab-mid{ display:flex; align-items:center; justify-content:center; }
+.c3-tab-log{ display:flex; align-items:center; justify-content:center; width:52px; height:52px; border:0; border-radius:50%; background:var(--mint); color:var(--on-neon); }   /* v367: a mint disc in the bar (it was an outlined box) */
+@media (min-width:700px){ .c3-tabs{ padding-left:calc((100% - 660px) / 2); padding-right:calc((100% - 660px) / 2); } }
+
+/* ---------- computer ---------- */
+@media (min-width:1024px){
+  .c3-tabs-host{ display:none; }
+  .c3-bar{ gap:0 24px; padding-top:0; border-bottom:1px solid var(--hair); }
+  .c3[data-mode="deep"] .c3-bar{ border-bottom:0; }
+  .c3-bar-l{ min-width:136px; gap:14px; flex:0 0 auto; }
+  .c3-bar-r{ gap:20px; min-width:0; }
+  .c3-logo svg{ width:126px; }
+  .c3-logo-w{ font-size:31px; margin-left:10px; }
+  .c3[data-mode="deep"] .c3-logo{ display:flex; }
+  .c3-nav{ display:flex; align-items:center; gap:24px; flex:none; }
+  .c3-nav button{ display:flex; align-items:center; height:var(--bar-h); padding:3px 6px 0; border-bottom:3px solid transparent; color:var(--ink2);
+    font-family:var(--f-body); font-weight:600; font-size:17px; letter-spacing:0; text-transform:none; }   /* v364: plain words */
+  .c3-nav button[aria-current="page"]{ border-bottom-color:var(--mint); color:var(--ink); }
+  .c3-trial{ font-size:14px; }
+  .c3-trial .w{ display:inline; } .c3-trial .n{ display:none; }
+  .c3-log{ display:flex; align-items:center; gap:8px; height:44px; padding:0 16px; border:0; border-radius:6px; background:var(--mint); color:var(--on-neon); flex:none;   /* v365: mint for actions */
+    font-family:var(--f-body); font-weight:700; font-size:15px; letter-spacing:0; text-transform:none; }
+  .c3-log .c3-ic{ color:var(--on-neon); }
+  .c3-you{ min-height:44px; }
+  .c3-you-t{ display:inline; }
+  .c3-you-ic{ width:38px; height:38px; }
+  .c3-you-ic svg{ width:20px; height:20px; }
+  .c3-back{ min-height:40px; }
+  .c3[data-mode="deep"] .c3-deep-name{ display:none; }
+}
+@media (min-width:1280px){
+  .c3-bar-l{ flex:1 1 0; }
+  .c3-nav{ gap:44px; }
+  .c3[data-mode="deep"] .c3-trial{ display:inline; }
+  .c3[data-mode="deep"] .c3-deep-name{ display:inline; }
+}
+
+/* v309: the answer under a coach's question, baked into the page, not floating */
+.c3-coach-ask{display:flex;align-items:center;gap:18px;margin:10px 0 0 68px;flex-wrap:wrap}
+.c3-coach-ask .c3-btn-rail{min-height:52px;font-size:18px;padding:0 22px}
+.c3-coach-ask .c3-link{font-size:16px}
+@media (max-width:520px){ .c3-coach-ask{margin-left:0} }
+
+/* v333: Progress beside You on a phone (the computer's bar has it in the nav) */
+.c3-prog{ display:flex; align-items:center; justify-content:center; min-width:48px; min-height:48px; flex:none; color:var(--ink); }
+.c3-prog svg{ width:24px; height:24px; }
+.c3-prog[aria-current="page"]{ color:var(--mint-soft); }
+@media (min-width:1024px){ .c3-prog{ display:none; } }
+
+/* v344: the sync mark (signed in): a cloud and, from a tablet up, the words; 44 px; never blue type */
+.c3-sync{ display:inline-flex; align-items:center; justify-content:center; gap:6px; min-width:44px; min-height:44px; flex:none; padding:0 4px; color:var(--mint); }
+.c3-sync .w{ display:none; font-size:13px; font-weight:600; color:var(--ink2); white-space:nowrap; }
+.c3-sync.busy{ color:var(--ink2); } .c3-sync.err{ color:var(--coral); } .c3-sync.off{ color:var(--ink2); }   /* v362: saved on this device only is a calm state, not an amber warning on every screen; a failed save stays coral */
+.c3-sync.err .w{ color:var(--ink); }
+@media (min-width:700px){ .c3-sync .w{ display:inline; } }
+/* v348.1: the trial line never gives up its room to the sync mark (signed in, both show; the trial words were squeezed to
+   nothing). On a narrow phone the mark says only what needs attention: Saved goes quiet, Saving / not synced / offline show. */
+.c3-bar-r .c3-trial{ flex:0 0 auto; }
+@media (max-width:419.98px){ .c3-sync.ok.has-trial{ display:none; } }
+/* v348.1: a computer under 1280 px: the five tabs and the right side shared the bar and the trial words ran over Progress
+   (a click on Progress landed on "Trial: 3 days left"). There the right side is short: the trial's short word, the sync
+   mark without its words, You without its label. */
+@media (min-width:1024px) and (max-width:1279.98px){
+  .c3-trial .w{ display:none; } .c3-trial .n{ display:inline; }
+  .c3-sync .w{ display:none; }
+  .c3-you-t{ display:none; }
+  .c3-bar{ gap:0 16px; }
+  .c3-nav{ gap:12px; }
+  .c3-nav button{ font-size:19px; letter-spacing:0; padding:3px 4px 0; }
+}
+
+/* Daily experience: five destinations, one consistent tool index. */
+.c3-tools{display:flex;align-items:center;justify-content:center;gap:6px;min-height:48px;min-width:48px;color:var(--ink);font-size:13px;white-space:nowrap;flex:none}.c3-tools[aria-current="page"]{color:var(--mint)}.c3-tools span{display:none}
+@media(min-width:520px){.c3-tools span{display:inline}}
+@media(min-width:1024px){.c3-bar{gap:0 14px}.c3-nav{gap:18px}.c3-bar-r{gap:10px}.c3-logo svg{width:104px}.c3-logo-w{font-size:24px;margin-left:6px}.c3-nav button{font-size:19px;letter-spacing:0}.c3-trial .w{display:none}.c3-trial .n{display:inline}.c3-sync .w{display:none}.c3-you-t{display:none}.c3-bar-l{flex:0 0 auto;min-width:0}}
+@media(min-width:1440px){.c3-nav{gap:30px}.c3-nav button{font-size:22px}.c3-bar-r{gap:18px}.c3-sync .w{display:inline}}
+@media(max-width:419.98px){.c3-logo svg{width:85px}.c3-logo-w{font-size:21px;letter-spacing:0;margin-left:4px}.c3-bar{gap:4px}.c3-bar-r{gap:0}.c3-trial{font-size:11px;max-width:44px}}
+
+.c3-product-name{margin:0;padding-top:7px;font-size:11px;line-height:1.2;font-weight:700;letter-spacing:0;text-transform:none;color:var(--ink2)}
+
+.c3-resume{display:flex;align-items:center;gap:12px;width:100%;min-height:44px;padding:8px 0;border-bottom:1px solid var(--hair);color:var(--ink);font-size:14px}.c3-resume b{margin-left:auto;font-family:var(--f-num);font-size:13px}.c3-resume svg{color:var(--mint)}
+
+@media(max-width:519.98px){.c3-tools{flex-direction:column;gap:1px}.c3-tools span{display:inline;font-size:10px;line-height:1.1}}/* v373: fit shows beside the mark on every phone (it was hidden under 420 px from when the word was longer) */
+/* v358: the save status is the cloud icon alone (its name is on it for a screen reader and on hover); words only when a save failed */
+.c3-bar .c3-sync .w{ display:none !important; }   /* a failed save says it in the line under the bar, at every width */
+/* v362: on a phone and the side panel the search icon stands alone (its "All tools" caption was a fourth line of tiny
+   type in the bar); its name stays on it for a screen reader and on hover, and the word shows from 1024 px */
+@media (max-width:1023.98px){ .c3-bar .c3-tools span{ display:none; } .c3-bar .c3-tools{ flex-direction:row; } }
+/* v367: on a computer the header's Log is an outlined mint pill, a second action like every other; filled mint is the
+   screen's one primary (it was a second filled box beside Start my day) */
+@media (min-width:1024px){
+  .c3-log{ border:2px solid var(--mint); border-radius:999px; background:transparent; color:var(--ink); box-shadow:none; }
+  .c3-log .c3-ic{ color:var(--mint); }
+}
+
+
+
+/* the You face's account menu (the log out drop down) */
+.c3-you-wrap{ position:relative; display:flex; flex:none; }
+.c3-you-menu{ position:absolute; top:calc(100% + 6px); right:0; z-index:140; display:flex; flex-direction:column; min-width:170px; padding:6px; background:var(--lit); border:1px solid var(--hair); border-radius:14px; box-shadow:0 14px 34px rgba(0,0,0,.45); }
+.c3-you-menu[hidden]{ display:none; }
+.c3-you-menu button{ display:flex; align-items:center; gap:10px; min-height:44px; padding:10px 14px; border:0; border-radius:10px; background:none; color:var(--ink); font-family:var(--f-body); font-size:15px; font-weight:600; text-align:left; cursor:pointer; }
+.c3-you-menu button:hover{ background:var(--well); }
+.c3-you-menu button svg{ flex:none; }
+
+

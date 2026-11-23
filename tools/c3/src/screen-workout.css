@@ -1,0 +1,394 @@
+/* C3 workout: full screen, one column, one thumb. Three states: .set, .rest, .done.
+   Phone first; on a tablet or a computer it is the same column, centered at 520 px
+   on the page ground, never stretched. */
+
+.wk{ position:relative; display:flex; flex-direction:column; justify-content:space-between; gap:6px; width:100%; max-width:520px; margin:0 auto;
+  min-height:100vh; min-height:100dvh; padding:calc(4px + env(safe-area-inset-top, 0px)) 20px calc(10px + env(safe-area-inset-bottom, 0px)); }
+.wk > *{ min-width:0; }
+/* --wk-h: the height a person can really use (the screen less the notch and the home indicator).
+   --wk-k: how far that is above a short phone, 0 px at 728 and 40 px from 768 up. The type and the
+   controls of the set screen take their size from it, so the screen gives way smoothly on a
+   short phone and inside the iPhone shell instead of pushing COMPLETE SET off the bottom. */
+.wk{ --wk-h:calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); --wk-k:clamp(0px, calc(var(--wk-h) - 728px), 40px); }
+.wk.set{ background:none; }   /* v360: a light spotlight behind the lift read as a gray patch on black */
+.wk.rest{ background:radial-gradient(250px 250px at 50% 250px, rgba(255,79,203,.2) 0%, rgba(255,79,203,0) 100%); }
+.wk.done{ background:radial-gradient(250px 300px at 34% 388px, rgba(92,242,176,.3) 0%, rgba(92,242,176,0) 100%); padding-top:calc(18px + env(safe-area-inset-top, 0px)); padding-bottom:calc(14px + env(safe-area-inset-bottom, 0px)); }
+
+/* ---------- the top: End, the session, 2 / 6, the track ---------- */
+.wk-top{ display:grid; grid-template-columns:auto minmax(0, 1fr) auto; align-items:center; gap:0 10px; height:48px; }
+.wk-top{position:sticky;top:env(safe-area-inset-top,0px);z-index:130;background:#17191D;flex:none;}
+.wk-end{ justify-self:start; display:flex; align-items:center; gap:6px; height:48px; min-width:48px; padding:0 14px 0 0; font-size:16px; font-weight:700; color:var(--ink); }
+.wk-name{ justify-self:center; max-width:100%; overflow:hidden; text-overflow:ellipsis; font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+.wk-of{ justify-self:end; min-width:62px; text-align:right; font-size:16px; color:var(--ink); white-space:nowrap; }
+/* Finish early: a quiet link in the top row; armed, it takes the row and asks with the real count */
+.wk-top.can{ grid-template-columns:auto minmax(0, 1fr) auto auto; }
+.wk-top.can .wk-of{ min-width:0; }
+.wk-top.ask{ grid-template-columns:auto minmax(0, 1fr); }
+.wk-fin{ justify-self:end; display:inline-flex; align-items:center; justify-content:center; min-height:48px; min-width:48px; padding:0 2px; font-family:var(--f-body); font-weight:600; font-size:13.5px; letter-spacing:0; text-transform:none; color:var(--ink2); white-space:nowrap; }
+.wk-fin:not(.on){ text-decoration:underline; text-decoration-color:rgba(237,238,239,0.383); text-underline-offset:5px; }
+.wk-fin.on{ justify-self:stretch; min-width:0; padding:0 12px; height:40px; min-height:44px; border-radius:999px; color:var(--ink); box-shadow:inset 0 0 0 2px var(--pink); overflow:hidden; text-overflow:ellipsis; }
+.wk-dn-e{ font-size:.5em; letter-spacing:0; color:var(--ink2); white-space:nowrap; }
+.wk-segs{ display:flex; gap:5px; }
+.wk-segs > span{ flex:1 1 0; height:10px; border-radius:5px; background:var(--well); box-shadow:inset 0 0 0 1px rgba(92,242,176,.3); overflow:hidden; }
+.wk-segs > span.on{ box-shadow:inset 0 0 0 2px var(--mint), 0 0 10px rgba(92,242,176,.7); }
+.wk-segs i{ display:block; height:10px; border-radius:5px; background:var(--mint); transition:width .4s ease; }
+.wk-row{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-top:9px; }
+.wk-hard{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+.wk-hard b{ font-size:16px; letter-spacing:0; }
+.wk-restw{ display:flex; align-items:center; gap:6px; font-size:13px; text-transform:none; color:var(--ink2); white-space:nowrap; }
+
+/* ---------- the move ---------- */
+.wk-muscle{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.wk-move{ margin-top:3px; font-family:var(--f-head); font-weight:900; font-size:35px; font-size:calc(29px + var(--wk-k) * .15); line-height:.95; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); overflow-wrap:break-word; }
+.wk-move.long{ font-size:28px; font-size:calc(24px + var(--wk-k) * .1); }
+.wk-links{ display:flex; flex-wrap:wrap; gap:0 20px; margin-top:2px; }
+.wk-link{ display:inline-flex; align-items:center; min-height:48px; font-family:var(--f-body); font-weight:600; font-size:14.5px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap;
+  text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:5px; }
+/* a short word ("How") is narrower than a finger: the place to press reaches 8 px past it on each side */
+.wk-link{ position:relative; }
+.wk-link::after{ content:''; position:absolute; top:0; bottom:0; left:-8px; right:-8px; }
+
+/* ---------- the ring and the load ---------- */
+.wk-c{ display:flex; flex-direction:column; align-items:center; }
+.wk-ring{ position:relative; width:236px; width:clamp(104px, calc(var(--wk-h) - 636px), 236px); aspect-ratio:1 / 1; flex:none; container-type:inline-size; }
+.wk-ring > svg{ width:100%; height:100%; overflow:visible; }
+.wk-load{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; pointer-events:none; text-align:center; white-space:nowrap; color:var(--ink); text-shadow:0 4px 0 rgba(0,0,0,0.9); }
+.wk-load-n{ font-family:var(--f-num); font-weight:700; font-size:84px; font-size:35.6cqw; line-height:1; letter-spacing:0; }
+.wk-load-n.sm{ font-size:64px; font-size:27.5cqw; }
+.wk-load-n.xs{ font-size:52px; font-size:22.5cqw; }
+.wk-load-u{ margin-top:2px; font-family:var(--f-body); font-weight:700; font-size:16px; font-size:16px; line-height:1; letter-spacing:0; padding-left:.25em; text-transform:none; color:var(--mint-soft); }
+.wk-load-w{ font-family:var(--f-head); font-weight:900; font-size:29px; font-size:12.3cqw; line-height:1; letter-spacing:0; text-transform:none; }
+.wk-setline{ margin-top:10px; font-family:var(--f-head); font-weight:800; font-size:28px; font-size:calc(24px + var(--wk-k) * .1); line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+.wk-setline b{ font-family:var(--f-num); font-weight:700; font-size:25px; font-size:calc(22px + var(--wk-k) * .075); letter-spacing:0; }
+.wk-setline i{ font-style:normal; color:var(--mint-soft); }
+.wk.warm .wk-setline{ color:var(--ink2); }
+.wk-last{ margin-top:6px; font-size:14px; font-weight:500; color:var(--ink2); text-align:center; }
+
+/* plates per side */
+.wk-plates{ display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px; }
+.wk-plates:empty{ display:none; }
+.wk-plates-pic{ flex:0 1 auto; height:44px; width:auto; max-width:52%; }
+.wk-plates-t{ display:flex; flex-direction:column; align-items:flex-end; min-width:0; }
+.wk-plates-t .c3-num{ font-size:19px; color:var(--ink); white-space:nowrap; }
+.wk-plates-t span + span{ font-family:var(--f-body); font-weight:600; font-size:13.5px; letter-spacing:0; text-transform:none; color:var(--ink2); white-space:nowrap; }
+
+/* ---------- the steppers ---------- */
+.wk-steps{ display:flex; flex-direction:column; gap:8px; padding:8px 0; }   /* v365: no lines above and below */
+.wk-step{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.wk-pm{ flex:none; display:flex; align-items:center; justify-content:center; width:84px; height:56px; height:calc(52px + var(--wk-k) * .1); background:rgba(255,255,255,.05); border:2px solid var(--mint); border-bottom-width:4px; border-radius:6px; color:var(--mint); }
+.wk-pm:active{ transform:translateY(1px); background:rgba(92,242,176,.2); }
+.wk-pm:disabled{ opacity:.38; border-style:dashed; }                     /* at the end of its range (the empty bar, one rep) */
+.wk-val{ display:flex; align-items:baseline; justify-content:center; gap:10px; min-width:0; }
+.wk-val .v{ font-size:48px; font-size:calc(40px + var(--wk-k) * .2); line-height:1; color:var(--ink); }
+.wk-val .u{ font-family:var(--f-body); font-weight:700; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+
+/* ---------- the one control, in the thumb zone ---------- */
+.wk-cta-rail{ border-bottom:3px solid var(--mint); box-shadow:0 14px 22px -14px var(--mint); container-type:inline-size; }
+.wk-cta-rail.pink{ border-bottom-color:var(--pink); box-shadow:0 14px 22px -14px var(--pink); }
+.wk-cta{ display:flex; align-items:center; justify-content:center; gap:10px; width:100%; height:100px; height:calc(88px + var(--wk-k) * .3); padding:0 12px; background:linear-gradient(180deg, #96FFD6 0%, #5CF2B0 42%, #1ED88A 100%); border-radius:6px 6px 0 0;
+  color:var(--on-neon); font-family:var(--f-head); font-weight:900; font-size:clamp(22px,8vw,36px); font-size:clamp(22px,9cqw,40px); letter-spacing:0; text-transform:none; }
+.wk-cta>span{min-width:0;white-space:normal;line-height:1.05}.wk-cta>.c3-ic{flex:none}
+.wk-cta.pink{ background:linear-gradient(180deg, #FF9BE2 0%, #FF4FCB 45%, #E22BAF 100%); }
+.wk-cta.back{ justify-content:space-between; gap:8px; padding:0 20px; font-size:min(40px, 9.6vw); letter-spacing:0; }
+.wk-cta.back > span{ min-width:0; }
+.wk-cta.back > .c3-ic{ flex:none; width:min(34px, 8vw); height:min(34px, 8vw); }
+.wk-cta:active{ transform:translateY(2px); }
+.wk-foot{ display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:48px; }
+.wk-next{ min-width:0; overflow:hidden; text-overflow:ellipsis; font-size:14px; line-height:1.2; font-weight:600; color:var(--ink); white-space:nowrap; }
+
+/* ---------- REST ---------- */
+.wk-clock{ position:relative; align-self:center; width:284px; width:clamp(170px, min(74vw, calc(var(--wk-h) - 560px)), 284px); aspect-ratio:1 / 1; flex:none; container-type:inline-size; }
+.wk-clock > svg{ width:100%; height:100%; overflow:visible; }
+.wk-clock-mid{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; pointer-events:none; white-space:nowrap; }
+.wk-clock-mid .t{ font-family:var(--f-body); font-weight:700; font-size:16px; font-size:16px; line-height:1; letter-spacing:0; padding-left:.4em; text-transform:none; color:var(--ink); text-shadow:0 0 12px rgba(255,79,203,.8); }
+.wk-clock-mid .n{ margin:.04em 0; font-size:112px; font-size:39.4cqw; line-height:1; letter-spacing:0; color:var(--ink); text-shadow:0 4px 0 rgba(0,0,0,0.9); }
+.wk-clock-mid .s{ font-family:var(--f-body); font-weight:700; font-size:15px; font-size:15px; line-height:1; letter-spacing:0; padding-left:.33em; text-transform:none; color:var(--ink2); }
+.wk-up{ text-align:center; }
+.wk-up-l{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.wk-up-big{ display:flex; align-items:center; justify-content:center; min-height:72px; margin-top:2px; font-family:var(--f-head); font-weight:900; font-size:60px; line-height:.95; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); overflow-wrap:anywhere; }
+.wk-up-big.name{ font-size:36px; }
+.wk-up-big.long{ font-size:30px; }
+.wk-up-sub{ margin-top:4px; font-size:14px; text-transform:none; color:var(--ink); }
+.wk-up-log{ margin-top:6px; font-size:14px; font-weight:500; color:var(--ink2); }
+.wk-up-log b, .wk-last b{ font-family:var(--f-body); font-weight:600; letter-spacing:0; text-transform:none; color:var(--mint); }
+.wk-row.line{ align-items:center; margin-top:0; padding:10px 0; border-top:1px solid var(--hair); }
+.wk-row.line .wk-hard{ font-size:15px; letter-spacing:0; }
+.wk-more{ flex:none; width:124px; height:56px; background:rgba(255,255,255,.05); border:2px solid var(--mint); border-bottom-width:4px; border-radius:6px; color:var(--mint); font-size:19px; text-align:center; white-space:nowrap; text-shadow:0 0 10px rgba(92,242,176,.7); }
+.wk.rest .wk-foot{ justify-content:center; }
+.wk.rest .wk-next{ display:none; }
+
+/* ---------- DONE ---------- */
+.wk-dn{ font-family:var(--f-head); font-weight:900; font-size:60px; line-height:.9; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude); overflow-wrap:break-word; }
+.wk-dn.long{ font-size:40px; line-height:.95; }
+.wk-dd{ display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin-top:8px; }
+.wk-done-w{ font-family:var(--f-head); font-weight:900; font-size:120px; line-height:.8; letter-spacing:0; text-transform:none; color:var(--mint);
+  text-shadow:0 1px 0 #1ED88A, 0 2px 0 #14A86B, 0 3px 0 #0C7A63, 0 4px 0 #1F2023, 0 5px 0 #141517, 0 10px 18px rgba(0,0,0,0.55), 0 0 26px rgba(92,242,176,.45); }
+.wk-tag{ flex:0 1 auto; min-width:0; margin-right:8px; padding-bottom:14px; white-space:nowrap; font-family:var(--f-tag); font-size:19px; line-height:1.1; color:var(--marker); transform:rotate(-6deg); text-align:center; text-shadow:0 0 14px rgba(255,228,92,.45); }
+.wk-dm{ display:flex; align-items:stretch; justify-content:space-between; gap:14px; }
+.wk-dpic{ flex:0 1 220px; flex-basis:clamp(120px, calc((100dvh - 500px) * .667), 220px); min-width:0; max-width:calc(100% - 130px); }
+.wk-dpic .c3-pic{ border-radius:14px; box-shadow:0 0 4px rgba(185,255,224,.9), 0 0 26px rgba(92,242,176,.6); }
+.wk-dside{ flex:0 0 116px; display:flex; flex-direction:column; justify-content:space-between; gap:12px; min-width:0; }
+.wk-dring .l{ margin-top:8px; text-align:center; font-family:var(--f-body); font-weight:600; font-size:13px; line-height:1.1; letter-spacing:0; text-transform:none; color:var(--mint-soft); white-space:nowrap; }
+.wk-meters{ display:flex; flex-direction:column; gap:10px; }
+.wk-m{ display:flex; flex-direction:column; align-items:flex-start; min-width:0; }
+.wk-m .k{ display:flex; align-items:center; gap:6px; font-family:var(--f-body); font-weight:600; font-size:13px; line-height:1.1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.wk-m .k i{ width:14px; height:5px; border-radius:3px; background:var(--c); box-shadow:0 0 8px var(--c); }
+.wk-m.train{ --c:#5CF2B0; } .wk-m.protein{ --c:#FF4FCB; } .wk-m.water{ --c:#7FB0FF; } .wk-m.steps{ --c:#FFB85C; }
+.wk-m .v{ margin-top:2px; font-size:14px; line-height:1.2; color:var(--ink); white-space:nowrap; }
+.wk-stats{ display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); padding:12px 0; border-top:1px solid var(--hair); border-bottom:1px solid var(--hair); }
+.wk-stats > div{ display:flex; flex-direction:column; align-items:center; gap:6px; min-width:0; border-left:1px solid var(--hair); }
+.wk-stats > div:first-child{ border-left:0; }
+.wk-stats b{ font-size:23px; line-height:1; text-transform:none; color:var(--ink); white-space:nowrap; }
+.wk-stats span{ font-family:var(--f-body); font-weight:600; font-size:13px; line-height:1; letter-spacing:0; text-transform:none; color:var(--mint-soft); white-space:nowrap; }
+.wk-recs{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; font-size:14px; font-weight:500; color:var(--ink); }
+.wk-recs .k{ font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--mint); }
+.wk-recs .r b{ font-weight:700; }
+
+/* ---------- short screens: the type gives way before the control does ---------- */
+@media (max-height:740px){
+  .wk-done-w{ font-size:96px; } .wk-dn{ font-size:48px; }
+}
+/* v320: a laptop at 768 tall: the coach's line on DONE is one of many and runs two or three lines, and the third
+   pushed the control under the fold (1024 x 768). The type gives way here too. */
+@media (min-width:700px) and (max-height:820px){
+  .wk-done-w{ font-size:96px; } .wk-dn{ font-size:48px; }
+}
+@media (max-width:359.98px){
+  .wk{ padding-left:14px; padding-right:14px; }
+  .wk-pm{ width:72px; }
+  .wk-setline{ font-size:24px; letter-spacing:0; } .wk-setline b{ font-size:22px; }
+  .wk-done-w{ font-size:100px; }
+  .wk-tag{ font-size:15px; margin-right:4px; }
+}
+
+/* ---------- tablet and computer: the same column, centered ---------- */
+@media (min-width:700px){
+  .wk{ min-height:min(100dvh, 940px); padding-left:0; padding-right:0; margin-top:max(0px, calc((100dvh - 940px) / 2)); }
+  .wk-dpic{ flex-basis:clamp(150px, calc((100dvh - 480px) * .667), 300px); }
+  .wk-dside{ flex-basis:150px; }
+  .wk-m .k{ font-size:15px; } .wk-m .v{ font-size:16px; }
+  .wk-stats b{ font-size:28px; }
+}
+
+/* ================= v298: Watch, on the move in hand and on the one coming ================= */
+/* the Watch control leads the row of quiet links (it took the place of "How") */
+.wk-links{ align-items:center; gap:0 16px; }
+.wk-links .wk-watch{ margin-right:2px; }
+/* a gym screen at every width: the control keeps its full 48 px (base.css makes it smaller for a mouse) */
+.wk .c3-watch{ min-height:48px; padding:0 12px; border-bottom-width:4px; font-size:15px; }
+/* "Up next: <move>" is itself the way to watch that move */
+button.wk-next{ flex:0 1 auto; display:flex; align-items:center; gap:10px; min-height:48px; text-align:left; }
+button.wk-next .t{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+button.wk-next .w{ flex:none; gap:5px; min-height:0; }
+button.wk-next .w .c3-ic{ color:var(--mint); }
+button.wk-next .w::after{ content:none; }
+/* resting: Watch for the move that is up next, beside Undo */
+.wk.rest .wk-foot{ justify-content:space-between; }
+@media (max-width:374.98px){
+  .wk-links{ gap:0 12px; }
+  .wk-links .wk-link{ font-size:13.5px; letter-spacing:0; }
+  .wk-links .wk-watch{ padding:0 8px; font-size:14px; letter-spacing:0; }
+}
+
+/* v311: the hold. Under "Start 30 s", the quiet way to log a hold without the clock; the hold view itself
+   is the rest view's clock and layout in mint (a hold is work, rest is pink). */
+.wk-holdalt{ display:flex; justify-content:center; margin:8px 0 2px; }
+.wk-holdalt .wk-link{ font-size:13px; }
+.wk.hold .wk-clock-mid .t{ color:var(--mint-soft, #B9FFE0); }
+
+/* v312: Shay's line at the end of a session: her face and one line, laid on the page, no box */
+.wk-shay{ display:flex; align-items:flex-start; gap:12px; margin:4px 0 18px; max-width:62ch; }
+.wk-shay img{ flex:none; width:44px; height:44px; border-radius:50%; box-shadow:0 0 0 2px var(--pink), 0 0 14px rgba(255,79,203,.45); object-fit:cover; }
+.wk-shay p{ margin:0; font:500 17px/1.45 var(--f-body); color:var(--ink2); }
+.wk-shay p b{ color:var(--ink); font-weight:700; margin-right:4px; }
+@media (min-width:1024px){ .wk-shay p{ font-size:18px; } }
+
+/* ---------- v315: the heart, live ---------- */
+.wk-hr{ display:inline-flex; align-items:center; gap:5px; min-height:44px; padding:0 4px; margin:-12px 0; white-space:nowrap; color:var(--ink); font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; }
+.wk-row.line .wk-hr{ margin:-8px 0; align-items:center; }
+.wk-hr .wk-hr-ic{ flex:none; color:var(--hc, #FF4FCB); filter:drop-shadow(0 0 6px var(--hc, #FF4FCB)); transform-origin:50% 55%; }
+.wk-hr.live .wk-hr-ic{ animation:wkbeat var(--hb, 1s) ease-in-out infinite; }
+@keyframes wkbeat{ 0%,100%{ transform:scale(1); } 14%{ transform:scale(1.22); } 28%{ transform:scale(1); } 42%{ transform:scale(1.1); } 56%{ transform:scale(1); } }
+@media (prefers-reduced-motion: reduce){ .wk-hr.live .wk-hr-ic{ animation:none; } }
+.wk-hr b{ font-size:22px; line-height:1; letter-spacing:0; color:var(--ink); }
+.wk-hr span, .wk-hr em{ line-height:1; padding-top:3px; }
+.wk-hr span{ color:var(--ink2); }
+.wk-hr em{ font-style:normal; font-size:13px; letter-spacing:0; color:var(--hc); }
+.wk-hr.off{ align-items:center; color:var(--ink); text-decoration:underline; text-decoration-color:rgba(255,79,203,.6); text-underline-offset:5px; }
+.wk-hr.off span{ color:var(--ink); }
+.wk-hrsum{ display:grid; grid-template-columns:auto minmax(0, 1fr); align-items:center; gap:4px 14px; padding:12px 0; border-bottom:1px solid var(--hair); }
+.wk-hrsum-n{ display:flex; flex-direction:column; gap:4px; }
+.wk-hrsum-n .k{ display:inline-flex; align-items:center; gap:6px; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.wk-hrsum-n .k svg{ color:#FF4FCB; }
+.wk-hrsum-n .v{ display:flex; align-items:baseline; gap:5px; white-space:nowrap; }
+.wk-hrsum-n .v b{ font-size:26px; line-height:1; color:var(--ink); }
+.wk-hrsum-n .v small{ font-family:var(--f-body); font-weight:600; font-size:12px; letter-spacing:0; text-transform:none; color:var(--ink2); margin-right:8px; }
+.wk-hrsum-line{ width:100%; height:48px; display:block; overflow:visible; filter:drop-shadow(0 0 4px rgba(255,79,203,.6)); }
+.wk-hz{ grid-column:1 / -1; display:flex; gap:2px; height:8px; border-radius:4px; overflow:hidden; }
+.wk-hz i{ display:block; height:100%; }
+
+/* v316: a deload day says so on every set */
+.wk-dl{ color:var(--pink-ink); }
+
+/* ---------- v317: the form loop beside the ring, and a record that lands ---------- */
+.wk-vis{ display:flex; align-items:center; justify-content:center; gap:14px; width:100%; --wk-rs:clamp(104px, calc(var(--wk-h) - 636px), 236px); }
+.wk-vis .wk-ring{ width:var(--wk-rs); }
+.wk-form{ position:relative; flex:0 1 auto; width:min(calc(var(--wk-rs) * 1.5), calc(100% - var(--wk-rs) - 14px)); aspect-ratio:3 / 2; padding:0; border:0; border-radius:12px; overflow:hidden; background:transparent; cursor:pointer;
+  box-shadow:0 0 0 2px rgba(92,242,176,.55); }   /* v367: no shadow under it */
+.wk-form img{ position:absolute; inset:0; width:100%; height:100%; object-fit:contain; display:block; }
+.wk-form img.b{ animation:wkForm 2.6s ease-in-out infinite; }
+.wk-form:focus-visible{ outline:3px solid var(--mint); outline-offset:3px; }
+@keyframes wkForm{ 0%, 38%{ opacity:0; } 50%, 88%{ opacity:1; } 100%{ opacity:0; } }
+@media (prefers-reduced-motion: reduce){ .wk-form img.b{ animation:none; opacity:0; } }
+.wk-up-log.rec{ animation:wkRec .7s cubic-bezier(.2, .8, .2, 1) both; color:var(--ink); }
+.wk-up-log.rec b{ color:var(--mint); text-shadow:0 0 14px rgba(92,242,176,.9); }
+@keyframes wkRec{ 0%{ transform:scale(.6); opacity:0; } 60%{ opacity:1; } 100%{ transform:scale(1); opacity:1; } }
+@media (prefers-reduced-motion: reduce){ .wk-up-log.rec{ animation:none; } }
+/* the ring gives the photos room: at most half the row, so the move is big enough to read */
+.wk-vis.form{ --wk-rw:min(var(--wk-rs), calc((100% - 14px) * .5)); }
+.wk-vis.form .wk-ring{ width:var(--wk-rw); }
+.wk-vis.form .wk-form{ width:min(calc(var(--wk-rs) * 1.5), calc(100% - var(--wk-rw) - 14px)); }
+
+/* v317: a short phone (an iPhone SE is 667 px, 647 inside the app): COMPLETE SET whole on the screen.
+   The links keep one row, the gaps and the controls give a little, nothing is hidden. */
+@media (max-width:389.98px){
+  .wk-links{ gap:0 12px; }
+  .wk-links .wk-link{ font-size:13.5px; letter-spacing:0; }
+  .wk-links .wk-watch{ padding:0 8px; font-size:14px; letter-spacing:0; }
+}
+@media (max-height:700px){
+  .wk.set{ gap:3px; }
+  .wk.set .wk-row{ margin-top:6px; }
+  .wk.set .wk-setline{ margin-top:6px; }
+  .wk.set .wk-last{ margin-top:4px; }
+  .wk.set .wk-steps{ gap:6px; padding:6px 0; }
+  .wk.set .wk-pm{ height:46px; }
+  .wk.set .wk-val .v{ font-size:38px; }
+  .wk.set .wk-cta{ height:72px; }
+  .wk.set .wk-foot{ min-height:44px; }
+}
+/* the first iPhone SE (320 x 568): the same, a step further */
+@media (max-width:339.98px){
+  .wk-links{ gap:0 9px; }
+  .wk-links .wk-link{ font-size:12.5px; letter-spacing:0; }
+  .wk-links .wk-watch{ padding:0 6px; font-size:13px; letter-spacing:0; }
+}
+@media (max-height:600px){
+  .wk.set .wk-vis{ --wk-rs:88px; }
+  .wk.set .wk-cta{ height:64px; }
+  .wk.set .wk-pm{ height:44px; }
+  .wk.set .wk-val .v{ font-size:34px; }
+  .wk.set .wk-plates, .wk.set .wk-plates-pic{ min-height:36px; height:36px; }
+}
+/* v330: this set last time, why today's weight, same as last time */
+.wk-last .wk-lt{ font-family:var(--f-num); font-weight:800; letter-spacing:0; text-transform:none; color:var(--ink); }
+.wk-why{ display:block; margin-top:2px; font-size:13px; font-weight:600; color:var(--mint-soft); }
+.wk-same{ display:inline-flex; margin:4px auto 0; }
+
+/* v331: Film (a label around a file input: the phone's camera) and Post it on the done screen */
+.wk-film{ position:relative; gap:6px; cursor:pointer; }
+.wk-film input{ position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; font-size:0; }
+.wk-film:focus-within{ outline:3px solid var(--mint); outline-offset:2px; }
+.wk-dtop{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+.wk-dtop .wk-dn{ flex:1 1 auto; min-width:0; }
+.wk-postl{ flex:none; gap:6px; margin-top:4px; }
+
+/* v344: Titan between sets (Pro): his face, two words, three plain controls; on the page, no box */
+.wk-coach{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:0 16px; width:100%; }
+.wk-coach img{ width:36px; height:36px; border-radius:50%; object-fit:cover; flex:none; }
+.wk-coach .t{ display:flex; flex-direction:column; line-height:1.1; font-size:13.5px; font-weight:600; color:var(--ink2); }
+.wk-coach .t b{ font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--pink-ink); }
+.wk-coach .wk-link:disabled{ opacity:.4; }
+.wk-coach .wk-link{ min-width:44px; justify-content:center; }   /* v348.3: Ask was 41 px wide; every touch target is 44 */
+
+/* v345: the live board is on: a red dot by the move count */
+.wk-live{ display:inline-block; width:10px; height:10px; margin-right:8px; border-radius:50%; background:#FF4D6D; box-shadow:0 0 8px #FF4D6D; vertical-align:2px; }
+
+/* Keep safety feedback available during a set or rest without crowding exercise actions. */
+.wk-discomfort{min-width:0;min-height:48px;padding:0 2px;font-size:13px;font-weight:700;color:var(--ink);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+@media(max-width:760px){.wk.set .wk-vis{--wk-rs:clamp(88px,calc(var(--wk-h) - 720px),200px)}}
+
+.wk-foot{flex-wrap:wrap;gap:0 12px}
+@media(max-width:760px){.wk-dd{gap:6px}.wk-done-w{font-size:clamp(64px,20vw,96px)}.wk-tag{font-size:14px;margin-right:0;transform:rotate(-3deg)}}
+@media(max-width:760px){.wk.rest .wk-clock{width:clamp(160px,calc(var(--wk-h) - 610px),252px)}}
+
+/* v365: the steppers are round mint rings (they were 84 x 56 boxes with a heavy bottom edge), 52 px, 48 px on a short
+   screen; at the end of a range the ring dims rather than turning dashed */
+.wk-pm, .wk.set .wk-pm{ width:52px; height:52px; padding:0; background:transparent; border:2px solid var(--mint); border-radius:50%; }
+.wk-pm:disabled{ border-style:solid; opacity:.3; }
+@media (max-height:760px){ .wk-pm, .wk.set .wk-pm{ width:48px; height:48px; } }
+
+/* v366: More in the row of links. Its word sits in the row; Swap, Skip move and Film open on a line of their own. */
+.wk-links .c3-more{ display:contents; }
+.wk-links .c3-more-t{ min-height:48px; font-size:14.5px; color:var(--ink); }
+.wk-links .c3-more-p{ flex-basis:100%; gap:0 22px; }
+/* the two halves of a workout screen are nothing on a phone or a tablet: each part stays a row of the one column */
+.wk-l, .wk-r{ display:contents; }
+/* the steppers: - and + beside their number, not out at the two edges */
+.wk-step{ justify-content:center; gap:clamp(14px, 5vw, 32px); }
+.wk-val{ flex:0 0 auto; width:clamp(140px, 44%, 220px); }
+
+/* v366: a computer gets the whole width (it was a 520 px column in the middle of the screen). The move and its
+   picture on the left; the numbers and the one control on the right. Rest: the clock left, what is next right. */
+/* a tablet: the one column, but the full width of the page (it was 520 px in the middle) */
+@media (min-width:700px){
+  .wk{ max-width:var(--maxw); padding-left:var(--gut); padding-right:var(--gut); }
+}
+/* +30 s: an outlined pill on the page (it was a box with a heavy bottom edge) */
+.wk-more{ width:auto; min-width:96px; height:48px; padding:0 18px; background:transparent; border:2px solid var(--mint); border-radius:999px; text-shadow:none; font-size:17px; }
+/* v366: one link style in the row: "Show me how" is an underlined word like Skip warm-up (it had a 4 px bar under a
+   48 px box, which read as a selected tab) */
+.wk .c3-watch:not(.ic){ padding:0 2px; border-bottom:0; text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:5px; font-size:14.5px; }
+/* the big controls are part of the page: no glow under them */
+.wk-cta-rail, .wk-cta-rail.pink{ box-shadow:none; }
+@media (min-width:700px){ .wk-dside{ justify-content:center; gap:28px; } }
+@media (min-width:1024px){
+  .wk.set, .wk.rest, .wk.done{ display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); grid-template-rows:auto minmax(0, 1fr); column-gap:clamp(40px, 6vw, 112px); row-gap:20px; }
+  .wk.done{ grid-template-rows:minmax(0, 1fr); align-items:center; }
+  .wk > .wk-a{ grid-column:1 / -1; }
+  .wk-l, .wk-r{ display:flex; flex-direction:column; justify-content:center; gap:18px; min-width:0; }
+  .wk-l > *, .wk-r > *{ min-width:0; }
+  /* the set: the two halves start on the same line and stay there when More opens; the pair sits a little above
+     the middle of what is left under the top bar */
+  .wk.set{ grid-template-rows:auto minmax(0, 1fr) auto minmax(0, 1.4fr); row-gap:0; }
+  .wk.set > .wk-l, .wk.set > .wk-r{ grid-row:3; align-self:start; justify-content:flex-start; }
+  .wk.set > .wk-l{ grid-column:1; } .wk.set > .wk-r{ grid-column:2; }
+  .wk.set .wk-c{ align-items:flex-start; }
+  .wk.set .wk-vis{ justify-content:flex-start; --wk-rs:clamp(160px, calc(var(--wk-h) - 600px), 260px); }
+  .wk.set .wk-setline, .wk.set .wk-last{ text-align:left; }
+  .wk.set .wk-setline{ margin-top:18px; }
+  .wk.rest .wk-clock{ width:clamp(240px, calc(var(--wk-h) - 430px), 420px); }
+  .wk.rest .wk-up{ text-align:left; }
+  .wk.rest .wk-up-big{ justify-content:flex-start; }
+  .wk.rest .wk-coach{ justify-content:flex-start; }
+  .wk.done .wk-r{ gap:22px; }
+  .wk.done .wk-dm{ justify-content:flex-start; gap:clamp(32px, 4vw, 64px); }
+}
+/* v366: the session's name stays whole on a phone ("Leg Day / 2 · finished early" broke the name); "finished early"
+   takes its own line under it */
+@media (max-width:699.98px){
+  .wk-dn{ font-size:clamp(40px, 13vw, 60px); }
+  .wk-dn.long{ font-size:clamp(30px, 9.5vw, 40px); }
+  .wk-dn-e{ display:block; margin-top:6px; font-size:22px; }
+  .wk-dn-e .sep{ display:none; }
+}
+
+/* v367: Back to Today on the done screen is the one primary size (only Complete set and Skip rest are gym-sized);
+   the numbers between the steppers are underlined like every number you set */
+.wk.done .wk-cta, .wk.done .wk-cta.back{ height:var(--btn-h); font-size:var(--btn-fs); }
+.wk-val .v{ border-bottom:2px solid var(--mint); padding-bottom:2px; }
+.wk-fin:not(.on){ text-decoration-color:var(--mint); }
+/* v367: Discomfort? is underlined in mint like every other word you can tap (its line was white) */
+.wk-discomfort{ text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:6px; }
+/* v367: the finish confirm is a mint outlined pill, an action like any other (pink was not in the system) */
+.wk-fin.on{ box-shadow:inset 0 0 0 2px var(--mint); }
+.wk-fin.on{ justify-self:end; padding:0 18px; }   /* sized to its words at the right, not stretched across the bar */
+
+
+/* Missing optional art never leaves a broken-image block in the saved recap. */
+.wk-photo-fallback{display:none;}
+.wk-dpic.photo-missing img{display:none;}
+.wk-dpic.photo-missing .wk-photo-fallback{display:flex;flex-direction:column;justify-content:center;gap:10px;height:100%;min-height:140px;padding:16px;border-radius:16px;background:rgba(255,255,255,.55);color:var(--ink2);font-size:14px;line-height:1.45;}
+.wk-photo-fallback b{color:var(--ink);font-size:20px;}
+/* Light glass needs clean load labels, not the former dark-theme offset shadow. */
+.wk .wk-load{ text-shadow:none; }

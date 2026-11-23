@@ -1,0 +1,61 @@
+/* C3 checkin. Phone and tablet: the read, the five answers and the control, then the history.
+   Computer: the read and the history on the left, the answers on the right.
+   Everything is under .ck (the shared frame is .yd, screen-youdeep.css). */
+
+.ck .ck-cols, .ck .ck-a, .ck .ck-b{ display:contents; }
+.ck .yd-head{ order:0; } .ck .ck-read{ order:1; } .ck .ck-form{ order:2; } .ck .ck-hist{ order:3; } .ck .ck-more{ order:4; }
+
+/* ---------- the read ---------- */
+.ck-read{ display:flex; align-items:center; gap:16px; min-width:0; }
+.ck-ring{ flex:none; width:128px; }
+.ck-say{ display:flex; flex-direction:column; gap:6px; min-width:0; flex:1 1 0; }
+.ck-word{ font-family:var(--f-head); font-weight:900; font-size:28px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); overflow-wrap:anywhere; padding-bottom:6px; }
+.ck-sub{ font-size:14px; line-height:1.300; font-weight:600; color:var(--ink2); }
+.ck .ck-stats b{ font-size:24px; }
+.ck .ck-stats > div{ padding:0 12px; }
+.ck .ck-stats span{ font-size:11.500px; letter-spacing:0; }
+
+/* ---------- the answers ---------- */
+.ck-form{ display:flex; flex-direction:column; gap:12px; min-width:0; padding-top:14px; border-top:1px solid var(--hair); }
+.ck .ck-note{ margin-top:2px; }
+.ck .ck-rm{ justify-content:flex-end; }
+
+/* ---------- the history ---------- */
+.ck-chartw{ position:relative; padding:14px 0; }
+.ck-chart{ display:block; width:100%; height:auto; overflow:visible; }
+.ck-ax{ position:absolute; left:0; font-family:var(--f-num); font-weight:500; font-size:11.500px; line-height:1; color:var(--ink2); }
+.ck-ax.top{ top:0; } .ck-ax.bot{ bottom:0; }
+.ck-key{ display:flex; align-items:center; gap:8px; font-size:13.500px; font-weight:600; color:var(--ink); }
+.ck-key > i{ width:26px; height:0; border-top:2px dashed var(--mint); flex:none; }
+.ck .ck-table td:last-child{ color:var(--ink2); min-width:90px; }
+.ck .ck-table td:first-child{ white-space:nowrap; overflow-wrap:normal; }
+
+@media (min-width:700px){
+  .ck-ring{ width:180px; }
+  .ck-word{ font-size:40px; }
+  .ck-sub{ font-size:15.500px; }
+  .ck .ck-stats b{ font-size:32px; }
+  .ck-form{ gap:16px; }
+}
+@media (min-width:1024px){
+  .ck .ck-cols{ display:grid; }
+  .ck .ck-a, .ck .ck-b{ display:flex; }
+  .ck-ring{ width:210px; }
+  .ck-form{ padding-top:0; border-top:0; gap:14px; }
+  .ck-word{ font-size:44px; }
+}
+/* the words inside a small ring stay readable */
+.ck .ck-ring .c3-ring-top, .ck .ck-ring .c3-ring-bot{ font-size:max(11px, 5.800cqw); letter-spacing:0; padding-left:.180em; }
+.ck .ck-table th:last-child, .ck .ck-table td:last-child{ padding-left:16px; }
+/* v357: Log today under the answers: its score and state were cut off on a phone ("No readiness sco") */
+.ck-form .yd-primary small{ white-space:normal; line-height:1.2; }
+
+
+/* v362 (Chad, 26 Oct: "cluttered"): the seven answers are numbers on one hairline, the chosen one a mint disc */
+.ck .ck-q .yd-scale{ gap:2px; border-bottom:1px solid var(--hair); }
+.ck .ck-q .yd-tap{ min-height:48px; border:0; border-radius:50%; background:transparent; box-shadow:none; color:var(--ink2); }
+.ck .ck-q .yd-tap b{ display:grid; place-items:center; width:42px; height:42px; border-radius:50%; font-size:19px; box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.2); }   /* v365: a faint ring says tap me */
+.ck .ck-q .yd-tap:hover b{ color:var(--ink); }
+.ck .ck-q .yd-tap.on{ background:transparent; box-shadow:none; color:var(--on-neon); }
+.ck .ck-q .yd-tap.on b{ background:var(--mint); box-shadow:none; }
+.ck .ck-q .yd-tap:focus-visible{ outline:2px solid var(--mint); outline-offset:-2px; }

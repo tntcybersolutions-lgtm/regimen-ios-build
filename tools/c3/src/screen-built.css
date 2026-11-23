@@ -1,0 +1,21 @@
+/* C3 built (v341): the plan summary at the end of setup. On the page, hairlines, no boxes. */
+/* v346.4: the page's own side margins (it sat flush on the screen edge under 961 px, "TRAINING" and "MEALS" cut at 700)
+   and the app's full width on a computer, so the week strip has the room it has on Train (at 760 px it cut every day's name) */
+.bt{ display:flex; flex-direction:column; gap:18px; width:100%; max-width:var(--maxw); margin:0 auto; box-sizing:border-box;
+  padding:calc(18px + env(safe-area-inset-top, 0px)) var(--gut) calc(28px + env(safe-area-inset-bottom, 0px)); }
+.bt > *{ min-width:0; }
+.bt-head .c3-h1{ font-size:min(96px, 24vw); margin-top:6px; }
+.bt-stats{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:16px 18px; }
+.bt-stats > div{ display:flex; flex-direction:column; gap:4px; padding-left:12px; border-left:3px solid var(--mint); }
+.bt-stats b{ font-size:52px; line-height:1; }
+.bt-stats span{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); }
+@media (min-width:700px){ .bt-stats{ grid-template-columns:repeat(4, minmax(0, 1fr)); } }
+.bt-week{ padding-top:12px; border-top:1px solid var(--hair); }
+.bt-lines{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; }
+.bt-lines li{ display:grid; grid-template-columns:110px minmax(0, 1fr); gap:12px; padding:12px 0; border-top:1px solid var(--hair); }
+.bt-lines .k{ font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.bt-lines .v{ font-size:16px; line-height:1.35; color:var(--ink); }
+.bt-go{ display:flex; flex-direction:column; align-items:stretch; gap:14px; margin-top:6px; width:100%; max-width:none; align-self:center; }
+.bt-go .c3-link{ align-self:center; font-size:17px; }
+.bt-more{ display:flex; flex-wrap:wrap; justify-content:center; gap:8px 28px; }   /* v342: the 12 weeks and the guide, side by side */
+.bt-start{ min-height:var(--btn-h); font-size:var(--btn-fs); }

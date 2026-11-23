@@ -1,0 +1,21 @@
+/* C3 data. Export first; bringing data in is apart from it, and the one destructive
+   action stands on its own, marked. Everything is under .dt (the shared frame is .yd). */
+
+.dt-exp{ display:flex; flex-direction:column; gap:12px; min-width:0; }
+.dt .dt-stats b{ font-size:28px; }
+.dt .dt-stats span{ font-size:11.500px; letter-spacing:0; }
+.dt .dt-ta{ min-height:132px; }
+.dt-pick{ position:relative; cursor:pointer; }
+.dt-file{ position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; pointer-events:none; }
+.dt-pick:focus-within{ outline:3px solid #FFFFFF; outline-offset:3px; }
+.dt-danger{ display:flex; flex-direction:column; gap:10px; padding:12px 0 4px 12px; border-left:3px solid var(--coral); }
+.dt-warn{ font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1.050; letter-spacing:0; text-transform:none; color:var(--ink); }
+.dt .dt-small b{ font-size:26px; }
+.dt-prev{ display:flex; flex-direction:column; gap:10px; padding-top:10px; border-top:1px solid var(--hair); }
+.dt .dt-files .yd-row{ flex-wrap:wrap; }
+.dt .dt-files .yd-row .l{ flex:1 1 160px; }
+.dt .dt-files .yd-btn{ min-width:0; padding:0 12px; font-size:15px; }
+/* v329 photos and erase */
+.dt-ph{ margin:0 0 6px; font-size:15px; color:var(--ink2); }
+.dt-ph b{ font-size:26px; color:var(--ink); margin-right:6px; }
+.dt-phin{ cursor:pointer; }

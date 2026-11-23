@@ -1,0 +1,21 @@
+/* C3 log (v320): the doses as rows, then the schedule. No boxes. Every selector is under .lg. */
+
+.lg .lg-top b{ color:var(--ink); }
+.lg .lg-top > div.good b{ color:var(--mint); } .lg .lg-top > div.warn b{ color:var(--amber); } .lg .lg-top > div.bad b{ color:var(--coral); }
+.lg .lg-list{ display:flex; flex-direction:column; }
+.lg .lg-list > li{ display:grid; grid-template-columns:minmax(0, 1.2fr) minmax(0, 1fr); align-items:center; gap:6px 14px; padding:10px 0; border-bottom:1px solid var(--hair); }
+.lg .lg-list > li.ahead .w b{ color:var(--ink2); }
+.lg .lg-list .w, .lg .lg-list .a{ display:flex; flex-direction:column; gap:3px; min-width:0; }
+.lg .lg-list .w b{ font-family:var(--f-body); font-weight:600; font-size:16px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.lg .lg-list small{ font-size:12.5px; font-weight:500; color:var(--ink2); }
+.lg .lg-list .a b{ font-size:17px; color:var(--ink); }
+.lg .lg-list .st{ font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; }
+.lg .lg-list .st.good{ color:var(--mint-soft); } .lg .lg-list .st.warn{ color:var(--amber); } .lg .lg-list .st.bad{ color:var(--coral); }
+.lg .lg-list .acts{ grid-column:1 / -1; display:flex; flex-wrap:wrap; gap:8px; }
+.lg .lg-list .acts .yd-btn{ min-height:44px; padding:0 12px; font-size:15px; }
+.lg .lg-mir{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+
+@media (min-width:1024px){
+  .lg .lg-list > li{ grid-template-columns:minmax(0, 1fr) 150px auto; }
+  .lg .lg-list .acts{ grid-column:auto; justify-content:flex-end; }
+}

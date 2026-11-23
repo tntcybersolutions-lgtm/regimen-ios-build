@@ -1,0 +1,121 @@
+/* C3 screen: ai. Ported shell component styles for the Ask pane (scoped under .yd.ai), media context kept, print rules dropped. */
+.yd.ai .mini{background: var(--cg-fill-2); border: 1px solid var(--cg-edge-2); box-shadow: none;}
+.yd.ai .mini::before,.yd.ai .mini::after{content: none;}
+.yd.ai .mini.go{background: linear-gradient(rgb(44, 46, 51), rgb(37, 39, 42)); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.ai .mini.go::before,.yd.ai .mini.go::after{content: none;}
+.yd.ai .mini.go:hover{background: linear-gradient(rgb(47, 49, 54), rgb(38, 40, 44)); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px; transform: none;}
+.yd.ai .mini{transition: border-color 0.15s, background 0.15s;}
+.yd.ai .eyebrow{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue-t); margin: 0px 0px 16px; padding-left: 14px;}
+.yd.ai .note{font-size: 17px; color: var(--ink-1); margin: 12px 0px 0px; line-height: 1.62;}
+.yd.ai .note b{color: var(--ink-0); font-weight: 600;}
+.yd.ai .row2{display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); align-items: end;}
+.yd.ai .quick{display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));}
+.yd.ai details.adv{margin-top: 16px; border-top: 1px solid var(--line); padding-top: 14px;}
+.yd.ai details.adv > summary{cursor: pointer; font-family: var(--f-m); font-size: 17px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-2); list-style: none; padding: 6px 0px; min-height: 32px; display: flex; align-items: center; gap: 8px;}
+.yd.ai details.adv > summary::-webkit-details-marker{display: none;}
+.yd.ai details.adv > summary::before{content: "\25B8"; display: inline-block; transition: transform 0.18s; color: var(--blue-t);}
+.yd.ai details.adv[open] > summary::before{transform: rotate(90deg);}
+.yd.ai details.adv > summary:hover{color: var(--ink-1);}
+.yd.ai .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.ai .mini{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ctl-b2-ink); background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); border-radius: 8px; padding: 9px 13px; cursor: pointer; transition: 0.14s; min-height: 34px;}
+@media (pointer: coarse){.yd.ai .mini{min-height: 44px; padding: 11px 14px;}}
+.yd.ai .mini:hover{color: var(--ctl-b2-ink-h); border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h);}
+.yd.ai .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.ai .mini.go:hover{color: var(--blue-ink);}
+.yd.ai .aisugg{display: grid; gap: 6px; margin-bottom: 14px;}
+.yd.ai .aiq1{display: block; width: 100%; min-width: 0px; text-align: left; min-height: 44px; padding: 11px 14px; border-radius: 10px; cursor: pointer; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); color: var(--ink-1); font-size: 17px; line-height: 1.5; overflow-wrap: anywhere; transition: color 0.15s, border-color 0.15s, background 0.15s;}
+.yd.ai .aiq1:hover{border-color: var(--blue); color: var(--ink-0); background: rgba(201, 203, 207, 0.043);}
+.yd.ai .aiturn{margin-bottom: 16px;}
+.yd.ai .aiq{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.04em; color: var(--blue-t); padding: 9px 12px; border-radius: 9px; background: rgba(201, 203, 207, 0.06); margin-bottom: 9px;}
+.yd.ai .aia{font-size: 17px; line-height: 1.68; color: var(--ink-1); white-space: pre-wrap;}
+.yd.ai .aibrief{margin: 12px 0px 0px; padding: 13px 14px; border-radius: 10px; max-height: 420px; overflow: auto; max-width: 100%; min-width: 0px; box-sizing: border-box; word-break: break-word; border: 1px solid var(--line); background: rgba(0, 0, 0, 0.7); color: var(--ink-1); font-family: var(--f-m); font-size: 14px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere;}
+.yd.ai .mvsrc{font-size: 17px; line-height: 1.6; color: var(--ink-2); margin: 16px 0px 0px; padding-top: 11px; border-top: 1px solid var(--line-soft); overflow-wrap: anywhere;}
+.yd.ai .note{overflow-wrap: anywhere;}
+@media (max-width: 620px){.yd.ai .quick{position: static; margin-top: 9px; align-self: flex-start; max-width: 100%;}}
+@media (pointer: coarse){.yd.ai .mini{min-height: 44px;}}
+.yd.ai .mini{background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 56%), rgba(0, 0, 0, 0.34); box-shadow: rgba(255, 255, 255, 0.11) 0px 1px 0px inset;}
+.yd.ai .mini:hover{background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(201, 203, 207, 0.06) 60%), rgba(0, 0, 0, 0.34);}
+.yd.ai .mini.go,.yd.ai .mini.go:hover{background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.ai .mini:active{transform: translateY(1px);}
+.yd.ai .mini::after{content: ""; position: absolute; inset: 0px; border-radius: inherit; padding: 1px; pointer-events: none; background: var(--gl2-ring); mask: linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px) content-box exclude, linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px);}
+.yd.ai .mini{position: relative;}
+.yd.ai .mini::after{opacity: 0.55; z-index: 0;}
+.yd.ai .mini.go{position: relative; overflow: hidden;}
+.yd.ai .mini.go{box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0px inset, rgba(255, 255, 255, 0.38) 0px 0px 0px 1px, rgba(96, 112, 134, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.95) 0px 8px 22px -10px;}
+.yd.ai .mini.go::before{content: ""; position: absolute; left: 4%; right: 4%; top: 2px; height: 46%; border-radius: 999px 999px 60% 60%; pointer-events: none; background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.02)); opacity: 0.75;}
+.yd.ai .mini.go::before{opacity: 0.6;}
+.yd.ai .eyebrow{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); padding-left: 0px; margin: 0px 0px 12px; line-height: 1.45;}
+.yd.ai .eyebrow::first-letter{text-transform: uppercase;}
+.yd.ai .mini{font-family: var(--f-b); font-size: 17px; font-weight: 500; letter-spacing: 0px; text-transform: none;}
+.yd.ai .mini::first-letter{text-transform: uppercase;}
+.yd.ai .mini{font-size: 17px;}
+.yd.ai .aiq,.yd.ai .aibrief{font-size: 17px;}
+.yd.ai .eyebrow,.yd.ai details.adv > summary,.yd.ai .mini,.yd.ai .mvsrc{font-size: 17px;}
+.yd.ai .eyebrow,.yd.ai summary .eyebrow{font-size: 17px; line-height: 1.45; color: var(--ink-1); margin: 0px 0px 14px;}
+.yd.ai .note{font-size: 17px; line-height: 1.55; color: var(--ink-1);}
+.yd.ai .note b{color: var(--ink-0);}
+.yd.ai .mini{font-size: 17px; font-weight: 500;}
+.yd.ai .eyebrow{color: var(--ink-1);}
+.yd.ai .note code{background: none; border: 0px; padding: 0px; color: var(--ink-0); font-weight: 600; font-size: inherit; font-family: var(--f-m);}
+.yd.ai .mini{background: none; border: 1px solid var(--cg-edge); box-shadow: none; color: var(--ink-0); text-shadow: none;}
+.yd.ai .mini:hover{background: var(--glass); border-color: var(--cg-edge); color: var(--ink-0); box-shadow: none; transform: none;}
+.yd.ai .mini{border-radius: 10px; padding: 10px 14px; min-height: 40px;}
+.yd.ai .mini.go,.yd.ai .mini.go{background: rgb(40, 42, 46); border: 1px solid transparent; color: rgb(255, 255, 255); box-shadow: none; text-shadow: none;}
+.yd.ai .mini.go:hover{background: rgb(44, 46, 50); box-shadow: none; transform: none;}
+.yd.ai .mini.go::before{content: none;}
+@media (min-width: 1100px){.yd.ai .row2,.yd.ai .quick{break-inside: avoid;}}
+@media (min-width: 1100px){.yd.ai .eyebrow{break-after: avoid;}}
+@media (max-width: 720px){.yd.ai .mini{min-height: 44px;}}
+.yd.ai .mini.go{background: rgb(40, 42, 46); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.ai .mini.go:hover{background: rgb(44, 46, 50);}
+.yd.ai .mini{border-radius: 999px;}
+.yd.ai .mini{border: 1px solid var(--cg-edge); color: var(--ink-0);}
+.yd.ai .mini{min-width: 44px;}
+.yd.ai details.adv > summary{display: flex; align-items: center;}
+.yd.ai .mini.go{background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 22px, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px;}
+.yd.ai .mini.go:hover{background: linear-gradient(rgb(51, 54, 59) 0%, rgb(46, 48, 52) 50%, rgb(40, 42, 46) 100%); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 30px, rgb(51, 53, 59) 0px 12px 30px -12px;}
+.yd.ai .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.ai .mini:not(.go):hover{background: rgba(255, 255, 255, 0.14); border-color: rgba(255, 255, 255, 0.34);}
+.yd.ai :root[data-theme="light"] body .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.ai .mini:active{transform: scale(0.97);}
+.yd.ai .islong{max-width: 70ch; font-family: var(--f-b) !important; font-size: 17px !important; font-weight: 400 !important; letter-spacing: 0px !important; text-transform: none !important; color: var(--ink-2) !important; line-height: 1.5 !important;}
+.yd.ai .mini{background: linear-gradient(rgba(201, 203, 207, 0.094), rgba(201, 203, 207, 0.06)); border: 1.5px solid rgba(201, 203, 207, 0.25); color: var(--ink-0); font-weight: 600;}
+.yd.ai .mini:hover{background: linear-gradient(rgba(201, 203, 207, 0.17), rgba(201, 203, 207, 0.11)); border-color: rgba(201, 203, 207, 0.42); color: var(--ink-0);}
+.yd.ai .mini.go{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); border: 0px; color: rgb(255, 255, 255); font-weight: 700;}
+.yd.ai .mini.go:hover{background: linear-gradient(rgb(49, 52, 57), rgb(39, 41, 45)); color: rgb(255, 255, 255);}
+.yd.ai .quick button{min-height: 48px;}
+.yd.ai .mini{font-family: var(--f-m); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; min-height: 44px; border-radius: 999px; padding: 0px 16px;}
+.yd.ai .mini.go{border-radius: 8px; background-position-x:  !important; background-position-y:  !important; background-size:  !important; background-repeat:  !important; background-attachment:  !important; background-origin:  !important; background-clip:  !important; background-color:  !important; background-image: none !important; color: rgb(255, 255, 255) !important; border-color: transparent !important; box-shadow: none !important;}
+.yd.ai .mini:not(.go){border-radius: 8px; background: var(--bg-1) !important; color: var(--ink-1) !important; border: 1px solid var(--line) !important;}
+.yd.ai .eyebrow{letter-spacing: 0.08em !important;}
+.yd.ai .note{color: var(--ink-2);}
+.yd.ai .note,.yd.ai .eyebrow{opacity: 1 !important;}
+.yd.ai html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:is(.on, .go),.yd.ai html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:is(.on, .go){border-bottom: 3px solid rgb(92, 242, 176) !important; color: rgb(255, 255, 255) !important; font-weight: 800 !important;}
+
+/* house flatten + shadow-scope accent fix: C3 redefines --blue as a dark slab; shell rules expect mint */
+.yd.ai{--blue:#5CF2B0;--blue-t:#5CF2B0;--blue-ink:#0B0C0E}
+.yd.ai input,.yd.ai select,.yd.ai textarea{background:var(--bg-1);border:1px solid var(--line);border-radius:9px;color:var(--ink-0);font:inherit;font-size:17px;padding:9px 12px;min-height:44px;color-scheme:dark;box-sizing:border-box;width:100%}
+.yd.ai label{display:block;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin:0 0 6px}
+.yd.ai .mini.go,.yd.ai .mini.go:hover{background-color:var(--blue)!important;background-image:none!important;color:#0B0C0E!important;border:0;box-shadow:none!important;text-shadow:none;font-weight:700}
+.yd.ai .ai-hero{margin:6px 0 4px}
+.yd.ai .ai-rows{font-family:var(--f-n,var(--f-b));font-size:34px;font-weight:600;color:var(--ink-0);letter-spacing:-.01em;line-height:1.1;margin:2px 0 10px}
+.yd.ai .ai-rows small{display:block;font-family:var(--f-b);font-size:17px;font-weight:400;color:var(--ink-1);letter-spacing:0;margin-top:4px}
+.yd.ai .medfoot{font-size:14px;color:var(--ink-2);margin:26px 0 0;line-height:1.6}
+
+/* lane H (glass-ios-refresh): finish the Ask screen's move to the light glass system.
+   The ported shell rules above still resolve --blue to neon mint and --bg-1/--line to the
+   dark theme, so buttons came out as dark slabs with a mint ASK and inputs as dark fields.
+   Pin the accent to the app blue and restyle buttons, fields, suggestions and the brief. */
+.yd.ai{--blue:#326bc7;--blue-t:#326bc7;--blue-ink:#ffffff;color-scheme:light}
+.yd.ai .mini:not(.go){background:rgba(255,255,255,.72)!important;border:1px solid rgba(74,97,128,.16)!important;border-radius:999px!important;box-shadow:0 1px 2px rgba(44,64,91,.04)!important;color:#354b67!important;-webkit-text-fill-color:#354b67!important;font-weight:600!important}
+.yd.ai .mini:not(.go):hover{background:rgba(255,255,255,.94)!important;border-color:rgba(74,97,128,.32)!important;color:#172337!important;-webkit-text-fill-color:#172337!important}
+.yd.ai .mini.go,.yd.ai .mini.go:hover{background:linear-gradient(125deg,#548ef1,#627ce1)!important;border:1px solid rgba(255,255,255,.7)!important;border-radius:14px!important;color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;text-shadow:none!important;box-shadow:0 6px 14px rgba(72,113,194,.16),inset 0 1px rgba(255,255,255,.35)!important;font-weight:650!important}
+.yd.ai input,.yd.ai select,.yd.ai textarea{background:rgba(255,255,255,.8);border:1px solid rgba(74,97,128,.16);border-radius:12px;color:#172337;color-scheme:light;box-shadow:inset 0 1px 2px rgba(44,64,91,.03)}
+.yd.ai input::placeholder,.yd.ai textarea::placeholder{color:#6b7686}
+.yd.ai .aiq1{background:rgba(255,255,255,.6);border:1px solid rgba(74,97,128,.14);border-radius:14px;color:#354b67}
+.yd.ai .aiq1:hover{background:rgba(255,255,255,.92);border-color:#326bc7;color:#172337}
+.yd.ai .aiq{background:rgba(50,107,199,.08);color:#326bc7}
+.yd.ai .aia{color:#354b67}
+.yd.ai .aiturn{scroll-margin-top:76px}
+.yd.ai .aibrief{background:rgba(255,255,255,.8);border:1px solid rgba(74,97,128,.14);color:#354b67}
+.yd.ai details.adv{border-top-color:rgba(74,97,128,.14)}

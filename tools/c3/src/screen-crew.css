@@ -1,0 +1,77 @@
+/* C3 crew. Phone: the crew, then what you share, the trainer's view, challenges.
+   Computer: the crew and challenges on the left, sharing and the trainer's view on the right.
+   Everything is under .cr (the shared frame is .yd). */
+
+.cr-word{ font-family:var(--f-head); font-weight:900; font-size:30px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); padding-bottom:6px; }
+.cr .cr-rail{ max-width:520px; }
+.cr .cr-join{ grid-template-columns:minmax(0, 1fr); }
+.cr .cr-codein .yd-in{ font-family:var(--f-num); font-weight:700; font-size:22px; letter-spacing:0; text-transform:none; min-height:56px; }
+
+/* the code: big, and the whole thing copies it */
+.cr-top{ display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px; }
+.cr-code{ display:inline-flex; align-items:center; gap:12px; min-height:64px; padding:0 14px; border:2px solid var(--mint); border-bottom-width:4px; border-radius:6px; background:rgba(255,255,255,.05); color:var(--ink); }
+.cr-code b{ font-size:34px; line-height:1; letter-spacing:0; text-shadow:0 3px 0 rgba(0,0,0,0.9); }
+.cr-code .c3-ic{ color:var(--mint); }
+.cr-who{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.cr-who b{ font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1.050; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.cr-who span{ font-size:14px; font-weight:500; color:var(--ink2); }
+.cr .cr-cap{ grid-template-columns:minmax(0, 1fr) auto; align-items:end; }
+.cr .cr-capset{ padding-bottom:0; }
+
+.cr-av{ display:flex; align-items:center; justify-content:center; flex:none; width:40px; height:40px; border-radius:50%; border:3px solid var(--mint); background:var(--well); font-family:var(--f-head); font-weight:900; font-size:19px; color:var(--ink); }
+.cr .cr-m .l em, .cr .cr-rh .l em{ font-style:normal; font-family:var(--f-body); font-weight:600; font-size:12.500px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.cr .cr-m .yd-btn{ flex:none; min-width:0; padding:0 10px; font-size:15px; }
+
+/* what you share */
+.cr .cr-share .yd-opt{ font-size:15.500px; letter-spacing:0; }
+
+/* the trainer's view */
+.cr-bar{ display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; }
+.cr .cr-bar .yd-opt{ min-width:0; padding:0 10px; font-size:15px; letter-spacing:0; }
+.cr-rows > li{ display:flex; flex-direction:column; gap:8px; padding:12px 0; }
+.cr-rh{ display:flex; align-items:center; gap:12px; min-width:0; }
+.cr-rh .l{ display:flex; flex-direction:column; gap:2px; min-width:0; font-size:16px; font-weight:600; color:var(--ink); overflow-wrap:anywhere; }
+.cr-rh .l small{ font-size:13.500px; font-weight:500; color:var(--ink2); }
+.cr .cr-nums b{ font-size:26px; }
+.cr .cr-nums span{ font-size:11.500px; letter-spacing:0; }
+.cr-pct{ display:flex; align-items:center; gap:10px; }
+.cr-pct b{ flex:none; width:48px; text-align:right; font-size:14px; color:var(--ink); }
+.cr-tags{ display:flex; flex-wrap:wrap; gap:6px 14px; font-family:var(--f-num); font-weight:500; font-size:13px; color:var(--ink2); }
+.cr-tags .hit{ color:var(--mint); } .cr-tags .near{ color:var(--amber); } .cr-tags .under{ color:var(--coral); }
+
+/* challenges */
+.cr-chs > li{ display:flex; flex-direction:column; gap:8px; padding:12px 0; }
+.cr-chh{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:2px 12px; }
+.cr-chh b{ font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.cr-chh span{ font-family:var(--f-num); font-weight:500; font-size:13px; color:var(--ink2); }
+.cr-board{ display:flex; flex-direction:column; }
+.cr-br{ display:grid; grid-template-columns:22px minmax(0, 1.200fr) minmax(40px, 1fr) auto; align-items:center; gap:8px; min-height:36px; }
+.cr-br .p{ font-size:14px; color:var(--ink2); }
+.cr-br .n{ font-size:15px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.cr-br > b{ font-size:14px; color:var(--ink); white-space:nowrap; }
+.cr-br.me .n{ font-weight:700; }
+.cr-new{ display:flex; flex-direction:column; gap:10px; }
+
+/* level and badges */
+.cr-lvl{ display:flex; align-items:center; gap:18px; }
+.cr-lv{ display:flex; flex-direction:column; flex:none; }
+.cr-lv span{ font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.cr-lv b{ font-size:64px; line-height:.95; color:var(--ink); text-shadow:0 4px 0 rgba(0,0,0,0.9), 0 0 30px rgba(255,79,203,.35); }
+.cr-xp{ flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:8px; }
+.cr-xp p{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:2px 12px; }
+.cr-xp b{ font-size:17px; color:var(--ink); }
+.cr-xp span{ font-size:13.500px; font-weight:500; color:var(--ink2); }
+.cr-bdgs{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px 8px; }
+.cr-bdg{ display:flex; flex-direction:column; align-items:center; gap:6px; min-width:0; text-align:center; }
+.cr-bdg .m{ display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:50%; border:2px dashed rgba(237,238,239,0.468); font-family:var(--f-num); font-weight:700; font-size:17px; color:var(--ink2); }
+.cr-bdg .t{ max-width:100%; font-size:12.500px; line-height:1.200; font-weight:600; color:var(--ink2); overflow-wrap:anywhere; }
+.cr-bdg.got .m{ border:2px solid var(--mint); background:rgba(92,242,176,.22); color:var(--ink); box-shadow:0 0 14px rgba(92,242,176,.6); }
+.cr-bdg.got.gold .m{ border-color:var(--pink); background:rgba(255,79,203,.22); box-shadow:0 0 14px rgba(255,79,203,.6); }
+.cr-bdg.got .t{ color:var(--ink); }
+.cr-pr{ display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 10px; padding-top:10px; border-top:1px solid var(--hair); }
+.cr-pr span{ flex:1 1 100%; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.cr-pr b{ font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.cr-pr i{ font-style:normal; font-size:14px; font-weight:500; color:var(--ink); }
+@media (min-width:700px){ .cr-bdgs{ grid-template-columns:repeat(7, minmax(0, 1fr)); } }
+@media (min-width:1024px){ .cr-bdgs{ grid-template-columns:repeat(5, minmax(0, 1fr)); } }
+.cr .cr-bar .yd-opt{ min-width:52px; }

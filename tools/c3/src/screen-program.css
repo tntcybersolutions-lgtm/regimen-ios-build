@@ -1,0 +1,65 @@
+/* C3 program (v319): the old Full plan page as one screen. Hairlines, light and type; no boxes.
+   Every selector is under .pgm (.pg is the Progress screen). Phone < 700, tablet 700-1023, computer >= 1024 (screen-youdeep.css frame). */
+
+.pgm .pgm-top b{ color:var(--ink); }
+
+/* rows: a name on a line, its numbers under it, one control at the right */
+.pgm .pgm-list{ display:flex; flex-direction:column; }
+.pgm .pgm-row{ display:flex; flex-wrap:wrap; align-items:center; gap:0 10px; min-width:0; border-bottom:1px solid var(--hair); }
+.pgm .pgm-main{ display:flex; align-items:center; gap:12px; flex:1 1 0; min-width:0; min-height:56px; padding:8px 0; text-align:left; color:var(--ink); }
+.pgm .pgm-main .l{ display:flex; flex-direction:column; gap:3px; min-width:0; flex:1 1 auto; }
+.pgm .pgm-main b{ font-family:var(--f-body); font-weight:700; font-size:16px; line-height:1.100; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.pgm .pgm-main small{ font-size:13.500px; line-height:1.300; font-weight:500; color:var(--ink2); }
+.pgm .pgm-main > .c3-ic{ flex:none; color:var(--ink2); }
+.pgm .pgm-static{ cursor:default; }
+.pgm .pgm-need{ color:var(--amber) !important; font-weight:700 !important; }
+.pgm .pgm-go{ flex:none; min-height:44px; min-width:0; padding:0 12px; font-size:15px; }
+.pgm .pgm-go .c3-ic{ flex:none; }
+
+/* the one running: a mint rule at its left edge and the word, no fill */
+.pgm .pgm-row.on{ box-shadow:inset 3px 0 0 var(--mint); padding-left:13px; }
+.pgm .pgm-on{ flex:none; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.pgm .pgm-row.on .pgm-main{ cursor:default; }
+
+/* a program opened to run it */
+.pgm .pgm-open{ flex:1 1 100%; display:flex; flex-direction:column; align-items:flex-start; gap:10px; padding:0 0 14px; }
+.pgm .pgm-what{ font-size:14.500px; line-height:1.400; font-weight:500; color:var(--ink2); max-width:60ch; }
+.pgm .pgm-what .c3-num{ display:block; margin-top:4px; font-size:14px; color:var(--ink); }
+.pgm .pgm-run{ min-height:48px; }
+
+/* the generator's inputs */
+.pgm .pgm-field{ display:flex; flex-direction:column; gap:6px; min-width:0; }
+.pgm .pgm-field .k{ display:flex; align-items:baseline; gap:10px; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.pgm .pgm-field .k em{ margin-left:auto; font-style:normal; letter-spacing:0; text-transform:none; font-family:var(--f-body); font-weight:600; font-size:13px; color:var(--ink2); }
+.pgm .pgm-field .k em.c3-num{ font-family:var(--f-num); }
+.pgm .pgm-seg{ gap:6px; }
+.pgm .pgm-seg .yd-opt{ min-height:44px; padding:0 12px; font-size:15px; letter-spacing:0; }
+.pgm .pgm-days .yd-opt{ font-family:var(--f-num); font-size:20px; letter-spacing:0; }
+.pgm .pgm-seg.off{ opacity:.5; pointer-events:none; }
+.pgm .pgm-eq .yd-opt:disabled{ opacity:1; cursor:not-allowed; }
+
+/* a stretch running */
+.pgm .pgm-now{ display:flex; align-items:center; gap:14px; min-width:0; padding:4px 0 10px; border-bottom:1px solid var(--hair); }
+.pgm .pgm-now > b{ flex:none; font-size:40px; line-height:1; color:var(--mint-soft); }
+.pgm .pgm-now > b i{ font-style:normal; font-size:20px; color:var(--ink2); }
+.pgm .pgm-now .l{ display:flex; flex-direction:column; gap:3px; min-width:0; flex:1 1 auto; }
+.pgm .pgm-now .l b{ font-family:var(--f-body); font-weight:700; font-size:16px; line-height:1.100; text-transform:none; letter-spacing:0; color:var(--ink); overflow-wrap:anywhere; }
+.pgm .pgm-now .l small{ font-size:13.500px; color:var(--ink2); }
+
+/* a gym the phone found */
+.pgm .pgm-found{ display:flex; min-width:0; box-shadow:inset 3px 0 0 var(--amber); padding:4px 0 4px 13px; }
+.pgm .pgm-found .l{ display:flex; flex-direction:column; gap:3px; min-width:0; }
+.pgm .pgm-found b{ font-family:var(--f-body); font-weight:700; font-size:16px; text-transform:none; letter-spacing:0; color:var(--ink); overflow-wrap:anywhere; }
+.pgm .pgm-found small{ font-size:13.500px; color:var(--ink2); }
+
+@media (max-width:419.98px){
+  .pgm .pgm-main b, .pgm .pgm-now .l b, .pgm .pgm-found b{ font-size:17px; }
+  .pgm .pgm-seg .yd-opt{ padding:0 10px; font-size:14px; letter-spacing:0; }
+  .pgm .pgm-go{ padding:0 10px; font-size:14px; letter-spacing:0; }
+}
+@media (min-width:1024px){
+  .pgm .pgm-main{ min-height:52px; }
+}
+
+/* Compact orientation on the shared glass surface. */
+.pgm-guide{margin:0;font-size:14px;line-height:1.45;color:var(--ink2);max-width:78ch;}

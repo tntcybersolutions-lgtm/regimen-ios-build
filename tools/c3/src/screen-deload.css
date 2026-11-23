@@ -1,0 +1,116 @@
+/* C3 deload (v316). One column on a phone; from 1024 px the head and the log read side by side,
+   the why below in two columns. No boxes: rows, rules and big numbers on the ground. */
+.dl{ display:flex; flex-direction:column; gap:22px; padding:4px 0 28px; }
+.dl > *{ min-width:0; }
+.dl-back{ align-self:flex-start; display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:0 2px; font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.dl-top{ display:flex; flex-direction:column; gap:26px; }
+.dl-head{ display:flex; flex-direction:column; gap:12px; min-width:0; }
+.dl-h{ white-space:normal; }
+.dl-h.long{ font-size:58px; }
+.v-now .dl-h, .v-on .dl-h{ color:var(--pink-ink); }
+.v-back .dl-h{ color:var(--mint); }
+.dl-sub{ font-size:17px; line-height:1.45; color:var(--ink); max-width:44ch; }
+.dl-wk{ font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+
+/* the weeks around this one */
+.dl-track{ display:grid; grid-template-columns:repeat(8, minmax(0, 1fr)); gap:6px; align-items:stretch; height:64px; }
+.dl-w{ display:flex; flex-direction:column; justify-content:flex-end; align-items:center; gap:6px; height:100%; }
+.dl-w i{ display:block; width:100%; height:34px; border-radius:6px; background:rgba(92,242,176,.55); box-shadow:0 0 10px rgba(92,242,176,.25); }
+.dl-w.is-dl i{ height:16px; background:var(--pink); box-shadow:0 0 12px rgba(255,79,203,.6); }
+.dl-w.past i{ opacity:.38; box-shadow:none; }
+.dl-w.cur i{ outline:2px solid #fff; outline-offset:3px; }
+.dl-w span{ font-size:12px; color:var(--ink2); }
+.dl-w.is-dl span{ color:var(--pink-ink); font-weight:700; }
+.dl-w.cur span{ color:var(--ink); }
+
+/* Shay */
+.dl-shay{ display:grid; grid-template-columns:52px minmax(0, 1fr) 44px; gap:12px; align-items:center; padding:12px 0; border-top:1px solid var(--hair); border-bottom:1px solid var(--hair); }
+.dl-shay img{ width:52px; height:52px; border-radius:50%; box-shadow:0 0 0 2px var(--pink), 0 0 14px rgba(255,79,203,.5); }
+.dl-shay p{ font-size:17px; line-height:1.4; color:var(--ink); }
+.dl-shay p b{ font-family:var(--f-body); font-weight:600; letter-spacing:0; text-transform:none; color:var(--pink-ink); margin-right:6px; }
+.dl-say{ display:grid; place-items:center; width:44px; height:44px; border-radius:50%; color:var(--ink); box-shadow:inset 0 0 0 2px var(--pink); }
+
+/* the one control */
+.dl-act{ display:flex; }
+.dl-go{ width:100%; }
+@media (max-width:459px){ .dl-go{ font-size:34px; padding:0 16px; } }
+.dl-quiet{ min-height:44px; padding:0 2px; font-family:var(--f-body); font-weight:600; font-size:16px; letter-spacing:0; text-transform:none; color:var(--ink); border-bottom:2px solid var(--pink); }
+
+/* what it changes */
+.dl-lbl{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--mint-soft); margin-bottom:10px; }
+.dl-big{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:14px 18px; }
+.dl-big > div{ display:flex; flex-direction:column; gap:4px; padding-left:12px; border-left:3px solid var(--pink); }
+.dl-big b{ font-size:34px; line-height:1; color:var(--ink); white-space:nowrap; }
+.dl-big b i{ font-style:normal; margin:0 6px; color:var(--pink-ink); font-size:.7em; vertical-align:.12em; }
+.dl-big span{ font-size:14px; color:var(--ink2); }
+.dl-loads{ list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; }
+.dl-loads li{ display:grid; grid-template-columns:minmax(0, 1fr) auto auto auto; gap:8px; align-items:baseline; padding:9px 0; border-top:1px solid var(--hair); font-size:15px; color:var(--ink); }
+.dl-loads li span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.dl-loads li b{ font-size:15px; color:var(--ink2); }
+.dl-loads li b.to{ color:var(--ink); }
+.dl-loads li i{ font-style:normal; color:var(--pink-ink); }
+
+/* what the log says */
+.dl-read{ min-width:0; }
+.dl-tally{ display:flex; align-items:baseline; gap:10px; margin-bottom:8px; }
+.dl-tally > b{ font-size:64px; line-height:1; color:var(--ink); }
+.v-now .dl-tally > b{ color:var(--pink-ink); }
+.dl-tally span{ font-family:var(--f-body); font-weight:700; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.dl-lifts{ list-style:none; margin:0; padding:0; }
+.dl-lift{ display:grid; grid-template-columns:minmax(0, 1fr) 96px; grid-template-rows:auto auto; gap:2px 12px; align-items:center; padding:11px 0; border-top:1px solid var(--hair); }
+.dl-lift .n{ font-size:16px; font-weight:700; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.dl-lift .w{ font-size:14px; color:var(--ink2); }
+.dl-lift .t{ grid-column:2; grid-row:2; justify-self:end; font-size:13px; color:var(--ink2); }
+.dl-spark{ grid-column:2; grid-row:1; width:96px; height:30px; display:block; overflow:visible; color:var(--mint); filter:drop-shadow(0 0 4px rgba(92,242,176,.5)); }
+.dl-lift.stalled .dl-spark, .dl-lift.down .dl-spark{ color:var(--pink); filter:drop-shadow(0 0 4px rgba(255,79,203,.6)); }
+.dl-lift.holding .dl-spark{ color:var(--amber); filter:none; }
+.dl-lift.stalled .w, .dl-lift.down .w{ color:var(--pink-ink); font-weight:700; }
+.dl-lift.up .w{ color:var(--mint); font-weight:700; }
+.dl-meter{ display:grid; grid-template-columns:minmax(0, 1fr) auto; gap:4px 12px; padding:12px 0; border-top:1px solid var(--hair); }
+.dl-meter .k{ font-size:16px; font-weight:700; color:var(--ink); }
+.dl-meter .v{ font-size:20px; color:var(--ink); justify-self:end; }
+.dl-meter .v small{ font-size:13px; color:var(--ink2); }
+.dl-meter .bars{ grid-column:1 / -1; display:flex; flex-direction:column; gap:4px; }
+.dl-meter .bars i{ display:block; height:6px; border-radius:3px; background:rgba(255,255,255,.28); }
+.dl-meter .bars i.now{ background:var(--mint); box-shadow:0 0 8px rgba(92,242,176,.5); }
+.dl-meter.bad .bars i.now{ background:var(--pink); box-shadow:0 0 8px rgba(255,79,203,.6); }
+.dl-meter .s{ grid-column:1 / -1; font-size:13px; color:var(--ink2); }
+.dl-empty{ font-size:15px; line-height:1.45; color:var(--ink2); padding:10px 0; border-top:1px solid var(--hair); }
+
+/* why */
+.dl-why{ padding-top:10px; border-top:1px solid var(--hair); }
+.dl-qs{ display:grid; grid-template-columns:1fr; gap:18px; }
+.dl-q h3{ font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1.05; letter-spacing:0; text-transform:none; color:var(--ink); margin-bottom:6px; }
+.dl-q p, .dl-q li{ font-size:16px; line-height:1.5; color:var(--ink); }
+.dl-q p b{ font-size:17px; color:var(--mint); }
+.dl-do{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+.dl-do b{ font-family:var(--f-body); font-weight:600; letter-spacing:0; text-transform:none; color:var(--mint); margin-right:4px; }
+.dl-src{ display:flex; flex-direction:column; gap:8px; margin-top:20px; }
+.dl-src span{ font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.dl-src a{ display:inline-flex; align-items:center; min-height:44px; font-size:14px; line-height:1.4; color:var(--ink); text-decoration:underline; text-decoration-color:rgba(92,242,176,.6); text-underline-offset:4px; }
+
+@media (min-width:700px){
+  .dl-big{ grid-template-columns:repeat(4, minmax(0, 1fr)); }
+  .dl-h.long{ font-size:80px; }
+  .dl-qs{ grid-template-columns:1fr 1fr; gap:22px 32px; }
+}
+@media (min-width:1024px){
+  .dl{ gap:28px; }
+  .dl-top{ display:grid; grid-template-columns:minmax(0, 1.15fr) minmax(0, 1fr); gap:48px; align-items:start; }
+  .dl-big{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .dl-h.long{ font-size:96px; }
+  .dl-qs{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+}
+
+/* v367: this week is underlined in mint (it was a white outline) */
+.dl-w.cur i{ outline:0; box-shadow:0 0 0 0 transparent; }
+.dl-w.cur span{ border-bottom:2px solid var(--mint); }
+/* v367: the back link is the shared one (mint chevron, the same height as every screen's); "anyway" is a mint word */
+.dl > .dl-back{ min-height:48px; padding:0 10px 0 0; color:var(--ink); }
+.dl > .dl-back .c3-ic{ color:var(--mint); }
+.dl-quiet{ border-bottom-color:var(--mint); }
+/* v367: Shay's play button is a mint ring like every play button (pink is the rest timer's); the sources are
+   underlined in solid 2px mint */
+.dl-say{ box-shadow:inset 0 0 0 2px var(--mint); }
+.dl-say .c3-ic{ color:var(--mint); }
+.dl-src a{ text-decoration-color:var(--mint); text-decoration-thickness:2px; }

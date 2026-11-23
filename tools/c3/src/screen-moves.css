@@ -1,0 +1,31 @@
+/* C3 moves (v320): the library as photo rows. No boxes. Every selector is under .mv. */
+
+.mv .mv-top b{ color:var(--ink); }
+.mv .mv-search .yd-in{ font-size:17px; }
+.mv .mv-seg .yd-opt{ min-height:44px; font-size:15px; padding:0 12px; }
+.mv .mv-chips{ gap:6px; }
+.mv .mv-chips .yd-opt{ font-size:14px; padding:0 10px; letter-spacing:0; }
+.mv .mv-count{ font-size:13.5px; font-weight:500; color:var(--ink2); }
+.mv .mv-list{ display:flex; flex-direction:column; }
+.mv .mv-list > li{ border-bottom:1px solid var(--hair); }
+.mv .mv-row{ display:grid; grid-template-columns:64px minmax(0, 1fr) 16px; align-items:center; gap:14px; width:100%; min-height:72px; padding:6px 0; text-align:left; color:var(--ink); }
+.mv .mv-row img, .mv .mv-row .mv-noimg{ width:64px; height:48px; border-radius:6px; object-fit:contain; background:#FFFFFF; }
+.mv .mv-row .mv-noimg{ display:flex; align-items:center; justify-content:center; background:transparent; box-shadow:inset 0 0 0 1px var(--hair); color:var(--ink2); }
+.mv .mv-row .l{ display:flex; flex-direction:column; gap:3px; min-width:0; }
+.mv .mv-row .l b{ font-family:var(--f-body); font-weight:700; font-size:15px; line-height:1.1; letter-spacing:0; text-transform:none; overflow-wrap:anywhere; }
+.mv .mv-row .l b em{ font-style:normal; font-family:var(--f-body); font-size:12px; font-weight:700; letter-spacing:0; text-transform:none; color:var(--pink-ink); }
+.mv .mv-row .l small{ font-size:13px; font-weight:500; color:var(--ink2); }
+.mv .mv-row > .c3-ic{ color:var(--mint); }
+.mv .mv-mir{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+
+@media (max-width:419.98px){
+  .mv .mv-row{ grid-template-columns:56px minmax(0, 1fr) 14px; gap:10px; }
+  .mv .mv-row img, .mv .mv-row .mv-noimg{ width:56px; height:42px; }
+  .mv .mv-row .l b{ font-size:16px; }
+}
+.mv .yd-mirta{ min-height:72px; white-space:pre-wrap; font-family:var(--f-body); font-size:15px; font-weight:500; }
+.mv .mv-mir .yd-note b{ margin-right:8px; }
+.mv .mv-list > li.sel{ box-shadow:inset 3px 0 0 var(--mint); padding-left:13px; }
+/* v367: a move with no picture shows a dark well with a soft mint mark (it was a white icon in a bordered box);
+   the row opens the move, so it ends in the same mint chevron as every row */
+.mv .mv-row .mv-noimg{ box-shadow:none; background:var(--well); color:rgba(92,242,176,.55); }

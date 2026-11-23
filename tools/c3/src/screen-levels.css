@@ -1,0 +1,21 @@
+/* C3 levels (v320): the modeled curve first, the model's fields beside it. No boxes. Every selector is under .lv. */
+
+.lv .lv-top b{ color:var(--ink); font-size:30px; }
+.lv .lv-chart{ display:block; width:100%; height:auto; }
+.lv .lv-band{ font-size:14.5px; line-height:1.4; font-weight:600; color:var(--ink); max-width:66ch; }
+.lv .lv-src{ font-size:12.5px; line-height:1.45; font-weight:500; color:var(--ink2); max-width:76ch; }
+.lv .lv-src b.warn{ color:var(--amber); } .lv .lv-src b.bad{ color:var(--coral); }
+.lv .lv-mir{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+.lv .lv-mir .yd-mir{ gap:10px; }
+.lv .lv-phase{ display:flex; flex-direction:column; gap:6px; }
+.lv .lv-mini b{ font-size:24px; } .lv .lv-mini span{ font-size:11.5px; letter-spacing:0; }
+
+@media (max-width:419.98px){
+  .lv .lv-top b{ font-size:24px; }
+}
+
+/* v328: the simulator under the levels from the log */
+.lv .lv-try{ display:flex; align-items:baseline; flex-wrap:wrap; gap:6px 12px; margin:34px 0 6px; padding-top:18px; border-top:1px solid var(--hair); font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.lv .lv-try span{ font-size:15px; letter-spacing:0; color:var(--mint-soft); }
+
+.lv-guide{font-size:13px;line-height:1.55;color:var(--ink2);margin:12px 0 18px;max-width:80ch}

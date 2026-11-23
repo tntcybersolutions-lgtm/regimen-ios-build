@@ -1,0 +1,87 @@
+/* C3 coaches. The four faces first; under them the review, how they work and what they know.
+   Everything is under .co (the shared frame is .yd). The faces are round pictures with the
+   words beside or under them, never on them. */
+
+.co-cos{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:18px 12px; }
+.co-co{ display:grid; grid-template-columns:76px minmax(0, 1fr); grid-template-areas:"face name" "face role" "talk lead"; column-gap:12px; row-gap:2px; align-items:start; min-width:0; }
+.co-face{ grid-area:face; width:76px; height:76px; border-radius:50%; box-shadow:0 0 0 1.5px rgba(74,97,128,.2), 0 4px 14px rgba(63,89,124,.14); }
+.co-co.lead .co-face{ box-shadow:0 0 0 3px var(--pink), 0 0 20px rgba(255,79,203,.7); }
+.co-n{ grid-area:name; align-self:end; font-family:var(--f-body); font-weight:700; font-size:16px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.co-r{ grid-area:role; font-size:12.500px; line-height:1.250; font-weight:500; color:var(--ink2); }
+.co .co-talk{ grid-area:talk; margin-top:8px; min-width:0; width:100%; padding:0 6px; }
+.co-lead{ grid-area:lead; margin-top:8px; display:inline-flex; align-items:center; justify-content:center; gap:6px; min-height:48px; padding:0 8px; border:2px solid rgba(185,255,224,.6); border-radius:4px;
+  font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; white-space:nowrap; color:var(--ink); }
+.co-lead[aria-pressed="true"]{ border-color:var(--pink); background:rgba(255,79,203,.2); }
+.co-lead[aria-pressed="true"] .c3-ic{ color:var(--pink); }
+
+.co-review{ display:flex; flex-direction:column; gap:6px; }
+.co-word{ font-family:var(--f-head); font-weight:900; font-size:32px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); padding-bottom:6px; }
+.co-sub{ font-size:14.500px; line-height:1.350; font-weight:500; color:var(--ink2); }
+.co .co-meet{ margin-top:6px; max-width:520px; font-size:min(25px, 6vw); }
+.co .co-meet > span{ min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.co-meter{ display:flex; align-items:baseline; gap:8px; }
+.co-meter b{ font-size:22px; color:var(--ink); }
+.co-meter span{ font-family:var(--f-body); font-weight:700; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.co .co-stats b{ font-size:28px; }
+
+.co-pic{ display:none; }
+.co-mini{ width:40px; height:40px; flex:none; border-radius:50%; }
+.co .co-file .l{ font-family:var(--f-body); font-weight:700; font-size:15px; letter-spacing:0; text-transform:none; }
+.co .co-file .l small{ font-family:var(--f-body); font-weight:500; font-size:13.500px; letter-spacing:0; text-transform:none; }
+.co-lines{ display:flex; flex-direction:column; padding:0 0 8px 52px; }
+.co-lines > li{ display:flex; align-items:center; gap:8px; border-top:1px solid var(--hair); }
+.co-lines .t{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:2px; padding:8px 0; font-size:15px; line-height:1.300; font-weight:500; color:var(--ink); overflow-wrap:anywhere; }
+.co-lines .t small{ font-family:var(--f-num); font-size:12px; color:var(--ink2); }
+.co .co-nofile{ padding:0 0 12px 52px; }
+.co .co-team{ justify-content:flex-start; }
+.co-retention{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:16px 0;font-size:15px}
+.co-retention select,.co-lines select,.co-lines textarea{background:var(--well);color:var(--ink);border:1px solid var(--hair);border-radius:4px;padding:10px;font:inherit;min-height:44px;max-width:100%}
+.co-lines textarea{display:block;width:100%;min-height:96px;margin:8px 0;resize:vertical}
+.co-lines label{display:block;margin-top:8px}
+.co-edit{min-height:44px;min-width:44px;color:var(--mint);font-size:14px}
+.co-lines>li{align-items:flex-start}.co-lines .yd-x,.co-lines .co-edit{margin-top:6px;flex:none}
+@media(max-width:699.98px){.co-lines{padding-left:0}}
+
+@media (min-width:700px){
+  .co-cos{ grid-template-columns:repeat(4, minmax(0, 1fr)); gap:0 20px; }
+  .co-co{ display:flex; flex-direction:column; align-items:flex-start; }
+  .co-face{ width:100%; max-width:132px; height:auto; aspect-ratio:1 / 1; box-shadow:0 0 0 1.5px rgba(74,97,128,.2), 0 6px 18px rgba(63,89,124,.14); }
+  .co-n{ margin-top:12px; font-size:24px; align-self:auto; }
+  .co-r{ margin-top:4px; min-height:34px; font-size:14px; }
+  .co .co-talk, .co-lead{ width:100%; max-width:150px; }
+}
+@media (min-width:1024px){
+  .co-pic{ display:block; max-width:340px; }
+  .co-n{ font-size:27px; white-space:nowrap; }
+  .co-lead{ min-height:44px; }
+}
+
+@media(max-width:389.98px){.co-lead{white-space:normal;min-width:0;max-width:100%;letter-spacing:0;font-size:12px}.co-lead>span{white-space:normal;overflow-wrap:anywhere}}
+
+@media(max-width:389.98px){.co-r{overflow-wrap:anywhere;min-width:0}.co .co-talk{font-size:13px;letter-spacing:0;padding:0 10px;min-width:0}}
+
+@media(max-width:699.98px){.co-co{display:flex;flex-direction:column;align-items:flex-start}.co-face{width:100%;max-width:112px;height:auto;aspect-ratio:1}.co-n{margin-top:10px;align-self:auto}.co-r{min-height:34px;font-size:14px;overflow-wrap:normal}.co .co-talk,.co-lead{width:100%;max-width:180px}.co-lead{font-size:14px}}
+.co-permission{display:flex;align-items:flex-start;gap:12px;margin:18px 0;line-height:1.5}.co-permission input{flex:none;width:22px;height:22px;margin-top:2px}
+.co .c3-btn-quiet,.co .yd-acts button span{white-space:normal;overflow-wrap:anywhere}
+
+/* v367: Lead and Make lead are pills; the lead coach's is filled (it was a pink box).
+   lane H: uniform.css pins .co-lead to an underline link with ID-level specificity, and the
+   pill's own border was white-on-white on the light theme - invisible. Win the specificity
+   back and give the control a real glass pill, app blue when chosen. */
+.c3 .yd.co .co-lead:not(#u){ border:1px solid rgba(74,97,128,.28); border-bottom:1px solid rgba(74,97,128,.28); border-radius:999px; background:rgba(255,255,255,.6); padding:0 16px; color:#354b67; font-weight:600; }
+.c3 .yd.co .co-lead:not(#u):hover{ background:rgba(255,255,255,.9); }
+.c3 .yd.co .co-lead[aria-pressed="true"]:not(#u){ border:1px solid #326bc7; border-bottom:1px solid #326bc7; background:#326bc7; color:#fff; }
+.c3 .yd.co .co-lead[aria-pressed="true"]:not(#u) .c3-ic{ color:#fff; }
+/* v367: each permission is a 44 px row you can tap anywhere on, its box mint */
+.co-permission{ display:flex; align-items:center; gap:12px; min-height:44px; cursor:pointer; }
+/* v367: Lead and Make lead are pills sized to their words, and Talk's line runs under its word only (both were
+   stretched to the column) */
+.co .co-lead, .co .co-talk{ width:auto; max-width:100%; align-self:flex-start; justify-self:start; }
+.co .yd-sec > .c3-btn-quiet[data-go="conversations"]{ align-self:flex-start; }
+
+/* lane H: Talk was the quiet text link (underline only) and read as decoration next to Lead.
+   Make both coach actions glass pills of the same weight. Three-class selectors so they beat
+   the later-loaded zz-glass quiet-link rule. */
+.co .co-cos .co-talk{ display:inline-flex; align-items:center; justify-content:center; gap:6px; min-height:44px; padding:10px 16px; border:1px solid rgba(74,97,128,.16); border-bottom:1px solid rgba(74,97,128,.16); border-radius:999px; background:rgba(255,255,255,.72); color:#326bc7; font:600 15px/1 var(--f-body); text-decoration:none; box-shadow:0 1px 2px rgba(44,64,91,.04); }
+.co .co-cos .co-talk:hover{ background:rgba(255,255,255,.94); border-color:rgba(74,97,128,.3); color:#172337; }
+.co .co-cos .co-talk .c3-ic{ color:#326bc7; }

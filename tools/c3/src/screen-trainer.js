@@ -1,0 +1,79 @@
+/* Human coaching inbox: deliberate messages, reviewed proposals, recipient decisions. */
+(function(){
+ 'use strict';var C3=window.C3;if(!C3)return;var h=C3.h,esc=h.esc;
+ var T=C3.trainer={owner:'',crew:'',crews:[],roster:[],data:null,busy:false,error:'',message:'',last:0,seq:0,controller:null},poll=0;
+ function uid(){try{return CLOUD.signedIn()?String(CLOUD.user().id||''):'';}catch(e){return '';}}
+ function key(){return C3.member.key();}function api(){return /^https?:$/.test(location.protocol)?'':'https://app.formedlabs.co';}
+ function paint(){if(C3.current==='trainer'&&!(C3.safety&&C3.safety.panel))C3.refresh();}
+ function reset(){if(T.owner===uid())return;T.seq++;if(T.controller)T.controller.abort();Object.assign(T,{owner:uid(),crew:'',crews:[],roster:[],data:null,busy:false,error:'',message:'',last:0,controller:null});}
+ function draft(){var d=((ALL.journeySetup||{}).trainerDrafts||{})[T.crew];return d&&d.owner===uid()?d:{owner:uid(),kind:'message',recipient:'',body:'',video:'',requestId:'',at:0};}
+ function keep(value){var s=ALL.journeySetup=ALL.journeySetup||{};s.trainerDrafts=Object.assign({},s.trainerDrafts||{});s.trainerDrafts[T.crew]=Object.assign({},value,{owner:uid(),at:Date.now()});s.at=Date.now();if(C3.journey)C3.journey.deferSave('trainer-draft');else save();}
+ function name(id){if(id===uid())return 'You';var m=T.roster.filter(function(x){return x.user_id===id;})[0];return m&&m.display_name||'Crew member';}
+ function safeLink(raw){try{var u=new URL(raw);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch(e){return '';}}
+ async function call(action,data,directory){
+  reset();if(T.busy||!uid())return false;var who=uid(),seq=++T.seq,ac=T.controller=new AbortController(),timer=setTimeout(function(){ac.abort();},15000);
+  T.busy=true;T.error='';paint();
+  try{
+   var work=async function(){
+    if(directory){var crews=await CLOUD.myCrews();if(uid()!==who||seq!==T.seq)return false;T.crews=crews;var selected=crews.filter(function(c){return c.id===T.crew;})[0]||crews[0];T.crew=selected?selected.id:'';if(!T.crew){T.data=null;T.roster=[];return true;}var roster=await CLOUD.roster(T.crew);if(uid()!==who||seq!==T.seq)return false;T.roster=roster;}
+    if(!T.crew)return false;
+    var token=await CLOUD.token();if(uid()!==who||seq!==T.seq)return false;var r=await fetch(api()+'/api/trainer',{method:'POST',headers:{authorization:'Bearer '+token,'content-type':'application/json'},body:JSON.stringify(Object.assign({action:action,crew_id:T.crew},data||{})),signal:ac.signal,cache:'no-store',credentials:'omit'}),j=await r.json();
+    if(uid()!==who||seq!==T.seq)return false;if(!r.ok||!j.ok)throw Error(j.error||'Refresh and try again.');
+    T.data=j;T.last=Date.now();
+    if(action==='send'){keep({kind:'message',recipient:draft().recipient,body:'',video:'',requestId:''});T.message='Message sent to '+(data.recipient_id?name(data.recipient_id):'the whole crew')+'.';}
+    if(action==='propose')T.message='Proposal sent. The member chooses whether to accept.';
+    if(action==='pause')T.message=j.preference.paused?'New trainer proposals paused. Existing messages and decisions remain available.':'New trainer proposals resumed.';
+    if(action==='handover')T.message='Crew organizer transferred.';
+    if(action==='decide'){
+     var p=(j.proposals||[]).filter(function(p){return p.id===data.proposal_id;})[0];
+     if(p&&p.status==='accepted'&&!workoutById('trainer-'+p.id))workoutSave(Object.assign({},p.workout,{id:'trainer-'+p.id,proposalId:p.id}));
+     T.message=p&&p.status==='accepted'?'Accepted and saved to My workouts. Choose Start when ready.':'Proposal declined. Your plan is unchanged.';
+    }
+    return true;
+   };
+   return await Promise.race([work(),new Promise(function(resolve,reject){ac.signal.addEventListener('abort',function(){reject(Error('The inbox timed out. Refresh and retry your retained draft.'));},{once:true});})]);
+  }catch(e){if(uid()===who&&seq===T.seq)T.error=navigator.onLine===false?'Offline. Your draft is retained. Reconnect and retry.':e.name==='AbortError'?'The inbox timed out. Refresh and retry.':e.message;return false;}
+  finally{clearTimeout(timer);if(seq===T.seq){T.busy=false;T.controller=null;paint();}}
+ }
+ T.call=call;T.refresh=function(){return call('get',{},true);};
+ function btn(action,label,extra,disabled){return '<button type="button" class="c3-btn-quiet" data-trainer="'+action+'" '+(extra||'')+(T.busy||disabled?' disabled':'')+'>'+esc(label)+'</button>';}
+ function preview(w){return '<h3>'+esc(w.name)+'</h3><p>'+esc(w.focus||'')+'</p><ol class="ti-exercises">'+(w.blocks||[]).map(function(b){var ex=typeof EX_BY_ID!=='undefined'?EX_BY_ID[b.id]:null;return '<li>'+esc(ex?ex.n:b.id)+' · '+esc(b.sets)+' × '+esc(b.reps)+' · '+esc(b.restSec||60)+' sec rest</li>';}).join('')+'</ol>';}
+ function candidates(){return workouts().filter(function(w){return (w.blocks||[]).length>0;});}
+ function proposed(ctx){var list=candidates();return list.filter(function(w){return w.id===ctx.state.workout;})[0]||null;}
+ C3.screen('trainer',{nav:'you',enter:function(){reset();if(C3.safety)C3.safety.call('get');if(uid())setTimeout(T.refresh,0);if(!poll)poll=setInterval(function(){if(C3.current==='trainer'&&!document.hidden&&!T.busy&&uid())call('get');},10000);},render:function(ctx){
+  reset();var top='<div class="ti"><button type="button" class="yd-back" data-go="crew" aria-label="Back to crew">'+h.icon('back',18,2.8)+'<span>Crew</span></button><div class="c3-eyebrow"><i></i>People in your crew</div><h1 class="c3-h1">Coaching inbox</h1><p>Choose who receives your message. Trainer workouts wait for your acceptance.</p>';
+  if(!uid())return top+'<button type="button" class="c3-btn-rail ti-sign" data-trainer="signin"'+(T.busy?' disabled':'')+'><span>Sign in</span>'+h.icon('arrow',24,2.8)+'</button></div>';
+  var status='<p role="status">'+esc(T.busy?'Connecting...':T.message|| (T.last?'Updated '+new Date(T.last).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'}):''))+'</p>'+(T.error?'<p role="alert" class="ti-error">'+esc(T.error)+'</p>':'');
+  if(!T.crew||!T.data){
+  var noCrew=!T.error&&T.crews&&T.crews.length===0,fix=/confirm your email/i.test(T.error||'')?'<button type="button" class="c3-btn-quiet" data-trainer="account">Open account settings to confirm your email</button>':'';
+  return top+status+'<div class="ti-actions">'+btn('refresh','Refresh inbox')+fix+'</div>'+(noCrew?'<p>Join a crew or ask its organizer for an invitation code.</p><button type="button" class="c3-link" data-go="crew">Open crew invitations</button>':T.error?'':'<p>The inbox is still loading. Refresh if it does not appear.</p>')+'</div>';}
+  var d=draft(),data=T.data,others=T.roster.filter(function(m){return m.user_id!==uid()&&(!C3.safety||C3.safety.visible(m.user_id));}),w=proposed(ctx),confirm=ctx.state.confirm||'';
+  var selector='<label>Your crew<select id="trainer-crew">'+T.crews.map(function(c){return '<option value="'+esc(c.id)+'"'+(c.id===T.crew?' selected':'')+'>'+esc(c.name||'Crew')+'</option>';}).join('')+'</select></label>';
+  var recipients='<option value="">Choose recipient</option>'+others.map(function(m){return '<option value="'+esc(m.user_id)+'"'+(m.user_id===d.recipient?' selected':'')+'>'+esc(name(m.user_id))+(m.role==='trainer'?' · trainer':'')+'</option>';}).join('')+'<option value="all"'+(d.recipient==='all'?' selected':'')+'>Whole crew · everyone can read</option>';
+  var messages=(data.messages||[]).filter(function(m){return !C3.safety||C3.safety.visible(m.author_id);}).map(function(m){var link=safeLink(m.video_url);return '<li><div><b>'+esc(name(m.author_id))+'</b> <small>to '+esc(m.recipient_id?name(m.recipient_id):'whole crew')+' · '+esc(m.kind.replace('_',' '))+' · '+esc(new Date(m.created_at).toLocaleString())+'</small></div><p>'+esc(m.body)+'</p>'+(C3.safety?C3.safety.controls('trainer',T.crew,m.author_id,m.id,m.body):'')+(link?'<a class="c3-link" href="'+esc(link)+'" target="_blank" rel="noopener noreferrer">Open shared video link</a>':'')+'</li>';}).join('');
+  var proposals=(data.proposals||[]).filter(function(p){return !C3.safety||C3.safety.visible(p.author_id);}).map(function(p){var recipient=p.recipient_id===uid(),pending=p.status==='pending',id='data-proposal="'+esc(p.id)+'"';return '<li><p>'+esc(name(p.author_id))+' → '+esc(name(p.recipient_id))+' · <b>'+esc(p.status)+'</b></p>'+preview(p.workout)+(C3.safety?C3.safety.controls('trainer',T.crew,p.author_id,p.id,p.workout.name):'')+(recipient&&pending?'<div class="ti-actions">'+btn('accept','Accept and save workout',id)+btn('decline','Decline proposal',id)+'</div>':'')+(recipient&&p.status==='accepted'?btn('start','Start '+p.workout.name,id):'')+'</li>';}).join('');
+  var propose=data.trainer?'<section><h2>Propose a workout</h2><p>Choose a saved workout and review its exercises. The recipient can decline without changing their plan.</p><label>Member<select id="trainer-proposal-recipient"><option value="">Choose member</option>'+others.map(function(m){return '<option value="'+esc(m.user_id)+'"'+(ctx.state.member===m.user_id?' selected':'')+'>'+esc(name(m.user_id))+'</option>';}).join('')+'</select></label><label>Saved workout<select id="trainer-workout"><option value="">Choose workout</option>'+candidates().map(function(x){return '<option value="'+esc(x.id)+'"'+(ctx.state.workout===x.id?' selected':'')+'>'+esc(x.name)+'</option>';}).join('')+'</select></label>'+(w?preview(w):'<p>Build a workout in Workout builder first.</p>')+'<div class="ti-actions">'+btn('propose','Send reviewed proposal','',!w||!ctx.state.member)+'<button type="button" class="c3-link" data-go="program">Workout builder</button></div></section>':'';
+  var handover=data.owner_id===uid()?'<section><h2>Crew organizer</h2><label>New organizer<select id="trainer-organizer"><option value="">Choose current member</option>'+others.map(function(m){return '<option value="'+esc(m.user_id)+'"'+(ctx.state.organizer===m.user_id?' selected':'')+'>'+esc(name(m.user_id))+'</option>';}).join('')+'</select></label>'+btn('handover',confirm==='handover'?'Confirm organizer transfer':'Hand over crew','',!ctx.state.organizer)+(confirm?btn('cancel','Cancel transfer'):'')+'<p>The chosen member becomes organizer and trainer. You stay in the crew.</p></section>':'';
+  return top+(C3.safety?C3.safety.status()+C3.safety.note():'')+status+selector+'<div class="ti-actions">'+btn('refresh','Refresh inbox')+btn('export','Download inbox data')+btn('pause',data.preference.paused?'Resume trainer proposals':'Pause new trainer proposals')+'</div><p>'+esc(data.preference.paused?'New proposals are paused. You can still read messages and review existing proposals.':'Only your explicit acceptance saves a proposed workout. Messages do not change your plan.')+'</p><div class="ti-columns"><div><section><h2>Write a message</h2><label>To<select data-trainer-draft="recipient">'+recipients+'</select></label><label>Message type<select data-trainer-draft="kind">'+[['message','Message'],['checkin','Check-in'],['feedback','Feedback'],['video_review','Video review request']].map(function(k){return '<option value="'+k[0]+'"'+(k[0]===d.kind?' selected':'')+'>'+k[1]+'</option>';}).join('')+'</select></label><label>Your message<textarea data-trainer-draft="body" maxlength="2000" rows="5">'+esc(d.body)+'</textarea></label><label>Video link (optional)<input data-trainer-draft="video" type="url" maxlength="1000" value="'+esc(d.video)+'" placeholder="https://"></label><p>Shared links open separately. Choose a link the recipient is allowed to view. Your draft stays private until Send.</p><div class="ti-actions">'+btn('send','Send message')+btn('discard','Discard draft')+'</div></section><section><h2>Messages</h2><ul class="ti-list">'+messages+'</ul>'+(!messages?'<p>No messages yet. Choose a recipient and send the first one.</p>':'')+'</section></div><div><section><h2>Workout proposals</h2><ul class="ti-list">'+proposals+'</ul>'+(!proposals?'<p>No proposals to review.</p>':'')+'</section>'+propose+handover+'</div></div></div>';
+ },wire:function(root,ctx){if(C3.safety)C3.safety.wire(root);
+  root.querySelectorAll('[data-trainer-draft]').forEach(function(el){el.setAttribute('data-key','trainer-'+el.getAttribute('data-trainer-draft'));el.addEventListener(el.tagName==='SELECT'?'change':'input',function(){var d=draft();d[el.getAttribute('data-trainer-draft')]=el.value;d.requestId='';keep(d);});});
+  var crew=root.querySelector('#trainer-crew');if(crew)crew.addEventListener('change',function(){if(T.busy)return;T.crew=crew.value;T.data=null;ctx.state={};T.refresh();});
+  [['trainer-proposal-recipient','member'],['trainer-workout','workout'],['trainer-organizer','organizer']].forEach(function(pair){var el=root.querySelector('#'+pair[0]);if(el)el.addEventListener('change',function(){ctx.state[pair[1]]=el.value;ctx.state.proposalRequest='';ctx.state.confirm='';paint();});});
+  root.querySelectorAll('[data-trainer]').forEach(function(b){b.addEventListener('click',function(){var a=b.getAttribute('data-trainer'),data=T.data;
+   if(a==='signin'){h.openSignIn();return;}if(a==='refresh'){T.refresh();return;}
+   if(a==='account'){try{if(C3.yd&&C3.yd.old){C3.yd.old('profile','youaccount');}else C3.go('you');}catch(e){C3.go('you');}return;}
+   if(a==='export'){var snapshot={exported_at:new Date().toISOString(),account:uid(),crew:T.crew,preference:data.preference,messages:data.messages,proposals:data.proposals},url=URL.createObjectURL(new Blob([JSON.stringify(snapshot,null,2)],{type:'application/json'})),link=document.createElement('a');link.href=url;link.download='formed-coaching-inbox.json';link.click();setTimeout(function(){URL.revokeObjectURL(url);},1000);return;}
+   if(a==='discard'){keep({kind:'message',recipient:'',body:'',video:'',requestId:''});T.message='Draft discarded.';paint();return;}
+   if(a==='send'){var d=draft();if(!d.recipient||!d.body.trim()){T.error='Choose who receives your message and enter the message.';paint();return;}if(d.video&&!safeLink(d.video)){T.error='Use a complete HTTPS video link.';paint();return;}if(!d.requestId){d.requestId=key();keep(d);}call('send',{request_id:d.requestId,recipient_id:d.recipient==='all'?'':d.recipient,kind:d.kind,body:d.body.trim(),video_url:d.video.trim()});return;}
+   if(a==='pause'){call('pause',{paused:!data.preference.paused,revision:data.preference.revision});return;}
+   if(a==='cancel'){ctx.set({confirm:''});return;}
+   if(a==='handover'){if(ctx.state.confirm!=='handover'){ctx.set({confirm:'handover'});return;}ctx.state.confirm='';call('handover',{recipient_id:ctx.state.organizer,expected_owner:uid()});return;}
+   if(a==='propose'){var w=proposed(ctx);if(!w||!ctx.state.member)return;if(w.blocks.some(function(b){return typeof EX_BY_ID==='undefined'||!EX_BY_ID[b.id];})){T.error='This workout includes personal exercises. Replace them with Exercise library moves before sharing.';paint();return;}if(!ctx.state.proposalRequest)ctx.state.proposalRequest=key();call('propose',{request_id:ctx.state.proposalRequest,recipient_id:ctx.state.member,workout:{name:w.name.slice(0,40),focus:String(w.focus||'').slice(0,40),blocks:w.blocks.map(function(b){return {id:b.id,sets:b.sets||3,reps:String(b.reps||'8').slice(0,12),restSec:b.restSec||60};})}});return;}
+   var id=b.getAttribute('data-proposal'),p=(data.proposals||[]).filter(function(p){return p.id===id;})[0];if(!p)return;
+   if(a==='start'){if(!workoutById('trainer-'+p.id))workoutSave(Object.assign({},p.workout,{id:'trainer-'+p.id,proposalId:p.id}));workoutStart('trainer-'+p.id);return;}
+   if(a==='accept'||a==='decline'){call('decide',{proposal_id:id,revision:p.revision,decision:a==='accept'?'accepted':'declined'});}
+  });});
+ }});
+ try{if(CLOUD.onChange)CLOUD.onChange(function(){reset();paint();});}catch(e){}
+ window.addEventListener('online',function(){if(C3.current==='trainer')T.refresh();});
+})();

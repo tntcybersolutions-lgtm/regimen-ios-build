@@ -1,0 +1,51 @@
+/* C3 post (v331). The picture first, the one control under it, the rest beside it on a computer.
+   The picture is the picture: real aspect ratio, a lit edge, nothing on top of it (the numbers are drawn in a band
+   under the photo, inside the file). Items are rows on hairlines, not tiles. Everything is under .po. */
+
+.po-pic{ position:relative; display:flex; flex-direction:column; align-items:center; gap:8px; min-width:0; }
+.po-out{ display:block; width:100%; max-width:360px; height:auto; border-radius:14px; background:rgba(255,255,255,.05);
+  box-shadow:0 0 0 1px rgba(185,255,224,.6), 0 0 30px rgba(92,242,176,.45); }
+.po-pic.story .po-out{ max-width:250px; }
+.po-pic.feed .po-out{ max-width:300px; }
+.po-prog{ width:100%; max-width:360px; height:8px; border-radius:4px; background:rgba(255,255,255,.18); overflow:hidden; }
+.po-prog i{ display:block; height:100%; background:var(--mint); border-radius:4px; transition:width .2s linear; }
+
+.po-add{ display:flex; flex-wrap:wrap; gap:8px; }
+.po-file{ position:relative; cursor:pointer; }
+.po-file input{ position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; font-size:0; }
+.po-file:focus-within{ outline:3px solid var(--mint); outline-offset:2px; }
+
+.po-list{ list-style:none; margin:10px 0 0; padding:0; display:flex; flex-direction:column; }
+.po-it{ display:grid; grid-template-columns:72px minmax(0, 1fr); grid-template-areas:"th im" "ia ia"; gap:8px 14px; align-items:center;
+  padding:12px 0; border-top:1px solid rgba(255,255,255,.18); }
+.po-it:last-child{ border-bottom:1px solid rgba(255,255,255,.18); }
+.po-th{ grid-area:th; position:relative; width:72px; height:96px; border-radius:8px; overflow:hidden; background:rgba(255,255,255,0.12); box-shadow:0 0 0 1px rgba(185,255,224,.45); }
+.po-th img, .po-th video{ width:100%; height:100%; object-fit:cover; display:block; }
+.po-th b{ position:absolute; left:6px; bottom:4px; font-size:15px; font-weight:800; color:#FFFFFF; text-shadow:0 1px 3px rgba(0,0,0,0.9); }
+.po-im{ grid-area:im; display:flex; flex-direction:column; gap:8px; min-width:0; font-size:15px; font-weight:600; color:var(--ink); }
+.po-trim{ display:flex; flex-direction:column; gap:4px; font-size:14px; font-weight:600; color:var(--ink); }
+.po-trim input{ width:100%; accent-color:#5CF2B0; height:28px; }
+.po .po-len .yd-opt{ flex:1 1 0; min-width:48px; padding:0 10px; }
+.po-ia{ grid-area:ia; display:flex; flex-wrap:wrap; gap:8px; }
+.po-nets, .po-keys{ display:flex; flex-wrap:wrap; gap:8px; }
+.po-nets .yd-btn, .po-keys .yd-btn{ text-decoration:none; }
+.po .po-sess .yd-opt{ text-transform:none; letter-spacing:0; }
+.po-lstat{ margin-top:10px; }
+
+@media (min-width:700px){
+  .po-it{ grid-template-columns:80px minmax(0, 1fr) auto; grid-template-areas:"th im ia"; }
+  .po-th{ width:80px; height:106px; }
+  .po-ia{ flex-direction:column; align-items:flex-end; }
+}
+@media (min-width:1024px){
+  .po-out{ max-width:420px; }
+  .po-pic.story .po-out{ max-width:300px; }
+  .po-pic.feed .po-out{ max-width:360px; }
+  .po-pic{ align-items:flex-start; }
+}
+
+/* v345: Go live opens with the board first */
+.po.live1 .po-live1{ margin-bottom:28px; }
+
+/* v345: the networks' own logos on their links */
+.po-net{ gap:10px; } .po-net .c3-brand, .sh-net .c3-brand{ flex:none; display:block; }

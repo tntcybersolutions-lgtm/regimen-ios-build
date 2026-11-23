@@ -1,0 +1,41 @@
+/* C3 share. The card and the one control first; the options after (beside, on a computer).
+   The card is a picture: real aspect ratio, a lit edge, nothing on top of it.
+   Everything is under .sh (the shared frame is .yd). */
+
+.sh-card{ display:flex; justify-content:center; min-width:0; }
+.sh-img, .sh-wait{ display:block; width:100%; max-width:340px; height:auto; border-radius:14px; box-shadow:0 0 0 1px rgba(185,255,224,.6), 0 0 30px rgba(92,242,176,.45); background:rgba(255,255,255,0.1); }
+.sh-card.story .sh-img, .sh-card.story .sh-wait{ max-width:220px; }
+/* a clear card is shown on a checked ground so the person can see it has no background */
+.sh-img.clear{ background-color:#1F2023; background-image:linear-gradient(45deg, rgba(255,255,255,.14) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.14) 75%), linear-gradient(45deg, rgba(255,255,255,.14) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.14) 75%); background-size:24px 24px; background-position:0 0, 12px 12px; }
+.sh-act{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+.sh-cap{ font-size:15px; line-height:1.350; font-weight:600; color:var(--ink); overflow-wrap:anywhere; }
+.sh .sh-kinds .yd-opt{ flex:1 1 auto; min-width:0; padding:0 10px; font-size:15.500px; letter-spacing:0; }
+.sh-soc{ display:flex; flex-wrap:wrap; gap:8px; }
+.sh-net{ display:inline-flex; align-items:center; justify-content:center; width:52px; height:48px; border:2px solid var(--pink); border-radius:4px; background:rgba(255,79,203,.16); color:var(--ink); }
+/* v345: with the networks' own logos the tile steps back: an outline only, so the logo's colors read */
+.sh-net:has(.c3-brand){ width:52px; height:52px; padding:0; border:0; background:transparent; border-radius:12px; }
+.sh-net .c3-brand{ width:52px; height:52px; }
+.sh-net:has(.c3-brand):focus-visible{ outline:3px solid #fff; outline-offset:3px; }
+.sh-appr{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 12px; }
+.sh-appr > b{ font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.sh-appr > i{ width:12px; height:12px; border-radius:50%; background:var(--mint); box-shadow:0 0 12px var(--mint); flex:none; }
+.sh-appr > span{ font-size:13.500px; font-weight:500; color:var(--ink2); }
+.sh .sh-recipes .yd-btn{ flex:1 1 150px; justify-content:flex-start; }
+.sh-url{ font-size:13px; font-weight:500; line-height:1.350; color:var(--ink); overflow-wrap:anywhere; padding:8px 10px; border-bottom:2px solid var(--mint); background:var(--well); border-radius:4px 4px 0 0; }
+.sh-made{ display:flex; flex-direction:column; gap:8px; }
+
+@media (min-width:1024px){
+  .sh-img, .sh-wait{ max-width:420px; }
+  .sh-card.story .sh-img, .sh-card.story .sh-wait{ max-width:280px; }
+  .sh-card{ justify-content:flex-start; }
+}
+
+/* v367: the kinds are pills sized to their words */
+.sh .sh-kinds{ display:flex; flex-wrap:wrap; }
+.sh .sh-kinds .yd-opt{ flex:0 0 auto; }
+/* v367: the black X and Threads marks get a hairline ring so they do not vanish on the dark page (the marks stay as
+   the brands draw them) */
+.sh-net:has(.c3-brand){ border-radius:50%; overflow:hidden; box-shadow:0 0 0 1px rgba(255,255,255,.28); }
+
+.sh-guide{font-size:14px;line-height:1.5;color:var(--ink2);margin:8px 0 18px;max-width:70ch}
+.sh-wait{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center;gap:16px;color:var(--ink2);font-size:14px}

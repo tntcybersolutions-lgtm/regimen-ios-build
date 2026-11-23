@@ -1,0 +1,98 @@
+/* v325 meal kit: a planned day as rows (Food, Plan and Recipe screens share it) */
+.mk-days{ display:grid; grid-template-columns:repeat(7, minmax(0, 1fr)); gap:2px; margin:2px 0 0; padding:0; list-style:none; }
+.mk-days > li{ min-width:0; }
+.mk-d{ position:relative; width:100%; max-width:84px; margin:0 auto; display:flex; flex-direction:column; align-items:center; gap:5px; padding:8px 0 7px; border-radius:6px; color:var(--ink2); }
+.mk-d .dn{ font-family:var(--f-body); font-weight:600; font-size:12.5px; line-height:1; letter-spacing:0; text-transform:none; }
+.mk-d .dd{ font-weight:700; font-size:12px; line-height:1; color:var(--ink2); }
+.mk-d.today .dn, .mk-d.today .dd{ color:var(--mint-soft); }
+.mk-d.past{ opacity:.55; }
+.mk-d .bar{ position:relative; display:flex; align-items:flex-end; width:14px; height:76px; border-radius:7px; background:var(--well); box-shadow:0 0 0 1.5px rgba(92,242,176,.35); }
+.mk-d .bar > i{ display:block; width:100%; max-height:100%; border-radius:7px; background:linear-gradient(180deg, #C9FFE8 0%, #5CF2B0 60%, #1ED88A 100%); box-shadow:0 0 10px rgba(92,242,176,.55); transition:height .3s ease; }
+.mk-d .bar > u{ position:absolute; left:-5px; right:-5px; height:2px; margin-bottom:-1px; border-radius:1px; background:var(--pink); box-shadow:0 0 6px var(--pink); }
+.mk-d .kc{ font-family:var(--f-num); font-weight:700; font-size:12px; line-height:1; color:var(--ink); white-space:nowrap; min-height:12px; }
+.mk-d > em{ width:6px; height:6px; border-radius:50%; }
+.mk-d > em.tr{ background:var(--pink); box-shadow:0 0 6px var(--pink); }
+.mk-d .dn-all{ position:absolute; top:4px; right:4px; color:var(--mint); }
+.mk-d.on{ background:transparent; box-shadow:inset 0 -3px 0 var(--mint); border-radius:0; color:var(--ink); }   /* v367: the chosen day underlined (it was a boxed tile) */
+.mk-dayh{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:4px 14px; margin-top:4px; }
+.mk-dayh .dt{ font-family:var(--f-body); font-weight:700; font-size:15px; line-height:1.1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.mk-dayh .dt > em{ margin-left:10px; font-style:normal; font-size:12.5px; letter-spacing:0; color:var(--ink2); }
+.mk-dayh .tt{ font-family:var(--f-num); font-weight:500; font-size:13px; color:var(--ink2); white-space:nowrap; }
+.mk-dayh .tt > b{ font-weight:700; font-size:20px; color:var(--ink); }
+.mk-dayh .tt > i{ font-style:normal; margin-left:4px; }
+.mk-dayh .mac{ flex:1 1 100%; display:flex; gap:16px; font-family:var(--f-num); font-size:12.5px; color:var(--ink2); }
+.mk-dayh .mac b{ font-weight:700; color:var(--ink); font-size:14px; }
+.mk-reb{ display:flex; align-items:center; gap:8px; margin:0; font-size:14px; line-height:1.35; font-weight:600; color:var(--ink); }
+.mk-reb .c3-ic{ flex:none; color:var(--mint); }
+.mk-list{ display:grid; grid-template-columns:minmax(0, 1fr); column-gap:28px; margin:0; padding:0; list-style:none; }
+.mk-meal{ display:grid; grid-template-columns:78px minmax(0, 1fr) auto auto; grid-template-areas:"sl nm kv pv" "ac ac ac ac"; align-items:center; gap:6px 10px; padding:9px 0; border-bottom:1px solid var(--hair); min-width:0; }
+.mk-meal.logged .mk-nm b{ color:var(--ink2); }
+.mk-sl{ grid-area:sl; align-self:start; padding-top:4px; font-family:var(--f-body); font-weight:600; font-size:12px; line-height:1.2; letter-spacing:0; text-transform:none; color:var(--mint-soft); overflow-wrap:anywhere; }
+.mk-sl > i{ display:block; margin-top:3px; font-family:var(--f-num); font-style:normal; font-weight:700; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.mk-nm{ grid-area:nm; display:flex; flex-direction:column; align-items:flex-start; gap:3px; min-width:0; min-height:44px; justify-content:center; text-align:left; color:var(--ink); }
+.mk-nm > b{ font-size:16px; line-height:1.15; font-weight:700; color:var(--ink); overflow-wrap:anywhere; text-decoration:underline; text-decoration-color:rgba(92,242,176,.55); text-decoration-thickness:2px; text-underline-offset:4px; }
+.mk-nm > small{ font-size:13px; line-height:1.3; font-weight:500; color:var(--ink2); overflow-wrap:anywhere; }
+.mk-kv, .mk-pv{ text-align:right; font-family:var(--f-num); font-weight:700; line-height:1; color:var(--ink); white-space:nowrap; }
+.mk-kv{ grid-area:kv; font-size:16px; }
+.mk-pv{ grid-area:pv; min-width:46px; font-size:18px; }
+.mk-kv > small, .mk-pv > small{ font-size:12px; font-weight:500; color:var(--ink2); }
+.mk-acts{ grid-area:ac; display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+.mk-acts:empty{ display:none; }
+.mk-meal .c3-btn-quiet{ min-height:48px; min-width:48px; padding:0 12px; font-size:14px; letter-spacing:0; }
+.mk-meal .mk-sm.on{ background:rgba(92,242,176,.18); }
+.mk-meal .mk-lk.on{ border-color:var(--pink); }
+.mk-meal .mk-lk.on .c3-ic{ color:var(--pink); }
+.mk-meal .mk-lk{ min-width:48px; padding:0 10px; }
+/* v326: on a phone the lock is its icon; the button's own aria-label names it (a clipped word read as text cut off) */
+@media (max-width:699.98px){ .mk-meal .mk-lk > span{ display:none; } }
+.mk-done{ display:inline-flex; align-items:center; gap:6px; min-height:48px; font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--mint); }
+.mk-swap{ grid-column:1 / -1; display:flex; flex-direction:column; gap:8px; padding:8px 0 4px; }
+.mk-find{ display:flex; flex-direction:column; gap:4px; }
+.mk-find .k{ font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.mk-opts{ display:flex; flex-direction:column; margin:0; padding:0; list-style:none; }
+.mk-opts > li{ display:grid; grid-template-columns:minmax(0, 1fr) auto; grid-template-areas:"on use" "om use"; align-items:center; gap:2px 12px; padding:8px 0; border-bottom:1px solid var(--hair); }
+.mk-opts .on{ grid-area:on; display:flex; flex-direction:column; gap:2px; min-width:0; }
+.mk-opts .on b{ font-size:15.5px; line-height:1.15; font-weight:700; color:var(--ink); overflow-wrap:anywhere; }
+.mk-opts .on small{ font-size:12.5px; color:var(--ink2); }
+.mk-opts .om{ grid-area:om; font-size:12.5px; color:var(--ink2); }
+.mk-opts .om b{ font-size:14px; color:var(--ink); }
+.mk-opts .om span{ margin-left:6px; }
+.mk-opts .mk-use{ grid-area:use; min-height:48px; padding:0 16px; font-size:14px; }
+.mk-none{ margin:0; font-size:14px; color:var(--ink2); }
+.mk-swapacts{ display:flex; flex-wrap:wrap; gap:8px; }
+.mk-swapacts .c3-btn-quiet{ min-height:48px; font-size:13.5px; letter-spacing:0; padding:0 12px; }
+@media (min-width:700px){
+  .mk-d .bar{ height:96px; width:16px; }
+  .mk-d .kc{ font-size:13px; }
+  .mk-meal{ grid-template-columns:120px minmax(0, 1fr) auto auto; grid-template-areas:"sl nm kv pv" "sl ac ac ac"; }
+}
+@media (min-width:1024px){
+  .mk-days{ gap:4px; }
+  .mk-meal .c3-btn-quiet, .mk-done, .mk-opts .mk-use, .mk-swapacts .c3-btn-quiet{ min-height:44px; }
+  .mk-d{ padding:10px 0 8px; }
+  .mk-d .bar{ height:110px; }
+}
+/* v357: a 320 px phone: the day's totals take a second line instead of pushing the page sideways */
+@media (max-width:359.98px){ .mk-dayh .tt{ white-space:normal; } }
+
+/* v370: the next meal to eat today (Food): its Log is the screen's big slab, Half, Swap and Lock under it */
+.mk-meal.next{ padding:8px 0 12px; }
+.mk-meal.next .mk-sl{ color:var(--mint); }
+.mk-meal.next .mk-nm b{ font-size:1.08em; }
+.mk-meal.next .mk-acts{ gap:4px 10px; }
+.mk-meal.next .mk-next{ flex:1 1 100%; margin:2px 0 4px; }
+.mk-next .r small{ display:flex; }
+.mk-next .r .c3-ic{ width:28px; height:28px; }
+@media (max-width:399.98px){ .mk-next .r small{ display:none; } }
+
+@media (max-width:699.98px){
+  .mk-meal{ padding:6px 0; }
+  .mk-meal.next{ padding:4px 0 8px; }
+  .mk-meal.next .mk-next{ margin:0 0 2px; }
+}
+
+@media (min-width:700px) and (max-width:1199.98px){
+  .mk-meal{ padding:6px 0; }
+  .mk-meal.next{ padding:4px 0 8px; }
+  .mk-meal.next .mk-next{ margin:0 0 2px; }
+}

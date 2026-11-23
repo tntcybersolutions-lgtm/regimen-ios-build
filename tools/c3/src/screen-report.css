@@ -1,0 +1,25 @@
+/* C3 report. The record's numbers and the one control first; the sections, the doctor's link
+   and the questions after (beside, on a computer). Everything is under .rp (frame: .yd). */
+
+.rp-top{ display:flex; flex-direction:column; gap:12px; min-width:0; }
+.rp-span{ font-family:var(--f-num); font-weight:500; font-size:13.500px; line-height:1.300; color:var(--ink2); }
+.rp .rp-top .yd-mirstats{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:14px 0; }
+.rp .rp-top .yd-mirstats > div{ padding:0 10px; border-left:1px solid var(--hair); }
+.rp .rp-top .yd-mirstats > div:nth-child(4n+1){ padding-left:0; border-left:0; }
+.rp .rp-top .yd-mirstats b{ font-size:26px; overflow:hidden; text-overflow:ellipsis; }
+.rp .rp-top .yd-mirstats span{ font-size:11px; letter-spacing:0; line-height:1.150; }
+.rp .rp-weeks{ gap:4px; }
+.rp .rp-weeks .yd-opt{ font-size:14.500px; letter-spacing:0; }
+.rp-act{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+.rp-doc, .rp-link, .rp-hub{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+
+@media (min-width:700px){
+  .rp .rp-top .yd-mirstats b{ font-size:32px; }
+  .rp .rp-top .yd-mirstats span{ font-size:12.500px; letter-spacing:0; }
+}
+@media (max-width:699.98px){
+  .rp .rp-top .yd-mirstats{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+  .rp .rp-top .yd-mirstats > div:nth-child(4n+1){ padding-left:10px; border-left:1px solid var(--hair); }
+  .rp .rp-top .yd-mirstats > div:nth-child(3n+1){ padding-left:0; border-left:0; }
+  .rp .rp-top .yd-mirstats b{ font-size:23px; }
+}

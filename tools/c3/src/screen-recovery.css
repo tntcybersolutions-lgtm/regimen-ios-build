@@ -1,0 +1,91 @@
+/* C3 recovery: the views behind the check-in. One column, read top to bottom; on a computer the
+   body keeps a readable measure. Everything is under .rv (the shared frame is .yd). */
+
+.rv-nav{ min-width:0; }
+.rv .rv-views{ gap:6px; }
+.rv .rv-views .yd-opt{ min-width:0; padding:0 10px; font-size:15px; letter-spacing:0; flex:1 1 auto; }
+.rv-body{ display:flex; flex-direction:column; gap:18px; min-width:0; }
+
+/* ---------- the day ---------- */
+.rv-daynav{ display:flex; align-items:center; gap:10px; min-width:0; }
+.rv-daynav > b{ flex:1 1 0; min-width:0; text-align:center; font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.rv .rv-step{ min-width:48px; padding:0; }
+.rv .rv-step:disabled{ opacity:.4; }
+.rv-got{ flex:none; font-size:13.500px; font-weight:500; color:var(--ink2); }
+.rv-qs{ display:flex; flex-direction:column; gap:14px; }
+.rv-pick{ font-size:14.500px; line-height:1.350; font-weight:600; color:var(--ink); }
+.rv .rv-small b{ font-size:26px; }
+.rv .rv-small span{ font-size:11.500px; letter-spacing:0; }
+.rv-zones{ display:flex; flex-direction:column; gap:6px; }
+.rv-zone{ display:flex; align-items:center; gap:10px; }
+.rv-zone > span{ flex:none; width:26px; font-family:var(--f-head); font-weight:800; font-size:15px; letter-spacing:0; color:var(--ink); }
+.rv-zone > b{ flex:none; width:34px; text-align:right; font-size:14px; color:var(--ink); }
+.rv .rv-max{ grid-template-columns:minmax(0, 260px); }
+
+/* ---------- recovery ---------- */
+.rv-mus{ display:flex; flex-direction:column; }
+.rv-m{ display:grid; grid-template-columns:minmax(0, 104px) minmax(0, 1fr) 52px 72px; align-items:center; gap:10px; min-height:44px; border-bottom:1px solid var(--hair); }
+.rv-m .n{ font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.rv-m > b{ text-align:right; font-size:15px; color:var(--ink); }
+.rv-m .d{ text-align:right; font-family:var(--f-num); font-weight:500; font-size:12.500px; color:var(--ink2); white-space:nowrap; }
+
+/* ---------- muscle feel ---------- */
+.rv .rv-days .yd-opt{ font-family:var(--f-num); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; padding:0 10px; }
+.rv-verd{ display:flex; flex-direction:column; gap:3px; padding-left:10px; border-left:3px solid var(--ink2); }
+.rv-verd b{ font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.rv-verd span{ font-size:14.500px; line-height:1.350; font-weight:500; color:var(--ink2); }
+.rv-verd.up{ border-left-color:var(--mint); } .rv-verd.down{ border-left-color:var(--amber); }
+
+/* ---------- injuries ---------- */
+.rv .rv-areas .yd-btn{ flex:1 1 150px; justify-content:flex-start; }
+.rv-inj > li{ display:flex; flex-direction:column; gap:8px; padding:12px 0; }
+.rv-injh{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+.rv-injh b{ font-family:var(--f-body); font-weight:700; font-size:18px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.rv-injh span{ font-family:var(--f-num); font-weight:500; font-size:13px; color:var(--ink2); text-align:right; }
+.rv-inj > li.healed .rv-injh b{ color:var(--ink2); }
+
+/* ---------- showing up ---------- */
+.rv-dots{ display:grid; grid-template-columns:repeat(14, minmax(0, 1fr)); gap:2px; }
+.rv-dot{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; min-height:56px; color:var(--ink2); }
+.rv-dot > i{ width:16px; height:16px; border-radius:50%; border:2px solid rgba(185,255,224,.55); }
+.rv-dot.on > i{ background:var(--mint); border-color:var(--mint); box-shadow:0 0 10px var(--mint); }
+.rv-dot.held > i{ background:transparent; border-color:var(--pink); border-style:dashed; }
+.rv-dot.now > i{ outline:0; box-shadow:0 0 0 2px var(--bg, #101012), 0 0 0 4px var(--mint); }   /* v367: today ringed in mint */
+.rv-dot > span{ font-family:var(--f-head); font-weight:800; font-size:13px; line-height:1; color:var(--ink); }
+.rv-repair{ justify-content:space-between; }
+.rv-miss{ font-size:15px; font-weight:600; color:var(--ink); }
+.rv-weeks{ display:flex; align-items:flex-end; gap:6px; height:92px; padding-top:6px; }
+.rv-wk{ flex:1 1 0; min-width:0; height:100%; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; gap:5px; }
+.rv-wk > i{ display:block; width:100%; max-width:34px; border-radius:3px 3px 0 0; background:var(--well); border:1.500px solid rgba(185,255,224,.6); border-bottom:0; }
+.rv-wk.hit > i{ background:var(--mint); border-color:var(--mint); box-shadow:0 0 10px rgba(92,242,176,.6); }
+.rv-wk.away > i{ border-style:dashed; border-color:var(--pink); }
+.rv-wk.now > i{ border-color:#FFFFFF; }
+.rv-wk > span{ font-family:var(--f-num); font-weight:500; font-size:10.500px; line-height:1; color:var(--ink2); white-space:nowrap; }
+
+/* ---------- notes ---------- */
+.rv .rv-tags .yd-opt{ font-family:var(--f-num); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; }
+.rv .rv-notes td:nth-child(2){ color:var(--ink2); white-space:nowrap; }
+.rv .rv-notes td b{ color:var(--mint-soft); font-weight:700; }
+
+@media (max-width:699.98px){
+  .rv .rv-views{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); }
+  .rv .rv-views .yd-opt{ padding:0 2px; font-size:13.500px; letter-spacing:0; white-space:normal; text-align:center; line-height:1.050; }
+  .rv .yd-scale.n7 .yd-tap span, .rv .yd-scale.n5 .yd-tap span{ font-size:10.500px; letter-spacing:0; }
+  .rv .yd-fields.three{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .rv .yd-fields.three > :last-child{ grid-column:1 / -1; }
+  .rv-m{ grid-template-columns:minmax(0, 88px) minmax(0, 1fr) 46px 62px; gap:8px; }
+}
+@media (min-width:1024px){
+  .rv-body{ max-width:none; }
+  .rv .rv-views{ flex-wrap:nowrap; }
+}
+.rv .rv-goal .yd-opt{ font-size:15px; letter-spacing:0; }
+@media (max-width:699.98px){ .rv-wk:not(:nth-child(3n+1)) > span{ visibility:hidden; } }
+/* the fourteen days: two weeks of seven on a phone, so every day is a 44 px target */
+@media (max-width:699.98px){
+  .rv-dots{ grid-template-columns:repeat(7, minmax(0, 1fr)); row-gap:4px; }
+}
+.rv .rv-areas .yd-btn{ white-space:normal; text-align:left; line-height:1.050; padding-top:4px; padding-bottom:4px; }
+.rv .rv-areas .yd-btn > span{ overflow:visible; }
+/* v367: on a computer the day's questions sit two to a row across the full width */
+@media (min-width:1024px){ .rv-qs{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:22px 72px; align-items:start; } }

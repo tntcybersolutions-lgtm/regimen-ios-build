@@ -1,0 +1,31 @@
+/* v367 THE MUSCLE SHEET (C3 screen 'muscle') + the body map's tappable muscles. One muscle: the week's sets
+   against the evidence band, direct and helper work, the moves that train it as the library's photo rows.
+   The map's muscles glow the house pink on hover/focus so the tap reads as a tap. */
+.c3-bm-fig .mu{ cursor:pointer; outline:none; }
+.c3-bm-fig .mu .p{ transition:filter .15s ease, stroke .15s ease; }
+.c3-bm-fig .mu:hover .p, .c3-bm-fig .mu:focus-visible .p{ stroke:#FFD0F1; filter:drop-shadow(0 0 7px var(--pink)); }
+.c3-bm-list li{ display:block; padding:0; }
+.c3-bm-list li > .c3-bm-mu{ display:flex; align-items:center; gap:10px; width:100%; min-height:38px; padding:0; background:none; border:0; border-bottom:1px solid var(--hair); font:inherit; color:inherit; text-align:left; cursor:pointer; }
+.c3-bm-list li > .c3-bm-mu > i{ flex:none; width:10px; height:10px; border-radius:50%; }
+.c3-bm-list li > .c3-bm-mu:hover .n, .c3-bm-list li > .c3-bm-mu:focus-visible .n{ color:var(--pink); }
+@container (min-width:1000px){ .c3-bm-list li > .c3-bm-mu{ min-height:48px; } }
+
+.ms .ms-hero{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px; }
+.ms .ms-n b{ font-family:var(--f-num); font-weight:700; font-size:44px; line-height:1; color:var(--ink); }
+.ms .ms-n span{ display:block; margin-top:2px; font-size:13px; color:var(--ink2); }
+.ms .ms-split{ display:flex; gap:22px; }
+.ms .ms-split > div{ text-align:right; }
+.ms .ms-split b{ font-family:var(--f-num); font-weight:700; font-size:22px; color:var(--ink); }
+.ms .ms-split span{ display:block; font-size:12px; color:var(--ink2); }
+.ms-barwrap{ margin-top:16px; }
+.ms-bar{ position:relative; height:10px; border-radius:6px; background:rgba(255,255,255,.08); overflow:hidden; }
+.ms-bar .band{ position:absolute; top:0; bottom:0; border-left:1.5px solid rgba(92,242,176,.65); border-right:1.5px solid rgba(92,242,176,.65); background:rgba(92,242,176,.14); }
+.ms-bar .now{ position:absolute; left:0; top:0; bottom:0; border-radius:6px; background:#5CF2B0; box-shadow:0 0 8px rgba(92,242,176,.6); }
+.ms-bar .now.warn{ background:#FFB85C; box-shadow:0 0 8px rgba(255,184,92,.5); }
+.ms-bar .now.bad{ background:var(--pink); box-shadow:0 0 8px rgba(255,79,203,.6); }
+.ms-bar .now.none{ background:transparent; box-shadow:none; }
+.ms-barn{ position:relative; margin-top:6px; min-height:16px; font-family:var(--f-num); font-size:11.5px; color:var(--ink2); }
+.ms-barn .tg{ position:absolute; transform:translateX(-50%); white-space:nowrap; }
+.ms-word{ margin:12px 0 0; font-size:14px; line-height:1.45; color:var(--ink2); }
+.ms .yd-acts{ margin-top:12px; }
+.ms-hist{ margin-top:18px; }

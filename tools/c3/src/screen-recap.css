@@ -1,0 +1,209 @@
+/* C3 screen: recap. Flat and quiet: the period row and the rings sit on the page itself. */
+.yd.rc .rc-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0 4px}
+.yd.rc .rc-navbtn{display:inline-flex;align-items:center;gap:6px;background:none;border:0;color:var(--ink-1);font:inherit;font-size:14px;padding:8px 4px;cursor:pointer}
+.yd.rc .rc-navbtn:hover{color:var(--ink-0)}
+.yd.rc .rc-navbtn[disabled]{opacity:.32;cursor:default}
+.yd.rc .rc-label{font-family:var(--f-m);font-size:17px;color:var(--ink-1);text-align:center;flex:1}
+.yd.rc .rc-dials{margin:10px 0 2px}
+.yd.rc #c3rcBody{margin-top:8px}
+.yd.rc #c3rcScore{margin-top:14px}
+
+/* ported shell component styles (scoped, media context preserved, print rules dropped) */
+.yd.rc .tile{background: var(--cg-fill-2); box-shadow: none;}
+.yd.rc .tile::before,.yd.rc .tile::after{content: none;}
+.yd.rc .tile .k{color: var(--ink-1); opacity: 1; letter-spacing: 0.08em; font-size: 14px;}
+.yd.rc .tile .v{font-size: 25px; color: rgb(255, 255, 255);}
+.yd.rc .mini,.yd.rc .stdot{background: var(--cg-fill-2); border: 1px solid var(--cg-edge-2); box-shadow: none;}
+.yd.rc .mini::before,.yd.rc .mini::after{content: none;}
+.yd.rc .mini.go{background: linear-gradient(rgb(44, 46, 51), rgb(37, 39, 42)); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.rc .mini.go::before,.yd.rc .mini.go::after{content: none;}
+.yd.rc .mini.go:hover{background: linear-gradient(rgb(47, 49, 54), rgb(38, 40, 44)); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px; transform: none;}
+.yd.rc .mini{transition: border-color 0.15s, background 0.15s;}
+.yd.rc .note{font-size: 17px; color: var(--ink-1); margin: 12px 0px 0px; line-height: 1.62;}
+.yd.rc .note b{color: var(--ink-0); font-weight: 600;}
+.yd.rc .tiles{display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);}
+.yd.rc .tile{min-width: 0px; padding: 16px 18px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);}
+.yd.rc .tile .v{overflow: hidden; text-overflow: ellipsis;}
+.yd.rc .tile .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue-t); opacity: 0.85;}
+.yd.rc .tile .v{font-family: var(--f-d); font-weight: 700; font-size: 20px; margin-top: 6px; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.rc .tile .v small{font-family: var(--f-m); font-size: 17px; font-weight: 400; color: var(--ink-2); margin-left: 4px; letter-spacing: 0.04em;}
+.yd.rc .row2{display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); align-items: end;}
+.yd.rc .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.rc .mini{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ctl-b2-ink); background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); border-radius: 8px; padding: 9px 13px; cursor: pointer; transition: 0.14s; min-height: 34px;}
+@media (pointer: coarse){.yd.rc .mini{min-height: 44px; padding: 11px 14px;}}
+.yd.rc .mini:hover{color: var(--ctl-b2-ink-h); border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h);}
+.yd.rc .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.rc .mini.go:hover{color: var(--blue-ink);}
+@media (max-width: 1040px){.yd.rc .tile{min-width: 104px; padding: 14px 15px;}}
+@media (max-width: 1040px){.yd.rc .tile .v{font-size: 20px;}}
+.yd.rc .tile .v{transition: none;}
+.yd.rc .coachline{display: grid; grid-template-columns: 52px 1fr; gap: 14px 16px; align-items: start; margin: 0px 0px 24px; padding: 0px 4px;}
+.yd.rc .coachline .cbadge{width: 52px; height: 52px; border-radius: 50%; display: block; object-fit: cover; box-shadow: 0 0 0 2px var(--c-accent,#9fabbb),0 8px 22px rgba(0,0,0,.45);}
+.yd.rc .coachline .cwho{display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 5px;}
+.yd.rc .coachline .cwho b{font-family: var(--f-d); font-size: 17px; color: var(--ink-0); letter-spacing: -0.01em;}
+.yd.rc .coachline .cwho span{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3);}
+.yd.rc .coachline .cmsg{font-family: var(--f-b); font-size: 17px; line-height: 1.5; color: var(--ink-0); margin: 0px; text-wrap: pretty;}
+@media (max-width: 480px){.yd.rc .coachline{grid-template-columns: 44px 1fr; gap: 12px;}}
+@media (max-width: 480px){.yd.rc .coachline .cbadge{width: 44px; height: 44px;}}
+@media (max-width: 480px){.yd.rc .coachline .cmsg{font-size: 17px;}}
+.yd.rc .stdots{display: grid; grid-template-columns: repeat(14, minmax(0px, 1fr)); gap: 4px; margin: 16px 0px 4px;}
+.yd.rc .stdot{display: grid; gap: 4px; justify-items: center; padding: 8px 0px 6px; border-radius: 9px; cursor: pointer; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); min-height: 52px;}
+.yd.rc .stdot i{display: block; width: 11px; height: 11px; border-radius: 50%; background: rgba(255, 255, 255, 0.12);}
+.yd.rc .stdot span{font-family: var(--f-m); font-size: 14px; color: var(--ink-3); letter-spacing: 0.04em;}
+.yd.rc .stdot.on i{background: var(--blue); box-shadow: 0 0 8px var(--blue);}
+.yd.rc .stdot.now{border-color: var(--blue);}
+.yd.rc .stdot:hover{border-color: var(--blue);}
+.yd.rc .note,.yd.rc .auxr{overflow-wrap: anywhere;}
+.yd.rc .cwho{min-width: 0px;}
+.yd.rc .cwho b{display: block; font-size: 17px; color: var(--ink-0); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.yd.rc .goalbox{margin: 18px 0px; padding: 15px 16px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02);}
+.yd.rc .goalpick{display: grid; gap: 7px; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); margin-bottom: 14px;}
+.yd.rc .gbtn{min-height: 56px; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); cursor: pointer; background: rgba(255, 255, 255, 0.03); color: var(--ink-2); display: flex; flex-direction: column; gap: 2px; align-items: center; justify-content: center; transition: color 0.15s, border-color 0.15s, background 0.15s;}
+.yd.rc .gbtn b{font-family: var(--f-m); font-size: 17px;}
+.yd.rc .gbtn span{font-size: 14px; text-align: center; line-height: 1.25;}
+.yd.rc .gbtn:hover{border-color: var(--blue); color: var(--ink-0);}
+.yd.rc .gbtn.on{color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.rc .weekbars{display: flex; gap: 5px; align-items: flex-end; margin: 14px 0px 10px; min-height: 66px;}
+.yd.rc .wb{flex: 1 1 0px; min-width: 0px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 5px; height: 66px;}
+.yd.rc .wb i{display: block; width: 100%; border-radius: 4px 4px 0px 0px; background: rgba(255, 255, 255, 0.09);}
+.yd.rc .wb.hit i{background: linear-gradient(180deg,#2E3035,var(--blue));}
+.yd.rc .wb.now i{outline: 1px solid var(--s2); outline-offset: 1px;}
+.yd.rc .wb span{font-family: var(--f-m); font-size: 14px; color: var(--ink-3); white-space: nowrap;}
+@media (max-width: 520px){.yd.rc .weekbars{gap: 3px;}}
+@media (max-width: 520px){.yd.rc .wb span{font-size: 14px;}}
+.yd.rc .impgrid{display: grid; gap: 11px; grid-template-columns: repeat(auto-fit, minmax(146px, 1fr)); margin-top: 12px;}
+.yd.rc .impgrid label{display: flex; flex-direction: column; gap: 5px; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);}
+.yd.rc .impgrid input,.yd.rc .impgrid select{height: 44px; width: 100%; min-width: 0px;}
+.yd.rc .exaux{margin: 0px 0px 12px; padding: 13px 14px; border-radius: 11px; border: 1px solid rgba(201, 203, 207, 0.157); background: rgba(201, 203, 207, 0.03);}
+.yd.rc .auxh{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue-t); margin-bottom: 9px;}
+.yd.rc .auxr{display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 17px; color: var(--ink-1); padding: 5px 0px; line-height: 1.5;}
+.yd.rc .auxr b{color: var(--ink-0); font-family: var(--f-m); font-weight: 500;}
+.yd.rc .auxr span{margin-left: auto; font-family: var(--f-m); font-size: 17px; color: var(--ink-2);}
+.yd.rc .exaux .mini{margin-top: 10px;}
+@media (pointer: coarse){.yd.rc .mini,.yd.rc .gbtn,.yd.rc .stdot{min-height: 44px;}}
+.yd.rc .mini,.yd.rc .gbtn{background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 56%), rgba(0, 0, 0, 0.34); box-shadow: rgba(255, 255, 255, 0.11) 0px 1px 0px inset;}
+.yd.rc .mini:hover{background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(201, 203, 207, 0.06) 60%), rgba(0, 0, 0, 0.34);}
+.yd.rc .mini.go,.yd.rc .mini.go:hover{background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.rc .mini:active{transform: translateY(1px);}
+.yd.rc .tile{background: linear-gradient(rgba(255, 255, 255, 0.024), transparent 60%);}
+.yd.rc .coachline .cbadge + div::before,.yd.rc .mini::after,.yd.rc .tile::after{content: ""; position: absolute; inset: 0px; border-radius: inherit; padding: 1px; pointer-events: none; background: var(--gl2-ring); mask: linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px) content-box exclude, linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px);}
+.yd.rc .coachline .cbadge + div::before{content: none;}
+.yd.rc .mini,.yd.rc .tile{position: relative;}
+.yd.rc .mini::after,.yd.rc .tile::after{opacity: 0.55; z-index: 0;}
+.yd.rc .tile::after{border-radius: 0px; opacity: 0.22;}
+.yd.rc .mini.go{position: relative; overflow: hidden;}
+.yd.rc .mini.go{box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0px inset, rgba(255, 255, 255, 0.38) 0px 0px 0px 1px, rgba(96, 112, 134, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.95) 0px 8px 22px -10px;}
+.yd.rc .mini.go::before{content: ""; position: absolute; left: 4%; right: 4%; top: 2px; height: 46%; border-radius: 999px 999px 60% 60%; pointer-events: none; background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.02)); opacity: 0.75;}
+.yd.rc .mini.go::before{opacity: 0.6;}
+.yd.rc .coachline .cbadge{box-shadow: 0 0 0 2px var(--c-accent,#9fabbb),inset 0 0 0 1px rgba(255,255,255,.35),0 -1px 0 1px rgba(255,255,255,.25),0 10px 26px -8px rgba(0,0,0,.7);}
+.yd.rc .tile .k,.yd.rc .auxh,.yd.rc .coachline .cwho span,.yd.rc .cwho span{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.rc .tile .k{font-size: 17px; color: var(--ink-2); opacity: 1;}
+.yd.rc .tile .k::first-letter,.yd.rc .auxh::first-letter{text-transform: uppercase;}
+.yd.rc .auxh{font-size: 17px; color: var(--ink-2); font-weight: 500;}
+.yd.rc .mini,.yd.rc .gbtn{font-family: var(--f-b); font-size: 17px; font-weight: 500; letter-spacing: 0px; text-transform: none;}
+.yd.rc .mini::first-letter{text-transform: uppercase;}
+.yd.rc .tile{border-radius: 12px; border: 0px !important; background: rgba(255, 255, 255, 0.03) !important;}
+.yd.rc .tiles{gap: 8px; border: 0px; background: none;}
+.yd.rc .tile .v{font-size: 25px; letter-spacing: -0.02em;}
+.yd.rc .auxh,.yd.rc .mini,.yd.rc .gbtn{font-size: 17px;}
+.yd.rc .tile .k,.yd.rc .tile .k,.yd.rc .stdot span,.yd.rc .gbtn span,.yd.rc .wb span,.yd.rc .impgrid label,.yd.rc .auxh{font-size: 17px;}
+.yd.rc .tile .v small,.yd.rc .mini,.yd.rc .coachline .cwho span,.yd.rc .auxr span,.yd.rc .tile .k{font-size: 17px;}
+@media (max-width: 520px){.yd.rc .wb span{font-size: 17px;}}
+.yd.rc .note{font-size: 17px; line-height: 1.55; color: var(--ink-1);}
+.yd.rc .note b{color: var(--ink-0);}
+.yd.rc .mini,.yd.rc .gbtn{font-size: 17px; font-weight: 500;}
+.yd.rc .auxh{font-size: 17px; color: var(--ink-1);}
+.yd.rc .tile .v small{font-variant-numeric: tabular-nums;}
+.yd.rc .tile .v{font-variant-numeric: tabular-nums;}
+.yd.rc .tile .k{color: var(--ink-1);}
+.yd.rc .tiles{border: 0px; gap: 0px 24px;}
+.yd.rc .tile,.yd.rc .tile:hover{border-radius: 0px; padding: 14px 0px 12px; box-shadow: none; background: none !important; border: 0px !important;}
+.yd.rc .tile .k{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); opacity: 1;}
+.yd.rc .tile .v{font-size: 34px; line-height: 1.1; color: var(--ink-0); letter-spacing: -0.02em; margin-top: 4px;}
+.yd.rc .tile .v small{font-size: 17px; color: var(--ink-1);}
+.yd.rc .note code{background: none; border: 0px; padding: 0px; color: var(--ink-0); font-weight: 600; font-size: inherit; font-family: var(--f-m);}
+.yd.rc .mini,.yd.rc .stdot,.yd.rc .gbtn{background: none; border: 1px solid var(--cg-edge); box-shadow: none; color: var(--ink-0); text-shadow: none;}
+.yd.rc .mini:hover{background: var(--glass); border-color: var(--cg-edge); color: var(--ink-0); box-shadow: none; transform: none;}
+.yd.rc .mini{border-radius: 10px; padding: 10px 14px; min-height: 40px;}
+.yd.rc .mini.go,.yd.rc .mini.go{background: rgb(40, 42, 46); border: 1px solid transparent; color: rgb(255, 255, 255); box-shadow: none; text-shadow: none;}
+.yd.rc .mini.go:hover{background: rgb(44, 46, 50); box-shadow: none; transform: none;}
+.yd.rc .mini.go::before{content: none;}
+@media (min-width: 1100px){.yd.rc .tile,.yd.rc .row2,.yd.rc .tiles{break-inside: avoid;}}
+@media (min-width: 1100px){.yd.rc .auxh{break-after: avoid;}}
+@media (max-width: 720px){.yd.rc .tile .v{font-size: 25px;}}
+@media (max-width: 720px){.yd.rc .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.rc .tile .k{font-size: 17px;}}
+@media (max-width: 430px){.yd.rc .tile .v{font-size: 25px;}}
+.yd.rc .tile .v,.yd.rc .dv{font-family: var(--f-n); font-weight: 600; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;}
+.yd.rc .mini.go{background: rgb(40, 42, 46); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.rc .mini.go:hover{background: rgb(44, 46, 50);}
+.yd.rc .mini{border-radius: 999px;}
+.yd.rc .mini{border: 1px solid var(--cg-edge); color: var(--ink-0);}
+.yd.rc .dials{display: grid; grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 10px; margin-top: 4px;}
+.yd.rc .dial{text-align: center; min-width: 0px;}
+.yd.rc .dial canvas{width: 100%; max-width: 118px; height: auto; display: block; margin: 0px auto;}
+.yd.rc .dial .dv{color: var(--ink-0); font-size: 25px !important; margin-top: 8px !important;}
+.yd.rc .dial .dv .of{font-family: var(--f-b); font-weight: 400; font-size: 17px; color: var(--ink-2); letter-spacing: 0px;}
+.yd.rc .dial .dk{font-weight: 600; margin-top: 2px; font-family: var(--f-b) !important; font-size: 17px !important; letter-spacing: 0.06em !important; text-transform: uppercase !important; color: var(--ink-2) !important;}
+@media (max-width: 430px){.yd.rc .dial canvas{max-width: 96px;}}
+@media (max-width: 430px){.yd.rc .dial .dv{font-size: 20px !important;}}
+.yd.rc .mini{min-width: 44px;}
+@media (max-width: 620px){.yd.rc .stdots{grid-template-columns: repeat(7, minmax(44px, 1fr)); gap: 2px;}}
+.yd.rc .tile .v,.yd.rc .tile .v small{color: var(--ink-0);}
+.yd.rc .tile .v small{color: var(--ink-1);}
+.yd.rc .cbadge,.yd.rc .coachline > img{border-radius: 50%; filter: none; box-shadow: var(--neon) !important;}
+.yd.rc .coachline .cwho b,.yd.rc .cwho b{text-transform: uppercase; letter-spacing: -0.01em; font-family: var(--f-plate) !important; font-weight: 900 !important;}
+.yd.rc .coachline .cwho b{font-size: 17px;}
+.yd.rc .coachline .cwho span{font-weight: 400; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px; line-height: 1.5; color: var(--ink-2); font-family: var(--f-role) !important;}
+.yd.rc .mini.go{background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 22px, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px;}
+.yd.rc .mini.go:hover{background: linear-gradient(rgb(51, 54, 59) 0%, rgb(46, 48, 52) 50%, rgb(40, 42, 46) 100%); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 30px, rgb(51, 53, 59) 0px 12px 30px -12px;}
+.yd.rc .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.rc .mini:not(.go):hover{background: rgba(255, 255, 255, 0.14); border-color: rgba(255, 255, 255, 0.34);}
+.yd.rc .coachline{padding: 14px 16px; border-radius: 18px; background: var(--cg-fill); border: 1px solid var(--cg-edge); box-shadow: inset 0 1px 0 var(--cg-hi),var(--cg-shadow);}
+.yd.rc :root[data-theme="light"] body .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.rc .scorecard{padding: 2px 0px 8px;}
+.yd.rc .sch{display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px;}
+.yd.rc .sch .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.6) 0px 0px 12px;}
+.yd.rc .sch span:last-child{font-size: 17px; color: var(--ink-2);}
+.yd.rc :root[data-theme="light"] .sch .k{color: rgb(39, 41, 44); text-shadow: none;}
+.yd.rc .scgrid{display: grid; grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 10px 14px; margin-bottom: 14px;}
+.yd.rc .sccell b{display: block; font-family: var(--f-n); font-weight: 700; font-size: 25px; line-height: 1.05; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.rc .sccell b .of{font-size: 17px; color: var(--ink-2); font-weight: 600;}
+.yd.rc .sccell span{display: block; font-size: 17px; color: var(--ink-2); margin-top: 3px; letter-spacing: 0.04em; text-transform: uppercase;}
+.yd.rc .sccell.on b{color: var(--ink-0);}
+.yd.rc :root[data-theme="light"] .sccell.on b{color: rgb(46, 49, 53);}
+@media (max-width: 420px){.yd.rc .scgrid{grid-template-columns: repeat(2, minmax(0px, 1fr));}}
+.yd.rc .gbtn:hover{transform: none;}
+.yd.rc .mini:active{transform: scale(0.97);}
+.yd.rc .coachline,.yd.rc .tile,.yd.rc .scorecard{background: none; border: 0px; border-radius: 0px; box-shadow: none; backdrop-filter: none;}
+.yd.rc .coachline{border-bottom: 1px solid var(--hair-soft, rgba(0,0,0,.07)); border-radius: 0px; padding: 14px 0px; margin: 0px;}
+.yd.rc .coachline:last-child{border-bottom: 0px;}
+.yd.rc .goalbox,.yd.rc .exaux{background: none; border: 0px; border-radius: 0px; box-shadow: none; padding-inline: 0px;}
+.yd.rc .goalbox,.yd.rc .exaux{border-top: 1px solid var(--hair-soft, rgba(0,0,0,.07)); padding-block: 14px;}
+.yd.rc :root[data-theme="light"] .sch .k{color: var(--ink-1);}
+.yd.rc .mini,.yd.rc .gbtn{background: linear-gradient(rgba(201, 203, 207, 0.094), rgba(201, 203, 207, 0.06)); border: 1.5px solid rgba(201, 203, 207, 0.25); color: var(--ink-0); font-weight: 600;}
+.yd.rc .mini:hover,.yd.rc .gbtn:hover{background: linear-gradient(rgba(201, 203, 207, 0.17), rgba(201, 203, 207, 0.11)); border-color: rgba(201, 203, 207, 0.42); color: var(--ink-0);}
+.yd.rc .mini.go{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); border: 0px; color: rgb(255, 255, 255); font-weight: 700;}
+.yd.rc .mini.go:hover{background: linear-gradient(rgb(49, 52, 57), rgb(39, 41, 45)); color: rgb(255, 255, 255);}
+.yd.rc .mini{font-family: var(--f-m); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; min-height: 44px; border-radius: 999px; padding: 0px 16px;}
+.yd.rc .dials{max-height: 125px; overflow: hidden;}
+.yd.rc .dials svg{max-height: 56px; width: auto;}
+.yd.rc .mini.go{border-radius: 8px; background-position-x:  !important; background-position-y:  !important; background-size:  !important; background-repeat:  !important; background-attachment:  !important; background-origin:  !important; background-clip:  !important; background-color:  !important; background-image: none !important; color: rgb(255, 255, 255) !important; border-color: transparent !important; box-shadow: none !important;}
+.yd.rc .mini:not(.go){border-radius: 8px; background: var(--bg-1) !important; color: var(--ink-1) !important; border: 1px solid var(--line) !important;}
+.yd.rc .k{letter-spacing: 0.08em !important;}
+.yd.rc .note{color: var(--ink-2);}
+.yd.rc .note,.yd.rc .k{opacity: 1 !important;}
+.yd.rc html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:is(.on, .go),.yd.rc html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:is(.on, .go){border-bottom: 3px solid rgb(92, 242, 176) !important; color: rgb(255, 255, 255) !important; font-weight: 800 !important;}
+
+/* house flatten: hairlines and one mint action, no banded chrome */
+.yd.rc .coachline{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:14px 0;margin:0}
+.yd.rc .mini.go,.yd.rc .mini.go:hover{background:var(--blue);background-image:none;color:#0B0C0E;border:0;box-shadow:none;text-shadow:none;font-weight:700}
+.yd.rc .gbtn.on{background:rgba(92,242,176,.10);background-image:none;border-color:var(--blue);color:var(--blue);box-shadow:none}
+.yd.rc .wb.hit i{background:var(--blue);background-image:none}
+.yd.rc .dv{font-size:23px;font-weight:800;color:var(--ink-0)}
+.yd.rc .dk{font-size:17px;color:var(--blue);text-transform:uppercase;letter-spacing:.06em}
+
+/* v2: C3 shadow scope redefines --blue as a dark slab; the ported shell rules expect mint. Rebind on this screen only. */
+.yd.rc{--blue:#5CF2B0;--blue-t:#5CF2B0;--blue-ink:#0B0C0E}
+.yd.rc input,.yd.rc select,.yd.rc textarea{background:var(--bg-1);border:1px solid var(--line);border-radius:9px;color:var(--ink-0);font:inherit;font-size:17px;padding:9px 12px;min-height:44px;color-scheme:dark}
+.yd.rc .mini.go,.yd.rc .mini.go:hover{background-color:var(--blue)!important;background-image:none!important;color:#0B0C0E!important}

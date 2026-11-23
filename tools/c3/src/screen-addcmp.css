@@ -1,0 +1,133 @@
+/* C3 addcmp (v333). One question a screen, big targets, rows on hairlines, nothing boxed. Everything is under .ac. */
+.ac{ max-width:640px; }
+.ac-dots{ list-style:none; display:flex; gap:8px; margin:6px 0 18px; padding:0; }
+.ac-dots li{ flex:1 1 0; height:6px; border-radius:3px; background:rgba(74,97,128,.16); }
+.ac-dots li.done{ background:var(--mint); opacity:.6; }
+.ac-dots li.on{ background:var(--mint); box-shadow:0 0 10px rgba(92,242,176,.6); }
+.ac-q{ font-family:var(--f-head); font-weight:900; font-size:34px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); margin:0 0 16px; }
+.ac-cmp{ display:block; font-size:16px; letter-spacing:0; color:var(--mint-soft); margin-bottom:8px; }
+.ac-find{ display:block; }
+.ac .ac-in{ width:100%; min-height:58px; font-size:19px; }
+.ac-lbl{ margin:20px 0 8px; font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.ac-list{ list-style:none; margin:4px 0 0; padding:0; }
+.ac-list li{ border-top:1px solid var(--hair, rgba(74,97,128,.18)); }
+.ac-list li:last-child{ border-bottom:1px solid var(--hair, rgba(74,97,128,.18)); }
+.ac-pick{ display:grid; grid-template-columns:minmax(0, 1fr) auto; grid-template-areas:"n i" "a i"; align-items:center; gap:2px 12px; width:100%; min-height:62px; padding:10px 2px; text-align:left; color:var(--ink); }
+.ac-pick b{ grid-area:n; font-size:19px; font-weight:700; }
+.ac-pick small{ grid-area:a; font-size:14px; font-weight:500; color:var(--ink2); white-space:normal; overflow-wrap:anywhere; }   /* v367: whole, never cut */
+.ac-pick svg{ grid-area:i; color:var(--mint); }
+.ac-pick:focus-visible{ outline:3px solid var(--mint); outline-offset:2px; }
+.ac-none{ margin:14px 0 0; font-size:16px; font-weight:600; color:var(--ink); }
+.ac-alt, .ac-back{ margin-top:14px; }
+.ac-back .c3-link{ min-width:64px; min-height:48px; }
+.ac-amt{ display:flex; align-items:flex-end; gap:14px; flex-wrap:wrap; }
+.ac-big{ flex:1 1 160px; min-width:0; }
+.ac-num{ width:100%; min-height:84px; padding:0 14px; font-size:52px; font-weight:800; color:var(--ink); background:var(--well); border:0; border-bottom:3px solid var(--mint); border-radius:6px 6px 0 0; }
+.ac-num::placeholder{ color:rgba(23,35,55,.35); }
+.ac-num:focus{ outline:none; box-shadow:0 0 0 3px rgba(92,242,176,.5); }
+.ac-u{ font-family:var(--f-head); font-weight:900; font-size:30px; text-transform:none; color:var(--ink); padding-bottom:14px; }
+.ac .ac-unit{ flex:0 0 auto; }
+.ac .ac-unit .yd-opt{ min-width:64px; min-height:56px; font-size:17px; }
+.ac .ac-grid{ display:grid; gap:8px; }
+.ac .ac-grid.two{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.ac .ac-grid.three{ grid-template-columns:repeat(3, minmax(0, 1fr)); margin-bottom:16px; }
+.ac .ac-grid.seven{ grid-template-columns:repeat(7, minmax(0, 1fr)); margin-top:8px; }
+.ac .ac-grid .yd-opt{ min-height:54px; padding:0 8px; font-size:15.5px; letter-spacing:0; justify-content:center; text-align:center; white-space:normal; line-height:1.15; }
+.ac .ac-grid.seven .yd-opt{ min-width:0; padding:0; font-size:14px; }
+.ac-two{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:12px; }
+.ac-draw{ display:flex; align-items:center; gap:16px; margin-top:20px; padding:14px 0; border-top:1px solid var(--hair, rgba(74,97,128,.18)); border-bottom:1px solid var(--hair, rgba(74,97,128,.18)); }
+.ac-draw b{ font-size:64px; font-weight:800; line-height:1; color:var(--mint); text-shadow:0 0 18px rgba(92,242,176,.45); }
+.ac-draw span{ display:flex; flex-direction:column; gap:4px; font-family:var(--f-body); font-weight:700; font-size:18px; text-transform:none; color:var(--ink); }
+.ac-draw small{ font-family:var(--f-body); font-weight:600; font-size:14.5px; text-transform:none; color:var(--ink2); }
+.ac-foot{position:sticky;bottom:calc(var(--tabs-h) + var(--toast-room) + env(safe-area-inset-bottom,0px));z-index:5;margin-top:26px;padding:20px 0 6px}.ac-foot .yd-primary{font-size:clamp(23px,6.6vw,32px)}.ac-error{color:#b3261e;font-size:15px;line-height:1.5;border-left:3px solid #e0566a;padding-left:12px}
+@media(min-width:1024px){.ac-foot{bottom:var(--toast-room)}}
+/* Stack: the first visit, before anything is added */
+.pd-firstgo{ display:flex; flex-direction:column; gap:16px; max-width:640px; }
+.pd-firstl{ list-style:none; margin:0; padding:0; }
+.pd-firstl li{ display:flex; align-items:center; gap:14px; min-height:54px; border-top:1px solid var(--hair, rgba(74,97,128,.18)); font-size:17px; font-weight:600; color:var(--ink); }
+.pd-firstl li:last-child{ border-bottom:1px solid var(--hair, rgba(74,97,128,.18)); }
+.pd-firstl b{ display:flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:50%; border:2px solid var(--mint); font-family:var(--f-num); font-size:16px; color:var(--ink); flex:none; }
+.yd-head.noback{ padding-top:4px; }
+@media (min-width:700px){
+  .ac-q{ font-size:44px; }
+  .ac .ac-grid.two{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+}
+
+/* ================= v373: the schedule, as words on a line (Chad, 28 Oct: "fortune 500 quality like rest of app not all
+   these floaty buttons") ================= */
+.ac .ac-amt{ align-items:flex-end; gap:26px; flex-wrap:nowrap; }
+.ac .ac-big{ display:flex; flex-direction:column; gap:4px; flex:1 1 auto; }
+.ac .ac-each{ font-family:var(--f-body); font-weight:600; font-size:14px; color:var(--ink2); }
+.ac .ac-num{ min-height:72px; padding:0 2px; font-size:58px; background:transparent; border:0; border-bottom:3px solid var(--mint); border-radius:0; }
+.ac .ac-num:focus{ box-shadow:none; border-bottom-color:var(--mint-soft); }
+.ac .ac-num:focus-visible{ outline:2px solid var(--mint); outline-offset:6px; }
+.ac .ac-set{ min-width:0; margin:24px 0 0; padding:0; border:0; }
+.ac .ac-set > legend{ float:left; width:100%; margin:0 0 4px; padding:0; }
+.ac .ac-set > legend + *{ clear:both; }
+.ac-opts{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:24px; }
+.ac-o{ display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:3px; min-width:0; min-height:56px; padding:8px 2px 9px; text-align:left;
+  border-bottom:1.5px solid rgba(74,97,128,.22); color:var(--ink2); transition:color .15s ease, border-color .15s ease; }
+.ac-o b{ display:inline-flex; align-items:center; gap:8px; font-family:var(--f-body); font-weight:600; font-size:17px; line-height:1.15; letter-spacing:0; }
+.ac-o b .c3-ic{ flex:none; color:var(--mint); }
+.ac-o small{ font-family:var(--f-num); font-weight:600; font-size:13.5px; line-height:1; color:var(--ink2); }
+.ac-o.on{ color:var(--ink); border-bottom:3px solid var(--mint); padding-bottom:7.5px; }
+.ac-o.on b{ font-weight:800; }
+.ac-o:hover{ color:var(--ink); }
+.ac-o:focus-visible{ outline:3px solid var(--mint); outline-offset:2px; }
+.ac-opts.units{ grid-template-columns:repeat(3, auto); column-gap:18px; flex:none; }
+.ac-opts.units .ac-o{ min-width:52px; align-items:center; }
+.ac .ac-opts.units .ac-o{ min-width:88px; align-items:flex-start; }   /* v373: room for the check, so the units never shift when one is picked */
+.ac .ac-draw-0 b{ display:none; }   /* v373: empty, the readout is its words only (no lone mark) */
+.ac .ac-draw-0 span{ color:var(--ink2); }
+.ac.ac-s3 .ac-sum{ border-top:0; padding-top:0; }   /* the readout's rule above is enough */
+.ac-opts.units .ac-o b{ font-size:20px; }
+.ac-opts.seven{ grid-template-columns:repeat(7, minmax(0, 1fr)); column-gap:8px; margin-top:6px; }
+.ac-opts.seven .ac-o{ align-items:center; min-height:48px; }
+.ac-opts.seven .ac-o b{ font-size:15px; gap:4px; }
+.ac-opts.seven .ac-o b .c3-ic{ display:none; }
+.ac-opts.three{ grid-template-columns:repeat(3, minmax(0, 1fr)); margin-bottom:18px; }
+/* the schedule those answers make */
+.ac-sum{ display:flex; flex-direction:column; gap:6px; margin:28px 0 0; padding:16px 0 0; border-top:1px solid var(--hair); }
+.ac-sum .k{ font-family:var(--f-body); font-weight:600; font-size:13.5px; color:var(--ink2); }
+.ac-sum b{ font-family:var(--f-head); font-weight:900; font-size:30px; line-height:1.05; letter-spacing:0; color:var(--ink); }
+.ac-sum b i{ font-style:normal; color:var(--ink2); }
+.ac-sum .w{ font-family:var(--f-body); font-weight:600; font-size:16.5px; line-height:1.3; color:var(--ink); }
+/* the foot: the one big button, then Back and Cancel, on the page (a fade, not a panel) */
+.ac .ac-foot, .c3 .yd.ac .ac-foot{ background:linear-gradient(180deg, rgba(238,242,247,0) 0, rgba(238,242,247,.94) 22px); }   /* light glass fade, not the old dark bar */
+.ac .ac-back{ display:flex; align-items:center; gap:26px; margin-top:8px; }
+.ac .ac-back .c3-link{ min-height:44px; }
+.ac .ac-cancel{ color:var(--ink2); }
+@media (min-width:700px){
+  .ac-opts.six{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+  .ac-opts.four{ grid-template-columns:repeat(4, minmax(0, 1fr)); }
+  .ac-opts.two{ grid-template-columns:repeat(4, minmax(0, 1fr)); }
+  .ac-sum b{ font-size:36px; }
+}
+@media (min-width:1024px){
+  .ac .ac-foot .yd-primary{ max-width:560px; }
+}
+/* the amount is a measured field with its unit beside it, not a rule across the screen */
+.ac .ac-big{ flex:0 1 420px; }
+@media (min-width:700px){ .ac .ac-amt{ justify-content:flex-start; } }
+.ac .ac-foot{ padding-top:18px; padding-bottom:4px; }
+.ac .ac-foot + .ac-back{ margin-top:4px; }
+/* phone and tablet: the button sits on the tabs, its fade covering the band under it (no page showing between); Back and Cancel stay below it, never under it */
+@media (max-width:1023.98px){
+  .ac .ac-foot{ bottom:calc(var(--tabs-h) + env(safe-area-inset-bottom, 0px)); padding-bottom:calc(var(--toast-room) - 6px); }
+}
+/* a computer: the form on the left; the schedule, the button, Back and Cancel beside it from the top, nothing over the answers */
+@media (min-width:1024px){
+  .yd.ac{ display:grid; grid-template-columns:minmax(0, 1fr) minmax(300px, 400px); grid-template-rows:auto auto auto auto auto auto 1fr; column-gap:64px; align-items:start; }
+  .yd.ac > .yd-head, .yd.ac > .ac-dots{ grid-column:1 / -1; }
+  .yd.ac > .ac-body{ grid-column:1; grid-row:3 / 8; }
+  .yd.ac > :not(.yd-head):not(.ac-dots):not(.ac-body):not(.ac-sum):not(.ac-error):not(.ac-foot):not(.ac-back){ grid-column:1 / -1; }
+  .yd.ac > .ac-sum{ grid-column:2; grid-row:3; margin:0; padding:0; border-top:0; }
+  .yd.ac > .ac-error{ grid-column:2; grid-row:4; }
+  .yd.ac > .ac-foot{ grid-column:2; grid-row:5; position:static; margin:22px 0 0; padding:0; background:none; }
+  .yd.ac > .ac-foot .yd-primary{ max-width:none; }
+  .yd.ac > .ac-back{ grid-column:2; grid-row:6; }
+  .yd.ac.ac-s1 > .ac-back{ grid-row:3; }
+}
+.ac-sel-w{ display:block; margin:0 0 14px; }
+.ac .ac-sel{ width:100%; min-height:52px; font-size:17px; }
+.ac .ac-web{ margin:14px 0 0; font-size:14px; opacity:.7; }

@@ -1,0 +1,290 @@
+/* C3 progress. One set of pieces, three layouts:
+   phone (< 700: weight first, then the week), tablet (700-1023: two columns),
+   computer (>= 1024: the week band, then weight | vs last week | records).
+   The research lane (.pg-pep) is always its own full-width section.
+   Everything is scoped under .pg. */
+
+.pg{ display:flex; flex-direction:column; gap:24px; padding-top:14px; }   /* v364: more room between sections and under the strip */
+.pg > *, .pg-body > *{ min-width:0; }
+.pg-body{ display:contents; }
+.pg-weight{ order:1; } .pg-week{ order:3; } .pg-vs{ order:4; } .pg-rec{ order:5; } .pg-pep{ order:6; } .pg-links{ order:7; }
+/* a dose is due: the research section, with the one filled control, moves up */
+.pg.due .pg-pep{ order:2; }
+
+/* ---------- shared small pieces ---------- */
+.pg .pg-sec{ display:flex; align-items:center; gap:10px; font-family:var(--f-body); font-weight:600; font-size:15px; line-height:1.2; letter-spacing:0; text-transform:none; color:var(--ink); }
+.pg .pg-sec > i{ width:26px; height:6px; flex:none; border-radius:3px; background:var(--mint); box-shadow:0 0 10px var(--mint); }
+.pg .pg-sec.amber > i{ background:var(--amber); box-shadow:0 0 10px var(--amber); }
+.pg .pg-sec.pink > i{ background:var(--pink); box-shadow:0 0 10px var(--pink); }
+.pg .when{ margin-left:auto; font-family:var(--f-body); font-size:13.5px; font-weight:500; letter-spacing:0; text-transform:none; color:var(--ink2); white-space:nowrap; }
+.pg-segs{ display:flex; gap:4px; min-width:0; --c:var(--mint); }
+.pg-segs.pink{ --c:var(--pink); } .pg-segs.amber{ --c:var(--amber); } .pg-segs.sky{ --c:var(--sky); }
+.pg-segs > i{ flex:1 1 0; min-width:0; height:10px; border-radius:3px; background:var(--well); border:1.5px solid var(--c); }
+.pg-segs > i.on{ background:var(--c); box-shadow:0 0 10px var(--c); }
+/* the filled control of this screen, sized for a column instead of a whole row */
+.pg .pg-go{ width:auto; flex:none; min-height:var(--btn-h); padding:0 16px 0 18px; gap:14px; font-size:var(--btn-fs); letter-spacing:0; border-radius:6px 6px 0 0; }
+.pg .pg-go .c3-ic{ width:26px; height:26px; }
+
+/* ---------- weight ---------- */
+.pg-weight{ display:flex; flex-direction:column; gap:8px; }
+.pg-w-top{ container-type:inline-size; }
+.pg-w-num{ display:flex; align-items:baseline; gap:.08em; margin-top:2px; white-space:nowrap; font-size:84px; font-size:25cqw; }
+.pg-w-num.l1, .pg-w-num.l2, .pg-w-num.l3{ font-size:32cqw; }
+.pg-w-num.l6, .pg-w-num.l7{ font-size:20cqw; }
+.pg-w-num > b{ font-family:var(--f-num); font-weight:700; font-size:1em; line-height:.98; letter-spacing:0; color:var(--ink); text-shadow:0 .034em 0 rgba(0,0,0,0.9), 0 0 46px rgba(92,242,176,.3); }
+.pg-w-num > span{ font-family:var(--f-body); font-weight:600; font-size:.42em; line-height:1; letter-spacing:0; text-transform:none; color:var(--pink-ink); margin-left:.12em; }
+.pg-w-num.none{ font-size:40px; }
+.pg-w-num.none > b{ font-family:var(--f-body); font-weight:600; letter-spacing:0; text-transform:none; text-shadow:var(--extrude-s); }
+.pg-chart{ display:block; width:100%; height:auto; overflow:visible; }
+.pg-w-foot{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px 12px; padding-top:10px; border-top:1px solid var(--hair); }
+.pg-w-line{ flex:1 1 150px; font-size:15.5px; line-height:1.25; font-weight:600; color:var(--ink); min-width:0; }
+.pg .pg-weigh.c3-btn-quiet{ flex:none; min-height:48px; font-size:19px; letter-spacing:0; }
+
+/* ---------- this week ---------- */
+.pg-week{ display:flex; flex-direction:column; gap:4px; padding-top:10px; border-top:0; }
+.pg-title{ display:flex; flex-direction:row-reverse; align-items:baseline; justify-content:space-between; gap:10px; }
+.pg-title .c3-eyebrow{ font-size:13px; letter-spacing:0; color:var(--ink2); }
+.pg-title .c3-eyebrow > i{ display:none; }
+.pg .pg-h1{ font-size:34px; line-height:1; letter-spacing:0; text-shadow:var(--extrude-s); }
+.pg-stats{ display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); column-gap:12px; }
+.pg-stat{ grid-column:span 2; display:flex; flex-direction:column; gap:5px; min-width:0; padding:10px 0 10px; border-top:1px solid var(--hair); }
+.pg-stat:nth-child(-n+2){ grid-column:span 3; border-top:0; }
+.pg-stat .v{ display:flex; align-items:baseline; gap:7px; white-space:nowrap; font-size:34px; }
+.pg-stat:nth-child(-n+2) .v{ font-size:46px; }
+.pg-stat .v > b{ font-family:var(--f-num); font-weight:700; font-size:1em; line-height:.95; letter-spacing:0; color:var(--ink); text-shadow:0 .06em 0 rgba(0,0,0,0.9); }
+.pg-stat .v.long > b{ font-size:.8em; }
+.pg-stat .v.xlong > b{ font-size:.62em; }                               /* seven characters ("123,456") in a third of a phone */
+.pg-stat .v > span{ font-family:var(--f-num); font-weight:700; font-size:max(15px, .38em); line-height:1; color:var(--ink2); }
+.pg-stat .k{ font-family:var(--f-body); font-weight:600; font-size:14px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.pg-stat .u{ font-size:12.5px; line-height:1.15; font-weight:500; color:var(--ink2); }
+.pg-stat .pg-segs{ max-width:150px; }
+
+/* ---------- vs last week ---------- */
+.pg-vs{ display:flex; flex-direction:column; padding-top:10px; border-top:1px solid var(--hair); }
+.pg-vs-head{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+.pg-pl{ margin-top:10px; font-family:var(--f-body); font-weight:700; font-size:13.5px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.pg-pr{ display:flex; align-items:center; gap:12px; min-height:23px; }
+.pg-pr .w{ flex:none; width:86px; font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); white-space:nowrap; }
+.pg-pr.was .w{ color:var(--ink2); }
+.pg-pr .pg-segs{ flex:1 1 auto; }
+.pg-pr .pg-segs > i{ height:9px; }
+.pg-pr .pg-segs.none{ height:2px; background:linear-gradient(90deg, rgba(237,238,239,0.34) 0%, rgba(237,238,239,0) 100%); }
+.pg-pr .n{ flex:none; width:52px; text-align:right; font-family:var(--f-num); font-weight:700; font-size:15px; line-height:1; color:var(--ink); white-space:nowrap; }
+.pg-pair.big .pg-pr{ min-height:34px; }
+.pg-pair.big .pg-segs > i{ height:16px; }
+.pg-pair.big .n{ font-size:19px; width:60px; }
+.pg-pairs{ display:grid; grid-template-columns:minmax(0, 1fr); gap:0 28px; margin-top:8px; border-top:1px solid var(--hair); }
+
+/* ---------- records ---------- */
+.pg-rec{ display:grid; grid-template-columns:minmax(0, 132px) minmax(0, 1fr); grid-template-areas:"pic top" "coach coach"; gap:12px 16px; align-items:center; padding-top:12px; border-top:1px solid var(--hair); }
+.pg-r-top{ grid-area:top; min-width:0; }
+.pg-r-pic{ grid-area:pic; }
+.pg-r-pic .c3-pic{ border-radius:14px; }
+.pg-r-coach{ grid-area:coach; }
+.pg-r-num{ display:flex; align-items:baseline; gap:10px; margin-top:6px; white-space:nowrap; }
+.pg-r-num > b{ font-family:var(--f-num); font-weight:700; font-size:50px; line-height:.95; letter-spacing:0; color:var(--ink); text-shadow:0 3px 0 rgba(0,0,0,0.9); }
+.pg-r-num > span{ font-family:var(--f-head); font-weight:900; font-size:30px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); text-shadow:var(--extrude-s); }
+.pg-r-none{ margin-top:8px; font-size:15.5px; line-height:1.25; font-weight:600; color:var(--ink); }
+.pg-r-list{ margin-top:6px; }
+.pg-r-list > li{ display:grid; grid-template-columns:minmax(0, 1fr) auto; grid-template-areas:"nm nm" "v d"; gap:2px 10px; align-items:baseline; padding:6px 0; border-bottom:1px solid var(--hair); }
+.pg-r-list .nm{ grid-area:nm; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; overflow-wrap:anywhere; font-size:15.5px; line-height:1.15; font-weight:600; color:var(--ink); }
+.pg-r-list .v{ grid-area:v; font-family:var(--f-num); font-weight:700; font-size:14px; color:var(--ink); white-space:nowrap; }
+.pg-r-list .d{ grid-area:d; font-size:12.5px; font-weight:500; color:var(--ink2); white-space:nowrap; }
+
+/* ---------- the research lane ---------- */
+.pg-pep{ display:grid; grid-template-columns:minmax(0, 1fr) auto; grid-template-areas:"name name" "flat act" "next next" "doses doses" "links links"; gap:10px 14px; align-items:center; padding-top:12px; border-top:1px solid var(--hair); }
+.pg-p-name{ grid-area:name; }
+.pg-p-name > span{ min-width:0; }
+.pg-gauge{ display:none; grid-area:gauge; position:relative; width:100%; max-width:300px; }
+.pg-gauge > svg{ width:100%; height:auto; overflow:visible; }
+.pg-gauge .mid{ position:absolute; left:0; right:0; bottom:26px; display:flex; flex-direction:column; align-items:center; pointer-events:none; }
+.pg-gauge .mid > b{ font-family:var(--f-num); font-weight:700; font-size:58px; line-height:1; letter-spacing:0; color:var(--ink); text-shadow:0 5px 0 rgba(0,0,0,0.9); }
+.pg-gauge .mid > span{ margin-top:4px; font-size:13.5px; line-height:16px; font-weight:500; color:var(--ink2); white-space:nowrap; }
+.pg-gauge .ends{ display:flex; justify-content:space-between; margin-top:8px; font-family:var(--f-body); font-weight:700; font-size:13.5px; line-height:18px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.pg-p-flat{ grid-area:flat; display:grid; grid-template-columns:auto minmax(0, 1fr); align-items:baseline; gap:6px 10px; min-width:0; }
+.pg-p-flat > b{ font-family:var(--f-num); font-weight:700; font-size:34px; line-height:1; letter-spacing:0; color:var(--ink); }
+.pg-p-flat > span{ font-size:13.5px; font-weight:500; color:var(--ink2); }
+.pg-p-flat > .c3-meter{ grid-column:1 / 3; }
+.pg-p-locked{ grid-area:flat; display:flex; align-items:center; gap:12px; min-height:48px; min-width:0; color:var(--ink); }
+.pg-p-locked .c3-ic{ color:var(--amber); }
+.pg-p-locked b{ display:block; font-size:17px; line-height:1.15; font-weight:700; }
+.pg-p-locked small{ display:block; font-size:13.5px; font-weight:500; color:var(--ink2); }
+.pg-p-next{ grid-area:next; display:flex; flex-direction:column; gap:3px; min-width:0; }
+.pg-p-next > b{ font-size:18px; line-height:1.15; font-weight:700; color:var(--ink); }
+.pg-p-next > .s{ font-size:14px; font-weight:500; color:var(--ink2); }
+/* (this was class "wk", which is the workout screen's own block: its full-screen rules made this line
+   a screen tall and pushed the links 900 px down the page) */
+.pg-p-next > .pg-p-wk{ margin-top:5px; font-size:14.5px; font-weight:600; color:var(--ink); }
+.pg-p-next > .pg-p-wk > b{ font-family:var(--f-num); font-weight:700; }
+.pg-p-act{ grid-area:act; }
+.pg-p-doses{ grid-area:doses; }
+.pg .pg-doses.c3-btn-quiet{ min-height:48px; font-size:17px; letter-spacing:0; }
+.pg .pg-dose.c3-btn-quiet{ min-height:48px; font-size:19px; letter-spacing:0; }
+.pg-p-links{ grid-area:links; display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:0 18px; }
+
+/* ---------- links to the old screens ---------- */
+.pg-links{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:0 18px; padding-top:4px; border-top:1px solid var(--hair); }
+.pg-link{ display:flex; align-items:center; justify-content:space-between; gap:8px; min-height:48px; min-width:0; border-bottom:1px solid var(--hair); font-size:15.5px; font-weight:600; color:var(--ink); white-space:nowrap; }
+.pg-link > span{ min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.pg-link .c3-ic{ color:var(--ink2); }
+.pg-link[data-locked] .c3-ic{ color:var(--amber); }
+
+/* ================= tablet and up ================= */
+@media (min-width:700px){
+  .pg{ gap:18px; padding-top:14px; }
+  .pg-weight, .pg-vs, .pg-rec{ order:0; }
+  .pg-week{ order:1; } .pg-body{ order:3; } .pg-pep{ order:4; } .pg-links{ order:5; }
+  .pg.due .pg-pep{ order:2; padding-top:0; border-top:0; padding-bottom:16px; border-bottom:1px solid var(--hair); }
+  .pg-week{ padding-top:0; border-top:0; gap:10px; padding-bottom:16px; border-bottom:0; }
+  .pg-title{ flex-direction:column; align-items:flex-start; gap:4px; }
+  .pg-title .c3-eyebrow{ font-size:15px; letter-spacing:0; color:var(--ink2); }
+  .pg .pg-h1{ font-size:46px; line-height:.95; text-shadow:var(--extrude); }
+
+  .pg-body{ display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:20px 0; align-items:stretch; }
+  .pg-weight{ padding-right:24px; justify-content:flex-start; }
+  .pg-vs{ padding:0 0 0 24px; border-top:0; border-left:1px solid var(--hair); }
+  .pg-rec{ grid-column:1 / 3; grid-template-columns:minmax(0, 220px) minmax(0, 1fr); grid-template-areas:"pic top" "pic coach"; gap:10px 24px; padding-top:18px; }
+  .pg-r-top{ align-self:end; } .pg-r-coach{ align-self:start; }
+  .pg-r-num > b{ font-size:72px; } .pg-r-num > span{ font-size:44px; }
+  .pg .pg-r-coach .c3-coach-txt{ font-size:18px; line-height:1.25; font-weight:600; }
+  .pg-w-num > span{ color:var(--ink); }
+  .pg-w-line{ font-size:16.5px; }
+  .pg .pg-sec{ font-size:16px; letter-spacing:0; }
+
+  .pg-pep{ grid-template-columns:minmax(0, 240px) minmax(0, 1fr) auto; grid-template-areas:"name name name" "gauge next act" "gauge next doses" "links links links"; gap:12px 28px; padding-top:16px; }
+  .pg-gauge{ display:block; }
+  .pg-p-flat{ display:none; }
+  .pg-p-locked{ grid-area:gauge; }
+  .pg-p-next > b{ font-size:24px; }
+  .pg-p-next > .s{ font-size:15.5px; }
+  .pg-p-next > .pg-p-wk{ font-size:15.5px; }
+  .pg-p-links{ grid-template-columns:repeat(3, minmax(0, 1fr)); gap:0 24px; }
+  .pg-links{ grid-template-columns:repeat(5, minmax(0, 1fr)); gap:0 20px; padding-top:0; border-top:0; }
+  .pg-links .pg-link{ border-top:1px solid var(--hair); }
+}
+
+/* ================= computer ================= */
+/* v365: the five numbers sit in one row only from 1024 px; at 700 they keep the phone layout (two big, three small)
+   so the small words under them stay on one or two lines instead of three */
+@media (min-width:1024px){
+  .pg-stats{ grid-template-columns:minmax(0, 1fr) minmax(0, 1fr) minmax(0, .9fr) minmax(0, 1.5fr) minmax(0, 1.1fr); column-gap:0; container-type:inline-size; }
+  .pg-stat, .pg-stat:nth-child(-n+2){ grid-column:auto; gap:6px; padding:0 12px 0 14px; border-top:0; border-left:1px solid var(--hair); }
+  .pg-stat:first-child{ padding-left:0; border-left:0; }
+  .pg-stat .v, .pg-stat:nth-child(-n+2) .v{ font-size:44px; font-size:min(76px, 7.4cqw); }
+  .pg-stat .v > span{ font-size:max(15px, .34em); }
+  .pg-stat .k{ font-size:13px; letter-spacing:0; white-space:nowrap; }
+  .pg-stat .u{ font-size:13px; }
+  .pg-stat .pg-segs > i{ height:12px; }
+}
+@media (min-width:1024px){
+  .pg{ gap:18px; padding-top:18px; }
+  .pg-week{ flex-direction:row; align-items:flex-end; gap:16px 28px; padding-bottom:18px; }
+  .pg-title{ flex:none; }
+  .pg .pg-h1{ font-size:56px; }
+  .pg-stats{ flex:1 1 auto; min-width:0; }
+  .pg-stat, .pg-stat:nth-child(-n+2){ padding:0 14px 0 16px; }
+  .pg-stat:first-child{ padding-left:0; }
+  .pg-stat .k{ font-size:13.5px; letter-spacing:0; white-space:nowrap; }
+
+  .pg-body{ grid-template-columns:minmax(0, 1.08fr) minmax(0, 1fr) minmax(0, .92fr); gap:0; }
+  .pg-weight{ padding-right:28px; }
+  .pg-vs{ padding:0 28px; }
+  .pg-rec{ grid-column:auto; display:flex; flex-direction:column; align-items:stretch; justify-content:space-between; gap:14px; padding:0 0 0 28px; border-top:0; border-left:1px solid var(--hair); }
+  .pg-r-top{ align-self:auto; } .pg-r-coach{ align-self:auto; }
+  .pg-r-pic{ max-width:340px; }
+  .pg-r-pic .c3-pic{ border-radius:16px; }
+  .pg .pg-r-coach .c3-coach{ align-items:center; gap:14px; }
+  .pg .pg-r-coach .c3-coach-face{ width:68px; height:68px; }
+  .pg .pg-go{ letter-spacing:0; padding:0 18px 0 20px; }
+  .pg .pg-go .c3-ic{ width:30px; height:30px; }
+  .pg-pair.big .pg-pr{ min-height:38px; }
+  .pg-pr{ min-height:24px; }
+  .pg-pl{ margin-top:12px; }
+
+  .pg-pep{ grid-template-columns:minmax(0, 260px) minmax(0, 1fr) auto; gap:12px 36px; }
+  .pg-p-links{ grid-template-columns:repeat(6, minmax(0, 1fr)); }
+  .pg-link{ min-height:44px; }
+}
+@media (min-width:1280px){
+  .pg-week{ gap:18px 36px; }
+  .pg .pg-h1{ font-size:80px; }
+  .pg-stat, .pg-stat:nth-child(-n+2){ padding:0 20px 0 22px; }
+  .pg-stat:first-child{ padding-left:0; }
+  .pg-stat .k{ font-size:15px; letter-spacing:0; }
+  .pg-weight{ padding-right:32px; } .pg-vs{ padding:0 32px; } .pg-rec{ padding-left:32px; }
+}
+
+/* ================= v298: the last weigh-in can be corrected (the shared ADJUST control) ================= */
+.pg-week{flex-wrap:wrap}.pg-key{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-size:13px;color:var(--ink);width:100%}
+.pg-key>span{display:inline-flex;align-items:center;gap:7px}.pg-key i{display:inline-block;width:18px;height:6px;background:#5CF2B0}.pg-key i.pink{background:#FF4FCB}.pg-key i.empty{background:transparent;border:1px solid var(--ink2)}
+.pg-key p{flex-basis:100%;margin:0;color:var(--ink2);font-size:13px;line-height:1.5}.pg-chart-key{font-size:13px;line-height:1.5;color:var(--ink2);margin:8px 0 12px}
+.pg-readings{font-size:14px;margin:8px 0 16px}.pg-readings summary{min-height:44px;display:flex;align-items:center;cursor:pointer;text-decoration:underline}.pg-readings ol{list-style:none;margin:0;padding:0;max-height:300px;overflow:auto}.pg-readings li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--hair)}.pg-readings li b{white-space:nowrap}
+.pg .pg-stat .k{white-space:normal}
+/* one line of type in the header, a full 48 px to touch: the control is 48 tall and gives the
+   height back with negative margins, so the header line does not grow */
+.pg .pg-w-adj{ position:relative; display:inline-flex; align-items:center; gap:10px; min-height:48px; margin:-14px 0; padding:0 0 0 8px; }
+
+@media(max-width:389.98px){.pg-r-top{min-width:0}.pg-r-num{flex-wrap:wrap;white-space:normal;gap:6px}.pg-r-num>span{font-size:19px;letter-spacing:0;max-width:100%;overflow-wrap:anywhere}}
+.pg-stat .u{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}.pg-stat .k{max-width:100%;overflow-wrap:anywhere}
+
+/* The approved weekly recap leads at every width; legacy phone ordering must not put the weight chart first. */
+.pg .pg-week{order:0;display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:12px}
+.pg .pg-week>*{min-width:0}
+.pg .pg-week .pg-summary{max-width:72ch;margin:0;font-size:17px;line-height:1.5}
+.pg .pg-week .pg-stats{width:100%}
+
+.pg-readings summary{ text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:5px; }
+/* v367: Adjust is a readable link (12 px) */
+.pg-w-adj .c3-adjhint{ font-size:14px; }
+
+/* v370: one reading order at every width: the week, weight with Weigh in, the body map, the compound, the links
+   (a dose that is due comes straight after the week) */
+.pg .pg-week{ order:1; } .pg.due .pg-pep{ order:2; } .pg .pg-body{ order:3; } .pg .pg-bm{ order:4; } .pg .pg-pep{ order:5; } .pg .pg-links{ order:6; }
+.pg.due .pg-pep{ order:2; }
+.pg-w-act{ display:flex; margin:2px 0 6px; }
+.pg-w-act:empty{ display:none; }
+@media (max-width:699.98px){ .pg .pg-w-act .pg-go{ width:100%; } }
+/* v370: on a phone the weight number is a size smaller so Weigh in, under it, is on the first screen with the week */
+@media (max-width:699.98px){
+  .pg .pg-w-num{ font-size:18cqw; }
+  .pg .pg-w-num.l1, .pg .pg-w-num.l2, .pg .pg-w-num.l3{ font-size:22cqw; }
+  .pg .pg-w-num.l6, .pg .pg-w-num.l7{ font-size:15cqw; }
+  .pg{ gap:18px; }
+}
+@media (max-width:699.98px){ .pg .pg-weight{ gap:4px; } .pg .pg-w-act{ margin:0 0 4px; } }
+
+/* Lane E: compact guidance and controls that work at phone width. */
+.pg-next{display:flex;flex-wrap:wrap;gap:8px 18px}
+.pg .pg-next button{min-height:44px}
+.pg .pg-w-num.none{font-size:clamp(24px,7cqw,36px);white-space:normal;letter-spacing:-.5px}
+.pg .pg-r-num>b,.pg .pg-r-num>span{ text-shadow:none }
+.pg .pg-readings li{align-items:baseline;flex-wrap:wrap;gap:4px 12px}
+.pg .pg-readings time{flex:1 1 170px}
+@media(min-width:700px){.pg .pg-wins{grid-column:1/-1;margin-top:18px}}
+/* display:contents does not inherit the wrapper's order: keep earned wins after the recap. */
+@media(max-width:699.98px){
+ .pg .pg-week{order:0}.pg .pg-weight{order:1}.pg .pg-vs{order:2}.pg .pg-rec{order:3}.pg .pg-wins{order:4}.pg .pg-bm{order:5}.pg .pg-pep{order:6}.pg .pg-links{order:7}
+ .pg.due .pg-pep{order:1}
+}
+@media(max-width:699.98px){
+ .c3 .pg{gap:14px;padding-top:4px}
+ .c3 .pg .pg-week{padding:6px 0 0;gap:9px}
+ .c3 .pg .pg-week .pg-stats{gap:8px}
+ .c3 .pg .pg-week .pg-stat{padding:11px 12px;border-radius:18px;gap:3px}
+ .c3 .pg .pg-week .pg-stat .k{margin-top:3px;font-size:12px}
+ .c3 .pg .pg-week .pg-stat .u{margin-top:2px;font-size:11px;line-height:1.35}
+ .c3 .pg .pg-week .pg-stat:last-child{display:grid;grid-template-columns:auto 1fr;column-gap:12px;align-items:center}
+ .c3 .pg .pg-week .pg-stat:last-child .v{grid-row:1/3}
+ .c3 .pg .pg-week .pg-stat:last-child .k,.c3 .pg .pg-week .pg-stat:last-child .u{grid-column:2;margin:0}
+ .c3 .pg .pg-key{margin:0;gap:0 12px}
+ .c3 .pg .pg-key button{min-height:36px}
+ .c3 .pg .pg-weight{margin-top:0;padding:16px}
+}
+/* Weight editing meets the shared control's 48px touch-target contract. */
+.c3-ov.adjust.weight .c3-btn-quiet{min-width:48px;min-height:48px}
+
+.pg-readout{padding:22px 0;border-top:1px solid var(--hair);max-width:76ch}.pg-readout h3{font-size:18px;margin:20px 0 8px}.pg-readout p{font-size:16px;line-height:1.55;margin:10px 0;color:var(--ink)}.pg-readout .pg-readout-note{font-size:13px;color:var(--ink2)}.pg-readout .yd-acts{display:flex;flex-wrap:wrap;gap:12px}.pg-readout .c3-btn-quiet{white-space:normal;min-height:44px}
+/* Put the review immediately after the week summary at every breakpoint. */
+.pg .pg-week{order:1}.pg .pg-readout{order:2;grid-column:1/-1}.pg.due .pg-pep{order:3}.pg .pg-body{order:4}.pg .pg-bm{order:5}.pg .pg-pep{order:6}.pg .pg-links{order:7}
+.pg .pg-body>.pg-weight,.pg .pg-body>.pg-vs,.pg .pg-body>.pg-rec,.pg .pg-body>.wn{order:4}
+.pg .pg-w-num.none{white-space:normal;font-size:clamp(24px,7vw,40px);overflow-wrap:anywhere}.pg .pg-w-num.none>b{min-width:0;max-width:100%}

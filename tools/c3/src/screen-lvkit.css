@@ -1,0 +1,43 @@
+/* v328 levels from the log: the chart the dose tracker and the Levels screen share. No boxes; the lines carry it. */
+.lv2-top b{ font-size:30px; }
+.lv2-range{ margin:0 0 10px; }
+.lv2-leg{ display:flex; flex-wrap:wrap; gap:4px 14px; margin:0 0 8px; }
+.lv2-lg{ display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 4px; background:none; border:0; color:var(--ink2); font:inherit; font-size:14px; font-weight:700; cursor:pointer; }
+.lv2-lg i{ flex:none; width:16px; height:4px; border-radius:2px; opacity:.6; }
+.lv2-lg span{ display:flex; flex-direction:column; align-items:flex-start; line-height:1.15; text-align:left; }
+.lv2-lg small{ font-size:11.5px; font-weight:600; color:var(--amber); }
+.lv2-lg.on{ color:var(--ink); }
+.lv2-lg.on i{ opacity:1; height:5px; box-shadow:0 0 8px currentColor; }
+.lv2-wrap{ width:100%; overflow:hidden; touch-action:pan-y; }
+.lv2-chart{ display:block; width:100%; height:auto; overflow:visible; }
+.lv2-chart .g{ stroke:rgba(255,255,255,.12); stroke-width:1; stroke-dasharray:2 6; fill:none; }
+.lv2-chart .g.hi{ stroke:rgba(255,184,92,.55); stroke-dasharray:6 6; }
+.lv2-chart .yl, .lv2-chart .xl{ fill:var(--ink2); font-family:var(--f-num); font-weight:700; font-size:12px; }
+.lv2-chart .ss{ fill:var(--amber); font-family:var(--f-head); font-weight:800; font-size:12px; letter-spacing:0; }
+.lv2-chart .tk{ stroke:rgba(255,255,255,.3); stroke-width:1; }
+.lv2-chart .now{ stroke:#FFFFFF; stroke-width:1.4; stroke-dasharray:3 4; opacity:.75; }
+.lv2-chart .nowt{ fill:#FFFFFF; font-family:var(--f-head); font-weight:800; font-size:12px; letter-spacing:0; }
+.lv2-chart .ln{ fill:none; stroke-width:2; stroke-linejoin:round; stroke-linecap:round; opacity:.55; }
+.lv2-chart .ln.on{ stroke-width:3; opacity:1; filter:drop-shadow(0 0 5px rgba(255,255,255,.25)); }
+.lv2-chart .ln.plan{ stroke-dasharray:6 6; }
+.lv2-chart .dot{ stroke:#0B0F14; stroke-width:2; }
+.lv2-chart .scrub{ stroke:var(--pink); stroke-width:1.5; }
+.lv2-chart .hit{ cursor:crosshair; }
+.lv2-read{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 16px; min-height:44px; margin:4px 0 6px; font-size:14px; color:var(--ink2); }
+.lv2-read b{ color:var(--ink); font-weight:800; }
+.lv2-read span{ display:inline-flex; align-items:center; gap:6px; }
+.lv2-read i{ width:10px; height:10px; border-radius:5px; }
+.lv2-rows{ list-style:none; margin:6px 0 0; padding:0; display:flex; flex-direction:column; }
+.lv2-rows li{ display:grid; grid-template-columns:10px minmax(0, 1fr); gap:12px; padding:12px 0; border-bottom:1px solid var(--hair); }
+.lv2-rows li > i{ width:10px; height:10px; border-radius:5px; margin-top:7px; box-shadow:0 0 8px currentColor; }
+.lv2-r .n{ display:flex; align-items:baseline; flex-wrap:wrap; gap:4px 10px; margin:0; }
+.lv2-r .n b{ font-size:17px; font-weight:800; color:var(--ink); }
+.lv2-r .n small{ font-size:13px; color:var(--ink2); }
+.lv2-r .n em{ margin-left:auto; font-style:normal; font-size:24px; font-weight:800; color:var(--ink); }
+.lv2-r .f{ display:flex; flex-wrap:wrap; gap:4px 18px; margin:4px 0 0; font-size:13.5px; line-height:1.4; color:var(--ink2); }
+.lv2-r .f b{ color:var(--ink); }
+.lv2-src{ margin:10px 0 0; font-size:12.5px; line-height:1.45; color:var(--ink2); max-width:80ch; }
+.lv2-src b{ color:var(--amber); }
+@media (max-width:419.98px){
+  .lv2-top b{ font-size:24px; }
+}

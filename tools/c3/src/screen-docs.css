@@ -1,0 +1,64 @@
+/* v347: Your plan, as a document. Laid on the page (no boxes): rules between days, the day's name strong, the numbers
+   in the number face. Controls first, then the document; a computer reads it in one column 860 px wide. */
+.dc .dc-ctl{ display:flex; flex-direction:column; gap:12px; margin:4px 0 22px; }
+.dc .dc-nav{ display:flex; align-items:center; gap:10px; }
+.dc .dc-step{ flex:none; width:48px; min-height:48px; padding:0; display:inline-flex; align-items:center; justify-content:center; }
+.dc .dc-when{ flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap; align-items:baseline; justify-content:center; gap:4px 14px; text-align:center; }
+.dc .dc-when b{ font-family:var(--f-body); font-weight:700; font-size:16px; line-height:1.15; letter-spacing:0; text-transform:none; color:var(--ink); }
+.dc .dc-when .c3-link{ font-size:14px; }
+.dc .dc-acts{ margin:0; display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px; }
+.dc .dc-acts .yd-btn{ width:100%; justify-content:center; padding:0 8px; }
+.dc .dc-doc{ max-width:860px; }
+.dc .dc-sum{ display:flex; flex-wrap:wrap; gap:10px 34px; padding:0 0 16px; border-bottom:1px solid rgba(255,255,255,.18); }
+.dc .dc-sum div{ display:flex; flex-direction:column; }
+.dc .dc-sum b{ font-family:var(--f-num); font-size:34px; line-height:1; color:var(--ink); font-weight:600; }
+.dc .dc-sum span{ margin-top:4px; font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.dc .dc-day{ border-bottom:1px solid rgba(255,255,255,.18); padding:14px 0 10px; }
+.dc .dc-day h3{ margin:0 0 8px; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; font-size:16px; font-weight:500; color:var(--ink2); }
+.dc .dc-day h3 span{ font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.dc .dc-day h3 b{ font-weight:700; color:var(--ink); font-size:17px; }
+.dc .dc-day h3 small{ font-size:14px; color:var(--ink2); }
+.dc .dc-day.q{ padding:10px 0; }
+.dc .dc-day.q h3{ margin:0; }
+.dc .dc-list{ list-style:none; margin:0; padding:0; counter-reset:dc; }
+.dc .dc-list li{ position:relative; padding:8px 0 8px 34px; counter-increment:dc; }
+.dc .dc-list li::before{ content:counter(dc); position:absolute; left:0; top:8px; width:24px; font-family:var(--f-num); font-size:15px; line-height:22px; color:var(--mint); text-align:right; }
+.dc .dc-list.nonum li{ padding-left:0; } .dc .dc-list.nonum li::before{ content:none; }
+.dc .dc-n{ line-height:22px; }
+.dc .dc-n{ display:block; font-size:17px; font-weight:700; color:var(--ink); line-height:1.3; }
+.dc .dc-n em{ display:block; font-style:normal; font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.dc .dc-v{ display:block; margin-top:2px; font-family:var(--f-num); font-size:15px; color:var(--ink); }
+.dc .dc-done{ display:block; margin-top:3px; font-size:14px; color:var(--mint); }
+.dc .dc-note, .dc .dc-ing{ display:block; margin-top:4px; font-size:14px; line-height:1.45; color:var(--ink2); }
+.dc .dc-ing i{ font-style:normal; font-weight:600; color:var(--ink); }
+.dc .dc-st{ display:block; margin-top:3px; font-size:14px; color:var(--ink2); }
+.dc .dc-list li.ok .dc-st{ color:var(--mint); } .dc .dc-list li.bad .dc-st{ color:var(--coral); }
+.dc .dc-box{ display:flex; gap:7px; margin-top:7px; }
+.dc .dc-box i{ width:18px; height:18px; border:2px solid rgba(255,255,255,.55); border-radius:4px; }
+.dc .dc-none{ margin:6px 0 14px; font-size:15px; color:var(--ink2); }
+@media (min-width:700px){
+  .dc .dc-ctl{ flex-direction:row; flex-wrap:wrap; align-items:center; gap:12px 18px; }
+  .dc .dc-nav{ flex:0 1 auto; }
+  .dc .dc-when{ flex:0 1 auto; min-width:220px; }
+  .dc .dc-acts{ flex:1 1 100%; display:flex; flex-wrap:wrap; }
+  .dc .dc-acts .yd-btn{ width:auto; padding:0 16px; }
+}
+@media (min-width:1024px){
+  .dc .dc-ctl, .dc .dc-doc{ max-width:860px; }
+}
+
+/* a computer: a week or a month reads in two columns, each day kept whole */
+@media (min-width:1100px){
+  .dc .dc-doc.week, .dc .dc-doc.month{ max-width:none; column-count:2; column-gap:56px; }
+  .dc .dc-doc.week .dc-sum, .dc .dc-doc.month .dc-sum{ column-span:all; }
+  .dc .dc-doc .dc-day{ break-inside:avoid; }
+  .dc .dc-doc.week .dc-sum, .dc .dc-doc.month .dc-sum{ margin-bottom:0; }
+  .dc .dc-ctl{ max-width:none; }
+}
+/* v367: the document's two actions are words sized to themselves (on a phone each ran half the row) */
+.dc .dc-acts .yd-btn{ width:auto; padding:0 2px; }
+/* v371: Open in Excel reads on one line; on a phone its note ("every meal and ingredient") steps aside */
+.dc .dc-xlsx > span:first-child{ white-space:nowrap; }
+.dc .dc-xlsx{ margin:2px 0 2px; }
+@media (max-width:699.98px){ .dc .dc-xlsx .r small{ display:none; } }
+@media (min-width:700px){ .dc .dc-xlsx{ width:auto; flex:0 1 560px; max-width:560px; } .dc .dc-xlsx .r{ gap:14px; } }

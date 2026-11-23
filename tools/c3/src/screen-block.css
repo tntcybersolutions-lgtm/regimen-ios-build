@@ -1,0 +1,32 @@
+/* C3 block (v320): the next twelve weeks as one picture. No boxes. Every selector is under .blk. */
+
+.blk .blk-top b{ color:var(--ink); }
+.blk .blk-chart{ display:block; width:100%; height:auto; }
+.blk .blk-pick{ display:grid; grid-template-columns:repeat(12, minmax(0, 1fr)); gap:4px; }
+.blk .blk-pick .yd-opt{ min-width:0; min-height:44px; padding:0; font-family:var(--f-num); font-size:15px; letter-spacing:0; }
+.blk .blk-pick .yd-opt.dl:not(.on){ border-style:dashed; }
+.blk .blk-phase{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; font-size:14.5px; line-height:1.4; font-weight:500; color:var(--ink2); }
+.blk .blk-phase i{ flex:none; width:22px; height:6px; border-radius:3px; transform:translateY(-3px); }
+.blk .blk-phase b{ font-family:var(--f-body); font-weight:600; font-size:15px; letter-spacing:0; text-transform:none; color:var(--ink); }
+
+.blk .blk-week{ display:flex; flex-direction:column; gap:12px; }
+.blk .blk-wh{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+.blk .blk-wh b{ font-family:var(--f-body); font-weight:700; font-size:21px; line-height:1; letter-spacing:0; text-transform:none; color:var(--ink); }
+.blk .blk-wh span{ font-size:14px; font-weight:600; color:var(--ink2); }
+.blk .blk-st{ row-gap:14px; }
+.blk .blk-st b{ font-size:26px; }
+.blk .blk-st span{ font-size:11.5px; letter-spacing:0; }
+.blk .blk-days{ display:flex; flex-direction:column; counter-reset:d; }
+.blk .blk-days li{ display:flex; align-items:center; gap:12px; min-height:44px; border-bottom:1px solid var(--hair); font-family:var(--f-body); font-weight:700; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.blk .blk-days li::before{ counter-increment:d; content:counter(d); width:22px; font-family:var(--f-num); font-size:14px; color:var(--mint-soft); }
+.blk .blk-days li.rest::before{ content:''; }
+.blk .blk-line{ font-size:14.5px; line-height:1.4; font-weight:600; color:var(--ink); max-width:62ch; }
+.blk .blk-line.flat{ font-weight:500; color:var(--ink2); }
+.blk .blk-seg .yd-opt{ min-height:44px; font-size:15px; }
+
+@media (max-width:419.98px){
+  .blk .blk-pick{ grid-template-columns:repeat(6, minmax(0, 1fr)); }
+  .blk .blk-st b{ font-size:22px; }
+}
+/* v367: on a 320px phone the twelve weeks keep 44px targets (the gaps were 6px, the rings 43px) */
+@media (max-width:359.98px){ .blk .blk-pick{ gap:6px 2px; } }

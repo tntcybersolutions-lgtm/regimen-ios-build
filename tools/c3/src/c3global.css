@@ -1,0 +1,614 @@
+/* C3 GLOBAL RULES. The only C3 CSS that lives in the page itself; everything
+   else is inside the #c3 shadow root (base.css, chrome.css, screen-*.css).
+   The app's own layers are written `html:not(#vv) body X{ ... !important }`
+   (one id of specificity). Two :not(#id) beat that from anywhere in the file. */
+
+/* ---- the host ---- */
+#c3{ display:block; position:relative; z-index:2; margin:0; padding:0; border:0; }
+html.c3-on #c3{ min-height:100vh; min-height:100dvh; }
+html.c3-deep #c3{ min-height:0; height:0; }
+html:not(.c3-on):not(.c3-deep) #c3, body.sharing #c3{ display:none; }
+
+/* ---- promos die on every screen, C3 and deep ---- */
+html:not(#vv):not(#c3x) body .flband,
+html:not(#vv):not(#c3x) body .planpromo,
+html:not(#vv):not(#c3x) body .planrow,
+html:not(#vv):not(#c3x) body .railplan,
+html:not(#vv):not(#c3x) body .railplan2,
+html:not(#vv):not(#c3x) body .planscrawl,
+html:not(#vv):not(#c3x) body .bookcard,
+html:not(#vv):not(#c3x) body .mpopen,
+html:not(#vv):not(#c3x) body #flPromo,
+html:not(#vv):not(#c3x) body #labDoor,
+html:not(#vv):not(#c3x) body .hdrneon,
+html:not(#vv):not(#c3x) body .gfx{ display:none !important; }
+
+/* ---- and so do the doors to the shop and the plan hub that are not in that list ----
+   The guide card on the old Coaches screen, and every link to formedlabs.co or
+   plan.formedlabs.co inside an old screen, the old rail or a sheet (the coach's
+   "Open my guide" hand-over among them). app.formedlabs.co is the app itself and stays.
+   A coach line whose whole point is that link goes with it. */
+html:not(#vv):not(#c3x) body #guideCard,
+html:not(#vv):not(#c3x) body .wrap a[href*="//formedlabs.co"],
+html:not(#vv):not(#c3x) body .wrap a[href*="//plan.formedlabs.co"],
+html:not(#vv):not(#c3x) body #sidemap a[href*="//formedlabs.co"],
+html:not(#vv):not(#c3x) body #sidemap a[href*="//plan.formedlabs.co"],
+html:not(#vv):not(#c3x) body #sheet a[href*="//formedlabs.co"],
+html:not(#vv):not(#c3x) body #sheet a[href*="//plan.formedlabs.co"]{ display:none !important; }
+html:not(#vv):not(#c3x) body .wrap .coachline:has(a[href*="formedlabs.co"]){ display:none !important; }
+
+/* ---- a C3 screen is showing: the old shell is put away, not removed ---- */
+html.c3-on:not(#vv):not(#c3x) body .wrap,
+html.c3-on:not(#vv):not(#c3x) body #aurora,
+html.c3-on:not(#vv):not(#c3x) body #glowfield,
+html.c3-on:not(#vv):not(#c3x) body #floor,
+html.c3-on:not(#vv):not(#c3x) body #grain,
+html.c3-on:not(#vv):not(#c3x) body #rdFloat{ display:none !important; }
+html.c3-on:not(#vv):not(#c3x) body{ background:#141517 !important; }
+
+/* ---- a deep (old) screen is showing under the C3 bar ---- */
+html.c3-deep:not(#vv):not(#c3x) body #sidemap,
+html.c3-deep:not(#vv):not(#c3x) body nav[role="tablist"],
+html.c3-deep:not(#vv):not(#c3x) body #fab,
+html.c3-deep:not(#vv):not(#c3x) body #brandHome,
+html.c3-deep:not(#vv):not(#c3x) body #navActs,
+html.c3-deep:not(#vv):not(#c3x) body #streakChip,
+html.c3-deep:not(#vv):not(#c3x) body #trialBar{ display:none !important; }
+html.c3-deep:not(#vv):not(#c3x) body .wrap{ margin-left:auto !important; margin-right:auto !important; padding-top:max(calc(60px + env(safe-area-inset-top, 0px)), var(--c3-top-b, 0px)) !important; padding-bottom:calc(104px + env(safe-area-inset-bottom, 0px)) !important; }
+@media (min-width:1024px){
+  html.c3-deep:not(#vv):not(#c3x) body .wrap{ padding-top:max(calc(84px + env(safe-area-inset-top, 0px)), calc(var(--c3-top-b, 0px) + 20px)) !important; padding-bottom:calc(40px + env(safe-area-inset-bottom, 0px)) !important; }
+}
+
+/* ---- first run over a deep screen (Welcome > "I have an account"): the sign-in form and Back, nothing else ---- */
+html.c3-first:not(#vv):not(#c3x) body #subnav,
+html.c3-first:not(#vv):not(#c3x) body #p-youaccount > .card:not(#acctCard),
+html.c3-first:not(#vv):not(#c3x) body #acctCard .card,
+html.c3-first:not(#vv):not(#c3x) body #p-youaccount .buildfoot{ display:none !important; }
+html.c3-first:not(#vv):not(#c3x) body .wrap{ padding-bottom:calc(40px + env(safe-area-inset-bottom, 0px)) !important; }
+
+/* ---- the app's toast under C3: a snackbar at the bottom edge, never mid-screen ----
+   Phone and tablet: just above the bottom tabs. Computer: bottom center. Full-screen
+   Welcome: the bottom edge. Full-screen workout: under the top row, because the bottom
+   of that screen is the thumb zone (COMPLETE SET). The old rule was left:50% with no
+   width, which let the box use only half the screen and wrap its Undo onto a third line. */
+html.c3-on:not(#vv):not(#c3x) body #toast,
+html.c3-deep:not(#vv):not(#c3x) body #toast{
+  left:12px !important; right:12px !important; top:auto !important; margin:0 auto !important; width:fit-content !important;
+  max-width:min(560px, calc(100vw - 24px)) !important; padding:10px 16px !important; font-size:16px !important; line-height:1.35 !important;
+  bottom:calc(64px + env(safe-area-inset-bottom, 0px) + 8px) !important; transform:translateY(10px) !important;
+}
+html.c3-on:not(#vv):not(#c3x) body #toast.on,
+html.c3-deep:not(#vv):not(#c3x) body #toast.on{ transform:none !important; pointer-events:none !important; }
+/* v370: solid, so the page under it never shows through its words (a meal name read through "logged: 609 kcal") */
+html.c3-on:not(#vv):not(#c3x) body #toast,
+html.c3-deep:not(#vv):not(#c3x) body #toast{ background:linear-gradient(180deg, #1B2028, #0D1015) !important; -webkit-backdrop-filter:none !important; backdrop-filter:none !important; }
+/* a tap on the toast's words goes to whatever is under it (the + 250 mL you were about to press
+   again); only its Undo is a control */
+html.c3-on:not(#vv):not(#c3x) body #toast.on .toastu,
+html.c3-deep:not(#vv):not(#c3x) body #toast.on .toastu{ pointer-events:auto !important; }
+html.c3-on:not(#vv):not(#c3x) body #toast .toastu,
+html.c3-deep:not(#vv):not(#c3x) body #toast .toastu{ margin-left:10px !important; vertical-align:middle !important; }
+html.c3-bare:not(#vv):not(#c3x) body #toast,
+html.c3-first:not(#vv):not(#c3x) body #toast{ bottom:calc(env(safe-area-inset-bottom, 0px) + 14px) !important; }
+html.c3-workout:not(#vv):not(#c3x) body #toast{ bottom:auto !important; top:calc(env(safe-area-inset-top, 0px) + 74px) !important; }
+/* v346.4: an Undo message is its words on the left and Undo on the right, two lines at most on a 360 px phone
+   ("Upper Body 1 is now on Monday." wrapped Undo onto a third line, 80 px tall, test-e2e B6) */
+html.c3-on:not(#vv):not(#c3x) body #toast.on:has(.toastu),
+html.c3-deep:not(#vv):not(#c3x) body #toast.on:has(.toastu){ display:flex !important; align-items:center !important; gap:12px !important; text-align:left !important; }
+html.c3-on:not(#vv):not(#c3x) body #toast .toastm,
+html.c3-deep:not(#vv):not(#c3x) body #toast .toastm{ flex:1 1 auto; min-width:0; }
+html.c3-on:not(#vv):not(#c3x) body #toast.on:has(.toastu) .toastu,
+html.c3-deep:not(#vv):not(#c3x) body #toast.on:has(.toastu) .toastu{ flex:none !important; margin-left:0 !important; }
+@media (min-width:1024px){
+  html.c3-on:not(#vv):not(#c3x) body #toast,
+  html.c3-deep:not(#vv):not(#c3x) body #toast{ bottom:calc(env(safe-area-inset-bottom, 0px) + 20px) !important; }
+  html.c3-workout:not(#vv):not(#c3x) body #toast{ bottom:auto !important; }
+}
+/* the app's rest bar (the stretch routine runs in it) stands on the bottom tabs, not over them */
+@media (max-width:1023.98px){
+  html.c3-on:not(.c3-bare):not(#vv):not(#c3x) body #restBar,
+  html.c3-deep:not(.c3-first):not(#vv):not(#c3x) body #restBar{ bottom:calc(64px + env(safe-area-inset-bottom, 0px)) !important; padding-bottom:10px !important; }
+}
+/* v348.1: on a narrow phone the toast's words and its Undo fit two lines (with the plain session names, "Upper Body 1 is now
+   on Saturday. Undo" ran to three at 360) */
+@media (max-width:399.98px){
+  html.c3-on:not(#vv):not(#c3x) body #toast, html.c3-deep:not(#vv):not(#c3x) body #toast{ font-size:15px !important; padding:9px 12px !important; max-width:calc(100vw - 16px) !important; left:8px !important; right:8px !important; }
+}
+#flSavedEmails{display:grid;gap:8px;margin:12px 0 18px;min-width:0}#flSavedEmails label{font:inherit;font-weight:700}#flSavedEmails select{min-height:48px;width:100%;max-width:100%;padding:10px 12px;border:1px solid rgba(185,255,224,.6);border-radius:5px;background:var(--well,#161719);color:inherit;font:inherit}#flSavedEmails .mini{justify-self:start;min-height:44px;max-width:100%;white-space:normal}#flSavedEmails small{font-size:13px;opacity:.8}#flSavedEmails select:focus-visible{outline:3px solid #5CF2B0;outline-offset:3px}
+.fl-exitbar{display:flex;justify-content:flex-end;position:sticky;top:0;z-index:3;padding:4px 0 8px;background:var(--bg,#161719)}
+.fl-close{min-width:44px;min-height:44px;padding:8px 14px;border:1px solid currentColor;border-radius:5px;color:var(--ink,#fff);background:var(--well,#181A1C);font:inherit;font-weight:700;cursor:pointer}
+.fl-close:focus-visible{outline:3px solid var(--mint,#5cf2b0);outline-offset:3px}
+html:not(#vv) body #onb .fl-exitbar{position:sticky;top:0;z-index:9;background:#18191B;}
+html:not(#vv) body #onb .fl-close{border:0;border-radius:0;background:none;text-decoration:underline;text-decoration-color:#5cf2b0;text-underline-offset:5px;}
+html:not(#vv) body #sheet .sheethead{position:sticky;top:0;z-index:7;background:#18191B}
+html:not(#vv) body #sheet #shClose{min-width:76px;width:auto;min-height:44px;height:auto;border-radius:6px;padding:8px 12px;font:700 16px/1.2 var(--f-m,sans-serif);white-space:nowrap}
+html[data-fl-member-motion="reduce"] *,html[data-fl-member-motion="reduce"] *::before,html[data-fl-member-motion="reduce"] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+
+/* ---- v368: the Account page (Chad, 27 Oct: "REBUILD THIS PAGE ... PROFESSIONAL CRISP JUST LIKE THE ENTIRE APP THEME") ----
+   The page is the account and nothing else: the old Coaches/Plan/Account/Crew/Report strip, the line with
+   "My name", and the old You, How you read it, Reminders and Apple Health cards are gone from it (Settings,
+   Reminders and Crew are their own screens). The ground, the type, the field, the primary slab, the pills and the
+   words are the C3 ones, copied here because this form lives in the page (password managers and iOS AutoFill
+   need a real form), not in the C3 shadow root. No card: nothing boxed or filled around the content. */
+html.c3-deep:not(#vv):not(#c3x) body:has(#p-youaccount:not([hidden])){ background:linear-gradient(180deg, #17191D 0%, #0F1013 40%, #09090B 100%) fixed !important; }
+html.c3-deep:not(#vv):not(#c3x) body:has(#p-youaccount:not([hidden])) #subnav,
+html.c3-deep:not(#vv):not(#c3x) body #p-youaccount > .pane-head,
+html.c3-deep:not(#vv):not(#c3x) body #p-youaccount > .card:not(#acctCard){ display:none !important; }
+/* the old header (its brand, chips and You were already hidden) left an empty black pill under the C3 bar on every
+   deep screen: the C3 bar is the header there, so the old one goes */
+html.c3-deep:not(#vv):not(#c3x) body .wrap > header.top{ display:none !important; }
+html.c3-deep:not(#vv):not(#c3x) body #p-youaccount{ width:100% !important; max-width:1360px !important; margin:0 auto !important; padding:12px 20px 0 !important; box-sizing:border-box; background:none !important; }
+@media (min-width:700px){ html.c3-deep:not(#vv):not(#c3x) body #p-youaccount{ padding:16px 24px 0 !important; } }
+@media (min-width:1024px){ html.c3-deep:not(#vv):not(#c3x) body #p-youaccount{ padding:24px 32px 0 !important; } }
+
+html:not(#vv):not(#c3x) body #acctCard{ background:none !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; outline:0 !important; padding:0 !important; margin:0 !important; backdrop-filter:none !important; -webkit-backdrop-filter:none !important; overflow:visible !important; }
+html:not(#vv):not(#c3x) body #acctCard::before, html:not(#vv):not(#c3x) body #acctCard::after{ display:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > h2, html:not(#vv):not(#c3x) body #acctCard > #acctLead{ display:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .buildfoot{ margin:44px 0 0 !important; padding:0 !important; color:#8B9098 !important; font:500 13px/1.3 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .buildfoot .buildtag{ color:#C9CDD3 !important; background:none !important; border:0 !important; padding:0 !important; font:inherit !important; }
+
+html:not(#vv):not(#c3x) body #acctCard .flac{
+  --mint:#5CF2B0; --mint-soft:#B9FFE0; --ink:#FFFFFF; --ink2:#C9CDD3; --dim:#8B9098; --hair:rgba(255,255,255,.14); --well:rgba(255,255,255,.06); --coral:#FF8A9A; --amber:#FFB85C; --on-neon:#101113;
+  --body:'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif; --head:'Barlow Condensed', 'Arial Narrow', sans-serif;
+  display:grid; grid-template-columns:minmax(0, 1fr); gap:36px; margin:0; padding:0; color:var(--ink); font-family:var(--body); font-size:16px; font-weight:500; line-height:1.35; letter-spacing:0; text-align:left; text-transform:none;
+}
+@media (min-width:1024px){ html:not(#vv):not(#c3x) body #acctCard .flac{ grid-template-columns:minmax(0, 1.15fr) minmax(0, 1fr); column-gap:64px; align-items:start; } }
+html:not(#vv):not(#c3x) body #acctCard .flac-main, html:not(#vv):not(#c3x) body #acctCard .flac-side{ display:flex; flex-direction:column; gap:18px; min-width:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-side{ padding-top:24px; border-top:1px solid var(--hair); }
+@media (min-width:1024px){ html:not(#vv):not(#c3x) body #acctCard .flac-side{ padding:0 0 0 48px; border-top:0; border-left:1px solid var(--hair); margin-top:64px; } }
+
+html:not(#vv):not(#c3x) body #acctCard .flac-eye{ margin:0 !important; padding:0 !important; font:600 14px/1.2 var(--body) !important; color:var(--ink2) !important; letter-spacing:0 !important; text-transform:none !important; }
+@media (min-width:1024px){ html:not(#vv):not(#c3x) body #acctCard .flac-eye{ font-size:16px !important; } }
+html:not(#vv):not(#c3x) body #acctCard .flac-h{ margin:-6px 0 0 !important; padding:0 !important; font:800 48px/.92 var(--head) !important; color:var(--ink) !important; letter-spacing:0 !important; text-transform:none !important; text-shadow:none !important; background:none !important; -webkit-text-fill-color:currentColor !important; overflow-wrap:anywhere; }
+@media (min-width:700px){ html:not(#vv):not(#c3x) body #acctCard .flac-h{ font-size:62px !important; } }
+html:not(#vv):not(#c3x) body #acctCard .flac-who{ margin:-6px 0 0 !important; font:600 17px/1.3 var(--body) !important; color:var(--ink2) !important; overflow-wrap:anywhere; }
+html:not(#vv):not(#c3x) body #acctCard .flac-line{ margin:0 !important; padding:0 !important; max-width:62ch; font:500 14.5px/1.45 var(--body) !important; color:var(--ink2) !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-line b{ color:var(--ink) !important; font-weight:700 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-keep{ margin-top:2px !important; color:var(--dim) !important; font-size:14px !important; }
+
+/* two ways in: light pills, the chosen one filled mint (the v367 choice) */
+html:not(#vv):not(#c3x) body #acctCard .flac-tabs{ display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:10px; margin:6px 0 0; padding:0; border:0; background:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button{ display:inline-flex !important; align-items:center; justify-content:center; gap:8px; width:auto !important; min-width:0 !important; min-height:48px !important; height:auto !important; margin:0 !important; padding:0 14px !important;
+  border:1.5px solid rgba(255,255,255,.3) !important; border-radius:999px !important; background:transparent !important; box-shadow:none !important; color:var(--ink) !important; font:700 15px/1.15 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; white-space:normal; text-align:center; cursor:pointer; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button .flac-ic{ flex:none; color:var(--mint); }
+html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button.on{ background:var(--mint) !important; border-color:var(--mint) !important; color:var(--on-neon) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button.on .flac-ic{ color:var(--on-neon); }
+
+/* the C3 field: a dark well with a mint underline */
+html:not(#vv):not(#c3x) body #acctCard .flac-form{ display:flex !important; flex-direction:column; gap:18px; margin:0 !important; padding:0 !important; border:0 !important; background:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-form[hidden], html:not(#vv):not(#c3x) body #acctCard input[hidden]{ display:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-fields{ display:flex !important; flex-direction:column !important; gap:16px !important; margin:0 !important; padding:0 !important; grid-template-columns:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f{ display:flex !important; flex-direction:column; gap:6px; min-width:0; margin:0 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f > label{ display:block !important; margin:0 !important; padding:0 !important; font:600 14px/1.2 var(--body) !important; color:var(--ink2) !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f input{ display:block !important; box-sizing:border-box !important; width:100% !important; max-width:none !important; min-width:0 !important; height:56px !important; min-height:56px !important; margin:0 !important; padding:0 14px !important;
+  border:0 !important; border-bottom:2px solid var(--mint) !important; border-radius:6px 6px 0 0 !important; background:var(--well) !important; box-shadow:none !important; outline:none !important; color:var(--ink) !important; caret-color:var(--mint);
+  font:500 18px/1.2 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; -webkit-appearance:none; appearance:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f input::placeholder{ color:var(--dim) !important; opacity:1 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f input:focus{ border-bottom:3px solid var(--mint-soft) !important; background:#202125 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f input:-webkit-autofill, html:not(#vv):not(#c3x) body #acctCard .flac-f input:-webkit-autofill:hover, html:not(#vv):not(#c3x) body #acctCard .flac-f input:-webkit-autofill:focus{
+  -webkit-text-fill-color:var(--ink) !important; -webkit-box-shadow:0 0 0 1000px #1D1E21 inset !important; box-shadow:0 0 0 1000px #1D1E21 inset !important; caret-color:var(--mint); transition:background-color 99999s ease-out 0s; }
+html:not(#vv):not(#c3x) body #acctCard .flac-f input.flac-code{ height:64px !important; min-height:64px !important; font:700 30px/1 var(--body) !important; font-variant-numeric:tabular-nums; }
+html:not(#vv):not(#c3x) body #acctCard .flac-pw{ position:relative; display:block; }
+html:not(#vv):not(#c3x) body #acctCard .flac-pw input{ padding-right:88px !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-show{ position:absolute !important; right:8px; top:50%; transform:translateY(-50%); display:inline-flex !important; align-items:center; justify-content:center; min-width:64px !important; min-height:44px !important; width:auto !important; height:auto !important; margin:0 !important; padding:0 8px !important;
+  background:transparent !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; color:var(--ink) !important; font:700 14px/1 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; text-decoration:underline; text-decoration-color:var(--mint); text-decoration-thickness:2px; text-underline-offset:6px; cursor:pointer; }
+
+/* THE primary: the mint slab on a rail, the one size from v367 */
+html:not(#vv):not(#c3x) body #acctCard .flac-go{ display:flex !important; align-items:center; justify-content:space-between; gap:8px; box-sizing:border-box !important; width:100% !important; min-width:0 !important; min-height:64px !important; height:auto !important; margin:2px 0 0 !important; padding:0 20px !important;
+  background:linear-gradient(180deg, #C9FFE8 0%, #7DF7C3 22%, #5CF2B0 52%, #1ED88A 100%) !important; border:0 !important; border-bottom:4px solid var(--mint-soft) !important; border-radius:8px 8px 0 0 !important; box-shadow:none !important; color:var(--on-neon) !important;
+  font:900 min(30px, 7.8vw)/1 var(--head) !important; letter-spacing:0 !important; text-transform:none !important; white-space:nowrap; text-align:left; cursor:pointer; animation:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-go .flac-ic{ flex:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-go:disabled{ opacity:.6 !important; cursor:default; }
+html:not(#vv):not(#c3x) body #acctCard .flac-go:active:not(:disabled){ transform:translateY(2px); }
+html:not(#vv):not(#c3x) body #acctCard .flac-go:focus-visible{ outline:3px solid #FFFFFF !important; outline-offset:3px; }
+@media (min-width:700px){ html:not(#vv):not(#c3x) body #acctCard .flac-go{ min-height:68px !important; padding:0 24px 0 28px !important; font-size:34px !important; } }
+
+/* second actions: words with a mint underline; the way out of a wrong password: an outlined pill */
+html:not(#vv):not(#c3x) body #acctCard .flac-links{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 28px; margin:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-word{ display:inline-flex !important; align-items:center; width:auto !important; min-width:0 !important; min-height:44px !important; height:auto !important; margin:0 !important; padding:0 2px !important;
+  background:transparent !important; border:0 !important; border-bottom:2px solid var(--mint) !important; border-radius:0 !important; box-shadow:none !important; color:var(--ink) !important; font:700 15px/1.2 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; white-space:normal; text-align:left; cursor:pointer; }
+html:not(#vv):not(#c3x) body #acctCard .flac-word:disabled{ opacity:.55 !important; cursor:default; }
+html:not(#vv):not(#c3x) body #acctCard .flac-word.danger{ border-bottom-color:transparent !important; color:var(--coral) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-word.danger.armed{ padding:0 18px !important; border-radius:999px !important; background:var(--coral) !important; color:var(--on-neon) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-word:focus-visible, html:not(#vv):not(#c3x) body #acctCard .flac-alt:focus-visible, html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button:focus-visible, html:not(#vv):not(#c3x) body #acctCard .flac-show:focus-visible, html:not(#vv):not(#c3x) body #acctCard .flac-switch:focus-visible{ outline:3px solid #FFFFFF !important; outline-offset:3px; }
+html:not(#vv):not(#c3x) body #acctCard .flac-fix{ margin:-4px 0 0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-alt{ display:inline-flex !important; align-items:center; gap:10px; width:auto !important; min-height:48px !important; height:auto !important; margin:0 !important; padding:0 22px !important;
+  background:transparent !important; border:1.5px solid var(--mint) !important; border-radius:999px !important; box-shadow:none !important; color:var(--ink) !important; font:700 16px/1.15 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; cursor:pointer; }
+html:not(#vv):not(#c3x) body #acctCard .flac-alt .flac-ic{ flex:none; color:var(--mint); }
+
+/* what happened: a line with a colored rule, never a box */
+html:not(#vv):not(#c3x) body #acctCard .flac-msg{ margin:0 !important; padding:4px 0 4px 12px !important; max-width:62ch; border:0 !important; border-left:3px solid var(--mint) !important; border-radius:0 !important; background:none !important; color:var(--ink) !important; font:600 15px/1.4 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-msg.bad{ border-left-color:var(--coral) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-msg.warn{ border-left-color:var(--amber) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-msg .flac-word{ margin-left:10px !important; min-height:36px !important; }
+
+/* a new password's length, as a bar */
+html:not(#vv):not(#c3x) body #acctCard .flac-len{ display:flex; align-items:center; gap:12px; margin:-6px 0 0 !important; font:600 14px/1.2 var(--body) !important; color:var(--ink2) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-len > i{ flex:0 0 132px; height:4px; border-radius:2px; background:rgba(255,255,255,.14); overflow:hidden; }
+html:not(#vv):not(#c3x) body #acctCard .flac-len > i > b{ display:block; height:100%; background:var(--amber); transition:width .15s ease; }
+html:not(#vv):not(#c3x) body #acctCard .flac-len.ok > i > b{ background:var(--mint); }
+
+/* the numbers in the log: big, split by hairlines */
+html:not(#vv):not(#c3x) body #acctCard .flac-stats{ display:flex; flex-wrap:wrap; row-gap:16px; margin:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-stats > div{ display:flex; flex-direction:column; gap:4px; min-width:0; padding:0 22px; border-left:1px solid var(--hair); }
+html:not(#vv):not(#c3x) body #acctCard .flac-stats > div:first-child{ padding-left:0; border-left:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-stats b{ font:700 40px/1 var(--body) !important; font-variant-numeric:tabular-nums; color:var(--ink) !important; letter-spacing:0 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-stats span{ font:700 14px/1.2 var(--body) !important; color:var(--ink2) !important; letter-spacing:0 !important; text-transform:none !important; }
+@media (min-width:1024px){ html:not(#vv):not(#c3x) body #acctCard .flac-stats b{ font-size:46px !important; } }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds > li{ display:flex; align-items:flex-start; gap:14px; margin:0; padding:14px 0; border-top:1px solid var(--hair); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds > li:last-child{ border-bottom:1px solid var(--hair); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds .flac-ic{ flex:none; margin-top:1px; color:var(--mint); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds span{ display:block; font:500 15px/1.35 var(--body); color:var(--ink2); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adds b{ display:block; margin:0 0 3px; font:800 23px/1 var(--head); color:var(--ink); letter-spacing:0; text-transform:none; }
+
+/* signed in: the sync line, the switch, the fold, the danger word */
+html:not(#vv):not(#c3x) body #acctCard .flac-sync{ display:flex !important; align-items:center; gap:12px; margin:2px 0 0 !important; padding:0 !important; border:0 !important; background:none !important; font:700 20px/1.2 var(--body) !important; color:var(--ink); }
+html:not(#vv):not(#c3x) body #acctCard .flac-sync .sdot{ flex:none; width:12px !important; height:12px !important; border-radius:50% !important; margin:0 !important; box-shadow:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-switch{ display:flex !important; align-items:center; justify-content:space-between; gap:16px; box-sizing:border-box; width:100% !important; min-height:68px !important; height:auto !important; margin:0 !important; padding:10px 0 !important;
+  background:transparent !important; border:0 !important; border-top:1px solid var(--hair) !important; border-bottom:1px solid var(--hair) !important; border-radius:0 !important; box-shadow:none !important; color:var(--ink) !important; font:700 17px/1.2 var(--body) !important; letter-spacing:0 !important; text-transform:none !important; text-align:left; cursor:pointer; }
+html:not(#vv):not(#c3x) body #acctCard .flac-switch .l{ min-width:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-switch small{ display:block; margin-top:4px; font:500 14px/1.35 var(--body); color:var(--ink2); }
+html:not(#vv):not(#c3x) body #acctCard .flac-track{ position:relative; flex:none; width:56px; height:32px; box-sizing:border-box; border-radius:16px; border:2px solid var(--ink2); background:var(--well); transition:background .15s ease, border-color .15s ease; }
+html:not(#vv):not(#c3x) body #acctCard .flac-track > i{ position:absolute; left:3px; top:3px; width:22px; height:22px; border-radius:50%; background:var(--ink2); transition:transform .15s ease, background .15s ease; }
+html:not(#vv):not(#c3x) body #acctCard .flac-switch[aria-checked="true"] .flac-track{ border-color:var(--mint); background:rgba(92,242,176,.3); }
+html:not(#vv):not(#c3x) body #acctCard .flac-switch[aria-checked="true"] .flac-track > i{ transform:translateX(24px); background:var(--mint); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv{ margin:0; padding:4px 0 0; border:0; border-top:1px solid var(--hair); background:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv > summary{ display:flex; align-items:center; min-height:48px; list-style:none; cursor:pointer; font:700 16px/1.2 var(--body); color:var(--ink); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv > summary::-webkit-details-marker{ display:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv > summary::after{ content:''; width:9px; height:9px; margin:0 0 4px 14px; border-right:2.5px solid var(--mint); border-bottom:2.5px solid var(--mint); transform:rotate(45deg); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv[open] > summary::after{ margin:4px 0 0 14px; transform:rotate(-135deg); }
+html:not(#vv):not(#c3x) body #acctCard .flac-adv .flac-line{ margin:2px 0 6px !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger{ display:flex; flex-direction:column; align-items:flex-start; gap:8px; padding-top:16px; border-top:1px solid var(--hair); }
+html:not(#vv):not(#c3x) body #acctCard .flac-ic{ display:block; }
+
+/* the assistant's "Let it write" panel, which the app moves onto this page: a section on a hairline, no card */
+html:not(#vv):not(#c3x) body #acctCard > .card{ margin:48px 0 0 !important; padding:28px 0 0 !important; background:none !important; border:0 !important; border-top:1px solid rgba(255,255,255,.14) !important; border-radius:0 !important; box-shadow:none !important; backdrop-filter:none !important; -webkit-backdrop-filter:none !important; color:#FFFFFF; font-family:'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+html:not(#vv):not(#c3x) body #acctCard > .card::before, html:not(#vv):not(#c3x) body #acctCard > .card::after{ display:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card > h2{ margin:0 0 6px !important; padding:0 !important; font:800 34px/1 'Barlow Condensed', 'Arial Narrow', sans-serif !important; color:#FFFFFF !important; letter-spacing:0 !important; text-transform:none !important; text-shadow:none !important; background:none !important; -webkit-text-fill-color:currentColor !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card > h2::before, html:not(#vv):not(#c3x) body #acctCard > .card > h2::after{ display:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card > .eyebrow, html:not(#vv):not(#c3x) body #acctCard > .card .note{ margin:0 0 14px !important; max-width:72ch; font:500 15px/1.45 'Barlow', system-ui, sans-serif !important; color:#C9CDD3 !important; letter-spacing:0 !important; text-transform:none !important; text-shadow:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card .note b{ color:#FFFFFF !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card .apibar, html:not(#vv):not(#c3x) body #acctCard > .card .impacts{ display:flex !important; flex-wrap:wrap; gap:10px 12px; margin:12px 0 !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card .mini{ display:inline-flex !important; align-items:center; justify-content:center; width:auto !important; min-height:48px !important; height:auto !important; margin:0 !important; padding:0 20px !important; background:transparent !important; border:1.5px solid #5CF2B0 !important; border-radius:999px !important; box-shadow:none !important; color:#FFFFFF !important; font:700 15px/1.15 'Barlow', system-ui, sans-serif !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card .rcl{ display:block !important; margin:16px 0 6px !important; font:600 14px/1.2 'Barlow', system-ui, sans-serif !important; color:#C9CDD3 !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card textarea{ box-sizing:border-box !important; width:100% !important; min-height:120px; margin:0 !important; padding:12px 14px !important; border:0 !important; border-bottom:2px solid #5CF2B0 !important; border-radius:6px 6px 0 0 !important; background:rgba(255,255,255,.06) !important; color:#FFFFFF !important; font:500 15px/1.4 'Barlow', system-ui, sans-serif !important; box-shadow:none !important; }
+html:not(#vv):not(#c3x) body #acctCard > .card textarea:focus{ outline:none !important; border-bottom:3px solid #B9FFE0 !important; background:#202125 !important; }
+/* a phone: room between the C3 bar's strip and the page, and the two ways in fit one line each */
+@media (max-width:699.98px){
+  html.c3-deep:not(#vv):not(#c3x) body #p-youaccount{ padding-top:22px !important; }
+  html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button{ padding:0 10px !important; font-size:14.5px !important; }
+}
+@media (max-width:419.98px){ html:not(#vv):not(#c3x) body #acctCard .flac-tabs > button .flac-ic{ display:none; } }
+
+/* v368: the phone landing (signed out): the team whole and edge to edge, the name, the colors of the day ring, Sign in.
+   Nothing written on the picture; its grey molecules are black (Chad, 27 Oct). */
+html:not(#vv):not(#c3x) body #acctCard .flac-land{ --mint:#5CF2B0; --mint-soft:#B9FFE0; --ink:#FFFFFF; --ink2:#C9CDD3; --dim:#8B9098; --hair:rgba(255,255,255,.14); --on-neon:#101113; --coral:#FF8A9A;
+  --body:'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif; --head:'Barlow Condensed', 'Arial Narrow', sans-serif;
+  position:relative; isolation:isolate; display:flex; flex-direction:column; gap:16px; margin:0; color:var(--ink); font-family:var(--body); text-align:left; }
+html:not(#vv):not(#c3x) body #acctCard .flac-land::before{ content:''; position:absolute; z-index:-1; left:-20px; right:-20px; top:180px; height:460px; pointer-events:none;
+  background:radial-gradient(60% 50% at 12% 30%, rgba(255,79,203,.22), transparent 70%), radial-gradient(55% 45% at 92% 40%, rgba(92,242,176,.20), transparent 70%), radial-gradient(50% 40% at 50% 95%, rgba(255,184,92,.12), transparent 70%); }
+html:not(#vv):not(#c3x) body #acctCard .flac-hero{ position:relative; left:50%; width:100vw; margin:-22px 0 6px -50vw; line-height:0; }
+html.c3-deep:not(#vv):not(#c3x) body #p-youaccount:has(.flac-land){ padding-top:0 !important; }
+html.c3-deep:not(#vv):not(#c3x) body #p-youaccount:has(.flac-land) .flac-hero{ margin-top:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-hero img{ display:block; width:100% !important; height:auto !important; max-width:none !important; aspect-ratio:1672 / 941; object-fit:contain; border:0; border-radius:0; box-shadow:none; }
+html:not(#vv):not(#c3x) body #acctCard .flac-brand{ display:flex; align-items:center; gap:12px; margin:4px 0 0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-mark{ flex:none; display:block; width:96px; line-height:0; }
+html:not(#vv):not(#c3x) body #acctCard .flac-mark svg{ display:block; width:100% !important; height:auto !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-name{ margin:0 !important; padding:0 !important; font:900 60px/.86 var(--head) !important; color:var(--ink) !important; letter-spacing:0 !important; text-transform:none !important; text-shadow:none !important; background:none !important; -webkit-text-fill-color:currentColor !important; white-space:nowrap; }
+html:not(#vv):not(#c3x) body #acctCard .flac-name > span{ color:var(--mint) !important; -webkit-text-fill-color:currentColor !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tag{ margin:0 !important; font:800 26px/1.05 var(--head) !important; letter-spacing:0 !important; text-transform:none !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tag .t1{ color:#5CF2B0 !important; -webkit-text-fill-color:currentColor !important; } html:not(#vv):not(#c3x) body #acctCard .flac-tag .t2{ color:#FF94E2 !important; -webkit-text-fill-color:currentColor !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-tag .t3{ color:#FFB85C !important; -webkit-text-fill-color:currentColor !important; } html:not(#vv):not(#c3x) body #acctCard .flac-tag .t4{ color:#FFFFFF !important; -webkit-text-fill-color:currentColor !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-land .flac-eye{ margin:6px 0 -6px !important; font:600 14px/1.2 var(--body) !important; color:var(--ink2) !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-land .flac-alt{ justify-content:center; width:100% !important; min-height:56px !important; font-size:17px !important; }
+@media (max-width:359.98px){ html:not(#vv):not(#c3x) body #acctCard .flac-name{ font-size:52px !important; } html:not(#vv):not(#c3x) body #acctCard .flac-mark{ width:80px; } }
+
+/* v370: below a computer the bottom tabs cover the last 64 px of the window, so anything scrolled into view (a focused
+   field, a control a reminder opens, Weigh in) stops above them instead of under them */
+@media (max-width:1023.98px){
+  html.c3-on:not(#vv):not(#c3x){ scroll-padding-bottom:calc(64px + env(safe-area-inset-bottom, 0px) + 12px); }
+}
+
+/* ---- v374 uniform: the app's pop-ups (Log, a dose, water, the scale, steps, a session, a side effect, every sheet) are
+   a page of their own, not a box floating over the app; their choices and one-taps are words with a mint underline;
+   the toast is a strip on the bottom edge, not a floating box (Chad, 28 Oct 2026: "UGLY FLOATING 1980 BOXES ... DO THAT
+   SITE WIDE"). ---- */
+html.c3-on:not(#vv):not(#c3x) body #sheet, html.c3-deep:not(#vv):not(#c3x) body #sheet{ align-items:stretch !important; justify-content:stretch !important; background:#0B0C0E !important; -webkit-backdrop-filter:none !important; backdrop-filter:none !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .sheetcard, html.c3-deep:not(#vv):not(#c3x) body #sheet .sheetcard{ width:100% !important; max-width:none !important; height:100% !important; max-height:none !important; margin:0 !important;
+  border:0 !important; border-radius:0 !important; box-shadow:none !important; background:#0B0C0E !important; -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
+  padding:env(safe-area-inset-top, 0px) max(20px, calc((100vw - 1296px) / 2)) env(safe-area-inset-bottom, 0px) !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .sheetcard::after, html.c3-deep:not(#vv):not(#c3x) body #sheet .sheetcard::after{ background:linear-gradient(180deg, rgba(11,12,14,0), #0B0C0E) !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .grab, html.c3-deep:not(#vv):not(#c3x) body #sheet .grab{ display:none !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .sheethead, html.c3-deep:not(#vv):not(#c3x) body #sheet .sheethead{ background:#0B0C0E !important; padding:18px 0 12px !important; border-bottom:1px solid rgba(255,255,255,.12) !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .sheethead h3, html.c3-deep:not(#vv):not(#c3x) body #sheet .sheethead h3{ font-family:'Barlow Condensed', var(--f-d, sans-serif) !important; font-weight:900 !important; font-size:clamp(30px, 4.2vw, 46px) !important; line-height:1 !important; letter-spacing:0 !important; text-transform:none !important; color:#fff !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet #shClose, html.c3-deep:not(#vv):not(#c3x) body #sheet #shClose{ border:0 !important; border-bottom:2px solid #5CF2B0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; color:#fff !important; padding:8px 2px !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody, html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody{ padding-left:0 !important; padding-right:0 !important; background:transparent !important; }
+/* a choice in a pop-up: a word, the chosen one white with a mint underline */
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn):not(.lp):not(.sheetback):not([role="switch"]),
+html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn):not(.lp):not(.sheetback):not([role="switch"]){ border:0 !important; border-bottom:2px solid #5CF2B0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; text-shadow:none !important;
+  color:#fff !important; padding-left:2px !important; padding-right:2px !important; letter-spacing:0 !important; text-transform:none !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go),
+html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go){ border-bottom:1px solid rgba(255,255,255,.24) !important; color:rgba(255,255,255,.72) !important; font-weight:600 !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go), html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go){ border-bottom:3px solid #5CF2B0 !important; color:#fff !important; font-weight:800 !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button::before, html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn)::after{ display:none !important; }
+/* the Log picker's one-tap: a word at the end of its row */
+html.c3-on:not(#vv):not(#c3x) body #sheet .lp-q, html.c3-deep:not(#vv):not(#c3x) body #sheet .lp-q{ border:0 !important; border-bottom:2px solid #5CF2B0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; color:#fff !important; padding:6px 2px !important; font-style:normal !important; }
+/* the toast: a strip on the bottom edge, its Undo a word */
+html.c3-on:not(#vv):not(#c3x) body #toast, html.c3-deep:not(#vv):not(#c3x) body #toast{ left:0 !important; right:0 !important; width:auto !important; max-width:none !important; margin:0 !important; border:0 !important; border-top:1px solid rgba(255,255,255,.14) !important;
+  border-radius:0 !important; box-shadow:none !important; background:#0B0C0E !important; text-align:left !important; padding:12px max(20px, calc((100vw - 1296px) / 2)) !important; display:block !important; }
+html.c3-on:not(#vv):not(#c3x) body #toast .toastu, html.c3-deep:not(#vv):not(#c3x) body #toast .toastu{ float:right !important; margin:-6px 0 -6px 18px !important; border:0 !important; border-bottom:2px solid #5CF2B0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; color:#fff !important;
+  padding:6px 2px !important; letter-spacing:0 !important; text-transform:none !important; font-weight:700 !important; min-height:40px !important; }
+@media (min-width:1024px){ html.c3-on:not(#vv):not(#c3x) body #toast, html.c3-deep:not(#vv):not(#c3x) body #toast{ bottom:0 !important; } }
+@media (max-width:1023.98px){ html.c3-on:not(#vv):not(#c3x) body #toast, html.c3-deep:not(#vv):not(#c3x) body #toast{ bottom:calc(64px + env(safe-area-inset-bottom, 0px)) !important; } }
+/* the legacy chosen-state paints its words dark through -webkit-text-fill-color: white, so the chosen word shows */
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn), html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn),
+html.c3-on:not(#vv):not(#c3x) body #sheet .lp-q, html.c3-on:not(#vv):not(#c3x) body #toast .toastu, html.c3-deep:not(#vv):not(#c3x) body #toast .toastu{ -webkit-text-fill-color:#fff !important; }
+html.c3-on:not(#vv):not(#c3x) body #sheet .btn::before, html.c3-on:not(#vv):not(#c3x) body #sheet .btn::after,
+html.c3-deep:not(#vv):not(#c3x) body #sheet .btn::before, html.c3-deep:not(#vv):not(#c3x) body #sheet .btn::after{ display:none !important; }
+/* the pop-up's main button: no gray band painted around it (a page-colored one hides what scrolls under it) */
+html.c3-on:not(#vv):not(#c3x) body #sheet .btn, html.c3-deep:not(#vv):not(#c3x) body #sheet .btn{ box-shadow:0 0 0 12px #0B0C0E !important; }
+/* Back (All types) sits at the page's own margin, beside the title */
+html.c3-on:not(#vv):not(#c3x) body #sheet #shBack, html.c3-deep:not(#vv):not(#c3x) body #sheet #shBack{ left:max(16px, calc((100vw - 1296px) / 2 - 6px)) !important; }
+/* a computer: the form on the left, the picture whole on the right (never cut), the title across the top */
+@media (min-width:900px){
+  html.c3-on:not(#vv):not(#c3x) body #sheet .sheetcard, html.c3-deep:not(#vv):not(#c3x) body #sheet .sheetcard{ display:grid !important; grid-template-columns:minmax(0, 1fr) !important; grid-template-rows:auto minmax(0, 1fr) !important;
+    grid-template-areas:"head" "body" !important; column-gap:56px !important; padding-bottom:0 !important; }
+  html.c3-on:not(#vv):not(#c3x) body #sheet .sheetcard:has(#shArt:not([hidden])), html.c3-deep:not(#vv):not(#c3x) body #sheet .sheetcard:has(#shArt:not([hidden])){ grid-template-columns:minmax(0, 1fr) minmax(0, 42%) !important; grid-template-areas:"head head" "body art" !important; }
+  html.c3-on:not(#vv):not(#c3x) body #sheet #shArt, html.c3-deep:not(#vv):not(#c3x) body #sheet #shArt{ grid-area:art !important; align-self:start !important; width:100% !important; height:auto !important; max-height:calc(100vh - 150px) !important;
+    aspect-ratio:var(--art-ar, 16/9) !important; margin:24px 0 0 !important; border-radius:0 !important; background:transparent !important; background-image:none !important; }
+  html.c3-on:not(#vv):not(#c3x) body #sheet #shArt img, html.c3-deep:not(#vv):not(#c3x) body #sheet #shArt img{ object-fit:contain !important; object-position:50% 0 !important; }
+  html.c3-on:not(#vv):not(#c3x) body #sheet #shBody, html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody{ grid-area:body !important; padding-top:18px !important; padding-bottom:28px !important; }
+}
+/* phone: the picture whole, square corners like every picture on the page */
+@media (max-width:899.98px){ html.c3-on:not(#vv):not(#c3x) body #sheet #shArt, html.c3-deep:not(#vv):not(#c3x) body #sheet #shArt{ border-radius:0 !important; margin:12px auto 10px !important; } }
+html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody > .btn, html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody > .btn,
+html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody .btn, html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody .btn{ box-shadow:0 0 0 12px #0B0C0E !important; }
+html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet .btn:focus, html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet .btn:focus{ outline:2px solid rgba(92,242,176,.55) !important; outline-offset:4px !important; }
+/* the formed fit wordmark: the word "fit" in the house neon pink, one named brand var (--pink, same value as in base.css) */
+html{ --pink:#FF4FCB; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .smbrand .smword b .fitw, html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .brand b .fitw, html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .smword .fitw{ color:var(--pink) !important; -webkit-text-fill-color:var(--pink) !important; text-shadow:0 0 14px rgba(255,79,203,.55) !important; }
+
+
+/* v368: action items brighter app wide. Exercise names, set values and the key
+   numbers on tappable rows use the shared action tokens at a heavier weight;
+   the active weight/rep field carries the neon pink brand edge. White words
+   carry the brand because small pink text cannot reach 4.5:1 on the dark
+   ground. Logged and done states stay quiet. */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body{ --action:#FFFFFF; --action-2:#E9ECEF; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-t .nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .mv-row .l b,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .td-moves .n,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .hs-row .nm b,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .fd .nm > b,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .gd .gd-lifts .nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .ex .nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .sesshead .nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .blkhead .nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-gi .gn{ color:var(--action) !important; -webkit-text-fill-color:var(--action) !important; font-weight:800 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-in,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-row .s,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .td-moves .s,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-n b,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-c .n,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-hh b,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-gi .q,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .td-stats b{ color:var(--action) !important; -webkit-text-fill-color:var(--action) !important; font-weight:700 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-t .sm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-row .p,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .mv-row .l small,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .hs-row .nm small{ color:var(--action-2) !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-in{ border-bottom-color:rgba(255,79,203,.55) !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .trl-in:focus{ border-bottom-color:var(--pink) !important; background:rgba(255,79,203,.08) !important; }
+/* done and logged states stay quiet */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .pl-gi.on .gn,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .lgroc label.done span.nm,
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z) body .blkwk.was .blkhead .nm{ color:var(--ink2) !important; -webkit-text-fill-color:var(--ink2) !important; font-weight:600 !important; }
+/* Light glass compatibility for old screens and system overlays outside C3. */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body{
+ --bg:#eef2f7;--ink:#172337;--ink2:#59677b;--text:#172337;--muted:#59677b;--mint:#326bc7;--mint2:#427dde;--mint-soft:#234e97;--pink:#ff4fcb;--pink-ink:#ad247e;--hair:rgba(74,97,128,.15);--well:rgba(255,255,255,.7);--on-neon:#fff;--action:#172337;--action-2:#536b89;
+ --body:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--head:var(--body);--f-m:var(--body);--f-h:var(--body);--f-n:var(--body);
+ background:#eef2f7!important;color:#172337!important;color-scheme:light;
+}
+html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body .wrap{background:linear-gradient(140deg,#eef3fb,#f9eff7)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(.sheetcard,#acctCard,#onb .panel){background:rgba(248,251,255,.97)!important;color:#172337!important;border:1px solid #fff!important;border-radius:26px!important;box-shadow:0 12px 40px rgba(47,72,107,.12)!important;backdrop-filter:blur(24px)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(#sheet .sheethead,.fl-exitbar,#onb .fl-exitbar){background:rgba(246,249,254,.94)!important;color:#172337!important;backdrop-filter:blur(20px)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(#sheet input,#sheet select,#sheet textarea,#acctCard input,#acctCard select){background:#fff!important;color:#172337!important;border:1px solid #ccdaec!important;border-radius:12px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .btn{box-shadow:none!important;border-radius:16px!important;background:#477ed6!important;color:#fff!important;border:0!important;font-family:var(--body)!important;font-size:16px!important;text-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #toast{background:#243e65!important;color:#fff!important;border-radius:18px!important;box-shadow:0 4px 16px rgba(27,54,94,.2)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet{background:rgba(30,48,76,.25)!important;backdrop-filter:blur(8px)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(.h1,.h2,.ctitle,.sectitle){font-family:var(--body)!important;text-shadow:none!important;letter-spacing:-.5px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(.smbrand .smword b .fitw,.brand b .fitw,.smword .fitw){color:#ff4fcb!important;-webkit-text-fill-color:#ff4fcb!important;text-shadow:none!important}
+/* Shared light glass for setup, sheets and status messages outside the app root. */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb{background:rgba(31,49,76,.22)!important;backdrop-filter:blur(14px)!important;padding:12px!important;align-items:center!important;color-scheme:light}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .onbcard{--ink-0:#172337;--ink-1:#354b67;--ink-2:#59677b;--blue:#477ed6;--blue-t:#326bc7;--blue-ink:#fff;--glass:rgba(255,255,255,.8);--line:#ccd9e9;--f-d:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--f-m:var(--f-d);--f-n:var(--f-d);background:linear-gradient(145deg,#f3f7fe,#f9f1f8)!important;color:#172337!important;border:1px solid #fff!important;border-radius:26px!important;box-shadow:0 18px 60px rgba(28,48,79,.18)!important;max-height:calc(100dvh - 24px)!important;overflow:hidden!important;font-family:var(--f-d)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(h3,p,label,span,b,small,.tx,.of,.onbwhy){color:#172337!important;text-shadow:none!important;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;letter-spacing:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .onbhead{padding:14px 20px 0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody{padding:0 20px 16px!important;scroll-padding-bottom:24px;min-height:80px}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(.onbfoot,.fl-exitbar){background:rgba(246,249,254,.96)!important;color:#172337!important;border-top:1px solid #dce5f2!important;padding:10px 20px!important;backdrop-filter:blur(24px)}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .onbfoot::before{display:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(.fl-close,#onbSkip){font:600 14px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;color:#326bc7!important;-webkit-text-fill-color:#326bc7!important;background:transparent!important;border:0!important;text-decoration:none!important;min-height:44px!important;padding:10px!important;margin:0!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .onbmed{font-size:11px!important;line-height:1.45!important;color:#59677b!important;opacity:1!important;margin:0 0 10px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .onbwhy{font-size:12px!important;line-height:1.4!important;margin:8px 0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(input,select,textarea){background:#fff!important;color:#172337!important;-webkit-text-fill-color:#172337!important;border:1px solid #c8d7eb!important;border-radius:13px!important;font:500 18px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;min-width:0!important;min-height:48px!important;box-shadow:none!important;padding:12px!important;text-align:left!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb input::placeholder{color:#748196!important;-webkit-text-fill-color:#748196!important;font-size:15px!important;font-weight:400!important;opacity:1!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb label{display:block!important;font-size:13px!important;font-weight:600!important;margin:12px 0 8px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(.pick button,.stepper button){border:1px solid #ccd9eb!important;background:rgba(255,255,255,.75)!important;color:#354b67!important;-webkit-text-fill-color:#354b67!important;border-radius:14px!important;min-height:44px!important;box-shadow:none!important;font:600 15px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;text-shadow:none!important;padding:12px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .pick button.on{background:#e1ebfd!important;border-color:#6e9ce8!important;color:#214f94!important;-webkit-text-fill-color:#214f94!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .dj-setup .pick button[aria-pressed=true]{background:#e1ebfd!important;border:2px solid #2f6fe0!important;color:#163d7a!important;-webkit-text-fill-color:#163d7a!important;font-weight:800!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .dj-setup #journey-days-error:not(:empty){color:#a1234f!important;-webkit-text-fill-color:#a1234f!important;font:600 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;margin:10px 0 0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(#onbNext,#onbBack){font:650 16px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;min-height:48px!important;border:0!important;border-radius:14px!important;background:#477ed6!important;color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:none!important;box-shadow:none!important;padding:12px 16px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBack{background:#e1eafa!important;color:#326bc7!important;-webkit-text-fill-color:#326bc7!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbNext:disabled{background:#d6dfed!important;color:#627189!important;-webkit-text-fill-color:#627189!important;opacity:1!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .brcoach{padding:8px 0 14px!important;margin-bottom:12px!important;border-color:#dce5f2!important;gap:12px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .brcoach img{width:44px!important;height:44px!important;filter:none!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .brcoach b{font-size:17px!important;line-height:1.3!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .brcoach span{font-size:14px!important;line-height:1.5!important;color:#53647b!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(.onbdots i.on,.onbbook .bar i){background:#6f99e6!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #toast{top:calc(env(safe-area-inset-top,0px) + 12px)!important;bottom:auto!important;left:16px!important;right:16px!important;width:auto!important;max-width:560px!important;margin:0 auto!important;transform:none!important;pointer-events:none!important;font:500 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;padding:12px 16px!important;border:1px solid rgba(255,255,255,.4)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:has(#onb:not([hidden])) #toast{visibility:hidden!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin{display:grid!important;grid-template-columns:40px minmax(0,1fr) 40px!important;gap:8px!important;align-items:center!important;border:0!important;background:transparent!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin>b{display:grid!important;place-items:center!important;width:40px!important;height:44px!important;border-radius:12px!important;border:1px solid #c8d7eb!important;background:#e6eefb!important;color:#326bc7!important;font:500 24px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(h1,h2,h3,h4,.note,.sub,.onbnote,.onbnote div,.onbnote em,.onbnote strong){color:#53647b!important;opacity:1!important;text-shadow:none!important;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;letter-spacing:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb :is(h1,h2,h3,h4){color:#172337!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(h1,h2,h3,h4,p,span,b,strong,small,label,div,a,button){color:#172337!important;-webkit-text-fill-color:currentColor!important;text-shadow:none!important;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;letter-spacing:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(.note,.sub,.u){color:#59677b!important;opacity:1!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(.sheetcard,.sheethead,#shBody){background:#f5f8fe!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(.btn,.btn span){background:#477ed6!important;color:#fff!important;-webkit-text-fill-color:#fff!important;border:0!important;outline:0!important;box-shadow:none!important;border-radius:14px!important;font-size:16px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .spin>b{border:1px solid #c8d7eb!important;border-radius:12px!important;background:#e6eefb!important;color:#326bc7!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(input,select,textarea){font:500 17px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody .btn{box-shadow:none!important;outline:0!important;margin:14px 0 0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody .btn:is(:focus,:active){box-shadow:none!important;outline:3px solid #8eb3f2!important;outline-offset:3px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shClose{color:#326bc7!important;text-decoration:none!important;border:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody :is(.ittitle,h3.ittitle){color:#172337!important;-webkit-text-fill-color:#172337!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody :is(.note,.sub,.onbnote,.onbnote *,.itbody,.itbody *,.onbwhy){opacity:1!important;color:#53647b!important;-webkit-text-fill-color:#53647b!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody *{color:#354b67!important;-webkit-text-fill-color:currentColor!important;text-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody :is(h1,h2,h3,h4,b,label){color:#172337!important;opacity:1!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody :is(.sub,.note,.u,.h,.hint,small){opacity:1!important;color:#59677b!important;-webkit-text-fill-color:#59677b!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody *{text-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbBody .pick button.on{color:#214f94!important;background:#e1ebfd!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(#onb,#sheet) :is(button,input,select,[role=button]):focus-visible{outline:3px solid #83aaf0!important;outline-offset:3px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody *{color:#354b67!important;-webkit-text-fill-color:currentColor!important;text-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody :is(.btn,.btn *){color:#fff!important;-webkit-text-fill-color:#fff!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet :is(.sheetcard,#shBody)::after{background:linear-gradient(transparent,#f5f8fe)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .sheetcard.more::after,html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .sheetcard.more::before{background:linear-gradient(transparent,#f5f8fe)!important;color:#326bc7!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin{width:100%!important;box-sizing:border-box!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin input{width:100%!important;box-sizing:border-box!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .sheetcard::before,html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet .sheetcard::after{display:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shBody{box-shadow:none!important}
+
+/* Shared dropdowns and titles outside the main app root. */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is([role="menu"],[role="listbox"]:not(#findList),.menu,.popover,.dropdown,.selpop,.ctlmenu,.lbmenu,.calpop,.dpop,.datepop,.setmenu){background:rgba(247,250,255,.97)!important;color:#20344f!important;border:1px solid #fff!important;border-radius:18px!important;box-shadow:0 12px 32px rgba(47,72,107,.16)!important;backdrop-filter:blur(24px)!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is([role="menu"],[role="listbox"]:not(#findList),.menu,.popover,.dropdown,.selpop,.ctlmenu,.lbmenu,.calpop,.dpop,.datepop,.setmenu) *{color:#20344f!important;-webkit-text-fill-color:#20344f!important;text-shadow:none!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is([role="menu"],[role="listbox"]:not(#findList),.menu,.popover,.dropdown,.selpop,.ctlmenu,.lbmenu,.calpop,.dpop,.datepop,.setmenu) :is(button,a,.selopt,[role="option"]){background:transparent!important;border-color:#d5e0f0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(.selopt.on,.selopt:hover,[role="option"][aria-selected="true"],.c3-you-menu button:hover){background:#e3edff!important;color:#285ea9!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(select,.seltrig){color-scheme:light!important;background:#f7faff!important;color:#20344f!important;border:1px solid #cad9ef!important;border-radius:12px!important;box-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(select option,select optgroup){background:#f7faff!important;color:#20344f!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(h1,h2,h3,h4,[role="heading"],#shTitle,.h1,.h2,.ctitle,.sectitle,.auxh,.liveh,.intake .ittitle){color:#285ea9!important;-webkit-text-fill-color:#285ea9!important;text-shadow:none!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(h1,h2,h3,h4,[role="heading"],#shTitle,.h1,.h2,.ctitle,.sectitle,.auxh,.liveh) :is(span,b,strong,em){color:inherit!important;-webkit-text-fill-color:inherit!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body :is(h2,h3,h4,.ctitle,.sectitle,.auxh,.liveh){border-inline-start:3px solid #83a6ed!important;padding-inline-start:10px!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #sheet #shTitle{color:#285ea9!important;-webkit-text-fill-color:#285ea9!important;border-inline-start:3px solid #83a6ed!important;padding-inline-start:10px!important}
+
+/* Legacy account controls remain readable on the shared pale glass surface. */
+.flac,.flac p,.flac label,.flac-side,.flac-eye,.flac-line,.flac-stat,.flac-stat b,.flac-stat span,.flac-word{color:#172840!important}
+.flac small,.flac-note,.flac-muted{color:#526580!important}
+.flac input{background:#fff!important;color:#172840!important;border-color:#9eafc5!important}
+.flac .danger{color:#bd245e!important}
+html:not(#vv):not(#c3x) body #acctCard{--ink:#172840;--ink2:#526580;--dim:#526580;--mint:#2463bc;--coral:#bd245e;--on-neon:#fff;color:#172840!important}
+html:not(#vv):not(#c3x) body #acctCard .flac label,html:not(#vv):not(#c3x) body #acctCard .flac-word{color:#172840!important}
+html:not(#vv):not(#c3x) body #acctCard .flac p,html:not(#vv):not(#c3x) body #acctCard .flac span,html:not(#vv):not(#c3x) body #acctCard .flac b,html:not(#vv):not(#c3x) body #acctCard .flac small,html:not(#vv):not(#c3x) body #acctCard .flac summary,html:not(#vv):not(#c3x) body #acctCard .flac label{color:#172840!important;-webkit-text-fill-color:#172840!important}
+html:not(#vv):not(#c3x) body #acctCard .flac-word.danger{color:#bd245e!important}
+/* Explicit permanent-delete confirmation: do not inherit full-width text input geometry. */
+#p-youaccount #acDeleteConfirm{appearance:auto!important;-webkit-appearance:checkbox!important;display:inline-block!important;width:20px!important;height:20px!important;min-height:20px!important;min-width:20px!important;padding:0!important;margin:0 10px 0 0!important;vertical-align:middle!important;border-radius:3px!important;box-shadow:none!important;}
+#p-youaccount label:has(#acDeleteConfirm){display:block!important;line-height:1.5!important;margin:14px 0!important;}
+#p-youaccount #acDeleteConfirm::before,#p-youaccount #acDeleteConfirm::after{content:none!important;display:none!important;}
+#p-youaccount #acDeleteConfirm{background:none!important;background-image:none!important;transform:none!important;}
+/* Account deletion code controls use the same pale-glass form treatment. */
+#p-youaccount #acDeleteSendCode{display:block!important;min-height:44px!important;padding:10px 14px!important;margin:8px 0!important;border:1px solid #8ba6c5!important;border-radius:12px!important;background:#eef4ff!important;color:#172840!important;font-family:inherit!important;font-size:15px!important;font-weight:600!important;line-height:1.35!important;text-align:left!important;}
+#p-youaccount #acDeleteCode{margin-top:6px!important;color:#172840!important;background:#fff!important;}
+
+/* lane G polish: the account / sign-in card keeps its own breathing room inside the glass panel (text was flush to the edge) */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #acctCard{ padding:22px 18px 26px !important; box-sizing:border-box; }
+@media (min-width:700px){ html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #acctCard{ padding:28px 28px 32px !important; } }
+/* Delete my account: a clearly separate danger zone with readable copy and an obvious, deliberate button */
+html:not(#vv):not(#c3x) body #acctCard .flac-danger{ width:100%; box-sizing:border-box; margin-top:8px; padding:16px !important; gap:10px; border:1px solid #f0c6d3 !important; border-radius:16px; background:#fff6f9; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger .flac-line{ font-size:13.5px !important; line-height:1.45 !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger input[type=password], html:not(#vv):not(#c3x) body #acctCard .flac-danger input[inputmode=numeric]{ width:100%; box-sizing:border-box; }
+#p-youaccount #acDeleteConfirm{ accent-color:#bd245e; flex:none; }
+#p-youaccount label:has(#acDeleteConfirm){ display:flex!important; align-items:flex-start; gap:2px; font-size:14px; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger #acDel{ width:100% !important; justify-content:center; min-height:48px !important; margin-top:4px !important; border:2px solid #bd245e !important; border-radius:999px !important; color:#bd245e !important; background:#fff !important; font-weight:700; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger #acDel.armed{ background:#bd245e !important; color:#fff !important; -webkit-text-fill-color:#fff !important; }
+html:not(#vv):not(#c3x) body #acctCard .flac-danger #acDel:disabled{ opacity:.6; }
+#p-youaccount #acDeleteConfirm{ color-scheme:light; accent-color:#bd245e; }
+html:not(#vv):not(#c3x) body #acctCard .flac-who{ font-size:15px !important; overflow-wrap:anywhere; word-break:normal; }
+
+/* lane G polish: the Plan page (legacy cards) in the same light glass as the rest; every card says what it is and has one clear button */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #acctCard .flac p.flac-who{ font-size:15px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan{ --pl-ink:#172840; --pl-ink2:#526580; --pl-blue:#285ea9; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .pane-head{ display:flex; flex-direction:column; align-items:stretch; gap:12px; margin:4px 0 16px; padding:0; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .pane-what b{ display:block; margin:0 0 4px; font-size:26px; line-height:1.1; color:var(--pl-blue) !important; -webkit-text-fill-color:var(--pl-blue) !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .pane-what span{ display:block; font-size:15px; line-height:1.4; font-weight:600; color:var(--pl-ink2) !important; -webkit-text-fill-color:var(--pl-ink2) !important; opacity:1 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan :is(.card.mpcard,.card.setupcard){ display:flex; flex-direction:column; align-items:stretch !important; gap:12px !important; margin:0 0 14px !important; padding:16px !important; background:rgba(255,255,255,.8) !important; border:1px solid #d6e0ee !important; border-radius:16px !important; box-shadow:none !important; backdrop-filter:none !important; color:var(--pl-ink) !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard{ flex-direction:row; flex-wrap:wrap; align-items:center !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard > div{ flex:1 1 150px; min-width:0; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard b, html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .sc-t b{ display:block; margin:0 0 4px; font-size:19px !important; line-height:1.2; color:var(--pl-ink) !important; -webkit-text-fill-color:var(--pl-ink) !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard span, html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .sc-t span{ display:block; font-size:14px; line-height:1.45; font-weight:500; color:var(--pl-ink2) !important; -webkit-text-fill-color:var(--pl-ink2) !important; opacity:1 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan :is(.pane-primary,.mpcard .btn,.setupcard .btn){ display:flex; align-items:center; justify-content:center; box-sizing:border-box; width:100% !important; min-height:48px; padding:0 20px !important; border:0 !important; border-radius:999px !important; background:linear-gradient(90deg,#5b8cf5,#4a6fe0) !important; color:#fff !important; -webkit-text-fill-color:#fff !important; font:700 16px/1 inherit; box-shadow:0 6px 16px rgba(74,111,224,.28) !important; text-shadow:none !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard .btn{ flex:1 1 100%; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard img{ flex:none; width:64px; height:auto; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .planpromo{ margin:6px 0 0; border-radius:16px; overflow:hidden; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard img{ width:64px !important; flex:0 0 64px !important; transform:rotate(-3deg); }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .mpcard > div{ flex:1 1 0 !important; min-width:140px; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #p-youplan .pane-head .pane-primary{ display:none !important; }
+
+/* lane G polish 2: sign up / sign in / email code / reset password (legacy .flac markup inside #acctCard) */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard input:not([type=checkbox]):not([type=radio]){ color:#172840 !important; -webkit-text-fill-color:#172840 !important; background:#fff !important; border:1px solid #b8c8e0 !important; border-radius:12px !important; min-height:48px; padding:0 14px !important; box-sizing:border-box; width:100%; font-size:16px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard select#flSavedEmailChoice{ color:#172840 !important; -webkit-text-fill-color:#172840 !important; background:#fff !important; border:1px solid #b8c8e0 !important; border-radius:12px !important; min-height:48px; padding:0 12px !important; width:100%; box-sizing:border-box; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-pw{ position:relative; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-pw input{ padding-right:70px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-show{ position:absolute !important; right:10px; top:50%; transform:translateY(-50%); background:transparent !important; border:0 !important; box-shadow:none !important; color:#326bc7 !important; -webkit-text-fill-color:#326bc7 !important; font-weight:700; min-height:0 !important; padding:6px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-go{ background:linear-gradient(180deg,#5b8fe6,#3f73d2) !important; color:#fff !important; -webkit-text-fill-color:#fff !important; min-height:52px !important; border:0 !important; border-radius:999px !important; box-shadow:0 6px 16px rgba(63,115,210,.3) !important; text-shadow:none !important; font-size:18px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-h{ font-size:30px !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-h::after{ display:block; margin-top:6px; font-family:"Barlow","Helvetica Neue",Arial,sans-serif !important; font-weight:500; text-transform:none; letter-spacing:0; font-size:14px; line-height:1.4; color:#526580; content:"Backs up your log and keeps your phone and computer in sync."; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac:has(#acTabPw) .flac-h::after{ content:"Use your password, or ask for a one-time code by email."; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac:not(:has(.flac-pw)):not(:has(#acTabPw)) .flac-h::after{ content:"We email a 6-digit code, then you choose a new password."; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard button.mini{ background:transparent !important; border:0 !important; box-shadow:none !important; color:#326bc7 !important; -webkit-text-fill-color:#326bc7 !important; text-decoration:underline; min-height:0 !important; padding:6px 2px !important; font-size:13px !important; text-transform:none !important; letter-spacing:0 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard :is(#acTabPw,#acTabCode).on{ background:#e3ecff !important; border:1px solid #9db8ef !important; color:#2a5cb8 !important; -webkit-text-fill-color:#2a5cb8 !important; box-shadow:none !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-stats{ display:grid !important; grid-template-columns:auto auto auto; justify-content:space-between; gap:8px; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body:not(#q):not(#r) #acctCard .flac-stats span{ white-space:nowrap; }
+
+/* lane G polish 2: setup wizard (onboarding): steppers not clipped, calm helper text, one blue primary on the account step */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .stepper{ max-width:100%; box-sizing:border-box; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .stepper button{ flex:none !important; min-width:44px !important; padding:0 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #oNote4{ font-size:13px !important; line-height:1.4 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb #onbSkip{ text-shadow:none !important; -webkit-text-stroke:0 !important; }
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb [data-acct=signup]{ background:linear-gradient(180deg,#5b8fe6,#3f73d2) !important; color:#fff !important; -webkit-text-fill-color:#fff !important; border:0 !important; box-shadow:0 6px 16px rgba(63,115,210,.3) !important; text-shadow:none !important; }
+
+/* lane G polish 3: onboarding stepper, account button label, step 6 */
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin{grid-template-columns:44px minmax(0,1fr) 44px!important;gap:8px!important;max-width:100%;box-sizing:border-box}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin input{width:auto!important;min-width:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin b{width:44px!important;min-width:0!important}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #onb .spin input:focus{outline:2px solid #477ed6!important;outline-offset:1px;border-radius:12px}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #acctCard .flac-go span{color:#fff!important;-webkit-text-fill-color:#fff!important}
+
+/* The shared navigation dock stays visible at desktop widths too. */
+@media(min-width:1024px){
+ html.c3-deep:not(#vv):not(#c3x) body .wrap{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))!important}
+}
+
+/* lane H (glass-ios-refresh), My Plan book dialog at phone widths:
+   1) the sticky bar packed the title and up to four buttons on one row - at 390px "Download PDF"
+      was clipped and Close sat fully off-screen, leaving no way out. Let the title take its own
+      line and the buttons wrap, so every control stays reachable.
+   2) the book's tables are 440px wide and pushed the whole dialog sideways; scroll them inside
+      the page card instead. */
+html:not(#vv):not(#c3x) body #myplan .mpbar{ flex-wrap:wrap !important; row-gap:8px !important; }
+html:not(#vv):not(#c3x) body #myplan .mpbar b{ flex:1 1 100% !important; min-width:0 !important; }
+html:not(#vv):not(#c3x) body #myplan .mpbar button{ flex:1 1 auto !important; min-height:44px !important; white-space:normal !important; }
+html:not(#vv):not(#c3x) body #myplan .mpg .in{ overflow-x:auto !important; }
+
+/* lane H: the coach chat's suggestion chips and answer actions were borderless words with a
+   mint underline - they read as links, not buttons. Give them the dark sheet's pill treatment
+   (the sheet itself stays its deliberate dark layer). Beats the shell's underline rule at
+   index.html by the extra .c3-on/.c3-deep class. */
+html.c3-on:not(#vv):not(#c3x) body #sheet .mini:not(.go):not(#shRoute *),
+html.c3-deep:not(#vv):not(#c3x) body #sheet .mini:not(.go):not(#shRoute *){
+  background:rgba(255,255,255,.08) !important; border:1px solid rgba(255,255,255,.28) !important;
+  border-radius:999px !important; padding:10px 16px !important; min-height:44px !important;
+  color:#FFFFFF !important; -webkit-text-fill-color:#FFFFFF !important; box-shadow:none !important;
+}
+html.c3-on:not(#vv):not(#c3x) body #sheet .mini:not(.go):not(#shRoute *):hover,
+html.c3-deep:not(#vv):not(#c3x) body #sheet .mini:not(.go):not(#shRoute *):hover{ background:rgba(255,255,255,.14) !important; }
+
+/* FITFIX: signed-out Account inherits the light shell, with a name that fits phones. */
+html:not(#vv):not(#c3x) body #acctCard .flac-land{--ink:#172840;--ink2:#526580;--dim:#526580;--mint:#2463bc;color:#172840;min-width:0;max-width:100%;}
+html:not(#vv):not(#c3x) body #acctCard .flac-brand{min-width:0;gap:10px;}
+html:not(#vv):not(#c3x) body #acctCard .flac-mark{width:clamp(48px,17vw,72px);}
+html:not(#vv):not(#c3x) body #acctCard .flac-name{min-width:0;font-size:clamp(30px,10vw,48px)!important;line-height:1.12!important;white-space:normal;overflow-wrap:anywhere;}
+html:not(#vv):not(#c3x) body #acctCard .flac-name>span{color:#be247f!important;}
+html:not(#vv):not(#c3x) body #acctCard .flac-land :is(.flac-eye,.flac-note,.flac-tag,.flac-alt,.flac-word){color:#172840!important;-webkit-text-fill-color:#172840!important;}
+html:not(#vv):not(#c3x) body #acctCard .flac-tag :is(.t1,.t2,.t3,.t4){color:#334e72!important;-webkit-text-fill-color:#334e72!important;}
+html:not(#vv):not(#c3x) body #acctCard .flac-land :is(.flac-line,.flac-keep){color:#526580!important;-webkit-text-fill-color:#526580!important;opacity:1!important;}
+html:not(#vv):not(#c3x) body #acctCard .flac-land .flac-name>span{color:#be247f!important;-webkit-text-fill-color:#be247f!important;}
+html body #acctCard#acctCard .flac-land .flac-brand .flac-name>span{color:#be247f!important;-webkit-text-fill-color:#be247f!important;}
+html:not(#vv):not(#c3x):not(#c3y):not(#c3z):not(#glass) body #acctCard .flac-land .flac-name>span{color:#be247f!important;-webkit-text-fill-color:#be247f!important;}

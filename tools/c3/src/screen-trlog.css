@@ -1,0 +1,80 @@
+/* v359 THE LOG ON TRAIN (screen-trlog.js): every move, every set, one list. A row: set, last time, weight, reps, tick.
+   No boxes: hairlines between rows, the tick is the one neon control in a row. */
+.trl{ display:flex; flex-direction:column; gap:22px; min-width:0; margin-top:6px; }
+.trl-top{ display:flex; padding-top:18px; border-top:1px solid var(--hair); }
+.trl-fin{ width:100%; justify-content:center; }
+.trl-n{ display:flex; align-items:baseline; gap:6px; }
+.trl-n b{ font-size:30px; line-height:1; color:var(--ink); }
+.trl-n i{ font-style:normal; font-size:18px; color:var(--ink2); }
+.trl-n span{ margin-left:4px; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.trl-fin{ min-height:52px; }
+/* the warm-ups, folded into one row */
+.trl-row.wsum .ws{ grid-column:2 / 5; display:flex; flex-wrap:wrap; align-items:center; gap:2px 10px; min-width:0; }
+.trl-row.wsum .ws b{ font-family:var(--f-body); font-weight:600; font-size:14px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.trl-row.wsum .ws .c3-num{ font-size:14px; color:var(--ink2); }
+.trl-row.wsum .ws .c3-link{ min-height:44px; font-size:13px; }
+.trl-move{ display:flex; flex-direction:column; min-width:0; }
+.trl-h{ display:flex; flex-direction:row; align-items:center; gap:10px; padding-bottom:6px; }   /* v362: name and its line, the round Watch beside it */
+.trl-t{ all:unset; box-sizing:border-box; position:relative; display:flex; flex-direction:column; gap:3px; flex:1 1 auto; min-width:0; min-height:44px; padding-right:36px; cursor:pointer; }
+.trl-t:focus-visible{ outline:2px solid var(--mint); outline-offset:3px; }
+.trl-t .cv{ position:absolute; right:4px; top:50%; margin-top:-11px; color:var(--mint); transform:rotate(180deg); transition:transform .18s ease; }
+.trl-move.folded .trl-t .cv{ transform:none; }
+.trl-t .sm{ display:flex; align-items:center; gap:8px; font-size:15px; color:var(--ink2); }
+.trl-t .sm.px{ font-size:14px; }
+.trl-t .sm .c3-ic{ color:var(--mint); flex:none; }
+.trl-move.folded{ border-bottom:1px solid var(--hair); }
+.trl-move.folded .trl-h{ padding-bottom:10px; }
+.trl-move.folded .trl-rest{ border-bottom:0; border-top:1px solid var(--hair); }
+@media (prefers-reduced-motion:reduce){ .trl-t .cv{ transition:none; } }
+.trl-t .g{ font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.trl-t .nm{ font-family:var(--f-body); font-weight:700; font-size:18px; line-height:1.08; letter-spacing:0; text-transform:none; color:var(--ink); overflow-wrap:anywhere; }
+.trl-x{ display:flex; align-items:center; flex:none; }
+.trl-x .sx{ font-size:14px; color:var(--ink2); white-space:nowrap; }
+.trl-cols, .trl-row{ display:grid; grid-template-columns:34px minmax(0, 1fr) 76px 64px 48px; align-items:center; column-gap:8px; }
+.trl-cols{ min-height:26px; border-bottom:1px solid var(--hair); font-family:var(--f-body); font-weight:600; font-size:11.5px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.trl-cols > span:nth-child(3), .trl-cols > span:nth-child(4){ text-align:center; }
+.trl-rows{ margin:0; padding:0; list-style:none; }
+.trl-row{ min-height:56px; border-bottom:1px solid var(--hair); }
+.trl-row .s{ font-size:16px; color:var(--ink); }
+.trl-row.warm .s{ color:var(--ink2); font-size:14px; }
+.trl-row .p{ min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:14px; color:var(--ink2); }
+.trl-row .p.none{ font-family:var(--f-body); font-size:14px; }
+.trl-row .f{ position:relative; display:block; min-width:0; }
+.trl-row .f .u{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+.trl-in{ width:100%; min-height:44px; padding:0 6px; border:0; border-bottom:2px solid rgba(92,242,176,.5); border-radius:0; background:transparent;
+  color:var(--ink); font-size:18px; text-align:center; -moz-appearance:textfield; }
+.trl-in::-webkit-outer-spin-button, .trl-in::-webkit-inner-spin-button{ -webkit-appearance:none; margin:0; }
+.trl-in:focus{ outline:none; border-bottom-color:var(--mint); background:rgba(255,255,255,0.105); }
+.trl-in::placeholder{ color:var(--ink2); opacity:1; }
+.trl-in:disabled{ background:transparent; border-bottom-color:transparent; color:var(--ink); opacity:1; -webkit-text-fill-color:var(--ink); }
+.trl-ok{ display:grid; place-items:center; width:48px; height:48px; border:2px solid var(--mint); border-radius:50%; color:transparent; background:transparent; }
+.trl-row.next .trl-ok{ box-shadow:none; border-width:3px; }
+.trl-row.done .trl-ok{ background:var(--mint); color:var(--on-neon); box-shadow:none; }
+.trl-ok:disabled{ opacity:1; }
+.trl-rest{ list-style:none; display:flex; align-items:center; gap:12px; min-height:48px; padding:0 2px; border-bottom:1px solid var(--hair); color:var(--ink2); font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; }
+.trl-rest b{ font-size:26px; letter-spacing:0; color:var(--mint); }
+.trl-rest .c3-link{ margin-left:auto; min-height:44px; }
+.trl-move.full .trl-t .nm{ color:var(--ink); }
+@media (max-width:359.98px){
+  .trl-cols, .trl-row{ grid-template-columns:28px minmax(0, 1fr) 64px 54px 46px; column-gap:6px; }
+  .trl-ok{ width:46px; height:46px; }
+}
+@media (min-width:700px){
+  .trl-cols, .trl-row{ grid-template-columns:52px minmax(0, 1fr) 110px 90px 56px; column-gap:14px; }
+  .trl-t .nm{ font-size:26px; }
+  .trl-row .p{ font-size:15px; }
+  .trl-in{ font-size:19px; }
+}
+/* a computer: two columns that pack like a wall (C3.trlog.pack gives each move its height in 2 px rows), so a folded
+   move pulls the next one up instead of leaving a hole beside the move next to it */
+@media (min-width:1024px){
+  .trl{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); grid-auto-rows:2px; column-gap:44px; row-gap:0; align-items:start; }
+  .trl > .trl-move{ margin-bottom:26px; }
+  .trl-top{ grid-column:1 / -1; }
+  .trl-fin{ width:auto; min-width:360px; }
+}
+.trl-sets{ display:flex; align-items:center; gap:22px; min-height:48px; }
+.trl-sets .c3-link{ display:inline-flex; align-items:center; gap:6px; min-height:44px; }
+
+/* Compact orientation on the shared glass surface. */
+.trl-guide{margin:0;font-size:14px;line-height:1.45;color:var(--ink2);max-width:78ch;}

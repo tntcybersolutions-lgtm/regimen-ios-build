@@ -1,0 +1,3 @@
+.fl-exitbar{display:flex;justify-content:flex-end;position:sticky;top:0;z-index:3;padding:4px 0 8px;background:var(--bg,#161719)}
+.fl-close{min-width:44px;min-height:44px;padding:8px 14px;border:1px solid currentColor;border-radius:5px;color:var(--ink,#fff);background:var(--well,#181A1C);font:inherit;font-weight:700;cursor:pointer}
+.fl-close:focus-visible{outline:3px solid var(--mint,#5cf2b0);outline-offset:3px}

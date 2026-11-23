@@ -1,0 +1,26 @@
+/* C3 reminders. Phone: what is booked, then the switches. Computer: switches left, booked right.
+   Everything is under .rm (the shared frame is .yd). */
+
+.rm .yd-cols{ flex-direction:column-reverse; }
+.rm-top{ display:flex; flex-direction:column; gap:10px; min-width:0; }
+.rm-next{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; padding:10px 0; border-top:1px solid var(--hair); border-bottom:1px solid var(--hair); }
+.rm-next > span{ font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.rm-next > b{ font-family:var(--f-body); font-weight:700; font-size:20px; line-height:1.050; letter-spacing:0; text-transform:none; color:var(--ink); min-width:0; overflow-wrap:anywhere; }
+.rm-next > i{ margin-left:auto; font-style:normal; font-size:14px; font-weight:500; color:var(--ink); white-space:nowrap; }
+.rm .rm-list > li{ border-bottom:1px solid var(--hair); padding-bottom:0; }
+.rm .rm-list .yd-switch{ border-bottom:0; min-height:64px; }
+.rm .rm-list .yd-switch .l{ font-family:var(--f-body); font-weight:700; font-size:18px; line-height:1.050; letter-spacing:0; text-transform:none; }
+.rm .rm-list .yd-switch .l small{ font-family:var(--f-body); font-weight:500; font-size:13.500px; letter-spacing:0; text-transform:none; }
+.rm .rm-set{ padding:0 0 12px; }
+.rm .rm-days{ padding:0 0 14px; gap:4px; }
+.rm .rm-days .yd-opt{ font-size:14px; letter-spacing:0; }
+.rm .rm-list .yd-note{ padding:0 0 12px; }
+
+@media (min-width:1024px){
+  .rm .yd-cols{ flex-direction:row; }
+}
+.rm-save{display:flex;flex-wrap:wrap;gap:14px;position:sticky;bottom:calc(78px + env(safe-area-inset-bottom));padding:14px 0;background:var(--deep);z-index:3}.rm-save .c3-btn-quiet{min-height:48px;max-width:100%;white-space:normal;font-size:18px;letter-spacing:0}@media(min-width:1024px){.rm-save{bottom:10px}}
+/* v367: on a phone the Save bar sits right on the tab bar (a 14px gap let the page show through under it), and the
+   page fades into it instead of being cut */
+@media (max-width:1023.98px){ .rm-save{ bottom:calc(var(--tabs-h) + env(safe-area-inset-bottom, 0px)); } }
+.rm-save::before{ content:''; position:absolute; left:0; right:0; top:-18px; height:18px; background:linear-gradient(180deg, rgba(0,0,0,0), var(--deep)); pointer-events:none; }

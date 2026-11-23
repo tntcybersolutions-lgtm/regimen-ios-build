@@ -1,0 +1,29 @@
+/* v328 the calculators. No boxes: the numbers, the syringe, the marks. */
+.mx-tabs{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:4px; margin:0 0 6px; }
+.mx-tabs .yd-opt{ min-width:0; padding:0 2px; font-size:13.5px; letter-spacing:0; }
+.mx .mx-big b{ font-size:28px; }
+.mx-syr{ display:block; width:100%; height:auto; margin:6px 0 4px; }
+.mx-syr .b{ fill:rgba(255,255,255,.04); stroke:rgba(255,255,255,.4); stroke-width:2; }
+.mx-syr .f{ fill:#5CF2B0; opacity:.85; }
+.mx-syr .f.over{ fill:#FF4FCB; }
+.mx-syr .t{ stroke:rgba(255,255,255,.55); stroke-width:1.5; }
+.mx-syr .t.big{ stroke:#FFFFFF; stroke-width:2; }
+.mx-syr .n{ fill:var(--ink2); font-family:var(--f-num); font-weight:700; font-size:14px; text-anchor:middle; }
+.mx-syr .p{ fill:rgba(255,255,255,.18); }
+.mx-syr .nd{ fill:rgba(255,255,255,.5); }
+.mx-syr .m{ stroke:var(--pink); stroke-width:3; }
+.mx-syr .mt{ fill:#FFFFFF; font-family:var(--f-num); font-weight:800; font-size:17px; text-anchor:middle; }
+.mx-from{ display:flex; flex-direction:column; gap:6px; margin:0 0 10px; }
+.mx-from .k{ font-family:var(--f-body); font-weight:600; font-size:12.5px; letter-spacing:0; text-transform:none; color:var(--ink2); }
+.mx-fromb{ display:flex; flex-wrap:wrap; gap:6px; }
+.mx-du{ align-items:end; }
+.mx-h{ margin:16px 0 4px; font-family:var(--f-body); font-weight:600; font-size:13px; letter-spacing:0; text-transform:none; color:var(--mint-soft); }
+.mx-best{ list-style:none; margin:0; padding:0; }
+.mx-use{ display:flex; align-items:baseline; gap:14px; width:100%; min-height:48px; padding:8px 0; background:none; border:0; border-bottom:1px solid var(--hair); color:var(--ink2); font:inherit; font-size:14.5px; text-align:left; cursor:pointer; }
+.mx-use b{ color:var(--ink); }
+.mx-use > b{ font-size:20px; min-width:88px; }
+.mx-w{ color:var(--pink); font-weight:700; }
+.mx-src{ margin:10px 0 0; font-size:12.5px; line-height:1.45; color:var(--ink2); }
+@media (min-width:700px){ .mx-tabs{ grid-template-columns:repeat(7, minmax(0, 1fr)); } }
+.mx .pd-two.mx-du{ grid-template-columns:minmax(0, 1fr) auto; }
+.mx .mx-du .yd-seg .yd-opt{ min-width:48px; padding:0 10px; }

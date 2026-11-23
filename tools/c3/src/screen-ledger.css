@@ -1,0 +1,320 @@
+/* C3 screen: ledger styles. The pane rules the ledger module renders into, walked out of
+   the live CSSOM and re-scoped under .yd.lg, then the house flatten block: no cards, no
+   banded gradients, one mint action per page. */
+.yd.lg .tile{background: var(--cg-fill-2); box-shadow: none;}
+.yd.lg .tile::before,.yd.lg .tile::after{content: none;}
+.yd.lg .tile .k{color: var(--ink-1); opacity: 1; letter-spacing: 0.08em; font-size: 14px;}
+.yd.lg .tile .v{font-size: 25px; color: rgb(255, 255, 255);}
+.yd.lg .mini{background: var(--cg-fill-2); border: 1px solid var(--cg-edge-2); box-shadow: none;}
+.yd.lg .mini::before,.yd.lg .mini::after{content: none;}
+.yd.lg .mini.go{background: linear-gradient(rgb(44, 46, 51), rgb(37, 39, 42)); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.lg .mini.go::before,.yd.lg .mini.go::after{content: none;}
+.yd.lg .mini.go:hover{background: linear-gradient(rgb(47, 49, 54), rgb(38, 40, 44)); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px; transform: none;}
+.yd.lg .mini{transition: border-color 0.15s, background 0.15s;}
+.yd.lg .sig .t{color: rgb(255, 255, 255);}
+.yd.lg .eyebrow{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue-t); margin: 0px 0px 16px; padding-left: 14px;}
+.yd.lg .note{font-size: 17px; color: var(--ink-1); margin: 12px 0px 0px; line-height: 1.62;}
+.yd.lg .note b{color: var(--ink-0); font-weight: 600;}
+.yd.lg .tiles{display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);}
+.yd.lg .tile{min-width: 0px; padding: 16px 18px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);}
+.yd.lg .tile .v{overflow: hidden; text-overflow: ellipsis;}
+.yd.lg .tile .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue-t); opacity: 0.85;}
+.yd.lg .tile .v{font-family: var(--f-d); font-weight: 700; font-size: 20px; margin-top: 6px; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.lg .tile .v small{font-family: var(--f-m); font-size: 17px; font-weight: 400; color: var(--ink-2); margin-left: 4px; letter-spacing: 0.04em;}
+.yd.lg .sig{display: flex; gap: 14px; align-items: flex-start; padding: 15px 18px; margin-bottom: 10px; border-left: 3px solid var(--accent,var(--blue)); border-radius: 0px 12px 12px 0px; background: linear-gradient(90deg,var(--glass),transparent 85%);}
+.yd.lg .sig .t{font-weight: 600; font-size: 17px; color: var(--ink-0);}
+.yd.lg .sig .d{font-size: 17px; color: var(--ink-1); line-height: 1.58; margin-top: 2px;}
+.yd.lg .sig .d code{font-family: var(--f-m); font-size: 17px; color: var(--ink-0); background: rgba(201, 203, 207, 0.06); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(201, 203, 207, 0.12);}
+.yd.lg .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.lg .mini{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ctl-b2-ink); background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); border-radius: 8px; padding: 9px 13px; cursor: pointer; transition: 0.14s; min-height: 34px;}
+@media (pointer: coarse){.yd.lg .mini{min-height: 44px; padding: 11px 14px;}}
+.yd.lg .mini:hover{color: var(--ctl-b2-ink-h); border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h);}
+.yd.lg .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.lg .mini.go:hover{color: var(--blue-ink);}
+.yd.lg .cal .go{display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px;}
+.yd.lg .plot{position: relative; width: 100%;}
+.yd.lg .plot canvas{width: 100%; display: block; border-radius: 10px;}
+.yd.lg .tip{position: absolute; pointer-events: none; opacity: 0; transition: opacity 0.12s; background: var(--ctl-menu); border: 1px solid var(--ctl-menu-edge); border-radius: 9px; padding: 9px 12px; font-family: var(--f-m); font-size: 17px; line-height: 1.5; white-space: nowrap; z-index: 5; color: var(--ctl-ink); box-shadow: var(--ctl-menu-shadow);}
+.yd.lg .tip b{color: var(--ctl-chevron); font-weight: 700;}
+.yd.lg .tw{overflow-x: auto; margin-top: 16px; position: relative; scrollbar-width: thin;}
+.yd.lg .tw::after{content: "swipe \2192 "; position: sticky; left: 100%; bottom: 0px; float: right; font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); padding: 3px 0px 0px;}
+@media (min-width: 761px){.yd.lg .tw::after{display: none;}}
+.yd.lg td.num,.yd.lg th.num{text-align: right; padding-right: 16px;}
+.yd.lg .warnbox{border: 1px solid rgba(246, 183, 60, 0.32); background: rgba(246, 183, 60, 0.08); border-radius: 10px; padding: 14px 16px; font-size: 17px; color: var(--amber-soft); margin-top: 14px;}
+.yd.lg .card.procard > :not(h2):not(.eyebrow):not(.prostrip){display: none !important;}
+@media (max-width: 1040px){.yd.lg .tile{min-width: 104px; padding: 14px 15px;}}
+@media (max-width: 1040px){.yd.lg .tile .v{font-size: 20px;}}
+.yd.lg .pane.enter .sig{animation: 0.4s cubic-bezier(0.2, 0.72, 0.28, 1) 0s 1 normal backwards running rowIn;}
+.yd.lg .pane.enter .sig:nth-child(2){animation-delay: 0.06s;}
+.yd.lg .pane.enter .sig:nth-child(3){animation-delay: 0.12s;}
+.yd.lg .pane.enter .sig:nth-child(4){animation-delay: 0.18s;}
+.yd.lg .tile .v{transition: none;}
+.yd.lg .prcard .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber-soft); font-weight: 700;}
+.yd.lg .coachline .cacts .mini.go{border-color: var(--c-accent,var(--line)); color: var(--ink-0);}
+.yd.lg .impbox{margin-top: 14px; padding: 16px; border-radius: 12px; border: 1px solid rgba(201, 203, 207, 0.18); background: rgba(201, 203, 207, 0.027);}
+.yd.lg .ex2f .mini[disabled]{opacity: 0.35; cursor: default;}
+@media (max-width: 620px){.yd.lg .calacts .mini{flex: 1 1 auto;}}
+.yd.lg .note,.yd.lg .sig .d{overflow-wrap: anywhere;}
+.yd.lg .apirow .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-0);}
+.yd.lg body.terse .note:not(.keep):not(.warn){max-height: calc(3.24em); overflow: hidden; cursor: pointer; position: relative; mask-image: linear-gradient(rgb(0, 0, 0) 58%, rgba(0, 0, 0, 0.25) 100%);}
+.yd.lg body.terse .note:not(.keep):not(.warn):hover{color: var(--ink-0);}
+.yd.lg .impbox{margin-top: 18px; padding: 15px 16px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02);}
+.yd.lg .impbox textarea{width: 100%; min-height: 96px; resize: vertical; font-family: var(--f-m); font-size: 17px; line-height: 1.5; padding: 11px 12px; border-radius: 9px;}
+.yd.lg .note.warn{color: var(--amber);}
+.yd.lg .exaux .mini{margin-top: 10px;}
+.yd.lg #restBar .mini{min-height: 42px;}
+.yd.lg .chips .mini small{font-size: 14px; opacity: 0.7; margin-left: 3px;}
+.yd.lg .fdgo .mini small{opacity: 0.72; font-size: 14px; margin-left: 3px;}
+.yd.lg .fdph .mini{margin-left: auto;}
+.yd.lg .fdserv .mini small,.yd.lg .fdport .mini small{opacity: 0.7; font-size: 14px;}
+@media (max-width: 620px){.yd.lg .fdrow .mini{grid-area: 3 / 2; justify-self: end;}}
+@media (pointer: coarse){.yd.lg .mini{min-height: 44px;}}
+.yd.lg .mini{background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 56%), rgba(0, 0, 0, 0.34); box-shadow: rgba(255, 255, 255, 0.11) 0px 1px 0px inset;}
+.yd.lg .mini:hover{background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(201, 203, 207, 0.06) 60%), rgba(0, 0, 0, 0.34);}
+.yd.lg .mini.go,.yd.lg .mini.go:hover{background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.lg .mini:active{transform: translateY(1px);}
+.yd.lg .tile{background: linear-gradient(rgba(255, 255, 255, 0.024), transparent 60%);}
+.yd.lg .mini::after,.yd.lg .tile::after{content: ""; position: absolute; inset: 0px; border-radius: inherit; padding: 1px; pointer-events: none; background: var(--gl2-ring); mask: linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px) content-box exclude, linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px);}
+.yd.lg .mini,.yd.lg .tile{position: relative;}
+.yd.lg .mini::after,.yd.lg .tile::after{opacity: 0.55; z-index: 0;}
+.yd.lg .tile::after{border-radius: 0px; opacity: 0.22;}
+.yd.lg .mini.go{position: relative; overflow: hidden;}
+.yd.lg .mini.go{box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0px inset, rgba(255, 255, 255, 0.38) 0px 0px 0px 1px, rgba(96, 112, 134, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.95) 0px 8px 22px -10px;}
+.yd.lg .mini.go::before{content: ""; position: absolute; left: 4%; right: 4%; top: 2px; height: 46%; border-radius: 999px 999px 60% 60%; pointer-events: none; background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.02)); opacity: 0.75;}
+.yd.lg .mini.go::before{opacity: 0.6;}
+@media (min-width: 1100px){.yd.lg .pane > .eyebrow{column-span: all;}}
+.yd.lg .eyebrow{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); padding-left: 0px; margin: 0px 0px 12px; line-height: 1.45;}
+.yd.lg .eyebrow::first-letter{text-transform: uppercase;}
+.yd.lg .tile .k{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.lg .tile .k{font-size: 17px; color: var(--ink-2); opacity: 1;}
+.yd.lg .tile .k::first-letter{text-transform: uppercase;}
+.yd.lg .mini{font-family: var(--f-b); font-size: 17px; font-weight: 500; letter-spacing: 0px; text-transform: none;}
+.yd.lg .mini::first-letter{text-transform: uppercase;}
+.yd.lg .tile{border-radius: 12px; border: 0px !important; background: rgba(255, 255, 255, 0.03) !important;}
+.yd.lg .tiles{gap: 8px; border: 0px; background: none;}
+.yd.lg .tile .v{font-size: 25px; letter-spacing: -0.02em;}
+.yd.lg .card > .note.long,.yd.lg .card > p.note.long{display: none;}
+.yd.lg .card.explain > .note.long,.yd.lg .card.explain > p.note.long{display: block;}
+.yd.lg .card .note.long{max-height: none !important; mask-image: none !important;}
+@media (min-width: 1100px){.yd.lg .pane > .eyebrow{grid-column: 1 / -1;}}
+.yd.lg .smcoach .cbtns .mini{flex: 1 1 auto; text-align: center;}
+.yd.lg .lvtips .mini{margin-top: 8px;}
+.yd.lg .lvrpe .mini{min-width: 38px; text-align: center; padding: 7px 0px;}
+.yd.lg .brrow .mini{white-space: nowrap;}
+.yd.lg .dyacts .mini{padding: 6px 9px;}
+.yd.lg .blkgrid .note{margin-top: 6px;}
+.yd.lg .sig .d code,.yd.lg .impbox textarea,.yd.lg .mini{font-size: 17px;}
+.yd.lg .tile .k,.yd.lg .tile .k,.yd.lg .tw::after,.yd.lg .prcard .k,.yd.lg .apirow .k,.yd.lg .chips .mini small,.yd.lg .fdgo .mini small,.yd.lg .fdserv .mini small,.yd.lg .fdport .mini small{font-size: 17px;}
+.yd.lg .eyebrow,.yd.lg .tile .v small,.yd.lg .mini,.yd.lg .tip,.yd.lg .tile .k{font-size: 17px;}
+.yd.lg .eyebrow,.yd.lg summary .eyebrow{font-size: 17px; line-height: 1.45; color: var(--ink-1); margin: 0px 0px 14px;}
+.yd.lg .note{font-size: 17px; line-height: 1.55; color: var(--ink-1);}
+.yd.lg .note b{color: var(--ink-0);}
+.yd.lg .note.long{max-height: none; mask-image: none;}
+.yd.lg body:not(.terse) .note{display: block; -webkit-line-clamp: unset; overflow: visible;}
+.yd.lg .sig .t{font-size: 17px;}
+.yd.lg .sig .d{font-size: 17px; line-height: 1.5;}
+.yd.lg .tw::after{font-size: 17px;}
+.yd.lg .mini{font-size: 17px; font-weight: 500;}
+.yd.lg .tile .v small{font-variant-numeric: tabular-nums;}
+.yd.lg .tile .v{font-variant-numeric: tabular-nums;}
+.yd.lg .apirow .k,.yd.lg .sig .d code,.yd.lg .tip b,.yd.lg .eyebrow,.yd.lg .tile .k{color: var(--ink-1);}
+.yd.lg .sig .d code{color: rgb(255, 255, 255);}
+.yd.lg .sig .d code{background: var(--hair); border-color: var(--hair);}
+.yd.lg .sig{background: none; border-radius: 0px; padding: 12px 0px 12px 16px; margin-bottom: 6px;}
+.yd.lg .tiles{border: 0px; gap: 0px 24px;}
+.yd.lg .tile,.yd.lg .tile:hover{border-radius: 0px; padding: 14px 0px 12px; box-shadow: none; background: none !important; border: 0px !important;}
+.yd.lg .tile .k{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); opacity: 1;}
+.yd.lg .tile .v{font-size: 34px; line-height: 1.1; color: var(--ink-0); letter-spacing: -0.02em; margin-top: 4px;}
+.yd.lg .tile .v small{font-size: 17px; color: var(--ink-1);}
+.yd.lg #doseTiles .tile:nth-child(-n+3),.yd.lg #trainTiles .tile:nth-child(-n+3){border-bottom: 1px solid var(--hair) !important;}
+@media (max-width: 520px){.yd.lg #doseTiles .tile:nth-child(-n+3),.yd.lg #trainTiles .tile:nth-child(-n+3){border-bottom: 0px !important;}}
+@media (max-width: 520px){.yd.lg #doseTiles .tile:nth-child(-n+4),.yd.lg #trainTiles .tile:nth-child(-n+4){border-bottom: 1px solid var(--hair) !important;}}
+.yd.lg .card .tiles .tile{padding: 12px 0px 10px;}
+.yd.lg .sig .d code,.yd.lg .note code{background: none; border: 0px; padding: 0px; color: var(--ink-0); font-weight: 600; font-size: inherit; font-family: var(--f-m);}
+.yd.lg .mini{background: none; border: 1px solid var(--cg-edge); box-shadow: none; color: var(--ink-0); text-shadow: none;}
+.yd.lg .mini:hover{background: var(--glass); border-color: var(--cg-edge); color: var(--ink-0); box-shadow: none; transform: none;}
+.yd.lg .mini{border-radius: 10px; padding: 10px 14px; min-height: 40px;}
+.yd.lg .mini.go,.yd.lg .mini.go{background: rgb(40, 42, 46); border: 1px solid transparent; color: rgb(255, 255, 255); box-shadow: none; text-shadow: none;}
+.yd.lg .mini.go:hover{background: rgb(44, 46, 50); box-shadow: none; transform: none;}
+.yd.lg .mini.go::before{content: none;}
+@media (min-width: 1100px){.yd.lg .pane > .card > .eyebrow,.yd.lg .pane > .card > .note.long{column-span: all;}}
+@media (min-width: 1100px){.yd.lg .pane > .card > .eyebrow{margin-bottom: 12px;}}
+@media (min-width: 1100px){.yd.lg .sig,.yd.lg .tile,.yd.lg .plot,.yd.lg .tw,.yd.lg .warnbox,.yd.lg .tiles{break-inside: avoid;}}
+@media (min-width: 1100px){.yd.lg .eyebrow{break-after: avoid;}}
+@media (min-width: 1380px){.yd.lg .pane > .card:not(.hero):is(:has(.plot),:has(.tw)){columns: 2;}}
+.yd.lg #todayCard .note,.yd.lg .card:has(#hydRing) .note{font-size: 17px; margin-top: 14px;}
+@media (max-width: 720px){.yd.lg .tile .v{font-size: 25px;}}
+@media (max-width: 720px){.yd.lg .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.lg .dyacts .mini,.yd.lg .lvrpe .mini,.yd.lg .setrow .mini,.yd.lg .ex2f .mini,.yd.lg button.mini.sm,.yd.lg .lssets .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.lg .tile .k{font-size: 17px;}}
+@media (max-width: 430px){.yd.lg .tile .v{font-size: 25px;}}
+@media (min-width: 1100px){.yd.lg .smcoach .cbtns .mini{padding: 8px 12px; min-height: 36px; font-size: 17px;}}
+.yd.lg .tile .v{font-family: var(--f-n); font-weight: 600; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;}
+.yd.lg .mini.go{background: rgb(40, 42, 46); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.lg .mini.go:hover{background: rgb(44, 46, 50);}
+.yd.lg .mini{border-radius: 999px;}
+.yd.lg .mini{border: 1px solid var(--cg-edge); color: var(--ink-0);}
+.yd.lg .obt .k{font-family: var(--f-b); font-size: 17px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2);}
+.yd.lg .obt.late .k{color: var(--bad);}
+.yd.lg .mini{min-width: 44px;}
+.yd.lg .obtc .mini{padding: 7px 12px; min-height: 34px; font-size: 17px;}
+.yd.lg html:not(#vv) body .quick.cnext .mini:not(.go){display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; min-height: 44px; font-family: var(--f-b, inherit); font-weight: 600; background: none !important; border-width: 0px 0px 1px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgba(255, 255, 255, 0.14) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 10px 2px !important; font-size: 16px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv) body .quick.cnext .mini:not(.go)::before{content: ""; flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+.yd.lg html:not(#vv) body .quick.cnext .mini:not(.go):hover,.yd.lg html:not(#vv) body .quick.cnext .mini:not(.go):focus-visible{background: rgba(255, 255, 255, 0.06) !important;}
+.yd.lg html:not(#vv) body #cChips .mini:not(.go){min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 2px; text-underline-offset: 6px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv) body #cChips .mini:not(.go):hover{text-decoration-thickness: 3px; background: none !important;}
+.yd.lg .quick.shaydial .note{font-size: 14px; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.08em; margin: 0px !important;}
+.yd.lg html:not(#vv) body .quick.shaydial .mini{min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgba(255, 255, 255, 0.78) !important;}
+.yd.lg html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]{text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 3px; text-underline-offset: 6px; color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]::before{content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+@media (max-width: 720px){.yd.lg .obtc .mini{min-height: 44px;}}
+.yd.lg :root[data-theme="light"] body .sig .t{color: var(--ink-0);}
+.yd.lg .tile .v,.yd.lg .tile .v small{color: var(--ink-0);}
+.yd.lg .tile .v small{color: var(--ink-1);}
+.yd.lg :root[data-theme="light"] .sig .d code{color: var(--ink-0);}
+.yd.lg :root[data-theme="light"] .coachline .cacts .mini.go,.yd.lg :root[data-theme="light"] .coachline .cacts .mini.go:hover{color: rgb(255, 255, 255);}
+.yd.lg .labdoor .go{margin-left: auto; font-weight: 700; color: var(--ink-0); white-space: nowrap;}
+.yd.lg .labdoor:hover .go{text-decoration: underline;}
+@media (max-width: 560px){.yd.lg .labdoor .go{margin-left: 0px; width: 100%;}}
+.yd.lg .obt .k,.yd.lg .pane-obt .k,.yd.lg .wkdraft .k{color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.7) 0px 0px 12px;}
+.yd.lg .mini.go{background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 22px, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px;}
+.yd.lg .mini.go:hover{background: linear-gradient(rgb(51, 54, 59) 0%, rgb(46, 48, 52) 50%, rgb(40, 42, 46) 100%); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 30px, rgb(51, 53, 59) 0px 12px 30px -12px;}
+.yd.lg .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.lg .mini:not(.go):hover{background: rgba(255, 255, 255, 0.14); border-color: rgba(255, 255, 255, 0.34);}
+.yd.lg :root[data-theme="light"] .obt .k,.yd.lg :root[data-theme="light"] .pane-obt .k,.yd.lg :root[data-theme="light"] .wkdraft .k{color: rgb(46, 49, 53); text-shadow: none;}
+.yd.lg :root[data-theme="light"] body .mini:not(.go){background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.lg .sch .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.6) 0px 0px 12px;}
+.yd.lg :root[data-theme="light"] .sch .k{color: rgb(39, 41, 44); text-shadow: none;}
+.yd.lg #tDayCard .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-0); text-shadow: rgba(53, 240, 255, 0.6) 0px 0px 12px;}
+.yd.lg :root[data-theme="light"] #tDayCard .k{color: rgb(46, 49, 53); text-shadow: none;}
+@media (max-width: 639px){.yd.lg .obt.has-art.portrait .obt-body > .k,.yd.lg .obt.has-art.square .obt-body > .k{grid-column: 1; min-width: 0px;}}
+.yd.lg .wkdraft .k{font-family: var(--f-b); font-size: 17px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue-t);}
+.yd.lg .askq .mini.sq{min-width: 38px; padding: 8px 0px; text-align: center;}
+.yd.lg .obt .k{color: var(--blue-t);}
+.yd.lg :root[data-theme="light"] .obt .k{color: rgb(39, 41, 44);}
+.yd.lg .obt .k{font-weight: 700;}
+.yd.lg .mini:active{transform: scale(0.97);}
+.yd.lg .tile{background: none; border: 0px; border-radius: 0px; box-shadow: none; backdrop-filter: none;}
+.yd.lg .warnbox{background: none; border: 0px; border-radius: 0px; box-shadow: none; padding-inline: 0px;}
+.yd.lg .warnbox{border-left: 3px solid var(--amber, #F6B73C); padding: 2px 0px 2px 14px;}
+.yd.lg :root[data-theme="light"] .obt .k,.yd.lg :root[data-theme="light"] .pane-obt .k,.yd.lg :root[data-theme="light"] .wkdraft .k{color: var(--ink-1);}
+.yd.lg :root[data-theme="light"] .sch .k{color: var(--ink-1);}
+.yd.lg :root[data-theme="light"] #tDayCard .k{color: var(--ink-1);}
+.yd.lg :root[data-theme="light"] .obt .k{color: var(--ink-0);}
+.yd.lg #tDayCard .k{color: var(--ink-0);}
+.yd.lg .flpromoacts .mini{text-decoration: none; display: inline-flex; align-items: center;}
+.yd.lg .pane .k.islong,.yd.lg .pane .sub.islong,.yd.lg .pane .eyebrow.islong,.yd.lg .islong{max-width: 70ch; font-family: var(--f-b) !important; font-size: 17px !important; font-weight: 400 !important; letter-spacing: 0px !important; text-transform: none !important; color: var(--ink-2) !important; line-height: 1.5 !important;}
+.yd.lg .pane .eyebrow,.yd.lg .pane p.eyebrow{font-family: var(--f-b); font-size: 17px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: var(--ink-2); line-height: 1.5; max-width: 70ch; margin: 0px 0px 16px;}
+.yd.lg .pane .k{font-family: var(--f-m); font-size: 17px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2);}
+.yd.lg .mini{background: linear-gradient(rgba(201, 203, 207, 0.094), rgba(201, 203, 207, 0.06)); border: 1.5px solid rgba(201, 203, 207, 0.25); color: var(--ink-0); font-weight: 600;}
+.yd.lg .mini:hover{background: linear-gradient(rgba(201, 203, 207, 0.17), rgba(201, 203, 207, 0.11)); border-color: rgba(201, 203, 207, 0.42); color: var(--ink-0);}
+.yd.lg .mini.go{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); border: 0px; color: rgb(255, 255, 255); font-weight: 700;}
+.yd.lg .mini.go:hover{background: linear-gradient(rgb(49, 52, 57), rgb(39, 41, 45)); color: rgb(255, 255, 255);}
+.yd.lg .mini.alt{background: rgba(0, 0, 0, 0.04); border: 1.5px solid var(--line); color: var(--ink-1);}
+.yd.lg .pane .eyebrow,.yd.lg .pane .k{font-family: var(--f-m); font-size: 17px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); margin: 0px 0px 10px; padding-left: 0px;}
+.yd.lg .pane .note{max-width: 66ch; line-height: 1.6;}
+.yd.lg .pane .note{font-size: 17px; color: var(--ink-2);}
+.yd.lg .pane .tw,.yd.lg .pane .num{font-variant-numeric: tabular-nums;}
+.yd.lg .pane .plot,.yd.lg .pane canvas.plot{width: 100%; height: auto; min-height: 300px;}
+.yd.lg .mini{font-family: var(--f-m); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; min-height: 44px; border-radius: 999px; padding: 0px 16px;}
+.yd.lg #onb .note{color: rgb(159, 176, 196);}
+.yd.lg #onb .mini{color: rgb(240, 241, 242);}
+.yd.lg #onb .mini.go{color: rgb(255, 255, 255);}
+.yd.lg #onb .mini{border-color: rgba(255, 255, 255, 0.28); background: rgba(255, 255, 255, 0.06);}
+.yd.lg #onb .mini:hover{border-color: rgba(255, 255, 255, 0.5); background: rgba(255, 255, 255, 0.12); color: rgb(255, 255, 255);}
+.yd.lg .btn.go,.yd.lg .mini.go{border-radius: 8px; background-position-x:  !important; background-position-y:  !important; background-size:  !important; background-repeat:  !important; background-attachment:  !important; background-origin:  !important; background-clip:  !important; background-color:  !important; background-image: none !important; color: rgb(255, 255, 255) !important; border-color: transparent !important; box-shadow: none !important;}
+.yd.lg .mini:not(.go){border-radius: 8px; background: var(--bg-1) !important; color: var(--ink-1) !important; border: 1px solid var(--line) !important;}
+.yd.lg .k,.yd.lg .eyebrow{letter-spacing: 0.08em !important;}
+.yd.lg .flpromoacts .mini{flex: 0 0 auto; width: auto !important;}
+.yd.lg .note{color: var(--ink-2);}
+.yd.lg .note,.yd.lg .k,.yd.lg .eyebrow{opacity: 1 !important;}
+.yd.lg #tDay > .k{border-left: 5px solid var(--blue); border-radius: 10px; margin-bottom: 12px; background: linear-gradient(90deg, rgb(244, 244, 245), rgb(247, 246, 243)) !important; padding: 10px 14px !important;}
+@media screen{.yd.lg html:not(#vv) body .k,.yd.lg html:not(#vv) body .eyebrow,.yd.lg html:not(#vv) body .obt .k,.yd.lg html:not(#vv) body .tile .k,.yd.lg html:not(#vv) body .herolabel .k,.yd.lg html:not(#vv) body .pane-what .k{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; font-weight: 700 !important; text-shadow: rgba(30, 216, 138, 0.35) 0px 0px 12px !important; opacity: 1 !important;}}
+@media screen{.yd.lg html:not(#vv) body .note,.yd.lg html:not(#vv) body .sig .d{color: rgb(237, 238, 239) !important; -webkit-text-fill-color: rgb(237, 238, 239) !important; opacity: 1 !important;}}
+@media screen{.yd.lg html:not(#vv) body .note b{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.lg html:not(#vv) body .sig code{border-radius: 6px; padding: 1px 5px; color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; background: rgba(0, 0, 0, 0.45) !important; border: 0px !important;}}
+@media screen{.yd.lg html:not(#vv) body .wrap a:not(.btn):not(.mini):not(.ghost){color: rgb(255, 255, 255) !important; text-decoration-color: var(--vv-neon) !important;}}
+@media screen{.yd.lg html:not(#vv) body .sig .t{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.lg html:not(#vv) body .tile .v,.yd.lg html:not(#vv) body .v,.yd.lg html:not(#vv) body .num{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; text-shadow: rgb(209, 211, 215) 0px 1px 0px, rgb(46, 49, 53) 0px 2px 0px, rgba(0, 0, 0, 0.6) 0px 0px 18px !important;}}
+@media screen{.yd.lg html:not(#vv) body .tile .v small,.yd.lg html:not(#vv) body .v small{color: rgb(229, 230, 232) !important; -webkit-text-fill-color: rgb(229, 230, 232) !important; text-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .tiles{border-color: rgba(207, 209, 213, 0.145) !important;}}
+@media screen{.yd.lg html:not(#vv) body .tile{background: transparent !important; border-color: rgba(207, 209, 213, 0.133) !important; box-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .btn.go,.yd.lg html:not(#vv) body .mini.go{min-height: 46px; transition: box-shadow 0.18s, filter 0.18s; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.95) !important; border-radius: 12px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 800 !important; letter-spacing: 0.01em !important; text-transform: none !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.5) 0px 0px 20px, rgba(0, 0, 0, 0.75) 0px 10px 20px -8px !important; text-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini.go:hover,.yd.lg html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) saturate(1.05); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.85) 0px 0px 30px, rgba(0, 0, 0, 0.8) 0px 12px 22px -8px !important; color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini:not(.go){transition: box-shadow 0.18s, background-color 0.18s, border-color 0.18s; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.396) 100%) !important; border: 1px solid rgba(210, 212, 215, 0.48) !important; border-radius: 12px !important; box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 0px 14px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 700 !important; text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 1px !important; opacity: 1 !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini:not(.go){min-height: 40px; font-size: 17px !important; letter-spacing: 0.05em !important; padding-left: 16px !important; padding-right: 16px !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini:not(.go):hover,.yd.lg html:not(#vv) body .mini:not(.go):focus-visible{background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.33) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 24px !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini[aria-pressed="true"]{background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 0px 1px, rgba(0, 0, 0, 0.9) 0px 0px 20px !important;}}
+@media screen{.yd.lg html:not(#vv) body .mini:disabled{filter: saturate(0.55); opacity: 0.88 !important; box-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .sig{border-color: rgba(207, 209, 213, 0.145) !important; background: transparent !important;}}
+@media screen{.yd.lg html:not(#vv) body .sig .dot{background: var(--vv-neon) !important; box-shadow: 0 0 12px var(--vv-neon),0 0 24px rgba(30,216,138,.5) !important;}}
+@media screen{.yd.lg html:not(#vv) body .warnbox{border-left-color: rgb(255, 184, 92) !important; color: rgb(255, 233, 200) !important;}}
+@media screen{.yd.lg html:not(#vv) body #tDay > .k{background: transparent !important; border-top: 0px !important; border-right: 0px !important; border-image: none !important; border-radius: 0px !important; border-left: 4px solid var(--ph, #B3B6BB) !important; border-bottom: 1px solid rgba(207, 209, 213, 0.133) !important; box-shadow: -6px 0 18px -10px var(--ph, #B3B6BB) !important;}}
+@media screen{.yd.lg html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost){color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 0px 18px !important; text-shadow: none !important;}}
+@media screen{.yd.lg html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost):hover{background: var(--vv-neon) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.lg html:not(#vv) body .wrap .tiles{background-image: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 46%, rgba(0, 0, 0, 0.1)) !important; box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.42) 0px 10px 26px, rgba(0, 0, 0, 0.3) 0px 2px 6px !important;}}
+@media screen{.yd.lg html:not(#vv) body .wrap .tiles .v,.yd.lg html:not(#vv) body .wrap .readout .v{text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 0px, rgba(0, 0, 0, 0.35) 0px 2px 10px;}}
+.yd.lg html:not(#vv) body .wrap .eyebrow{text-shadow: rgba(30, 216, 138, 0.7) 0px 0px 8px, rgba(14, 154, 98, 0.4) 0px 0px 20px !important;}
+.yd.lg html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgb(185, 255, 224) 0px 0px 1px, rgba(30, 216, 138, 0.85) 0px 0px 10px, rgba(255, 160, 0, 0.5) 0px 0px 28px !important;}
+.yd.lg html:not(#vv) body .wrap .mini{min-height: 44px;}
+.yd.lg html:not(#vv) body .wrap .tile{backdrop-filter: none !important;}
+.yd.lg html:not(#vv) body .wrap .tile{background-image: linear-gradient(118deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.055) 16%, rgba(255, 255, 255, 0) 34%), linear-gradient(rgba(255, 255, 255, 0.157) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; border: 1px solid rgba(210, 212, 215, 0.204) !important; border-radius: 20px !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 26px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.46) 0px 22px 46px, rgba(255, 255, 255, 0.05) 0px 2px 0px !important;}
+.yd.lg html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgba(185, 255, 224, 0.9) 0px 1px 0px, rgba(8, 90, 56, 0.55) 0px 3px 0px, rgba(0, 0, 0, 0.5) 0px 14px 18px, rgba(92, 242, 176, 0.45) 0px 0px 24px !important;}
+.yd.lg html:not(#vv) body .wrap .tile{background-image: linear-gradient(rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.44) 0px 12px 26px !important;}
+.yd.lg html:not(#vv) body .wrap .tiles,.yd.lg html:not(#vv) body .wrap .tiles > *{min-width: 0px !important;}
+.yd.lg html:not(#vv) body .wrap .tiles{grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)) !important;}
+.yd.lg html:not(#vv) body .ex2 .exrpe .rpeb .mini{min-width: 44px; min-height: 44px; padding: 0px; font-size: 18px; letter-spacing: 0px;}
+@media (max-width: 480px){.yd.lg html:not(#vv) body .ex2 .exrpe .rpeb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.lg html:not(#vv) body #tDay .sessrec .srb .mini{min-height: 44px;}
+@media (max-width: 480px){.yd.lg html:not(#vv) body #tDay .sessrec .srb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.lg html:not(#vv) body .occ .acts .mini{flex: 1 1 auto; min-width: 0px !important;}
+.yd.lg html:not(#vv) body .ckacts > button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.lg html:not(#vv) body .ckacts > button.go:disabled{opacity: 0.55; cursor: default;}
+.yd.lg html:not(#vv) body .geoacts button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.lg html:not(#vv) body .btn.go,.yd.lg html:not(#vv) body .mini.go{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.9) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.45) 0px 0px 18px !important; text-shadow: none !important;}
+.yd.lg html:not(#vv) body .mini.go:hover,.yd.lg html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.8) 0px 0px 28px !important; color: rgb(16, 16, 18) !important;}
+.yd.lg html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.lg html:not(#vv) body .mini.go:focus-visible{outline: 3px solid var(--vv-neon-2) !important; outline-offset: 3px !important;}
+.yd.lg html:not(#vv) body .bookcard .go{display: inline-block; padding: 12px 18px; border-radius: 12px; font-weight: 800; font-size: 16px; background: var(--vv-neon); color: rgb(26, 27, 30);}
+.yd.lg html:not(#vv) body .bookcard:hover .go,.yd.lg html:not(#vv) body .bookcard:focus-visible .go{background: rgb(255, 255, 255);}
+.yd.lg #myplan .mpweb .acts .go{background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; border: 0px !important;}
+.yd.lg html:not(#vv) body .bookcard .go{text-decoration: none;}
+.yd.lg html:not(#vv) body .bookcard .go:hover{background: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv) body .bookcard:hover .go{background: var(--vv-neon);}
+.yd.lg html:not(#vv) body .geowrap .geoacts button.go{font-weight: 800; background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; text-shadow: none !important; border: 0px !important;}
+.yd.lg html:not(#vv) body #p-train button.go{min-height: 44px;}
+@media (min-width: 1100px){.yd.lg html:not(#vv) body .pane > .card:not(.hero):is(:has(.plot),:has(.tw)){columns: auto !important; column-gap: normal !important;}}
+@media (min-width: 1100px){.yd.lg html:not(#vv) body .pane > .card > .eyebrow{max-width: 78ch;}}
+.yd.lg html:not(#vv) body #shRoute .mini{text-transform: uppercase !important; width: auto !important; min-width: 0px !important; max-width: none !important; white-space: normal !important; overflow-wrap: normal !important; word-break: normal !important; letter-spacing: 0.02em !important; font-size: 15px !important; line-height: 1.15 !important;}
+.yd.lg html:not(#vv) body #sheet .mini:not(.go){background: rgba(255, 255, 255, 0.06) !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv) body #sheet .btn:not(.alt):not(.mini){font-family: "Barlow Condensed", "Arial Narrow", sans-serif !important; font-weight: 900 !important; font-size: 22px !important; letter-spacing: 1px !important; text-transform: uppercase !important; border-top: 0px !important; border-right: 0px !important; border-left: 0px !important; border-image: none !important; border-bottom: 4px solid var(--vv-neon-soft) !important; border-radius: 8px 8px 0px 0px !important; min-height: 56px !important;}
+.yd.lg html:not(#vv) body #sheet .mini:not(.go):not(#shRoute *){background: transparent !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 0px 2px !important; min-height: 44px !important; font-family: Barlow, system-ui, sans-serif !important; font-weight: 600 !important;}
+.yd.lg html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini{flex: 0 0 auto !important; width: auto !important; min-width: 0px !important; min-height: 44px !important; height: auto !important; margin: 0px !important; padding: 0px 18px !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; border-radius: 999px !important; background: transparent !important; box-shadow: none !important; font: 600 15px / 1 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini.go{background: rgb(92, 242, 176) !important; border-color: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .mini.go{-webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .mini.go{min-height: 44px !important; padding: 0px 18px !important; border: 0px !important; border-radius: 999px !important; background: rgb(92, 242, 176) !important; box-shadow: none !important; color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){outline: none; box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini):focus-visible{outline-offset: 3px; outline: rgb(255, 255, 255) solid 3px !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 64px !important; font-size: 26px !important;}
+@media (min-width: 700px){.yd.lg html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 68px !important; font-size: 28px !important;}}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .mini.go{border: 2px solid rgb(92, 242, 176) !important; background: transparent !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv):not(#v367x) body #onb .mini:not(.go):not(#onbSkip){text-decoration: underline 2px rgb(92, 242, 176); text-underline-offset: 6px; min-height: 44px !important; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; text-transform: none !important; letter-spacing: 0px !important; font: 600 15px / 1.2 Barlow, system-ui, sans-serif !important; color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv):not(#v367x) body #sheet .pick .mini.go,.yd.lg html:not(#vv):not(#v367x) body #sheet .pick button.go{border: 1px solid rgb(92, 242, 176) !important; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.lg #flSavedEmails .mini{justify-self: start; min-height: 44px; max-width: 100%; white-space: normal;}
+.yd.lg html:not(#vv):not(#c3x) body #acctCard > .card > .eyebrow,.yd.lg html:not(#vv):not(#c3x) body #acctCard > .card .note{max-width: 72ch; margin: 0px 0px 14px !important; font: 500 15px / 1.45 Barlow, system-ui, sans-serif !important; color: rgb(201, 205, 211) !important; letter-spacing: 0px !important; text-transform: none !important; text-shadow: none !important;}
+.yd.lg html:not(#vv):not(#c3x) body #acctCard > .card .note b{color: rgb(255, 255, 255) !important;}
+.yd.lg html:not(#vv):not(#c3x) body #acctCard > .card .mini{align-items: center; justify-content: center; display: inline-flex !important; width: auto !important; min-height: 48px !important; height: auto !important; margin: 0px !important; padding: 0px 20px !important; background: transparent !important; border: 1.5px solid rgb(92, 242, 176) !important; border-radius: 999px !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; font: 700 15px / 1.15 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important;}
+.yd.lg html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go),.yd.lg html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go){border-bottom: 1px solid rgba(255, 255, 255, 0.24) !important; color: rgba(255, 255, 255, 0.72) !important; font-weight: 600 !important;}
+.yd.lg html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go),.yd.lg html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go){border-bottom: 3px solid rgb(92, 242, 176) !important; color: rgb(255, 255, 255) !important; font-weight: 800 !important;}
+
+/* house flatten + shadow-scope accent fix: C3 redefines --blue as a dark slab; shell rules expect mint */
+.yd.lg{--blue:#5CF2B0;--blue-t:#5CF2B0;--blue-ink:#0B0C0E}
+.yd.lg [hidden]{display:none!important}
+.yd.lg .mini.go,.yd.lg .mini.go:hover{background-color:var(--blue)!important;background-image:none!important;color:#0B0C0E!important;border:0;box-shadow:none!important;text-shadow:none;font-weight:700}
+.yd.lg .eyebrow{font-size:17px;line-height:1.45;color:var(--ink-1);margin:0 0 14px}
+.yd.lg .eyebrow::first-letter{text-transform:uppercase}
+.yd.lg .lg-hero{margin:6px 0 4px}
+.yd.lg .lg-rows{font-size:34px;font-weight:600;color:var(--ink-0);letter-spacing:-.01em;line-height:1.1;margin:2px 0 10px}
+.yd.lg .lg-rows small{display:block;font-size:17px;font-weight:400;color:var(--ink-1);letter-spacing:0;margin-top:4px}
+.yd.lg .medfoot{font-size:14px;color:var(--ink-2);margin:26px 0 0;line-height:1.6}

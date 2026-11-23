@@ -1,0 +1,21 @@
+/* C3 screen: photos. House rules: flat surfaces, pictures rounded with a neon edge,
+   words beside a picture never on it, 48 px touch targets. */
+.ph .ph-when{ display:flex; align-items:center; gap:12px; margin:14px 0 18px; }
+.ph .ph-when .k{ flex:none; font-size:13px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink2); }
+.ph .ph-date{ flex:1 1 auto; min-height:48px; padding:0 12px; background:transparent; border:0; border-bottom:2px solid var(--mint); border-radius:4px 4px 0 0; color:var(--ink); font-family:var(--f-body); font-size:16px; font-weight:600; }
+.ph .ph-date:focus{ outline:none; border-bottom-color:#FFFFFF; }
+.ph .ph-strip{ display:flex; flex-wrap:wrap; gap:16px; }
+.ph .ph-one{ display:flex; flex-direction:column; gap:8px; align-items:flex-start; }
+.ph .ph-cell{ margin:0; display:flex; flex-direction:column; gap:8px; }
+.ph .ph-cell img{ display:block; width:168px; max-width:42vw; height:auto; border-radius:12px; box-shadow:0 0 0 1.5px var(--hair); }
+.ph .ph-cell figcaption{ display:flex; align-items:baseline; gap:8px; font-size:14px; font-weight:600; color:var(--ink2); }
+.ph .ph-cell figcaption b{ color:var(--ink); font-weight:800; }
+.ph .ph-tag{ font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--pink-ink); }
+.ph .ph-rm{ min-height:44px; }
+.ph .ph-cmp-picks{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:16px; }
+.ph .ph-cmp{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.ph .ph-cmp .ph-cell img{ width:100%; max-width:none; box-shadow:0 0 0 1.5px var(--hair); }
+@media (min-width:1024px){
+  .ph .ph-cell img{ width:200px; max-width:none; }
+  .ph .ph-cmp .ph-cell img{ width:100%; }
+}

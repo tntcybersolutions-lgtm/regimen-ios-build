@@ -1,0 +1,34 @@
+/* v374 uniform (Chad, 28 Oct 2026: "DO THAT SITE WIDE FULLY END2END MUST B UIFORM EVEYR SECTION", after "UGLY FLOATING
+   1980 BOXES"). Last in the sheet on purpose (name order), and each rule carries :not(#u) so a screen's own sizes stay
+   but no screen brings back a pill or a box. Every choice is a word on a line: the chosen one white, a mint underline
+   and a check; every action that is not the one big button is a word with a mint underline. Rings for numbers and
+   on/off switches stay what they are. */
+.c3 .yd-opt:not(#u){ justify-content:flex-start; gap:6px; padding-left:2px; padding-right:2px; border:0; border-bottom:1px solid rgba(255,255,255,.22);
+  border-radius:0; background:transparent; box-shadow:none; color:var(--ink2); text-align:left; }
+.c3 .yd-opt:not(#u):hover{ color:var(--ink); }
+.c3 .yd-opt.on:not(#u), .c3 .yd-opt[aria-pressed="true"]:not(#u){ color:var(--ink); font-weight:800; border-bottom:3px solid var(--mint); background:transparent; box-shadow:none; }
+.c3 .yd-opt.on:not(#u)::after{ content:''; flex:none; width:14px; height:14px; background:var(--mint);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / contain no-repeat; }
+.c3 .yd-opt.dl:not(#u):not(.on){ border-bottom-style:dashed; }
+/* tabs and view switchers: the underline is enough, no check */
+.c3 .yd-opt[role="tab"].on:not(#u)::after, .c3 .yd-seg.txt .yd-opt.on:not(#u)::after, .c3 .pd-tabs .yd-opt.on:not(#u)::after,
+.c3 .yd-seg.pl-tabs .yd-opt.on:not(#u)::after, .c3 .yd-seg.rv-views .yd-opt.on:not(#u)::after, .c3 .mx-tabs .yd-opt.on:not(#u)::after{ display:none; }
+.c3 .yd-seg.txt .yd-opt:not(#u), .c3 .pd-tabs .yd-opt:not(#u), .c3 .yd-seg.pl-tabs .yd-opt:not(#u), .c3 .yd-seg.rv-views .yd-opt:not(#u), .c3 .mx-tabs .yd-opt:not(#u){ border-bottom:3px solid transparent; }
+.c3 .yd-seg.txt .yd-opt.on:not(#u), .c3 .pd-tabs .yd-opt.on:not(#u), .c3 .yd-seg.pl-tabs .yd-opt.on:not(#u), .c3 .yd-seg.rv-views .yd-opt.on:not(#u), .c3 .mx-tabs .yd-opt.on:not(#u){ border-bottom-color:var(--mint); }
+/* a row of choices: room between the words, a grid of them lines up */
+.c3 .yd-seg:not(#u){ column-gap:22px; row-gap:2px; }
+.c3 .yd-seg.fill .yd-opt:not(#u), .c3 .yd-seg.wrap2 .yd-opt:not(#u){ justify-content:flex-start; text-align:left; }
+/* numbers stay rings */
+.c3 .yd-seg.nums .yd-opt:not(#u){ justify-content:center; padding:0; border:2px solid rgba(255,255,255,.26); border-radius:50%; }
+.c3 .yd-seg.nums .yd-opt.on:not(#u){ border-color:var(--mint); background:var(--mint); color:var(--on-neon); }
+.c3 .yd-seg.nums .yd-opt.on:not(#u)::after{ display:none; }
+/* actions that were outlined pills or circles: a word (and its icon) with a mint underline */
+.c3 .c3-btn-rail:not(#u), .c3 .c3-log:not(#u), .c3 .co-lead:not(#u), .c3 .yd-mirbtn:not(#u){ width:auto; justify-content:flex-start; padding-left:2px; padding-right:2px; border:0; border-bottom:2px solid var(--mint);
+  border-radius:0; background:transparent; box-shadow:none; color:var(--ink); }
+.c3 .c3-log:not(#u) .c3-ic{ color:var(--mint); }
+.c3 .co-lead[aria-pressed="true"]:not(#u){ border-bottom-width:3px; font-weight:800; color:var(--ink); background:transparent; }
+.c3 .c3-watch.ic:not(#u), .c3 .pd-step:not(#u), .c3 .fd .fd-add:not(#u){ border:0; border-bottom:2px solid var(--mint); border-radius:0; background:transparent; box-shadow:none; }
+.c3 .fd .fd-add.pink:not(#u){ border-bottom-color:var(--pink); }
+/* the 12 weeks: a deload week is the same word as the rest (the deload screen's .dl layout no longer leaks onto it) */
+.c3 .blk .blk-pick .yd-opt.dl:not(#u){ display:inline-flex; flex-direction:row; align-items:center; gap:6px; padding:0 2px; }

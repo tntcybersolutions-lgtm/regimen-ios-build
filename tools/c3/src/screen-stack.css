@@ -1,0 +1,630 @@
+/* C3 screen: compounds styles. The pane rules the stack module renders into, walked out of
+   the live CSSOM and re-scoped under .yd.sk, then the house flatten block: no cards, no banded
+   gradients, one mint action per page. The pane's selw select widgets do not reach into a
+   shadow root, so the selects are native and visible (the mix and labs precedent). */
+.yd.sk .card,.yd.sk .card.hero{background: var(--cg-fill); border: 1px solid var(--cg-edge); border-radius: 12px; box-shadow: inset 0 1px 0 var(--cg-hi),var(--cg-shadow); isolation: auto; transform: none;}
+.yd.sk .card::before,.yd.sk .card::after,.yd.sk .card.hero::before,.yd.sk .card.hero::after{content: none;}
+.yd.sk .card:hover,.yd.sk .card.hero:hover{border-color: var(--cg-edge); box-shadow: inset 0 1px 0 var(--cg-hi),var(--cg-shadow); transform: none;}
+.yd.sk .card.hero{background: radial-gradient(70% 55% at 50% 0%,rgba(201,203,207,0.096),transparent 70%),var(--cg-fill);}
+.yd.sk .card .card{background: none; border-right: 0px; border-bottom: 0px; border-left: 0px; border-image: none; border-top: 1px solid var(--cg-edge-2); border-radius: 0px; box-shadow: none; padding: 14px 0px 0px; margin-top: 12px;}
+.yd.sk .card .card:hover{border-color: var(--cg-edge-2); box-shadow: none;}
+.yd.sk .tile{background: var(--cg-fill-2); box-shadow: none;}
+.yd.sk .tile::before,.yd.sk .tile::after{content: none;}
+.yd.sk .tile .k{color: var(--ink-1); opacity: 1; letter-spacing: 0.08em; font-size: 14px;}
+.yd.sk .tile .v{font-size: 25px; color: rgb(255, 255, 255);}
+.yd.sk .mini,.yd.sk .btn.alt{background: var(--cg-fill-2); border: 1px solid var(--cg-edge-2); box-shadow: none;}
+.yd.sk .mini::before,.yd.sk .mini::after,.yd.sk .btn.alt::before,.yd.sk .btn.alt::after{content: none;}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go{background: linear-gradient(rgb(44, 46, 51), rgb(37, 39, 42)); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.sk .btn:not(.alt)::before,.yd.sk .btn:not(.alt)::after,.yd.sk .mini.go::before,.yd.sk .mini.go::after{content: none;}
+.yd.sk .btn:not(.alt):hover,.yd.sk .mini.go:hover{background: linear-gradient(rgb(47, 49, 54), rgb(38, 40, 44)); box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px; transform: none;}
+.yd.sk .card,.yd.sk .mini,.yd.sk .btn{transition: border-color 0.15s, background 0.15s;}
+.yd.sk .card.found{border-color: var(--blue-soft); box-shadow: inset 0 1px 0 var(--cg-hi),0 0 0 2px rgba(0,0,0,0.35),var(--cg-shadow);}
+.yd.sk .sig .t{color: rgb(255, 255, 255);}
+.yd.sk .grid{display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));}
+.yd.sk .card{background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; position: relative; min-width: 0px; box-shadow: rgba(255, 255, 255, 0.05) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 10px 28px -20px;}
+.yd.sk .card.hero{padding: 0px; overflow: hidden; background: radial-gradient(110% 80% at 50% -12%, rgba(201, 203, 207, 0.06), transparent 58%), linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.96));}
+.yd.sk .eyebrow{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue-t); margin: 0px 0px 16px; padding-left: 14px;}
+.yd.sk .note{font-size: 17px; color: var(--ink-1); margin: 12px 0px 0px; line-height: 1.62;}
+.yd.sk .note b{color: var(--ink-0); font-weight: 600;}
+.yd.sk .tiles{display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);}
+.yd.sk .tile{min-width: 0px; padding: 16px 18px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);}
+.yd.sk .tile .v{overflow: hidden; text-overflow: ellipsis;}
+.yd.sk .tile .k{font-family: var(--f-m); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue-t); opacity: 0.85;}
+.yd.sk .tile .v{font-family: var(--f-d); font-weight: 700; font-size: 20px; margin-top: 6px; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.sk .tile .v small{font-family: var(--f-m); font-size: 17px; font-weight: 400; color: var(--ink-2); margin-left: 4px; letter-spacing: 0.04em;}
+.yd.sk .sig{display: flex; gap: 14px; align-items: flex-start; padding: 15px 18px; margin-bottom: 10px; border-left: 3px solid var(--accent,var(--blue)); border-radius: 0px 12px 12px 0px; background: linear-gradient(90deg,var(--glass),transparent 85%);}
+.yd.sk .dot{flex: 0 0 auto; margin-top: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent,var(--blue)); box-shadow: 0 0 9px 1px var(--accent,var(--blue));}
+.yd.sk .sig .t{font-weight: 600; font-size: 17px; color: var(--ink-0);}
+.yd.sk .sig .d{font-size: 17px; color: var(--ink-1); line-height: 1.58; margin-top: 2px;}
+.yd.sk .sig .d code{font-family: var(--f-m); font-size: 17px; color: var(--ink-0); background: rgba(201, 203, 207, 0.06); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(201, 203, 207, 0.12);}
+.yd.sk .fields{display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));}
+.yd.sk .row2{display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); align-items: end;}
+.yd.sk #shBody .btn{margin-top: 18px;}
+.yd.sk #shBody > .btn:last-child{position: sticky; bottom: 0px; z-index: 2; margin-top: 18px; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 40px, rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(6, 8, 10, 0.98) 0px -18px 22px -6px;}
+@media (max-width: 560px){.yd.sk #shBody .fields{grid-template-columns: 1fr;}}
+.yd.sk .simbar .dot{flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 10px 1px var(--blue);}
+.yd.sk .simbar .acts{display: flex; gap: 8px; margin-left: auto;}
+.yd.sk .firstrun .btn{display: block; width: auto; margin: 16px auto 0px; padding: 15px 30px;}
+.yd.sk .simbar.sim .dot{background: var(--amber); box-shadow: 0 0 10px 1px var(--amber);}
+.yd.sk .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent;}
+.yd.sk .spin{display: flex; align-items: stretch; border: 1px solid var(--line); border-radius: 10px; background: rgba(0, 0, 0, 0.8); overflow: hidden; transition: 0.15s;}
+.yd.sk .spin:hover{border-color: rgba(201, 203, 207, 0.24);}
+.yd.sk .spin:focus-within{border-color: var(--blue); background: rgba(201, 203, 207, 0.03);}
+.yd.sk .spin input{border-radius: 0px; text-align: center; padding: 13px 4px; flex: 1 1 auto; border: 0px !important; background: transparent !important;}
+.yd.sk .spin input:focus{background: transparent !important;}
+.yd.sk .spin b{flex: 0 0 46px; display: grid; place-items: center; cursor: pointer; user-select: none; font-family: var(--f-d); font-weight: 700; font-size: 20px; line-height: 1; color: var(--ink-1); background: rgba(255, 255, 255, 0.043); transition: 0.12s; border-inline: 1px solid var(--line-soft);}
+.yd.sk .spin b:first-child{border-left: 0px;}
+.yd.sk .spin b:last-child{border-right: 0px;}
+.yd.sk .spin b:hover{color: var(--blue-ink); background: var(--blue);}
+.yd.sk .spin b:active{transform: scale(0.94);}
+.yd.sk .btn{font-family: var(--f-d); font-weight: 700; font-size: 17px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue-ink); background: linear-gradient(180deg,#2E3035,var(--blue)); border: 0px; border-radius: 12px; padding: 16px 26px; cursor: pointer; transition: 0.16s; width: 100%; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 40px, rgba(255, 255, 255, 0.5) 0px 1px 0px inset;}
+.yd.sk .btn:hover{transform: translateY(-2px); box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 56px, rgba(255, 255, 255, 0.6) 0px 1px 0px inset;}
+.yd.sk .btn:active{transform: translateY(0px);}
+.yd.sk .btn.alt{background: var(--ctl-b2-bg); color: var(--ctl-b2-ink); border: 1px solid var(--ctl-b2-edge); box-shadow: none; font-weight: 600;}
+.yd.sk .btn.alt:hover{border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h); color: var(--ctl-b2-ink-h); box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 30px;}
+.yd.sk .mini{font-family: var(--f-m); font-size: 17px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ctl-b2-ink); background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); border-radius: 8px; padding: 9px 13px; cursor: pointer; transition: 0.14s; min-height: 34px;}
+@media (pointer: coarse){.yd.sk .mini{min-height: 44px; padding: 11px 14px;}}
+.yd.sk .mini:hover{color: var(--ctl-b2-ink-h); border-color: var(--ctl-b2-edge-h); background: var(--ctl-b2-bg-h);}
+.yd.sk .mini.go{color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,#2E3035,var(--blue)); border-color: transparent; font-weight: 700;}
+.yd.sk .mini.go:hover{color: var(--blue-ink);}
+.yd.sk .selw{position: relative;}
+.yd.sk .cal .go{display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px;}
+.yd.sk .plot{position: relative; width: 100%;}
+.yd.sk .plot canvas{width: 100%; display: block; border-radius: 10px;}
+.yd.sk .tip{position: absolute; pointer-events: none; opacity: 0; transition: opacity 0.12s; background: var(--ctl-menu); border: 1px solid var(--ctl-menu-edge); border-radius: 9px; padding: 9px 12px; font-family: var(--f-m); font-size: 17px; line-height: 1.5; white-space: nowrap; z-index: 5; color: var(--ctl-ink); box-shadow: var(--ctl-menu-shadow);}
+.yd.sk .tip b{color: var(--ctl-chevron); font-weight: 700;}
+.yd.sk .legend{display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; font-family: var(--f-m); font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-1);}
+.yd.sk .legend i{display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: 1px;}
+.yd.sk td.num,.yd.sk th.num{text-align: right; padding-right: 16px;}
+.yd.sk .src{font-family: var(--f-m); font-size: 14px; color: var(--ink-2); line-height: 1.7; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);}
+.yd.sk .chip{display: inline-flex; align-items: center; gap: 6px; font-family: var(--f-m); font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; padding: 4px 10px; border-radius: 100px; border: 1px solid;}
+.yd.sk .chip::before{content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentcolor;}
+.yd.sk .c-taken{color: var(--blue-t);}
+.yd.sk .occ > *{min-width: 0px;}
+.yd.sk .occ .what{overflow-wrap: anywhere;}
+.yd.sk .occ{display: grid; grid-template-columns: 118px minmax(0px, 1fr) auto auto; gap: 14px; align-items: center; padding: 14px 0px; border-top: 1px solid var(--line-soft);}
+.yd.sk .occ:first-child{border-top: 0px;}
+.yd.sk .occ .when{font-family: var(--f-m); font-size: 17px; color: var(--ink-2);}
+.yd.sk .occ .what{font-family: var(--f-d); font-weight: 700; font-size: 17px; color: var(--ink-0); font-variant-numeric: tabular-nums;}
+.yd.sk .occ .acts{display: flex; gap: 7px;}
+.yd.sk .ladderRow{display: grid; grid-template-columns: minmax(84px, 1fr) minmax(84px, 1fr) auto; gap: 10px; align-items: end; margin-bottom: 10px;}
+.yd.sk .ladderRow input{min-width: 0px;}
+@media (max-width: 620px){.yd.sk .ladderRow{grid-template-columns: 1fr 1fr; row-gap: 8px;}}
+@media (max-width: 620px){.yd.sk .ladderRow button{grid-column: 1 / -1; width: 100%;}}
+.yd.sk .card.procard > :not(h2):not(.eyebrow):not(.prostrip){display: none !important;}
+.yd.sk #p-console .grid{max-width: 720px; margin-inline: auto;}
+.yd.sk #p-console .grid{grid-template-columns: 1fr;}
+.yd.sk #p-console .card.hero{max-width: 720px; margin-inline: auto;}
+@media (max-width: 1040px){.yd.sk .tile{min-width: 104px; padding: 14px 15px;}}
+@media (max-width: 1040px){.yd.sk .tile .v{font-size: 20px;}}
+@media (max-width: 820px){.yd.sk .occ{grid-template-columns: 1fr auto; row-gap: 9px;}}
+@media (max-width: 820px){.yd.sk .occ .acts{grid-column: 1 / -1;}}
+@media (max-width: 560px){.yd.sk .spin.sm b{flex: 0 0 26px; font-size: 17px;}}
+@media (max-width: 560px){.yd.sk .spin b{flex: 0 0 32px; font-size: 17px;}}
+@media (max-width: 560px){.yd.sk .spin input{padding: 13px 2px; min-width: 2.6em;}}
+.yd.sk .pane.enter > .card{animation: 0.46s cubic-bezier(0.2, 0.72, 0.28, 1) 0s 1 normal backwards running cardIn;}
+.yd.sk .pane.enter > .card:nth-child(2){animation-delay: 0.07s;}
+.yd.sk .pane.enter > .card:nth-child(3){animation-delay: 0.14s;}
+.yd.sk .pane.enter > .card:nth-child(4){animation-delay: 0.21s;}
+.yd.sk .pane.enter .sig{animation: 0.4s cubic-bezier(0.2, 0.72, 0.28, 1) 0s 1 normal backwards running rowIn;}
+.yd.sk .pane.enter .sig:nth-child(2){animation-delay: 0.06s;}
+.yd.sk .pane.enter .sig:nth-child(3){animation-delay: 0.12s;}
+.yd.sk .pane.enter .sig:nth-child(4){animation-delay: 0.18s;}
+.yd.sk .tile .v{transition: none;}
+.yd.sk .card{transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;}
+.yd.sk .card:hover{border-color: rgba(201, 203, 207, 0.133);}
+.yd.sk .spin.sm{border-radius: 9px;}
+.yd.sk .spin.sm b{flex: 0 0 28px; font-size: 17px;}
+.yd.sk .spin.sm input{padding: 9px 2px;}
+.yd.sk .stfoot .btn{width: auto; flex: 1 1 0%; padding: 15px 22px;}
+.yd.sk .coachline .cacts .mini.go{border-color: var(--c-accent,var(--line)); color: var(--ink-0);}
+.yd.sk .impbox{margin-top: 14px; padding: 16px; border-radius: 12px; border: 1px solid rgba(201, 203, 207, 0.18); background: rgba(201, 203, 207, 0.027);}
+.yd.sk .ex2f .mini[disabled]{opacity: 0.35; cursor: default;}
+@media (max-width: 620px){.yd.sk .calacts .mini{flex: 1 1 auto;}}
+.yd.sk .note,.yd.sk .sig .d{overflow-wrap: anywhere;}
+.yd.sk .mvuse{margin-left: auto; font-family: var(--f-m); font-size: 14px; color: var(--ink-2);}
+@media (max-width: 620px){.yd.sk .mvuse{margin-left: 0px; width: 100%;}}
+.yd.sk body.terse .note:not(.keep):not(.warn),.yd.sk body.terse .src{max-height: calc(3.24em); overflow: hidden; cursor: pointer; position: relative; mask-image: linear-gradient(rgb(0, 0, 0) 58%, rgba(0, 0, 0, 0.25) 100%);}
+.yd.sk body.terse .note:not(.keep):not(.warn):hover,.yd.sk body.terse .src:hover{color: var(--ink-0);}
+.yd.sk .impbox{margin-top: 18px; padding: 15px 16px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02);}
+.yd.sk .impbox textarea{width: 100%; min-height: 96px; resize: vertical; font-family: var(--f-m); font-size: 17px; line-height: 1.5; padding: 11px 12px; border-radius: 9px;}
+.yd.sk .note.warn{color: var(--amber);}
+.yd.sk .exaux .mini{margin-top: 10px;}
+.yd.sk #restBar .mini{min-height: 42px;}
+.yd.sk .chips .mini small{font-size: 14px; opacity: 0.7; margin-left: 3px;}
+.yd.sk .selw-host .selw{flex: 1 1 0%;}
+.yd.sk .fdgo .mini small{opacity: 0.72; font-size: 14px; margin-left: 3px;}
+.yd.sk .fdph .mini{margin-left: auto;}
+.yd.sk .fdserv .mini small,.yd.sk .fdport .mini small{opacity: 0.7; font-size: 14px;}
+.yd.sk .fdpick .btn{margin-top: 14px; width: 100%;}
+@media (max-width: 620px){.yd.sk .fdrow .mini{grid-area: 3 / 2; justify-self: end;}}
+@media (pointer: coarse){.yd.sk .mini{min-height: 44px;}}
+.yd.sk .card{background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 44%), linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.945)); border-color: rgba(255, 255, 255, 0.114); box-shadow: var(--gl-rim),var(--gl-cast); isolation: isolate;}
+.yd.sk .card::before{content: ""; position: absolute; inset: 0px; z-index: -1; pointer-events: none; border-radius: inherit; background: linear-gradient(134deg,var(--gl-sheen) 0 17%,transparent 47%);}
+.yd.sk .card:hover{border-color: rgba(201, 203, 207, 0.18); box-shadow: var(--gl-rim),var(--gl-cast);}
+.yd.sk .card.hero{background: radial-gradient(112% 82% at 50% -12%, rgba(201, 203, 207, 0.082), transparent 58%), linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0) 38%), linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.94)); border-color: rgba(255, 255, 255, 0.13); box-shadow: var(--gl-rim),var(--gl-cast),0 0 90px -50px rgba(0,0,0,0.7);}
+.yd.sk .btn{position: relative; overflow: hidden; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px; background: linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,0) 48%),linear-gradient(180deg,#2E3035 0%,var(--blue) 56%,#202225 100%); box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.24) 0px -2px 0px inset, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px, rgba(0, 0, 0, 0.34) 0px 0px 44px;}
+.yd.sk .btn::after{content: ""; position: absolute; top: -20%; bottom: -20%; left: -65%; width: 42%; background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.45), transparent); transform: skewX(-18deg); opacity: 0; pointer-events: none;}
+.yd.sk .btn:hover::after{animation: 0.62s cubic-bezier(0.32, 0.06, 0.2, 1) 0s 1 normal none running glsheen;}
+.yd.sk .btn:hover{box-shadow: rgba(255, 255, 255, 0.92) 0px 1px 0px inset, rgba(0, 0, 0, 0.24) 0px -2px 0px inset, rgb(39, 40, 44) 0px 14px 30px -12px, rgba(0, 0, 0, 0.5) 0px 0px 60px;}
+.yd.sk .btn:active{transform: translateY(1px); box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 8px inset, rgba(255, 255, 255, 0.34) 0px 1px 0px inset, rgba(0, 0, 0, 0.3) 0px 0px 24px;}
+.yd.sk .btn.alt{background: var(--ctl-b2-bg); color: var(--ctl-b2-ink); border-color: var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px inset;}
+.yd.sk .btn.alt:hover{border-color: var(--blue); box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px 0px 34px -8px;}
+.yd.sk .mini{background: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 56%), rgba(0, 0, 0, 0.34); box-shadow: rgba(255, 255, 255, 0.11) 0px 1px 0px inset;}
+.yd.sk .mini:hover{background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(201, 203, 207, 0.06) 60%), rgba(0, 0, 0, 0.34);}
+.yd.sk .mini.go,.yd.sk .mini.go:hover{background: linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,0) 50%),linear-gradient(180deg,#2E3035,var(--blue) 62%,#202225); box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px inset, rgba(0, 0, 0, 0.9) 0px 6px 18px -10px;}
+.yd.sk .mini:active,.yd.sk .btn.alt:active{transform: translateY(1px);}
+.yd.sk .spin{background: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.7)); box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 5px inset, rgba(255, 255, 255, 0.05) 0px -1px 0px inset;}
+.yd.sk .spin:focus-within{background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.78)); box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 5px inset, rgba(255, 255, 255, 0.07) 0px -1px 0px inset, rgba(0, 0, 0, 0.18) 0px 0px 0px 3px;}
+.yd.sk .chip{box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px inset;}
+.yd.sk .tile{background: linear-gradient(rgba(255, 255, 255, 0.024), transparent 60%);}
+.yd.sk .card::after,.yd.sk .mini::after,.yd.sk .btn.alt::after,.yd.sk .tile::after{content: ""; position: absolute; inset: 0px; border-radius: inherit; padding: 1px; pointer-events: none; background: var(--gl2-ring); mask: linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px) content-box exclude, linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px);}
+.yd.sk .mini,.yd.sk .btn.alt,.yd.sk .tile{position: relative;}
+.yd.sk .mini::after,.yd.sk .btn.alt::after,.yd.sk .tile::after{opacity: 0.55; z-index: 0;}
+.yd.sk .tile::after{border-radius: 0px; opacity: 0.22;}
+.yd.sk .card::after{z-index: -1; opacity: 0.9;}
+.yd.sk .card{background: var(--gl2-spec),linear-gradient(180deg,rgba(255,255,255,.065),rgba(255,255,255,.012) 42%),linear-gradient(180deg,rgba(0,0,0,0.74),rgba(0,0,0,0.82)); border-color: rgba(255, 255, 255, 0.14);}
+.yd.sk .card.hero{background: var(--gl2-spec),radial-gradient(112% 82% at 50% -12%,rgba(201,203,207,0.096),transparent 58%),linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,0) 38%),linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.86));}
+@media (prefers-reduced-transparency: reduce){.yd.sk .card,.yd.sk .card.hero{backdrop-filter: none !important;}}
+@media (prefers-reduced-transparency: reduce){.yd.sk .card{background: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97));}}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go{position: relative; overflow: hidden;}
+.yd.sk .btn:not(.alt){box-shadow: inset 0 1px 0 rgba(255,255,255,.85),inset 0 -2px 0 rgba(0,0,0,0.3),var(--gl2-bezel),0 10px 26px -12px rgba(0,0,0,0.95),0 0 44px rgba(0,0,0,0.38);}
+.yd.sk .btn:not(.alt):hover{box-shadow: inset 0 1px 0 rgba(255,255,255,.95),inset 0 -2px 0 rgba(0,0,0,0.3),var(--gl2-bezel),0 14px 30px -12px rgba(39,40,44,1),0 0 60px rgba(0,0,0,0.55);}
+.yd.sk .mini.go{box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0px inset, rgba(255, 255, 255, 0.38) 0px 0px 0px 1px, rgba(96, 112, 134, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.95) 0px 8px 22px -10px;}
+.yd.sk .btn:not(.alt)::before,.yd.sk .mini.go::before{content: ""; position: absolute; left: 4%; right: 4%; top: 2px; height: 46%; border-radius: 999px 999px 60% 60%; pointer-events: none; background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.02)); opacity: 0.75;}
+.yd.sk .mini.go::before{opacity: 0.6;}
+.yd.sk .btn:not(.alt) > *{position: relative; z-index: 1;}
+.yd.sk .spin{box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 6px inset, rgba(255, 255, 255, 0.07) 0px -1px 0px inset, rgba(255, 255, 255, 0.07) 0px 1px 0px;}
+@media (min-width: 1100px){.yd.sk .pane > .card.hero,.yd.sk .pane > .grid,.yd.sk .pane > .eyebrow{column-span: all;}}
+@media (min-width: 1100px){.yd.sk .pane > .grid{display: grid;}}
+@media (min-width: 1100px){.yd.sk .pane > .card.hero{margin-bottom: 22px;}}
+@media (min-width: 1100px){.yd.sk #p-console .grid{max-width: none;}}
+@media (min-width: 1100px){.yd.sk #p-console .grid{grid-template-columns: repeat(2, minmax(0px, 1fr));}}
+@media (min-width: 1100px){.yd.sk #p-console .card.hero{max-width: 900px; margin-inline: auto;}}
+@media (min-width: 1100px){.yd.sk #story .stfoot .btn{flex: 0 0 auto; min-width: 220px;}}
+.yd.sk .eyebrow{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); padding-left: 0px; margin: 0px 0px 12px; line-height: 1.45;}
+.yd.sk .eyebrow::first-letter{text-transform: uppercase;}
+.yd.sk .tile .k,.yd.sk .mvuse,.yd.sk .chip{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.sk .tile .k{font-size: 17px; color: var(--ink-2); opacity: 1;}
+.yd.sk .tile .k::first-letter{text-transform: uppercase;}
+.yd.sk .chip{font-size: 14px;}
+.yd.sk .mini{font-family: var(--f-b); font-size: 17px; font-weight: 500; letter-spacing: 0px; text-transform: none;}
+.yd.sk .mini::first-letter{text-transform: uppercase;}
+.yd.sk .btn{letter-spacing: 0.02em;}
+.yd.sk .tile{border-radius: 12px; border: 0px !important; background: rgba(255, 255, 255, 0.03) !important;}
+.yd.sk .tiles{gap: 8px; border: 0px; background: none;}
+.yd.sk .tile .v{font-size: 25px; letter-spacing: -0.02em;}
+.yd.sk .card{border-color: rgba(255, 255, 255, 0.07);}
+.yd.sk .pane.enter > .card{animation: auto ease 0s 1 normal none running none;}
+.yd.sk .card{transition: none;}
+.yd.sk .card:hover{border-color: rgba(255, 255, 255, 0.07); box-shadow: var(--gl-rim),var(--gl-cast);}
+.yd.sk .card > .note.long,.yd.sk .card .mvsrc,.yd.sk .card .fdsrc,.yd.sk .card > p.note.long,.yd.sk .card .ex2why,.yd.sk .card .src{display: none;}
+.yd.sk .card.explain > .note.long,.yd.sk .card.explain .mvsrc,.yd.sk .card.explain .fdsrc,.yd.sk .card.explain > p.note.long,.yd.sk .card.explain .ex2why,.yd.sk .card.explain .src{display: block;}
+.yd.sk .card .note.long{max-height: none !important; mask-image: none !important;}
+.yd.sk .card.explain .infob{color: var(--ink-0); border-color: var(--ink-3);}
+@media (min-width: 1100px){.yd.sk #p-console .card.hero{max-width: 760px;}}
+@media (min-width: 1100px){.yd.sk .card.hero .big{font-size: clamp(64px, 9vw, 120px);}}
+@media (min-width: 1100px){.yd.sk #p-moves .card{max-width: 980px;}}
+@media (min-width: 1100px){.yd.sk .pane > .card.hero,.yd.sk .pane > .grid,.yd.sk .pane > .eyebrow{grid-column: 1 / -1;}}
+@media (min-width: 1100px){.yd.sk .pane > .card.hero{margin-bottom: 0px;}}
+@media (min-width: 1100px){.yd.sk .pane-more-body > .grid{display: grid;}}
+.yd.sk .smcoach .cbtns .mini{flex: 1 1 auto; text-align: center;}
+.yd.sk .stackrow{padding: 14px 16px; border-color: var(--line);}
+.yd.sk .stackrow.active{border-color: rgba(201, 203, 207, 0.33);}
+.yd.sk .cphead{display: flex; align-items: center; gap: 9px; margin-bottom: 10px; flex-wrap: wrap;}
+.yd.sk .cphead .stdotc{width: 10px; height: 10px; border-radius: 50%; background: var(--sc); box-shadow: 0 0 10px var(--sc); flex: 0 0 auto;}
+.yd.sk .cphead b{font-family: var(--f-d); font-size: 17px; color: var(--ink-0);}
+.yd.sk .cphead .stcn{font-size: 17px; color: var(--ink-1);}
+.yd.sk .stgrid{display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr)); gap: 8px;}
+.yd.sk .stgrid > div{background: rgba(255, 255, 255, 0.035); border: 1px solid var(--line-soft); border-radius: 10px; padding: 8px 10px; min-width: 0px;}
+.yd.sk .stgrid i{display: block; font-style: normal; font-size: 14px; color: var(--ink-2); letter-spacing: 0.04em; text-transform: uppercase;}
+.yd.sk .stgrid b{display: block; font-family: var(--f-d); font-size: 17px; color: var(--ink-0); margin-top: 2px; line-height: 1.15;}
+.yd.sk .stgrid s{display: block; text-decoration: none; font-size: 14px; color: var(--ink-1); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+@media (max-width: 520px){.yd.sk .stgrid{grid-template-columns: repeat(2, minmax(0px, 1fr));}}
+.yd.sk .howlink{cursor: pointer; text-decoration: underline 1px rgba(203, 205, 208, 0.21); text-underline-offset: 3px;}
+.yd.sk .howlink:hover{color: var(--ink-0); text-decoration-color: var(--blue-soft);}
+.yd.sk .lvtips .mini{margin-top: 8px;}
+.yd.sk .lvrpe .mini{min-width: 38px; text-align: center; padding: 7px 0px;}
+.yd.sk .brrow .mini{white-space: nowrap;}
+.yd.sk .dyacts .mini{padding: 6px 9px;}
+.yd.sk .blkgrid .note{margin-top: 6px;}
+.yd.sk .sig .d code,.yd.sk .occ .when,.yd.sk .impbox textarea,.yd.sk .mini,.yd.sk .cphead .stcn{font-size: 17px;}
+.yd.sk .tile .k,.yd.sk .tile .k,.yd.sk .legend,.yd.sk .src,.yd.sk .chip,.yd.sk .mvuse,.yd.sk .chips .mini small,.yd.sk .fdgo .mini small,.yd.sk .fdserv .mini small,.yd.sk .fdport .mini small,.yd.sk .chip,.yd.sk .stgrid i,.yd.sk .stgrid s{font-size: 17px;}
+.yd.sk .eyebrow,.yd.sk .tile .v small,.yd.sk .mini,.yd.sk .tip,.yd.sk .tile .k{font-size: 17px;}
+.yd.sk .eyebrow,.yd.sk summary .eyebrow{font-size: 17px; line-height: 1.45; color: var(--ink-1); margin: 0px 0px 14px;}
+.yd.sk .note{font-size: 17px; line-height: 1.55; color: var(--ink-1);}
+.yd.sk .note b{color: var(--ink-0);}
+.yd.sk .note.long{max-height: none; mask-image: none;}
+.yd.sk body:not(.terse) .note{display: block; -webkit-line-clamp: unset; overflow: visible;}
+.yd.sk .sig .t{font-size: 17px;}
+.yd.sk .sig .d{font-size: 17px; line-height: 1.5;}
+.yd.sk .legend,.yd.sk .src{font-size: 17px;}
+.yd.sk .mini{font-size: 17px; font-weight: 500;}
+.yd.sk .occ .what{font-size: 17px;}
+.yd.sk .occ .when{font-size: 17px;}
+.yd.sk .tile .v small,.yd.sk .stgrid b{font-variant-numeric: tabular-nums;}
+.yd.sk .tile .v,.yd.sk .occ .what,.yd.sk .stgrid b{font-variant-numeric: tabular-nums;}
+.yd.sk .legend,.yd.sk .stgrid i{font-family: var(--f-b); letter-spacing: 0px; text-transform: none;}
+.yd.sk .legend{font-size: 17px; color: var(--ink-1);}
+.yd.sk .howlink:hover,.yd.sk .sig .d code,.yd.sk .tip b,.yd.sk .eyebrow,.yd.sk .tile .k{color: var(--ink-1);}
+.yd.sk .sig .d code{color: rgb(255, 255, 255);}
+.yd.sk .sig .d code{background: var(--hair); border-color: var(--hair);}
+.yd.sk .card:not(.hero),.yd.sk .card:not(.hero):hover{background: none; border: 0px; border-radius: 0px; box-shadow: none; backdrop-filter: none; padding: 22px 0px 28px; margin: 0px; transform: none;}
+.yd.sk .pane > .card:not(.hero),.yd.sk .pane > .grid > .card,.yd.sk .pane > .split > .card{border-top: 1px solid var(--hair);}
+.yd.sk .pane > .pane-head + .card:not(.hero),.yd.sk .pane > .pane-head + [hidden] + .card:not(.hero){border-top: 0px; padding-top: 6px;}
+.yd.sk .card .card{border-right: 0px; border-bottom: 0px; border-left: 0px; border-image: none; border-top: 1px solid var(--hair-soft); padding: 16px 0px 0px; margin-top: 14px;}
+.yd.sk .card.found{outline: 2px solid var(--blue-soft); outline-offset: 6px; border-color: transparent;}
+.yd.sk details.card.fold{padding-top: 0px; padding-bottom: 6px;}
+.yd.sk .sig{background: none; border-radius: 0px; padding: 12px 0px 12px 16px; margin-bottom: 6px;}
+.yd.sk .stgrid > div{border-radius: 0px; background: none; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top: 1px solid var(--hair-soft);}
+.yd.sk .tiles{border: 0px; gap: 0px 24px;}
+.yd.sk .tile,.yd.sk .tile:hover{border-radius: 0px; padding: 14px 0px 12px; box-shadow: none; background: none !important; border: 0px !important;}
+.yd.sk .tile .k{font-family: var(--f-b); font-size: 17px; letter-spacing: 0px; text-transform: none; color: var(--ink-1); opacity: 1;}
+.yd.sk .tile .v{font-size: 34px; line-height: 1.1; color: var(--ink-0); letter-spacing: -0.02em; margin-top: 4px;}
+.yd.sk .tile .v small{font-size: 17px; color: var(--ink-1);}
+.yd.sk #doseTiles .tile:nth-child(-n+3),.yd.sk #trainTiles .tile:nth-child(-n+3){border-bottom: 1px solid var(--hair) !important;}
+@media (max-width: 520px){.yd.sk #doseTiles .tile:nth-child(-n+3),.yd.sk #trainTiles .tile:nth-child(-n+3){border-bottom: 0px !important;}}
+@media (max-width: 520px){.yd.sk #doseTiles .tile:nth-child(-n+4),.yd.sk #trainTiles .tile:nth-child(-n+4){border-bottom: 1px solid var(--hair) !important;}}
+.yd.sk .card .tiles .tile{padding: 12px 0px 10px;}
+.yd.sk .sig .d code,.yd.sk .note code{background: none; border: 0px; padding: 0px; color: var(--ink-0); font-weight: 600; font-size: inherit; font-family: var(--f-m);}
+.yd.sk .mini,.yd.sk .btn.alt{background: none; border: 1px solid var(--cg-edge); box-shadow: none; color: var(--ink-0); text-shadow: none;}
+.yd.sk .mini:hover,.yd.sk .btn.alt:hover{background: var(--glass); border-color: var(--cg-edge); color: var(--ink-0); box-shadow: none; transform: none;}
+.yd.sk .mini{border-radius: 10px; padding: 10px 14px; min-height: 40px;}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go,.yd.sk .mini.go{background: rgb(40, 42, 46); border: 1px solid transparent; color: rgb(255, 255, 255); box-shadow: none; text-shadow: none;}
+.yd.sk .btn:not(.alt):hover,.yd.sk .mini.go:hover{background: rgb(44, 46, 50); box-shadow: none; transform: none;}
+.yd.sk .btn:not(.alt)::before,.yd.sk .mini.go::before{content: none;}
+.yd.sk .btn{font-size: 17px; padding: 15px 24px; border-radius: 12px;}
+.yd.sk #p-console .card.hero,.yd.sk .pane > .card.hero{max-width: none; margin-inline: 0px; width: auto; justify-self: stretch;}
+.yd.sk .card.hero .big{font-size: clamp(84px, 9.4vw, 136px);}
+.yd.sk .pane > .card.hero{max-width: none; margin-inline: 0px;}
+@media (min-width: 1100px){.yd.sk .pane > .card.hero{margin-bottom: var(--vg);}}
+@media (min-width: 1100px){.yd.sk .pane > .grid{margin: 0px 0px 6px;}}
+@media (min-width: 1100px){.yd.sk .pane > .card[data-slot="flow"]:not(details),.yd.sk .pane > .card:not(.hero):not(details):not([data-slot]){columns: 2; column-gap: 28px; column-fill: balance; orphans: 2; widows: 2;}}
+@media (min-width: 1100px){.yd.sk .pane > .card > h2,.yd.sk .pane > .card > .eyebrow,.yd.sk .pane > .card > .pane-primary,.yd.sk .pane > .card > .onbnote:first-of-type,.yd.sk .pane > .card > .note.long,.yd.sk .pane > .card > .mvsrc,.yd.sk .pane > .card > .fdsrc,.yd.sk .pane > .card > .src{column-span: all;}}
+@media (min-width: 1100px){.yd.sk .pane > .card > .eyebrow{margin-bottom: 12px;}}
+@media (min-width: 1100px){.yd.sk .card > * > *,.yd.sk .sig,.yd.sk .occ,.yd.sk .tile,.yd.sk .plot,.yd.sk .row2,.yd.sk .fields,.yd.sk .stackrow,.yd.sk .tiles,.yd.sk .stgrid{break-inside: avoid;}}
+@media (min-width: 1100px){.yd.sk .eyebrow{break-after: avoid;}}
+@media (min-width: 1100px){.yd.sk .spin,.yd.sk .selw{break-before: avoid;}}
+@media (min-width: 1100px){.yd.sk .pane > .grid,.yd.sk .pane-more-body > .grid{display: block; columns: 2; column-gap: 28px; column-fill: balance; max-width: none; margin-inline: 0px;}}
+@media (min-width: 1100px){.yd.sk .pane > .grid > .card,.yd.sk .pane-more-body > .grid > .card{break-inside: avoid; columns: auto; margin: 0px; display: block; width: 100%;}}
+@media (min-width: 1100px){.yd.sk .pane > .split > .card{columns: auto; margin: 0px;}}
+@media (min-width: 1380px){.yd.sk .pane > .card[data-slot="flow"]:not(details),.yd.sk .pane > .card:not(.hero):not(details):not([data-slot]),.yd.sk .pane > .grid,.yd.sk .pane-more-body > .grid{columns: 3;}}
+@media (min-width: 1380px){.yd.sk .pane > .card:not(.hero):is(:has(.plot), :has(.tw), :has(table), :has(.cmp), :has(.calwk), :has(.cal-grid)){columns: 2;}}
+@media (min-width: 860px) and (max-width: 1099px){.yd.sk .pane > .grid{display: block; columns: 2; column-gap: 20px;}}
+@media (min-width: 860px) and (max-width: 1099px){.yd.sk .pane > .grid > .card{break-inside: avoid; margin: 0px; display: block; width: 100%;}}
+@media (max-width: 859px){.yd.sk .pane > .grid{display: block;}}
+@media (max-width: 859px){.yd.sk .pane > .grid > .card{width: 100%;}}
+.yd.sk #p-console > .grid{max-width: none; margin-inline: 0px;}
+@media (min-width: 1180px){.yd.sk #p-console > .card.hero{grid-column: 2; position: static; width: auto; margin: 0 0 var(--vg);}}
+@media (min-width: 1180px){.yd.sk #p-console > .grid{grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: var(--vg) 28px;}}
+@media (min-width: 1180px){.yd.sk #p-console > .grid > .card{float: none; width: auto; margin: 0px; columns: auto; break-inside: auto;}}
+@media (min-width: 1100px) and (max-width: 1179px){.yd.sk #p-console > .grid{columns: 2;}}
+.yd.sk #todayCard > .grid,.yd.sk .card:has(#hydRing) > .grid{grid-template-columns: 1fr 1fr; gap: 16px; columns: auto; display: grid !important;}
+.yd.sk .card:has(#hydRing) canvas{max-width: 140px !important;}
+.yd.sk #todayCard .note,.yd.sk .card:has(#hydRing) .note{font-size: 17px; margin-top: 14px;}
+@media (max-width: 1099px){.yd.sk .pane > .card.hero{margin: 0 0 var(--vg);}}
+@media (max-width: 1099px){.yd.sk .pane > .grid{gap: 0px;}}
+@media (max-width: 720px){.yd.sk .tile .v{font-size: 25px;}}
+@media (max-width: 720px){.yd.sk .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.sk .dyacts .mini,.yd.sk .lvrpe .mini,.yd.sk .setrow .mini,.yd.sk .ex2f .mini,.yd.sk button.mini.sm,.yd.sk .lssets .mini{min-height: 44px;}}
+@media (max-width: 720px){.yd.sk .btn{min-height: 44px;}}
+@media (max-width: 720px){.yd.sk .card.hero .big{font-size: clamp(72px, 19vw, 96px);}}
+@media (max-width: 720px){.yd.sk .tile .k{font-size: 17px;}}
+@media (max-width: 430px){.yd.sk .tile .v{font-size: 25px;}}
+@media (min-width: 1100px){.yd.sk .smcoach .cbtns .mini{padding: 8px 12px; min-height: 36px; font-size: 17px;}}
+.yd.sk .tile .v,.yd.sk .stgrid b,.yd.sk .occ .what{font-family: var(--f-n); font-weight: 600; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;}
+.yd.sk .card:not(.hero),.yd.sk .card:not(.hero):hover{background: var(--cg-fill); border: 1px solid var(--cg-edge); border-radius: var(--r); padding: 22px 24px; box-shadow: none;}
+.yd.sk .pane > .card:not(.hero),.yd.sk .pane > .grid > .card,.yd.sk .pane > .split > .card{border-top: 1px solid var(--cg-edge);}
+.yd.sk .pane > .pane-head + .card:not(.hero){border-top: 1px solid var(--cg-edge); padding-top: 22px;}
+.yd.sk .card.hero,.yd.sk .card.hero:hover{background: var(--cg-fill); border: 1px solid var(--cg-edge); border-radius: var(--r); box-shadow: none;}
+.yd.sk .card .card{background: none; border-right: 0px; border-bottom: 0px; border-left: 0px; border-image: none; border-top: 1px solid var(--hair); border-radius: 0px; padding: 16px 0px 0px;}
+@media (min-width: 1100px){.yd.sk .pane > .card:not(.hero):not(details):not([data-slot]),.yd.sk .pane > .card[data-slot="flow"]:not(details){padding: 22px 24px;}}
+@media (min-width: 1100px){.yd.sk #p-console > .grid > .card{border-top: 1px solid var(--cg-edge); padding-top: 22px;}}
+@media (min-width: 1100px){.yd.sk #p-console > .card:has(#hydRing){padding-top: 22px; border-top: 1px solid var(--cg-edge);}}
+@media (max-width: 720px){.yd.sk .card:not(.hero){padding: 18px 16px;}}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go{background: rgb(40, 42, 46); color: rgb(255, 255, 255); border-color: transparent;}
+.yd.sk .btn:not(.alt):hover,.yd.sk .mini.go:hover{background: rgb(44, 46, 50);}
+.yd.sk .btn,.yd.sk .mini{border-radius: 999px;}
+.yd.sk .mini,.yd.sk .btn.alt{border: 1px solid var(--cg-edge); color: var(--ink-0);}
+.yd.sk .obt .acts{display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px;}
+.yd.sk .obt .acts .btn{width: auto; margin: 0px; padding: 14px 22px; font-size: 17px; text-transform: none; letter-spacing: 0px;}
+.yd.sk .card.hero .big{font-size: clamp(84px, 9vw, 128px);}
+.yd.sk .mini{min-width: 44px;}
+.yd.sk .spin b,.yd.sk .spin.sm b{min-width: 44px;}
+.yd.sk .obtc .mini{padding: 7px 12px; min-height: 34px; font-size: 17px;}
+.yd.sk html:not(#vv) body .quick.cnext .mini:not(.go){display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; min-height: 44px; font-family: var(--f-b, inherit); font-weight: 600; background: none !important; border-width: 0px 0px 1px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgba(255, 255, 255, 0.14) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 10px 2px !important; font-size: 16px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv) body .quick.cnext .mini:not(.go)::before{content: ""; flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+.yd.sk html:not(#vv) body .quick.cnext .mini:not(.go):hover,.yd.sk html:not(#vv) body .quick.cnext .mini:not(.go):focus-visible{background: rgba(255, 255, 255, 0.06) !important;}
+.yd.sk html:not(#vv) body #cChips .mini:not(.go){min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 2px; text-underline-offset: 6px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv) body #cChips .mini:not(.go):hover{text-decoration-thickness: 3px; background: none !important;}
+.yd.sk .quick.shaydial .note{font-size: 14px; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.08em; margin: 0px !important;}
+.yd.sk html:not(#vv) body .quick.shaydial .mini{min-height: 44px; width: auto; font-family: var(--f-b, inherit); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; background: none !important; border: 0px !important; border-radius: 0px !important; box-shadow: none !important; padding: 8px 0px !important; font-size: 15px !important; letter-spacing: 0px !important; text-transform: none !important; color: rgba(255, 255, 255, 0.78) !important;}
+.yd.sk html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]{text-decoration-line: underline; text-decoration-style: initial; text-decoration-color: var(--vv-neon, #5CF2B0); text-decoration-thickness: 3px; text-underline-offset: 6px; color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv) body .quick.shaydial .mini[aria-pressed="true"]::before{content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--vv-neon, #5CF2B0); box-shadow: rgba(92, 242, 176, 0.6) 0px 0px 8px 2px;}
+@media (max-width: 720px){.yd.sk .obtc .mini{min-height: 44px;}}
+.yd.sk :root[data-theme="light"] body .sig .t{color: var(--ink-0);}
+.yd.sk .tile .v,.yd.sk .tile .v small{color: var(--ink-0);}
+.yd.sk .tile .v small{color: var(--ink-1);}
+.yd.sk :root[data-theme="light"] .spin{background: var(--cg-fill-2); border-color: var(--cg-edge);}
+.yd.sk :root[data-theme="light"] .spin b{background: transparent; color: var(--ink-1);}
+.yd.sk :root[data-theme="light"] .sig .d code,.yd.sk :root[data-theme="light"] .stgrid b{color: var(--ink-0);}
+.yd.sk :root[data-theme="light"] .stgrid b{color: var(--ink-0) !important;}
+.yd.sk :root[data-theme="light"] .coachline .cacts .mini.go,.yd.sk :root[data-theme="light"] .coachline .cacts .mini.go:hover{color: rgb(255, 255, 255);}
+.yd.sk .labdoor{display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: -8px 0px 18px; padding: 10px 2px 14px; border-bottom: 1px solid var(--hair); text-decoration: none; color: var(--ink-1); font-size: 17px; line-height: 1.35;}
+.yd.sk .labdoor svg{width: 70px; height: 23px; flex: 0 0 auto; filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 0px 12px);}
+.yd.sk .labdoor b{font-family: var(--f-plate); font-weight: 900; font-size: 14px; letter-spacing: 0.02em; text-transform: uppercase; color: var(--ink-0); white-space: nowrap;}
+.yd.sk .labdoor .go{margin-left: auto; font-weight: 700; color: var(--ink-0); white-space: nowrap;}
+.yd.sk .labdoor:hover .go{text-decoration: underline;}
+@media (max-width: 560px){.yd.sk .labdoor{font-size: 17px;}}
+@media (max-width: 560px){.yd.sk .labdoor .go{margin-left: 0px; width: 100%;}}
+.yd.sk .card,.yd.sk .card.hero{background: var(--cg-fill); border: 1px solid var(--cg-edge); box-shadow: inset 0 1px 0 var(--cg-hi),inset 0 -1px 0 rgba(255,255,255,.06),var(--cg-shadow); position: relative;}
+.yd.sk .card::before{content: ""; position: absolute; left: 0px; right: 0px; top: 0px; height: 46%; border-top-left-radius: inherit; border-top-right-radius: inherit; border-bottom-left-radius: 50% 60%; border-bottom-right-radius: 50% 60%; background: linear-gradient(rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0)); pointer-events: none; z-index: 0;}
+.yd.sk .card .card::before{content: none;}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go{background: linear-gradient(rgb(47, 50, 54) 0%, rgb(42, 44, 48) 50%, rgb(36, 38, 42) 100%); border: 1px solid rgba(255, 255, 255, 0.35); color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 22px, rgba(0, 0, 0, 0.9) 0px 10px 26px -12px;}
+.yd.sk .btn:not(.alt):hover,.yd.sk .mini.go:hover{background: linear-gradient(rgb(51, 54, 59) 0%, rgb(46, 48, 52) 50%, rgb(40, 42, 46) 100%); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px -2px 0px inset, rgba(0, 0, 0, 0.7) 0px 0px 30px, rgb(51, 53, 59) 0px 12px 30px -12px;}
+.yd.sk .mini:not(.go),.yd.sk .btn.alt{background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.sk .mini:not(.go):hover,.yd.sk .btn.alt:hover{background: rgba(255, 255, 255, 0.14); border-color: rgba(255, 255, 255, 0.34);}
+.yd.sk :root[data-theme="light"] body .card::before{background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));}
+.yd.sk :root[data-theme="light"] body .mini:not(.go),.yd.sk :root[data-theme="light"] body .btn.alt{background: var(--ctl-b2-bg); border: 1px solid var(--ctl-b2-edge); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset; color: var(--ctl-b2-ink); font-weight: 600;}
+.yd.sk .labdoor .ring{display: grid; place-items: center; width: 132px; height: 132px; border-radius: 50%; margin: 0px auto 10px; background: rgba(0, 0, 0, 0.6); box-shadow: var(--neon);}
+.yd.sk .labdoor .ring{width: 92px; height: 92px; margin: 0px;}
+.yd.sk .labdoor .ring svg{width: 76px; height: 25px;}
+.yd.sk .stdoor .btn{margin-top: 18px; justify-self: center;}
+.yd.sk #p-stack > .labdoor{margin: 8px 0px 0px; padding: 16px 2px 6px; border-top: 1px solid var(--hair); border-bottom: 0px;}
+.yd.sk .daylead .btn{width: 100%; font-size: 17px; padding: 15px 18px;}
+@media (max-width: 639px){.yd.sk .obt.has-art.portrait .obt-body > .acts,.yd.sk .obt.has-art.square .obt-body > .acts{grid-column: 1 / -1;}}
+.yd.sk .obt .acts .cacted{align-self: center; margin-left: 8px; font-size: 17px; color: var(--ink-1);}
+.yd.sk .askq .mini.sq{min-width: 38px; padding: 8px 0px; text-align: center;}
+@media (min-width: 1100px){.yd.sk #p-block .pane > .card:not(.hero),.yd.sk #p-block.pane > .card:not(.hero):not(details):not([data-slot]){columns: 1;}}
+.yd.sk .pane > .card > h2,.yd.sk .pane > .grid > .card > h2,.yd.sk .pane > .split > .card > h2,.yd.sk .card > h2{color: var(--blue-t);}
+.yd.sk :root[data-theme="light"] .pane > .card > h2,.yd.sk :root[data-theme="light"] .pane > .grid > .card > h2,.yd.sk :root[data-theme="light"] .pane > .split > .card > h2,.yd.sk :root[data-theme="light"] .card > h2{color: rgb(39, 41, 44);}
+.yd.sk .btn:hover{transform: none;}
+.yd.sk .btn:active,.yd.sk .mini:active,.yd.sk .spin b:active{transform: scale(0.97);}
+.yd.sk .card,.yd.sk .card:hover,.yd.sk .card:not(.hero),.yd.sk .card:not(.hero):hover,.yd.sk .card.hero,.yd.sk .card.hero:hover,.yd.sk details.card,.yd.sk details.card.fold,.yd.sk #heroCard.card.hero{background: none; border: 0px; border-radius: 0px; box-shadow: none; padding-inline: 0px; padding-block: 0px; margin: 0px 0px 30px; backdrop-filter: none;}
+.yd.sk .card::before,.yd.sk .card::after,.yd.sk .card.hero::before,.yd.sk .card.hero::after{content: none;}
+.yd.sk .card .card{background: none; border-right: 0px; border-bottom: 0px; border-left: 0px; border-image: none; border-top: 1px solid var(--hair, rgba(0,0,0,.10)); border-radius: 0px; padding: 18px 0px 0px; margin: 18px 0px 0px;}
+.yd.sk .tile{background: none; border: 0px; border-radius: 0px; box-shadow: none; backdrop-filter: none;}
+.yd.sk :root[data-theme="light"] body .card,.yd.sk :root[data-theme="dark"] body .card{background: none; border: 0px; border-radius: 0px; box-shadow: none;}
+.yd.sk :root[data-theme="light"] .pane > .card > h2,.yd.sk :root[data-theme="light"] .pane > .grid > .card > h2,.yd.sk :root[data-theme="light"] .pane > .split > .card > h2,.yd.sk :root[data-theme="light"] .card > h2{color: var(--ink-0);}
+.yd.sk .flpromoacts .btn,.yd.sk .flpromoacts .mini{text-decoration: none; display: inline-flex; align-items: center;}
+.yd.sk .labdoor{margin: 26px 0px 0px; padding-top: 16px; border-top: 1px solid var(--hair); border-bottom: 0px;}
+.yd.sk .pane .k.islong,.yd.sk .pane .sub.islong,.yd.sk .pane .eyebrow.islong,.yd.sk .islong{max-width: 70ch; font-family: var(--f-b) !important; font-size: 17px !important; font-weight: 400 !important; letter-spacing: 0px !important; text-transform: none !important; color: var(--ink-2) !important; line-height: 1.5 !important;}
+.yd.sk .pane > .card > img{max-height: min(40vh, 360px); width: 100%; object-fit: contain; object-position: 50% 50%;}
+.yd.sk .pane .eyebrow,.yd.sk .pane p.eyebrow{font-family: var(--f-b); font-size: 17px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: var(--ink-2); line-height: 1.5; max-width: 70ch; margin: 0px 0px 16px;}
+.yd.sk .mini{background: linear-gradient(rgba(201, 203, 207, 0.094), rgba(201, 203, 207, 0.06)); border: 1.5px solid rgba(201, 203, 207, 0.25); color: var(--ink-0); font-weight: 600;}
+.yd.sk .mini:hover{background: linear-gradient(rgba(201, 203, 207, 0.17), rgba(201, 203, 207, 0.11)); border-color: rgba(201, 203, 207, 0.42); color: var(--ink-0);}
+.yd.sk .btn:not(.alt),.yd.sk .mini.go{background: linear-gradient(rgb(47, 50, 54), rgb(36, 38, 42)); border: 0px; color: rgb(255, 255, 255); font-weight: 700;}
+.yd.sk .btn:not(.alt):hover,.yd.sk .mini.go:hover{background: linear-gradient(rgb(49, 52, 57), rgb(39, 41, 45)); color: rgb(255, 255, 255);}
+.yd.sk .btn.alt,.yd.sk .mini.alt{background: rgba(0, 0, 0, 0.04); border: 1.5px solid var(--line); color: var(--ink-1);}
+.yd.sk .pane > .card > h2{font-family: var(--f-d); font-weight: 700; font-size: clamp(21px, 15px + 1.45vw, 27px); letter-spacing: -0.015em; line-height: 1.15; margin: 0px 0px 4px; text-wrap: balance;}
+.yd.sk .pane .eyebrow{font-family: var(--f-m); font-size: 17px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); margin: 0px 0px 10px; padding-left: 0px;}
+.yd.sk .pane > .card > p:first-of-type{font-size: 17px; line-height: 1.55; color: var(--ink-1); max-width: 64ch; margin: 0px 0px 18px;}
+.yd.sk .pane .note{max-width: 66ch; line-height: 1.6;}
+.yd.sk .pane .note{font-size: 17px; color: var(--ink-2);}
+.yd.sk .pane .num{font-variant-numeric: tabular-nums;}
+.yd.sk .pane .plot,.yd.sk .pane canvas.plot{width: 100%; height: auto; min-height: 300px;}
+.yd.sk .pane .legend{display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 14px; font-family: var(--f-m); font-size: 17px; color: var(--ink-1);}
+.yd.sk .pane .legend span{display: inline-flex; align-items: center; gap: 8px; min-height: 32px;}
+.yd.sk .pane .legend i{width: 14px; height: 4px; border-radius: 2px; flex: 0 0 auto;}
+.yd.sk .btn{font-family: var(--f-d); font-weight: 700; font-size: 17px; letter-spacing: 0.02em; text-transform: none; min-height: 48px; padding: 0px 22px; border-radius: 999px;}
+.yd.sk .mini{font-family: var(--f-m); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; min-height: 44px; border-radius: 999px; padding: 0px 16px;}
+.yd.sk #onb .note{color: rgb(159, 176, 196);}
+.yd.sk #onb .btn,.yd.sk #onb .mini{color: rgb(240, 241, 242);}
+.yd.sk #onb .btn:not(.alt),.yd.sk #onb .mini.go{color: rgb(255, 255, 255);}
+.yd.sk #onb .mini{border-color: rgba(255, 255, 255, 0.28); background: rgba(255, 255, 255, 0.06);}
+.yd.sk #onb .mini:hover{border-color: rgba(255, 255, 255, 0.5); background: rgba(255, 255, 255, 0.12); color: rgb(255, 255, 255);}
+.yd.sk .pane > .card > img{max-height: min(46vh, 420px); width: auto; max-width: 100%; object-fit: contain; margin-left: auto; margin-right: auto; display: block;}
+.yd.sk .card{margin-bottom: 24px;}
+.yd.sk .btn,.yd.sk button.btn{min-height: 44px;}
+.yd.sk .btn,.yd.sk .btn.go,.yd.sk .mini.go{border-radius: 8px; background-position-x:  !important; background-position-y:  !important; background-size:  !important; background-repeat:  !important; background-attachment:  !important; background-origin:  !important; background-clip:  !important; background-color:  !important; background-image: none !important; color: rgb(255, 255, 255) !important; border-color: transparent !important; box-shadow: none !important;}
+.yd.sk .btn:hover{background: var(--blue-t) !important;}
+.yd.sk .mini:not(.go){border-radius: 8px; background: var(--bg-1) !important; color: var(--ink-1) !important; border: 1px solid var(--line) !important;}
+.yd.sk .eyebrow{letter-spacing: 0.08em !important;}
+.yd.sk .pane > .card,.yd.sk .pane > .grid{width: 100%; box-sizing: border-box;}
+.yd.sk .flpromoacts .btn{width: auto; display: inline-flex; padding-left: 22px; padding-right: 22px;}
+.yd.sk .flpromoacts .btn,.yd.sk .flpromoacts .mini{flex: 0 0 auto; width: auto !important;}
+.yd.sk .note{color: var(--ink-2);}
+.yd.sk .note,.yd.sk .eyebrow{opacity: 1 !important;}
+@media screen{.yd.sk html:not(#vv) body .pane .card h3{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 800 !important; letter-spacing: -0.015em !important; background: none !important; text-shadow: rgb(209, 211, 215) 0px 1px 0px, rgb(50, 53, 58) 0px 2px 0px, rgb(40, 42, 46) 0px 3px 0px, rgba(0, 0, 0, 0.55) 0px 8px 14px, rgba(0, 0, 0, 0.5) 0px 0px 22px !important;}}
+@media screen{.yd.sk html:not(#vv) body .eyebrow,.yd.sk html:not(#vv) body .tile .k{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; font-weight: 700 !important; text-shadow: rgba(30, 216, 138, 0.35) 0px 0px 12px !important; opacity: 1 !important;}}
+@media screen{.yd.sk html:not(#vv) body .note,.yd.sk html:not(#vv) body .sig .d{color: rgb(237, 238, 239) !important; -webkit-text-fill-color: rgb(237, 238, 239) !important; opacity: 1 !important;}}
+@media screen{.yd.sk html:not(#vv) body .note b{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.sk html:not(#vv) body .sig code{border-radius: 6px; padding: 1px 5px; color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; background: rgba(0, 0, 0, 0.45) !important; border: 0px !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap a:not(.btn):not(.mini):not(.ghost){color: rgb(255, 255, 255) !important; text-decoration-color: var(--vv-neon) !important;}}
+@media screen{.yd.sk html:not(#vv) body .sig .t{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.sk html:not(#vv) body .tile .v,.yd.sk html:not(#vv) body .num{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; text-shadow: rgb(209, 211, 215) 0px 1px 0px, rgb(46, 49, 53) 0px 2px 0px, rgba(0, 0, 0, 0.6) 0px 0px 18px !important;}}
+@media screen{.yd.sk html:not(#vv) body .tile .v small{color: rgb(229, 230, 232) !important; -webkit-text-fill-color: rgb(229, 230, 232) !important; text-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .tiles{border-color: rgba(207, 209, 213, 0.145) !important;}}
+@media screen{.yd.sk html:not(#vv) body .tile{background: transparent !important; border-color: rgba(207, 209, 213, 0.133) !important; box-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .btn:not(.alt),.yd.sk html:not(#vv) body .btn.go,.yd.sk html:not(#vv) body .mini.go{min-height: 46px; transition: box-shadow 0.18s, filter 0.18s; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.95) !important; border-radius: 12px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 800 !important; letter-spacing: 0.01em !important; text-transform: none !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.5) 0px 0px 20px, rgba(0, 0, 0, 0.75) 0px 10px 20px -8px !important; text-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .btn:not(.alt):hover,.yd.sk html:not(#vv) body .mini.go:hover,.yd.sk html:not(#vv) body .btn:not(.alt):focus-visible,.yd.sk html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) saturate(1.05); box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.85) 0px 0px 30px, rgba(0, 0, 0, 0.8) 0px 12px 22px -8px !important; color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.sk html:not(#vv) body .btn:not(.alt) *,.yd.sk html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .mini:not(.go),.yd.sk html:not(#vv) body .btn.alt,.yd.sk html:not(#vv) body .chip{transition: box-shadow 0.18s, background-color 0.18s, border-color 0.18s; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.396) 100%) !important; border: 1px solid rgba(210, 212, 215, 0.48) !important; border-radius: 12px !important; box-shadow: rgba(255, 255, 255, 0.28) 0px 1px 0px inset, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 0px 14px !important; font-family: Barlow, ui-sans-serif, system-ui, sans-serif !important; font-weight: 700 !important; text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 1px !important; opacity: 1 !important;}}
+@media screen{.yd.sk html:not(#vv) body .mini:not(.go){min-height: 40px; font-size: 17px !important; letter-spacing: 0.05em !important; padding-left: 16px !important; padding-right: 16px !important;}}
+@media screen{.yd.sk html:not(#vv) body .mini:not(.go):hover,.yd.sk html:not(#vv) body .btn.alt:hover,.yd.sk html:not(#vv) body .chip:hover,.yd.sk html:not(#vv) body .mini:not(.go):focus-visible,.yd.sk html:not(#vv) body .btn.alt:focus-visible{background: linear-gradient(rgba(201, 203, 207, 0.373) 0%, rgba(201, 203, 207, 0.33) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px, rgba(0, 0, 0, 0.85) 0px 0px 24px !important;}}
+@media screen{.yd.sk html:not(#vv) body .chip.on,.yd.sk html:not(#vv) body .mini[aria-pressed="true"]{background: linear-gradient(rgb(156, 160, 168) 0%, rgb(45, 47, 52) 46%, rgb(41, 43, 48) 54%, rgb(35, 36, 40) 100%) !important; border-color: rgb(255, 255, 255) !important; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 0px 1px, rgba(0, 0, 0, 0.9) 0px 0px 20px !important;}}
+@media screen{.yd.sk html:not(#vv) body .btn:disabled,.yd.sk html:not(#vv) body .mini:disabled{filter: saturate(0.55); opacity: 0.88 !important; box-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .card{background: transparent !important; box-shadow: none !important; border-color: rgba(207, 209, 213, 0.133) !important;}}
+@media screen{.yd.sk html:not(#vv) body .sig{border-color: rgba(207, 209, 213, 0.145) !important; background: transparent !important;}}
+@media screen{.yd.sk html:not(#vv) body .sig .dot{background: var(--vv-neon) !important; box-shadow: 0 0 12px var(--vv-neon),0 0 24px rgba(30,216,138,.5) !important;}}
+@media screen{.yd.sk html:not(#vv) body .howlink{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost){color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: rgb(255, 255, 255) !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 0px 18px !important; text-shadow: none !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .flband a:not(.btn):not(.mini):not(.ghost):hover{background: var(--vv-neon) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .card,.yd.sk html:not(#vv) body .wrap details.card,.yd.sk html:not(#vv) body .wrap .tiles{background-image: linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.01) 46%, rgba(0, 0, 0, 0.1)) !important; box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.42) 0px 10px 26px, rgba(0, 0, 0, 0.3) 0px 2px 6px !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .card.hero{background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02) 52%, rgba(0, 0, 0, 0.14)) !important; box-shadow: rgba(255, 255, 255, 0.22) 0px 1px 0px inset, rgba(0, 0, 0, 0.5) 0px -1px 0px inset, rgba(0, 0, 0, 0.5) 0px 18px 42px, rgba(0, 0, 0, 0.34) 0px 3px 10px !important;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .btn:active{transform: translateY(1px); filter: brightness(0.97);}}
+@media screen{.yd.sk html:not(#vv) body .wrap .btn{transition: transform 0.08s, filter 0.12s;}}
+@media screen{.yd.sk html:not(#vv) body .wrap .tiles .v{text-shadow: rgba(0, 0, 0, 0.55) 0px 1px 0px, rgba(0, 0, 0, 0.35) 0px 2px 10px;}}
+@media screen{@media (hover: hover) and (pointer: fine){.yd.sk html:not(#vv) body .wrap .card{transition: transform 0.14s, box-shadow 0.14s;}}
+@media screen{@media (hover: hover) and (pointer: fine){.yd.sk html:not(#vv) body .wrap .card:hover{transform: translateY(-1px); box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.48) 0px 16px 36px, rgba(0, 0, 0, 0.32) 0px 3px 9px !important;}}
+@media screen{@media (prefers-reduced-motion: reduce){.yd.sk html:not(#vv):not(.motion) body .wrap .card,.yd.sk html:not(#vv):not(.motion) body .wrap .btn{transition: none;}}
+@media screen{@media (prefers-reduced-motion: reduce){.yd.sk html:not(#vv):not(.motion) body .wrap .card:hover,.yd.sk html:not(#vv):not(.motion) body .wrap .btn:active{transform: none;}}
+.yd.sk html:not(#vv) body .wrap .card > b:first-child{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgb(185, 255, 224) 0px 0px 1px, rgba(30, 216, 138, 0.85) 0px 0px 9px, rgba(255, 160, 0, 0.5) 0px 0px 24px !important;}
+.yd.sk html:not(#vv) body .wrap .eyebrow{text-shadow: rgba(30, 216, 138, 0.7) 0px 0px 8px, rgba(14, 154, 98, 0.4) 0px 0px 20px !important;}
+.yd.sk html:not(#vv) body .wrap .card{backdrop-filter: blur(15px) saturate(1.3); background: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.043) 42%, rgba(255, 255, 255, 0) 43%), linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.92)) !important; border: 1px solid rgba(207, 209, 213, 0.18) !important; border-radius: 18px !important; box-shadow: rgba(255, 255, 255, 0.38) 0px 1px 0px inset, rgba(0, 0, 0, 0.4) 0px -1px 0px inset, rgba(0, 0, 0, 0.45) 0px 20px 44px !important;}
+.yd.sk html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgb(185, 255, 224) 0px 0px 1px, rgba(30, 216, 138, 0.85) 0px 0px 10px, rgba(255, 160, 0, 0.5) 0px 0px 28px !important;}
+.yd.sk html:not(#vv) body .wrap .stgrid s{white-space: normal !important; overflow: visible !important;}
+.yd.sk html:not(#vv) body .wrap .chip{position: relative;}
+.yd.sk html:not(#vv) body .wrap .chip::after{content: ""; position: absolute; inset: -6px; z-index: 1;}
+.yd.sk html:not(#vv) body .wrap .mini{min-height: 44px;}
+.yd.sk html:not(#vv) body .wrap .stgrid i,.yd.sk html:not(#vv) body .wrap .stgrid s,.yd.sk html:not(#vv) body .wrap .stcn{color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+@media (max-width: 700px){.yd.sk html:not(#vv) body .wrap .card{margin-bottom: 14px !important;}}
+.yd.sk html:not(#vv) body .wrap .btn,.yd.sk html:not(#vv) body .wrap button.btn{font-weight: 800; letter-spacing: 0.2px; transition: transform 0.07s, box-shadow 0.07s; background: linear-gradient(rgb(185, 255, 224) 0%, rgb(92, 242, 176) 46%, rgb(30, 216, 138) 100%) !important; color: rgb(6, 48, 28) !important; -webkit-text-fill-color: rgb(6, 48, 28) !important; border: 0px !important; border-radius: 13px !important; box-shadow: rgba(255, 255, 255, 0.85) 0px 1px 0px inset, rgba(8, 90, 56, 0.32) 0px -2px 0px inset, rgb(11, 122, 78) 0px 5px 0px, rgba(0, 0, 0, 0.46) 0px 12px 24px !important;}
+.yd.sk html:not(#vv) body .wrap .btn:active,.yd.sk html:not(#vv) body .wrap button.btn:active{transform: translateY(4px) !important; box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset, rgb(11, 122, 78) 0px 1px 0px, rgba(0, 0, 0, 0.4) 0px 4px 10px !important;}
+.yd.sk html:not(#vv) body .wrap .card,.yd.sk html:not(#vv) body .wrap .tile{backdrop-filter: none !important;}
+.yd.sk html:not(#vv) body .wrap .card{}
+@media (min-width: 1700px){.yd.sk html:not(#vv) body .wrap .pane > .card.hero{grid-column: 2 / -1 !important;}}
+@media (min-width: 1700px){.yd.sk html:not(#vv) body .wrap #p-moves > .card,.yd.sk html:not(#vv) body .wrap #p-history > .card,.yd.sk html:not(#vv) body .wrap #p-ledger > .card{grid-column: 1 / -1 !important;}}
+@media (min-width: 1700px){.yd.sk html:not(#vv) body .wrap #p-moves .card{max-width: none !important;}}
+.yd.sk html:not(#vv) body .wrap .card,.yd.sk html:not(#vv) body .wrap .tile{background-image: linear-gradient(118deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.055) 16%, rgba(255, 255, 255, 0) 34%), linear-gradient(rgba(255, 255, 255, 0.157) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; border: 1px solid rgba(210, 212, 215, 0.204) !important; border-radius: 20px !important; box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 26px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.46) 0px 22px 46px, rgba(255, 255, 255, 0.05) 0px 2px 0px !important;}
+.yd.sk html:not(#vv) body .wrap .acts,.yd.sk html:not(#vv) body .wrap .obt .acts{display: flex; flex-wrap: wrap; gap: 10px; align-items: stretch;}
+.yd.sk html:not(#vv) body .wrap .acts > .btn,.yd.sk html:not(#vv) body .wrap .acts > button,.yd.sk html:not(#vv) body .wrap .hmact > .btn{min-height: 48px; display: inline-flex; align-items: center; justify-content: center; padding: 0px 20px; border-radius: 13px; text-align: center;}
+@media (min-width: 560px){.yd.sk html:not(#vv) body .wrap .acts > .btn,.yd.sk html:not(#vv) body .wrap .acts > button,.yd.sk html:not(#vv) body .wrap .hmact > .btn{min-width: 190px;}}
+.yd.sk html:not(#vv) body .wrap .btn,.yd.sk html:not(#vv) body .wrap button.btn{position: relative; font-weight: 800; letter-spacing: 0.2px; background: linear-gradient(rgb(185, 255, 224) 0%, rgb(92, 242, 176) 44%, rgb(30, 216, 138) 100%) !important; color: rgb(6, 48, 28) !important; -webkit-text-fill-color: rgb(6, 48, 28) !important; border: 0px !important; border-radius: 14px !important; box-shadow: rgba(255, 255, 255, 0.92) 0px 1px 0px inset, rgba(8, 90, 56, 0.34) 0px -2px 0px inset, rgb(11, 122, 78) 0px 5px 0px, rgba(0, 0, 0, 0.44) 0px 12px 22px, rgba(92, 242, 176, 0) 0px 0px 0px 0px !important; transition: transform 0.13s cubic-bezier(0.2, 0.7, 0.3, 1), box-shadow 0.18s, filter 0.18s !important;}
+.yd.sk html:not(#vv) body .wrap .btn:hover,.yd.sk html:not(#vv) body .wrap button.btn:hover{filter: saturate(1.08) brightness(1.04); transform: translateY(-3px) !important; box-shadow: rgba(255, 255, 255, 0.95) 0px 1px 0px inset, rgba(8, 90, 56, 0.3) 0px -2px 0px inset, rgb(11, 122, 78) 0px 8px 0px, rgba(0, 0, 0, 0.44) 0px 20px 30px, rgba(92, 242, 176, 0.2) 0px 0px 0px 5px, rgba(30, 216, 138, 0.42) 0px 0px 26px 6px, rgba(255, 170, 20, 0.26) 0px 0px 60px 14px !important;}
+.yd.sk html:not(#vv) body .wrap .btn:active,.yd.sk html:not(#vv) body .wrap button.btn:active{transform: translateY(4px) !important; box-shadow: rgba(6, 70, 44, 0.45) 0px 2px 5px inset, rgba(255, 255, 255, 0.6) 0px 1px 0px inset, rgb(11, 122, 78) 0px 1px 0px, rgba(0, 0, 0, 0.4) 0px 3px 8px, rgba(30, 216, 138, 0.3) 0px 0px 18px 3px !important;}
+.yd.sk html:not(#vv) body .wrap .btn:focus-visible{outline: rgba(155, 251, 255, 0.9) solid 3px; outline-offset: 3px;}
+@media (hover: none){.yd.sk html:not(#vv) body .wrap .btn:hover,.yd.sk html:not(#vv) body .wrap button.btn:hover{transform: none !important; filter: none;}}
+@media (prefers-reduced-motion: reduce){.yd.sk html:not(#vv):not(.motion) body .wrap .btn{transition: none !important;}}
+@media (prefers-reduced-motion: reduce){.yd.sk html:not(#vv):not(.motion) body .wrap .btn:hover{transform: none !important;}}
+.yd.sk html:not(#vv) body .wrap .hwidget .hwacts > .btn,.yd.sk html:not(#vv) body .wrap .hwidget .hwacts > button.btn{width: 100%; min-width: 0px !important;}
+.yd.sk html:not(#vv) body .wrap .tile > .v{color: var(--vv-neon) !important; -webkit-text-fill-color: var(--vv-neon) !important; text-shadow: rgba(185, 255, 224, 0.9) 0px 1px 0px, rgba(8, 90, 56, 0.55) 0px 3px 0px, rgba(0, 0, 0, 0.5) 0px 14px 18px, rgba(92, 242, 176, 0.45) 0px 0px 24px !important;}
+.yd.sk html:not(#vv) body .wrap .card,.yd.sk html:not(#vv) body .wrap .tile{background-image: linear-gradient(rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 41%), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.96)) !important; box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.45) 0px -1px 0px inset, rgba(0, 0, 0, 0.44) 0px 12px 26px !important;}
+.yd.sk html.lite:not(#vv):not(#zz) body .wrap .card{background: rgb(21, 22, 24) !important;}
+.yd.sk html.lite:not(#vv):not(#zz) body .wrap .btn{background: rgb(255, 210, 90) !important; color: rgb(6, 48, 28) !important;}
+.yd.sk html:not(#vv) body .wrap .card > *,.yd.sk html:not(#vv) body .wrap .tiles,.yd.sk html:not(#vv) body .wrap .tiles > *,.yd.sk html:not(#vv) body .wrap .stgrid,.yd.sk html:not(#vv) body .wrap .stgrid > *{min-width: 0px !important;}
+.yd.sk html:not(#vv) body .wrap .tiles{grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)) !important;}
+.yd.sk html:not(#vv) body .wrap .card{overflow-wrap: anywhere;}
+.yd.sk html:not(#vv) body header.top .btn{min-width: 0px !important;}
+.yd.sk html:not(#vv) body .ex2 .exrpe .rpeb .mini{min-width: 44px; min-height: 44px; padding: 0px; font-size: 18px; letter-spacing: 0px;}
+@media (max-width: 480px){.yd.sk html:not(#vv) body .ex2 .exrpe .rpeb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.sk html:not(#vv) body #tDay .sessrec .srb .mini{min-height: 44px;}
+@media (max-width: 480px){.yd.sk html:not(#vv) body #tDay .sessrec .srb .mini{flex: 1 1 0px; min-width: 0px;}}
+.yd.sk html:not(#vv) body .occ .acts .mini,.yd.sk html:not(#vv) body .occ .acts .btn{flex: 1 1 auto; min-width: 0px !important;}
+.yd.sk html:not(#vv) body #planDoc .pdacts .btn{flex: 1 1 auto; min-height: 48px;}
+.yd.sk html:not(#vv) body .ckacts > button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.sk html:not(#vv) body .ckacts > button.go:disabled{opacity: 0.55; cursor: default;}
+.yd.sk html:not(#vv) body .geoacts button.go{border-color: var(--blue); background: var(--blue); color: rgb(255, 255, 255); font-weight: 600;}
+.yd.sk html:not(#vv) body .btn:not(.alt),.yd.sk html:not(#vv) body .btn.go,.yd.sk html:not(#vv) body .mini.go{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; background: linear-gradient(180deg,var(--vv-neon-soft) 0%,var(--vv-neon) 44%,var(--vv-neon-2) 56%,var(--vv-neon-2) 100%) !important; border: 1px solid rgba(255, 255, 255, 0.9) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgba(92, 242, 176, 0.55) 0px 0px 0px 1px, rgba(30, 216, 138, 0.45) 0px 0px 18px !important; text-shadow: none !important;}
+.yd.sk html:not(#vv) body .btn:not(.alt):hover,.yd.sk html:not(#vv) body .mini.go:hover,.yd.sk html:not(#vv) body .btn:not(.alt):focus-visible,.yd.sk html:not(#vv) body .mini.go:focus-visible{filter: brightness(1.07) !important; box-shadow: rgb(255, 255, 255) 0px 1px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px, rgba(185, 255, 224, 0.8) 0px 0px 28px !important; color: rgb(16, 16, 18) !important;}
+.yd.sk html:not(#vv) body .btn:not(.alt) *,.yd.sk html:not(#vv) body .mini.go *{color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.sk html:not(#vv) body .btn:not(.alt):focus-visible,.yd.sk html:not(#vv) body .mini.go:focus-visible{outline: 3px solid var(--vv-neon-2) !important; outline-offset: 3px !important;}
+.yd.sk html:not(#vv) body .bookcard .go{display: inline-block; padding: 12px 18px; border-radius: 12px; font-weight: 800; font-size: 16px; background: var(--vv-neon); color: rgb(26, 27, 30);}
+.yd.sk html:not(#vv) body .bookcard:hover .go,.yd.sk html:not(#vv) body .bookcard:focus-visible .go{background: rgb(255, 255, 255);}
+.yd.sk .mpchap .mplock .btn{background: var(--vv-neon); color: rgb(26, 27, 30); width: auto; padding: 13px 20px;}
+.yd.sk html:not(#vv) body #myplan .mplock .btn{background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; box-shadow: none !important; border: 0px !important;}
+.yd.sk html:not(#vv) body #myplan .mpchap .mplock button.btn,.yd.sk html:not(#vv) body #myplan .mpchap .mplock button.btn *{color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; text-shadow: none !important;}
+.yd.sk #myplan .mpweb .acts{display: flex; flex-wrap: wrap; gap: 8px;}
+.yd.sk #myplan .mpweb .acts button{width: auto; min-height: 40px; padding: 10px 16px;}
+.yd.sk #myplan .mpweb .acts .go{background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; border: 0px !important;}
+.yd.sk html:not(#vv) body .bookcard .go{text-decoration: none;}
+.yd.sk html:not(#vv) body .bookcard .go:hover{background: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv) body .bookcard:hover .go{background: var(--vv-neon);}
+.yd.sk html:not(#vv) body .geowrap .geoacts button.go{font-weight: 800; background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; text-shadow: none !important; border: 0px !important;}
+.yd.sk html:not(#vv) body .setupcard .btn{width: auto !important; padding: 12px 18px !important;}
+.yd.sk html:not(#vv) body #p-food .btn,.yd.sk html:not(#vv) body #p-train button.go{min-height: 44px;}
+.yd.sk html:not(#vv) body #story .stdoor .btn{width: auto !important; min-width: 0px !important; padding: 14px 28px !important; border-radius: 999px !important; text-decoration: none !important; background: var(--vv-neon) !important; color: rgb(26, 27, 30) !important; -webkit-text-fill-color: rgb(26, 27, 30) !important; border: 0px !important; box-shadow: rgba(92, 242, 176, 0.35) 0px 0px 0px 2px, rgba(92, 242, 176, 0.45) 0px 0px 22px !important; font: 800 17px / 1 Barlow, sans-serif !important;}
+@media (min-width: 1100px){.yd.sk html:not(#vv) body .pane > .card[data-slot="flow"]:not(details),.yd.sk html:not(#vv) body .pane > .card:not(.hero):not(details):not([data-slot]),.yd.sk html:not(#vv) body .pane > .card:not(.hero):is(:has(.plot), :has(.tw), :has(table), :has(.cmp), :has(.calwk), :has(.cal-grid)){columns: auto !important; column-gap: normal !important;}}
+@media (min-width: 1100px){.yd.sk html:not(#vv) body .pane > .card > .eyebrow,.yd.sk html:not(#vv) body .pane > .card p{max-width: 78ch;}}
+.yd.sk html:not(#vv) body #p-console > .card,.yd.sk html:not(#vv) body #p-console #homeStrip > .card,.yd.sk html:not(#vv) body #p-console > .grid > .card{background: transparent !important; border-width: 1px 0px 0px !important; border-style: solid none none !important; border-color: rgba(255, 255, 255, 0.14) currentcolor currentcolor !important; border-image: none !important; box-shadow: none !important; border-radius: 0px !important; padding: 22px 0px !important; margin-bottom: 0px !important;}
+.yd.sk html:not(#vv) body #p-console #homeStrip .obt .btn,.yd.sk html:not(#vv) body #p-console #homeMods .btn,.yd.sk html:not(#vv) body #p-console #homeMods .hwidget > button.btn{min-height: 56px; font-size: 18px;}
+.yd.sk html:not(#vv) body #shRoute .mini{text-transform: uppercase !important; width: auto !important; min-width: 0px !important; max-width: none !important; white-space: normal !important; overflow-wrap: normal !important; word-break: normal !important; letter-spacing: 0.02em !important; font-size: 15px !important; line-height: 1.15 !important;}
+.yd.sk html:not(#vv) body #sheet .mini:not(.go){background: rgba(255, 255, 255, 0.06) !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv) body #shBody .spin{border: 1px solid rgba(255, 255, 255, 0.24) !important; background: transparent !important;}
+.yd.sk html:not(#vv) body #shBody .spin input{background: transparent !important; box-shadow: none !important;}
+.yd.sk html:not(#vv) body #shBody .spin > b{background: transparent !important; color: var(--vv-neon) !important; font-size: 24px !important;}
+.yd.sk html:not(#vv) body #sheet .btn:not(.alt):not(.mini){font-family: "Barlow Condensed", "Arial Narrow", sans-serif !important; font-weight: 900 !important; font-size: 22px !important; letter-spacing: 1px !important; text-transform: uppercase !important; border-top: 0px !important; border-right: 0px !important; border-left: 0px !important; border-image: none !important; border-bottom: 4px solid var(--vv-neon-soft) !important; border-radius: 8px 8px 0px 0px !important; min-height: 56px !important;}
+.yd.sk html:not(#vv) body #shBody .hrsh-btn.alt{background: linear-gradient(rgb(255, 143, 221), rgb(255, 79, 203)); box-shadow: rgba(255, 79, 203, 0.4) 0px 0px 18px, rgba(255, 255, 255, 0.55) 0px 1px 0px inset;}
+.yd.sk html:not(#vv) body #sheet .mini:not(.go):not(#shRoute *){background: transparent !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; padding: 0px 2px !important; min-height: 44px !important; font-family: Barlow, system-ui, sans-serif !important; font-weight: 600 !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody .fields .spin:not(.sm){justify-content: flex-start; gap: 18px; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; align-items: center !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody .fields .spin:not(.sm) > b{width: 44px; height: 44px; min-height: 44px; flex: 0 0 44px !important; min-width: 44px !important; padding: 0px !important; border: 2px solid rgb(92, 242, 176) !important; border-radius: 50% !important; background: transparent !important; color: rgb(92, 242, 176) !important; font: 600 28px / 1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody .fields .spin:not(.sm) > b:hover{background: rgba(92, 242, 176, 0.14) !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody .fields .spin:not(.sm) input{width: 100%; max-width: 220px; min-width: 0px; text-align: center; flex: 0 1 200px !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; padding: 6px 4px !important; font: 700 30px / 1.1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody .shnote + .fields{margin-top: 18px !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini{flex: 0 0 auto !important; width: auto !important; min-width: 0px !important; min-height: 44px !important; height: auto !important; margin: 0px !important; padding: 0px 18px !important; border: 1px solid rgba(255, 255, 255, 0.24) !important; border-radius: 999px !important; background: transparent !important; box-shadow: none !important; font: 600 15px / 1 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important; color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody #shRoute.pick > .mini.go{background: rgb(92, 242, 176) !important; border-color: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody > .btn:last-child{box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset, rgb(20, 21, 24) 0px 6px 0px 12px, rgb(20, 21, 24) -10px 6px 0px 12px, rgb(20, 21, 24) 10px 6px 0px 12px, rgb(20, 21, 24) 0px 44px 0px 12px, rgb(20, 21, 24) -10px 44px 0px 12px, rgb(20, 21, 24) 10px 44px 0px 12px !important;}
+.yd.sk html:not(#vv):not(#v366x) body #shBody:has(> .btn:last-child){box-shadow: none !important;}
+.yd.sk html:not(#vv):not(#v367x) body #shBody .spin:not(.sm){gap: 2px; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; align-items: center !important;}
+.yd.sk html:not(#vv):not(#v367x) body #shBody .spin:not(.sm) > b{place-items: center; width: 44px; height: 44px; display: grid !important; flex: 0 0 44px !important; min-width: 44px !important; padding: 0px !important; border: 0px !important; border-radius: 50% !important; background: transparent !important; color: rgb(92, 242, 176) !important; font: 600 24px / 1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet #shBody .spin:not(.sm) input{min-width: 2.6em; width: 100%; text-align: center; flex: 1 1 auto !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; padding: 6px 2px !important; background: transparent !important; box-shadow: none !important; font: 700 18px / 1.1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet #shBody .fields .spin:not(.sm) input{max-width: 220px; flex: 0 1 200px !important; font: 700 30px / 1.1 Barlow, system-ui, sans-serif !important; padding: 6px 4px !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .mini.go{-webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .mini.go{min-height: 44px !important; padding: 0px 18px !important; border: 0px !important; border-radius: 999px !important; background: rgb(92, 242, 176) !important; box-shadow: none !important; color: rgb(16, 16, 18) !important; text-shadow: none !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){outline: none; box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet #shBody > .btn:last-child:not(.alt){box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset, rgb(20, 21, 24) 0px 12px 0px 12px, rgb(20, 21, 24) -10px 12px 0px 12px, rgb(20, 21, 24) 10px 12px 0px 12px, rgb(20, 21, 24) 0px 44px 0px 12px, rgb(20, 21, 24) -10px 44px 0px 12px, rgb(20, 21, 24) 10px 44px 0px 12px !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini):focus-visible{outline-offset: 3px; outline: rgb(255, 255, 255) solid 3px !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 64px !important; font-size: 26px !important;}
+@media (min-width: 700px){.yd.sk html:not(#vv):not(#v367x) body #sheet .btn:not(.alt):not(.mini){min-height: 68px !important; font-size: 28px !important;}}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .mini.go{border: 2px solid rgb(92, 242, 176) !important; background: transparent !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv):not(#v367x) body #shBody .hrsh-maxrow .spin:not(.sm){gap: 18px;}
+.yd.sk html:not(#vv):not(#v367x) body #shBody .hrsh-maxrow .spin:not(.sm) > b{border: 2px solid rgb(92, 242, 176) !important; font: 600 28px / 1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .fields{grid-template-columns: minmax(0px, 1fr) !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .btn:not(.alt){min-height: 64px !important; font-size: 24px !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .btn:not(.alt){border-width: 0px 0px 4px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(185, 255, 224) !important; border-image: none !important; border-radius: 8px 8px 0px 0px !important; box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px inset !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .btn.alt:not(#onbBack),.yd.sk html:not(#vv):not(#v367x) body #sheet .btn.alt{min-height: 48px !important; border: 2px solid rgb(92, 242, 176) !important; border-radius: 999px !important; background: transparent !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; -webkit-text-fill-color: rgb(255, 255, 255) !important; text-transform: none !important; letter-spacing: 0px !important; font: 700 17px / 1.2 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .mini:not(.go):not(#onbSkip){text-decoration: underline 2px rgb(92, 242, 176); text-underline-offset: 6px; min-height: 44px !important; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; text-transform: none !important; letter-spacing: 0px !important; font: 600 15px / 1.2 Barlow, system-ui, sans-serif !important; color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .spin:not(.sm){justify-content: flex-start; gap: 18px; border: 0px !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; align-items: center !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .spin:not(.sm) > b{place-items: center; width: 44px; height: 44px; display: grid !important; flex: 0 0 44px !important; min-width: 44px !important; padding: 0px !important; border: 2px solid rgb(92, 242, 176) !important; border-radius: 50% !important; background: transparent !important; color: rgb(92, 242, 176) !important; font: 600 28px / 1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .spin:not(.sm) input{width: 100%; max-width: 220px; min-width: 0px; text-align: center; flex: 0 1 200px !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; padding: 6px 4px !important; background: transparent !important; box-shadow: none !important; font: 700 26px / 1.1 Barlow, system-ui, sans-serif !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .btn:not(.alt){font-family: "Barlow Condensed", "Arial Narrow", sans-serif !important; font-weight: 900 !important; font-size: 30px !important; letter-spacing: 0px !important;}
+@media (min-width: 700px){.yd.sk html:not(#vv):not(#v367x) body #onb .btn:not(.alt){font-size: 32px !important;}}
+.yd.sk html:not(#vv):not(#v367x) body #sheet #shBody .spin:not(.sm) input,.yd.sk html:not(#vv):not(#v367x) body #onb .spin:not(.sm) input{min-height: 44px !important;}
+.yd.sk html:not(#vv):not(#v367x) body #sheet .pick .mini.go,.yd.sk html:not(#vv):not(#v367x) body #sheet .pick button.go{border: 1px solid rgb(92, 242, 176) !important; background: rgb(92, 242, 176) !important; color: rgb(16, 16, 18) !important; -webkit-text-fill-color: rgb(16, 16, 18) !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .row2:has([data-acct]){flex-direction: column; align-items: stretch; gap: 12px; display: flex !important;}
+.yd.sk html:not(#vv):not(#v367x) body #onb .row2 [data-acct="signin"]{align-self: flex-start; width: auto !important; padding: 0px 22px !important;}
+.yd.sk html.c3-first:not(#vv):not(#c3x) body #p-youaccount > .card:not(#acctCard),.yd.sk html.c3-first:not(#vv):not(#c3x) body #acctCard .card{display: none !important;}
+.yd.sk #flSavedEmails .mini{justify-self: start; min-height: 44px; max-width: 100%; white-space: normal;}
+.yd.sk html.c3-deep:not(#vv):not(#c3x) body #p-youaccount > .card:not(#acctCard){display: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card{color: rgb(255, 255, 255); font-family: Barlow, system-ui, -apple-system, "Segoe UI", sans-serif; margin: 48px 0px 0px !important; padding: 28px 0px 0px !important; background: none !important; border-width: 1px 0px 0px !important; border-style: solid none none !important; border-color: rgba(255, 255, 255, 0.14) currentcolor currentcolor !important; border-image: none !important; border-radius: 0px !important; box-shadow: none !important; backdrop-filter: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card::before,.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card::after{display: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card > h2{margin: 0px 0px 6px !important; padding: 0px !important; font: 800 34px / 1 "Barlow Condensed", "Arial Narrow", sans-serif !important; color: rgb(255, 255, 255) !important; letter-spacing: 0px !important; text-transform: none !important; text-shadow: none !important; background: none !important; -webkit-text-fill-color: currentcolor !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card > h2::before,.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card > h2::after{display: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card > .eyebrow,.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .note{max-width: 72ch; margin: 0px 0px 14px !important; font: 500 15px / 1.45 Barlow, system-ui, sans-serif !important; color: rgb(201, 205, 211) !important; letter-spacing: 0px !important; text-transform: none !important; text-shadow: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .note b{color: rgb(255, 255, 255) !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .apibar,.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .impacts{flex-wrap: wrap; gap: 10px 12px; display: flex !important; margin: 12px 0px !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .mini{align-items: center; justify-content: center; display: inline-flex !important; width: auto !important; min-height: 48px !important; height: auto !important; margin: 0px !important; padding: 0px 20px !important; background: transparent !important; border: 1.5px solid rgb(92, 242, 176) !important; border-radius: 999px !important; box-shadow: none !important; color: rgb(255, 255, 255) !important; font: 700 15px / 1.15 Barlow, system-ui, sans-serif !important; letter-spacing: 0px !important; text-transform: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card .rcl{display: block !important; margin: 16px 0px 6px !important; font: 600 14px / 1.2 Barlow, system-ui, sans-serif !important; color: rgb(201, 205, 211) !important; letter-spacing: 0px !important; text-transform: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card textarea{min-height: 120px; box-sizing: border-box !important; width: 100% !important; margin: 0px !important; padding: 12px 14px !important; border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 6px 6px 0px 0px !important; background: rgba(255, 255, 255, 0.06) !important; color: rgb(255, 255, 255) !important; font: 500 15px / 1.4 Barlow, system-ui, sans-serif !important; box-shadow: none !important;}
+.yd.sk html:not(#vv):not(#c3x) body #acctCard > .card textarea:focus{outline: none !important; border-bottom: 3px solid rgb(185, 255, 224) !important; background: rgb(32, 33, 37) !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn):not(.lp):not(.sheetback):not([role="switch"]),.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn):not(.lp):not(.sheetback):not([role="switch"]){border-width: 0px 0px 2px !important; border-style: none none solid !important; border-color: currentcolor currentcolor rgb(92, 242, 176) !important; border-image: none !important; border-radius: 0px !important; background: transparent !important; box-shadow: none !important; text-shadow: none !important; color: rgb(255, 255, 255) !important; padding-left: 2px !important; padding-right: 2px !important; letter-spacing: 0px !important; text-transform: none !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go),.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody :is(.pick, .seg, .picker, #shRoute) button:not(.on):not(.go){border-bottom: 1px solid rgba(255, 255, 255, 0.24) !important; color: rgba(255, 255, 255, 0.72) !important; font-weight: 600 !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go),.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:is(.on, .go){border-bottom: 3px solid rgb(92, 242, 176) !important; color: rgb(255, 255, 255) !important; font-weight: 800 !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn)::after{display: none !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn),.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet #shBody button:not(.btn){-webkit-text-fill-color: rgb(255, 255, 255) !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet .btn::before,.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet .btn::after,.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet .btn::before,.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet .btn::after{display: none !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x) body #sheet .btn,.yd.sk html.c3-deep:not(#vv):not(#c3x) body #sheet .btn{box-shadow: rgb(11, 12, 14) 0px 0px 0px 12px !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody > .btn,.yd.sk html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody > .btn,.yd.sk html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody .btn,.yd.sk html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet #shBody .btn{box-shadow: rgb(11, 12, 14) 0px 0px 0px 12px !important;}
+.yd.sk html.c3-on:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet .btn:focus,.yd.sk html.c3-deep:not(#vv):not(#c3x):not(#c3y):not(#c3z) body #sheet .btn:focus{outline: rgba(92, 242, 176, 0.55) solid 2px !important; outline-offset: 4px !important;}
+
+/* native controls + field labels: shell rules that never reach the shadow root */
+.yd.sk .fields label,.yd.sk .ladderRow label{display:block;font-family:var(--f-m);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);margin:0 0 8px}
+.yd.sk .fields select,.yd.sk .ladderRow select{appearance:auto;-webkit-appearance:menulist;width:100%;border:1px solid var(--line);border-radius:10px;background:rgba(0,0,0,.8);color:var(--ink-0);padding:13px 10px;font-family:var(--f-b);font-size:17px;transition:.15s;color-scheme:dark}
+.yd.sk .fields select:hover,.yd.sk .ladderRow select:hover{border-color:rgba(201,203,207,.24)}
+.yd.sk .fields select:focus,.yd.sk .ladderRow select:focus{border-color:var(--blue);outline:none}
+.yd.sk input[type=number],.yd.sk input[type=text]{width:100%;border:1px solid var(--line);border-radius:10px;background:rgba(0,0,0,.8);color:var(--ink-0);padding:13px 10px;font-family:var(--f-b);font-size:17px;box-sizing:border-box;color-scheme:dark}
+.yd.sk input[type=number]:focus,.yd.sk input[type=text]:focus{border-color:var(--blue);outline:none}
+.yd.sk canvas#stackPk{width:100%;display:block}
+.yd.sk .ladderRow select{min-width:0}
+.yd.sk .stgrid s{white-space:normal;overflow:visible;text-overflow:clip}
+
+/* house flatten + shadow-scope accent fix: C3 redefines --blue as a dark slab; shell rules expect mint */
+.yd.sk{--blue:#5CF2B0;--blue-t:#5CF2B0;--blue-ink:#0B0C0E}
+.yd.sk [hidden]{display:none!important}
+.yd.sk .mini.go,.yd.sk .mini.go:hover{background-color:var(--blue)!important;background-image:none!important;color:#0B0C0E!important;border:0;box-shadow:none!important;text-shadow:none;font-weight:700}
+.yd.sk .eyebrow{font-size:17px;line-height:1.45;color:var(--ink-1);margin:0 0 14px}
+.yd.sk .eyebrow::first-letter{text-transform:uppercase}
+.yd.sk .card{background:none;border:0;box-shadow:none;border-radius:0;padding:0}
+.yd.sk .card::before,.yd.sk .card::after{content:none}
+.yd.sk .stackrow{padding:16px 0;border-top:1px solid var(--line)}
+.yd.sk .stackrow.active{border-color:var(--line)}
+.yd.sk .grid{gap:0 28px}
+.yd.sk .btn,.yd.sk .btn.alt{display:inline-flex;align-items:center;justify-content:center;width:auto;min-height:44px;padding:0 20px;background:transparent;background-image:none!important;border:1.5px solid var(--blue)!important;border-radius:999px;box-shadow:none!important;color:var(--ink-0)!important;font:700 15px/1.15 Barlow,system-ui,sans-serif;letter-spacing:0;text-transform:none;cursor:pointer}
+.yd.sk .btn:hover,.yd.sk .btn.alt:hover{background:rgba(92,242,176,.1)!important;box-shadow:none;transform:none}
+.yd.sk .btn.alt{border-color:rgba(201,203,207,.3)!important;color:var(--ink-1)!important}
+.yd.sk .btn::before,.yd.sk .btn::after,.yd.sk .btn.alt::before,.yd.sk .btn.alt::after{content:none}
+.yd.sk .row2{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.yd.sk .sk-hero{margin:6px 0 4px}
+.yd.sk .sk-rows{font-size:34px;font-weight:600;color:var(--ink-0);letter-spacing:-.01em;line-height:1.1;margin:2px 0 10px}
+.yd.sk .sk-rows small{display:block;font-size:17px;font-weight:400;color:var(--ink-1);letter-spacing:0;margin-top:4px}
+.yd.sk .medfoot{font-size:14px;color:var(--ink-2);margin:26px 0 0;line-height:1.6}
