@@ -20,6 +20,7 @@
 # on Windows makes the key and CSR, developer.apple.com turns the CSR into a
 # .cer, openssl packs both into a .p12 (steps in theregimen-ios/BUILD.md).
 name: iOS to TestFlight
+# v377: touched so GitHub registers this workflow for the resubmission build.
 
 on:
   workflow_dispatch:
